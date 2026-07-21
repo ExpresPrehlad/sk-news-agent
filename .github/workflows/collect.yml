@@ -40,6 +40,8 @@ jobs:
           DISCORD_WEBHOOK_RAW: ${{ secrets.DISCORD_WEBHOOK_RAW }}
           DISCORD_WEBHOOK_ALERTS: ${{ secrets.DISCORD_WEBHOOK_ALERTS }}
           DISCORD_WEBHOOK_DIGEST: ${{ secrets.DISCORD_WEBHOOK_DIGEST }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python main.py
 
       - name: Commit state
@@ -49,8 +51,15 @@ jobs:
           if ! git diff --quiet data/state.json 2>/dev/null; then
             git add data/state.json
             git commit -m "state: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            git pull --rebase origin ${GITHUB_REF_NAME}
-            git push
+            if git pull --rebase origin "${GITHUB_REF_NAME}"; then
+              git push
+            else
+              # Zriedkavý pretek dvoch behov, ktoré zasiahli ten istý riadok.
+              # Nefailujeme celý beh (Discord notifikácia už prebehla úspešne) —
+              # len sa preskočí uloženie stavu, ďalší beh si dorovná dedup sám.
+              echo "::warning::Konflikt pri ukladaní stavu (pretek behov) — commit v tomto behu sa preskakuje."
+              git rebase --abort
+            fi
           else
             echo "Stav sa nezmenil, nič sa necommituje."
           fi

@@ -81,8 +81,34 @@ class DiscordConfig:
 
 
 # ---------------------------------------------------------------------------
-# LLM (Vrstva 2 — zatiaľ len placeholder pre kľúče, router príde neskôr)
+# LLM (Vrstva 2)
 # ---------------------------------------------------------------------------
 
 GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
 OPENROUTER_API_KEY: str = os.environ.get("OPENROUTER_API_KEY", "")
+
+# Eskalačná reťaz: skúša sa zhora nadol, prvý úspech vyhráva.
+# Gemini modely majú najvyššie free RPD, preto sú prvé. OpenRouter free
+# modely rotujú takmer bez varovania — preto zoznam + auto-router na konci.
+GEMINI_MODELS: list[str] = [
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash",
+]
+OPENROUTER_MODELS: list[str] = [
+    "nvidia/nemotron-3-ultra:free",
+    "google/gemma-4-31b:free",
+    "openrouter/free",   # auto-router — posledná záchrana, vyberie čo žije
+]
+
+# Timeout pre LLM volania (sekundy) — syntéza s väčším vstupom potrebuje čas.
+LLM_TIMEOUT: float = 60.0
+
+# Syntéza TOP tém: raz za tento interval (minúty). Triáž beží pri každom
+# behu s novými článkami, syntéza šetrí volania aj pozornosť čitateľov.
+SYNTHESIS_INTERVAL_MINUTES: int = 120
+
+# Okno článkov, ktoré vstupujú do syntézy (hodiny dozadu).
+SYNTHESIS_WINDOW_HOURS: int = 6
+
+# Koľko hodín držíme články v rolling bufferi v stave (vstup pre syntézu).
+RECENT_BUFFER_HOURS: int = 24

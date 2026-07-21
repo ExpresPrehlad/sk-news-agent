@@ -108,7 +108,7 @@ def send_raw_feed(webhook_url: str, articles: list[Article]) -> bool:
 
 
 def send_error(webhook_url: str, title: str, detail: str) -> bool:
-    """Chybové hlásenie (napr. mŕtvy feed, neskôr výpadok LLM reťaze)."""
+    """Chybové hlásenie (napr. mŕtvy feed, výpadok LLM reťaze)."""
     payload = {
         "embeds": [
             {
@@ -119,3 +119,66 @@ def send_error(webhook_url: str, title: str, detail: str) -> bool:
         ]
     }
     return _post(webhook_url, payload)
+
+
+_EMBED_COLOR_ALERT = 0xE67E22    # oranžová — mimoriadne správy
+_EMBED_COLOR_DIGEST = 0x3498DB   # modrá — prehľad tém
+
+
+def send_alerts(webhook_url: str, alerts, model: str) -> bool:
+    """Mimoriadne správy do #alerty — výrazné, ale bez @everyone spamu."""
+    if not alerts:
+        return True
+    embeds = []
+    for a in alerts:
+        desc = a.reason
+        if a.links:
+            desc += "\n" + "\n".join(f"🔗 {link}" for link in a.links)
+        embeds.append(
+            {
+                "title": f"🚨 {_truncate(a.title, 250)}",
+                "description": _truncate(desc, _MAX_DESC_LEN),
+                "color": _EMBED_COLOR_ALERT,
+            }
+        )
+    payload = {
+        "content": "**Mimoriadna správa** — vyžaduje pozornosť redakcie",
+        "embeds": embeds[:_MAX_EMBEDS_PER_MSG],
+    }
+    if not _post(webhook_url, payload):
+        return False
+    # nenápadný indikátor modelu (dôležité pri fallback modeloch)
+    return _post(webhook_url, {"content": f"-# triáž: {model}"})
+
+
+def send_digest(webhook_url: str, topics, model: str) -> bool:
+    """Prehľad TOP tém do #prehlad — jeden embed na tému."""
+    if not topics:
+        return True
+    now = datetime.now(timezone.utc).astimezone().strftime("%H:%M")
+    embeds = []
+    for i, t in enumerate(topics, start=1):
+        desc = t.perex
+        if t.links:
+            desc += "\n" + "\n".join(f"🔗 {link}" for link in t.links)
+        embeds.append(
+            {
+                "title": f"{i}. {_truncate(t.headline, 250)}",
+                "description": _truncate(desc, _MAX_DESC_LEN),
+                "color": _EMBED_COLOR_DIGEST,
+            }
+        )
+
+    ok = True
+    for i in range(0, len(embeds), _MAX_EMBEDS_PER_MSG):
+        chunk = embeds[i : i + _MAX_EMBEDS_PER_MSG]
+        payload = {
+            "content": f"📰 **Prehľad hlavných tém** · {now}" if i == 0 else "",
+            "embeds": chunk,
+        }
+        ok = _post(webhook_url, payload) and ok
+        if i + _MAX_EMBEDS_PER_MSG < len(embeds):
+            time.sleep(1.0)
+    if ok:
+        _post(webhook_url, {"content": f"-# syntéza: {model}"})
+    return ok
