@@ -136,14 +136,15 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
             if state.is_new(a.uid):
                 new_articles.append(a)
 
-    # Obohatenie titulkov pre sitemap zdroje (ta3): slug-titulky nahradíme
-    # skutočnými z og:title. Len pre NOVÉ články (dedup už prebehol), s limitom
-    # fetchov na beh — neúspech necháva slug verziu, nikdy nezhadzuje beh.
-    sitemap_source_ids = {s.id for s in SOURCES if s.kind == "sitemap"}
-    if any(a.source_id in sitemap_source_ids for a in new_articles):
+    # Obohatenie titulkov pre sitemap/homepage zdroje (ta3, hn, noviny):
+    # slug-titulky nahradíme skutočnými z og:title. Len pre NOVÉ články
+    # (dedup už prebehol), s limitom fetchov na beh — neúspech necháva
+    # slug verziu, nikdy nezhadzuje beh.
+    enrich_source_ids = {s.id for s in SOURCES if s.kind in ("sitemap", "homepage")}
+    if any(a.source_id in enrich_source_ids for a in new_articles):
         from src.collector.sitemap import enrich_titles
-        to_enrich = [a for a in new_articles if a.source_id in sitemap_source_ids]
-        others = [a for a in new_articles if a.source_id not in sitemap_source_ids]
+        to_enrich = [a for a in new_articles if a.source_id in enrich_source_ids]
+        others = [a for a in new_articles if a.source_id not in enrich_source_ids]
         new_articles = others + enrich_titles(to_enrich)
 
     log.info(
@@ -165,8 +166,11 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
 
     state.set_source_status(results)
 
-    if failed and time.time() - state.get_meta("last_feed_error_ts") > 6 * 3600:
-        detail = "\n".join(f"**{r.source.name}**: {r.error}" for r in failed)
+    # Do #alerty sa hlásia len zlyhania NEoptional zdrojov — optional
+    # (SME, GNews) zlyhávajú očakávane a stačí ich vidieť na stavovej stránke.
+    failed_critical = [r for r in failed if not r.source.optional]
+    if failed_critical and time.time() - state.get_meta("last_feed_error_ts") > 6 * 3600:
+        detail = "\n".join(f"**{r.source.name}**: {r.error}" for r in failed_critical)
         if send_error(discord.alerts_url, "Nedostupné RSS zdroje", detail):
             state.set_meta("last_feed_error_ts", time.time())
 

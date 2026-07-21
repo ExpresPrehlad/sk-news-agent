@@ -22,22 +22,39 @@ from datetime import time as _time
 class Source:
     id: str            # krátky identifikátor (používa sa v stave a logoch)
     name: str          # zobrazované meno pre Discord
-    feed_url: str      # RSS/Atom feed, news sitemap alebo sitemap index
+    feed_url: str      # RSS/Atom feed, news sitemap, sitemap index alebo homepage
     enabled: bool = True
-    kind: str = "rss"  # "rss" | "news_sitemap" | "sitemap"
+    kind: str = "rss"  # "rss" | "news_sitemap" | "sitemap" | "homepage"
+    # optional=True: očakávane nespoľahlivý zdroj (napr. SME za Cloudflare,
+    # ktoré /rss občas prepustí a občas nie) — jeho zlyhania sa NEhlásia do
+    # #alerty, len sa logujú a zobrazia na stavovej stránke.
+    optional: bool = False
 
 
 SOURCES: list[Source] = [
-    # SME je za Cloudflare Bot Management s interaktívnym challenge
-    # (JS/TLS fingerprint) — overené priamym testom, User-Agent/Accept
-    # hlavičky to neriešia. RSS prejde len občas (nestabilné), sitemap
-    # aj API sú za WAF blokom. Vypnuté, kým sa nenájde iný prístup
-    # (napr. oficiálna dohoda so SME). Pozri diskusiu v chate z 21.7.2026.
-    Source("sme",       "SME",        "https://rss.sme.sk/rss/rss.asp?id=frontpage", enabled=False),
+    # SME: za Cloudflare Bot Management. /rss na www.sme.sk občas prejde,
+    # občas vráti challenge — preto optional (oportunistický zber: keď
+    # prejde, články sa zoberú; keď nie, ticho sa preskočí). Sitemapy
+    # z robots.txt sú za WAF blokom trvalo. Validáciu obsahu (challenge
+    # s HTTP 200) rieši hardening v rss.py. Konzultácia 21.7.2026.
+    Source("sme",       "SME",        "https://www.sme.sk/rss",
+           optional=True),
+    # SME doplnkovo cez verejný Google News RSS — nie je úplný a máva
+    # oneskorenie, ale zachytí hlavné SME témy aj keď /rss neprejde.
+    # Linky sú Google redirecty (klik funguje, len nie je "pekný").
+    Source("sme_gnews", "SME (GNews)",
+           "https://news.google.com/rss/search?q=site:sme.sk&hl=sk&gl=SK&ceid=SK:sk",
+           optional=True),
     Source("aktuality", "Aktuality",  "https://www.aktuality.sk/rss/"),
     Source("dennikn",   "Denník N",   "https://dennikn.sk/feed/"),
     Source("pravda",    "Pravda",     "https://spravy.pravda.sk/rss/xml/"),
-    Source("hn",        "HN",         "https://hnonline.sk/feed"),
+    # HN: /feed je IP-blokovaný z GitHub Actions (Cloudflare reputácia
+    # cloudových rozsahov), ale robots.txt uvádza .xml.gz sitemap index,
+    # ktorý má inú WAF politiku — testujeme túto cestu. Titulky nie sú
+    # v sitemape, doplní ich enrichment. Konzultácia 21.7.2026.
+    Source("hn",        "HN",
+           "https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
+           kind="sitemap"),
     Source("teraz",     "Teraz.sk",   "https://www.teraz.sk/rss/slovensko.rss"),
     # tnlive.sk (bývalé tvnoviny.sk — rebrand, stará doména presmerúva).
     # Google News sitemap: titulok + link + čas priamo v XML, bez CF bloku.
@@ -45,12 +62,15 @@ SOURCES: list[Source] = [
            kind="news_sitemap"),
     # ta3.com: klasický sitemap index s per-článkovým lastmod, bez CF.
     # Titulky nie sú v XML — odvodia sa zo slugu a pre nové články sa
-    # obohacujú fetchom stránky (max 12/beh, viď sitemap.enrich_titles).
+    # obohacujú fetchom stránky (viď sitemap.enrich_titles).
     Source("ta3",       "TA3",        "https://www.ta3.com/cdn/sitemap/sitemap.xml",
            kind="sitemap"),
-    # noviny.sk: prieskum 21.7.2026 nenašiel nič použiteľné — sitemap
-    # z robots.txt je prázdny, API vracia "Unknown api endpoint", RSS 404.
-    # Kandidát na neskôr, ak sa objaví funkčný endpoint.
+    # noviny.sk: sitemap z robots.txt je trvalo prázdny (mŕtvy generátor),
+    # RSS neexistuje — zber cez serverovo renderovanú homepage (článkové
+    # URL vzoru /<rubrika>/<id>-<slug>), titulky cez enrichment.
+    # Konzultácia 21.7.2026.
+    Source("noviny",    "Noviny.sk",  "https://www.noviny.sk/",
+           kind="homepage"),
 ]
 
 

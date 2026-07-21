@@ -50,7 +50,14 @@ _HEADERS = {
 def _get(url: str) -> bytes:
     resp = requests.get(url, timeout=HTTP_TIMEOUT, headers=_HEADERS)
     resp.raise_for_status()
-    return resp.content
+    content = resp.content
+    # .xml.gz sitemapy (napr. hnonline.sk) prichádzajú ako gzip payload
+    # s Content-Type application/gzip — requests ich automaticky NErozbalí
+    # (transparentne rozbaľuje len Content-Encoding). Magické bajty 1f 8b.
+    if content[:2] == b"\x1f\x8b":
+        import gzip
+        content = gzip.decompress(content)
+    return content
 
 
 def _parse_ts(value: str | None) -> float | None:
@@ -132,7 +139,10 @@ def fetch_plain_sitemap(source: Source) -> FetchResult:
 
     cutoff = time.time() - _FRESH_WINDOW_HOURS * 3600
 
-    # Ak je to index, vyber pod-sitemapy s najnovším lastmod.
+    # Ak je to index, vyber pod-sitemapy s najnovším lastmod. Ak index
+    # lastmod neuvádza (napr. hnonline.sk shardy), použije sa heuristika:
+    # zoradenie podľa URL zostupne — číslované shardy (...-01 až ...-21)
+    # majú najnovší obsah typicky v najvyššom čísle.
     subsitemaps: list[tuple[float, str]] = []
     if root.tag.endswith("sitemapindex"):
         for sm_el in root.findall("sm:sitemap", _NS):
@@ -140,7 +150,7 @@ def fetch_plain_sitemap(source: Source) -> FetchResult:
             ts = _parse_ts(sm_el.findtext("sm:lastmod", default=None, namespaces=_NS)) or 0.0
             if loc:
                 subsitemaps.append((ts, loc))
-        subsitemaps.sort(reverse=True)
+        subsitemaps.sort(key=lambda x: (x[0], x[1]), reverse=True)
         roots = []
         for _, loc in subsitemaps[:_MAX_SUBSITEMAPS]:
             try:
@@ -186,14 +196,23 @@ _TITLE_RE = re.compile(
 )
 
 # Poistka: max fetchov článkov na jeden beh (nech beh netrvá minúty).
-MAX_TITLE_FETCHES_PER_RUN = 12
+# Zdieľané naprieč všetkými zdrojmi, ktoré enrichment používajú (ta3, hn,
+# noviny) — pri väčšom návale sa zvyšok dorovná v ďalších behoch.
+MAX_TITLE_FETCHES_PER_RUN = 18
+
+# Prípony názvov webov, ktoré sa odrezávajú z og:title/<title>.
+_SITE_SUFFIX_RE = re.compile(
+    r"\s+[|\-–—]\s+(ta3(\.com)?|TA3|HNonline(\.sk)?|Hospodárske noviny"
+    r"|Noviny(\.sk)?|noviny\.sk|TV JOJ)\s*$",
+    re.IGNORECASE,
+)
 
 
 def enrich_titles(articles: list[Article]) -> list[Article]:
     """
-    Pre články so slug-titulkom skúsi stiahnuť stránku a vytiahnuť skutočný
-    titulok (og:title alebo <title>). Neúspech necháva slug verziu — nikdy
-    nezlyháva. Vracia NOVÝ zoznam (Article je frozen).
+    Pre články so slug-titulkom (alebo bez titulku) skúsi stiahnuť stránku
+    a vytiahnuť skutočný titulok (og:title alebo <title>). Neúspech necháva
+    pôvodnú verziu — nikdy nezlyháva. Vracia NOVÝ zoznam (Article je frozen).
     """
     out: list[Article] = []
     fetched = 0
@@ -206,8 +225,7 @@ def enrich_titles(articles: list[Article]) -> list[Article]:
             fetched += 1
             m = _TITLE_RE.search(html)
             title = (m.group(1) or m.group(2)).strip() if m else ""
-            # odrež " | TA3", " - ta3.com" a podobné prípony webu
-            title = re.split(r"\s+[|\-–]\s+(?:ta3|TA3)[^|]*$", title)[0].strip()
+            title = _SITE_SUFFIX_RE.sub("", title).strip()
             if title:
                 a = Article(
                     uid=a.uid, source_id=a.source_id, source_name=a.source_name,

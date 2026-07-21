@@ -93,6 +93,17 @@ def fetch_source(source: Source) -> FetchResult:
         log.warning("Feed %s zlyhal: %s", source.id, exc)
         return FetchResult(source=source, articles=[], error=f"HTTP: {exc}")
 
+    # Cloudflare challenge môže prísť aj s HTTP 200 — nesmie prejsť do
+    # feedparsera ako "prázdny feed", je to reálne zlyhanie zdroja.
+    if resp.headers.get("cf-mitigated", "").lower() == "challenge":
+        log.warning("Feed %s: Cloudflare challenge (cf-mitigated).", source.id)
+        return FetchResult(source=source, articles=[], error="Cloudflare challenge")
+
+    head = resp.content[:300].lstrip()
+    if not (head.startswith(b"<?xml") or b"<rss" in head or b"<feed" in head):
+        log.warning("Feed %s: odpoveď nie je XML/RSS (pravdepodobne HTML blok).", source.id)
+        return FetchResult(source=source, articles=[], error="odpoveď nie je XML/RSS")
+
     parsed = feedparser.parse(resp.content)
     if parsed.bozo and not parsed.entries:
         # bozo=True s nulou entries = feed je reálne rozbitý, nie len "škaredý"
@@ -127,12 +138,14 @@ def fetch_all(sources: list[Source]) -> list[FetchResult]:
     Import sitemap modulu je vnútri funkcie kvôli kruhovej závislosti
     (sitemap.py importuje Article/FetchResult odtiaľto).
     """
+    from .homepage import fetch_homepage
     from .sitemap import fetch_news_sitemap, fetch_plain_sitemap
 
     dispatch = {
         "rss": fetch_source,
         "news_sitemap": fetch_news_sitemap,
         "sitemap": fetch_plain_sitemap,
+        "homepage": fetch_homepage,
     }
     results: list[FetchResult] = []
     for s in sources:
