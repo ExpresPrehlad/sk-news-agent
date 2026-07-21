@@ -8,6 +8,7 @@ zo Secrets.
 
 import os
 from dataclasses import dataclass, field
+from datetime import time as _time
 
 
 # ---------------------------------------------------------------------------
@@ -124,10 +125,24 @@ LLM_TIMEOUT: float = 60.0
 
 # Syntéza TOP tém: raz za tento interval (minúty). Triáž beží pri každom
 # behu s novými článkami, syntéza šetrí volania aj pozornosť čitateľov.
-SYNTHESIS_INTERVAL_MINUTES: int = 120
+# Skrátené z pôvodných 120 min — bezpečné, lebo od zavedenia ACTIVE_HOURS
+# nižšie sa syntéza koná len v ~16.5h aktívnom okne, nie 24/7, takže celkový
+# denný počet volaní (~22/deň) je nižší než pri 30 min naprieč celým dňom.
+SYNTHESIS_INTERVAL_MINUTES: int = 45
 
 # Okno článkov, ktoré vstupujú do syntézy (hodiny dozadu).
 SYNTHESIS_WINDOW_HOURS: int = 6
 
 # Koľko hodín držíme články v rolling bufferi v stave (vstup pre syntézu).
 RECENT_BUFFER_HOURS: int = 24
+
+# ---------------------------------------------------------------------------
+# Aktívne hodiny — pozri src/schedule.py pre logiku
+# ---------------------------------------------------------------------------
+# Mimo tohto okna sa AUTOMATICKÝ (cron) beh preskočí úplne — cez noc nikto
+# v redakcii nesleduje výstup. Manuálne spustenie okno nerešpektuje.
+# POZOR na kompromis: mimoriadna udalosť mimo okna sa zachytí až pri
+# najbližšom aktívnom behu (potenciálne ~7.5h oneskorenie cez noc).
+ACTIVE_HOURS_TZ: str = "Europe/Bratislava"
+ACTIVE_HOURS_START: _time = _time(5, 30)
+ACTIVE_HOURS_END: _time = _time(22, 0)

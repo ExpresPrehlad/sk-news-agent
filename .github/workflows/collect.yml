@@ -10,11 +10,11 @@ name: collect
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
     inputs:
       force_synthesis:
-        description: "Vynútiť syntézu bez ohľadu na 2h interval (pre QA)"
+        description: "Vynútiť syntézu bez ohľadu na interval (pre QA)"
         type: boolean
         default: false
 
@@ -47,6 +47,7 @@ jobs:
           DISCORD_WEBHOOK_DIGEST: ${{ secrets.DISCORD_WEBHOOK_DIGEST }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ "${{ inputs.force_synthesis }}" = "true" ]; then
             python main.py --force-synthesis

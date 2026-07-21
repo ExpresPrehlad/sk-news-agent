@@ -30,6 +30,9 @@ from src.config import (
     STATE_PATH,
     SYNTHESIS_INTERVAL_MINUTES,
     SYNTHESIS_WINDOW_HOURS,
+    ACTIVE_HOURS_END,
+    ACTIVE_HOURS_START,
+    ACTIVE_HOURS_TZ,
     DiscordConfig,
 )
 from src.digest import synthesize, triage
@@ -41,6 +44,7 @@ from src.notify.discord import (
     send_raw_feed,
 )
 from src.pages import write_page
+from src.schedule import should_run
 from src.state import State
 
 logging.basicConfig(
@@ -113,6 +117,14 @@ def _report_llm_outage(state: State, discord: DiscordConfig, what: str, detail: 
 
 
 def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
+    if not should_run():
+        log.info(
+            "Mimo aktívnych hodín (%s–%s %s) — automatický beh preskočený, "
+            "žiadne volania sa nevykonali.",
+            ACTIVE_HOURS_START, ACTIVE_HOURS_END, ACTIVE_HOURS_TZ,
+        )
+        return 0
+
     discord = DiscordConfig()
     state = State(STATE_PATH)
 
