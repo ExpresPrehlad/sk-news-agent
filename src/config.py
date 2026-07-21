@@ -26,7 +26,11 @@ class Source:
 
 
 SOURCES: list[Source] = [
-    Source("sme",       "SME",        "https://rss.sme.sk/rss/rss.asp?id=frontpage"),
+    # SME je za Cloudflare Bot Management s interaktívnym challenge
+    # (JS/TLS fingerprint) — overené priamym testom, User-Agent/Accept
+    # hlavičky to neriešia. Vypnuté, kým sa nenájde iný prístup
+    # (napr. oficiálna dohoda so SME). Pozri diskusiu v chate z 21.7.2026.
+    Source("sme", "SME", "https://rss.sme.sk/rss/rss.asp?id=frontpage", enabled=False),
     Source("aktuality", "Aktuality",  "https://www.aktuality.sk/rss/"),
     Source("dennikn",   "Denník N",   "https://dennikn.sk/feed/"),
     Source("pravda",    "Pravda",     "https://spravy.pravda.sk/rss/xml/"),
