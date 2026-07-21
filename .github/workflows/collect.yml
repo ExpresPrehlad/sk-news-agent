@@ -48,8 +48,9 @@ jobs:
         run: |
           git config user.name "sk-news-agent[bot]"
           git config user.email "actions@users.noreply.github.com"
-          if ! git diff --quiet data/state.json 2>/dev/null; then
-            git add data/state.json
+          mkdir -p docs
+          git add data/state.json docs/index.html
+          if ! git diff --cached --quiet; then
             git commit -m "state: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             if git pull --rebase origin "${GITHUB_REF_NAME}"; then
               git push

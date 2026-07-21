@@ -35,6 +35,9 @@ class State:
         self.seen: dict[str, float] = {}
         self.recent: list[dict] = []
         self.meta: dict[str, float] = {}
+        self.last_digest: dict = {}       # {"topics": [...], "model": ..., "ts": ...}
+        self.recent_alerts: list[dict] = []  # rolling história pre stránku
+        self.source_status: dict[str, dict] = {}  # id -> {"ok", "error", "ts"}
         self._load()
 
     # -- I/O ---------------------------------------------------------------
@@ -49,9 +52,18 @@ class State:
             self.seen = {str(k): float(v) for k, v in data.get("seen", {}).items()}
             self.recent = [r for r in data.get("recent", []) if isinstance(r, dict)]
             self.meta = {str(k): float(v) for k, v in data.get("meta", {}).items()}
+            self.last_digest = data.get("last_digest") or {}
+            self.recent_alerts = [
+                a for a in data.get("recent_alerts", []) if isinstance(a, dict)
+            ]
+            self.source_status = {
+                str(k): v for k, v in data.get("source_status", {}).items()
+                if isinstance(v, dict)
+            }
         except (json.JSONDecodeError, OSError, ValueError, TypeError) as exc:
             log.error("Stav %s je poškodený (%s) — čistý štart.", self.path, exc)
             self.seen, self.recent, self.meta = {}, [], {}
+            self.last_digest, self.recent_alerts, self.source_status = {}, [], {}
 
     def save(self) -> None:
         self._prune()
@@ -63,7 +75,14 @@ class State:
             # behov (napr. súbežný cron + manuálny beh) namiesto toho, aby
             # hlásil konflikt na celom jednoriadkovom JSON blobe.
             json.dump(
-                {"seen": self.seen, "recent": self.recent, "meta": self.meta},
+                {
+                    "seen": self.seen,
+                    "recent": self.recent,
+                    "meta": self.meta,
+                    "last_digest": self.last_digest,
+                    "recent_alerts": self.recent_alerts,
+                    "source_status": self.source_status,
+                },
                 f,
                 ensure_ascii=False,
                 indent=2,
@@ -92,6 +111,39 @@ class State:
         cutoff = time.time() - hours * 3600
         return [r for r in self.recent if float(r.get("ts", 0)) >= cutoff]
 
+    # -- GitHub Pages: posledný digest, história alertov, zdravie zdrojov --
+
+    def set_last_digest(self, topics: list, model: str) -> None:
+        self.last_digest = {
+            "topics": [
+                {"headline": t.headline, "perex": t.perex, "links": t.links}
+                for t in topics
+            ],
+            "model": model,
+            "ts": time.time(),
+        }
+
+    def add_alerts(self, alerts: list, model: str) -> None:
+        now = time.time()
+        for a in alerts:
+            self.recent_alerts.append(
+                {"title": a.title, "reason": a.reason, "links": a.links,
+                 "model": model, "ts": now}
+            )
+
+    def recent_alerts_window(self, hours: float) -> list[dict]:
+        cutoff = time.time() - hours * 3600
+        return [a for a in self.recent_alerts if float(a.get("ts", 0)) >= cutoff]
+
+    def set_source_status(self, results) -> None:
+        for r in results:
+            self.source_status[r.source.id] = {
+                "name": r.source.name,
+                "ok": r.ok,
+                "error": r.error,
+                "ts": time.time(),
+            }
+
     def _prune(self) -> None:
         cutoff = time.time() - SEEN_WINDOW_HOURS * 3600
         before = len(self.seen)
@@ -101,6 +153,12 @@ class State:
             log.info("Stav: odstránených %d starých záznamov.", removed)
         rcutoff = time.time() - RECENT_BUFFER_HOURS * 3600
         self.recent = [r for r in self.recent if float(r.get("ts", 0)) >= rcutoff]
+        # Alerty držíme viditeľné dlhšie (7 dní) — sú vzácne a hodnotné,
+        # na rozdiel od surového bufferu nezaťažujú veľkosť súboru.
+        acutoff = time.time() - 7 * 24 * 3600
+        self.recent_alerts = [
+            a for a in self.recent_alerts if float(a.get("ts", 0)) >= acutoff
+        ]
 
     # -- Meta --------------------------------------------------------------
 

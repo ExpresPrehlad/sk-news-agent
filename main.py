@@ -40,6 +40,7 @@ from src.notify.discord import (
     send_error,
     send_raw_feed,
 )
+from src.pages import write_page
 from src.state import State
 
 logging.basicConfig(
@@ -74,6 +75,7 @@ def _run_triage(state: State, discord: DiscordConfig, new_articles: list[dict]) 
     if alerts:
         log.info("Triáž (%s): %d alert(ov).", model, len(alerts))
         send_alerts(discord.alerts_url, alerts, model)
+        state.add_alerts(alerts, model)
     else:
         log.info("Triáž (%s): nič mimoriadne.", model)
 
@@ -95,6 +97,7 @@ def _run_synthesis(state: State, discord: DiscordConfig, force: bool) -> None:
         return
     if topics and send_digest(discord.digest_url, topics, model):
         state.set_meta("last_synthesis_ts", time.time())
+        state.set_last_digest(topics, model)
         log.info("Syntéza (%s): %d tém odoslaných.", model, len(topics))
 
 
@@ -117,7 +120,6 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     failed = [r for r in results if not r.ok]
     for r in failed:
         log.warning("Zdroj %s nedostupný: %s", r.source.id, r.error)
-
     new_articles = []
     for r in results:
         for a in r.articles:
@@ -151,6 +153,8 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     if new_articles:
         sent_ok = send_raw_feed(discord.raw_feed_url, new_articles)
 
+    state.set_source_status(results)
+
     if failed and time.time() - state.get_meta("last_feed_error_ts") > 6 * 3600:
         detail = "\n".join(f"**{r.source.name}**: {r.error}" for r in failed)
         if send_error(discord.alerts_url, "Nedostupné RSS zdroje", detail):
@@ -182,6 +186,12 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
             log.exception("Nečakaná chyba LLM vrstvy — beh pokračuje.")
     else:
         log.info("LLM kľúče nie sú nastavené — Vrstva 2 preskočená.")
+
+    # GitHub Pages: vygeneruje sa pri KAŽDOM behu (nie len pri syntéze), lebo
+    # číta z perzistovaného state (last_digest, recent_alerts, source_status),
+    # takže stránka je vždy aktuálna k poslednému behu. Zlyhanie nesmie
+    # zhodiť beh — write_page interne chytá všetky výnimky.
+    write_page(state)
 
     state.save()
     log.info("Stav uložený (%d videných, %d v recent bufferi).",
