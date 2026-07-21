@@ -91,8 +91,8 @@ OPENROUTER_API_KEY: str = os.environ.get("OPENROUTER_API_KEY", "")
 # Gemini modely majú najvyššie free RPD, preto sú prvé. OpenRouter free
 # modely rotujú takmer bez varovania — preto zoznam + auto-router na konci.
 GEMINI_MODELS: list[str] = [
-    "gemini-2.5-flash-lite",
-    "gemini-2.5-flash",
+    "gemini-3.1-flash-lite",
+    "gemini-3.5-flash",
 ]
 OPENROUTER_MODELS: list[str] = [
     "nvidia/nemotron-3-ultra-550b-a55b:free",

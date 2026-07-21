@@ -3,8 +3,9 @@ Digest logika Vrstvy 2: triáž (alerty) a syntéza (prehľad TOP tém).
 
 Zásady:
 - Prompty sú v slovenčine a žiadajú STRIKTNE JSON výstup — parsovanie je
-  defenzívne (code fences, šum okolo JSON), lebo slabšie fallback modely
-  nie vždy dodržia formát.
+  defenzívne (code fences, šum okolo JSON, useknutý výstup pri dosiahnutí
+  max_tokens), lebo slabšie fallback modely nie vždy dodržia formát alebo
+  limit.
 - Model NIKDY nedostáva pokyn vymýšľať fakty — pracuje výhradne s dodanými
   titulkami/perexami. Ak si nie je istý, má tému vynechať.
 - Triáž má vysoký prah: radšej žiadny alert než falošný poplach —
@@ -56,6 +57,54 @@ def _extract_json(text: str) -> dict:
     return json.loads(cleaned[start : end + 1])
 
 
+def _repair_truncated_json(text: str, array_key: str) -> dict:
+    """
+    Záchrana čiastočne useknutého JSON-u (typicky pri dosiahnutí max_tokens
+    uprostred generovania). Nájde pole `array_key` a vezme len prvky, ktoré
+    sú štrukturálne kompletné (počíta zložené zátvorky mimo reťazcov) —
+    posledný, rozostavaný prvok sa zahodí, ale všetko predtým sa zachráni.
+    """
+    cleaned = re.sub(r"```(?:json)?", "", text).strip()
+    m = re.search(rf'"{array_key}"\s*:\s*\[', cleaned)
+    if not m:
+        raise ValueError(f"Pole '{array_key}' sa v odpovedi nenašlo")
+
+    depth, in_string, escape = 0, False, False
+    last_complete_end = None
+    for i in range(m.end(), len(cleaned)):
+        ch = cleaned[i]
+        if in_string:
+            if escape:
+                escape = False
+            elif ch == "\\":
+                escape = True
+            elif ch == '"':
+                in_string = False
+            continue
+        if ch == '"':
+            in_string = True
+        elif ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                last_complete_end = i + 1
+
+    if last_complete_end is None:
+        raise ValueError(f"V poli '{array_key}' nie je ani jeden kompletný prvok")
+
+    repaired = cleaned[: m.end()] + cleaned[m.end() : last_complete_end] + "]}"
+    return json.loads(repaired)
+
+
+def _parse_llm_json(text: str, array_key: str) -> dict:
+    """_extract_json s automatickým pokusom o opravu useknutého výstupu."""
+    try:
+        return _extract_json(text)
+    except (ValueError, json.JSONDecodeError):
+        return _repair_truncated_json(text, array_key)
+
+
 def _fmt_articles(articles: list[dict]) -> str:
     """Formát vstupu pre model: [zdroj] titulok | perex | link"""
     lines = []
@@ -95,7 +144,7 @@ def triage(new_articles: list[dict]) -> tuple[list[Alert], str]:
     user = "Čerstvé titulky:\n\n" + _fmt_articles(new_articles)
     text, model = router.generate(_TRIAGE_SYSTEM, user, max_tokens=1024)
     try:
-        data = _extract_json(text)
+        data = _parse_llm_json(text, "alerts")
         alerts = [
             Alert(
                 title=str(a.get("title", ""))[:250],
@@ -118,28 +167,29 @@ def triage(new_articles: list[dict]) -> tuple[list[Alert], str]:
 _SYNTHESIS_SYSTEM = """Si skúsený editor slovenskej spravodajskej redakcie. Dostaneš \
 titulky a perexy článkov zo slovenských médií za posledné hodiny. Tvoja úloha:
 
-1. Identifikuj 5 až 10 NAJDÔLEŽITEJŠÍCH spravodajských TÉM, ktorými aktuálne žijú \
+1. Identifikuj 5 až 8 NAJDÔLEŽITEJŠÍCH spravodajských TÉM, ktorými aktuálne žijú \
 médiá. Téma = zhluk súvisiacich článkov (aj z rôznych zdrojov), nie jeden titulok. \
 Uprednostni témy pokryté viacerými zdrojmi.
 
 2. Ku každej téme napíš:
    - "headline": chytľavý, vecný nadpis (max 90 znakov, bez clickbaitu a otáznikov \
 navyše, v slovenčine)
-   - "perex": 2-3 vety v žurnalistickom štýle zhŕňajúce podstatu témy. Používaj \
+   - "perex": PRESNE 2 vety (nie viac), stručne, v žurnalistickom štýle. Používaj \
 VÝHRADNE informácie z dodaných titulkov a perexov. Žiadne domýšľanie faktov, čísel \
 ani mien. Ak titulky protirečia, drž sa opatrnejšej formulácie.
-   - "links": 1-3 najreprezentatívnejšie linky k téme z dodaného zoznamu
+   - "links": 1-2 najreprezentatívnejšie linky k téme z dodaného zoznamu
 
-Zoraď témy od najdôležitejšej. Odpovedz IBA validným JSON bez ďalšieho textu:
+Zoraď témy od najdôležitejšej. Buď stručný — každá téma má byť kompaktná, nie \
+esej. Odpovedz IBA validným JSON bez ďalšieho textu:
 {"topics": [{"headline": "...", "perex": "...", "links": ["..."]}]}"""
 
 
 def synthesize(articles: list[dict]) -> tuple[list[Topic], str]:
     """Vráti (témy, použitý_model). Môže vyhodiť AllModelsFailed."""
     user = "Články za posledné hodiny:\n\n" + _fmt_articles(articles)
-    text, model = router.generate(_SYNTHESIS_SYSTEM, user, max_tokens=3072)
+    text, model = router.generate(_SYNTHESIS_SYSTEM, user, max_tokens=4096)
     try:
-        data = _extract_json(text)
+        data = _parse_llm_json(text, "topics")
         topics = [
             Topic(
                 headline=str(t.get("headline", ""))[:120],
