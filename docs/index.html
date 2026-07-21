@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="180">
+<title>SK News Agent — Wire</title>
+<style>
+:root {
+  --ink: #15171C;
+  --panel: #1E2128;
+  --panel-2: #262A33;
+  --text: #E8E6E1;
+  --muted: #8A8F98;
+  --amber: #E8A33D;
+  --red: #C6432E;
+  --rule: #33373F;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--ink); color: var(--text);
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  line-height: 1.5;
+}
+.mono { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+a { color: var(--amber); text-decoration: none; }
+a:hover, a:focus-visible { text-decoration: underline; }
+a:focus-visible, .pill:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+
+.wire-flash {
+  background: linear-gradient(180deg, #2a1510, #1c0f0c);
+  border-bottom: 2px solid var(--red);
+  padding: 14px 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .wire-flash { animation: flash-pulse 2.4s ease-in-out infinite; }
+}
+@keyframes flash-pulse {
+  0%, 100% { border-bottom-color: var(--red); }
+  50% { border-bottom-color: var(--amber); }
+}
+.flash-label {
+  font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: 0.15em;
+  color: var(--red); font-weight: 700; margin-bottom: 6px;
+}
+.flash-item { margin: 4px 0; }
+.flash-title { font-weight: 600; margin-right: 10px; }
+.flash-reason { color: var(--muted); font-size: 14px; }
+
+header {
+  padding: 28px 24px 16px; border-bottom: 1px solid var(--amber);
+  display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;
+}
+.masthead { font-family: "IBM Plex Mono", monospace; font-size: 13px; letter-spacing: 0.15em;
+  color: var(--amber); text-transform: uppercase; }
+.masthead b { color: var(--text); letter-spacing: 0.02em; }
+.updated { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--muted); }
+
+main { max-width: 1100px; margin: 0 auto; padding: 24px; display: grid;
+  grid-template-columns: 1.5fr 1fr; gap: 32px; }
+@media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+
+h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--muted); margin: 0 0 4px; font-family: "IBM Plex Mono", monospace; }
+.section-meta { font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+
+.topic { display: flex; gap: 14px; background: var(--panel); border-radius: 6px;
+  padding: 16px 18px; margin-bottom: 12px; border: 1px solid var(--rule); }
+.topic-rank { font-family: "IBM Plex Mono", monospace; color: var(--amber);
+  font-size: 20px; font-weight: 700; min-width: 32px; }
+.topic h3 { margin: 0 0 6px; font-size: 17px; }
+.topic p { margin: 0 0 8px; color: #C9C7C1; font-size: 14.5px; }
+.topic-links a { font-size: 12px; margin-right: 12px; font-family: "IBM Plex Mono", monospace; }
+
+.feed-group { margin-bottom: 18px; }
+.feed-group h4 { font-size: 13px; color: var(--muted); margin: 0 0 6px;
+  font-family: "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: 0.05em; }
+.feed-group .count { color: var(--amber); }
+.feed-group ul { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--rule); }
+.feed-group li { padding: 5px 0 5px 12px; display: flex; justify-content: space-between;
+  gap: 10px; font-size: 13.5px; border-bottom: 1px solid #23262d; }
+.feed-group li a { color: var(--text); }
+.feed-group .ts { color: var(--muted); font-size: 11px; white-space: nowrap; }
+
+.empty { color: var(--muted); font-size: 13.5px; font-style: italic; }
+
+footer { max-width: 1100px; margin: 0 auto; padding: 20px 24px 40px;
+  border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap;
+  align-items: center; gap: 10px; }
+.pill { font-family: "IBM Plex Mono", monospace; font-size: 11px; padding: 4px 9px;
+  border-radius: 999px; border: 1px solid var(--rule); }
+.pill-ok { color: #7FB08A; border-color: #2E4A34; }
+.pill-fail { color: var(--red); border-color: #4A2620; }
+.footer-note { font-size: 11.5px; color: var(--muted); margin-left: auto;
+  font-family: "IBM Plex Mono", monospace; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="masthead">SK News Agent · <b>Wire</b></div>
+  <div class="updated">Aktualizované 16:03:36 · 21.07.2026</div>
+</header>
+<main>
+  <section>
+    <h2>Top témy</h2>
+    <div class="empty">Zatiaľ žiadny prehľad — prvá syntéza prebehne čoskoro po nazbieraní dostatku článkov.</div>
+  </section>
+  <section>
+    <h2>Surový prúd (12 h)</h2>
+    <div class="feed-group"><h4>Aktuality <span class="mono count">18</span></h4><ul><li><a href="https://www.aktuality.sk/clanok/fOM80or/vymeni-prezident-ukrajiny-generala-syrskeho-zelenskyj-sa-v-uplynulych-dnoch-stretol-s-top-velitelmi/" target="_blank" rel="noopener">Vymení prezident Ukrajiny generála Syrského? Zelenskyj sa v uplynulých dňoch stretol s top veliteľmi</a><span class="mono ts">práve teraz</span></li><li><a href="https://www.aktuality.sk/clanok/GP0LcNK/brutalny-utok-na-ann-widdecombeovu-brit-ju-mal-21-krat-udriet-kladivom-do-hlavy-pri-obede/" target="_blank" rel="noopener">Brutálny útok na Ann Widdecombeovú. Brit ju mal 21-krát udrieť kladivom do hlavy pri obede</a><span class="mono ts">práve teraz</span></li><li><a href="https://www.aktuality.sk/clanok/DtLxVPD/sef-diplomacie-usa-odsudil-ortegov-zamer-zabranit-dalsim-volbam-v-nikarague/" target="_blank" rel="noopener">Šéf diplomacie USA odsúdil Ortegov zámer zabrániť ďalším voľbám v Nikarague</a><span class="mono ts">práve teraz</span></li><li><a href="https://www.aktuality.sk/clanok/52JscKv/martin-a-vlado-su-manzelia-no-pre-stat-neexistuju-porusuju-zakon-ked-na-nas-kaslu-vravia/" target="_blank" rel="noopener">Martin a Vlado sú manželia, no pre štát neexistujú. Porušujú zákon, keď na nás kašlú, vravia</a><span class="mono ts">práve teraz</span></li><li><a href="https://www.aktuality.sk/clanok/MXAhQfK/prokurator-zastavil-stihanie-muza-za-vrazdu-vo-vranove-nad-toplou-skrz-nepricetnost/" target="_blank" rel="noopener">Prokurátor zastavil stíhanie muža za vraždu vo Vranove nad Topľou skrz nepríčetnosť</a><span class="mono ts">pred 34 min</span></li><li><a href="https://www.aktuality.sk/clanok/V1eswmG/medved-ktory-napadol-muza-v-zavaznej-porube-bol-eliminovany-zasahovym-timom/" target="_blank" rel="noopener">Medveď, ktorý napadol muža v Závažnej Porube, bol eliminovaný zásahovým tímom</a><span class="mono ts">pred 34 min</span></li><li><a href="https://www.aktuality.sk/clanok/dyhF4ul/rusko-si-predvolalo-moldavskeho-velvyslanca-moskva-ziada-vysvetlenie-zasahu-policie-proti-diplomatov-v-kisinove/" target="_blank" rel="noopener">Rusko si predvolalo moldavského veľvyslanca. Moskva žiada vysvetlenie zásahu polície proti diplomatov v Kišiňove</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.aktuality.sk/clanok/u8YaV9T/ako-bojovat-s-uzkostami-7-praktickych-technik-pre-rok-2026/" target="_blank" rel="noopener">Ako bojovať s úzkosťami: 7 praktických techník pre rok 2026</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.aktuality.sk/clanok/XTuYPQl/odborove-organizacie-kritizuju-vyber-vedenia-letiska-praha-a-vyhlasuju-strajkovu-pohotovost/" target="_blank" rel="noopener">Odborové organizácie kritizujú výber vedenia Letiska Praha a vyhlasujú štrajkovú pohotovosť</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.aktuality.sk/clanok/hfCW28g/ruska-vojnova-lod-vykonala-pri-britskom-pobrezi-nacvik-ostrej-strelby/" target="_blank" rel="noopener">Ruská vojnová loď vykonala pri britskom pobreží nácvik ostrej streľby</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.aktuality.sk/clanok/LckHpns/slovensko-celilo-utoku-ruskych-hackerov-necinnost-robi-z-nasich-politikov-ruskych-kolaborantov-tvrdi-peter-bator/" target="_blank" rel="noopener">Slovensko čelilo útoku ruských hackerov. Nečinnosť robí z našich politikov ruských kolaborantov, tvrdí Peter Bátor</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.aktuality.sk/clanok/7UbwGKP/izraelske-jednotky-spustili-palbu-pri-nasadzovani-vojakov-libanonska-armada-varuje-pred-brzdenim-mieroveho-planu/" target="_blank" rel="noopener">Izraelské jednotky spustili paľbu pri nasadzovaní vojakov. Libanonská armáda varuje pred brzdením mierového plánu</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.aktuality.sk/clanok/1oFiv21/zo-svateho-jura-zmizol-trezor-s-tisickou-eur-policia-po-pachatelovi-intenzivne-patra/" target="_blank" rel="noopener">Zo Svätého Jura zmizol trezor s tisíckou eur, polícia po páchateľovi intenzívne pátra</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.aktuality.sk/clanok/ngLODJ8/polsky-robot-edward-vo-varsave-plasil-diviaky-v-tatrach-sa-pesi-vybral-na-turu-k-plesu/" target="_blank" rel="noopener">Poľský robot Edward vo Varšave plašil diviaky, v Tatrách sa peši vybral na túru k plesu</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.aktuality.sk/clanok/d31VhwV/predstavujeme-smart-naramok-cirqa-fitness-naramok-bez-displeja-na-sledovanie-zdravia-od-garmin/" target="_blank" rel="noopener">Predstavujeme smart náramok CIRQA: Fitness náramok bez displeja na sledovanie zdravia od Garmin</a><span class="mono ts">pred 2 h 1 min</span></li></ul></div><div class="feed-group"><h4>Denník N <span class="mono count">3</span></h4><ul><li><a href="https://e.dennikn.sk/5466241/najnizsie-mzdy-v-buducom-roku-opat-skokovo-porastu-na-972-eur/" target="_blank" rel="noopener">Najnižšie mzdy v budúcom roku opäť skokovo porastú na 972 eur</a><span class="mono ts">práve teraz</span></li><li><a href="https://dennikn.sk/5464649/nepomohla-im-policia-lekari-ani-sud-matka-s-dcerou-opisuju-ako-stat-zlyhal-pri-psychicky-chorom-muzovi/" target="_blank" rel="noopener">Nepomohla im polícia, lekári ani súd. Matka s dcérou opisujú, ako štát zlyhal pri psychicky chorom mužovi</a><span class="mono ts">pred 34 min</span></li><li><a href="https://e.dennikn.sk/5466238/slovenska-vyroba-cukru-napokon-neklesne-na-polovicu-vlada-ani-nemusela-kupovat-zavrety-cukrovar/" target="_blank" rel="noopener">Slovenská výroba cukru napokon neklesne na polovicu. Vláda ani nemusela kupovať zavretý cukrovar</a><span class="mono ts">pred 2 h 1 min</span></li></ul></div><div class="feed-group"><h4>Pravda <span class="mono count">7</span></h4><ul><li><a href="https://www.pravda.sk/spravy/domace/clanok/2011143-urad-pre-verejne-obstaravanie-pokuta-ministerstvo-obrany-pokuta-nakup-lietadlo-bombardier?utm_source=pravda&amp;utm_medium=rss&amp;utm_campaign=rss" target="_blank" rel="noopener">ÚVO udelil rezortu obrany pokuty za takmer 1,7 milióna eur. Týkajú sa nákupu dvoch luxusných lietadiel</a><span class="mono ts">práve teraz</span></li><li><a href="https://www.pravda.sk/spravy/svet/clanok/2011127-po-utoku-dronov-hrozi-explozia-cien-aj-chaos-na-trhoch-kaspicke-ropovodne-konzorcium-prestalo-prijimat-ropu-z-kazachstanu?utm_source=pravda&amp;utm_medium=rss&amp;utm_campaign=rss" target="_blank" rel="noopener">Po útoku dronov hrozí explózia cien aj chaos na trhoch. Kaspické ropovodné konzorcium prestalo prijímať ropu z Kazachstanu</a><span class="mono ts">pred 34 min</span></li><li><a href="https://www.pravda.sk/spravy/regiony/clanok/2011087-problemoveho-medveda-eliminovali-muza-napadol-len-sto-metrov-od-obecneho-uradu?utm_source=pravda&amp;utm_medium=rss&amp;utm_campaign=rss" target="_blank" rel="noopener">Problémového medveďa eliminovali: Muža napadol len sto metrov od obecného úradu</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.pravda.sk/spravy/domace/clanok/2011101-zvrat-v-pripade-trojnasobnej-vrazdy-vo-vranove-nad-toplou-prokurator-zastavil-trestne-stihanie?utm_source=pravda&amp;utm_medium=rss&amp;utm_campaign=rss" target="_blank" rel="noopener">Zvrat v prípade trojnásobnej vraždy vo Vranove nad Topľou: Prokurátor zastavil trestné stíhanie</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.pravda.sk/spravy/svet/clanok/2011057-peklo-penis-ci-fuck-putin-co-sa-ukryva-za-menami-ukrajinskych-dronov?utm_source=pravda&amp;utm_medium=rss&amp;utm_campaign=rss" target="_blank" rel="noopener">Peklo, penis či Fuck Putin. Čo sa ukrýva za menami ukrajinských dronov?</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.pravda.sk/spravy/svet/clanok/2011111-na-cervenom-namesti-nadaval-a-vencil-kozu-lejlu-muza-poslali-za-mreze-osud-zvierata-je-zahadou?utm_source=pravda&amp;utm_medium=rss&amp;utm_campaign=rss" target="_blank" rel="noopener">Na Červenom námestí nadával a venčil kozu Lejlu. Muža poslali za mreže, osud zvieraťa je záhadou</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.pravda.sk/spravy/svet/clanok/2011063-viac-ako-600-hasicov-uz-siesty-den-bojuje-s-jednym-z-najhorsich-poziarov-v-historii-spanielska?utm_source=pravda&amp;utm_medium=rss&amp;utm_campaign=rss" target="_blank" rel="noopener">Viac ako 600 hasičov už šiesty deň bojuje s jedným z najhorších požiarov v histórii Španielska</a><span class="mono ts">pred 2 h 1 min</span></li></ul></div><div class="feed-group"><h4>TN Live <span class="mono count">134</span></h4><ul><li><a href="https://tnlive.sk/domace/clanok/1041933-obrovske-nestastie-v-trebisove-pri-dopravnej-nehode-zomrelo-dieta" target="_blank" rel="noopener">Obrovské nešťastie v Trebišove. Pri dopravnej nehode zomrelo dieťa</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/sport/clanok/1041931-video-nike-liga-je-spaet-v-bavme-sa-o-lige-sme-hovorili-o-vsetkom-podstatnom-pred-startom-noveho-rocnika" target="_blank" rel="noopener">VIDEO: Niké liga je späť. V Bavme sa o lige sme hovorili o všetkom podstatnom pred štartom nového ročníka</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/sport/clanok/1041927-fifa-rozhodne-nesetrila-su-zname-lukrativne-zarobky-rozhodcov-na-majstrovstvach-sveta" target="_blank" rel="noopener">FIFA rozhodne nešetrila. Sú známe lukratívne zárobky rozhodcov na majstrovstvách sveta</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/domace/clanok/1041904-vodic-skoncil-s-autom-na-streche-policajti-neverili-vlastnym-ociam" target="_blank" rel="noopener">Vodič skončil s autom na streche. Policajti neverili vlastným očiam</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/zahranicne/clanok/1041914-na-operaciu-prisla-s-bolavym-clenkom-po-prebudeni-jej-chybali-styri-zuby" target="_blank" rel="noopener">Na operáciu prišla s boľavým členkom. Po prebudení jej chýbali štyri zuby</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/sport/clanok/1041908-velkolepe-privitanie-na-majstrov-sveta-v-madride-cakali-miliony-ludi" target="_blank" rel="noopener">Veľkolepé privítanie. Na majstrov sveta v Madride čakali milióny ľudí</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/domace/clanok/1041902-autobus-zastavi-ale-vystupit-nemozete-nove-pravidla-na-slovensku-poburili-cestujucich" target="_blank" rel="noopener">Autobus zastaví, ale vystúpiť nemôžete. Nové pravidlá na Slovensku pobúrili cestujúcich</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/domace/clanok/1041895-po-rokoch-zatvaraju-oblubene-detske-centrum-majitelia-oznamili-smutnu-spravu" target="_blank" rel="noopener">Po rokoch zatvárajú obľúbené detské centrum. Majitelia oznámili smutnú správu</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/domace/clanok/1041891-v-oblubenej-loterii-padol-jackpot-slovak-uhadol-vsetky-cisla-a-tesi-sa-z-velkej-vyhry" target="_blank" rel="noopener">V obľúbenej lotérii padol jackpot. Slovák uhádol všetky čísla a teší sa z veľkej výhry</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/domace/clanok/1041893-generalny-prokurator-vytkol-ministerstvu-vnutra-necinnost-tyka-sa-ziadosti-parov-rovnakeho-pohlavia" target="_blank" rel="noopener">Generálny prokurátor vytkol ministerstvu vnútra nečinnosť. Týka sa žiadostí párov rovnakého pohlavia</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/zahranicne/clanok/1041887-syrskyj-prelomil-mlcanie-s-fedorovom-vraj-konflikt-nemal-zelenskyj-zvazuje-zmenu-na-cele-armady" target="_blank" rel="noopener">Syrskyj prelomil mlčanie, s Fedorovom vraj konflikt nemal.  Zelenskyj zvažuje zmenu na čele armády</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/domace/clanok/1041885-zomrel-posledny-delostrelec-ktory-bojoval-v-snp-frantisek-svidran-sa-dozil-takmer-104-rokov" target="_blank" rel="noopener">Zomrel posledný delostrelec, ktorý bojoval v SNP. František Švidraň sa dožil úctyhodného veku</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/zahranicne/clanok/1041883-bizarna-nehoda-v-cesku-auto-tam-zrazilo-kenguru-zviera-neprezilo" target="_blank" rel="noopener">Bizarná nehoda v Česku. Auto tam zrazilo kenguru, zviera neprežilo</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/zahranicne/clanok/1041881-nieco-nevidane-rozplyva-sa-lekarka-takyto-porod-sa-stane-len-raz-za-15-milionov-pripadov" target="_blank" rel="noopener">Niečo nevídané, rozplýva sa lekárka. Takýto pôrod sa stane len raz za 15 miliónov prípadov</a><span class="mono ts">pred 34 min</span></li><li><a href="https://tnlive.sk/zahranicne/clanok/1041880-desiata-noc-po-sebe-usa-podnikli-dalsiu-vlnu-utokov-na-iran" target="_blank" rel="noopener">Desiata noc po sebe. USA podnikli ďalšiu vlnu útokov na Irán</a><span class="mono ts">pred 34 min</span></li></ul></div><div class="feed-group"><h4>Teraz.sk <span class="mono count">11</span></h4><ul><li><a href="https://www.teraz.sk/slovensko/prokurator-zastavil-trestne-stihanie/979457-clanok.html" target="_blank" rel="noopener">Prokurátor zastavil trestné stíhanie za trojnásobnú vraždu</a><span class="mono ts">pred 34 min</span></li><li><a href="https://www.teraz.sk/slovensko/uvo-udelil-mo-dve-nepravoplatne-pokut/979463-clanok.html" target="_blank" rel="noopener">ÚVO udelil MO dve neprávoplatné pokuty vo výške 1,7 milióna eur</a><span class="mono ts">pred 34 min</span></li><li><a href="https://www.teraz.sk/slovensko/policia-vo-stvrtok-poobede-neprijmu-/979441-clanok.html" target="_blank" rel="noopener">Polícia vo štvrtok poobede neprijme žiadosti o vodičské preukazy</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.teraz.sk/slovensko/viva-musica-sa-prvykrat-prezentuje-v/979442-clanok.html" target="_blank" rel="noopener">Viva Musica! sa prvýkrát prezentuje v Prahe koncertom Janoska Ensemble</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.teraz.sk/slovensko/rasi-spolu-s-f-svidranom-odchadza/979445-clanok.html" target="_blank" rel="noopener">Raši: Spolu s F. Švidraňom odchádza ďalší priamy svedok SNP</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.teraz.sk/slovensko/medveda-hnedeho-ktory-napadol-muza/979448-clanok.html" target="_blank" rel="noopener">Medveďa hnedého, ktorý napadol muža v Závažnej Porube, eliminovali</a><span class="mono ts">pred 54 min</span></li><li><a href="https://www.teraz.sk/slovensko/slovenske-nemocnice-budu-spolupracova/979435-clanok.html" target="_blank" rel="noopener">Slovenské nemocnice budú spolupracovať s maďarskými zariadeniami</a><span class="mono ts">pred 2 h 1 min</span></li><li><a href="https://www.teraz.sk/slovensko/rezort-obrany-nadzvukova-rychlost-st/979437-clanok.html" target="_blank" rel="noopener">Rezort obrany: Nad SR preletí stíhačka, môže spôsobiť rázovú vlnu</a><span class="mono ts">pred 2 h 1 min</span></li><li><a href="https://www.teraz.sk/slovensko/mladi-chemici-ziskali-strieborne-meda/979439-clanok.html" target="_blank" rel="noopener">Mladí chemici získali strieborné medaily na olympiáde v Uzbekistane</a><span class="mono ts">pred 2 h 1 min</span></li><li><a href="https://www.teraz.sk/slovensko/rokovania-medzi-doverou-a-spolocnosto/979426-clanok.html" target="_blank" rel="noopener">Rokovania medzi Dôverou a spoločnosťou Pro Diagnostic Group pokračujú</a><span class="mono ts">pred 2 h 16 min</span></li><li><a href="https://www.teraz.sk/slovensko/na-strbskom-plese-pribudli-dalsie-dre/979428-clanok.html" target="_blank" rel="noopener">Na Štrbskom Plese pribudli ďalšie drevené sochy aj lavičky</a><span class="mono ts">pred 2 h 16 min</span></li></ul></div>
+  </section>
+</main>
+<footer>
+  <span class="pill pill-ok" title="OK">Aktuality</span><span class="pill pill-ok" title="OK">Denník N</span><span class="pill pill-fail" title="HTTP: 403 Client Error: Forbidden for url: https://hnonline.sk/feed">HN</span><span class="pill pill-ok" title="OK">Pravda</span><span class="pill pill-ok" title="OK">TA3</span><span class="pill pill-ok" title="OK">TN Live</span><span class="pill pill-ok" title="OK">Teraz.sk</span>
+  <span class="footer-note">beží automaticky ~každých 15 min</span>
+</footer>
+</body>
+</html>
