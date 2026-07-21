@@ -124,6 +124,16 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
             if state.is_new(a.uid):
                 new_articles.append(a)
 
+    # Obohatenie titulkov pre sitemap zdroje (ta3): slug-titulky nahradíme
+    # skutočnými z og:title. Len pre NOVÉ články (dedup už prebehol), s limitom
+    # fetchov na beh — neúspech necháva slug verziu, nikdy nezhadzuje beh.
+    sitemap_source_ids = {s.id for s in SOURCES if s.kind == "sitemap"}
+    if any(a.source_id in sitemap_source_ids for a in new_articles):
+        from src.collector.sitemap import enrich_titles
+        to_enrich = [a for a in new_articles if a.source_id in sitemap_source_ids]
+        others = [a for a in new_articles if a.source_id not in sitemap_source_ids]
+        new_articles = others + enrich_titles(to_enrich)
+
     log.info(
         "Zdroje: %d OK / %d FAIL · článkov vo feedoch: %d · nových: %d",
         len(results) - len(failed), len(failed),

@@ -122,5 +122,25 @@ def fetch_source(source: Source) -> FetchResult:
 
 
 def fetch_all(sources: list[Source]) -> list[FetchResult]:
-    """Sekvenčne stiahne všetky zapnuté zdroje. Pri ~6 feedoch netreba async."""
-    return [fetch_source(s) for s in sources if s.enabled]
+    """
+    Sekvenčne stiahne všetky zapnuté zdroje, dispatch podľa Source.kind.
+    Import sitemap modulu je vnútri funkcie kvôli kruhovej závislosti
+    (sitemap.py importuje Article/FetchResult odtiaľto).
+    """
+    from .sitemap import fetch_news_sitemap, fetch_plain_sitemap
+
+    dispatch = {
+        "rss": fetch_source,
+        "news_sitemap": fetch_news_sitemap,
+        "sitemap": fetch_plain_sitemap,
+    }
+    results: list[FetchResult] = []
+    for s in sources:
+        if not s.enabled:
+            continue
+        fn = dispatch.get(s.kind)
+        if fn is None:
+            log.error("Neznámy kind '%s' pre zdroj %s — preskakujem.", s.kind, s.id)
+            continue
+        results.append(fn(s))
+    return results

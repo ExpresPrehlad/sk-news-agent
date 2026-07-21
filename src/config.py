@@ -21,14 +21,16 @@ from dataclasses import dataclass, field
 class Source:
     id: str            # krátky identifikátor (používa sa v stave a logoch)
     name: str          # zobrazované meno pre Discord
-    feed_url: str      # RSS/Atom feed
+    feed_url: str      # RSS/Atom feed, news sitemap alebo sitemap index
     enabled: bool = True
+    kind: str = "rss"  # "rss" | "news_sitemap" | "sitemap"
 
 
 SOURCES: list[Source] = [
     # SME je za Cloudflare Bot Management s interaktívnym challenge
     # (JS/TLS fingerprint) — overené priamym testom, User-Agent/Accept
-    # hlavičky to neriešia. Vypnuté, kým sa nenájde iný prístup
+    # hlavičky to neriešia. RSS prejde len občas (nestabilné), sitemap
+    # aj API sú za WAF blokom. Vypnuté, kým sa nenájde iný prístup
     # (napr. oficiálna dohoda so SME). Pozri diskusiu v chate z 21.7.2026.
     Source("sme",       "SME",        "https://rss.sme.sk/rss/rss.asp?id=frontpage", enabled=False),
     Source("aktuality", "Aktuality",  "https://www.aktuality.sk/rss/"),
@@ -36,6 +38,18 @@ SOURCES: list[Source] = [
     Source("pravda",    "Pravda",     "https://spravy.pravda.sk/rss/xml/"),
     Source("hn",        "HN",         "https://hnonline.sk/feed"),
     Source("teraz",     "Teraz.sk",   "https://www.teraz.sk/rss/slovensko.rss"),
+    # tnlive.sk (bývalé tvnoviny.sk — rebrand, stará doména presmerúva).
+    # Google News sitemap: titulok + link + čas priamo v XML, bez CF bloku.
+    Source("tnlive",    "TN Live",    "https://tnlive.sk/api/v2/sitemap-news",
+           kind="news_sitemap"),
+    # ta3.com: klasický sitemap index s per-článkovým lastmod, bez CF.
+    # Titulky nie sú v XML — odvodia sa zo slugu a pre nové články sa
+    # obohacujú fetchom stránky (max 12/beh, viď sitemap.enrich_titles).
+    Source("ta3",       "TA3",        "https://www.ta3.com/cdn/sitemap/sitemap.xml",
+           kind="sitemap"),
+    # noviny.sk: prieskum 21.7.2026 nenašiel nič použiteľné — sitemap
+    # z robots.txt je prázdny, API vracia "Unknown api endpoint", RSS 404.
+    # Kandidát na neskôr, ak sa objaví funkčný endpoint.
 ]
 
 
