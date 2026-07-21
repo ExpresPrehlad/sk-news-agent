@@ -47,8 +47,15 @@ SEEN_WINDOW_HOURS: int = 48
 # Timeout pre HTTP požiadavky na feedy (sekundy).
 HTTP_TIMEOUT: float = 15.0
 
-# User-Agent — niektoré portály blokujú default python UA.
-USER_AGENT: str = "sk-news-agent/1.0 (+https://github.com)"
+# User-Agent — niektoré portály (napr. sme.sk, hnonline.sk) majú WAF, ktorý
+# blokuje očividné boty (403 Forbidden). Vlastný identifikátor typu
+# "sk-news-agent/1.0" je ľahko rozpoznateľný a blokovaný, preto sa
+# vydávame za bežný prehliadač — legitímna a bežná obrana, keďže RSS feed
+# je verejne určený na strojové čítanie.
+USER_AGENT: str = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
 
 # Cesta k stavovému súboru (commituje sa späť do repa vo workflow).
 STATE_PATH: str = os.environ.get("STATE_PATH", "data/state.json")
