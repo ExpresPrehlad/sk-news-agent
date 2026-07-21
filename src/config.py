@@ -30,7 +30,7 @@ SOURCES: list[Source] = [
     # (JS/TLS fingerprint) — overené priamym testom, User-Agent/Accept
     # hlavičky to neriešia. Vypnuté, kým sa nenájde iný prístup
     # (napr. oficiálna dohoda so SME). Pozri diskusiu v chate z 21.7.2026.
-    Source("sme", "SME", "https://rss.sme.sk/rss/rss.asp?id=frontpage", enabled=False),
+    Source("sme",       "SME",        "https://rss.sme.sk/rss/rss.asp?id=frontpage", enabled=False),
     Source("aktuality", "Aktuality",  "https://www.aktuality.sk/rss/"),
     Source("dennikn",   "Denník N",   "https://dennikn.sk/feed/"),
     Source("pravda",    "Pravda",     "https://spravy.pravda.sk/rss/xml/"),
@@ -95,9 +95,14 @@ GEMINI_MODELS: list[str] = [
     "gemini-2.5-flash",
 ]
 OPENROUTER_MODELS: list[str] = [
-    "nvidia/nemotron-3-ultra:free",
-    "google/gemma-4-31b:free",
-    "openrouter/free",   # auto-router — posledná záchrana, vyberie čo žije
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "google/gemma-4-31b-it:free",
+    "openai/gpt-oss-20b:free",
+    # auto-router — posledná záchrana. Pozor: vie vybrať aj nevhodný
+    # špecializovaný model (napr. Nemotron 3.5 Content Safety, ktorý
+    # vracia len bezpečnostný verdikt, nie voľný JSON) — preto je až
+    # na konci, nikdy nie ako prvá voľba.
+    "openrouter/free",
 ]
 
 # Timeout pre LLM volania (sekundy) — syntéza s väčším vstupom potrebuje čas.
