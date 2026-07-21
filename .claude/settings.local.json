@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)",
+      "Bash(git ls-tree *)",
+      "Bash(git reset *)",
+      "Bash(git branch *)",
+      "Bash(py --version)"
+    ]
+  }
+}
