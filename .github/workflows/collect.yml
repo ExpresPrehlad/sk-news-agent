@@ -1,0 +1,56 @@
+# Vrstva 1 — zber a surový feed.
+#
+# Poznámky k realite GitHub Actions:
+# - cron "*/15" znamená "približne raz za 15+ min"; drift 5–30 min je normálny.
+# - `concurrency` bráni súbehu dvoch behov (a konfliktom pri push-i stavu).
+# - Stav sa commituje späť do repa; pri konflikte (nemal by nastať vďaka
+#   concurrency) beh radšej zlyhá, než by prepísal cudzí stav silou.
+
+name: collect
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}   # manuálne spustenie na testovanie
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # kvôli commitovaniu data/state.json
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run collector
+        env:
+          DISCORD_WEBHOOK_RAW: ${{ secrets.DISCORD_WEBHOOK_RAW }}
+          DISCORD_WEBHOOK_ALERTS: ${{ secrets.DISCORD_WEBHOOK_ALERTS }}
+          DISCORD_WEBHOOK_DIGEST: ${{ secrets.DISCORD_WEBHOOK_DIGEST }}
+        run: python main.py
+
+      - name: Commit state
+        run: |
+          git config user.name "sk-news-agent[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet data/state.json 2>/dev/null; then
+            git add data/state.json
+            git commit -m "state: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase origin ${GITHUB_REF_NAME}
+            git push
+          else
+            echo "Stav sa nezmenil, nič sa necommituje."
+          fi
