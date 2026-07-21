@@ -82,7 +82,11 @@ def fetch_source(source: Source) -> FetchResult:
         resp = requests.get(
             source.feed_url,
             timeout=HTTP_TIMEOUT,
-            headers={"User-Agent": USER_AGENT},
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+                "Accept-Language": "sk,cs;q=0.8,en;q=0.5",
+            },
         )
         resp.raise_for_status()
     except requests.RequestException as exc:
