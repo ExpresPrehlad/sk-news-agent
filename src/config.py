@@ -123,12 +123,9 @@ OPENROUTER_MODELS: list[str] = [
 # Timeout pre LLM volania (sekundy) — syntéza s väčším vstupom potrebuje čas.
 LLM_TIMEOUT: float = 60.0
 
-# Syntéza TOP tém: raz za tento interval (minúty). Triáž beží pri každom
-# behu s novými článkami, syntéza šetrí volania aj pozornosť čitateľov.
-# Skrátené z pôvodných 120 min — bezpečné, lebo od zavedenia ACTIVE_HOURS
-# nižšie sa syntéza koná len v ~16.5h aktívnom okne, nie 24/7, takže celkový
-# denný počet volaní (~22/deň) je nižší než pri 30 min naprieč celým dňom.
-SYNTHESIS_INTERVAL_MINUTES: int = 45
+# Syntéza TOP tém: interval sa berie z aktuálneho SCHEDULE_BANDS pásma
+# (rôzny cez deň/víkend) — pozri nižšie. Triáž beží pri každom reálnom
+# zbere s novými článkami, nemá vlastný interval.
 
 # Okno článkov, ktoré vstupujú do syntézy (hodiny dozadu).
 SYNTHESIS_WINDOW_HOURS: int = 6
@@ -137,12 +134,45 @@ SYNTHESIS_WINDOW_HOURS: int = 6
 RECENT_BUFFER_HOURS: int = 24
 
 # ---------------------------------------------------------------------------
-# Aktívne hodiny — pozri src/schedule.py pre logiku
+# Rozvrh behu — pozri src/schedule.py pre logiku vyhodnocovania
 # ---------------------------------------------------------------------------
-# Mimo tohto okna sa AUTOMATICKÝ (cron) beh preskočí úplne — cez noc nikto
-# v redakcii nesleduje výstup. Manuálne spustenie okno nerešpektuje.
-# POZOR na kompromis: mimoriadna udalosť mimo okna sa zachytí až pri
-# najbližšom aktívnom behu (potenciálne ~7.5h oneskorenie cez noc).
+# Mimo všetkých pásiem sa AUTOMATICKÝ (cron) beh preskočí úplne — žiadny
+# fetch, LLM, Discord. V rámci pásma cron tikne často (viď workflow), ale
+# skript zbiera/syntetizuje len po uplynutí intervalu daného pásma.
+#
+# POZOR na kompromis: mimoriadna udalosť mimo aktívnych pásiem (najmä cez
+# noc) sa zachytí až pri najbližšom aktívnom behu.
+
+@dataclass(frozen=True)
+class ScheduleBand:
+    weekdays: frozenset       # 0=pondelok ... 6=nedeľa (datetime.weekday())
+    start: _time
+    end: _time
+    collect_minutes: int
+    synthesis_minutes: int
+
+
+_WEEKDAYS = frozenset({0, 1, 2, 3, 4})  # pondelok-piatok
+_WEEKEND = frozenset({5, 6})            # sobota-nedeľa
+
+# Kontrolované v poradí; prvé pásmo, do ktorého (deň, čas) zapadá, sa použije.
+SCHEDULE_BANDS: list[ScheduleBand] = [
+    # Pracovné dni — ranná špička
+    ScheduleBand(_WEEKDAYS, _time(5, 30), _time(8, 30),
+                 collect_minutes=20, synthesis_minutes=30),
+    # Pracovné dni — hlavný denný cyklus (najhustejší)
+    ScheduleBand(_WEEKDAYS, _time(8, 30), _time(18, 0),
+                 collect_minutes=10, synthesis_minutes=15),
+    # Pracovné dni — večer
+    ScheduleBand(_WEEKDAYS, _time(18, 0), _time(23, 50),
+                 collect_minutes=20, synthesis_minutes=30),
+    # Víkend — jednotné pásmo
+    ScheduleBand(_WEEKEND, _time(5, 30), _time(22, 0),
+                 collect_minutes=20, synthesis_minutes=30),
+]
+
+# Fallback interval syntézy pre okrajový prípad: manuálny beh mimo všetkých
+# pásiem (band=None) bez --force-synthesis.
+DEFAULT_SYNTHESIS_INTERVAL_MINUTES: int = 30
+
 ACTIVE_HOURS_TZ: str = "Europe/Bratislava"
-ACTIVE_HOURS_START: _time = _time(5, 30)
-ACTIVE_HOURS_END: _time = _time(22, 0)

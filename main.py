@@ -28,11 +28,7 @@ from src.config import (
     OPENROUTER_API_KEY,
     SOURCES,
     STATE_PATH,
-    SYNTHESIS_INTERVAL_MINUTES,
     SYNTHESIS_WINDOW_HOURS,
-    ACTIVE_HOURS_END,
-    ACTIVE_HOURS_START,
-    ACTIVE_HOURS_TZ,
     DiscordConfig,
 )
 from src.digest import synthesize, triage
@@ -44,7 +40,7 @@ from src.notify.discord import (
     send_raw_feed,
 )
 from src.pages import write_page
-from src.schedule import should_run
+from src.schedule import should_collect, synthesis_interval_minutes
 from src.state import State
 
 logging.basicConfig(
@@ -84,9 +80,10 @@ def _run_triage(state: State, discord: DiscordConfig, new_articles: list[dict]) 
         log.info("Triáž (%s): nič mimoriadne.", model)
 
 
-def _run_synthesis(state: State, discord: DiscordConfig, force: bool) -> None:
-    """Syntéza TOP tém raz za SYNTHESIS_INTERVAL_MINUTES → #prehlad."""
-    due = time.time() - state.get_meta("last_synthesis_ts") >= SYNTHESIS_INTERVAL_MINUTES * 60
+def _run_synthesis(state: State, discord: DiscordConfig, force: bool,
+                    interval_minutes: int) -> None:
+    """Syntéza TOP tém raz za `interval_minutes` (podľa aktuálneho pásma) → #prehlad."""
+    due = time.time() - state.get_meta("last_synthesis_ts") >= interval_minutes * 60
     if not (due or force):
         return
     window = state.recent_window(SYNTHESIS_WINDOW_HOURS)
@@ -117,18 +114,19 @@ def _report_llm_outage(state: State, discord: DiscordConfig, what: str, detail: 
 
 
 def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
-    if not should_run():
-        log.info(
-            "Mimo aktívnych hodín (%s–%s %s) — automatický beh preskočený, "
-            "žiadne volania sa nevykonali.",
-            ACTIVE_HOURS_START, ACTIVE_HOURS_END, ACTIVE_HOURS_TZ,
-        )
-        return 0
-
     discord = DiscordConfig()
     state = State(STATE_PATH)
 
+    do_collect, band = should_collect(state)
+    if not do_collect:
+        log.info(
+            "Mimo aktívneho pásma, alebo zber ešte nie je splatný — "
+            "automatický beh preskočený, žiadne volania sa nevykonali."
+        )
+        return 0
+
     results = fetch_all(SOURCES)
+    state.set_meta("last_collection_ts", time.time())
     failed = [r for r in results if not r.ok]
     for r in failed:
         log.warning("Zdroj %s nedostupný: %s", r.source.id, r.error)
@@ -193,7 +191,8 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
         try:
             if new_dicts:
                 _run_triage(state, discord, new_dicts)
-            _run_synthesis(state, discord, force_synthesis)
+            _run_synthesis(state, discord, force_synthesis,
+                           synthesis_interval_minutes(band))
         except Exception:  # noqa: BLE001 — bezpečnostná sieť pre celú vrstvu
             log.exception("Nečakaná chyba LLM vrstvy — beh pokračuje.")
     else:
