@@ -22,8 +22,10 @@ import logging
 import sys
 import time
 
+from src import gha_summary
 from src.collector.rss import fetch_all
 from src.config import (
+    ACTIVE_HOURS_TZ,
     GEMINI_API_KEY,
     OPENROUTER_API_KEY,
     SOURCES,
@@ -52,6 +54,17 @@ log = logging.getLogger("main")
 _LLM_ENABLED = bool(GEMINI_API_KEY or OPENROUTER_API_KEY)
 
 
+def _ago_str(ts: float) -> str:
+    if not ts:
+        return "nikdy (čistý štart)"
+    mins = (time.time() - ts) / 60
+    if mins < 1:
+        return "práve teraz"
+    if mins < 60:
+        return f"pred {mins:.0f} min"
+    return f"pred {mins / 60:.1f} h"
+
+
 def check_feeds() -> int:
     results = fetch_all(SOURCES)
     all_ok = True
@@ -64,42 +77,46 @@ def check_feeds() -> int:
     return 0 if all_ok else 1
 
 
-def _run_triage(state: State, discord: DiscordConfig, new_articles: list[dict]) -> None:
-    """Best-effort triáž nových článkov → #alerty."""
+def _run_triage(state: State, discord: DiscordConfig, new_articles: list[dict]) -> str:
+    """Best-effort triáž nových článkov → #alerty. Vráti stručný status."""
     try:
         alerts, model = triage(new_articles)
     except AllModelsFailed as exc:
         log.error("Triáž: celá LLM reťaz zlyhala: %s", exc)
         _report_llm_outage(state, discord, "triáž", str(exc))
-        return
+        return "❌ LLM reťaz zlyhala (všetky modely)"
     if alerts:
         log.info("Triáž (%s): %d alert(ov).", model, len(alerts))
         send_alerts(discord.alerts_url, alerts, model)
         state.add_alerts(alerts, model)
-    else:
-        log.info("Triáž (%s): nič mimoriadne.", model)
+        return f"🚨 {len(alerts)} alert(ov) — `{model}`"
+    log.info("Triáž (%s): nič mimoriadne.", model)
+    return f"nič mimoriadne — `{model}`"
 
 
 def _run_synthesis(state: State, discord: DiscordConfig, force: bool,
-                    interval_minutes: int) -> None:
+                    interval_minutes: int) -> str:
     """Syntéza TOP tém raz za `interval_minutes` (podľa aktuálneho pásma) → #prehlad."""
     due = time.time() - state.get_meta("last_synthesis_ts") >= interval_minutes * 60
     if not (due or force):
-        return
+        mins_left = interval_minutes - (time.time() - state.get_meta("last_synthesis_ts")) / 60
+        return f"⏳ ešte nie je splatná (o ~{max(0, mins_left):.0f} min)"
     window = state.recent_window(SYNTHESIS_WINDOW_HOURS)
     if len(window) < 5:
         log.info("Syntéza: v okne len %d článkov — preskakujem.", len(window))
-        return
+        return f"preskočená (len {len(window)} článkov v okne, treba 5+)"
     try:
         topics, model = synthesize(window)
     except AllModelsFailed as exc:
         log.error("Syntéza: celá LLM reťaz zlyhala: %s", exc)
         _report_llm_outage(state, discord, "syntéza", str(exc))
-        return
+        return "❌ LLM reťaz zlyhala (všetky modely)"
     if topics and send_digest(discord.digest_url, topics, model):
         state.set_meta("last_synthesis_ts", time.time())
         state.set_last_digest(topics, model)
         log.info("Syntéza (%s): %d tém odoslaných.", model, len(topics))
+        return f"✅ {len(topics)} tém — `{model}`"
+    return "⚠️ prázdny výsledok alebo Discord zlyhal"
 
 
 def _report_llm_outage(state: State, discord: DiscordConfig, what: str, detail: str) -> None:
@@ -123,6 +140,12 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
             "Mimo aktívneho pásma, alebo zber ešte nie je splatný — "
             "automatický beh preskočený, žiadne volania sa nevykonali."
         )
+        gha_summary.write([
+            "## 😴 Beh preskočený",
+            "Mimo aktívneho pásma, alebo zber ešte nie je splatný — "
+            "žiadny fetch, LLM ani Discord.",
+            f"- Posledný reálny zber: {_ago_str(state.get_meta('last_collection_ts'))}",
+        ])
         return 0
 
     results = fetch_all(SOURCES)
@@ -176,6 +199,11 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
 
     if not sent_ok:
         log.error("Discord zlyhal — stav sa NEUKLADÁ, články sa pošlú nabudúce.")
+        gha_summary.write([
+            "## ❌ Discord webhook zlyhal",
+            "Surový feed sa nepodarilo odoslať — stav sa neuložil, "
+            "články sa pošlú v ďalšom behu (žiadna strata dát).",
+        ])
         return 1
 
     for a in new_articles:
@@ -187,6 +215,8 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     state.set_meta("last_run_ts", time.time())
 
     # ---- Vrstva 2: LLM (best-effort, nesmie zhodiť beh) -------------------
+    triage_status = "—"
+    synthesis_status = "—"
     if _LLM_ENABLED:
         new_dicts = [
             {"s": a.source_name, "t": a.title, "p": a.summary, "l": a.link}
@@ -194,13 +224,15 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
         ]
         try:
             if new_dicts:
-                _run_triage(state, discord, new_dicts)
-            _run_synthesis(state, discord, force_synthesis,
-                           synthesis_interval_minutes(band))
+                triage_status = _run_triage(state, discord, new_dicts)
+            synthesis_status = _run_synthesis(state, discord, force_synthesis,
+                                              synthesis_interval_minutes(band))
         except Exception:  # noqa: BLE001 — bezpečnostná sieť pre celú vrstvu
             log.exception("Nečakaná chyba LLM vrstvy — beh pokračuje.")
+            triage_status = synthesis_status = "❌ nečakaná výnimka (pozri logy)"
     else:
         log.info("LLM kľúče nie sú nastavené — Vrstva 2 preskočená.")
+        triage_status = synthesis_status = "vypnuté (chýbajú API kľúče)"
 
     # GitHub Pages: vygeneruje sa pri KAŽDOM behu (nie len pri syntéze), lebo
     # číta z perzistovaného state (last_digest, recent_alerts, source_status),
@@ -211,6 +243,27 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     state.save()
     log.info("Stav uložený (%d videných, %d v recent bufferi).",
              len(state.seen), len(state.recent))
+
+    band_desc = (
+        f"{band.start}–{band.end}, zber {band.collect_minutes} min / "
+        f"syntéza {band.synthesis_minutes} min"
+        if band else "manuálny beh (mimo pásiem)"
+    )
+    gha_summary.write([
+        "## 📡 Zber dokončený",
+        f"**Pásmo:** {band_desc}",
+        f"**Zdroje:** {len(results) - len(failed)} OK / {len(failed)} FAIL "
+        f"(kritické: {len(failed_critical)}) · **nových článkov:** {len(new_articles)}",
+        f"**Triáž:** {triage_status}",
+        f"**Syntéza:** {synthesis_status}",
+        "",
+        "### Zdroje",
+        *[
+            f"- {'✅' if r.ok else ('⚠️' if r.source.optional else '❌')} "
+            f"{r.source.name}" + (f" — {r.error}" if not r.ok else "")
+            for r in results
+        ],
+    ])
     return 0
 
 

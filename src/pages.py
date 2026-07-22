@@ -165,6 +165,7 @@ header {
   color: var(--amber); text-transform: uppercase; }
 .masthead b { color: var(--text); letter-spacing: 0.02em; }
 .updated { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--muted); }
+.updated .stale-warning { color: var(--red); font-weight: 700; }
 
 main { max-width: 1100px; margin: 0 auto; padding: 24px; display: grid;
   grid-template-columns: 1.5fr 1fr; gap: 32px; }
@@ -207,7 +208,9 @@ footer { max-width: 1100px; margin: 0 auto; padding: 20px 24px 40px;
 
 
 def build_html(state) -> str:
-    now_str = datetime.now(timezone.utc).astimezone().strftime("%H:%M:%S · %d.%m.%Y")
+    now = datetime.now(timezone.utc)
+    now_str = now.astimezone().strftime("%H:%M:%S · %d.%m.%Y")
+    generated_ts_ms = int(now.timestamp() * 1000)
     alerts_flash = _render_alert_flash(state.recent_alerts_window(3))
     topics_html = _render_topics(state.last_digest)
     raw_html = _render_raw_feed(state.recent_window(12))
@@ -229,7 +232,10 @@ def build_html(state) -> str:
 {alerts_flash}
 <header>
   <div class="masthead">SK News Agent · <b>Wire</b></div>
-  <div class="updated">Aktualizované {now_str}</div>
+  <div class="updated">
+    Vygenerované {now_str}
+    <span id="live-ago" class="mono" data-ts="{generated_ts_ms}"></span>
+  </div>
 </header>
 <main>
   <section>
@@ -243,8 +249,28 @@ def build_html(state) -> str:
 </main>
 <footer>
   {sources_html}
-  <span class="footer-note">beží automaticky ~každých 15 min</span>
+  <span class="footer-note">beží automaticky, GitHub cron je "best-effort" (môže meškať)</span>
 </footer>
+<script>
+// Poctivý živý indikátor "pred X" — tiká aj keď stránka len leží otvorená
+// medzi auto-refreshmi. Ak toto číslo rastie nezvyčajne dlho bez resetu,
+// je to znak, že GitHub Actions cron nejaký čas nebežal (známa vlastnosť
+// platformy — schedule trigger je "best-effort", nie garantovaný).
+(function () {{
+  var el = document.getElementById('live-ago');
+  if (!el) return;
+  var ts = parseInt(el.getAttribute('data-ts'), 10);
+  function tick() {{
+    var mins = Math.floor((Date.now() - ts) / 60000);
+    var text = mins < 1 ? 'práve teraz' : mins < 60 ? ('pred ' + mins + ' min')
+      : ('pred ' + (mins / 60).toFixed(1) + ' h');
+    el.textContent = '(' + text + ')';
+    el.classList.toggle('stale-warning', mins > 60);
+  }}
+  tick();
+  setInterval(tick, 30000);
+}})();
+</script>
 </body>
 </html>
 """
