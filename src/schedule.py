@@ -27,7 +27,18 @@ from .config import (
     ScheduleBand,
 )
 
-IS_SCHEDULED_RUN = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
+# Rozvrh sa rešpektuje pri:
+# 1. natívnom GitHub cron behu (schedule event),
+# 2. externom záložnom cron triggeri (cron-job.org a pod.), ktorý volá
+#    workflow_dispatch s inputs.backup_trigger=true — je to náhrada za
+#    natívny cron pri jeho výpadkoch (best-effort, viď diskusia v chate
+#    z 22.7.2026), NIE samostatný nezávislý kanál bežiaci mimo rozvrhu.
+# Obyčajné ručné "Run workflow" kliknutie (backup_trigger=false, default)
+# rozvrh naďalej obchádza — nech ide kedykoľvek testovať bez čakania.
+IS_SCHEDULED_RUN = (
+    os.environ.get("GITHUB_EVENT_NAME") == "schedule"
+    or os.environ.get("BACKUP_TRIGGER", "").lower() == "true"
+)
 
 
 def current_band(now: datetime | None = None) -> ScheduleBand | None:

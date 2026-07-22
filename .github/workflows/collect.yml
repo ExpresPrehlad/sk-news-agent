@@ -17,6 +17,10 @@ on:
         description: "Vynútiť syntézu bez ohľadu na interval (pre QA)"
         type: boolean
         default: false
+      backup_trigger:
+        description: "Toto je automatický záložný cron (cron-job.org), NIE ručné testovanie — rešpektuje rozvrh pásiem rovnako ako natívny GitHub cron."
+        type: boolean
+        default: false
 
 concurrency:
   group: collect
@@ -48,6 +52,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+          BACKUP_TRIGGER: ${{ inputs.backup_trigger }}
         run: |
           if [ "${{ inputs.force_synthesis }}" = "true" ]; then
             python main.py --force-synthesis
