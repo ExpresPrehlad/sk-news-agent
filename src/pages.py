@@ -84,6 +84,17 @@ def _render_topics(digest: dict) -> str:
     return meta + '<div class="topics">' + "".join(cards) + "</div>"
 
 
+_VISIBLE_PER_GROUP = 3
+_MAX_PER_GROUP = 15
+
+
+def _render_feed_item(a: dict) -> str:
+    return (
+        f'<li><a href="{escape(a["l"])}" target="_blank" rel="noopener">'
+        f'{escape(a["t"])}</a><span class="mono ts">{_ago(float(a.get("ts", 0)))}</span></li>'
+    )
+
+
 def _render_raw_feed(articles: list[dict]) -> str:
     if not articles:
         return '<div class="empty">Zatiaľ žiadne články v okne posledných hodín.</div>'
@@ -92,15 +103,23 @@ def _render_raw_feed(articles: list[dict]) -> str:
         by_source.setdefault(a["s"], []).append(a)
     groups = []
     for source, items in sorted(by_source.items()):
-        rows = "".join(
-            f'<li><a href="{escape(a["l"])}" target="_blank" rel="noopener">'
-            f'{escape(a["t"])}</a><span class="mono ts">{_ago(float(a.get("ts", 0)))}</span></li>'
-            for a in items[:15]
-        )
-        groups.append(
+        visible = items[:_VISIBLE_PER_GROUP]
+        rest = items[_VISIBLE_PER_GROUP:_MAX_PER_GROUP]
+        visible_rows = "".join(_render_feed_item(a) for a in visible)
+        html = (
             f'<div class="feed-group"><h4>{escape(source)} '
-            f'<span class="mono count">{len(items)}</span></h4><ul>{rows}</ul></div>'
+            f'<span class="mono count">{len(items)}</span></h4>'
+            f"<ul>{visible_rows}</ul>"
         )
+        if rest:
+            rest_rows = "".join(_render_feed_item(a) for a in rest)
+            html += (
+                f'<details class="feed-more">'
+                f"<summary>Zobraziť ďalších {len(rest)} →</summary>"
+                f"<ul>{rest_rows}</ul></details>"
+            )
+        html += "</div>"
+        groups.append(html)
     return "".join(groups)
 
 
@@ -196,6 +215,15 @@ h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.1em;
   gap: 10px; font-size: 13.5px; border-bottom: 1px solid #23262d; }
 .feed-group li a { color: var(--text); }
 .feed-group .ts { color: var(--muted); font-size: 11px; white-space: nowrap; }
+
+.feed-more { margin-top: 2px; }
+.feed-more summary {
+  cursor: pointer; list-style: none; font-family: "IBM Plex Mono", monospace;
+  font-size: 11.5px; color: var(--amber); padding: 6px 0 6px 12px; user-select: none;
+}
+.feed-more summary::-webkit-details-marker { display: none; }
+.feed-more summary::marker { content: ""; }
+.feed-more[open] summary { color: var(--muted); }
 
 .empty { color: var(--muted); font-size: 13.5px; font-style: italic; }
 
