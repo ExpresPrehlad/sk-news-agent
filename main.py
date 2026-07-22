@@ -114,8 +114,9 @@ def _run_synthesis(state: State, discord: DiscordConfig, force: bool,
     if len(window) < 5:
         log.info("Syntéza: v okne len %d článkov — preskakujem.", len(window))
         return f"preskočená (len {len(window)} článkov v okne, treba 5+)"
+    already_featured = state.recent_digest_headlines(4)
     try:
-        topics, model = synthesize(window)
+        topics, model = synthesize(window, already_featured)
     except AllModelsFailed as exc:
         log.error("Syntéza: celá LLM reťaz zlyhala: %s", exc)
         _report_llm_outage(state, discord, "syntéza", str(exc))
@@ -123,6 +124,7 @@ def _run_synthesis(state: State, discord: DiscordConfig, force: bool,
     if topics and send_digest(discord.digest_url, topics, model):
         state.set_meta("last_synthesis_ts", time.time())
         state.set_last_digest(topics, model)
+        state.add_digest_history(topics)
         log.info("Syntéza (%s): %d tém odoslaných.", model, len(topics))
         return f"✅ {len(topics)} tém — `{model}`"
     return "⚠️ prázdny výsledok alebo Discord zlyhal"

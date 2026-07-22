@@ -36,6 +36,7 @@ class State:
         self.recent: list[dict] = []
         self.meta: dict[str, float] = {}
         self.last_digest: dict = {}       # {"topics": [...], "model": ..., "ts": ...}
+        self.digest_topic_history: list[dict] = []  # [{"headline":..., "ts":...}, ...]
         self.recent_alerts: list[dict] = []  # rolling história pre stránku
         self.source_status: dict[str, dict] = {}  # id -> {"ok", "error", "ts"}
         self._load()
@@ -53,6 +54,9 @@ class State:
             self.recent = [r for r in data.get("recent", []) if isinstance(r, dict)]
             self.meta = {str(k): float(v) for k, v in data.get("meta", {}).items()}
             self.last_digest = data.get("last_digest") or {}
+            self.digest_topic_history = [
+                h for h in data.get("digest_topic_history", []) if isinstance(h, dict)
+            ]
             self.recent_alerts = [
                 a for a in data.get("recent_alerts", []) if isinstance(a, dict)
             ]
@@ -64,6 +68,7 @@ class State:
             log.error("Stav %s je poškodený (%s) — čistý štart.", self.path, exc)
             self.seen, self.recent, self.meta = {}, [], {}
             self.last_digest, self.recent_alerts, self.source_status = {}, [], {}
+            self.digest_topic_history = []
 
     def save(self) -> None:
         self._prune()
@@ -80,6 +85,7 @@ class State:
                     "recent": self.recent,
                     "meta": self.meta,
                     "last_digest": self.last_digest,
+                    "digest_topic_history": self.digest_topic_history,
                     "recent_alerts": self.recent_alerts,
                     "source_status": self.source_status,
                 },
@@ -123,6 +129,20 @@ class State:
             "ts": time.time(),
         }
 
+    def add_digest_history(self, topics: list) -> None:
+        """Zaznamená nadpisy zobrazených tém — vstup pre budúcu syntézu, aby
+        vedela rozpoznať a nevracať tú istú (nevyvíjajúcu sa) tému opakovane."""
+        now = time.time()
+        for t in topics:
+            self.digest_topic_history.append({"headline": t.headline, "ts": now})
+
+    def recent_digest_headlines(self, hours: float) -> list[str]:
+        cutoff = time.time() - hours * 3600
+        return [
+            h["headline"] for h in self.digest_topic_history
+            if float(h.get("ts", 0)) >= cutoff
+        ]
+
     def add_alerts(self, alerts: list, model: str) -> None:
         now = time.time()
         for a in alerts:
@@ -158,6 +178,12 @@ class State:
         acutoff = time.time() - 7 * 24 * 3600
         self.recent_alerts = [
             a for a in self.recent_alerts if float(a.get("ts", 0)) >= acutoff
+        ]
+        # História tém pre rotáciu: 4h stačí (viac než dosť pri syntéze
+        # každých 15-30 min) — staršie by len zbytočne rástli súbor.
+        dcutoff = time.time() - 4 * 3600
+        self.digest_topic_history = [
+            h for h in self.digest_topic_history if float(h.get("ts", 0)) >= dcutoff
         ]
 
     # -- Meta --------------------------------------------------------------

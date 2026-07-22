@@ -229,14 +229,36 @@ VÝHRADNE informácie z dodaných titulkov a perexov. Žiadne domýšľanie fakt
 ani mien. Ak titulky protirečia, drž sa opatrnejšej formulácie.
    - "links": 1-2 najreprezentatívnejšie linky k téme z dodaného zoznamu
 
+DÔLEŽITÉ — rotácia proti opakovaniu: dostaneš aj zoznam TÉM, ktoré redakcia už \
+videla v predchádzajúcich prehľadoch za posledné hodiny (sekcia "Už zobrazené témy" \
+nižšie). Ak niektorá z aktuálnych tém v tomto zozname JE ZJAVNE PRÍTOMNÁ a nedodáva \
+zásadne nový vývoj (nie je tam potvrdenie, eskalácia, zásadný nový detail oproti \
+tomu, čo redakcia už videla), NEZARAĎ ju znova — uvoľni miesto pre inú, doteraz \
+neukázanú tému, aj keby bola objektívne menej významná. Výnimka: ak je téma stále \
+najvýznamnejšou udalosťou dňa A prináša skutočne nový, zásadný vývoj (nie len ďalší \
+článok o tom istom), môže zostať — ale sformuluj nadpis/perex tak, aby jasne \
+odrážal TENTO nový vývoj, nie opakovanie predošlého stavu.
+
 Zoraď témy od najdôležitejšej. Buď stručný — každá téma má byť kompaktná, nie \
 esej. Odpovedz IBA validným JSON bez ďalšieho textu:
 {"topics": [{"headline": "...", "perex": "...", "links": ["..."]}]}"""
 
 
-def synthesize(articles: list[dict]) -> tuple[list[Topic], str]:
-    """Vráti (témy, použitý_model). Môže vyhodiť AllModelsFailed."""
+def synthesize(
+    articles: list[dict], already_featured: list[str] | None = None
+) -> tuple[list[Topic], str]:
+    """
+    Vráti (témy, použitý_model). Môže vyhodiť AllModelsFailed.
+
+    already_featured: nadpisy tém z predchádzajúcich prehľadov (napr.
+    state.recent_digest_headlines(4)) — pomáha modelu rozpoznať a nevracať
+    tú istú, nevyvíjajúcu sa tému opakovane naprieč cyklami syntézy.
+    """
     user = "Články za posledné hodiny:\n\n" + _fmt_articles(articles)
+    if already_featured:
+        user += "\n\nUž zobrazené témy za posledné hodiny (nevracaj ich znova, "
+        user += "ibaže by prinášali zásadne nový vývoj):\n"
+        user += "\n".join(f"- {h}" for h in already_featured)
     text, model = router.generate(_SYNTHESIS_SYSTEM, user, max_tokens=4096)
     # Spätné priradenie link → názov zdroja z pôvodných vstupných článkov —
     # spoľahlivejšie než nechať model vracať/hádať mená zdrojov.
