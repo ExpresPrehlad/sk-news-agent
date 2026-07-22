@@ -30,6 +30,34 @@ _EMBED_COLOR_RAW = 0x95A5A6     # sivá — nenápadný surový feed
 _EMBED_COLOR_ERROR = 0xE74C3C   # červená — chybové hlásenia
 _MAX_EMBEDS_PER_MSG = 10
 _MAX_DESC_LEN = 2048
+# Discord limit: súčet všetkých znakov (title+description+...) naprieč
+# VŠETKÝMI embedmi v jednej správe nesmie prekročiť 6000 — inak 400 Bad
+# Request na celý payload. Rezerva 5500 pod limitom pre istotu.
+_MAX_TOTAL_CHARS_PER_MSG = 5500
+
+
+def _chunk_embeds(embeds: list[dict]) -> list[list[dict]]:
+    """
+    Rozdelí embedy do správ tak, aby žiadna neprekročila ani počet 10, ani
+    súčet 6000 znakov. Osamotený embed nad limitom sa pošle sám (najlepšie
+    možné pri jeho vlastnej veľkosti — vyššie sme ho už orezali na 2048).
+    """
+    chunks: list[list[dict]] = []
+    current: list[dict] = []
+    current_chars = 0
+    for e in embeds:
+        e_chars = len(e.get("title", "")) + len(e.get("description", ""))
+        if current and (
+            len(current) >= _MAX_EMBEDS_PER_MSG
+            or current_chars + e_chars > _MAX_TOTAL_CHARS_PER_MSG
+        ):
+            chunks.append(current)
+            current, current_chars = [], 0
+        current.append(e)
+        current_chars += e_chars
+    if current:
+        chunks.append(current)
+    return chunks
 
 
 def _post(webhook_url: str, payload: dict) -> bool:
@@ -97,12 +125,12 @@ def send_raw_feed(webhook_url: str, articles: list[Article]) -> bool:
     if skipped:
         header += f" · ⚠️ {skipped} položiek vynechaných (prvý beh / dobiehanie)"
 
+    chunks = _chunk_embeds(embeds)
     ok = True
-    for i in range(0, len(embeds), _MAX_EMBEDS_PER_MSG):
-        chunk = embeds[i : i + _MAX_EMBEDS_PER_MSG]
+    for i, chunk in enumerate(chunks):
         payload = {"content": header if i == 0 else "", "embeds": chunk}
         ok = _post(webhook_url, payload) and ok
-        if i + _MAX_EMBEDS_PER_MSG < len(embeds):
+        if i < len(chunks) - 1:
             time.sleep(1.0)  # ohľaduplnosť k webhook rate limitu
     return ok
 
@@ -169,15 +197,15 @@ def send_digest(webhook_url: str, topics, model: str) -> bool:
             }
         )
 
+    chunks = _chunk_embeds(embeds)
     ok = True
-    for i in range(0, len(embeds), _MAX_EMBEDS_PER_MSG):
-        chunk = embeds[i : i + _MAX_EMBEDS_PER_MSG]
+    for i, chunk in enumerate(chunks):
         payload = {
             "content": f"📰 **Prehľad hlavných tém** · {now}" if i == 0 else "",
             "embeds": chunk,
         }
         ok = _post(webhook_url, payload) and ok
-        if i + _MAX_EMBEDS_PER_MSG < len(embeds):
+        if i < len(chunks) - 1:
             time.sleep(1.0)
     if ok:
         _post(webhook_url, {"content": f"-# syntéza: {model}"})
