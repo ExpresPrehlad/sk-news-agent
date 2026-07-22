@@ -25,7 +25,6 @@ import time
 from src import gha_summary
 from src.collector.rss import fetch_all
 from src.config import (
-    ACTIVE_HOURS_TZ,
     GEMINI_API_KEY,
     OPENROUTER_API_KEY,
     SOURCES,
