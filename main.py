@@ -78,8 +78,18 @@ def check_feeds() -> int:
 
 def _run_triage(state: State, discord: DiscordConfig, new_articles: list[dict]) -> str:
     """Best-effort triáž nových článkov → #alerty. Vráti stručný status."""
+    # Kontext pre rozpoznanie oneskorených duplicít: nedávno pokryté témy
+    # (posledných 6 h), okrem samotných práve triedených nových článkov.
+    # Orezané na 80 najčerstvejších — nech kontext zbytočne nenafukuje
+    # token rozpočet pri vysokom objeme.
+    new_links = {a["l"] for a in new_articles}
+    recent = [r for r in state.recent_window(6) if r.get("l") not in new_links]
+    recent.sort(key=lambda r: float(r.get("ts", 0)), reverse=True)
+    known_context = [
+        {"s": r["s"], "t": r["t"]} for r in recent[:80]
+    ]
     try:
-        alerts, model = triage(new_articles)
+        alerts, model = triage(new_articles, known_context)
     except AllModelsFailed as exc:
         log.error("Triáž: celá LLM reťaz zlyhala: %s", exc)
         _report_llm_outage(state, discord, "triáž", str(exc))

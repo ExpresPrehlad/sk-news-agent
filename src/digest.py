@@ -3,9 +3,8 @@ Digest logika Vrstvy 2: triáž (alerty) a syntéza (prehľad TOP tém).
 
 Zásady:
 - Prompty sú v slovenčine a žiadajú STRIKTNE JSON výstup — parsovanie je
-  defenzívne (code fences, šum okolo JSON, useknutý výstup pri dosiahnutí
-  max_tokens), lebo slabšie fallback modely nie vždy dodržia formát alebo
-  limit.
+  defenzívne (code fences, šum okolo JSON), lebo slabšie fallback modely
+  nie vždy dodržia formát.
 - Model NIKDY nedostáva pokyn vymýšľať fakty — pracuje výhradne s dodanými
   titulkami/perexami. Ak si nie je istý, má tému vynechať.
 - Triáž má vysoký prah: radšej žiadny alert než falošný poplach —
@@ -131,6 +130,14 @@ Mimoriadna správa NIE JE: bežná politická výmena názorov, šport, počasie
 extrémov s obeťami), kultúra, ekonomické štatistiky, pokračovanie známej kauzy bez \
 zásadného posunu.
 
+DÔLEŽITÉ — kontrola duplicity: dostaneš aj zoznam TÉM, ktoré médiá už pokrývali za \
+posledné hodiny (sekcia "Už pokryté témy" nižšie — je to len kontext na porovnanie, \
+NEPOSUDZUJ tieto položky samotné). Ak niektorý z ČERSTVÝCH titulkov opisuje udalosť, \
+ktorá je v tomto kontexte zjavne už prítomná (iný zdroj o nej už písal skôr), \
+NEOZNAČUJ ju ako mimoriadnu — ide len o oneskorený duplicitný článok, nie o novú \
+informáciu pre redakciu. Označ ju len vtedy, ak prináša zásadne NOVÝ vývoj (potvrdenie, \
+ďalšia eskalácia, zásadný nový detail), ktorý v už pokrytom kontexte chýba.
+
 Pracuj VÝHRADNE s dodanými titulkami. Nič si nedomýšľaj. Ak si nie si istý, tému \
 NEZARAĎ — falošný poplach je horší než ticho (redakcia vidí všetky titulky aj tak).
 
@@ -139,9 +146,26 @@ Odpovedz IBA validným JSON bez akéhokoľvek ďalšieho textu, v tvare:
 Ak nič mimoriadne nie je (najčastejší prípad), vráť: {"alerts": []}"""
 
 
-def triage(new_articles: list[dict]) -> tuple[list[Alert], str]:
-    """Vráti (alerty, použitý_model). Môže vyhodiť AllModelsFailed."""
+def _fmt_context_titles(articles: list[dict]) -> str:
+    """Kompaktný formát pre 'už pokryté témy' — len zdroj + titulok, bez
+    liniek/perexov, aby kontext zbytočne nenafukoval token rozpočet."""
+    return "\n".join(f"- [{a['s']}] {a['t']}" for a in articles)
+
+
+def triage(
+    new_articles: list[dict], known_context: list[dict] | None = None
+) -> tuple[list[Alert], str]:
+    """
+    Vráti (alerty, použitý_model). Môže vyhodiť AllModelsFailed.
+
+    known_context: nedávno pokryté témy (napr. state.recent_window(6)) —
+    pomáha modelu rozpoznať oneskorené duplicity a nepovažovať ich za
+    mimoriadne len preto, že sú nové z pohľadu nášho dedup systému.
+    """
     user = "Čerstvé titulky:\n\n" + _fmt_articles(new_articles)
+    if known_context:
+        user += "\n\nUž pokryté témy za posledné hodiny (kontext, neposudzuj tieto):\n"
+        user += _fmt_context_titles(known_context)
     text, model = router.generate(_TRIAGE_SYSTEM, user, max_tokens=1024)
     try:
         data = _parse_llm_json(text, "alerts")
