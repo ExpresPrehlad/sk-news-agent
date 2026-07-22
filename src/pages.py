@@ -16,14 +16,18 @@ from __future__ import annotations
 import os
 from datetime import datetime, timezone
 from html import escape
+from zoneinfo import ZoneInfo
+
+from .config import ACTIVE_HOURS_TZ
 
 _OUTPUT_PATH = "docs/index.html"
 
 _REFRESH_SECONDS = 180  # auto-reload — stránka sa dá nechať otvorenú v redakcii
+_LOCAL_TZ = ZoneInfo(ACTIVE_HOURS_TZ)
 
 
 def _fmt_time(ts: float) -> str:
-    return datetime.fromtimestamp(ts, tz=timezone.utc).astimezone().strftime("%H:%M · %d.%m.%Y")
+    return datetime.fromtimestamp(ts, tz=timezone.utc).astimezone(_LOCAL_TZ).strftime("%H:%M · %d.%m.%Y")
 
 
 def _ago(ts: float) -> str:
@@ -61,8 +65,8 @@ def _render_topics(digest: dict) -> str:
     cards = []
     for i, t in enumerate(topics, start=1):
         links = "".join(
-            f'<a href="{escape(link)}" target="_blank" rel="noopener">zdroj →</a>'
-            for link in t.get("links", [])[:2]
+            f'<a href="{escape(url)}" target="_blank" rel="noopener">{escape(source)} →</a>'
+            for source, url in t.get("links", [])[:2]
         )
         cards.append(
             f'<article class="topic">'
@@ -209,7 +213,7 @@ footer { max-width: 1100px; margin: 0 auto; padding: 20px 24px 40px;
 
 def build_html(state) -> str:
     now = datetime.now(timezone.utc)
-    now_str = now.astimezone().strftime("%H:%M:%S · %d.%m.%Y")
+    now_str = now.astimezone(_LOCAL_TZ).strftime("%H:%M:%S · %d.%m.%Y")
     generated_ts_ms = int(now.timestamp() * 1000)
     alerts_flash = _render_alert_flash(state.recent_alerts_window(3))
     topics_html = _render_topics(state.last_digest)

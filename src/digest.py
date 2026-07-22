@@ -39,7 +39,33 @@ class Alert:
 class Topic:
     headline: str      # chytľavý nadpis
     perex: str         # 2-3 vety, žurnalistický štýl
-    links: list[str]
+    links: list[tuple[str, str]]  # (názov zdroja, url)
+
+
+# Fallback mapovanie domény → zobrazované meno, pre prípad, že model vráti
+# link, ktorý sa presne nezhoduje so vstupným zoznamom (napr. drobná úprava
+# URL) — primárna cesta je vždy priame priradenie k vstupným článkom.
+_DOMAIN_LABELS: dict[str, str] = {
+    "aktuality.sk": "Aktuality",
+    "dennikn.sk": "Denník N",
+    "pravda.sk": "Pravda",
+    "hnonline.sk": "HN",
+    "teraz.sk": "Teraz.sk",
+    "tnlive.sk": "TN Live",
+    "ta3.com": "TA3",
+    "noviny.sk": "Noviny.sk",
+    "sme.sk": "SME",
+    "news.google.com": "Google News",
+}
+
+
+def _domain_label(url: str) -> str:
+    from urllib.parse import urlparse
+    host = urlparse(url).netloc.lower().removeprefix("www.")
+    for domain, label in _DOMAIN_LABELS.items():
+        if host == domain or host.endswith("." + domain):
+            return label
+    return "zdroj"
 
 
 # ---------------------------------------------------------------------------
@@ -212,17 +238,27 @@ def synthesize(articles: list[dict]) -> tuple[list[Topic], str]:
     """Vráti (témy, použitý_model). Môže vyhodiť AllModelsFailed."""
     user = "Články za posledné hodiny:\n\n" + _fmt_articles(articles)
     text, model = router.generate(_SYNTHESIS_SYSTEM, user, max_tokens=4096)
+    # Spätné priradenie link → názov zdroja z pôvodných vstupných článkov —
+    # spoľahlivejšie než nechať model vracať/hádať mená zdrojov.
+    link_to_source = {a["l"]: a["s"] for a in articles}
     try:
         data = _parse_llm_json(text, "topics")
-        topics = [
-            Topic(
-                headline=str(t.get("headline", ""))[:120],
-                perex=str(t.get("perex", ""))[:600],
-                links=[str(x) for x in (t.get("links") or [])][:3],
+        topics = []
+        for t in data.get("topics", []):
+            if not (t.get("headline") and t.get("perex")):
+                continue
+            raw_links = [str(x) for x in (t.get("links") or [])][:3]
+            links = [
+                (link_to_source.get(link) or _domain_label(link), link)
+                for link in raw_links
+            ]
+            topics.append(
+                Topic(
+                    headline=str(t["headline"])[:120],
+                    perex=str(t["perex"])[:600],
+                    links=links,
+                )
             )
-            for t in data.get("topics", [])
-            if t.get("headline") and t.get("perex")
-        ]
     except (ValueError, json.JSONDecodeError, AttributeError, TypeError) as exc:
         log.warning("Syntéza: neparsovateľná odpoveď z %s: %s", model, exc)
         raise AllModelsFailed([f"{model}: neparsovateľný JSON výstup"]) from exc

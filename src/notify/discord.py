@@ -188,7 +188,7 @@ def send_digest(webhook_url: str, topics, model: str) -> bool:
     for i, t in enumerate(topics, start=1):
         desc = t.perex
         if t.links:
-            desc += "\n" + "\n".join(f"🔗 {link}" for link in t.links)
+            desc += "\n" + "\n".join(f"🔗 {source}: {url}" for source, url in t.links)
         embeds.append(
             {
                 "title": f"{i}. {_truncate(t.headline, 250)}",
