@@ -1,46 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Matúš Oľha odstúpil z postu predsedu Rady Fondu na podporu umenia",
-      "ts": 1784794240.2545226
-    },
-    {
-      "headline": "V Kongu sa šíri ebola, počet obetí presiahol tisíc ľudí",
-      "ts": 1784794240.2545226
-    },
-    {
-      "headline": "Obce môžu získať širšie právomoci pri zdaňovaní nehnuteľností",
-      "ts": 1784794240.2545226
-    },
-    {
-      "headline": "Zmena v zbrojnom kontrakte: Česko sa pridá k dohode Kaliňáka so Strnadom",
-      "ts": 1784794240.2545226
-    },
-    {
-      "headline": "KDH kritizuje vedenie Slovenskej pošty za údajné šikanovanie zamestnancov",
-      "ts": 1784794240.2545226
-    },
-    {
-      "headline": "Matúš Oľha odstupuje z postu predsedu Rady Fondu na podporu umenia",
-      "ts": 1784795735.2891989
-    },
-    {
-      "headline": "USA a Saudská Arábia uzavreli pakt o jadrovej energetike",
-      "ts": 1784795735.2891989
-    },
-    {
-      "headline": "Tragický požiar bytu v Šuranoch si vyžiadal jednu obeť",
-      "ts": 1784795735.2891989
-    },
-    {
-      "headline": "KDH odmieta zápis manželstiev osôb rovnakého pohlavia",
-      "ts": 1784795735.2891989
-    },
-    {
-      "headline": "Kia od pondelka dočasne zastaví výrobu",
-      "ts": 1784795735.2891989
-    },
-    {
       "headline": "USA posilňujú vojenskú prítomnosť na Blízkom východe",
       "ts": 1784796938.2980597
     },
@@ -223,24 +183,54 @@
     {
       "headline": "Tragický výbuch na trhovisku Miletičova si vyžiadal zranených",
       "ts": 1784808639.4833338
+    },
+    {
+      "headline": "Autor projektu Šiškáči odmietne dotáciu od Fondu na podporu umenia",
+      "ts": 1784810145.9878156
+    },
+    {
+      "headline": "Protesty v Albánsku proti hotelu spojenému s rodinou Trumpovcov",
+      "ts": 1784810145.9878156
+    },
+    {
+      "headline": "Súd zrušil odvolanie policajného viceprezidenta Kišša",
+      "ts": 1784810145.9878156
+    },
+    {
+      "headline": "Útok na tanker v Čiernom mori si vyžiadal prvú obeť",
+      "ts": 1784810145.9878156
+    },
+    {
+      "headline": "Bratislava podala rozklad proti spaľovni Slovnaftu",
+      "ts": 1784810145.9878156
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "V Česku sa zrútil vojenský vrtuľník, na palube bolo päť vojakov",
+        "headline": "Autor projektu Šiškáči odmietne dotáciu od Fondu na podporu umenia",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/35Y8qyE/v-cesku-za-zrutil-armadny-vrtulnik-bolo-v-nom-pat-vojakov/"
-          ],
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1237559-v-cesku-sa-zrutil-armadny-vrtulnik-venom-na-palube-bolo-paet-vojakov"
+            "https://www.aktuality.sk/clanok/rTnZlPy/zvrat-v-kauze-siskaci-autor-knihy-odmietne-40-tisicovu-dotaciu-od-fpu-netaji-sa-pracou-s-umelou-inteligenciou/"
           ]
         ],
-        "perex": "Na vojenskej základni v českom meste Náměšť nad Oslavou došlo k pádu armádneho stroja typu Venom. Na mieste nehody zasahujú všetky záchranné zložky, bližšie informácie o stave posádky zatiaľ nie sú známe."
+        "perex": "Jozef Šiška sa rozhodol vzdať pridelenej dotácie vo výške 40-tisíc eur po vlne kritiky, ktorá sa vzniesla na projekt. Autor zároveň otvorene priznal, že pri tvorbe diela využíval nástroje umelej inteligencie."
+      },
+      {
+        "headline": "Protesty v Albánsku proti hotelu spojenému s rodinou Trumpovcov",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/F5iLAF1/policia-v-albansku-zasahovala-proti-demonstrantom-protestujucim-proti-vystavbe-hotela/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/projekt-spojeny-s-rodinou-trumpovcov-uz-sposobil-nenapravitelne-skody-tvrdia-albanske-mimovladky"
+          ]
+        ],
+        "perex": "V Tirane došlo k rozsiahlym zrážkam medzi políciou a demonštrantmi, ktorí bránia prírodnú rezerváciu pred výstavbou luxusného hotela. Projekt je podľa miestnych mimovládnych organizácií prepojený s rodinou Donalda Trumpa a spôsobil nenapraviteľné škody."
       },
       {
         "headline": "Súd zrušil odvolanie policajného viceprezidenta Kišša",
@@ -254,237 +244,39 @@
             "https://www.sme.sk/domov/c/sutaj-estok-prehral-dalsi-spor-viceprezidenta-policie-podla-sudu-odvolal-nezakonne"
           ]
         ],
-        "perex": "Správny súd v Bratislave rozhodol, že odvolanie Branka Kišša z funkcie viceprezidenta Policajného zboru bolo nezákonné. Minister vnútra Matúš Šutaj Eštok tak utrpel ďalšiu právnu porážku v sporoch s bývalým vedením polície."
+        "perex": "Správny súd v Bratislave rozhodol, že minister vnútra Matúš Šutaj Eštok odvolal Branka Kišša z funkcie nezákonne. Rezort vnútra v spore s takzvanými čurillovcami utrpel ďalšiu právnu porážku."
       },
       {
-        "headline": "Európska komisia udelila Googlu pokuty za zneužívanie trhu",
+        "headline": "Útok na tanker v Čiernom mori si vyžiadal prvú obeť",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/1RuEV0P/europska-komisia-udelila-googlu-pokuty-vo-vyske-890-milionov-eur-za-porusenie-pravidiel-digitalneho-trhu/"
-          ],
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1237548-europska-komisia-udelila-googlu-pokuty-za-miliardy-porusil-pravidla-dma"
+            "https://www.aktuality.sk/clanok/Vw45yRM/namornik-zraneny-pri-utoku-na-tanker-v-ciernom-mori-zomrel-rumunske-ministerstvo-potvrdilo-prvu-obet/"
           ]
         ],
-        "perex": "Brusel uložil technologickému gigantu pokuty v celkovej výške 890 miliónov eur za porušenie pravidiel digitálneho trhu. Komisia firme vyčíta najmä nekalé zvýhodňovanie vlastných služieb vo vyhľadávaní."
+        "perex": "Filipínsky námorník podľahol zraneniam po útoku na tanker Gas Lisbon v Čiernom mori. Rumunské úrady potvrdili úmrtie a pokračujú vo vyšetrovaní pôvodcu zásahu."
       },
       {
-        "headline": "EÚ schválila 21. balík sankcií proti Rusku",
+        "headline": "Bratislava podala rozklad proti spaľovni Slovnaftu",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/eTxCCuF/europska-unia-sa-dohodla-na-novom-baliku-sankcii-proti-rusku-v-porovnani-s-navrhom-komisie-budu-miernejsie/"
-          ],
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1237423-eu-sa-dohodla-na-21-baliku-sankcii-proti-rusku-opatrenia-budu-miernejsie-nez-sa-planovalo"
+            "https://www.aktuality.sk/clanok/s5oEhNw/bratislava-podava-rozklad-proti-rozhodnutiu-pri-projekte-spalovni-slovnaftu/"
           ]
         ],
-        "perex": "Členské štáty Európskej únie sa dohodli na novom balíku reštriktívnych opatrení, ktoré cielia na ruské banky, ropný sektor a tieňovú flotilu. Prijaté opatrenia sú však v konečnej verzii miernejšie, než pôvodne navrhovala Európska komisia."
-      },
-      {
-        "headline": "Tragický výbuch na trhovisku Miletičova si vyžiadal zranených",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/bratislava/c/v-jednom-zo-stankov-na-mileticovej-vybuchol-plyn"
-          ],
-          [
-            "TN Live",
-            "https://tnlive.sk/domace/clanok/1042322-vybuch-na-trhovisku-mileticova-styria-ludia-utrpeli-popaleniny"
-          ]
-        ],
-        "perex": "Na bratislavskom trhovisku došlo k výbuchu propán-butánovej fľaše v stánku s občerstvením. Incident si vyžiadal štyroch zranených, ktorí utrpeli popáleniny, a okolie miesta bolo dočasne uzavreté."
+        "perex": "Hlavné mesto nesúhlasí s verdiktom ministerstva životného prostredia k posudzovaniu vplyvov projektu spaľovne CEZO. Magistrát tvrdí, že rezort ignoroval ich pripomienky a žiada opakovanie konania."
       }
     ],
-    "ts": 1784808639.4833236
+    "ts": 1784810145.9878051
   },
   "meta": {
-    "last_collection_ts": 1784808634.4534774,
+    "last_collection_ts": 1784810139.2769566,
     "last_feed_error_ts": 1784800539.5690527,
     "last_llm_error_ts": 1784642656.705458,
-    "last_run_ts": 1784808634.8960812,
-    "last_synthesis_ts": 1784808639.4833157
+    "last_run_ts": 1784810140.7820442,
+    "last_synthesis_ts": 1784810145.9877892
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/index/c/urad-pre-dohlad-zatial-nedostal-ziadost-suvisiacu-s-kupou-unionu-doverou?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "V prípade doručenia žiadosti bude úrad postupovať v zmysle zákona.",
-      "s": "SME",
-      "t": "Úrad pre dohľad zatiaľ nedostal žiadosť súvisiacu s kúpou Unionu Dôverou",
-      "ts": 1784722245.0844586,
-      "u": "ef1868f4e3a4e22f4119"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/holandsko-celi-novemu-fenomenu-pribudaju-ekonomicki-bezdomovci?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Bytová kríza vytvorila novú a rastúcu skupinu bezdomovcov",
-      "s": "SME",
-      "t": "Holandsko čelí novému fenoménu, pribúdajú ekonomickí bezdomovci",
-      "ts": 1784722245.084462,
-      "u": "7696972a57acd135f56a"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/lotysska-armada-pouzila-slzotvorny-plyn-proti-migrantom-z-bieloruska?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Počet migrantov snažiacich sa vstúpiť na lotyšské územie z Bieloruska sa v poslednom období zdvojnásobil.",
-      "s": "SME",
-      "t": "Lotyšská armáda použila slzotvorný plyn proti migrantom z Bieloruska",
-      "ts": 1784722245.0844631,
-      "u": "3309bbcf52d7424cafd5"
-    },
-    {
-      "l": "https://www.sme.sk/vysoke-skoly/c/na-vysoku-skolu-sa-mozete-prihlasit-aj-v-lete-dajte-si-pozor-na-terminy-a-podmienky-prijatia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Univerzity v lete spúšťajú 2. kolo.",
-      "s": "SME",
-      "t": "Na vysokú školu sa môžete prihlásiť aj v lete. Dajte si pozor na termíny a podmienky prijatia.",
-      "ts": 1784722245.084464,
-      "u": "d053719d8e44523992e6"
-    },
-    {
-      "l": "https://www.sme.sk/index/c/elektrarne-uviedli-do-prevadzky-najvacsie-bateriove-ulozisko-na-slovensku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Nováky sa stali domovom najväčšieho batériového úložiska na Slovensku.",
-      "s": "SME",
-      "t": "Elektrárne uviedli do prevádzky najväčšie batériové úložisko na Slovensku",
-      "ts": 1784722245.0844657,
-      "u": "5ff72fd29b6e65fd79c8"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmU0cWZjdTRLR3FYYkc5Wlh1eWpXZ2JrN1gwWjg0a3N6My11WC1CMjhjZVpwTHdpeE1LOFBVbUJZVkctNkFKRUFWbHFqUmNLczhHUGR6dHJNRjJpaXZRYnlBMXFYbVRxa2VJX2lqMC1fUmh6bDBCeHdnVkZsX2tZWkRaRWJFUFcwS05pZ29YSXNFR2pu?oc=5",
-      "p": "Dobré ráno: Drahé autá, život v Dubaji. Ako vyzerá temná stránka finfluencerstva?&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Dobré ráno: Drahé autá, život v Dubaji. Ako vyzerá temná stránka finfluencerstva? - SME.sk",
-      "ts": 1784722245.0844667,
-      "u": "87ab63972376cdc42d35"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/BbkMzZO/konci-general-masiar-ktory-zachranil-kyjev-ukrajina-chce-rychlo-stabilizovat-protesty-videopodcast/",
-      "p": "Ukrajinský prezident včera odvolal veliteľa armády Oleksandra Syrského. Tento legendárny generál bol za mnohými ukrajinskými vojenskými úspechmi, no aj za konfliktom, ktorý spôsobil protesty v ukrajinských uliciach. Tie vznikli ako reakcia na odvolanie ministra obrany Michajla Fedorova, Syrského kri",
-      "s": "Aktuality",
-      "t": "Končí generál-mäsiar, ktorý zachránil Kyjev. Ukrajina chce rýchlo stabilizovať protesty (videopodcast)",
-      "ts": 1784722245.084469,
-      "u": "fa452a4b09ef97ec2a36"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/HBvRB28/usmrtenie-cyklistu-pri-bratislave-policia-vypatrala-podozriveho-mladika/",
-      "p": "Cyklista sa po zrážke s autom pri Čunove pomoci od vodiča nedočkal a zomrel na ceste.",
-      "s": "Aktuality",
-      "t": "Usmrtenie cyklistu pri Bratislave: Polícia vypátrala podozrivého mladíka",
-      "ts": 1784722245.08447,
-      "u": "b3291f61b8294b59c876"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2011597-koniec-patrania-po-tragedii-pri-cunove-policia-nasla-hladaneho-muza?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Polícia ukončila pátranie po mužovi, ktorého hľadala v súvislosti s pondelkovou tragickou nehodou pri Vodnom diele Čunovo.",
-      "s": "Pravda",
-      "t": "Koniec pátrania po tragédii pri Čunove. Polícia našla hľadaného muža",
-      "ts": 1784722245.0844707,
-      "u": "57516d38ae321a097b20"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1237161-dvojrocny-chlapec-cestoval-sam-vlakom-z-bratislavy-do-trnavy-mama-nestihla-nastupit",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Dvojročný chlapec cestoval sám vlakom z Bratislavy do Trnavy. Mama nestihla nastúpiť",
-      "ts": 1784722245.0844724,
-      "u": "6f8daaea7845e0edd528"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1236551-breznevov-pravnuk-prehovoril-zo-zajatia-tvrdili-nam-ze-nas-ukrajinci-rozrezu-zaziva",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Brežnevov pravnuk prehovoril zo zajatia: Tvrdili nám, že nás Ukrajinci rozrežú zaživa",
-      "ts": 1784722245.0844736,
-      "u": "1a81fb46033e5a5e5bf6"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/madarsky-generalny-prokurator-odstupil-uviedol-ze-prokuratura-nemoze-sluzit-ako-nastroj-politickeho-boja?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Skončiť vo funkcii chce k 25. augustu.",
-      "s": "SME",
-      "t": "Maďarský generálny prokurátor odstupuje. Prokuratúra nemôže slúžiť ako nástroj politického boja, vyhlásil",
-      "ts": 1784723737.2271357,
-      "u": "2b77384af70230cfa104"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/unia-obnovi-vynimku-ktora-umozni-kontrolovat-sukromne-spravy-s-cielom-odhalovat-zneuzivania-deti?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Európsky parlament schválil obnovenie výnimky pred necelými dvoma týždňami.",
-      "s": "SME",
-      "t": "Únia obnoví výnimku, ktorá umožní kontrolovať súkromné správy s cieľom odhaľovať zneužívania detí",
-      "ts": 1784723737.2271395,
-      "u": "5b9384255b49350b5f9f"
-    },
-    {
-      "l": "https://www.sme.sk/index/c/dolne-sasko-povolilo-kontroverzny-rusko-francuzsky-jadrovy-projekt-kritici-vidia-riziko-pre-bezpecnost?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Výroba má prebiehať v meste Lingen.",
-      "s": "SME",
-      "t": "Dolné Sasko povolilo kontroverzný rusko-francúzsky jadrový projekt, kritici vidia riziko pre bezpečnosť",
-      "ts": 1784723737.2271414,
-      "u": "1e617ca8f5227afd98de"
-    },
-    {
-      "l": "https://www.sme.sk/index/c/chorvati-to-extremne-prehnali-s-cenami-uz-nevedia-co-by-pytali-rozhovor?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zátoky, v ktorých kedysi nikto nekotvil, sú preplnené, hovorí Jaroslav Žídek.",
-      "s": "SME",
-      "t": "Chorváti to extrémne prehnali s cenami. Už nevedia, čo by pýtali (rozhovor)",
-      "ts": 1784723737.2271428,
-      "u": "36ca6a393a03bf5180d0"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/xhRYKae/madarsky-generalny-prokurator-gabor-balint-odstupuje-z-funkcie/",
-      "p": "Oznámenie o rezignácií odovzdal súčasnej prezidentke. K nemu napísal, že prokuratúra nemá byť nástrojom politického boja.",
-      "s": "Aktuality",
-      "t": "Maďarský generálny prokurátor Gábor Bálint odstupuje z funkcie",
-      "ts": 1784723737.2271442,
-      "u": "4c91156a960740bf78e6"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/EumUZDX/eu-obnovuje-vynimku-pre-kontrolu-sprav-na-internete-cielom-je-boj-proti-detskej-pornografii/",
-      "p": "Spoločnosti môžu dobrovoľne kontrolovať správy na odhaľovanie zneužívania detí. Rozhodnutie musia ešte formálne potvrdiť.",
-      "s": "Aktuality",
-      "t": "EÚ obnovuje výnimku pre kontrolu správ na internete, cieľom je boj proti detskej pornografii",
-      "ts": 1784723737.227146,
-      "u": "98f2d2bca22af1fc997b"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/smnu6gb/vlna-horucav-paralyzovala-maltu-rekordne-teploty-sposobili-rozsiahly-vypadok-elektriny-v-hlavnom-meste/",
-      "p": "Vallettu a ďalšie časti Malty zasiahlo plošné zlyhanie elektriny uprostred vlny horúčav. Rekordné teploty odhalili slabiny distribučnej siete štátu.",
-      "s": "Aktuality",
-      "t": "Vlna horúčav paralyzovala Maltu. Rekordné teploty spôsobili rozsiahly výpadok elektriny v hlavnom meste",
-      "ts": 1784723737.2271473,
-      "u": "8d376f078dc263f43fa9"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2011613-matus-olha-fpu-rokovanie-novinari-utek-odchod?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Rokovanie Rady Fondu na podporu umenia sprevádzali spory o prítomnosť médií. Po jeho skončení predseda rady Matúš Oľha odmietol odpovedať na otázky novinárov a pri rýchlom odchode, ktorý zachytilo video, takmer spadol.",
-      "s": "Pravda",
-      "t": "\"Ste v poriadku?\". Predseda Rady FPU utekal pred novinármi, takmer pritom spadol",
-      "ts": 1784723737.2271488,
-      "u": "1b8414236564d9fcbece"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/reziser-filmu-general-goliannetocil/979677-clanok.html",
-      "p": "Film Generál Golian prinesie do kín distribučná spoločnosť CinemArt SK od 8. októbra.",
-      "s": "Teraz.sk",
-      "t": "Režisér filmu Generál Golian:Netočili sme žiaden chladný heroický epos",
-      "ts": 1784723737.2271497,
-      "u": "40ef6c62c3708b579374"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/rezort-zahranicia-upozornuje-na-plano/979675-clanok.html",
-      "p": "Všetky cestovné odporúčania sú zverejnené na webovej stránke ministerstva v časti Cestovanie, ako aj na stránkach zastupiteľských úradov v časti Cestovanie/Oznamy a upozornenia pred cestou.",
-      "s": "Teraz.sk",
-      "t": "Rezort zahraničia upozorňuje na plánované štrajky v Taliansku",
-      "ts": 1784723737.2271516,
-      "u": "ff1c0a8cdfe7dce0ba54"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/uradu-zatial-nebola-dorucena-ziados/979673-clanok.html",
-      "p": "Podľa šéfov zdravotných poisťovní Martina Kultana (Dôvera) a Michala Špaňára (Union ZP) by mohlo prísť vyjadrenie potrebných úradov v horizonte niekoľkých mesiacov.",
-      "s": "Teraz.sk",
-      "t": "Úradu zatiaľ nebola doručená žiadosť súvisiaca s kúpou Unionu Dôverou",
-      "ts": 1784723737.2271528,
-      "u": "bde75d799af8ea415486"
-    },
     {
       "l": "https://www.sme.sk/tech/c/stredomorie-sa-prehrieva-koraly-ubudaju-a-straty-hlasia-aj-rybari?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Rekordné teploty Stredozemného mora vytvárajú tlak na morské ekosystémy aj pobrežné komunity.",
@@ -4332,6 +4124,78 @@
       "t": "Brutálny útok v nákupnom centre: Muž dobodal ženu a následne ju podpálil",
       "ts": 1784808634.8960805,
       "u": "555d3fb95dbb8a3862e9"
+    },
+    {
+      "l": "https://www.sme.sk/bratislava/c/centralna-cast-namestia-snp-a-juh-postovej-ulice-maju-novu-podobu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Prvá časť Živého námestia je dokončená.",
+      "s": "SME",
+      "t": "Centrálna časť Námestia SNP a juh Poštovej ulice majú novú podobu",
+      "ts": 1784810140.7820296,
+      "u": "a64b88f1c026736cddde"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/opozicne-ps-sa-nezhoduje-so-sis-na-miere-poskytovanych-informacii-kontrolnemu-vyboru?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Už nebude ich zverejňovať v takom rozsahu, ako bolo doteraz.",
+      "s": "SME",
+      "t": "Opozičné PS sa nezhoduje so SIS na miere poskytovaných informácií kontrolnému výboru",
+      "ts": 1784810140.782033,
+      "u": "8d84c1ad3a1099d4b9dd"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/Vw45yRM/namornik-zraneny-pri-utoku-na-tanker-v-ciernom-mori-zomrel-rumunske-ministerstvo-potvrdilo-prvu-obet/",
+      "p": "Útok na tanker Gas Lisbon v Čiernom mori si vyžiadal prvú obeť. Filipínsky námorník zomrel v nemocnici a Rumunsko pátra po pôvodcovi zásahu.",
+      "s": "Aktuality",
+      "t": "Námorník zranený pri útoku na tanker v Čiernom mori zomrel. Rumunské ministerstvo potvrdilo prvú obeť",
+      "ts": 1784810140.7820344,
+      "u": "52859127bcd5c418e4e5"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/Qs8WDri/eu-ziada-koniec-utokov-husiov-na-tankery-kaja-kallasova-odsudila-zasah-v-cervenom-mori-ako-porusenie-prava/",
+      "p": "Kaja Kallasová ostro odsúdila útok húsíov na saudskoarabský tanker v Červenom mori. Varuje pred vyhrotením už aj tak krehkej bezpečnostnej situácie v regióne.",
+      "s": "Aktuality",
+      "t": "EÚ žiada koniec útokov húsíov na tankery. Kaja Kallasová odsúdila zásah v Červenom mori ako porušenie práva",
+      "ts": 1784810140.782036,
+      "u": "1f4fd5be9a1845da28fb"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/EL42aQ9/hamas-ma-sancu-na-politicku-rolu-palestinska-sefka-diplomacie-podmienuje-lidra-hajju-vstupom-do-oop/",
+      "p": "Nový líder Hamasu Chalíl Hajja môže podľa palestínskej diplomacie prispieť k mieru len vstupom do OOP. Zmena by zásadne ovplyvnila celý politický systém.",
+      "s": "Aktuality",
+      "t": "Hamas má šancu na politickú rolu. Palestínska šéfka diplomacie podmieňuje lídra Hajju vstupom do OOP",
+      "ts": 1784810140.7820373,
+      "u": "f3e8a1cfd876a37898ee"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/rTnZlPy/zvrat-v-kauze-siskaci-autor-knihy-odmietne-40-tisicovu-dotaciu-od-fpu-netaji-sa-pracou-s-umelou-inteligenciou/",
+      "p": "Podarilo sa nám exkluzívne spojiť s Jozefom Šiškom, autorom projektu Šiškáči. Aký je jeho postoj k celej situácii?",
+      "s": "Aktuality",
+      "t": "Zvrat v kauze Šiškáči: Autor knihy odmietne 40-tisícovú dotáciu od FPU. Netají sa prácou s umelou inteligenciou",
+      "ts": 1784810140.7820385,
+      "u": "5befed84c12dd881e4f1"
+    },
+    {
+      "l": "https://dennikn.sk/5470107/nakoniec-sa-dohodli-no-su-slabsie-ako-mohli-byt-najvacsi-protirusky-sankcny-balik-za-styri-roky-brzdil-grecky-miliardar/",
+      "p": "Európska únia sa stále snaží nájsť spôsoby, ako zabrzdiť ruskú vojnovú mašinériu na Ukrajine. No jej členské štáty sa čoraz menej vedia dohodnúť na spôsoboch, ako to urobiť. Napriek tomu sa im po dlhých a&#160;chaotických stredajších rokovaniach podarilo vo štvrtok ráno dohodnúť na 21. sankčom balík",
+      "s": "Denník N",
+      "t": "Nakoniec sa dohodli, no sú slabšie, ako mohli byť. Najväčší protiruský sankčný balík za štyri roky brzdil grécky miliardár",
+      "ts": 1784810140.7820404,
+      "u": "a5ba2ac1b3244c186b83"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2012273-dopravna-nehoda-orava-cesky-politik-stan-slovensko-umrtie-strana?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Pri stredajšej tragickej dopravnej nehode na Orave prišiel podľa portálu Topky o život český politik Jan Hajšman. Informáciu následne potvrdila aj jeho domovská politická strana STAN Plzeň, ktorá sa s ním rozlúčila na sociálnej sieti.",
+      "s": "Pravda",
+      "t": "Pri tragickej nehode na Orave zahynul český politik. Smutnú správu potvrdila jeho strana",
+      "ts": 1784810140.7820413,
+      "u": "eb11445112f986e44a36"
+    },
+    {
+      "l": "https://www.ta3.com/clanok/967845/v-meste-mody-bez-dymu-oblubene-europske-mesto-zavadza-prisny-zakaz-fajcenia-na-verejnosti",
+      "p": "",
+      "s": "TA3",
+      "t": "V meste módy bez dymu. Obľúbené európske mesto zavádza prísny zákaz fajčenia na verejnosti",
+      "ts": 1784810140.7820435,
+      "u": "3b32139e6355737d9afa"
     }
   ],
   "recent_alerts": [
@@ -4618,6 +4482,7 @@
     "1e88eb4ebb3051258104": 1784641631.005171,
     "1ed767d9e586b7977e60": 1784777736.759006,
     "1f367bf4693671cbb93f": 1784716531.5447514,
+    "1f4fd5be9a1845da28fb": 1784810140.7820349,
     "1f7c0f988e6243855186": 1784647729.2597127,
     "1ffaf3c16c13a99342c2": 1784671912.804925,
     "202f3c7fec3f7d94f4c9": 1784733860.406295,
@@ -4737,6 +4602,7 @@
     "3a975e4107cc1425fdf6": 1784671912.8049448,
     "3ace1fff259d5f00c12b": 1784733860.4063017,
     "3add677a31faf634e3e9": 1784701459.2434945,
+    "3b32139e6355737d9afa": 1784810140.782042,
     "3c09a096c0da18ba60af": 1784737253.7627432,
     "3c2494fb7eecff22d3be": 1784707259.1150541,
     "3c35cd4df69193207927": 1784647729.2596965,
@@ -4849,6 +4715,7 @@
     "51b734c8da8b7d815fdb": 1784794236.2309005,
     "51d0875158330c337393": 1784716531.5447435,
     "520c4ade8092f1df0ec7": 1784802938.932827,
+    "52859127bcd5c418e4e5": 1784810140.7820337,
     "52ca5b008dd1bac13660": 1784727336.8652372,
     "52cc258d651c2aa853f1": 1784708141.6551483,
     "52db99b69a7354be6429": 1784671912.8048117,
@@ -4898,6 +4765,7 @@
     "5b96a17db51447c618c2": 1784742941.3445427,
     "5b9ae5ae4d83a9caa11c": 1784701459.2434905,
     "5be6fcc5e22ef59fdee3": 1784665098.2681594,
+    "5befed84c12dd881e4f1": 1784810140.7820377,
     "5c22c62462d6a8c99adc": 1784647729.2597075,
     "5c260352cb85f1527335": 1784671912.8048644,
     "5cdc2634e2cdc3bf8953": 1784671912.8049011,
@@ -5119,6 +4987,7 @@
     "8ce3a99897416a1d84c5": 1784701459.2433975,
     "8d30a7f537cb4b93e45d": 1784727336.8652213,
     "8d376f078dc263f43fa9": 1784723737.2271469,
+    "8d84c1ad3a1099d4b9dd": 1784810140.782031,
     "8d89a6447c9f3218beaa": 1784647729.2597034,
     "8e1086848ebbc20d2545": 1784707259.1150558,
     "8e182a33d7de098d2c40": 1784712934.042978,
@@ -5244,12 +5113,14 @@
     "a40d69047ac491d4d1f8": 1784706460.0728533,
     "a4cc04a1440cbaf7d71d": 1784733040.479603,
     "a521d9f5b63ef0a0a9c2": 1784638689.868787,
+    "a5ba2ac1b3244c186b83": 1784810140.782039,
     "a5bf400dd1d688cde1f0": 1784706460.072848,
     "a5e1d53f2f6eac280002": 1784788529.8591778,
     "a5ea7db82d8f80169268": 1784671912.8048105,
     "a5f6d9e2441c0a97ce49": 1784781336.7025423,
     "a624abb81fae690c56a4": 1784742941.3445466,
     "a63b9dae21d6f52bcddd": 1784716531.5447273,
+    "a64b88f1c026736cddde": 1784810140.7820263,
     "a67d7bca15a8415fbc3b": 1784671912.804939,
     "a685783681f18c46d4a5": 1784805039.8285217,
     "a6c83750ddb3cc532487": 1784647729.2593856,
@@ -5605,6 +5476,7 @@
     "eaa1f32762a291ba2b5c": 1784802938.932857,
     "eab6cfd0e6d5cefcbaf5": 1784735731.1296048,
     "eb0e0798cf2139df88d1": 1784787042.8013048,
+    "eb11445112f986e44a36": 1784810140.7820408,
     "eb9dfa9f50d88ee60bd3": 1784701459.2434564,
     "ebec2fcd3f1c24ad3d04": 1784787042.801311,
     "ec516092ecc805360750": 1784671912.804887,
@@ -5648,6 +5520,7 @@
     "f36b50772ec5442c4e6e": 1784739340.8501623,
     "f3e435442d2ad45206f1": 1784640682.4919071,
     "f3e89ce0f8bc301f4a89": 1784797843.4292576,
+    "f3e8a1cfd876a37898ee": 1784810140.7820365,
     "f451ee064ca69358541f": 1784671912.8048217,
     "f468d568ee9ae9e01a33": 1784701459.2434638,
     "f4808bf0e9fd0ea29f4e": 1784779848.107535,
@@ -5720,61 +5593,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1784808634.8960152
+      "ts": 1784810140.7820122
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1784808634.8960168
+      "ts": 1784810140.7820132
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1784808634.89602
+      "ts": 1784810140.7820158
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1784808634.8960245
+      "ts": 1784810140.7820199
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1784808634.8960183
+      "ts": 1784810140.7820144
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1784808634.8960094
+      "ts": 1784810140.7820063
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1784808634.8960135
+      "ts": 1784810140.7820106
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1784808634.8960238
+      "ts": 1784810140.7820191
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1784808634.8960216
+      "ts": 1784810140.782017
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1784808634.8960228
+      "ts": 1784810140.782018
     }
   }
 }
