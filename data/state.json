@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Výbuch na Miletičke si vyžiadal zranených",
-      "ts": 1784802943.418612
-    },
-    {
-      "headline": "EÚ udelila Googlu pokuty za zneužívanie trhu",
-      "ts": 1784802943.418612
-    },
-    {
-      "headline": "Cestovná kancelária Solvex skrachovala",
-      "ts": 1784802943.418612
-    },
-    {
-      "headline": "Súd v kauze Očistec pokračuje",
-      "ts": 1784802943.418612
-    },
-    {
-      "headline": "V Mexiku zavraždili ďalšieho novinára",
-      "ts": 1784802943.418612
-    },
-    {
       "headline": "Minister Šutaj Eštok prehral ďalší súd",
       "ts": 1784804141.6461515
     },
@@ -203,220 +183,112 @@
     {
       "headline": "Kia od pondelka dočasne zastaví výrobu kvôli modernizácii",
       "ts": 1784817336.1020634
+    },
+    {
+      "headline": "Slovenskí hasiči smerujú do Francúzska pomôcť s lesnými požiarmi",
+      "ts": 1784818537.5949867
+    },
+    {
+      "headline": "Ruská stíhačka Su-57 havarovala počas cvičného letu pri Moskve",
+      "ts": 1784818537.5949867
+    },
+    {
+      "headline": "Trump podmienil jadrovú dohodu so Saudskou Arábiou mierom s Izraelom",
+      "ts": 1784818537.5949867
+    },
+    {
+      "headline": "Tragická nehoda na Orave si vyžiadala život českého politika",
+      "ts": 1784818537.5949867
+    },
+    {
+      "headline": "Výbuch a požiar rodinného domu v Čani si vyžiadali zranenú osobu",
+      "ts": 1784818537.5949867
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Slovenskí hasiči pomôžu Francúzsku v boji s lesnými požiarmi",
+        "headline": "Slovenskí hasiči smerujú do Francúzska pomôcť s lesnými požiarmi",
         "links": [
           [
-            "SME",
-            "https://www.sme.sk/domov/c/slovenski-hasici-pomozu-v-boji-s-lesnymi-poziarmi-vo-francuzsku"
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/qQSNdmC/slovenski-zachranari-vyrazaju-na-medzinarodnu-misiu-vo-francuzsku-posilnia-civilnu-ochranu-v-ohrozenom-regione-gironde/"
           ],
           [
             "Teraz.sk",
             "https://www.teraz.sk/slovensko/slovenski-hasici-pomozu-v-boji-s-les/979994-clanok.html"
           ]
         ],
-        "perex": "Slovenskí hasiči boli vyslaní na pomoc pri likvidácii rozsiahlych lesných požiarov na juhozápade Francúzska. Situácia v oblasti si vyžiadala evakuáciu tisícov obyvateľov a turistov."
+        "perex": "Slovenský hasičský a záchranný zbor vysiela posily na juhozápad Francúzska, kde masívne lesné požiare vynútili evakuáciu tisícov ľudí. Tímy budú pôsobiť v regióne Gironde, ktorý čelí kritickej situácii."
       },
       {
-        "headline": "Ruská stíhačka Su-57 sa zrútila pri Moskve",
+        "headline": "Ruská stíhačka Su-57 havarovala počas cvičného letu pri Moskve",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2012349-ruska-pycha-padla-pri-moskve-najmodernejsia-stihacka-su-57-havarovala"
+            "https://www.pravda.sk/spravy/svet/clanok/2012349-ruska-pycha-padla-pri-moskve-najmodernejsia-stihacka-su-57-havarovala/"
           ],
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/TpQFY92/ruske-supermoderne-lietadlo-su-57-sa-zrutilo-pri-moskve-pilot-sa-stihol-katapultovat-a-prezil-bez-zraneni/"
           ]
         ],
-        "perex": "Počas cvičného letu v Moskovskej oblasti havarovalo najmodernejšie ruské bojové lietadlo Su-57. Pilot sa stihol úspešne katapultovať a neutrpel žiadne zranenia."
+        "perex": "Najmodernejšie ruské bojové lietadlo piatej generácie sa zrútilo počas rutinného cvičenia v Moskovskej oblasti. Pilot sa stihol včas katapultovať a podľa ruského ministerstva obrany neutrpel žiadne zranenia."
       },
       {
         "headline": "Trump podmienil jadrovú dohodu so Saudskou Arábiou mierom s Izraelom",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2012355-jadrovy-program-len-za-mier-s-izraelom-trump-posiela-rijadu-jasne-podmienky"
+            "https://www.pravda.sk/spravy/svet/clanok/2012339-trump-dal-rijadu-tvrdu-podmienku-jadrovy-program-len-vymenou-za-dohodu-s-izraelom/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/v-jadrovej-dohode-porusili-zlaty-standard-trump-saudskej-arabii-ustupil-no-potom-otocil"
           ]
         ],
-        "perex": "Americký prezident Donald Trump vyhlásil, že spolupráca v jadrovej energetike so Saudskou Arábiou je plne podmienená pristúpením krajiny k Abrahámovským dohodám. Rijád musí podľa Washingtonu najprv normalizovať vzťahy s Izraelom."
+        "perex": "Americký prezident Donald Trump vyhlásil, že prípadná dohoda o jadrovej energetike s Rijádom je plne závislá od pristúpenia Saudskej Arábie k Abrahámovským dohodám. Krok vyvolal zmätok na trhoch a obavy z ďalšej eskalácie v regióne."
       },
       {
         "headline": "Tragická nehoda na Orave si vyžiadala život českého politika",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2012273-dopravna-nehoda-orava-cesky-politik-stan-slovensko-umrtie-strana"
+            "https://www.pravda.sk/spravy/domace/clanok/2012273-dopravna-nehoda-orava-cesky-politik-stan-slovensko-umrtie-strana/"
           ],
           [
             "Noviny.sk",
             "https://www.noviny.sk/zahranicie/1237491-cesky-politik-zahynul-po-tragickej-nehode-na-slovensku"
           ]
         ],
-        "perex": "Pri stredajšej dopravnej nehode na Orave zahynul český politik a historik Jan Hajšman. Úmrtie člena strany STAN Plzeň potvrdili aj oficiálne zdroje z jeho domovskej organizácie."
+        "perex": "Pri stredajšej dopravnej nehode na Orave zahynul český politik a historik Jan Hajšman. Úmrtie člena strany STAN Plzeň potvrdili oficiálne zdroje aj jeho domovská politická organizácia."
       },
       {
-        "headline": "Kia od pondelka dočasne zastaví výrobu kvôli modernizácii",
+        "headline": "Výbuch a požiar rodinného domu v Čani si vyžiadali zranenú osobu",
         "links": [
           [
-            "SME (GNews)",
-            "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYk1LaDRzLVNDZVdldDlVV3dDakhKQkF0WlpoMUNGX0lrVE1JWHhYTVVBbS1ZV3JZQV9hX19KekFjQnZCU0hHSktwcERfcUhFSlU4S2c0bVdLMUxsMU5tV1RBdEY1RVptS1JlWEFXMzROME5Nai00bEpsZ1ktcjNuSDVLWjR1TFBPS294SG9wN2o2dzd4UWdIZlk5UUtHT1k?oc=5"
+            "Pravda",
+            "https://www.pravda.sk/spravy/regiony/clanok/2012337-po-vybuchu-zacal-horiet-rodinny-dom-v-cani-hasici-bojuju-s-ohnom/"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/GaLDsRr/po-vybuchu-zacal-horiet-rodinny-dom-v-cani-zranila-sa-jedna-osoba/"
           ]
         ],
-        "perex": "Automobilka Kia pristúpi od pondelka k odstávke výrobných liniek. Počas plánovanej prestávky sa spoločnosť zameria na modernizáciu svojich technologických zariadení."
+        "perex": "V obci Čaňa v okrese Košice-okolie došlo k explózii v rodinnom dome, po ktorej vypukol rozsiahly požiar. Na mieste zasahovali všetky záchranné zložky, pričom jedna osoba utrpela zranenia."
       }
     ],
-    "ts": 1784817336.1020553
+    "ts": 1784818537.5949783
   },
   "meta": {
-    "last_collection_ts": 1784817330.8679955,
+    "last_collection_ts": 1784818532.0984747,
     "last_feed_error_ts": 1784800539.5690527,
     "last_llm_error_ts": 1784642656.705458,
-    "last_run_ts": 1784817331.2327209,
-    "last_synthesis_ts": 1784817336.1020474
+    "last_run_ts": 1784818532.5943465,
+    "last_synthesis_ts": 1784818537.5949705
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/apolonovu-galeriu-v-louvri-po-lupezi-znovu-spristupnili-pre-verejnost-bez-zbierok-a-vzacnych-sperkov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Galéria sa vracia k svojmu pôvodnému účelu zo 17. storočia.",
-      "s": "SME",
-      "t": "Apolónovu galériu v Louvri po lúpeži znovu sprístupnili pre verejnosť. Bez zbierok a vzácnych šperkov",
-      "ts": 1784730939.1425283,
-      "u": "6c04a031fbcd26285ef8"
-    },
-    {
-      "l": "https://www.sme.sk/komentare/c/orban-objavil-liberalnu-demokraciu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Ani v demokracii väčšina nemôže všetko.",
-      "s": "SME",
-      "t": "Orbán objavil liberálnu demokraciu",
-      "ts": 1784730939.1425316,
-      "u": "408198de378dc764b55d"
-    },
-    {
-      "l": "https://www.sme.sk/closer/c/samsung-ukazal-nove-skladacky-laka-na-koncept-aky-tu-doteraz-nebol?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Tretí model v ponuke je skutočným mini tabletom.",
-      "s": "SME",
-      "t": "Samsung ukázal nové skladačky. Láka na koncept, aký tu doteraz nebol",
-      "ts": 1784730939.1425343,
-      "u": "210af7d5b3722341c980"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/L4M0mO7/na-rovinu-s-janom-mazakom-na-korupciu-sme-si-zvykli-ako-na-prirodzenu-sucast-zivota/",
-      "p": "Slovensku hrozia sankcie za porušovanie pravidiel právneho štátu, konštatuje po prečítaní správy Európskej komisie Ján Mazák, bývalý generálny advokát Súdneho dvora EÚ, expredseda Ústavného súdu SR a Súdnej rady SR. Referendum podľa neho funguje výborne, lebo ľudia správne prišli hlasovať iba vtedy,",
-      "s": "Aktuality",
-      "t": "NA ROVINU s Jánom Mazákom: Na korupciu sme si zvykli ako na prirodzenú súčasť života",
-      "ts": 1784730939.1425364,
-      "u": "435cf05f72af25f0792a"
-    },
-    {
-      "l": "https://dennikn.sk/5468526/niekde-treba-zvonit-ked-chcete-ist-k-moru-taliani-sa-buria-proti-sukromnym-plazovym-klubom/",
-      "p": "Plážové kluby v&#160;Taliansku poburujú miestnych aj turistov. Spoplatnené pláže sa menia na zábavné parky.",
-      "s": "Denník N",
-      "t": "Niekde treba zvoniť, keď chcete ísť k moru. Taliani sa búria proti súkromným plážovým klubom",
-      "ts": 1784730939.142538,
-      "u": "f61adf322e46798322bf"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/rezort-vnutrav-juli-na-slovensku-vyhl/979723-clanok.html",
-      "p": "Mimoriadnu situáciu vyhlásili 1. júla v obci Makov (okres Čadca) pre povodne, v ten istý deň aj v Seredi (okres Galanta) pre veternú smršť.",
-      "s": "Teraz.sk",
-      "t": "Rezort vnútra:V júli na Slovensku vyhlásili šesť mimoriadnych situácií",
-      "ts": 1784730939.1425395,
-      "u": "6cd73d8524ad6b1c0676"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/vo-stvrtok-popoludni-nebude-mozne-po/979717-clanok.html",
-      "p": "Od piatka (24. 7.) 8.00 h už budú pracoviská dokladov Policajného zboru opäť poskytovať služby v štandardnom režime.",
-      "s": "Teraz.sk",
-      "t": "Vo štvrtok popoludní nebude možné podať žiadosť o vodičský preukaz",
-      "ts": 1784730939.1425416,
-      "u": "0bbd1b19e114dd4b4f5f"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/ivp-rezort-skolstva-chce-investicie-f/979714-clanok.html",
-      "p": "Investície zo štátneho rozpočtu sú určené najmä na rekonštrukcie v regionálnom školstve (6,2 milióna eur) a na projekty vysokých škôl (6,1 milióna eur), priblížil IVP.",
-      "s": "Teraz.sk",
-      "t": "IVP: Rezort školstva chce financovať investície z fondu plánu obnovy",
-      "ts": 1784730939.1425433,
-      "u": "fa00a8aa2b8cd348bdbb"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/skrtenie-do-bezvedomia-aj-znasilnenia-o-vydani-tateovcov-rozhodne-trumpov-clovek?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Prokuratúra prišla s desiatkami nových obvinení.",
-      "s": "SME",
-      "t": "Škrtenie do bezvedomia aj znásilnenia. O vydaní Tateovcov rozhodne Trumpov človek",
-      "ts": 1784732129.881523,
-      "u": "4adc75b6fdafa6f1e744"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRHpNdW9BOHVZQ3NxYXdkaGxfbGN5MDZNUHlTYXh5NEFhY0NmMl9yOVA2M3RwR25CcXRUSDM3Vmw5NW01R3hreENUSHhhcTFoRTR4NV8yRWtnamwyS2RjVTZkTmxqODZPd1VLM3owVmNBeUQ5N0NIcUhBaEtpd3JTSmxFc3lvRmpKMlpEX0pjVE9MVjRwbmctM050dTctclpIUFQ2NGpCZw?oc=5",
-      "p": "Cesta Slovana Ligou majstrov je načrtnutá. Žreb v Nyone určil súpera pre prípad postupu&nbsp;&nbsp;SPORTNET",
-      "s": "SME (GNews)",
-      "t": "Cesta Slovana Ligou majstrov je načrtnutá. Žreb v Nyone určil súpera pre prípad postupu - SPORTNET",
-      "ts": 1784732129.8815262,
-      "u": "4e07299e36e1d8377ed7"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcFdhWFFfX0o2N2c1NkZXX21PUnc1c2NmRXdlM2d1QXl3NnlvWVEyTGxCZWNCbHdrWG1LcWp1a2tkNGtoOWVQUFFnTUxDNUlTZVZaZURpcHpYR1JZUk1tRE52M3NXTzVsNEJ6aHVjY3p1NW0xTG5PTDNORy1VVk5UV3hfU3pRZlpWdmRtZ3RqZjQzZHFsY1pZallncVlzWWR3bExfSE5qYVNPZw?oc=5",
-      "p": "Škrtenie do bezvedomia aj znásilnenia. O vydaní Tateovcov rozhodne Trumpov človek&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Škrtenie do bezvedomia aj znásilnenia. O vydaní Tateovcov rozhodne Trumpov človek - SME.sk",
-      "ts": 1784732129.8815286,
-      "u": "c619485fb28f66db3e29"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/j3cuI8m/pri-zrazke-aut-v-zilinskej-bytcici-sa-zranilo-pat-ludi-pricinu-stale-vysetruju/",
-      "p": "Na ceste I/64 v žilinskej Bytčici sa čelne zrazili dve osobné autá a zranilo sa päť ľudí. Vodiči boli triezvi, polícia preveruje, čo viedlo k nehode.",
-      "s": "Aktuality",
-      "t": "Pri zrážke áut v žilinskej Bytčici sa zranilo päť ľudí, príčinu stále vyšetrujú",
-      "ts": 1784732129.88153,
-      "u": "9d0fe24872b23a3ed210"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/48KE8FU/louvre-opat-otvoril-apolonovu-galeriu-po-sokujucej-kradezi-klenotov-zbierky-presunuli-a-menia-jej-ucel/",
-      "p": "Apolónova galéria v Louvri je po pamätnej lúpeži opäť prístupná verejnosti. Namiesto klenotov má návštevníkov očariť jej architektúra a výzdoba.",
-      "s": "Aktuality",
-      "t": "Louvre opäť otvoril Apolónovu galériu po šokujúcej krádeži klenotov. Zbierky presunuli a menia jej účel",
-      "ts": 1784732129.8815312,
-      "u": "c13009d9cd785ed9d7d9"
-    },
-    {
-      "l": "https://dennikn.sk/5468483/z-hitlerovho-rodneho-domu-v-rakusku-spravili-policajnu-stanicu-aby-tam-neonacisti-nechodili-hajlovat/",
-      "p": "Od stredy má polícia v&#160;rakúskom Braunau am Inn nové sídlo: adresu Salzburger Vorstadt 15. Na prvé počutie ide o&#160;nezaujímavú informáciu, ktorú by si mnohí v&#160;novinách ani neprečítali a&#160;už vôbec by ich nezaujala. Táto správa je však iná. Na danej adrese sa narodil nacistický vodca A",
-      "s": "Denník N",
-      "t": "Z Hitlerovho rodného domu v Rakúsku spravili policajnú stanicu, aby tam neonacisti nechodili hajlovať",
-      "ts": 1784732129.8815331,
-      "u": "78c46fe252cbb28665ff"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2011765-udzs-zatial-nebola-dorucena-ziadost-suvisiaca-s-kupou-unionu-doverou?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Úradu pre dohľad nad zdravotnou starostlivosťou (ÚDZS) zatiaľ nebola doručená žiadosť súvisiaca s kúpou Union súkromnej zdravotnej poisťovne súkromnou zdravotnou poisťovňou Dôvera.",
-      "s": "Pravda",
-      "t": "ÚDZS zatiaľ nebola doručená žiadosť súvisiaca s kúpou Unionu Dôverou",
-      "ts": 1784732129.881534,
-      "u": "b9892f6025de6b32da7f"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2011751-pellegrini-odcestuje-do-ciny-rokovat-bude-aj-so-si-tin-pchingom?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Prezident Peter Pellegrini v nedeľu (26. 7.) odcestuje na štátnu návštevu Čínskej ľudovej republiky. Návšteva sa uskutoční na pozvanie čínskeho prezidenta Si Ťin-pchinga.",
-      "s": "Pravda",
-      "t": "Pellegrini odcestuje do Číny, rokovať bude aj so Si Ťin-pchingom",
-      "ts": 1784732129.8815355,
-      "u": "9bee02ca0488d4f4d8aa"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2011745-zahada-po-74-rokoch-vyriesena-na-dne-atlantiku-nasli-vrak-lietadla-ktoreho-tragedia-zmenila-letectvo?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Po 74 rokoch sa podarilo nájsť vrak lietadla spoločnosti Pan American Airways, ktoré sa v roku 1952 zrútilo do Atlantického oceánu pri pobreží Portorika. Nehoda vtedy viedla k významným zmenám v bezpečnosti leteckej dopravy.",
-      "s": "Pravda",
-      "t": "Záhada po 74 rokoch vyriešená: Na dne Atlantiku našli vrak lietadla, ktorého tragédia zmenila letectvo",
-      "ts": 1784732129.8815365,
-      "u": "64551a6a11cdbc3c659a"
-    },
     {
       "l": "https://www.sme.sk/svet/c/ceski-hasici-po-13-dnoch-zlikvidovali-poziar-budovy-v-batovskom-areali-v-zline?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Končí sa aj odporúčanie, aby ľudia v okolí nevetrali.",
@@ -4160,6 +4032,126 @@
       "t": "Tragédia počas zásahu záchranárov: Pacientka spadla z nosidiel, neskôr zomrela",
       "ts": 1784817331.2327201,
       "u": "3c8da4d7fa3856bbffea"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/zisk-harley-davidson-klesol-vyrobu-chce-prisposobit-mladsim-motoristom?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Zisk a tržby amerického výrobcu motoriek Harley-Davidson v druhom štvrťroku klesli.",
+      "s": "SME",
+      "t": "Zisk Harley-Davidson klesol, výrobu chce prispôsobiť mladším motoristom",
+      "ts": 1784818532.5943282,
+      "u": "a1f7dcadb5867ea57422"
+    },
+    {
+      "l": "https://www.sme.sk/tech/c/poda-je-ziva-to-co-domorode-komunity-vedeli-davno-dnes-potvrdzuje-aj-veda?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Od domorodých komunít po slovenské biopásy, zdravá pôda je základom odolnej krajiny.",
+      "s": "SME",
+      "t": "Pôda je živá. To, čo domorodé komunity vedeli dávno, dnes potvrdzuje aj veda",
+      "ts": 1784818532.594331,
+      "u": "ecba237e2000f4ae9186"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/bezec-olha-okrem-strachu-prejavil-aj-hanbu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Toto by sa Kotlárovi a Machalovi nikdy nestalo.",
+      "s": "SME",
+      "t": "Bežec Oľha okrem strachu prejavil aj hanbu",
+      "ts": 1784818532.5943325,
+      "u": "fb39306b8cf7eeee8024"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/madarska-vlada-znizi-pocet-manazerov-v-statnych-podnikoch-a-ich-odmeny?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Kabinet sa tiež rozhodol preveriť majetok najvyšších politických predstaviteľov.",
+      "s": "SME",
+      "t": "Maďarská vláda zníži počet manažérov v štátnych podnikoch a ich odmeny",
+      "ts": 1784818532.5943334,
+      "u": "bfc46c2b48505cd2ee5d"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/v-jadrovej-dohode-porusili-zlaty-standard-trump-saudskej-arabii-ustupil-no-potom-otocil?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Deň po podpise zmluvy Trump spôsobil zmätok.",
+      "s": "SME",
+      "t": "V jadrovej dohode porušili zlatý štandard. Trump Saudskej Arábii ustúpil, no potom otočil",
+      "ts": 1784818532.594335,
+      "u": "a7d70261a5df836ab040"
+    },
+    {
+      "l": "https://www.sme.sk/kultura/c/finalova-dvadsiatka-je-uz-znama-pozrite-si-najlepsie-malby-roka?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Víťazi budú známi na jeseň.",
+      "s": "SME",
+      "t": "Finálová dvadsiatka je už známa. Pozrite si najlepšie maľby roka",
+      "ts": 1784818532.594336,
+      "u": "9de10b88c35cce81fdd9"
+    },
+    {
+      "l": "https://www.sme.sk/zena/c/starostlivost-po-opalovani-ako-si-udrzat-bronz-co-najdlhsie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Doprajte svojej pokožke výživu aj regeneráciu.",
+      "s": "SME",
+      "t": "Starostlivosť po opaľovaní: Ako si udržať bronz čo najdlhšie",
+      "ts": 1784818532.5943367,
+      "u": "eb0454cabedeb5a756a6"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/na-zapis-manzelstva-osob-rovnakeho-pohlavia-nie-je-podla-ministerstva-dostatocny-pravny-zaklad?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Ústava sa premieta do zákonu o rodine.",
+      "s": "SME",
+      "t": "Na zápis manželstva osôb rovnakého pohlavia nie je podľa ministerstva dostatočný právny základ",
+      "ts": 1784818532.5943377,
+      "u": "6bb2f17aa7dedb5c855f"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUnBjZmo1YlQxLWNvV2RUR254M3IweEViUkVZeDUzSTczUVFsNjZKTHpWR3IyYjJqWVJuTVV5R1lhYkRWanNvODV0RzJFR2hYM2xHTDN5NDFBVzlWZ3BfMGVBQmxQUmpvVFlIejViVE9lLU5IMXZnQkNWU0txXzlULUVkWklBN2xnQjRiUTdZTkV2RHZvbU1jWW9CVlVaNVN3Q1VJbg?oc=5",
+      "p": "ASEAN vyjadril obavy z konfliktu na Blízkom východe a žiada zastavenie bojov&nbsp;&nbsp;SME.sk",
+      "s": "SME (GNews)",
+      "t": "ASEAN vyjadril obavy z konfliktu na Blízkom východe a žiada zastavenie bojov - SME.sk",
+      "ts": 1784818532.5943391,
+      "u": "4e1a41eb854705da9195"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/G4sfMnA/policia-robotnici-vo-zvolene-vyhrabali-odisteny-granat-z-druhej-svetovej-vojny/",
+      "p": "Robotníci vo Zvolene narazili pri vypratávaní podkrovia na odistený granát z druhej svetovej vojny. Polícia uzavrela okolie a bytovku museli evakuovať.",
+      "s": "Aktuality",
+      "t": "Polícia: Robotníci vo Zvolene vyhrabali odistený granát z druhej svetovej vojny",
+      "ts": 1784818532.59434,
+      "u": "786280ffea90f3f17c35"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/IXdJR7B/cesta-medzi-trencianskymi-miticami-a-svinnou-je-pre-nehodu-docasne-neprejazdna/",
+      "p": "Medzi Trenčianskymi Miticami a Svinnou zablokovala úsek cesty I/9 vážna dopravná udalosť. Úplná uzávera má podľa polície trvať asi 45 minút.",
+      "s": "Aktuality",
+      "t": "Cesta medzi Trenčianskymi Miticami a Svinnou je pre nehodu dočasne neprejazdná",
+      "ts": 1784818532.5943413,
+      "u": "6fd41015c1250bb8d5e8"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/qQSNdmC/slovenski-zachranari-vyrazaju-na-medzinarodnu-misiu-vo-francuzsku-posilnia-civilnu-ochranu-v-ohrozenom-regione-gironde/",
+      "p": "Slovenskí hasiči smerujú do juhozápadného Francúzska, aby pomohli pri masívnych lesných požiaroch v Gironde. Nasadia sa v obci Saumos pri Cap Ferret.",
+      "s": "Aktuality",
+      "t": "Slovenskí záchranári vyrážajú na medzinárodnú misiu. Vo Francúzsku posilnia civilnú ochranu v ohrozenom regióne Gironde",
+      "ts": 1784818532.5943427,
+      "u": "e992c2991652ca7393d0"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2012341-andrassy-chce-byt-prezident-takac-chmelar?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Minister pôdohospodárstva Richard Takáč ostro kritizuje predsedu NKÚ. Tvrdí, že Ľubomír Andrassy svojimi výrokmi vstupuje do politiky. Chce byť prezidentom.",
+      "s": "Pravda",
+      "t": "Predseda NKÚ Ľubomír Andrassy prezidentom? Minister Takáč zverejnil \"kuloárne\" informácie",
+      "ts": 1784818532.5943437,
+      "u": "33809bbbb5039b3b2bfe"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1237705-poziare-na-juhozapade-francuzska-sa-siria-do-akcie-nastupia-aj-slovenski-hasici",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Požiare na juhozápade Francúzska sa šíria. Do akcie nastúpia aj slovenskí hasiči",
+      "ts": 1784818532.5943446,
+      "u": "4fc7840ddcf1a5c4281e"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1237699-v-rusku-sa-zrutila-stihacka-su-57-moskva-ich-ma-len-niekolko",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "V Rusku sa zrútila stíhačka Su-57. Moskva ich má len niekoľko",
+      "ts": 1784818532.594346,
+      "u": "9932156bb7a5df457f12"
     }
   ],
   "recent_alerts": [
@@ -4542,6 +4534,7 @@
     "3358439f94d678909483": 1784720135.8909152,
     "335ef38443819fc19629": 1784777736.758718,
     "3378269bc7c361e821c8": 1784671912.8049002,
+    "33809bbbb5039b3b2bfe": 1784818532.5943434,
     "33b74ebc6dbe22b74625": 1784814941.166783,
     "33d534b84c4bde6f645f": 1784671912.8046386,
     "33dc7ab6a9e0151f339c": 1784746534.2334797,
@@ -4669,6 +4662,7 @@
     "4d9a96290fdcf7690d82": 1784712934.042765,
     "4e07299e36e1d8377ed7": 1784732129.8815248,
     "4e0a9d0b4cc13db40f88": 1784701459.2434008,
+    "4e1a41eb854705da9195": 1784818532.5943384,
     "4e42c585ec1ef111e708": 1784811339.3888254,
     "4e54b535e90535470556": 1784808634.896062,
     "4e7c6a6108d0f3d647d4": 1784777736.7587662,
@@ -4676,6 +4670,7 @@
     "4eccd1720e115465a330": 1784701459.2434359,
     "4f80f9aed14c1eefa481": 1784647729.2597234,
     "4fb4acf27e8968245f09": 1784701459.2434382,
+    "4fc7840ddcf1a5c4281e": 1784818532.5943441,
     "4febdda838235bf08338": 1784720135.8909311,
     "4ffc4f7a89ad21fb6a4a": 1784742941.3445504,
     "500edcf4c4b3d1018b46": 1784746534.233473,
@@ -4809,6 +4804,7 @@
     "6ab9f8d89b97fe00d3d2": 1784647729.259416,
     "6b70596d6cfb8c8b7949": 1784671912.804922,
     "6b7b2cc86d0790e054d6": 1784701459.2433732,
+    "6bb2f17aa7dedb5c855f": 1784818532.5943372,
     "6bca7fdda47bdce11ac5": 1784817331.2327147,
     "6bfc9d519397ca135569": 1784647729.2596827,
     "6c04a031fbcd26285ef8": 1784730939.1425247,
@@ -4831,6 +4827,7 @@
     "6e97fbbdbf3b304df6f0": 1784727336.8652163,
     "6ed0892503945530f647": 1784725835.5963578,
     "6f8daaea7845e0edd528": 1784722245.0844712,
+    "6fd41015c1250bb8d5e8": 1784818532.5943408,
     "6fd5a9778268f1c09866": 1784701459.243384,
     "701186baad83dcd6e85c": 1784647729.2596045,
     "7015f5f766223603f273": 1784647729.2596838,
@@ -4875,6 +4872,7 @@
     "7758395873cf4cba8870": 1784787042.801306,
     "776e219580f5b6ccc38c": 1784701459.2434452,
     "77dea1c18a88c3d64b25": 1784701459.243492,
+    "786280ffea90f3f17c35": 1784818532.5943396,
     "7862facc945bc7ca7efa": 1784729438.5652182,
     "78861a43b3fb518a6ed1": 1784647729.2596552,
     "78c46fe252cbb28665ff": 1784732129.8815317,
@@ -5030,6 +5028,7 @@
     "98f19d8ec8e978e83924": 1784701459.2434933,
     "98f2d2bca22af1fc997b": 1784723737.227145,
     "9920663f62483c572d15": 1784701459.2433708,
+    "9932156bb7a5df457f12": 1784818532.5943453,
     "99442ed5c1f7914756a0": 1784715044.2662494,
     "99ae6e3c44caf460fac0": 1784805039.8285193,
     "9a38c7cce2c21c2eb80f": 1784720135.8909292,
@@ -5054,6 +5053,7 @@
     "9d74045f1c680a80d669": 1784781336.7025487,
     "9d7902735a37e6f13b34": 1784727336.8652132,
     "9daac20718d7c998b783": 1784781336.702536,
+    "9de10b88c35cce81fdd9": 1784818532.5943358,
     "9e0aad766793e0854a30": 1784646575.5347838,
     "9e4368cd83c5fe9c7c84": 1784710541.3761458,
     "9e7deaf1cf7157d9d1fa": 1784808634.896073,
@@ -5076,6 +5076,7 @@
     "a17447d35576b542c665": 1784806535.9266465,
     "a1c7bd11a15fd45eae3e": 1784671912.804848,
     "a1e8ea51441887522d78": 1784781336.7025464,
+    "a1f7dcadb5867ea57422": 1784818532.5943239,
     "a2088e39ece1a652a87b": 1784811339.3888187,
     "a2189b2e2d0d3d917732": 1784647729.259668,
     "a2223288d2c10288b658": 1784734541.5406961,
@@ -5110,6 +5111,7 @@
     "a736e9920fa52b86cf57": 1784799336.0984714,
     "a745257d6f61a305050d": 1784647729.2597182,
     "a7833753e02b8c1cad7a": 1784647729.259395,
+    "a7d70261a5df836ab040": 1784818532.594334,
     "a804ff24725c3c3be0fd": 1784799336.098479,
     "a808fb18a6bed30bb77d": 1784701459.2434847,
     "a80da15751953d910aea": 1784795730.5463004,
@@ -5230,6 +5232,7 @@
     "bfaa86a676fea0a819c5": 1784701459.2434812,
     "bfabfc36f9503e86cf38": 1784665098.2681665,
     "bfc1f624f71a45dd1043": 1784701459.243392,
+    "bfc46c2b48505cd2ee5d": 1784818532.594333,
     "c0312d441dd3ced1097d": 1784701459.2433822,
     "c033f107994ffe661d89": 1784647729.259384,
     "c0a37bae70715a552761": 1784797843.4292536,
@@ -5460,9 +5463,11 @@
     "e8d78c555f2ec108b9c0": 1784794236.2309017,
     "e90d410af1a2e4399d8d": 1784793329.6449685,
     "e950196922c4e2fb9832": 1784671912.8049288,
+    "e992c2991652ca7393d0": 1784818532.5943415,
     "ea7ae15492c27fdadfd3": 1784804137.5618775,
     "eaa1f32762a291ba2b5c": 1784802938.932857,
     "eab6cfd0e6d5cefcbaf5": 1784735731.1296048,
+    "eb0454cabedeb5a756a6": 1784818532.5943365,
     "eb0e0798cf2139df88d1": 1784787042.8013048,
     "eb11445112f986e44a36": 1784810140.7820408,
     "eb9dfa9f50d88ee60bd3": 1784701459.2434564,
@@ -5470,6 +5475,7 @@
     "ec516092ecc805360750": 1784671912.804887,
     "ec63b6c4350949134a09": 1784817331.2327178,
     "ec89219485c2a27783f9": 1784647729.25968,
+    "ecba237e2000f4ae9186": 1784818532.5943296,
     "ecd55476cba404094d1d": 1784671912.8048584,
     "ed5cdb4029ffcbe452a4": 1784795730.5462863,
     "ed7268c1cd9df8c9a453": 1784789736.4366384,
@@ -5552,6 +5558,7 @@
     "fa8d23936cbacabd807e": 1784712934.0429747,
     "fad80c8c0b9d9602d8a1": 1784671912.8049047,
     "fb040a929d6b8d0c5850": 1784647729.2597046,
+    "fb39306b8cf7eeee8024": 1784818532.5943317,
     "fb3e60644d0630786bac": 1784671912.8049452,
     "fb681254830d54152150": 1784755243.287203,
     "fb7e745130cc81ababcc": 1784717733.5420718,
@@ -5582,61 +5589,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1784817331.2326853
+      "ts": 1784818532.5943089
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1784817331.2326868
+      "ts": 1784818532.5943108
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1784817331.23269
+      "ts": 1784818532.5943131
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1784817331.2326946
+      "ts": 1784818532.594318
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1784817331.2326887
+      "ts": 1784818532.594312
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1784817331.2326798
+      "ts": 1784818532.5943027
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1784817331.2326837
+      "ts": 1784818532.5943074
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1784817331.2326937
+      "ts": 1784818532.5943167
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1784817331.2326918
+      "ts": 1784818532.5943148
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1784817331.232693
+      "ts": 1784818532.594316
     }
   }
 }
