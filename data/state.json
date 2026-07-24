@@ -1,22 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Rastúce ceny palív na Slovensku",
-      "ts": 1784878540.6153672
-    },
-    {
-      "headline": "Historické slávnosti v Bratislave",
-      "ts": 1784878540.6153672
-    },
-    {
-      "headline": "Úspech slovenskej pražiarne kávy",
-      "ts": 1784878540.6153672
-    },
-    {
-      "headline": "Slovenské kroje v zahraničnom klipe",
-      "ts": 1784878540.6153672
-    },
-    {
       "headline": "USA zavádzajú clá na 60 krajín, EÚ žiada vysvetlenie",
       "ts": 1784879736.2047033
     },
@@ -195,24 +179,44 @@
     {
       "headline": "Chovateľku psov odsúdili za týranie zvierat",
       "ts": 1784890541.7430813
+    },
+    {
+      "headline": "Zemetrasenie v Rakúsku pocítili aj na západnom Slovensku",
+      "ts": 1784892942.8311114
+    },
+    {
+      "headline": "Európska komisia obvinila TikTok z ohrozovania detí",
+      "ts": 1784892942.8311114
+    },
+    {
+      "headline": "Rozkol v poľskej opozičnej strane PiS",
+      "ts": 1784892942.8311114
+    },
+    {
+      "headline": "Polícia objasnila vraždu galantského bossa po 15 rokoch",
+      "ts": 1784892942.8311114
+    },
+    {
+      "headline": "Bielorusko varuje Poľsko pred teroristickou hrozbou",
+      "ts": 1784892942.8311114
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Rozkol v poľskej strane PiS: O členstvo prišlo 30 poslancov",
+        "headline": "Zemetrasenie v Rakúsku pocítili aj na západnom Slovensku",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/2Yj2oTx/v-polskej-strane-pis-doslo-k-rozkolu-o-clenstvo-pride-okolo-30-poslancov/"
+            "https://www.aktuality.sk/clanok/sXXInwy/slabe-zemetrasenie-v-rakusku-pocitili-aj-obyvatelia-zapadneho-slovenska/"
           ],
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2012895-vybuch-v-polskej-opozicii-o-clenstvo-v-pis-prislo-priblizne-30-poslancov-kaczynski-hovori-o-plane-rozbit-stranu/"
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/zemetrasenie-v-rakusku-citili-ho-aj-n/980181-clanok.html"
           ]
         ],
-        "perex": "Približne 30 poslancov hlavnej poľskej opozičnej strany Právo a spravodlivosť prišlo o členstvo po nesplnení ultimáta vedenia. Líder strany Jarosław Kaczyński označil situáciu za plánovaný pokus o rozbitie strany."
+        "perex": "Seizmologická služba zaznamenala otrasy s magnitúdou 4,4, ktorých epicentrum sa nachádzalo v oblasti Semmeringu. Plytké zemetrasenie v hĺbke piatich kilometrov bolo citeľné aj pre obyvateľov na západe Slovenska."
       },
       {
         "headline": "Európska komisia obvinila TikTok z ohrozovania detí",
@@ -222,129 +226,65 @@
             "https://www.aktuality.sk/clanok/rwaDv6v/brusel-obvinil-tiktok-z-nedostatocnej-ochrany-deti-hrozia-mu-vysoke-pokuty/"
           ],
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2012889-tiktok-ma-problem-v-bruseli-deti-nechava-napospas-cudzim-ludom-platforme-hrozi-mastna-sankcia/"
+            "SME",
+            "https://www.sme.sk/svet/c/eu-vini-tiktok-z-vystavovania-deti-rizikam-na-svojej-platforme-hrozi-mu-pokuta"
           ]
         ],
-        "perex": "Brusel začal konanie voči sociálnej sieti TikTok pre nedostatočnú ochranu maloletých používateľov. Platforme hrozia vysoké pokuty, ak v stanovenom čase neupraví nastavenia verejných profilov."
+        "perex": "Brusel vytýka sociálnej sieti nedostatočnú ochranu súkromia maloletých používateľov a vystavovanie detí rizikám na platforme. V prípade nenapravenia nastavení hrozí spoločnosti vysoká finančná sankcia."
       },
       {
-        "headline": "Polícia objasnila vraždu z roku 2011 po miliónovej lúpeži",
+        "headline": "Rozkol v poľskej opozičnej strane PiS",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/2Yj2oTx/v-polskej-strane-pis-doslo-k-rozkolu-o-clenstvo-pride-okolo-30-poslancov/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2012895-vybuch-v-polskej-opozicii-o-clenstvo-v-pis-prislo-priblizne-30-poslancov-kaczynski-hovori-o-plane-rozbit-stranu"
+          ]
+        ],
+        "perex": "Približne 30 poslancov strany Právo a spravodlivosť prišlo o členstvo po tom, čo nesplnili ultimátum vedenia týkajúce sa vystúpenia z vnútrostraníckych združení. Jarosław Kaczyński vníma tento krok ako pokus o rozbitie strany."
+      },
+      {
+        "headline": "Polícia objasnila vraždu galantského bossa po 15 rokoch",
         "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/TsEntoz/vrazda-po-milionovej-lupezi-v-banke-v-galante-policia-navrhla-obzalovat-dvoch-muzov/"
           ],
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2012875-po-lupezi-za-miliony-mal-ziadat-spat-800-tisic-eur-podla-policie-ho-na-druhy-den-zavrazdili/"
-          ]
-        ],
-        "perex": "Vyšetrovatelia navrhli obžalovať dvoch mužov v prípade úkladnej vraždy, ktorá mala súvisieť s lúpežou v banke v Galante. Obeť mala podľa polície od páchateľov žiadať vrátenie peňazí deň pred svojou smrťou."
-      },
-      {
-        "headline": "NKÚ kritizuje hospodárenie štátnych podnikov",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2012839-nku-statne-podniky-riadenie-mincovna-rudne-bane-kremnica-hospodarenie-kontrola/"
-          ]
-        ],
-        "perex": "Najvyšší kontrolný úrad porovnal fungovanie dvoch štátnych podnikov a poukázal na výrazné rozdiely v ich riadení. Zistenia ukazujú, že zatiaľ čo jeden podnik prosperuje, druhý dlhodobo tápe."
-      },
-      {
-        "headline": "Chovateľku psov odsúdili za týranie zvierat",
-        "links": [
-          [
             "Noviny.sk",
-            "https://www.noviny.sk/krimi/1237968-psy-hladovali-a-umierali-v-krutych-podmienkach-chovatelku-veru-santos-poslali-do-vaezenia"
+            "https://www.noviny.sk/krimi/1237955-policia-objasnila-ukladnu-vrazdu-po-14-rokoch-navrhuje-obzalovat-dvoch-muzov"
           ]
         ],
-        "perex": "Súd poslal do väzenia chovateľku Veru Santos za kruté podmienky, v ktorých držala svoje zvieratá. Psy v jej chove trpeli hladom a umierali v zanedbanom prostredí."
+        "perex": "Vyšetrovatelia navrhli obžalovať dvoch mužov v prípade úkladnej vraždy z roku 2011, ktorá nasledovala po miliónovej lúpeži v banke. Podľa polície mal byť motívom spor o peniaze z lúpeže."
+      },
+      {
+        "headline": "Bielorusko varuje Poľsko pred teroristickou hrozbou",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/0UePeHl/bielorusko-varuje-polsko-pred-moznym-teroristickym-utokom-bezpecnostne-zlozky-preveruju-hrozbu/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2012857-koho-su-vlastne-spojenci-bielorusko-varovalo-pred-hrozbu-teroristicke-utoku-na-uzemi-polska-a-ponuka-spolupracu/"
+          ]
+        ],
+        "perex": "Minsk odovzdal poľským diplomatom informácie o možnom teroristickom útoku na území Poľska, ktorý má byť pomstou za aktivity bieloruskej aktivistky. Poľské bezpečnostné zložky tvrdenia preverujú."
       }
     ],
-    "ts": 1784890541.743073
+    "ts": 1784892942.8311045
   },
   "meta": {
-    "last_collection_ts": 1784891439.8685985,
+    "last_collection_ts": 1784892936.841113,
     "last_feed_error_ts": 1784885738.8511527,
     "last_llm_error_ts": 1784642656.705458,
-    "last_run_ts": 1784891440.3961353,
-    "last_synthesis_ts": 1784890541.7430658
+    "last_run_ts": 1784892937.4583995,
+    "last_synthesis_ts": 1784892942.8310976
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/ponaral-sa-medzi-zivotom-a-smrtou-prehovoril-muz-ktoreho-pocas-letu-takmer-vysalo-z-lietadla?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Počas letu Ryanairu z Grécka do Nemecka sa rozbilo okno.",
-      "s": "SME",
-      "t": "Ponáral sa medzi životom a smrťou. Prehovoril muž, ktorého počas letu takmer vysalo z lietadla",
-      "ts": 1784806535.9266403,
-      "u": "f7d10f0b7cac86b168d1"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/F5iLAF1/policia-v-albansku-zasahovala-proti-demonstrantom-protestujucim-proti-vystavbe-hotela/",
-      "p": "Tirana zažíva najväčšie zrážky polície s demonštrantmi za posledné roky. Ľudia bránia prírodnú rezerváciu pred luxusným hotelom napojeným na rodinu Donalda Trumpa.",
-      "s": "Aktuality",
-      "t": "Polícia v Albánsku zasahovala proti demonštrantom protestujúcim proti výstavbe hotela",
-      "ts": 1784806535.9266434,
-      "u": "8acf7539c8f4d6265097"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/35Y8qyE/v-cesku-za-zrutil-armadny-vrtulnik-bolo-v-nom-pat-vojakov/",
-      "p": "Po páde vojenského vrtuľníka v Česku zasahujú na mieste všetky zložky záchranného systému.",
-      "s": "Aktuality",
-      "t": "V Česku za zrútil armádny vrtuľník. Bolo v ňom päť vojakov",
-      "ts": 1784806535.9266448,
-      "u": "d2746aad180d0dab10d7"
-    },
-    {
-      "l": "https://dennikn.sk/5468917/odsudenie-mladej-zeny-z-mariupola-alebo-desive-rozsudky-okupacnych-sudov/",
-      "p": "Rusko pod nátlakom a vyhrážkami núti obyvateľov okupovaných území prijať ruské pasy. A tým aj ruské občianstvo.",
-      "s": "Denník N",
-      "t": "Odsúdenie mladej ženy z Mariupola alebo desivé rozsudky okupačných súdov",
-      "ts": 1784806535.926646,
-      "u": "c92c4f18dcb3c57ca401"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2012245-jan-nosko-bude-opatovne-kandidovat-na-primatora-banskej-bystrice?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Súčasný primátor Banskej Bystrice Ján Nosko sa bude v jesenných komunálnych voľbách opätovne uchádzať o hlasy voličov.",
-      "s": "Pravda",
-      "t": "Ján Nosko bude opätovne kandidovať na primátora Banskej Bystrice",
-      "ts": 1784806535.9266472,
-      "u": "a17447d35576b542c665"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2012233-armada-cr-hlasi-vaznu-nehodu-vrtulnik-s-piatimi-vojakmi-sa-zrutil?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Na českej vojenskej základni v meste Náměšť nad Oslavou v kraji Vysočina sa zrútil armádny vrtuľník.",
-      "s": "Pravda",
-      "t": "Armáda ČR hlási vážnu nehodu: Vrtuľník s piatimi vojakmi sa zrútil",
-      "ts": 1784806535.9267797,
-      "u": "27b411ccce27e198b2ef"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2012223-najvacsi-sankcny-uder-za-styri-roky-unia-zasiahla-banky-lode-aj-rusky-zbrojarsky-priemysel?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Európska únia musí byť pripravená reagovať na ďalšiu eskaláciu zo strany Ruska a sankčný tlak na Moskvu sa prijatím najnovšieho balíka reštriktívnych opatrení neskončí. Uviedla to vo štvrtok šéfka diplomacie EÚ Kaja Kallasová po dohode členských štátov na 21. balíku sankcií proti Rusku.",
-      "s": "Pravda",
-      "t": "Najväčší sankčný úder za štyri roky: Únia zasiahla banky, lode aj ruský zbrojársky priemysel",
-      "ts": 1784806535.9268074,
-      "u": "ccab5472e393d3b5f940"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/policia-upozornuje-na-pripady-zneuz/979923-clanok.html",
-      "p": "Polícia zároveň upozorňuje, že trestnoprávna zodpovednosť môže vzniknúť aj v prípade nedbanlivostného konania.",
-      "s": "Teraz.sk",
-      "t": "Polícia upozorňuje na prípady zneužívania bankových účtov",
-      "ts": 1784806535.9268084,
-      "u": "8713d8154f4dbc4f449a"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/opozicia-abdikaciu-m-olhu-vita-ob/979922-clanok.html",
-      "p": "Predseda Rady FPU Matúš Oľha vo štvrtok abdikoval na svoj post. Svoj krok odôvodnil mediálnym lynčom, ktorému je dlhodobo vystavený a už ho nie je ochotný znášať.",
-      "s": "Teraz.sk",
-      "t": "Opozícia abdikáciu M. Oľhu víta, obáva sa však pretrvávania problémov",
-      "ts": 1784806535.9268093,
-      "u": "8526dae70d122ec20a01"
-    },
     {
       "l": "https://www.sme.sk/domov/c/sutaj-estok-prehral-dalsi-spor-viceprezidenta-policie-podla-sudu-odvolal-nezakonne?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Branko Kišš už zo zboru odišiel.",
@@ -4688,6 +4628,46 @@
       "t": "EÚ viní TikTok z ohrozovania detí na platforme. Čínskej sieti hrozí vysoká pokuta",
       "ts": 1784891440.3961349,
       "u": "2b5426c34bede7c52b76"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/v-druhej-polovici-tyzdna-sa-na-slovensku-pravdepodobne-zacne-dalsia-vlna-horucav?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Veľmi teplé budú aj noci.",
+      "s": "SME",
+      "t": "V druhej polovici týždňa sa na Slovensku pravdepodobne začne ďalšia vlna horúčav",
+      "ts": 1784892937.4583917,
+      "u": "67d7679284ed265d9ccb"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/eu-vini-tiktok-z-vystavovania-deti-rizikam-na-svojej-platforme-hrozi-mu-pokuta?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "TikTok bude mať teraz príležitosť preskúmať dokumenty Európskej komisie a odpovedať na ne.",
+      "s": "SME",
+      "t": "EÚ viní TikTok z vystavovania detí rizikám na svojej platforme, hrozí mu pokuta",
+      "ts": 1784892937.4583945,
+      "u": "8bd18719752ed4ca875c"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/oblast-semmeringu-zasiahlo-slabe-zemetrasenie-citili-ho-aj-na-zapadnom-slovensku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Rakúska seizmologická služba prijala viac ako 750 hlásení.",
+      "s": "SME",
+      "t": "Oblasť Semmeringu zasiahlo slabé zemetrasenie, cítili ho aj na západnom Slovensku",
+      "ts": 1784892937.4583962,
+      "u": "0411fe4162bff6d45cc2"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/sXXInwy/slabe-zemetrasenie-v-rakusku-pocitili-aj-obyvatelia-zapadneho-slovenska/",
+      "p": "Zemetrasenie s magnitúdou 4,4 zobudilo obyvateľov Semmeringu a okolia. Otrasy sa šírili až na západné Slovensko.",
+      "s": "Aktuality",
+      "t": "Slabé zemetrasenie v Rakúsku pocítili aj obyvatelia západného Slovenska",
+      "ts": 1784892937.4583974,
+      "u": "00f6183f48e49f5be994"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/zemetrasenie-v-rakusku-citili-ho-aj-n/980181-clanok.html",
+      "p": "Zemetrasenie nastalo o 01.59 h a bolo podľa agentúry APA pomerne plytké, s ohniskom v hĺbke iba päť kilometrov.",
+      "s": "Teraz.sk",
+      "t": "Zemetrasenie v Rakúsku: Cítili ho aj na západnom Slovensku",
+      "ts": 1784892937.4583988,
+      "u": "04973123359d1327d8fe"
     }
   ],
   "recent_alerts": [
@@ -4901,9 +4881,9 @@
     "0095ffdaf8a0256e95c1": 1784834436.9553587,
     "00b95b70035192a46573": 1784737253.7627463,
     "00ddac018d88e53f387b": 1784737253.7627447,
+    "00f6183f48e49f5be994": 1784892937.4583967,
     "010ba9f0f352986fff35": 1784729438.5652106,
     "01148bf2ff25281a2641": 1784807729.7981052,
-    "016a4c87ef0a099d052e": 1784718643.8848414,
     "017213bedb55e22ea096": 1784882138.222994,
     "01e9d87a28ac61567b65": 1784800539.5690703,
     "023f5a3e7a7634c0df7f": 1784802938.9328299,
@@ -4912,7 +4892,9 @@
     "0347d40488ec118712e0": 1784891440.3961198,
     "0373ab1b6e5b360480ad": 1784837993.2546349,
     "03a0cbcd074453cc6d71": 1784827243.94875,
+    "0411fe4162bff6d45cc2": 1784892937.4583955,
     "04700836ccd2c5368019": 1784889339.3483016,
+    "04973123359d1327d8fe": 1784892937.4583979,
     "04b39101070d568e32cc": 1784864135.2846863,
     "04cba2feb01d4428af6b": 1784777736.758997,
     "052aef9b52b1ddb83360": 1784825737.3996487,
@@ -4967,14 +4949,12 @@
     "14cea7ace47e9b1c7018": 1784777736.7587566,
     "14da7a12a9ca509a4a95": 1784814941.166811,
     "15367f26371670e5014d": 1784721344.0351603,
-    "15787ca53fdf543fd98c": 1784718643.8848436,
     "15c28e1378b28063d077": 1784777736.758995,
     "16aff2eb9deefd15591d": 1784811339.388814,
     "16b62f52f438baac920c": 1784734541.5407047,
     "1741ceb2ca0831e812f3": 1784820938.632171,
     "17cf80f51488657e3d85": 1784725835.5963564,
     "18d7698731db24072d98": 1784735731.129599,
-    "192e9a63153bc4c88390": 1784718643.8848445,
     "1948a806c7a471a07bbd": 1784748036.648279,
     "1959790319b0ad21b85e": 1784841638.5309503,
     "1a81fb46033e5a5e5bf6": 1784722245.0844731,
@@ -5033,7 +5013,6 @@
     "269eab6a35dedace00b3": 1784748036.6482818,
     "272fa459f584cbcd66c5": 1784796933.887292,
     "2766c7b491295a17c900": 1784777736.7587366,
-    "2784311b64b643949079": 1784718643.8848422,
     "27a65211fda3e21f0129": 1784814941.1668048,
     "27b411ccce27e198b2ef": 1784806535.9267788,
     "27ef194f20ae24ee7d71": 1784874937.6504605,
@@ -5078,7 +5057,6 @@
     "328233839d7dcd61bcd0": 1784864135.2846854,
     "330999351059dbb6087f": 1784869842.8813567,
     "3309bbcf52d7424cafd5": 1784722245.0844626,
-    "3358439f94d678909483": 1784720135.8909152,
     "335ef38443819fc19629": 1784777736.758718,
     "33809bbbb5039b3b2bfe": 1784818532.5943434,
     "33b74ebc6dbe22b74625": 1784814941.166783,
@@ -5149,7 +5127,6 @@
     "435cf05f72af25f0792a": 1784730939.142535,
     "4386ded7b2859ffe59fa": 1784750133.6371417,
     "439da97c9653865941d6": 1784790643.04239,
-    "43dd549ac8bbaff92fb9": 1784720135.8907804,
     "44049d9f660cce9cb218": 1784802938.9328423,
     "44c6ee1af80585cc94b6": 1784889339.348333,
     "451e3e9abe1ba779c49d": 1784751636.946862,
@@ -5200,7 +5177,6 @@
     "4ebd214eaeb63030ea37": 1784837993.2546215,
     "4fafb86df9f393b7d5f9": 1784882138.2229972,
     "4fc7840ddcf1a5c4281e": 1784818532.5943441,
-    "4febdda838235bf08338": 1784720135.8909311,
     "4ffc4f7a89ad21fb6a4a": 1784742941.3445504,
     "500edcf4c4b3d1018b46": 1784746534.233473,
     "51280a578bfb1be8fa8c": 1784777736.7587698,
@@ -5242,13 +5218,10 @@
     "58b8fa2e5c51d31b09b5": 1784866240.9465098,
     "5918dd3798b728e2f0aa": 1784797843.4292507,
     "599bc146af4c1d744b88": 1784744442.2286024,
-    "59be808d8b7a15c0ae1d": 1784720135.8909242,
     "59c3139d0c3cfc88e133": 1784793329.6449647,
     "59f76b143bc7c4c94a3b": 1784813737.3763077,
     "5a29a75becc972c16cdd": 1784795730.5462797,
-    "5a37a8028ab72b200693": 1784718643.8848336,
     "5a460f955572b6e87c55": 1784725835.5963492,
-    "5a675a0fdbe456409cec": 1784718643.8848467,
     "5a6c14cda9f07efa29ad": 1784866240.9462924,
     "5af91b6708d8f0cc593b": 1784746534.233483,
     "5b2f850e6fca1e3efcc2": 1784733860.4062903,
@@ -5283,7 +5256,6 @@
     "61be476dd3f7204d3d14": 1784735731.129609,
     "61c3857131c6f3e8436f": 1784883331.4017663,
     "61ffcbaf73a89b276c25": 1784864135.2847,
-    "6239e2e5472bd6ebda75": 1784720135.8909228,
     "624e2d55a9e565d476fa": 1784825737.3996403,
     "62e28ac1acdcec75e82b": 1784777736.758704,
     "63158024806474143364": 1784866240.946302,
@@ -5305,6 +5277,7 @@
     "6799c33b1d48e2fa5c7c": 1784883331.4017684,
     "67be88d6886a6eb32554": 1784879731.687123,
     "67c3833d6e2e4f273b1e": 1784866240.946269,
+    "67d7679284ed265d9ccb": 1784892937.4583874,
     "68696417e2070b458620": 1784804137.5618856,
     "6898a3b3209fdcdb76a8": 1784814941.166803,
     "695b23de6f0f7bf6b5ac": 1784724940.201996,
@@ -5315,14 +5288,12 @@
     "6bb2f17aa7dedb5c855f": 1784818532.5943372,
     "6bca7fdda47bdce11ac5": 1784817331.2327147,
     "6c04a031fbcd26285ef8": 1784730939.1425247,
-    "6c3ee9ceb4115ade7c30": 1784720135.8907747,
     "6c823d31958c5a6a3cda": 1784799336.0984745,
     "6cbf979c16b09ace5107": 1784740836.0195055,
     "6cd73d8524ad6b1c0676": 1784730939.1425385,
     "6ce61d7da8a843bdb3e2": 1784830834.8481355,
     "6d1d06a402b464f771a0": 1784866240.946327,
     "6d481da759b848682315": 1784869842.8813372,
-    "6d82eb8bba673eaec599": 1784720135.8909137,
     "6dbff66f0f722ef8af4d": 1784783447.980424,
     "6dcf18063eb521efe2b6": 1784864135.2846828,
     "6df10dbc3ae37b284cda": 1784777736.7587054,
@@ -5381,7 +5352,6 @@
     "78c46fe252cbb28665ff": 1784732129.8815317,
     "78dbc65b64485756e847": 1784801440.0510585,
     "78fa430bcaf301db001f": 1784777736.758998,
-    "79886f6b5bc542e7c8f6": 1784720135.8909204,
     "79ae37b97daa832bdfe1": 1784836536.366541,
     "79d38b71350f7241058e": 1784885738.8511667,
     "79d9c2af30b62c4fae8a": 1784832935.1760204,
@@ -5422,7 +5392,6 @@
     "838b139ff312497994f4": 1784834436.9553618,
     "838d81213f3c5c589f54": 1784788529.8591728,
     "83a060b54e62da2e899f": 1784804137.5618923,
-    "83ccc4755991f5967fec": 1784720135.8909276,
     "83f594a32c3bc563f5cc": 1784864135.2846978,
     "841f8c7f64c77a0f4820": 1784813737.3763173,
     "84405627f1a6b57e6050": 1784874937.6504674,
@@ -5432,7 +5401,6 @@
     "852ef210fd9c6a241fb5": 1784777736.7587278,
     "85327188ae95d821de0b": 1784869842.8813543,
     "8578b799cbd4de7853ba": 1784884237.8347042,
-    "858df028d3bd2d7e890b": 1784720135.890917,
     "85ae9be7e1fd380b510f": 1784812236.964261,
     "8713d8154f4dbc4f449a": 1784806535.9268079,
     "87226b5aeceed9989f85": 1784864135.2847013,
@@ -5454,6 +5422,7 @@
     "8b06f0c3609a9b367dac": 1784819440.4972692,
     "8b32802d19e3bc747e17": 1784836536.3665354,
     "8b33ec944dba453423b7": 1784867737.7397907,
+    "8bd18719752ed4ca875c": 1784892937.458393,
     "8c0b11c26aa21df009b5": 1784864135.2848642,
     "8c354e9477dbbe22f874": 1784889339.34831,
     "8c4ca3d82b4fff360449": 1784886931.443163,
@@ -5478,7 +5447,6 @@
     "8eaed83e96ce59b6c01a": 1784834436.9553545,
     "8ed167bcb3cb064a9667": 1784889339.3483205,
     "8ed8ff775cb808d68838": 1784864135.2848701,
-    "8efd060f3d3395fbc426": 1784720135.890916,
     "8f3549d15782f0d2fca6": 1784837993.254636,
     "8f4715cb618e12b122c4": 1784812236.9642706,
     "8f4825a1f8f0f7a0a67c": 1784837993.2546291,
@@ -5489,9 +5457,7 @@
     "91c5a0509e04b1cce00e": 1784817331.2327166,
     "91f996211a425ba3e9ed": 1784864135.284873,
     "91fe4c6966a5e8e6e7e4": 1784885738.8511753,
-    "9215a6792bc685e3b894": 1784720135.8909192,
     "923698bf1b821ff78c0a": 1784802938.9328384,
-    "923eb130b407ec75f95a": 1784720135.8909302,
     "923f3a2252fe2caf590c": 1784777736.7587461,
     "929aa35c205122de6a2a": 1784728535.1964774,
     "92ee8ddaec0e5ed762bf": 1784889339.3482988,
@@ -5519,7 +5485,6 @@
     "993ed5074804063f6c18": 1784867737.7398057,
     "99ae6e3c44caf460fac0": 1784805039.8285193,
     "99bac66e78e5651a5f40": 1784822133.449281,
-    "9a38c7cce2c21c2eb80f": 1784720135.8909292,
     "9a935fc20ba999dfd56b": 1784884237.8346987,
     "9a9e582fc5b7b00cbcaa": 1784864135.284877,
     "9b43e5be1f62c03d76ba": 1784882138.2229903,
@@ -5599,7 +5564,6 @@
     "a945178fd85e8be378db": 1784836536.3665342,
     "a981a6df06e3a469c9cc": 1784733040.4796088,
     "a996a6a4b5bd8759a088": 1784789736.4366426,
-    "a9a32f5608cf6535fb57": 1784720135.8909183,
     "aa3a41d9a4d2eeb137a2": 1784792132.0209517,
     "aa71cf3543c753da9d27": 1784740836.019502,
     "aa9845f73c723d8a07cb": 1784744442.228599,
@@ -5740,7 +5704,6 @@
     "cbe01610b7b4d2a78f09": 1784820938.6321924,
     "cc0f7e508bde37c58982": 1784724940.2019863,
     "cc163e40764d4616c816": 1784883331.401755,
-    "cc2aa835a2a1d7a75be2": 1784718643.8848457,
     "ccab5472e393d3b5f940": 1784806535.9268067,
     "cdc093cfd7dfa934b2d8": 1784891440.3961296,
     "cdf3bedb78cda8a8a89e": 1784891440.3961258,
@@ -5753,7 +5716,6 @@
     "cee8edd2657860e9aad9": 1784777736.7587066,
     "cefa72e7c0d31c105111": 1784866240.94628,
     "cf27c82dc11b91f25c3d": 1784885738.8511853,
-    "cf72d82ab55aa7d880bf": 1784718643.8848395,
     "cf9c89386fc08a2d19d0": 1784814941.1667924,
     "cfd12debc52fcbf775db": 1784777736.758994,
     "cfe6a56912e668ca4b70": 1784783447.980423,
@@ -5774,13 +5736,11 @@
     "d3540c0733205d5fc99a": 1784869842.8813472,
     "d3d0d42286133f2c90bd": 1784794236.2308939,
     "d487180a4283219ef08d": 1784814941.1668096,
-    "d4abdc8feac0d0fe60f7": 1784718643.8848405,
     "d4b7d7d2e16af1e01873": 1784777736.7587142,
     "d4c3849d2f9c1986671c": 1784777736.7587166,
     "d4d20f38ad0e04fd7225": 1784740836.019495,
     "d552e97284f77f7b838f": 1784729438.5652168,
     "d579968350937d20c0e3": 1784864135.2846842,
-    "d5aabfde71a6386719df": 1784718643.8848379,
     "d61e3ac3386ff41c3c02": 1784794236.2308977,
     "d6a28bfde55c903bf8cc": 1784808634.8960779,
     "d6efb77c1a42188af5ab": 1784800539.5690646,
@@ -5818,7 +5778,6 @@
     "de7839f242253083fcfb": 1784777736.7587488,
     "deb6b0aa579f414952c5": 1784883331.4017446,
     "deb74981e7bb3b5f544b": 1784813737.376319,
-    "df056fa032e1337dd4e7": 1784720135.8909264,
     "df2e149adf3f392f746f": 1784799336.09847,
     "df650ffa9b5c9a2a2d96": 1784866240.946286,
     "dfc82b83f2a15c58db54": 1784811339.3888097,
@@ -5826,7 +5785,6 @@
     "e0dd10aa9b1974f6ac74": 1784874937.6504748,
     "e13aeb373f179c632d0f": 1784836536.366526,
     "e1a22fdd4b89069600b7": 1784793329.6449707,
-    "e25971e8f4bd4c0a202f": 1784720135.8909214,
     "e2f63dc8612a3e5e92f0": 1784811339.3888123,
     "e325808643d8a4f94f6e": 1784866240.9463177,
     "e3a6fb8b96f50af8616c": 1784721344.0351489,
@@ -5838,7 +5796,6 @@
     "e53fc9e1e17ee3975dc0": 1784819440.4972656,
     "e55b9a82277a4a83a2d7": 1784799336.0984776,
     "e5a2f99d5d146b15d1f4": 1784813737.3763213,
-    "e5f9ab67dd088ebab09a": 1784718643.884845,
     "e711b486d8954fa274a2": 1784866240.9462636,
     "e7b014266c891df22923": 1784740836.0194988,
     "e7dd21d85476fdedf80a": 1784748036.648277,
@@ -5911,7 +5868,6 @@
     "f59d2ad50345b43517de": 1784728535.1962836,
     "f59f15d906a1499c18c8": 1784887841.9999533,
     "f5af4634da67390f18e6": 1784823643.4659297,
-    "f5da5d09186a0c0bd9c1": 1784720135.8909252,
     "f5dd47e058e55f168a3f": 1784740836.0195007,
     "f5ea1a2351bb33f60438": 1784885738.8511777,
     "f60d3aec1f6876ff3145": 1784866240.946298,
@@ -5969,61 +5925,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1784891440.396104
+      "ts": 1784892937.458373
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1784891440.3961055
+      "ts": 1784892937.4583745
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1784891440.3961089
+      "ts": 1784892937.4583771
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1784891440.3961132
+      "ts": 1784892937.4583807
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1784891440.396107
+      "ts": 1784892937.4583762
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1784891440.3960984
+      "ts": 1784892937.4583676
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1784891440.3961024
+      "ts": 1784892937.4583714
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1784891440.3961127
+      "ts": 1784892937.45838
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1784891440.3961103
+      "ts": 1784892937.4583783
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1784891440.3961112
+      "ts": 1784892937.4583793
     }
   }
 }
