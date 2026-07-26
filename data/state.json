@@ -1,30 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "SaS plánuje samostatný štart vo voľbách a návrat k justícii",
-      "ts": 1785078643.2106507
-    },
-    {
-      "headline": "Dovolenka v Taliansku je výrazne drahšia",
-      "ts": 1785078643.2106507
-    },
-    {
-      "headline": "Lekári žiadajú cenovú dostupnosť lieku proti HIV",
-      "ts": 1785078643.2106507
-    },
-    {
-      "headline": "Výbuch tankera v Hormuzskom prielive",
-      "ts": 1785078643.2106507
-    },
-    {
-      "headline": "Piešťany získajú milióny na obnovu vodovodu",
-      "ts": 1785078643.2106507
-    },
-    {
-      "headline": "Vykoľajenie vozňov v košickom depe",
-      "ts": 1785078643.2106507
-    },
-    {
       "headline": "Teroristický útok na Pride v Berlíne",
       "ts": 1785082256.8527596
     },
@@ -83,112 +59,96 @@
     {
       "headline": "Tadej Pogačar ovládol Tour de France piatykrát",
       "ts": 1785089438.12863
+    },
+    {
+      "headline": "Libanonská armáda kritizuje Izrael za útoky",
+      "ts": 1785093045.848566
+    },
+    {
+      "headline": "KDH žiada preveriť pomery v Slovenskej pošte",
+      "ts": 1785093045.848566
+    },
+    {
+      "headline": "Prešovský kraj musí vrátiť milióny z eurofondov",
+      "ts": 1785093045.848566
+    },
+    {
+      "headline": "Ukrajina vyvíja drony s dlhým doletom",
+      "ts": 1785093045.848566
+    },
+    {
+      "headline": "Rastúce riziko požiarov v Európe",
+      "ts": 1785093045.848566
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Páchateľ útoku na berlínsky Pride je mŕtvy",
+        "headline": "Libanonská armáda kritizuje Izrael za útoky",
         "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/libanonska-armada-odsudila-pokracujuce-utoky-izraela"
+          ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/pcjmbNp/podozriveho-z-utoku-na-pride-v-berline-zastrelili-pri-policajnom-zasahu/"
+            "https://www.aktuality.sk/clanok/q75X5Kb/libanonska-armada-obvinuje-izrael-z-porusovania-dohod-tvrdi-ze-brani-mierovej-misii-na-juhu-krajiny/"
           ]
         ],
-        "perex": "Nemecká polícia potvrdila, že podozrivý z teroristického útoku v Berlíne bol počas zásahu zastrelený. Incident, pri ktorom páchateľ zrazil ľudí autom a útočil mačetou, si vyžiadal jednu obeť a desiatky zranených."
+        "perex": "Libanonská armáda odsúdila pokračujúce izraelské útoky na juhu krajiny, ktoré podľa nej porušujú dohodnuté prímerie. Tvrdí, že vojenské akcie blokujú návrat obyvateľov do domovov a znemožňujú plné nasadenie mierových síl."
       },
       {
-        "headline": "Prezident Pellegrini mieri na oficiálnu návštevu Číny",
+        "headline": "KDH žiada preveriť pomery v Slovenskej pošte",
         "links": [
           [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/pellegrini-odcestuje-do-ciny-navste/980554-clanok.html"
+            "SME (GNews)",
+            "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS0JnODZpdlo5QjhXRUpjMzRFa0RiMFdBSDZtRjlDUFBVWWVZS2wwTVpZN3p4TU15RVg0NUoyMEJQRjFDaFk4U1E2Vmd0N0xJT1hHNk91QklvWjFtd2pPdWxaMFZpVjJZTWRHRHFWelU5UTFVeE52aC1RZXFOc2h3WmluRHpoR3otSGxLWElic1lnQmlmTGc?oc=5"
           ]
         ],
-        "perex": "Prezident Peter Pellegrini odcestuje na pozvanie čínskeho prezidenta Si Ťin-pchinga do Číny. Počas návštevy sa hlava štátu zameria aj na prehliadku významných technologických centier."
+        "perex": "Kresťanskodemokratické hnutie iniciovalo kontrolu pracovných podmienok a vnútorných pomerov v Slovenskej pošte. Strana reaguje na podnety týkajúce sa fungovania štátneho podniku."
       },
       {
-        "headline": "Meteorológovia varujú pred búrkami na východe Slovenska",
+        "headline": "Prešovský kraj musí vrátiť milióny z eurofondov",
+        "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/slovensko/1237229-presovsky-kraj-musi-vratit-1-5-miliona-eur-z-eurofondov-tykaju-sa-obnovy-cesty-vo-vysokych-tatrach"
+          ]
+        ],
+        "perex": "Prešovský samosprávny kraj je povinný vrátiť 1,5 milióna eur z európskych fondov. Finančné prostriedky boli pôvodne určené na obnovu cesty vo Vysokých Tatrách."
+      },
+      {
+        "headline": "Ukrajina vyvíja drony s dlhým doletom",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2013599-chystate-sa-v-pondelok-von-cast-slovenska-potrapia-silne-lejaky-krupy-a-narazy-vetra-plati-vystraha"
+            "https://www.pravda.sk/spravy/svet/clanok/2013613-ukrajina-rozsiruje-dronovy-program-nove-dialkove-stroje-by-mohli-preletiet-naprieč-celym-ruskom"
           ]
         ],
-        "perex": "Pre okresy Košického a Prešovského kraja platí v pondelok výstraha prvého stupňa pred búrkami. Tie môžu byť sprevádzané silnými lejakmi, krúpami a nárazovým vetrom."
+        "perex": "Prezident Volodymyr Zelenskyj oznámil, že Ukrajina výrazne rozširuje kapacity svojho dronového programu. Nové diaľkové stroje majú byť schopné preletieť naprieč celým ruským územím."
       },
       {
-        "headline": "Colníci pri Štrbe zaistili 18 ton tabaku",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/Tfe1iWm/colnici-pri-strbe-odhalili-kamion-smrti-pre-rozpocet-viezol-18-ton-tabaku-za-vyse-32-miliona-na-daniach/"
-          ]
-        ],
-        "perex": "Colná správa pri Štrbe odhalila kamión prevážajúci 18 ton tabaku s nejasnou dokumentáciou. Zásahom sa podarilo zabrániť daňovému úniku vo výške viac ako 3,2 milióna eur."
-      },
-      {
-        "headline": "Tadej Pogačar ovládol Tour de France piatykrát",
+        "headline": "Rastúce riziko požiarov v Európe",
         "links": [
           [
             "Denník N",
-            "https://dennikn.sk/5472548/nezastavil-ho-rozpad-timu-ani-nocne-dopingové-kontroly-pogacar-piatykrat-vyhral-tour-de-france/"
+            "https://dennikn.sk/5474111/europa-hori-coraz-castejsie-co-ukazuju-poziare-a-preco-rastie-riziko-aj-na-slovensku-mapy-krajin/"
           ]
         ],
-        "perex": "Slovinský cyklista Tadej Pogačar dosiahol na Tour de France svoje piate celkové víťazstvo. Týmto triumfom vyrovnal historický rekord v počte prvenstiev na týchto pretekoch."
+        "perex": "Európske krajiny čelia čoraz častejším a ničivejším lesným požiarom, pričom riziko sa zvyšuje aj na území Slovenska. Odborníci upozorňujú na súvislosť s klimatickými zmenami a extrémnymi horúčavami."
       }
     ],
-    "ts": 1785089438.128621
+    "ts": 1785093045.8485587
   },
   "meta": {
-    "last_collection_ts": 1785090934.7291594,
+    "last_collection_ts": 1785093040.5596511,
     "last_feed_error_ts": 1785082251.3850334,
     "last_llm_error_ts": 1784642656.705458,
-    "last_run_ts": 1785090935.7168834,
-    "last_synthesis_ts": 1785089438.128614
+    "last_run_ts": 1785093041.2804208,
+    "last_synthesis_ts": 1785093045.8485513
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/americania-ju-vyznamenali-za-hrdinstvo-na-slovensku-sa-na-ucitelku-z-hrinovej-takmer-zabudlo?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Správy o Slovensku, ktoré zaujali cudzincov.",
-      "s": "SME",
-      "t": "Američania ju vyznamenali za hrdinstvo. Na Slovensku sa na učiteľku z Hriňovej takmer zabudlo",
-      "ts": 1785005729.9417145,
-      "u": "6f98f376a96baa4906d2"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95cWI2b2sta21adEo5LW9vdkgwMExHX1hVSW5RVVM5WExrUFNiN3UxWktVZW80Rnp2RzRKMlI4ZWh6U2gtbTVqQ0QwMElFc3JO?oc=5",
-      "p": "Ľubica Stančíková - Šéfredaktorka - MY Liptov&nbsp;&nbsp;MY Regióny",
-      "s": "SME (GNews)",
-      "t": "Ľubica Stančíková - Šéfredaktorka - MY Liptov - MY Regióny",
-      "ts": 1785005729.9417171,
-      "u": "80308a04e025b5580202"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UUi1WYzJaSFEya1UzWFV1XzZ3bTdpbWxDMHZtaTE4bURTS1hOTUZLcFZEbnZmakpGSjBTVmpwV3ZrdjFJWDM3VHpDLTAxZzNmTFhWOURmTU1XNFBlN3hOQS1iNm92UQ?oc=5",
-      "p": "V. liga SsFZ (2026/2027)&nbsp;&nbsp;SPORTNET",
-      "s": "SME (GNews)",
-      "t": "V. liga SsFZ (2026/2027) - SPORTNET",
-      "ts": 1785005729.9417186,
-      "u": "cbfb9469cadf316e2a09"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeGtDUlpndUdxaktKQlhmRG56RGFOX1EzTmh5TmVtVE4zYTA0Z21ncmt1bUQzR25selRYRDNfdnRsYTdUUnNIRnBMcVRVc292MnJqeGdxcXV6T21aemJtSEtnUHFac25VTDQ2Q2dUT2pNRXdaR3hDclRmS2xlLVB2TmVhOTZ1ZFZHT2NVdkxLVWZkb2pGTEZVV05zV1VqaUoy?oc=5",
-      "p": "Hokejistky Slovenska povedie nový tréner. Je to veľká výzva, uviedol&nbsp;&nbsp;SPORTNET",
-      "s": "SME (GNews)",
-      "t": "Hokejistky Slovenska povedie nový tréner. Je to veľká výzva, uviedol - SPORTNET",
-      "ts": 1785005729.94172,
-      "u": "e53fc9e1e17ee3975dc0"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1237622-matka-a-dcera-sa-utopili-pri-zachrane-dietata-sedemrocny-chlapec-bojuje-o-zivot",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Matka a dcéra sa utopili pri záchrane dieťaťa. Sedemročný chlapec bojuje o život",
-      "ts": 1785005729.9417212,
-      "u": "d1ce775f6c67cc2b4c3c"
-    },
     {
       "l": "https://www.pravda.sk/spravy/svet/clanok/2013387-zelenskyj-varuje-rusko-planuje-nasadit-desattisice-severokorejskych-vojakov-a-novu-vyzbroj?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
       "p": "Ukrajinský prezident Volodymyr Zelenskyj očakáva, že Severná Kórea podporí Rusko vo vojne na Ukrajine ďalšími tisícami vojakov a ťažkou výzbrojou. Uviedol to v sobotu večer vo videu na sociálnych sieťach, o ktorom informovali agentúry Reuters a DPA, píše TASR.",
@@ -3100,6 +3060,38 @@
       "t": "Faktúry za tisíce eur vyvolali spor medzi obcami a organizáciou SOZA",
       "ts": 1785090935.7168827,
       "u": "007de8c71776394824ac"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/usa-a-iran-podla-medii-zastavili-utoky-kvoli-rokovaniam-s-omanskymi-zastupcami-v-teherane?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Témou debát má byť otvorenie Hormuzského prielivu.",
+      "s": "SME",
+      "t": "USA a Irán podľa médií zastavili útoky kvôli rokovaniam s ománskymi zástupcami v Teheráne",
+      "ts": 1785093041.2804134,
+      "u": "89593ba08fdfe8c8f53b"
+    },
+    {
+      "l": "https://dennikn.sk/5461999/mna-cetbot-neoblbne-skusam-s-nim-aj-veci-ktore-robit-nesmie-hovori-zakladatelka-neziskovej-organizacie-ai-detom/",
+      "p": "Eva Nečasová pred štyrmi rokmi založila v&#160;Česku neziskovú organizáciu AI deťom, aby pomohla so vzdelávaním v&#160;oblasti umelej inteligencie. V&#160;záujme výskumu podstupovala aj veľmi osobnú komunikáciu s&#160;četbotom a&#160;skúšala hranice, za ktoré deti môžu zájsť. V&#160;rozhovore s&#160",
+      "s": "Denník N",
+      "t": "Mňa četbot neoblbne. Skúšam s ním aj veci, ktoré robiť nesmie, hovorí zakladateľka neziskovej organizácie AI deťom",
+      "ts": 1785093041.2804167,
+      "u": "067f44e57f3c9e9e41c7"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2013613-ukrajina-rozsiruje-dronovy-program-nove-dialkove-stroje-by-mohli-preletiet-napriec-celym-ruskom?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Ukrajinský prezident Volodymyr Zelenskyj uviedol, že Ukrajina pripravuje výrazné rozšírenie kapacít svojich diaľkových dronov. Ako referuje web united24media.com, nové ciele predstavil počas piatkového rozhovoru s americkou blogerkou Laurou Loomerovou.",
+      "s": "Pravda",
+      "t": "Ukrajina rozširuje dronový program. Nové diaľkové stroje by mohli preletieť naprieč celým Ruskom",
+      "ts": 1785093041.2804186,
+      "u": "b8f8baddc57dd49f0215"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1238620-ropa-opaet-zdrazuje-konflikt-na-blizkom-vychode-by-mohol-predrazit-tankovanie-na-2-eura-za-liter",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Ropa opäť zdražuje: Konflikt na Blízkom východe by mohol predražiť tankovanie na 2 eurá za liter",
+      "ts": 1785093041.2804198,
+      "u": "2602131e7dda6982905b"
     }
   ],
   "recent_alerts": [
@@ -3490,6 +3482,7 @@
     "04e3e5811ea6e2219acf": 1785069399.375924,
     "04f0431898a793147127": 1785082251.38505,
     "05c52716021b6154a54c": 1785049005.3638027,
+    "067f44e57f3c9e9e41c7": 1785093041.280415,
     "0753ff6f5cfbc83af7b5": 1785069399.375918,
     "07abac6ba2e02c0a207f": 1784960444.5538404,
     "07c77d5d42d8f3ca48d4": 1784995008.2651803,
@@ -3565,6 +3558,7 @@
     "24c7ca190ff6610f6cfb": 1785040535.3145556,
     "25161ffdd01b4cbdadb2": 1785058534.804095,
     "25b7aebb7f75fd571f71": 1784996436.9052303,
+    "2602131e7dda6982905b": 1785093041.2804193,
     "261bc1ed3bd4c0b547c0": 1785036950.8827558,
     "269eab6a35dedace00b3": 1784923837.3701446,
     "26b357b5c3280dfad6be": 1784950533.1524239,
@@ -3613,7 +3607,6 @@
     "37c2b526bfb835d34bce": 1785067833.8007863,
     "37d40f2054d4d90fc933": 1785003640.1652284,
     "37eb5829fac1891fbc54": 1785040535.314754,
-    "3922d8911369482df0fb": 1784918136.9716969,
     "39539f085959791ad0af": 1785089434.3554134,
     "39da8493e528b7983634": 1785040535.31475,
     "3a0d28afa0a2b12d0d86": 1785063339.375618,
@@ -3622,7 +3615,6 @@
     "3a2ca3ab2ba64c74b4d3": 1784966130.000639,
     "3a9ff93ddbf5ac669d4b": 1784950533.1524138,
     "3ad0f9ecf7f73f1e4387": 1785054932.543227,
-    "3ae121927c53f8446bac": 1784920235.3030818,
     "3b08662a5ef3656a097e": 1785087336.7516751,
     "3b19fb2f8cd9965c5e26": 1785080147.9146872,
     "3b35aa190c7cd551893c": 1784950533.1524832,
@@ -3773,7 +3765,6 @@
     "6f48d4ef14cd1c0c7a82": 1784950533.152447,
     "6f98f376a96baa4906d2": 1785005729.9417102,
     "6fd5a9778268f1c09866": 1785050442.9612415,
-    "715a6a4348e86cecbc53": 1784920235.30308,
     "715c3aca855d35361961": 1785040535.3147461,
     "7200db2a48888f145485": 1784976958.7677627,
     "723f33f6a8eff1774749": 1784976958.7677724,
@@ -3829,12 +3820,12 @@
     "87ab63972376cdc42d35": 1784925347.7269862,
     "88ac8384e33ca3980eab": 1785061332.197797,
     "8958529702b4d5fa384e": 1784973334.5905318,
+    "89593ba08fdfe8c8f53b": 1785093041.2804096,
     "896a945dc9ba18eef474": 1785053440.7072775,
     "89b7f6418f999df5aa29": 1785080147.9146836,
     "89ea1d0c685644d4d2d6": 1784950533.1524498,
     "8a670816f9fa184292eb": 1784980626.3710454,
     "8a7ad2870de401d251d9": 1785061332.1978147,
-    "8b3da984f4e243a46b93": 1784920235.3030844,
     "8b91232dd19c7814a3fc": 1784985641.8983016,
     "8ca2dbe2fbd859eae067": 1785051907.835646,
     "8d335269ea3d1daf000b": 1784976958.7677784,
@@ -3850,7 +3841,6 @@
     "939f4d1c7f15818ea528": 1785040535.3147533,
     "93ba441d7b6d7744dbe2": 1784976958.7677705,
     "941e2a716f5ca08a4a5c": 1784950533.1524353,
-    "9500f0b24aa09e062b8f": 1784920235.303066,
     "959c51d41a3d12fdb68d": 1784953245.887233,
     "95a5db0b91492958e235": 1784956918.355326,
     "95a901d7d186c5946c85": 1785078638.07997,
@@ -3961,7 +3951,7 @@
     "b846d20aff6d2abf6397": 1785050442.9612393,
     "b87f8b597d08b6cf49fd": 1785036950.8824968,
     "b8aeb12c2652460e872c": 1785073009.9389777,
-    "b8eaf8709bec24bcf008": 1784920235.3030784,
+    "b8f8baddc57dd49f0215": 1785093041.2804174,
     "b95e9c062f7c42b1e42a": 1785076529.1432118,
     "b96a7a186234f344c333": 1785090935.7168798,
     "b9bca290956fa53cea60": 1785045377.1349235,
@@ -3998,14 +3988,11 @@
     "c619485fb28f66db3e29": 1785080147.914678,
     "c63bee85a34476e4c1af": 1784976958.7677717,
     "c647100be7a6b38d5f77": 1784958938.9464884,
-    "c6d166b9d79d12763fb6": 1784920235.3030725,
     "c6fe923312e3657cd001": 1784995008.2651834,
-    "c756fb5553261f1f4a0c": 1784920235.3030856,
     "c7a60742bcfddd09bc09": 1785036950.8824847,
     "c7c5c5a575a10a7c080b": 1785036950.8827448,
     "c7d122c65533faf33d06": 1784992845.3833885,
     "c80323f4bb4a13484250": 1784950533.1524842,
-    "c8a0607cb95edc6334e1": 1784918136.9716926,
     "c9dddef885b4be22cbe6": 1784996436.9052212,
     "ca1261513929340924c5": 1785040535.3145452,
     "ca5dce5157898be39b92": 1785061332.1978137,
@@ -4018,7 +4005,6 @@
     "cbfb9469cadf316e2a09": 1785005729.941718,
     "cc5c4ba6a10999e43343": 1785054932.5432236,
     "ccaa4b2fb86712da38ee": 1785039043.209116,
-    "cce00505adcf41686874": 1784920235.3030753,
     "cdea044e42adab49ca6b": 1785076529.143002,
     "cedb9a1ef702a88892e8": 1785036950.8824537,
     "cee8edd2657860e9aad9": 1784951852.5868542,
@@ -4033,7 +4019,6 @@
     "d1ce775f6c67cc2b4c3c": 1785005729.9417202,
     "d1cf6167f6750c68ad8a": 1785040535.314749,
     "d2740147fec361081cb9": 1785036950.8827455,
-    "d29982d985b51d0521e0": 1784920235.3030825,
     "d2b13548785168b6fb30": 1784923837.3701396,
     "d45ff1ea90cbfd420f32": 1785058534.8040795,
     "d464a6cfdbe0de36d4e4": 1784953245.887234,
@@ -4043,7 +4028,6 @@
     "d5ccab433c29956a65c5": 1784950533.1524925,
     "d724163c8dc831db1cda": 1785040535.3147526,
     "d77ed6c95641b3aa92c9": 1784925347.726989,
-    "d7822765c051adb0e15c": 1784920235.3030772,
     "d7a26ff7942c614d98c9": 1785040535.3145494,
     "d7c48638898c02f90ea1": 1784964043.7950466,
     "d7e3f2005b718a0a8173": 1785061332.1978025,
@@ -4055,7 +4039,6 @@
     "d9fdf4c9f2e759c731d0": 1784980626.3710492,
     "da68083e99eb7f514d21": 1785041757.8854456,
     "dad442688ac6ac7d953a": 1785066485.031167,
-    "db50f1d2dc3eccb0405c": 1784918136.971687,
     "db9448954c98e9459186": 1785067833.8007889,
     "dc7643a2fab39e43c63c": 1785036950.8824606,
     "dd0cc0de7b38becb1ab3": 1785040535.314752,
@@ -4084,7 +4067,6 @@
     "e5763a75f515cf4712ea": 1784964043.7950394,
     "e5c054191f7bf75186cb": 1785066485.0311615,
     "e5c92951985c55b78f3d": 1785061332.1978116,
-    "e64936188e6d564cbccd": 1784918136.9716952,
     "e66796a2e4d254205916": 1784998530.908934,
     "e778a035baea0971248f": 1785000042.429318,
     "e7cd61312d5ec29b82e3": 1784976958.7677677,
@@ -4173,61 +4155,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785090935.7166438
+      "ts": 1785093041.2803955
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785090935.7166455
+      "ts": 1785093041.2803967
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785090935.7166483
+      "ts": 1785093041.2803993
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785090935.716653
+      "ts": 1785093041.2804036
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785090935.716647
+      "ts": 1785093041.2803981
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785090935.7166374
+      "ts": 1785093041.280389
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785090935.716642
+      "ts": 1785093041.2803934
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785090935.7166524
+      "ts": 1785093041.280403
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785090935.7166498
+      "ts": 1785093041.2804008
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785090935.716651
+      "ts": 1785093041.2804017
     }
   }
 }
