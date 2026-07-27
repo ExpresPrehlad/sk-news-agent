@@ -23,10 +23,12 @@ import sys
 import time
 
 from src import gha_summary
+from src.audit_page import write_audit_page
 from src.collector.rss import fetch_all
 from src.config import (
     GEMINI_API_KEY,
     OPENROUTER_API_KEY,
+    SELECTION_LOG_DIR,
     SOURCES,
     STATE_PATH,
     SYNTHESIS_WINDOW_HOURS,
@@ -42,6 +44,7 @@ from src.notify.discord import (
 )
 from src.pages import write_page
 from src.schedule import should_collect, synthesis_interval_minutes
+from src.selection_log import SelectionLog
 from src.state import State
 
 logging.basicConfig(
@@ -76,7 +79,12 @@ def check_feeds() -> int:
     return 0 if all_ok else 1
 
 
-def _run_triage(state: State, discord: DiscordConfig, new_articles: list[dict]) -> str:
+def _run_triage(
+    state: State,
+    discord: DiscordConfig,
+    selection_log: SelectionLog,
+    new_articles: list[dict],
+) -> str:
     """Best-effort triáž nových článkov → #alerty. Vráti stručný status."""
     # Kontext pre rozpoznanie oneskorených duplicít: nedávno pokryté témy
     # (posledných 6 h), okrem samotných práve triedených nových článkov.
@@ -89,22 +97,39 @@ def _run_triage(state: State, discord: DiscordConfig, new_articles: list[dict]) 
         {"s": r["s"], "t": r["t"]} for r in recent[:80]
     ]
     try:
-        alerts, model = triage(new_articles, known_context)
+        alerts, model, decision_valid = triage(new_articles, known_context)
     except AllModelsFailed as exc:
         log.error("Triáž: celá LLM reťaz zlyhala: %s", exc)
         _report_llm_outage(state, discord, "triáž", str(exc))
         return "❌ LLM reťaz zlyhala (všetky modely)"
+    published = send_alerts(discord.alerts_url, alerts, model)
+    selection_log.record_triage(
+        articles=new_articles,
+        context_count=len(known_context),
+        alerts=alerts,
+        model=model,
+        published=published,
+        decision_valid=decision_valid,
+    )
+    if not decision_valid:
+        return f"⚠️ neparsovateľný výstup — `{model}`"
     if alerts:
         log.info("Triáž (%s): %d alert(ov).", model, len(alerts))
-        send_alerts(discord.alerts_url, alerts, model)
         state.add_alerts(alerts, model)
+        if not published:
+            return f"⚠️ {len(alerts)} alert(ov), Discord zlyhal — `{model}`"
         return f"🚨 {len(alerts)} alert(ov) — `{model}`"
     log.info("Triáž (%s): nič mimoriadne.", model)
     return f"nič mimoriadne — `{model}`"
 
 
-def _run_synthesis(state: State, discord: DiscordConfig, force: bool,
-                    interval_minutes: int) -> str:
+def _run_synthesis(
+    state: State,
+    discord: DiscordConfig,
+    selection_log: SelectionLog,
+    force: bool,
+    interval_minutes: int,
+) -> str:
     """Syntéza TOP tém raz za `interval_minutes` (podľa aktuálneho pásma) → #prehlad."""
     due = time.time() - state.get_meta("last_synthesis_ts") >= interval_minutes * 60
     if not (due or force):
@@ -121,7 +146,16 @@ def _run_synthesis(state: State, discord: DiscordConfig, force: bool,
         log.error("Syntéza: celá LLM reťaz zlyhala: %s", exc)
         _report_llm_outage(state, discord, "syntéza", str(exc))
         return "❌ LLM reťaz zlyhala (všetky modely)"
-    if topics and send_digest(discord.digest_url, topics, model):
+    published = send_digest(discord.digest_url, topics, model)
+    selection_log.record_synthesis(
+        articles=window,
+        already_featured_count=len(already_featured),
+        topics=topics,
+        model=model,
+        published=published,
+        forced=force,
+    )
+    if topics and published:
         state.set_meta("last_synthesis_ts", time.time())
         state.set_last_digest(topics, model)
         state.add_digest_history(topics)
@@ -144,6 +178,7 @@ def _report_llm_outage(state: State, discord: DiscordConfig, what: str, detail: 
 def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     discord = DiscordConfig()
     state = State(STATE_PATH)
+    selection_log = SelectionLog(SELECTION_LOG_DIR)
 
     do_collect, band = should_collect(state)
     if not do_collect:
@@ -235,9 +270,16 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
         ]
         try:
             if new_dicts:
-                triage_status = _run_triage(state, discord, new_dicts)
-            synthesis_status = _run_synthesis(state, discord, force_synthesis,
-                                              synthesis_interval_minutes(band))
+                triage_status = _run_triage(
+                    state, discord, selection_log, new_dicts
+                )
+            synthesis_status = _run_synthesis(
+                state,
+                discord,
+                selection_log,
+                force_synthesis,
+                synthesis_interval_minutes(band),
+            )
         except Exception:  # noqa: BLE001 — bezpečnostná sieť pre celú vrstvu
             log.exception("Nečakaná chyba LLM vrstvy — beh pokračuje.")
             triage_status = synthesis_status = "❌ nečakaná výnimka (pozri logy)"
@@ -250,6 +292,7 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     # takže stránka je vždy aktuálna k poslednému behu. Zlyhanie nesmie
     # zhodiť beh — write_page interne chytá všetky výnimky.
     write_page(state)
+    write_audit_page()
 
     state.save()
     log.info("Stav uložený (%d videných, %d v recent bufferi).",

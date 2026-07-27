@@ -99,6 +99,12 @@ USER_AGENT: str = (
 # Cesta k stavovému súboru (commituje sa späť do repa vo workflow).
 STATE_PATH: str = os.environ.get("STATE_PATH", "data/state.json")
 
+# Adresár dlhodobého auditného logu rozhodnutí LLM. Záznamy sú po mesiacoch
+# v JSONL súboroch, aby sa dali jednoducho analyzovať bez načítania state.json.
+SELECTION_LOG_DIR: str = os.environ.get(
+    "SELECTION_LOG_DIR", "data/selection_logs"
+)
+
 # Poistka proti zaplaveniu Discordu pri prvom behu alebo po dlhom výpadku:
 # ak je nových článkov viac, pošle sa len súhrnná hlavička + prvých N.
 MAX_RAW_ITEMS_PER_RUN: int = 40

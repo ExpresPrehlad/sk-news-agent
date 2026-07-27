@@ -180,9 +180,10 @@ def _fmt_context_titles(articles: list[dict]) -> str:
 
 def triage(
     new_articles: list[dict], known_context: list[dict] | None = None
-) -> tuple[list[Alert], str]:
+) -> tuple[list[Alert], str, bool]:
     """
-    Vráti (alerty, použitý_model). Môže vyhodiť AllModelsFailed.
+    Vráti (alerty, použitý_model, výstup_bol_validný).
+    Môže vyhodiť AllModelsFailed.
 
     known_context: nedávno pokryté témy (napr. state.recent_window(6)) —
     pomáha modelu rozpoznať oneskorené duplicity a nepovažovať ich za
@@ -206,8 +207,8 @@ def triage(
         ]
     except (ValueError, json.JSONDecodeError, AttributeError, TypeError) as exc:
         log.warning("Triáž: neparsovateľná odpoveď z %s: %s", model, exc)
-        return [], model  # nefunkčný výstup = žiadne alerty, surový feed kryje
-    return alerts[:5], model
+        return [], model, False  # surový feed kryje nefunkčný výstup
+    return alerts[:5], model, True
 
 
 # ---------------------------------------------------------------------------

@@ -236,6 +236,7 @@ footer { max-width: 1100px; margin: 0 auto; padding: 20px 24px 40px;
 .pill-fail { color: var(--red); border-color: #4A2620; }
 .footer-note { font-size: 11.5px; color: var(--muted); margin-left: auto;
   font-family: "IBM Plex Mono", monospace; }
+.footer-link { font-size: 11.5px; font-family: "IBM Plex Mono", monospace; }
 """
 
 
@@ -281,6 +282,7 @@ def build_html(state) -> str:
 </main>
 <footer>
   {sources_html}
+  <a class="footer-link" href="audit.html">História výberov →</a>
   <span class="footer-note">beží automaticky, GitHub cron je "best-effort" (môže meškať)</span>
 </footer>
 <script>
