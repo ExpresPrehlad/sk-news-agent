@@ -1,30 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Ukrajina vyvíja drony s doletom až 10-tisíc kilometrov",
-      "ts": 1785137739.6480966
-    },
-    {
-      "headline": "Francúzsko bojuje s najväčšími požiarmi od druhej svetovej vojny",
-      "ts": 1785137739.6480966
-    },
-    {
-      "headline": "Ruský e-shop Wildberries stiahol vojenskú tematiku",
-      "ts": 1785137739.6480966
-    },
-    {
-      "headline": "Výstrahy pred búrkami a krúpami na východe Slovenska",
-      "ts": 1785137739.6480966
-    },
-    {
-      "headline": "Tragédia v chorvátskom letovisku: V bazénoch zomreli dve deti",
-      "ts": 1785137739.6480966
-    },
-    {
-      "headline": "Kolumbijský prezident plánuje prerušiť vzťahy s Kubou a Nikaraguou",
-      "ts": 1785137739.6480966
-    },
-    {
       "headline": "Pogačar ovládol Tour de France a vyrovnal historický rekord",
       "ts": 1785138943.3354485
     },
@@ -203,27 +179,47 @@
     {
       "headline": "V Rakúsku zahynula česká horolezkyňa",
       "ts": 1785150663.8321087
+    },
+    {
+      "headline": "Pellegrini v Číne rokuje o investíciách a obchode",
+      "ts": 1785152153.6378872
+    },
+    {
+      "headline": "Zelenskyj varuje pred ruskou mobilizáciou státisícov vojakov",
+      "ts": 1785152153.6378872
+    },
+    {
+      "headline": "LOZ sa obracia na prokuratúru pre financovanie nemocníc",
+      "ts": 1785152153.6378872
+    },
+    {
+      "headline": "Závod Askoll v Potvoriciach končí, prepustí všetkých ľudí",
+      "ts": 1785152153.6378872
+    },
+    {
+      "headline": "Šéfka enviroinšpekcie odchádza do dôchodku",
+      "ts": 1785152153.6378872
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Prezident Pellegrini začal štátnu návštevu Číny",
+        "headline": "Pellegrini v Číne rokuje o investíciách a obchode",
         "links": [
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/pellegrini-pricestoval-do-ciny-caka/980670-clanok.html"
-          ],
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/zDBS9Go/po-takmer-dvoch-dekadach-mieri-hlava-statu-do-ciny-stretne-sa-so-si-tin-pchingom/"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/pellegrini-pricestoval-do-ciny-caka/980670-clanok.html"
           ]
         ],
-        "perex": "Prezident Peter Pellegrini pricestoval na trojdňovú návštevu Číny, kde sa stretne s najvyššími predstaviteľmi krajiny vrátane Si Ťin-pchinga. Témami rokovaní majú byť najmä obchodné vzťahy, investície a globálne politické otázky."
+        "perex": "Prezident Peter Pellegrini pricestoval na trojdňovú štátnu návštevu Číny, kde sa stretne s najvyššími predstaviteľmi krajiny. Témami rokovaní sú najmä posilnenie obchodnej spolupráce, investície a globálne politické otázky."
       },
       {
-        "headline": "Zelenskyj varuje pred masívnou ruskou mobilizáciou",
+        "headline": "Zelenskyj varuje pred ruskou mobilizáciou státisícov vojakov",
         "links": [
           [
             "Aktuality",
@@ -231,110 +227,60 @@
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2013873-vojna-na-ukrajine-moskva-rusko-kremel-mobilizacia-putin-zelenskyj-armada-drony-zbrane/"
+            "https://www.pravda.sk/spravy/svet/clanok/2013873-vojna-na-ukrajine-moskva-rusko-kremel-mobilizacia-putin-zelenskyj-armada-drony-zbrane"
           ]
         ],
-        "perex": "Ukrajinský prezident Volodymyr Zelenskyj upozornil, že Rusko pripravuje po septembrových voľbách mobilizáciu ďalších 300- až 500-tisíc vojakov. Podľa jeho slov to naznačuje, že Kremeľ zatiaľ nie je pripravený ukončiť vojnový konflikt."
+        "perex": "Ukrajinský prezident Volodymyr Zelenskyj upozornil, že Rusko po septembrových voľbách plánuje masívnu mobilizáciu 300- až 500-tisíc nových vojakov. Podľa jeho slov to naznačuje, že Kremeľ nie je pripravený na ukončenie vojnového konfliktu."
       },
       {
-        "headline": "SaS podáva trestné oznámenie v kauze odpočúvania vo FPU",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1238791-kauza-odpocuvacich-zariadeni-v-fpu-ma-pokracovanie-sas-podava-trestne-oznamenie"
-          ],
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/sas-podava-v-kauze-odpocuvacich-zari/980680-clanok.html"
-          ]
-        ],
-        "perex": "Strana SaS sa obrátila na orgány činné v trestnom konaní v súvislosti s kauzou odpočúvacích zariadení vo Fonde na podporu umenia. Liberáli vyjadrili pochybnosti o tom, či má fond skutočný záujem na nezávislom prešetrení prípadu."
-      },
-      {
-        "headline": "V Rakúsku zahynula česká horolezkyňa",
+        "headline": "LOZ sa obracia na prokuratúru pre financovanie nemocníc",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2013923-v-rakusku-zomrela-po-pade-ceska-horolezkyna/"
+            "https://www.pravda.sk/spravy/domace/clanok/2013967-visolajsky-statne-nemocnice-sa-topia-v-dlhoch-sukromnikom-rastu-zisky-loz-ide-za-zilinkom/"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/loz-sa-obrati-na-gp-v-suvislosti-s-fin/980684-clanok.html"
           ]
         ],
-        "perex": "Tridsaťdvaročná česká horolezkyňa podľahla zraneniam po páde na vrchu Wildspitze v rakúskych Alpách. Jej spolulezec utrpel pri nešťastí vážne zranenia a bol prevezený do nemocnice."
+        "perex": "Lekárske odborové združenie podáva podnet na Generálnu prokuratúru SR pre podozrenie z diskriminačného financovania zdravotníctva. Odborári tvrdia, že štátne nemocnice sú dlhodobo podfinancované na úkor súkromných zariadení."
+      },
+      {
+        "headline": "Závod Askoll v Potvoriciach končí, prepustí všetkých ľudí",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/koniec-po-troch-desatrociach-zavod-v-potvoriciach-konci-doplatil-na-vladnu-konsolidaciu"
+          ]
+        ],
+        "perex": "Spoločnosť Askoll po tridsiatich rokoch ukončí svoju prevádzku na Slovensku a prepustí všetkých zamestnancov. Firma ako dôvod svojho odchodu do Rumunska a Číny uviedla vládne konsolidačné opatrenia."
+      },
+      {
+        "headline": "Šéfka enviroinšpekcie odchádza do dôchodku",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/5I9Vv6m/sefka-enviroinspekcie-odchadza-do-dochodku-ministerstvo-hlada-nahradu/"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/sefka-inspekcie-zivotneho-prostredi/980685-clanok.html"
+          ]
+        ],
+        "perex": "Anna Calpašová požiadala o uvoľnenie z funkcie riaditeľky Slovenskej inšpekcie životného prostredia z dôvodu dovŕšenia dôchodkového veku. Ministerstvo životného prostredia už začalo proces hľadania jej nástupcu."
       }
     ],
-    "ts": 1785150663.8320997
+    "ts": 1785152153.637879
   },
   "meta": {
-    "last_collection_ts": 1785150652.046806,
+    "last_collection_ts": 1785152135.6973898,
     "last_feed_error_ts": 1785146136.5938914,
     "last_llm_error_ts": 1784642656.705458,
-    "last_run_ts": 1785150652.3369517,
-    "last_synthesis_ts": 1785150663.832091
+    "last_run_ts": 1785152135.978578,
+    "last_synthesis_ts": 1785152153.6378703
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/rusko-americka-trojclenna-posadka-po-osmich-mesiacoch-na-iss-pristala-v-kazachstane?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Na palube boli dvaja Rusi a jeden Američan.",
-      "s": "SME",
-      "t": "Rusko-americká trojčlenná posádka po ôsmich mesiacoch na ISS pristála v Kazachstane",
-      "ts": 1785064839.4025517,
-      "u": "51648b4be10ebe30f488"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14ZmVzZU1Bb1hzOHhITUtoQ3M4Rlp1am90ZXcwX25TaVpBbHhKMDdXSi15R1pURGpSU2hHQlZ0WTBDTGI1S2dob0tJdEpFdXBl?oc=5",
-      "p": "Gulas.sme.sk: varíme zábavu spolu (všetky guláše)&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Gulas.sme.sk: varíme zábavu spolu (všetky guláše) - SME.sk",
-      "ts": 1785064839.4025557,
-      "u": "a1386ac640dd73985fed"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mdGZqN0NEVXVFSFdUSDZvc0lqemNjWGhfaDl3a2doMWhYam9EVjRUdmdQWkpoTVNpcERPY0tpemVobjl0UkNsY0pvd3dCRTVCN0hMS20tNTF1NG1pVW1FZ2pn?oc=5",
-      "p": "Kurací perkelt s haluškami, foto recept&nbsp;&nbsp;Naničmama.sk",
-      "s": "SME (GNews)",
-      "t": "Kurací perkelt s haluškami, foto recept - Naničmama.sk",
-      "ts": 1785064839.4025576,
-      "u": "7588c38726ddb312f981"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IZUJsUEZRdVFDbUJjbWNQaHZlUWU4YVM5UlEwZE9Hc21WUldJMDh4UmpjRFQwcUY5U3c5TUZfZzRaUW10ZVpLc3FrY0pXcW9hT3pwcWlRX0tBTW1kbXhEWlVTRlJ0STVXbHc?oc=5",
-      "p": "Ako zamraziť čerešne, višne, slivky, Zaváranie, recept&nbsp;&nbsp;Naničmama.sk",
-      "s": "SME (GNews)",
-      "t": "Ako zamraziť čerešne, višne, slivky, Zaváranie, recept - Naničmama.sk",
-      "ts": 1785064839.40256,
-      "u": "347f557a3f28917ae97b"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tMUF5MmU4UmRXOU14aTNwakhDTHlwUS15OXN6VlNvTjAtSFJDUWtWMVRuMXEtWE94OHBqVmZMRUs0NTdDcWlWRnRCZndxUnVWUGdOb3dlaw?oc=5",
-      "p": "Sicília - Základné cestovateľské informácie&nbsp;&nbsp;Dovolenka.SME.sk",
-      "s": "SME (GNews)",
-      "t": "Sicília - Základné cestovateľské informácie - Dovolenka.SME.sk",
-      "ts": 1785064839.4025614,
-      "u": "63cf5057c0eb5853fb5d"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vcjhZODBveExlMldVOXV5M2R1WmdzYTFIRUE0dWtLX1ozX0xsc1B6MDRrdVdXOHM0cDFTS09xWEwtcE8xVkdzVWNJY1R5LVVMdl94Y2VJWm16eFNZZHF6ZkIwV2QzaFVBc3E5UU80aVNiVEFMeVVfV0x3?oc=5",
-      "p": "Biela tekvica - 10 receptov na prívarok, polievku, placky aj plnenú tekvicu&nbsp;&nbsp;Naničmama.sk",
-      "s": "SME (GNews)",
-      "t": "Biela tekvica - 10 receptov na prívarok, polievku, placky aj plnenú tekvicu - Naničmama.sk",
-      "ts": 1785064839.4025633,
-      "u": "5cdc016bd8d71fbf0771"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/xo2T4W5/jemen-hlasi-zostrelenie-saudskoarabskeho-dronu-husiovia-slubuju-dalsiu-tvrdu-odvetu-proti-rijadu/",
-      "p": "Jemenskí húsíovia hlásia zostrelenie saudskoarabského prieskumného dronu nad severozápadom krajiny. Incident prichádza po útokoch na ropné zariadenia Saudi Aramco.",
-      "s": "Aktuality",
-      "t": "Jemen hlási zostrelenie saudskoarabského dronu. Húsíovia sľubujú ďalšiu tvrdú odvetu proti Rijádu",
-      "ts": 1785064839.4025643,
-      "u": "b5076bbc91c04580e774"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/vV2hjul/samuel-migal-ak-slovenskosk-skolabuje-ja-si-nad-tym-umyvam-ruky-bitto-ciganikova-priznala-rokovania-s-kollarom/",
-      "p": "Minister investícií a informatizácie Samuel Migaľ (Hlas-SD) nie je „prilepený k stoličke“ a nevylúčil predčasný odchod z ministerstva v prípade rekonštrukcie vlády. Bittó Cigániková naznačila, že dostala ponuku na spoluprácu aj od ministra Migaľa.",
-      "s": "Aktuality",
-      "t": "Samuel Migaľ: Ak Slovensko.sk skolabuje, ja si nad tým umývam ruky. Bittó Cigániková priznala rokovania s Kollárom",
-      "ts": 1785064839.4025655,
-      "u": "36a0ff53ad4f55418b9e"
-    },
     {
       "l": "https://www.sme.sk/svet/c/jemenski-husiovia-tvrdia-ze-zostrelili-saudskoarabsky-prieskumny-dron?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Húsíovia vyhlasujú, že sa nebudú zdráhať pred eskaláciou konfliktu.",
@@ -3478,6 +3424,150 @@
       "t": "SaS podáva v kauze odpočúvacích zariadení vo FPU trestné oznámenie",
       "ts": 1785150652.336773,
       "u": "c912dd0dd121f77b0373"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/merz-urobil-dalsiu-zmenu-vo-vlade-generalnou-tajomnickou-cdu-bude-hoppermannova?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Na tomto poste nahradí Carstena Linnemanna, ktorý má prevziať vedenie ministerstva zdravotníctva.",
+      "s": "SME",
+      "t": "Merz urobil ďalšiu zmenu vo vláde. Generálnou tajomníčkou CDU bude Hoppermannová",
+      "ts": 1785152135.9785526,
+      "u": "ac9b79e8df224ddc7288"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/firmy-posobiace-v-oblasti-ai-investuju-do-lobingu-v-usa-rekordne-sumy?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Medzi kľúčové oblasti aktivít patria federálne regulácie pre vydávanie nových modelov AI.",
+      "s": "SME",
+      "t": "Firmy pôsobiace v oblasti AI investujú do lobingu v USA rekordné sumy",
+      "ts": 1785152135.9785557,
+      "u": "50dbd2edba02bf18c778"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/podpora-tiszy-mierne-klesla-fidesz-sa-stabilizoval-ukazal-prieskum?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Vládnu stranu stále podporuje dvojtretinová väčšina Maďarov.",
+      "s": "SME",
+      "t": "Podpora Tiszy mierne klesla, Fidesz sa stabilizoval, ukázal prieskum",
+      "ts": 1785152135.9785576,
+      "u": "822304897c91fb6f4f78"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/koniec-po-troch-desatrociach-zavod-v-potvoriciach-konci-doplatil-na-vladnu-konsolidaciu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Askoll prepustí všetkých ľudí a odchádza do Rumunska a Číny.",
+      "s": "SME",
+      "t": "Koniec po troch desaťročiach. Závod v Potvoriciach končí, doplatil na vládnu konsolidáciu",
+      "ts": 1785152135.9785593,
+      "u": "ae7acab6bfa54b9a3613"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sSTlGZVhTTXJEVS00UmVwZFJtN0FqSDdoWHVJbVZuX0E5azRTaDVWZzg0S205WWlBR1RpX0luUHRIU3BWM2xyQ1Q3YkZJWV9kbFBDZ2lndklzX1BJaDc1dUNySUltbUFJeWp3UjV6QnVfak9KLVE?oc=5",
+      "p": "Hrnčekový kakaovo-tvarohový koláč s ríbezľami, Koláče, recept&nbsp;&nbsp;Naničmama.sk",
+      "s": "SME (GNews)",
+      "t": "Hrnčekový kakaovo-tvarohový koláč s ríbezľami, Koláče, recept - Naničmama.sk",
+      "ts": 1785152135.9785604,
+      "u": "1f423f6802d40a006286"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UTlBaYkpVc1lWTVUwRDRiRllQVTNFd3N6bjUxUHRhaTZ0SXFRMmFmQlVLdHZkZUktMjc0S0htYmU3N2Y4NGxVaFNMeXNEQUtTMm9tWnhn?oc=5",
+      "p": "Futbalnet - všetky góly v jednej sieti&nbsp;&nbsp;SPORTNET",
+      "s": "SME (GNews)",
+      "t": "Futbalnet - všetky góly v jednej sieti - SPORTNET",
+      "ts": 1785152135.9785616,
+      "u": "1fc289c7548da487a8ad"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/5I9Vv6m/sefka-enviroinspekcie-odchadza-do-dochodku-ministerstvo-hlada-nahradu/",
+      "p": "Anna Calpašová požiadala o uvoľnenie z postu šéfky Slovenskej inšpekcie životného prostredia. Dosiahla totiž dôchodkový vek",
+      "s": "Aktuality",
+      "t": "Šéfka enviroinšpekcie odchádza do dôchodku. Ministerstvo hľadá náhradu",
+      "ts": 1785152135.9785628,
+      "u": "773dd538e03d216a2e07"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/cyuBNwv/policia-v-berline-potvrdila-ze-obetou-utoku-na-pochod-pride-bola-zena-z-polska/",
+      "p": "Obeťou útoku autom na berlínskom pochode Pride je 65-ročná Poľka z Varšavy. Na podujatí bola s dcérou, ktorá útok prežila a je mimo ohrozenia života.",
+      "s": "Aktuality",
+      "t": "Polícia v Berlíne potvrdila, že obeťou útoku na pochod Pride bola žena z Poľska",
+      "ts": 1785152135.9785638,
+      "u": "66a1ac27e4b7072c93eb"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/GfpqQCH/nemecka-policia-prepustila-druheho-podozriveho-z-utoku-na-berlinskom-pride/",
+      "p": "Nemecká prokuratúra prepustila druhého podozrivého z útoku autom na berlínskom Pride. Hlavný útočník zomrel po zásahu polície.",
+      "s": "Aktuality",
+      "t": "Nemecká polícia prepustila druhého podozrivého z útoku na berlínskom Pride",
+      "ts": 1785152135.978565,
+      "u": "93d2ab661d8076ca85f4"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/LLrYdix/usa-sa-do-rokovani-iranu-s-omanom-o-hormuzskom-prielive-nezapajaju-tvrdi-teheran/",
+      "p": "Iránske ministerstvo vyhlásilo, že Spojené štáty nie sú zapojené do rokovaní o Hormuzskom prielive. Rozhovory podľa hovorcu nemajú žiadnu súvislosť s USA.",
+      "s": "Aktuality",
+      "t": "USA sa do rokovaní Iránu s Ománom o Hormuzskom prielive nezapájajú, tvrdí Teherán",
+      "ts": 1785152135.9785662,
+      "u": "592c0abc137de3e6b7af"
+    },
+    {
+      "l": "https://dennikn.sk/5475209/ticha-erozia-co-vsetko-nam-umela-inteligencia-berie-ked-nam-pomaha/",
+      "p": "Táto séria článkov stojí na mojom pozorovaní, ktoré chcem sformulovať hneď na začiatku, pretože všetko ostatné sa oň opiera. Zakaždým, keď nám umelá inteligencia (AI) pomôže, ten istý úkon nám čosi vezme. Pomoc je skutočná: správa je napísaná, odpoveď nájdená, večer menej osamelý. Skutočná je však a",
+      "s": "Denník N",
+      "t": "Tichá erózia – čo všetko nám umelá inteligencia berie, keď nám pomáha",
+      "ts": 1785152135.9785678,
+      "u": "31097b0b1dff8d1a00f4"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2013971-obetou-utoku-na-berlinsky-pride-je-65-rocna-polka-jej-dcera-smrt-unikla?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "V prípade obete, ktorá zahynula v sobotu počas útoku automobilom na berlínsky pochod Pride, ide o 65-ročnú ženu z Poľska. TASR o tom informuje podľa správy agentúry PAP a denníka Bild.",
+      "s": "Pravda",
+      "t": "Obeťou útoku na berlínsky Pride je 65-ročná Poľka, jej dcéra smrti unikla",
+      "ts": 1785152135.9785695,
+      "u": "3dd848f74ea0fb0869cb"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2013967-visolajsky-statne-nemocnice-sa-topia-v-dlhoch-sukromnikom-rastu-zisky-loz-ide-za-zilinkom?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Lekárske odborové združenie (LOZ) sa obráti na Generálnu prokuratúru (GP) SR v súvislosti s financovaním nemocníc. Združenie tvrdí, že štátne nemocnice sú podfinancované na úkor súkromných, ako aj to, že súkromným nemocniciam klesá produktivita, ale stúpajú príjmy.",
+      "s": "Pravda",
+      "t": "Visolajský: Štátne nemocnice sa topia v dlhoch, súkromníkom rastú zisky. LOZ ide za Žilinkom",
+      "ts": 1785152135.9785707,
+      "u": "7d830106258fe1b0754e"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/regiony/clanok/2013959-d1-pri-trencine-sa-upchava-pri-zamarovciach-asfaltuju-obmedzenia-potrvaju-do-vecera?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Na diaľnici D1 v katastri obce Zamarovce pri Trenčíne je obmedzená doprava. Dôvodom je výmena asfaltového povrchu. Informovala o tom trenčianska krajská polícia na sociálnej sieti.",
+      "s": "Pravda",
+      "t": "D1 pri Trenčíne sa upcháva: Pri Zamarovciach asfaltujú, obmedzenia potrvajú do večera",
+      "ts": 1785152135.9785724,
+      "u": "c2fd0c2688c57b4d3268"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/statistika-kolko-ludi-skontrolovali/980690-clanok.html",
+      "p": "V sledovanom období bol v jednom prípade odopretý vstup na územie Slovenskej republiky štátnemu príslušníkovi tretej krajiny, ktorý nespĺňal zákonom stanovené podmienky vstupu.",
+      "s": "Teraz.sk",
+      "t": "Štatistika: Koľko ľudí skontrolovali policajti na letiskách?",
+      "ts": 1785152135.9785736,
+      "u": "99b5eed348260c5f4ac0"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/leto-a-jeho-nastrahy-policia-eviduje/980688-clanok.html",
+      "p": "Vhodné je podľa polície požiadať dôveryhodného suseda alebo blízku osobu, aby obydlie občas skontrolovali, vybrali poštu či vytvorili dojem, že je nehnuteľnosť obývaná.",
+      "s": "Teraz.sk",
+      "t": "LETO A JEHO NÁSTRAHY: Polícia eviduje viac vlámaní do domov",
+      "ts": 1785152135.978575,
+      "u": "eb98ccfd11d03b1b2a0c"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/sefka-inspekcie-zivotneho-prostredi/980685-clanok.html",
+      "p": "Cieľom ministerstva je podľa vlastných slov zabezpečiť transparentný proces výberového konania bez politického tlaku.",
+      "s": "Teraz.sk",
+      "t": "Šéfka inšpekcie životného prostredia končí, rezort hľadá náhradu",
+      "ts": 1785152135.9785764,
+      "u": "6049012c4bbe664bae4a"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/loz-sa-obrati-na-gp-v-suvislosti-s-fin/980684-clanok.html",
+      "p": "Združenie tvrdí, že štátne nemocnice sú podfinancované na úkor súkromných.",
+      "s": "Teraz.sk",
+      "t": "LOZ sa obráti na GP v súvislosti s financovaním nemocníc",
+      "ts": 1785152135.9785774,
+      "u": "e2558e9f9842613b2578"
     }
   ],
   "recent_alerts": [
@@ -3971,9 +4061,11 @@
     "1dce4b1c610add626013": 1785134137.2086148,
     "1de369b03907ba15c5ce": 1785002184.0343678,
     "1f31b7821e2c16c36ddd": 1785150652.3367705,
+    "1f423f6802d40a006286": 1785152135.97856,
     "1f46517aeb5ca7981a8e": 1785071441.1456358,
     "1f78bdd76da44bc25406": 1785138929.36447,
     "1fad143b52aa82c1dfcc": 1785076529.143,
+    "1fc289c7548da487a8ad": 1785152135.978561,
     "1fe57601bbeea68e2035": 1785059928.030428,
     "203e6d92938046bc5de9": 1785123413.0835025,
     "206a42f7c220af86c593": 1785141329.7156281,
@@ -4022,6 +4114,7 @@
     "2fa6f4e691e0139c7a8f": 1785125583.8467991,
     "2ff7a5dd75158f40b350": 1785050442.961238,
     "3097b15ce3b504601b34": 1785058534.804091,
+    "31097b0b1dff8d1a00f4": 1785152135.978567,
     "31151ad6565cbbd6e818": 1785141329.7156363,
     "31273c9601c784af70bf": 1785036950.8824897,
     "318e66bb05e732d94ea5": 1784987737.0639634,
@@ -4032,7 +4125,6 @@
     "33d534b84c4bde6f645f": 1785040535.3145332,
     "33d791cbeed3912ac6ce": 1785051907.8356519,
     "33dc7ab6a9e0151f339c": 1785125583.8467896,
-    "3445ae6f6d5f3c97a0ed": 1784978437.9217267,
     "346f3513892ac7cc92ae": 1785130605.0870054,
     "347f557a3f28917ae97b": 1785064839.402559,
     "34ec68d16f27ff361a7c": 1785094576.5195513,
@@ -4068,6 +4160,7 @@
     "3d3ac310c9b1a46c1c53": 1785138929.3644686,
     "3d3b45f535e7a3ce6b77": 1784998530.9089441,
     "3d8bce6047623bf6eaf9": 1785126940.8214304,
+    "3dd848f74ea0fb0869cb": 1785152135.978569,
     "3df4bea55b515d565b3d": 1785057035.2454374,
     "3e18fece80104f3036b0": 1785071441.145629,
     "3ea969db2b3ab5a88108": 1785148533.0915384,
@@ -4098,7 +4191,6 @@
     "4abb795bde7e5ff22697": 1785123413.0835075,
     "4abceae9deced8ca498b": 1785123413.083492,
     "4ae4dc5fcd1d4a7c58fb": 1785089434.355418,
-    "4afe24d1a7481da3d2e1": 1784978437.9217255,
     "4b9f307adfb1e03d1aba": 1785036950.8824859,
     "4ba998c87cc9dbe76e8c": 1785071441.1456258,
     "4bf50d58582c2f4501a4": 1785076529.1432104,
@@ -4112,7 +4204,7 @@
     "4fbfd9a463c0dedd2861": 1785066485.0311651,
     "50552eda7fd7d13cd100": 1785147042.3876946,
     "5068103d7dfbe231e499": 1785149732.5570288,
-    "50975cdb5a46bc1c4fce": 1784978437.9217238,
+    "50dbd2edba02bf18c778": 1785152135.9785542,
     "5126098d1119fae8c334": 1785149732.5570226,
     "51648b4be10ebe30f488": 1785064839.402547,
     "51de1dc5b5dd9d148c47": 1785058534.8040886,
@@ -4131,7 +4223,6 @@
     "54fc3c0fce450ba01e68": 1785046900.7756214,
     "555b750edcebfb142c78": 1785149732.5570579,
     "55641c9f4b74c253e8e7": 1785066485.031171,
-    "55d745f9ef1ee4089f5f": 1784978437.9217145,
     "55e68f353942f7c22c6b": 1785078638.079975,
     "561b75d2e471b34e20d1": 1785057035.245428,
     "5702299a4f7b14f4cb92": 1785080147.91468,
@@ -4145,6 +4236,7 @@
     "58a71c905e23536e127e": 1785143445.126477,
     "58b8fa2e5c51d31b09b5": 1785040535.3147511,
     "592a8851041eac789f23": 1785040535.3147404,
+    "592c0abc137de3e6b7af": 1785152135.9785655,
     "5a0a9f1ec3307f7e908a": 1785069399.375922,
     "5a6c14cda9f07efa29ad": 1785040535.3145566,
     "5ab8e11d683a77e6bd4f": 1785142536.1527076,
@@ -4167,6 +4259,7 @@
     "5f0de63a2422b78486db": 1785132636.329244,
     "5f4c10314e2b6cc91feb": 1785078638.0799615,
     "6027da4c76f1b2f8d246": 1785036950.8824558,
+    "6049012c4bbe664bae4a": 1785152135.978576,
     "60f6904fbacadaaa6bf6": 1785126940.8214257,
     "62ab08013517e2a347fd": 1785123413.0834913,
     "62c47d1e74620d883b5a": 1785123413.08349,
@@ -4188,13 +4281,13 @@
     "668418c821c271930ed3": 1785123413.0834668,
     "669cab215d082a1e5a61": 1785126940.821428,
     "66a12a6e8ca62a24dd4a": 1785036950.8824716,
+    "66a1ac27e4b7072c93eb": 1785152135.9785633,
     "66b57981daa480c960f4": 1785123413.0835085,
     "66c689f66056972b63e6": 1784984137.624498,
     "674d8ab330d92cd102c8": 1785089434.3552046,
     "6799c33b1d48e2fa5c7c": 1785058534.8040934,
     "67c3833d6e2e4f273b1e": 1785040535.3145401,
     "681c8597d036de0bd85e": 1785075042.953408,
-    "6898a55576f8c753d7d8": 1784978437.921722,
     "68a682365e439b1dc5ad": 1785148533.0915475,
     "68b11effb7ce1bcccbbb": 1785043322.5729415,
     "68d453dc05674df526b1": 1785126940.8214173,
@@ -4236,6 +4329,7 @@
     "7669c15c989ecd8272b8": 1784985641.8983068,
     "76a41b1d2f7ec35ba202": 1785141329.7156293,
     "76ffa9a585e9010330f0": 1785123413.083464,
+    "773dd538e03d216a2e07": 1785152135.978562,
     "77b16486209b855d42bc": 1785066485.0311663,
     "786bdbe3a110258d630a": 1785036950.8824766,
     "7895e288a16e8398f01e": 1785148533.0915484,
@@ -4251,6 +4345,7 @@
     "7c041a0c0716a45dfc81": 1785036950.8824756,
     "7c32b17a73fdaf148ea2": 1785137735.082661,
     "7c457244fa6c73426ea9": 1785045377.134939,
+    "7d830106258fe1b0754e": 1785152135.9785702,
     "7db88f45202d2c9504a9": 1785045377.134936,
     "7e4152ec0b9876282244": 1785066485.0311632,
     "7e5c199d2a4d024ebb71": 1785129045.2654088,
@@ -4263,6 +4358,7 @@
     "803c4310761c0ebab7dd": 1785123413.0834758,
     "80870b2c3975ba758a57": 1784984137.6244917,
     "80cc4d88af6e28ee95bb": 1785036950.8824668,
+    "822304897c91fb6f4f78": 1785152135.9785564,
     "82b649fafc7e74f8d948": 1785123413.083485,
     "82e5094561e778886ed5": 1785080147.9146745,
     "82fac6ec8e7fbdc4ccbd": 1785080147.9146821,
@@ -4307,6 +4403,7 @@
     "92fc27f4b37206239243": 1785063339.3756235,
     "939f4d1c7f15818ea528": 1785040535.3147533,
     "93b0cca221e3b3865095": 1785148533.0915468,
+    "93d2ab661d8076ca85f4": 1785152135.9785643,
     "95a901d7d186c5946c85": 1785078638.07997,
     "95c33b529164b6ddc9ee": 1785007241.8597245,
     "95dbe913220616f30a15": 1785040535.3147368,
@@ -4323,6 +4420,7 @@
     "987030b8494d1ad5a460": 1785067833.8007736,
     "998ea6c5e1b13fd86f6c": 1785134137.208427,
     "99a3eb119a29ce3495b0": 1785036950.882748,
+    "99b5eed348260c5f4ac0": 1785152135.978573,
     "9a9740b5e58af99d7d4a": 1785039043.209118,
     "9a9d1f18d0956ee43cf7": 1785144935.1158736,
     "9ab15323f251def415be": 1785143445.1264524,
@@ -4377,6 +4475,7 @@
     "ab3aa59037d8a90e2db8": 1785123413.0835094,
     "ab72bc9063d3c9601dc7": 1785041757.8854396,
     "aba389981e6c1998cc4b": 1785126940.8214235,
+    "ac9b79e8df224ddc7288": 1785152135.9785485,
     "ad1251f808451b48249d": 1784984137.624494,
     "ad70edd97c96f9913d0b": 1785061332.1978178,
     "ad72e0753bc6498b635e": 1784996436.9052286,
@@ -4384,6 +4483,7 @@
     "adf27d23d0caffcf902e": 1785089434.355194,
     "ae042cf21f971ce67a29": 1785061332.1978095,
     "ae709363beea48e35a6a": 1785071441.1456316,
+    "ae7acab6bfa54b9a3613": 1785152135.9785585,
     "ae7e863ce5d03186b29e": 1785036950.882474,
     "aee90d58350f39143cfc": 1785142536.152703,
     "af702940bc17a796dac0": 1785036950.8824914,
@@ -4436,6 +4536,7 @@
     "c1f8d4dfa2bf1c5fc968": 1785132636.3292527,
     "c2030570cab4eab8f565": 1785134137.2084186,
     "c2ba6cc117bd26a8246a": 1785129045.2654016,
+    "c2fd0c2688c57b4d3268": 1785152135.9785714,
     "c3091f8223a906466bbf": 1785148533.091355,
     "c31da67e0e7258dcb8b0": 1785125583.8468094,
     "c340d3ac51daa1118f35": 1785071441.145635,
@@ -4449,7 +4550,6 @@
     "c56d1073bb17ca684780": 1785057035.2454362,
     "c56ebf43462a3a4b1156": 1785040535.3145463,
     "c57a1530491e0afdffe2": 1785040535.3145413,
-    "c5bd45dc5956bd3c9a32": 1784978437.921728,
     "c5d8f0cb0e666257273c": 1785063339.3756135,
     "c619485fb28f66db3e29": 1785080147.914678,
     "c647100be7a6b38d5f77": 1785134137.2084305,
@@ -4534,6 +4634,7 @@
     "e0b9273439ce839e27ea": 1785126940.8214202,
     "e0f7eaf2d7356fd594f8": 1784980626.3710365,
     "e1c1da79744185ebd791": 1785143445.1264715,
+    "e2558e9f9842613b2578": 1785152135.978577,
     "e300ff9bf58ecafc6042": 1785123413.0834947,
     "e3f613ee58a9cd0320a2": 1784980626.3710437,
     "e42325d1f23dc1579e04": 1785066485.031168,
@@ -4562,6 +4663,7 @@
     "ead991821ae54b6f0769": 1785036950.882481,
     "eb3c90d20b248a30a76b": 1785148533.0915463,
     "eb4aecd4300fb575549b": 1785067833.8007843,
+    "eb98ccfd11d03b1b2a0c": 1785152135.9785743,
     "ebe0389b6d9776235893": 1785043322.5729358,
     "ebe36b17e98147685392": 1785050442.9612324,
     "ec17d3fcfcde1c32e615": 1785147042.3876817,
@@ -4627,7 +4729,6 @@
     "fed6860b91eb2a4b3c47": 1785067833.8007805,
     "ff0757e6f0272a57b1cd": 1785000042.4293044,
     "ff338f2c91f809252d90": 1785059928.0304239,
-    "ff3d0634728333e68795": 1784978437.9217198,
     "ff4a61ee7bb7ebafca4f": 1784987737.0639586
   },
   "source_status": {
@@ -4635,61 +4736,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785150652.3367429
+      "ts": 1785152135.9785328
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785150652.3367445
+      "ts": 1785152135.9785347
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785150652.3367474
+      "ts": 1785152135.9785373
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785150652.3367515
+      "ts": 1785152135.978542
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785150652.336746
+      "ts": 1785152135.9785357
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785150652.3367364
+      "ts": 1785152135.9785264
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785150652.3367412
+      "ts": 1785152135.9785311
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785150652.3367507
+      "ts": 1785152135.9785411
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785150652.3367486
+      "ts": 1785152135.9785388
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785150652.3367496
+      "ts": 1785152135.97854
     }
   }
 }
