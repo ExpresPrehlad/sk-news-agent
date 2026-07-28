@@ -1,46 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Zelenskyj vo Washingtone rokuje o vojenskej pomoci",
-      "ts": 1785221741.5546358
-    },
-    {
-      "headline": "Masívny dronový útok na Moskvu zasiahol obytný dom",
-      "ts": 1785221741.5546358
-    },
-    {
-      "headline": "Zemetrasenia v čínskej provincii Čching-chaj",
-      "ts": 1785221741.5546358
-    },
-    {
-      "headline": "Dramatické pátranie po trojročnom chlapcovi",
-      "ts": 1785221741.5546358
-    },
-    {
-      "headline": "Rokovania o prímerí medzi Izraelom a Libanonom",
-      "ts": 1785221741.5546358
-    },
-    {
-      "headline": "Dramatické pátranie po trojročnom chlapcovi na východe Slovenska",
-      "ts": 1785222647.767172
-    },
-    {
-      "headline": "Matica slovenská čelí kritike za farbenie vyschnutého kra",
-      "ts": 1785222647.767172
-    },
-    {
-      "headline": "Inšpekcia zatvorila thajskú reštauráciu pre hygienické nedostatky",
-      "ts": 1785222647.767172
-    },
-    {
-      "headline": "Bývalý riaditeľ pohrebníctva čelí trestu za manipuláciu s pozostatkami",
-      "ts": 1785222647.767172
-    },
-    {
-      "headline": "Minister Taraba kritizuje aktivistov za stav Súľovských skál",
-      "ts": 1785222647.767172
-    },
-    {
       "headline": "Žilinka napadol Pellegriniho trest pre šéfa SIS",
       "ts": 1785224144.8850806
     },
@@ -223,82 +183,102 @@
     {
       "headline": "Britská poslankyňa žaluje Muskovu firmu xAI",
       "ts": 1785236136.9348464
+    },
+    {
+      "headline": "Rusko čelilo masívnemu dronovému útoku",
+      "ts": 1785237049.8797226
+    },
+    {
+      "headline": "Poľský ústavný súd odmietol uznávanie zahraničných sobášov",
+      "ts": 1785237049.8797226
+    },
+    {
+      "headline": "Petržalčania žiadajú referendum o Draždiaku a parkovaní",
+      "ts": 1785237049.8797226
+    },
+    {
+      "headline": "Zelenskyj priletel do USA žiadať o Patrioty",
+      "ts": 1785237049.8797226
+    },
+    {
+      "headline": "Ceny ropy klesajú v očakávaní diplomatického riešenia",
+      "ts": 1785237049.8797226
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Dunaj klesol na kritickú úroveň, plavba je obmedzená",
+        "headline": "Rusko čelilo masívnemu dronovému útoku",
+        "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1239133-na-moskovsku-oblast-smerovalo-vyse-390-dronov-jeden-zasiahol-obytny-dom"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/b7sP9Hy/po-zasahu-ukrajinskym-dronom-hori-sklad-logistickej-spolocnosti-3pl-v-moskovskej-oblasti/"
+          ]
+        ],
+        "perex": "Na Moskovskú oblasť a ďalšie ruské regióny smerovalo v noci vyše 390 dronov, čo predstavuje jeden z najmasívnejších útokov od začiatku vojny. Zásahy dronov spôsobili požiare v skladoch a škody na obytných budovách."
+      },
+      {
+        "headline": "Poľský ústavný súd odmietol uznávanie zahraničných sobášov",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/Yt6RUlB/extremne-nizky-dunaj-ohrozuje-plavbu-aj-energetiku-vodohospodari-zavadzaju-prisny-rezim-na-gabcikove/"
+            "https://www.aktuality.sk/clanok/N1bBKHE/polsky-ustavny-sud-rozhodol-zahranicne-sobase-parov-rovnakeho-pohlavia-sa-v-krajine-prepisovat-nebudu/"
           ],
           [
-            "SME",
-            "https://www.sme.sk/domov/c/nizka-hladina-dunaja-si-vyziadala-obmedzenia-v-lodnej-doprave"
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1239314-ustavny-sud-odmietol-uznavanie-zahranicnych-rovnakopohlavnych-sobasov"
           ]
         ],
-        "perex": "Hladina Dunaja dosiahla jednu z najnižších úrovní za posledné desaťročia, čo si vyžiadalo zavedenie prísneho režimu na vodnom diele Gabčíkovo. Dopravný úrad potvrdil, že lode s väčším ponorom musia pre nízky stav vody zotrvávať na kotviskách."
+        "perex": "Poľský ústavný súd rozhodol, že nariadenie ministra digitalizácie o prepisoch zahraničných manželstiev je v časti týkajúcej sa párov rovnakého pohlavia v rozpore s ústavou. Zahraničné sobáše takýchto párov sa v krajine nebudú môcť prepisovať do matrík."
       },
       {
-        "headline": "Slovenskí hasiči zostávajú pomáhať pri požiaroch vo Francúzsku",
+        "headline": "Petržalčania žiadajú referendum o Draždiaku a parkovaní",
         "links": [
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/francuzske-urady-poziadali-o-predlzenie-nasadenia-slovenskych-hasicov"
-          ],
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/video-francuzsko-poziadalo-o-predlz/980880-clanok.html"
-          ]
-        ],
-        "perex": "Francúzske úrady oficiálne požiadali o predĺženie nasadenia slovenských hasičov, ktorí v krajine bojujú s rozsiahlymi lesnými požiarmi. Záchranári sa presunuli na novú základňu v oblasti Provensálsko, kde situáciu komplikuje prichádzajúca vlna horúčav."
-      },
-      {
-        "headline": "V Prešove pokračuje výstavba nemocnice napriek problémom",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/vuggIfI/presovska-vojenska-nemocnica-pokracuje-napriek-skandalu-s-betonom-fico-tvrdi-ze-terminy-ohrozene-nie-su/"
-          ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2014493-fico-v-presove-riesil-rozmery-stlpov-nemocnica-v-presove"
+            "https://www.pravda.sk/spravy/regiony/clanok/2014613-petrzalcania-chcu-rozhodovat-sami-referendum-o-drazdiaku-parkovani-aj-novej-vystavbe-podporilo-5508-ludi"
           ]
         ],
-        "perex": "Premiér Robert Fico po kontrolnom dni v Prešove potvrdil, že výstavba novej vojenskej nemocnice pokračuje podľa plánu. Technické problémy s betónovými stĺpmi, ktoré si vyžiadali ich sanáciu, podľa premiéra neohrozia stanovené termíny dokončenia."
+        "perex": "Obyvatelia Petržalky odovzdali vyše 5500 podpisov pod petíciu za vyhlásenie miestneho referenda. Občania chcú hlasovať o prístupe k jazeru Veľký Draždiak, zachovaní parkovacej zóny PAAS a novej výstavbe."
       },
       {
-        "headline": "Polícia vyšetruje vraždu z roku 2005 v rámci akcie Nemezis",
+        "headline": "Zelenskyj priletel do USA žiadať o Patrioty",
         "links": [
           [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/akcia-nemezis-padli-obvinenia-v-pripad/980948-clanok.html"
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2014361-zelenskyj-priletel-do-usa-od-trumpa-bude-ziadat-patrioty"
           ]
         ],
-        "perex": "Vyšetrovatelia v rámci policajnej akcie s názvom Nemezis vzniesli nové obvinenia v prípade vraždy, ku ktorej došlo ešte v roku 2005. Bližšie podrobnosti o prípade a menách obvinených zatiaľ orgány činné v trestnom konaní nezverejnili."
+        "perex": "Ukrajinský prezident Volodymyr Zelenskyj pricestoval na návštevu Spojených štátov. Počas rokovaní s Donaldom Trumpom plánuje žiadať o dodanie ďalších systémov protivzdušnej obrany Patriot."
       },
       {
-        "headline": "Britská poslankyňa žaluje Muskovu firmu xAI",
+        "headline": "Ceny ropy klesajú v očakávaní diplomatického riešenia",
         "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/ceny-ropy-klesaju-brent-sa-predaval-pod-87-dolarov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/ylwH178/britska-poslankyna-zaluje-firmu-miliardara-elona-muska-pre-sexualne-ladene-snimky-a-videa-vytvorene-umelou-inteligenciou/"
+            "https://www.aktuality.sk/clanok/TPnhY52/ceny-ropy-pokracuju-v-pade-brent-sa-prepadol-pod-87-dolarov-trhy-veria-v-dohodu-medzi-usa-a-iranom/"
           ]
         ],
-        "perex": "Labouristická poslankyňa Jess Asatová podala na súde v Londýne žalobu na spoločnosť xAI miliardára Elona Muska. Dôvodom sú sexuálne ladené snímky a videá vytvorené umelou inteligenciou, pričom poslankyňa žiada zavedenie trvalých technických opatrení proti ich zneužívaniu."
+        "perex": "Cena ropy Brent sa prepadla pod hranicu 87 dolárov za barel. Trhy reagujú na nádeje, že napätie medzi USA a Iránom by sa mohlo vyriešiť diplomatickou cestou."
       }
     ],
-    "ts": 1785236136.9348378
+    "ts": 1785237049.8797154
   },
   "meta": {
-    "last_collection_ts": 1785236131.0212762,
+    "last_collection_ts": 1785237044.6633775,
     "last_feed_error_ts": 1785232539.4960687,
     "last_llm_error_ts": 1785159509.4049337,
-    "last_run_ts": 1785236131.5542595,
-    "last_synthesis_ts": 1785236136.934832
+    "last_run_ts": 1785237045.1235633,
+    "last_synthesis_ts": 1785237049.8797102
   },
   "recent": [
     {
@@ -4916,6 +4896,86 @@
       "t": "Agresívny muž sa vyhrážal ľuďom zabitím. Pred políciou sa ukrýval v kuchynskej linke",
       "ts": 1785236131.5542586,
       "u": "a5dd3a903981b7d42c4a"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/polsky-ustavny-sud-odmietol-uznavanie-zahranicnych-sobasov-parov-rovnakeho-pohlavia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Súd tvrdí, že nariadenie ministra je v rozpore s ústavou.",
+      "s": "SME",
+      "t": "Poľský ústavný súd odmietol uznávanie zahraničných sobášov párov rovnakého pohlavia",
+      "ts": 1785237045.1235523,
+      "u": "d07c5d75f08e953ae972"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/z-vrazdy-spred-21-rokov-v-sturove-su-obvinene-dve-osoby?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Kauza sa týka vymáhania vratky v hodnote tri a pol milióna korún.",
+      "s": "SME",
+      "t": "Z vraždy spred 21 rokov v Štúrove sú obvinené dve osoby",
+      "ts": 1785237045.1235545,
+      "u": "3184dad9823a95ec73a2"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/N1bBKHE/polsky-ustavny-sud-rozhodol-zahranicne-sobase-parov-rovnakeho-pohlavia-sa-v-krajine-prepisovat-nebudu/",
+      "p": "Poľský Ústavný súd v utorok rozhodol, že nariadenie ministra digitalizácie o prepisoch zahraničných manželstiev je v časti týkajúcej sa párov rovnakého pohlavia v rozpore s ústavou. Podľa verdiktu súdu možno do poľských matrík zapísať len taký zahraničný sobáš, ktorý zodpovedá tamojšej ústavnej defi",
+      "s": "Aktuality",
+      "t": "Poľský Ústavný súd rozhodol: Zahraničné sobáše párov rovnakého pohlavia sa v krajine prepisovať nebudú",
+      "ts": 1785237045.1235561,
+      "u": "71a79aa62b19cc51b460"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/xgizStj/vrazda-bieleho-kona-cuco-skoncil-v-putach-pre-brutalny-skutok/",
+      "p": "Známa postavička zo Štúrova v pondelok neskončila v rukách elitných policajtov pre zmiznutie novinára Paľa Rýpala, ale dôvodom bola brutálna mafiánska vražda.",
+      "s": "Aktuality",
+      "t": "Vražda bieleho koňa: Čučo skončil v putách pre brutálny skutok",
+      "ts": 1785237045.1235569,
+      "u": "ab13e467ff7eb98efe26"
+    },
+    {
+      "l": "https://dennikn.sk/5475626/sekula-ak-niekto-tvrdi-ze-vycistil-chemko-strazske-klame-verejnost-kontaminovany-je-cely-okres/",
+      "p": "„Na Slovensku ročne vyprodukujeme približne 12,7 milióna ton odpadov – je to obrovské množstvo. Ak si to chcete predstaviť, je to približne milión plne naložených nákladných áut. Tá hmota jednoducho nezmizne. Neexistujú žiadne zázračné riešenia,“ hovorí Peter Sekula.",
+      "s": "Denník N",
+      "t": "Sekula: Ak niekto tvrdí, že vyčistil Chemko Strážske, klame verejnosť – kontaminovaný je celý okres",
+      "ts": 1785237045.1235578,
+      "u": "a695ec6096850fbd6291"
+    },
+    {
+      "l": "https://dennikn.sk/5475786/v-afganistane-som-zabil-sest-ci-sedem-ludi-ulavilo-sa-mi-az-ked-mi-odpustil-niekdajsi-nepriatel-citanie-z-ny-times/",
+      "p": "Píše Thomas Gibbons-Neff. Článok pôvodne vyšiel v denníku New York Times. Mám podiel na smrti šiestich ľudí. Možno siedmich. Neviem, či ten jeden muž vykrvácal na kraji cesty, alebo ho odviezli k&#160;lekárovi. Často na neho myslím. K&#160;týmto zabitiam došlo v&#160;zime a&#160;na jar roku 2010 poč",
+      "s": "Denník N",
+      "t": "V Afganistane som zabil šesť či sedem ľudí. Uľavilo sa mi, až keď mi odpustil niekdajší nepriateľ (čítanie z NY Times)",
+      "ts": 1785237045.123559,
+      "u": "a8408e1834cae28de743"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2014609-polsko-ustavny-sud-sobase-zakaz-pary-pohlavie-manzelstva?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Poľský Ústavný súd v utorok rozhodol, že nariadenie ministra digitalizácie o vydaní vzorov na prepisy manželstiev uzavretých v zahraničí je v časti o prepisoch párov rovnakého pohlavia v rozpore s ústavou.",
+      "s": "Pravda",
+      "t": "Ústavný súd v Poľsku odmietol uznávanie zahraničných rovnakopohlavných sobášov",
+      "ts": 1785237045.1235595,
+      "u": "a0d1626b20e3eea17d17"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2014607-vrazda-stara-dve-desatrocia-policia-po-akcii-nemezis-obvinila-dve-osoby?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Vyšetrovateľ protizločineckej jednotky Úradu boja proti organizovanej kriminalite (ÚBOK) v rámci policajnej akcie s krycím názvom Nemezis obvinil dve osoby za spolupáchateľstvo na vražde 25-ročného muža zo Štúrova, ku ktorej malo dôjsť v januári 2005. Informovala o tom polícia na sociálnej sieti s t",
+      "s": "Pravda",
+      "t": "Vražda stará dve desaťročia. Polícia po akcii Nemezis obvinila dve osoby",
+      "ts": 1785237045.1235604,
+      "u": "c3a3ee906ea389fd375a"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/regiony/clanok/2014613-petrzalcania-chcu-rozhodovat-sami-referendum-o-drazdiaku-parkovani-aj-novej-vystavbe-podporilo-5508-ludi?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Kandidáti strany Krajina pre Petržalku a členovia petičného výboru odovzdali v utorok 5508 podpisov pod petíciou na vyhlásenie Petržalského referenda 2026. Petičné hárky odovzdali v podateľni miestneho úradu.",
+      "s": "Pravda",
+      "t": "Petržalčania chcú rozhodovať sami: Referendum o Draždiaku, parkovaní aj novej výstavbe podporilo 5508 ľudí",
+      "ts": 1785237045.1235614,
+      "u": "fda745495d130558f9f3"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1239314-ustavny-sud-odmietol-uznavanie-zahranicnych-rovnakopohlavnych-sobasov",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Ústavný súd odmietol uznávanie zahraničných rovnakopohlavných sobášov",
+      "ts": 1785237045.1235626,
+      "u": "c3703deb56c1fc72f446"
     }
   ],
   "recent_alerts": [
@@ -5478,7 +5538,6 @@
     "0af54bf00cb04251dd0c": 1785228945.0043592,
     "0b6d88c2748251b11c32": 1785182138.1611073,
     "0bc2a57fdb343b52b7f4": 1785160538.8297105,
-    "0bfaf1c8f7de5bf9e345": 1785063339.3757937,
     "0c8398e41e967b56c9f6": 1785071441.1456277,
     "0c91a95e9b27618c8eb3": 1785153329.5135088,
     "0cd234d28a819d9b6796": 1785234946.7177222,
@@ -5500,7 +5559,6 @@
     "100e6722d67d62b6db09": 1785123413.0832686,
     "102a014343631aab9601": 1785129045.2654004,
     "106383bac4bfee280224": 1785146136.5939114,
-    "10d421890633fefa2b9b": 1785063339.3756156,
     "11b09bb35684ee78452d": 1785164135.7726855,
     "11b5348dff6f13cdb051": 1785172846.638714,
     "122242b36b7d8ec69413": 1785182138.1611128,
@@ -5523,7 +5581,6 @@
     "178751bdc8ed213cdda8": 1785236131.5542424,
     "1790a24f8692a4676732": 1785228945.0043614,
     "17dfb36e50411b2c4da2": 1785209738.8182273,
-    "184115e8818bf70f7721": 1785063339.3756168,
     "18818669c85df9092183": 1785155729.6116936,
     "18b77edd78915feed0c4": 1785139836.72785,
     "18d55a9d653c72251a60": 1785134137.2084289,
@@ -5539,7 +5596,6 @@
     "1bf77e33bde6459de5d0": 1785149732.5570316,
     "1c11b972a2f54d3cd3cf": 1785123413.0834777,
     "1c4e2c2d3d1cd5da4dd7": 1785233442.1095717,
-    "1d1aef741e85d61e42cc": 1785063339.3756204,
     "1d3769784f36a8753d28": 1785224139.6489792,
     "1d5f212f4d0a78aba1ce": 1785216939.430937,
     "1d79811e05426735ad13": 1785144935.1158764,
@@ -5560,7 +5616,6 @@
     "20b8b9d8369d54523efd": 1785083730.8420193,
     "214bf9e555a5cfe21203": 1785157837.15666,
     "215c009fe88b88fd389f": 1785216939.430927,
-    "21864a3b0b1e15ac3df4": 1785063339.375796,
     "21f0e7f64f860e7da16c": 1785234946.7177348,
     "21f1c17e6db8d9630256": 1785183649.323549,
     "220c203b2782c5a98edb": 1785209738.8182623,
@@ -5621,6 +5676,7 @@
     "30b62cdfe055a203c5dd": 1785176447.999415,
     "31097b0b1dff8d1a00f4": 1785152135.978567,
     "31151ad6565cbbd6e818": 1785141329.7156363,
+    "3184dad9823a95ec73a2": 1785237045.1235533,
     "31b8becc24a6b77d7c1d": 1785209738.8180313,
     "31e17c405fad80424f4f": 1785211845.668416,
     "3229851dd8e9afb52eb7": 1785228945.004346,
@@ -5638,7 +5694,6 @@
     "36a0ff53ad4f55418b9e": 1785064839.402565,
     "3709b33949c1c0e47306": 1785234946.717702,
     "376bb8fb17334b2930e4": 1785123413.0834985,
-    "377fc42f7e361cf189ae": 1785063339.3757923,
     "37abcdb3be5bddcf9467": 1785216939.4309254,
     "37c2b526bfb835d34bce": 1785067833.8007863,
     "380d91ce564a40ccd866": 1785171339.2179494,
@@ -5648,7 +5703,6 @@
     "39539f085959791ad0af": 1785089434.3554134,
     "399a69ea8d21ee122699": 1785148533.0915346,
     "39da8493e528b7983634": 1785215444.8916008,
-    "3a0d28afa0a2b12d0d86": 1785063339.375618,
     "3a2af47a560493df68d6": 1785075042.9534047,
     "3a2ca3ab2ba64c74b4d3": 1785139836.7278488,
     "3a44bf801fd9c43b4234": 1785172846.6387036,
@@ -5724,7 +5778,6 @@
     "4d99e2fa6527e61a5634": 1785228945.004371,
     "4e81503063357a323985": 1785067833.8007903,
     "4ebad9e633b8a046e221": 1785156932.8179781,
-    "4ede89f676dc915dfba9": 1785063339.3757906,
     "4ee6b0ca236e85615ce4": 1785209738.8182366,
     "4f4813fe3cd045d5459e": 1785234946.717714,
     "4fbfd9a463c0dedd2861": 1785066485.0311651,
@@ -5762,7 +5815,6 @@
     "576406aa6fea78a85c7d": 1785215444.8915966,
     "5774521aa2f155b622d0": 1785213338.4974723,
     "578e444f731d8d44e3ca": 1785162933.6289213,
-    "5793b0571f44cb4ceb28": 1785063339.375795,
     "57947205e2bf5e789ec4": 1785123413.083494,
     "57df4d040e41628c437a": 1785162933.628733,
     "58272e102418332ac514": 1785075042.9534104,
@@ -5778,7 +5830,6 @@
     "5ab8e11d683a77e6bd4f": 1785142536.1527076,
     "5ada7aaa34d54299210e": 1785126940.8214192,
     "5b9fcf922c3826ec99a4": 1785229848.2368233,
-    "5bd76206c4796ce21dd0": 1785063339.3756063,
     "5c44c2cb690b743caf98": 1785159338.1095371,
     "5cb5b074de0ef8879791": 1785209738.818235,
     "5cdc016bd8d71fbf0771": 1785064839.4025624,
@@ -5870,7 +5921,6 @@
     "6c99995d63c343d88c5f": 1785164135.772691,
     "6d1d06a402b464f771a0": 1785215444.891593,
     "6d379ae0ea023c2119e1": 1785129045.2654028,
-    "6d445c63bfd6f1e837f9": 1785063339.375611,
     "6d61bbb6d6b22253e4f3": 1785159338.1095452,
     "6d994daf515dc3119005": 1785234946.7177372,
     "6e2026c51ffc2cfb7877": 1785130605.087007,
@@ -5889,6 +5939,7 @@
     "715c3aca855d35361961": 1785215444.8915956,
     "717d39b30ef550593a10": 1785228945.0043542,
     "718ef61d2c0f28e10cea": 1785148533.0915492,
+    "71a79aa62b19cc51b460": 1785237045.1235552,
     "71b50499cbfe52f9fb43": 1785216939.4309194,
     "71bb4186bcc9c718fd69": 1785160538.8297124,
     "71c1a84d0bc71eac8f7e": 1785227736.80976,
@@ -6032,7 +6083,6 @@
     "92bca2a1ef0819fe263a": 1785138929.3646579,
     "92c755be4740013ec4e5": 1785166530.63838,
     "92f2b00c0494221be99b": 1785130605.087198,
-    "92fc27f4b37206239243": 1785063339.3756235,
     "931070dcfe68941b8e1b": 1785162933.6287248,
     "9368087d21f40c929657": 1785236131.554257,
     "939f4d1c7f15818ea528": 1785215444.8916059,
@@ -6093,6 +6143,7 @@
     "a08b17326cc4c2fe5efb": 1785160538.8297057,
     "a09b9cc06932e8a328cb": 1785149732.5570655,
     "a0caa1604d128db8b608": 1785144935.1158686,
+    "a0d1626b20e3eea17d17": 1785237045.1235592,
     "a10d4e370c617935938d": 1785082251.385039,
     "a1386ac640dd73985fed": 1785064839.4025536,
     "a1ab8e065c042fb86446": 1785132636.3292553,
@@ -6113,6 +6164,7 @@
     "a534e06a3e5cabdfd33c": 1785123413.083505,
     "a5ad3840674a13871277": 1785178533.5215094,
     "a5dd3a903981b7d42c4a": 1785236131.5542579,
+    "a695ec6096850fbd6291": 1785237045.1235573,
     "a6b0e7ddaf6d815ce3fa": 1785211845.6684122,
     "a6b9bc113b123bb38bef": 1785082251.3850484,
     "a6cc6634c9dc294e347e": 1785229848.2368202,
@@ -6120,6 +6172,7 @@
     "a7d85325833ee82de755": 1785143445.1264744,
     "a81fa9d7221e3df457d9": 1785209738.818252,
     "a827befcd0e2eae1aa96": 1785234946.7177155,
+    "a8408e1834cae28de743": 1785237045.123558,
     "a86c40d8376d0c0357f7": 1785231337.5709965,
     "a86cf238eb3c7175cfad": 1785146136.5939097,
     "a91ae0e9ada3bad70e25": 1785154242.0549269,
@@ -6127,6 +6180,7 @@
     "a94538709c88667bfd15": 1785147042.3876877,
     "a968a9ae5def5da35015": 1785071441.1456215,
     "aa8b4cb7d03c8792416f": 1785073009.9389834,
+    "ab13e467ff7eb98efe26": 1785237045.1235566,
     "ab36c7329cdbb31e2c47": 1785087336.751672,
     "ab3aa59037d8a90e2db8": 1785123413.0835094,
     "aba389981e6c1998cc4b": 1785126940.8214235,
@@ -6134,7 +6188,6 @@
     "acb08f70aa13e90f58dd": 1785166530.638384,
     "ad1251f808451b48249d": 1785157837.1566613,
     "ad72e0753bc6498b635e": 1785171339.2179513,
-    "adcf3cab03c5834640af": 1785063339.375797,
     "adf27d23d0caffcf902e": 1785089434.355194,
     "ae709363beea48e35a6a": 1785071441.1456316,
     "ae7acab6bfa54b9a3613": 1785152135.9785585,
@@ -6190,7 +6243,6 @@
     "bc3df394ef5ada59f15a": 1785213338.497614,
     "bcbf085b66dde7beb1bd": 1785071441.1456368,
     "bcc09c086bab74a87a41": 1785167733.6632185,
-    "bce0cb3668766c7f8b85": 1785063339.3757997,
     "bce590bfbaf2fb40a269": 1785227736.8097577,
     "bd4cd8f68d1e0525f536": 1785162933.6287305,
     "bd59655f183381d8e578": 1785169242.4034417,
@@ -6215,6 +6267,8 @@
     "c31da67e0e7258dcb8b0": 1785125583.8468094,
     "c340d3ac51daa1118f35": 1785071441.145635,
     "c35f88c97a8532b8742e": 1785123413.0834818,
+    "c3703deb56c1fc72f446": 1785237045.123562,
+    "c3a3ee906ea389fd375a": 1785237045.12356,
     "c3eede7f0210a249d163": 1785169242.4034362,
     "c46f4837a9a7b1e26971": 1785080147.914668,
     "c486a472d4b098acc777": 1785083730.8420498,
@@ -6224,7 +6278,6 @@
     "c53d7b20397b19affe3b": 1785236131.55424,
     "c55fb631bf451b6df299": 1785149732.557063,
     "c563017a8e4b2f4ec942": 1785164135.7726617,
-    "c5d8f0cb0e666257273c": 1785063339.3756135,
     "c619485fb28f66db3e29": 1785080147.914678,
     "c647100be7a6b38d5f77": 1785134137.2084305,
     "c68e0c16664fcb249e95": 1785138929.3644593,
@@ -6268,6 +6321,7 @@
     "cf74d2875c08babcfd5c": 1785156932.8179824,
     "cf93174faf7526bb70d2": 1785209738.8182392,
     "d02ac01d31d3556f6b49": 1785233442.10957,
+    "d07c5d75f08e953ae972": 1785237045.1235492,
     "d082d36d341bf19c365d": 1785215444.8915644,
     "d0935b6e4054b589b232": 1785219042.6464953,
     "d1863068af59b740a4fe": 1785123413.0834959,
@@ -6300,7 +6354,6 @@
     "d7f40566a4a665c49f79": 1785224139.648967,
     "d86865601e75f4dd4f9e": 1785143445.1264668,
     "d9157b4c6e9c6f7b4e15": 1785166530.6383827,
-    "d91d48320f7316f829d6": 1785063339.3756192,
     "d94699b48a33f9b32c6d": 1785130605.0871952,
     "d99b25036fa334b7339f": 1785146136.5939085,
     "d9a2b1f99d92c3e49778": 1785228945.0043626,
@@ -6337,7 +6390,6 @@
     "e48e81ff8e7a3e53902d": 1785146136.593913,
     "e4e92fe0f1f40efb41e2": 1785164135.7726538,
     "e4f2af89929ca09c317b": 1785225340.5855749,
-    "e537b1c93e274073ef0c": 1785063339.3757982,
     "e564d19e22c292129ca1": 1785160538.8297024,
     "e5763a75f515cf4712ea": 1785138929.3644671,
     "e57de6a230279987d3c6": 1785144935.1158588,
@@ -6364,7 +6416,6 @@
     "ecade64b54e28f987363": 1785222643.1467705,
     "ecc01bac018feda50362": 1785234946.7177088,
     "ed1fb7821613dc2116eb": 1785172846.638709,
-    "ed9ccbd40bc53101a67f": 1785063339.3756225,
     "eda4010d7d38e89c47b0": 1785090935.716877,
     "edd530899dafb5d9baf5": 1785225340.5855763,
     "edf690fe2f02d4e07d55": 1785169242.403449,
@@ -6424,10 +6475,9 @@
     "fb6ecfc0865d3a728626": 1785148533.0915408,
     "fd20ad8b0b424d0978b6": 1785148533.0915399,
     "fd964578b1cc59271680": 1785125583.8468063,
+    "fda745495d130558f9f3": 1785237045.123561,
     "fdda0089c9349f048bd7": 1785213338.4976072,
     "fe00bac03eb0ff550432": 1785160538.8296998,
-    "fe6be473a121b1d84dac": 1785063339.3756213,
-    "fe884bc53a516fe830a5": 1785063339.3758006,
     "fe93e5fa4c65da02ecbb": 1785125583.8468053,
     "fe975776f46a81ce77cf": 1785219042.6464918,
     "fed6860b91eb2a4b3c47": 1785067833.8007805,
@@ -6440,61 +6490,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785236131.554215
+      "ts": 1785237045.1235387
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785236131.5542164
+      "ts": 1785237045.1235397
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785236131.554219
+      "ts": 1785237045.1235418
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785236131.5542238
+      "ts": 1785237045.1235447
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785236131.5542176
+      "ts": 1785237045.1235409
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785236131.554208
+      "ts": 1785237045.123533
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785236131.554213
+      "ts": 1785237045.1235373
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785236131.554223
+      "ts": 1785237045.123544
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785236131.5542204
+      "ts": 1785237045.1235428
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785236131.5542219
+      "ts": 1785237045.1235435
     }
   }
 }
