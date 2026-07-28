@@ -16,6 +16,7 @@ from __future__ import annotations
 import os
 from datetime import datetime, timezone
 from html import escape
+from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 from .config import ACTIVE_HOURS_TZ
@@ -40,15 +41,37 @@ def _ago(ts: float) -> str:
     return f"pred {hours} h {mins % 60} min" if mins % 60 else f"pred {hours} h"
 
 
+def _safe_http_url(value: object) -> str:
+    """Vráti bezpečnú http(s) URL alebo prázdny reťazec."""
+    url = str(value or "").strip()
+    parsed = urlparse(url)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return ""
+    return url
+
+
+def _render_alert_item(alert: dict) -> str:
+    content = (
+        f'<span class="flash-title">{escape(str(alert.get("title", "")))}</span>'
+        f'<span class="flash-reason">{escape(str(alert.get("reason", "")))}</span>'
+    )
+    links = alert.get("links")
+    first_link = links[0] if isinstance(links, list) and links else ""
+    url = _safe_http_url(first_link)
+    if url:
+        return (
+            f'<a class="flash-item" href="{escape(url, quote=True)}" '
+            f'target="_blank" rel="noopener">{content}</a>'
+        )
+    return f'<div class="flash-item">{content}</div>'
+
+
 def _render_alert_flash(alerts: list[dict]) -> str:
     if not alerts:
         return ""
     items = "".join(
-        f'<div class="flash-item">'
-        f'<span class="flash-title">{escape(a["title"])}</span>'
-        f'<span class="flash-reason">{escape(a["reason"])}</span>'
-        f"</div>"
-        for a in alerts
+        _render_alert_item(alert)
+        for alert in alerts
     )
     return f'<div class="wire-flash" role="alert"><div class="flash-label">MIMORIADNE</div>{items}</div>'
 
@@ -176,8 +199,12 @@ a:focus-visible, .pill:focus-visible { outline: 2px solid var(--amber); outline-
   font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: 0.15em;
   color: var(--red); font-weight: 700; margin-bottom: 6px;
 }
-.flash-item { margin: 4px 0; }
-.flash-title { font-weight: 600; margin-right: 10px; }
+.flash-item { display: block; margin: 4px 0; color: inherit; }
+.flash-item:hover, .flash-item:focus-visible { text-decoration: none; }
+.flash-item:hover .flash-title, .flash-item:focus-visible .flash-title {
+  text-decoration: underline; color: var(--amber);
+}
+.flash-title { font-weight: 600; margin-right: 10px; color: var(--text); }
 .flash-reason { color: var(--muted); font-size: 14px; }
 
 header {
