@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Slovensko čakajú extrémne horúčavy, SHMÚ vydal najvyššie výstrahy",
-      "ts": 1785238547.9046803
-    },
-    {
-      "headline": "Fico odmieta povinnosť vyrovnaných rozpočtov pre štát aj samosprávy",
-      "ts": 1785238547.9046803
-    },
-    {
-      "headline": "Polícia odmietla trestné oznámenie na Šutaja Eštoka pre cestu na F1",
-      "ts": 1785238547.9046803
-    },
-    {
-      "headline": "Ukrajina pripravuje na jeseň útoky balistickými raketami na Moskvu",
-      "ts": 1785238547.9046803
-    },
-    {
-      "headline": "V Číne sa vyskytli dve silné zemetrasenia, obete zatiaľ nie sú hlásené",
-      "ts": 1785238547.9046803
-    },
-    {
       "headline": "Zemetrasenie v Japonsku si vyžiadalo desiatky zranených",
       "ts": 1785239751.6568604
     },
@@ -227,20 +207,72 @@
     {
       "headline": "Vedci využívajú oxid uhoľnatý v boji proti metastázam",
       "ts": 1785252944.9516838
+    },
+    {
+      "headline": "Fico odmieta povinnosť vyrovnaných rozpočtov",
+      "ts": 1785254142.6306272
+    },
+    {
+      "headline": "EÚ chystá masívne sankcie proti firmám pomáhajúcim Rusku",
+      "ts": 1785254142.6306272
+    },
+    {
+      "headline": "Slobodník na súde vypovedal proti Gašparovi a Kováčikovi",
+      "ts": 1785254142.6306272
+    },
+    {
+      "headline": "Požiar vo vojenskom obvode pri Malackách",
+      "ts": 1785254142.6306272
+    },
+    {
+      "headline": "Stretnutie Trumpa so Zelenským mení dynamiku vzťahov",
+      "ts": 1785254142.6306272
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Súd v kauze Mýtnik: Slobodník vypovedal proti Gašparovi a Kováčikovi",
+        "headline": "Fico odmieta povinnosť vyrovnaných rozpočtov",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/domov/c/gaspar-a-kovacik-opakovali-ze-su-nevinni-nemam-dovod-si-vymyslat-reagoval-na-sude-zvysenym-hlasom-slobodnik"
+            "https://www.sme.sk/index/c/vlada-ani-samospravy-nemusia-mat-vyrovnane-rozpocty-tvrdi-fico?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/1ILik0t/fico-odkazal-vlade-aj-mestam-ze-vyrovnany-rozpocet-netreba-opozicnici-biju-na-poplach-pre-dlhovu-brzdu/"
           ]
         ],
-        "perex": "Na súde v kauze Mýtnik opätovne vypovedal Bernard Slobodník, ktorý trvá na svojej verzii udalostí. Obžalovaní Tibor Gašpar a Dušan Kováčik naďalej odmietajú vinu a spochybňujú dôveryhodnosť svedka."
+        "perex": "Premiér Robert Fico vyhlásil, že vláda ani samosprávy nemajú povinnosť pripravovať vyrovnané rozpočty. Opozičné strany v reakcii varujú pred porušovaním ústavného zákona o dlhovej brzde."
+      },
+      {
+        "headline": "EÚ chystá masívne sankcie proti firmám pomáhajúcim Rusku",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/qDvIItd/eu-pripravuje-rekordny-balik-sankcii-proti-firmam-podporujucim-rusku-vojnu-na-ukrajine/"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1239462-eu-planuje-uvalit-sankcie-na-vyse-1600-spolocnosti-pomahajucich-rusku"
+          ]
+        ],
+        "perex": "Európska únia pripravuje doteraz najväčší balík sankcií zameraný na viac ako 1 600 spoločností po celom svete. Tieto firmy sú podozrivé z priamej podpory ruskej vojenskej agresie na Ukrajine."
+      },
+      {
+        "headline": "Slobodník na súde vypovedal proti Gašparovi a Kováčikovi",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/gaspar-a-kovacik-opakovali-ze-su-nevinni-nemam-dovod-si-vymyslat-reagoval-na-sude-zvysenym-hlasom-slobodnik?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Denník N",
+            "https://dennikn.sk/5477742/slobodnik-sa-pytal-gaspara-preco-na-sude-tak-klamal-vycitaju-si-kto-sa-komu-votrel-do-rodiny/"
+          ]
+        ],
+        "perex": "V rámci pokračujúceho súdneho procesu v kauze Mýtnik čelil Bernard Slobodník otázkam obžalovaných o pravdivosti svojich výpovedí. Tibor Gašpar a Dušan Kováčik naďalej trvajú na svojej nevine."
       },
       {
         "headline": "Požiar vo vojenskom obvode pri Malackách",
@@ -253,114 +285,30 @@
         "perex": "Vo vojenskom obvode pri Malackách vypukol požiar, ktorý zasiahol dopadovú plochu a leteckú strelnicu. Hasiči na mieste zasahujú a obyvateľom v okolí odporúčajú preventívne zatvoriť okná."
       },
       {
-        "headline": "Kritika kandidatúry Judity Laššákovej na prešovskú županku",
+        "headline": "Stretnutie Trumpa so Zelenským mení dynamiku vzťahov",
         "links": [
           [
-            "Denník N",
-            "https://dennikn.sk/5477619/mensie-zlo-ako-mazurek-uraza-ma-to-je-nebezpecna-osobnosti-presovskej-zupy-reaguju-na-kandidaturu-lassakovej/"
-          ]
-        ],
-        "perex": "Ohlásenie kandidatúry europoslankyne Judity Laššákovej za stranu Smer na post predsedníčky Prešovského kraja vyvolalo vlnu nevôle. Proti jej nominácii sa ostro ohradili viaceré osobnosti regiónu aj politickí oponenti."
-      },
-      {
-        "headline": "Petržalčania žiadajú referendum o Draždiaku a parkovaní",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/bratislava/c/v-petrzalke-odovzdali-peticne-harky-na-vyhlasenie-miestneho-referenda"
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1239450-zelenskyj-rokuje-s-trumpom-v-bielom-dome-ziada-posilnenie-americkej-vojenskej-pomoci"
           ],
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2014613-petrzalcania-chcu-rozhodovat-sami-referendum-o-drazdiaku-parkovani-aj-novej-vystavbe-podporilo-5508-ludi"
+            "Denník N",
+            "https://dennikn.sk/5477345/vlani-ho-oznacoval-za-diktatora-teraz-ho-chvali-za-odvahu-stretnutie-trumpa-so-zelenskym-ukazalo-ako-sa-meni-ich-vztah/"
           ]
         ],
-        "perex": "Obyvatelia Petržalky odovzdali vyše 5500 podpisov pod petíciu za vyhlásenie miestneho referenda. Občania chcú hlasovať najmä o prístupe k jazeru Veľký Draždiak a zachovaní parkovacej zóny PAAS."
-      },
-      {
-        "headline": "Vedci využívajú oxid uhoľnatý v boji proti metastázam",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/O1cb2HK/novy-sposob-boja-s-metastazami-vedci-vyuzivaju-oxid-uholnaty/"
-          ]
-        ],
-        "perex": "Výskumníci publikovali v časopise Advanced Science novú metódu liečby rakoviny pomocou látok uvoľňujúcich oxid uhoľnatý. Tento postup by mohol pomôcť zastaviť šírenie najnebezpečnejších foriem nádorov."
+        "perex": "Rokovanie ukrajinského prezidenta s Donaldom Trumpom v Bielom dome sa nieslo v duchu žiadostí o posilnenie vojenskej pomoci. Analytici upozorňujú na výrazný posun v rétorike oboch politikov."
       }
     ],
-    "ts": 1785252944.9516768
+    "ts": 1785254142.6306183
   },
   "meta": {
-    "last_collection_ts": 1785252937.8116934,
+    "last_collection_ts": 1785254137.172478,
     "last_feed_error_ts": 1785232539.4960687,
     "last_llm_error_ts": 1785243791.1408515,
-    "last_run_ts": 1785252939.1891494,
-    "last_synthesis_ts": 1785252944.9516711
+    "last_run_ts": 1785254137.4633608,
+    "last_synthesis_ts": 1785254142.630612
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/gasparov-velky-den-na-sude-hovoril-ze-policiu-neodovzdal-b-d-rovi-ani-nikomu-inemu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Para hovorí o usvedčení Slobodníka z klamstva. Ten trvá na svojom.",
-      "s": "SME",
-      "t": "Gašparov veľký deň. Na súde hovoril, že políciu neodovzdal Bödörovi ani nikomu inému",
-      "ts": 1785167733.6632166,
-      "u": "76e1efd77573541399ae"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/hruba-stavba-rooseveltovej-nemocnice-bude-dokoncena-do-zaveru-jula-tvrdi-fico?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Fico navštívil stavenisko spolu s ministrom zdravotníctva.",
-      "s": "SME",
-      "t": "Hrubá stavba Rooseveltovej nemocnice bude dokončená do záveru júla, tvrdí Fico",
-      "ts": 1785167733.6632197,
-      "u": "bcc09c086bab74a87a41"
-    },
-    {
-      "l": "https://e.dennikn.sk/5475232/fico-porovnava-slovenske-zadlzenie-s-nemeckom-ekonomovia-namietaju-ze-nemecko-je-bohatsie-a-vlada-nema-plan-ako-rastuci-dlh-zastavit/",
-      "p": "Fico tvrdí, že slovenský verejný dlh je nižší ako priemer eurozóny aj Nemecka či Rakúska. Ekonómovia upozorňujú, že rozhodujúca nie je jeho dnešná výška, ale rýchly rast a&#160;chýbajúci plán vlády, ako ho zastaviť. Štát už na úrokoch z&#160;dlhu platí 2 miliardy eur ročne. Peniaze potom chýbajú na ",
-      "s": "Denník N",
-      "t": "Fico porovnáva slovenské zadlženie s Nemeckom. Ekonómovia: Rozhodujúca nie je dnešná výška dlhu",
-      "ts": 1785167733.6632228,
-      "u": "8a58d7b42bfcc96de96e"
-    },
-    {
-      "l": "https://e.dennikn.sk/5475433/firemny-newsfilter-velka-slovenska-skrobaren-meni-majitela-a-slovalco-chysta-dalsie-investicie-do-novych-zliatin/",
-      "p": "Americký prezident Donald Trump okrem neúspešnej vojny v&#160;Iráne pokračuje v&#160;narúšaní štandardného fungovania svetového obchodu aj dlhodobým zvyšovaním ciel. Po skončení platnosti predchádzajúcich sadzieb uvalil na väčšinu obchodných partnerov Spojených štátov amerických nové clá vo výške 10",
-      "s": "Denník N",
-      "t": "Firemný newsfilter: Veľká slovenská škrobáreň mení majiteľa a Slovalco chystá ďalšie investície do nových zliatin",
-      "ts": 1785167733.663225,
-      "u": "72bd41c15cde5d4c7e40"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regiony/clanok/2014171-na-povale-presovskej-radnice-objavili-vzacny-nahrobny-epitaf-zo-17-storocia?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Na povale prešovskej historickej radnice objavili dobrovoľníci počas upratovacieho festivalu Milujem svoje mesto náhrobný epitaf zo 17. storočia. Podľa odborníkov ide o významnú historickú pamiatku. Informoval o tom nálezca Branislav Švorc spoločne s odborníkmi.",
-      "s": "Pravda",
-      "t": "Na povale prešovskej radnice objavili vzácny náhrobný epitaf zo 17. storočia",
-      "ts": 1785167733.6632261,
-      "u": "5300e7278c7e12b3ee79"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2014167-desatrocia-bez-modernizacie-ekologia-ziadna-sud-stopol-vysoke-pece-oceliarskeho-giganta?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Odvolací súd v Miláne nariadil najväčšej talianskej oceliarni kvôli znečisťovaniu azbestom a jemným polietavým prachom vypnúť vysoké pece.",
-      "s": "Pravda",
-      "t": "Desaťročia bez modernizácie, ekológia žiadna. Súd stopol vysoké pece oceliarskeho giganta",
-      "ts": 1785167733.6632276,
-      "u": "609b2a6f87aacbb6fe4d"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/urad-verejneho-zdravotnictva-upozorn/980786-clanok.html",
-      "p": "Dôvodom je odlupovanie vnútornej vrstvy už pri prvom použití panvice.",
-      "s": "Teraz.sk",
-      "t": "Úrad verejného zdravotníctva upozorňuje na nevyhovujúcu wok panvicu",
-      "ts": 1785167733.663229,
-      "u": "d5a999629f4f659f00d0"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1239041-horucavy-sa-vracaju-vo-velkom-slovensko-cakaju-teploty-az-do-39-c",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Horúčavy sa vracajú vo veľkom. Slovensko čakajú teploty až do 39 °C",
-      "ts": 1785167733.6632302,
-      "u": "0d2555e1b0c2061a9141"
-    },
     {
       "l": "https://www.sme.sk/svet/c/ak-rokovania-s-iranom-zlyhaju-uskutocnime-razantnu-vojensku-akciu-uviedol-trump?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Aktuálne rokovania sú zamerané na uzavretie dohody.",
@@ -4696,6 +4644,46 @@
       "t": "EÚ plánuje uvaliť sankcie na vyše 1600 spoločností pomáhajúcich Rusku",
       "ts": 1785252939.1891487,
       "u": "b914af6e599339e25b2f"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/na-slovensku-je-podla-fica-dost-pracovnych-miest-odmieta-kritiku-vlady-za-prepustanie-vo-firme-pri-novom-meste-nad-vahom?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Firma má podľa neho problémy aj v zahraničí.",
+      "s": "SME",
+      "t": "Na Slovensku je podľa Fica dosť pracovných miest. Odmieta kritiku vlády za prepúšťanie vo firme pri Novom Meste nad Váhom",
+      "ts": 1785254137.4633517,
+      "u": "3cbabcca1ae6ee46cfb7"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/rumunski-zdravotnici-po-desiatich-rokoch-strajkuju-nemocnice-obmedzili-sluzby?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Zdravotnícky personál vstúpil do štrajku pre nespokojnosť s reformou zákona o mzde.",
+      "s": "SME",
+      "t": "Rumunskí zdravotníci po desiatich rokoch štrajkujú. Nemocnice obmedzili služby",
+      "ts": 1785254137.4633546,
+      "u": "37492a8f48fffdc8e03f"
+    },
+    {
+      "l": "https://dennikn.sk/5477742/slobodnik-sa-pytal-gaspara-preco-na-sude-tak-klamal-vycitaju-si-kto-sa-komu-votrel-do-rodiny/",
+      "p": "\"Môžete tu zo mňa robiť blázna, ale povedzte mi jeden dôvod, prečo to robím, ak to nie je pravda\", povedal Slobodník spoluobžalovaným, ktorí spochybňujú jeho výpoveď. V&#160;emotívnom vyjadrení priznal aj omyl, ktorý môže byť kľúčový.",
+      "s": "Denník N",
+      "t": "Slobodník sa pýtal Gašpara, prečo na súde tak klamal. Vyčítajú si, kto sa komu votrel do rodiny",
+      "ts": 1785254137.4633567,
+      "u": "b48890ef4e5f4bb66735"
+    },
+    {
+      "l": "https://dennikn.sk/5477345/vlani-ho-oznacoval-za-diktatora-teraz-ho-chvali-za-odvahu-stretnutie-trumpa-so-zelenskym-ukazalo-ako-sa-meni-ich-vztah/",
+      "p": "Čo sa zmenilo, keď už aj americký prezident hovorí, že si so Zelenským vybudoval dobrý vzťah?",
+      "s": "Denník N",
+      "t": "Vlani ho označoval za diktátora, teraz ho chváli za odvahu. Stretnutie Trumpa so Zelenským ukázalo, ako sa mení ich vzťah",
+      "ts": 1785254137.463358,
+      "u": "533cb5c4f544e3e7e565"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/regiony/clanok/2014841-na-druhu-etapu-severneho-obchvatu-presova-pojde-z-eurofondov-viac-ako-121-milionov-eur?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Ministerstvo investícií, regionálneho rozvoja a informatizácie (MIRRI) SR schválilo výzvu v hodnote 121,8 milióna eur na výstavbu vybraných stavebných objektov druhej etapy severného obchvatu Prešova na rýchlostnej ceste R4. Financovanie bude zabezpečené z Programu Slovensko, pričom prijímateľom pro",
+      "s": "Pravda",
+      "t": "Na druhú etapu severného obchvatu Prešova pôjde z eurofondov viac ako 121 miliónov eur",
+      "ts": 1785254137.46336,
+      "u": "11bde12b75e83bd6239d"
     }
   ],
   "recent_alerts": [
@@ -5330,6 +5318,7 @@
     "106383bac4bfee280224": 1785146136.5939114,
     "11b09bb35684ee78452d": 1785164135.7726855,
     "11b5348dff6f13cdb051": 1785172846.638714,
+    "11bde12b75e83bd6239d": 1785254137.4633584,
     "122242b36b7d8ec69413": 1785182138.1611128,
     "1273a3764623950da2bc": 1785225340.5855744,
     "127e0fe55c346ced7c5e": 1785231337.5710123,
@@ -5474,6 +5463,7 @@
     "366db446d65ad7a0ced6": 1785234946.717696,
     "366eddfb624fd4517e9a": 1785142536.1527007,
     "3709b33949c1c0e47306": 1785234946.717702,
+    "37492a8f48fffdc8e03f": 1785254137.4633534,
     "376bb8fb17334b2930e4": 1785123413.0834985,
     "37abcdb3be5bddcf9467": 1785216939.4309254,
     "37c2b526bfb835d34bce": 1785242142.6163013,
@@ -5492,7 +5482,6 @@
     "3ace8a565c509a772177": 1785136237.1197238,
     "3b08662a5ef3656a097e": 1785087336.7516751,
     "3b1866d042add0d8c98e": 1785129045.2654097,
-    "3b19fb2f8cd9965c5e26": 1785080147.9146872,
     "3b2b59ecb0c532029ecd": 1785123413.0832627,
     "3bb6cdf81421c70f99b6": 1785211845.6684074,
     "3bcb2f1353b9be6b349a": 1785244242.7356887,
@@ -5503,6 +5492,7 @@
     "3ca20e1083b23ed2c253": 1785227736.8097425,
     "3ca2a41cd391e464d905": 1785164135.7726924,
     "3cb7d3a67b4f65a74a55": 1785083730.8420544,
+    "3cbabcca1ae6ee46cfb7": 1785254137.4633482,
     "3d3ac310c9b1a46c1c53": 1785138929.3644686,
     "3d3b45f535e7a3ce6b77": 1785172846.638713,
     "3d501efdb45f6d4a2e2d": 1785231337.5710151,
@@ -5580,6 +5570,7 @@
     "52eb27812055ae5c7cc3": 1785138929.3646588,
     "5300e7278c7e12b3ee79": 1785167733.6632257,
     "532660c48f405aa9e676": 1785146136.5939026,
+    "533cb5c4f544e3e7e565": 1785254137.4633574,
     "5361065c9f58d1b8dc68": 1785176447.9994214,
     "53b9a64609943d69d13f": 1785144935.1158633,
     "5409aa9cc0b6f22d3fcb": 1785146136.593906,
@@ -5593,7 +5584,6 @@
     "567e705f6ef39dab4e2d": 1785180043.4292,
     "569353879c0f6141ac77": 1785211845.668421,
     "56f008968934347cce59": 1785157837.1566477,
-    "5702299a4f7b14f4cb92": 1785080147.91468,
     "570d0518eda51ca6f91f": 1785209738.818033,
     "574b8aa72c79e1a703d4": 1785239744.7905333,
     "576406aa6fea78a85c7d": 1785215444.8915966,
@@ -5690,7 +5680,6 @@
     "6a59e7be3c1c179209d9": 1785123413.083489,
     "6a6177f0b70dc652d360": 1785215444.8915782,
     "6a6b447f63d711e577fa": 1785144935.1158662,
-    "6ae4a19bb769036874bc": 1785080147.9146857,
     "6ae79a34f3d18101ee65": 1785213338.4974632,
     "6b1d1a992c04dd0757bd": 1785228945.0043514,
     "6b4b46a94b16dae3be0f": 1785169242.4034448,
@@ -5801,8 +5790,6 @@
     "822304897c91fb6f4f78": 1785152135.9785564,
     "82b649fafc7e74f8d948": 1785123413.083485,
     "82c36b7fb3db2ae43dae": 1785155729.6116955,
-    "82e5094561e778886ed5": 1785080147.9146745,
-    "82fac6ec8e7fbdc4ccbd": 1785080147.9146821,
     "83275f58199875e972db": 1785125583.8468027,
     "833342329ae70ba32292": 1785148533.091353,
     "839f88af3c23672c1512": 1785234946.7177274,
@@ -5825,7 +5812,6 @@
     "8707879b2ed913103cf0": 1785245738.2521074,
     "877f8d4850eeac751eb3": 1785232539.4960847,
     "89593ba08fdfe8c8f53b": 1785093041.2804096,
-    "89b7f6418f999df5aa29": 1785080147.9146836,
     "89ce7cd890b2b5f88fbc": 1785154242.0549095,
     "8a12413d4c43463b651d": 1785148533.0915499,
     "8a41bbf70578c47d69ed": 1785146136.5939143,
@@ -6006,6 +5992,7 @@
     "b422eae3d412f7b15077": 1785240643.7002325,
     "b42c5f95094f1c3a6b56": 1785244242.7356906,
     "b46126a38dd78b19776d": 1785154242.0549238,
+    "b48890ef4e5f4bb66735": 1785254137.4633555,
     "b4b5ae8a74eee9555d9e": 1785157837.1566632,
     "b53fbca3ac5e993b3a26": 1785215444.891569,
     "b58a45d1000ca7ee8b28": 1785219042.6464896,
@@ -6072,7 +6059,6 @@
     "c3703deb56c1fc72f446": 1785237045.123562,
     "c3a3ee906ea389fd375a": 1785237045.12356,
     "c3eede7f0210a249d163": 1785169242.4034362,
-    "c46f4837a9a7b1e26971": 1785080147.914668,
     "c486a472d4b098acc777": 1785083730.8420498,
     "c4bda71488993a7571f6": 1785087336.7516632,
     "c4c3e377a3fc8957455e": 1785249337.452707,
@@ -6083,7 +6069,6 @@
     "c55fb631bf451b6df299": 1785149732.557063,
     "c563017a8e4b2f4ec942": 1785164135.7726617,
     "c57a1530491e0afdffe2": 1785245738.2521133,
-    "c619485fb28f66db3e29": 1785080147.914678,
     "c647100be7a6b38d5f77": 1785134137.2084305,
     "c68e0c16664fcb249e95": 1785138929.3644593,
     "c69260691273c5d068f9": 1785209738.8182747,
@@ -6219,7 +6204,6 @@
     "e9f134d24e47b263bd0c": 1785178533.521512,
     "ea6ec953e2811ae19025": 1785129045.2653937,
     "ea75d1d276d3d72bc7f6": 1785137735.082662,
-    "ea9318b0442a2722128a": 1785080147.9146767,
     "eb3c90d20b248a30a76b": 1785148533.0915463,
     "eb98ccfd11d03b1b2a0c": 1785152135.9785743,
     "ebe0389b6d9776235893": 1785219042.6464746,
@@ -6305,61 +6289,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785252939.1891172
+      "ts": 1785254137.463321
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785252939.1891184
+      "ts": 1785254137.4633229
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785252939.1891217
+      "ts": 1785254137.4633367
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785252939.1891267
+      "ts": 1785254137.4633412
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785252939.18912
+      "ts": 1785254137.4633238
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785252939.1891098
+      "ts": 1785254137.4633138
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785252939.189115
+      "ts": 1785254137.4633193
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785252939.1891258
+      "ts": 1785254137.4633403
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785252939.1891234
+      "ts": 1785254137.463338
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785252939.1891246
+      "ts": 1785254137.4633393
     }
   }
 }
