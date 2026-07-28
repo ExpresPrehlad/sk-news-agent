@@ -164,10 +164,10 @@
     "ts": 1785268545.9592392
   },
   "meta": {
-    "last_collection_ts": 1785268539.7402453,
+    "last_collection_ts": 1785270045.483855,
     "last_feed_error_ts": 1785255644.4919906,
     "last_llm_error_ts": 1785243791.1408515,
-    "last_run_ts": 1785268540.556985,
+    "last_run_ts": 1785270045.8461962,
     "last_synthesis_ts": 1785268545.9592342
   },
   "recent": [
@@ -4586,19 +4586,33 @@
       "t": "Lístky mali zaplatené, no revízor ich neuznal. Dôvodom bol jediný detail",
       "ts": 1785268540.556984,
       "u": "221c46e0fe4a7c22225a"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/trump-sa-rozlucil-so-senatorom-grahamom-oznacil-ho-za-pilier-americkej-politiky?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Na pohrebe vyzdvihol jeho vplyv na americkú politiku.",
+      "s": "SME",
+      "t": "Trump sa rozlúčil so senátorom Grahamom. Označil ho za pilier americkej politiky",
+      "ts": 1785270045.84619,
+      "u": "5367ca853a06e1b36fd6"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/kena-napokon-povolila-britske-vojenske-cvicenie-na-svojom-uzemi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Približne 200 kilometrov od Nairobi má stálu základňu britská jednotka BATUK.",
+      "s": "SME",
+      "t": "Keňa napokon povolila britské vojenské cvičenie na svojom území",
+      "ts": 1785270045.8461928,
+      "u": "209403c447722095a77b"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2014949-znamy-slovak-kupil-tri-byty-v-dubaji-dnes-hovori-o-najhorsej-investicii?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Bývalý poslanec a tanečník zo šou Let's Dance Erik Ňarjaš otvorene skritizoval investovanie do nehnuteľností v Spojených arabských emirátoch. Na sociálnej sieti sa podelil o vlastnú negatívnu skúsenosť s kúpou troch apartmánov v atraktívnych častiach Dubaja a varuje verejnosť pred zavádzajúcimi sľub",
+      "s": "Pravda",
+      "t": "Luxusný sen sa zmenil na sklamanie. Známy Slovák kúpil tri byty v Dubaji, dnes hovorí o najhoršej investícii",
+      "ts": 1785270045.8461955,
+      "u": "66415450745f82d1eb8a"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/hR2BsCk/general-oleksandr-syrskyj-konci-na-poste-hlavneho-velitela-ukrajinskej-armady/",
-        "https://www.pravda.sk/spravy/svet/clanok/2011201-po-vyhre-utrpel-syrskyj-dve-prehry-zelenskyj-ho-odvolal-za-sefa-armady-vybral-letiaceho-hrdinu?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o zásadnú personálnu zmenu vo vedení armády krajiny, ktorá sa nachádza vo vojnovom konflikte.",
-      "title": "Generál Oleksandr Syrskyj končí na poste hlavného veliteľa ukrajinskej armády",
-      "ts": 1784665099.995335
-    },
     {
       "links": [
         "https://www.pravda.sk/spravy/svet/clanok/2011239-pete-hegseth-vojna-iran-usa-financie-vycvik-boje-armada-peniaze?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
@@ -5289,6 +5303,7 @@
     "203e6d92938046bc5de9": 1785123413.0835025,
     "206a42f7c220af86c593": 1785141329.7156281,
     "208a1bc42450326c04b7": 1785187242.5750272,
+    "209403c447722095a77b": 1785270045.8461914,
     "214bf9e555a5cfe21203": 1785157837.15666,
     "215c009fe88b88fd389f": 1785216939.430927,
     "21f0e7f64f860e7da16c": 1785234946.7177348,
@@ -5485,6 +5500,7 @@
     "532660c48f405aa9e676": 1785146136.5939026,
     "533cb5c4f544e3e7e565": 1785254137.4633574,
     "5361065c9f58d1b8dc68": 1785176447.9994214,
+    "5367ca853a06e1b36fd6": 1785270045.8461843,
     "53b9a64609943d69d13f": 1785144935.1158633,
     "5409aa9cc0b6f22d3fcb": 1785146136.593906,
     "543ba9d0f2347c1de41c": 1785231337.5710142,
@@ -5569,6 +5585,7 @@
     "65e61ff6a046c792b4a1": 1785153329.5135016,
     "65fc752781dbc6ded858": 1785144935.1158617,
     "6639249af5a6b9cec055": 1785123413.0834882,
+    "66415450745f82d1eb8a": 1785270045.846194,
     "6673101cfcf3f5cc1247": 1785165043.8287714,
     "668418c821c271930ed3": 1785123413.0834668,
     "669cab215d082a1e5a61": 1785126940.821428,
@@ -6224,61 +6241,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785268540.556958
+      "ts": 1785270045.8461668
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785268540.5569594
+      "ts": 1785270045.8461683
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785268540.556962
+      "ts": 1785270045.8461714
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785268540.556966
+      "ts": 1785270045.8461761
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785268540.5569606
+      "ts": 1785270045.84617
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785268540.556951
+      "ts": 1785270045.8461583
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785268540.556956
+      "ts": 1785270045.8461647
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785268540.5569656
+      "ts": 1785270045.8461752
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785268540.5569634
+      "ts": 1785270045.8461728
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785268540.5569646
+      "ts": 1785270045.846174
     }
   }
 }
