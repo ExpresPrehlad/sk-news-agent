@@ -34,7 +34,7 @@ from src.config import (
     SYNTHESIS_WINDOW_HOURS,
     DiscordConfig,
 )
-from src.digest import synthesize, triage
+from src.digest import TRIAGE_POLICY_VERSION, synthesize, triage
 from src.llm.router import AllModelsFailed
 from src.notify.discord import (
     send_alerts,
@@ -100,6 +100,15 @@ def _run_triage(
         alerts, model, decision_valid = triage(new_articles, known_context)
     except AllModelsFailed as exc:
         log.error("Triáž: celá LLM reťaz zlyhala: %s", exc)
+        selection_log.record_triage(
+            articles=new_articles,
+            context_count=len(known_context),
+            alerts=[],
+            model="all-models-failed",
+            published=False,
+            decision_valid=False,
+            policy_version=TRIAGE_POLICY_VERSION,
+        )
         _report_llm_outage(state, discord, "triáž", str(exc))
         return "❌ LLM reťaz zlyhala (všetky modely)"
     published = send_alerts(discord.alerts_url, alerts, model)
@@ -110,6 +119,7 @@ def _run_triage(
         model=model,
         published=published,
         decision_valid=decision_valid,
+        policy_version=TRIAGE_POLICY_VERSION,
     )
     if not decision_valid:
         return f"⚠️ neparsovateľný výstup — `{model}`"

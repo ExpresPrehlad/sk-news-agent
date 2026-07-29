@@ -1,8 +1,10 @@
 """
 Dlhodobý audit rozhodnutí LLM.
 
-Každá úspešne parsovaná triáž a syntéza pridá jeden samostatný JSON objekt
-na riadok do mesačného súboru ``data/selection_logs/YYYY-MM.jsonl``.
+Každá triáž a úspešne parsovaná syntéza pridá jeden samostatný JSON objekt
+na riadok do mesačného súboru ``data/selection_logs/YYYY-MM.jsonl``. Triáž
+od schémy v2 uchováva aj vstupných kandidátov a redakčné rozhodovacie signály,
+aby sa dali spätne hľadať falošné alerty aj prehliadnuté dôležité témy.
 Log je oddelený od krátkodobého prevádzkového state.json a nikdy sa neprerezáva.
 
 Zlyhanie auditného zápisu nesmie ovplyvniť zber, Discord ani uloženie stavu.
@@ -19,7 +21,7 @@ from uuid import uuid4
 
 log = logging.getLogger(__name__)
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 
 class SelectionLog:
@@ -40,14 +42,25 @@ class SelectionLog:
         model: str,
         published: bool,
         decision_valid: bool,
+        policy_version: str,
     ) -> bool:
         selected = [
             {
                 "title": alert.title,
                 "reason": alert.reason,
                 "links": list(alert.links),
+                "signals": dict(alert.signals),
             }
             for alert in alerts
+        ]
+        candidates = [
+            {
+                "source": str(article.get("s", ""))[:100],
+                "title": str(article.get("t", ""))[:300],
+                "summary": str(article.get("p", ""))[:400],
+                "link": str(article.get("l", ""))[:1000],
+            }
+            for article in articles
         ]
         return self._append(
             event_type="triage",
@@ -55,6 +68,8 @@ class SelectionLog:
             input_data={
                 "article_count": len(articles),
                 "context_article_count": context_count,
+                "policy_version": policy_version,
+                "candidates": candidates,
             },
             selected=selected,
             published=published,

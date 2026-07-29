@@ -15,6 +15,17 @@ _OUTPUT_PATH = "docs/audit.html"
 _LOCAL_TZ = ZoneInfo(ACTIVE_HOURS_TZ)
 _MAX_EVENTS = 200
 
+_SIGNAL_LABELS = {
+    "direct_slovak_relevance": "priama väzba na SR",
+    "ongoing_danger": "trvajúce ohrozenie",
+    "public_impact": "verejný dosah",
+    "strategic_infrastructure": "strategická infraštruktúra",
+    "mass_casualty": "veľa obetí",
+    "terrorism": "terorizmus",
+    "public_transport": "verejná doprava",
+    "hazardous_materials": "nebezpečné látky",
+}
+
 
 def _fmt_datetime(ts: float) -> str:
     try:
@@ -29,7 +40,7 @@ def _fmt_datetime(ts: float) -> str:
 
 def _safe_link(url: str, label: str) -> str:
     parsed = urlparse(str(url))
-    if parsed.scheme not in {"http", "https"}:
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
         return ""
     return (
         f'<a href="{escape(str(url), quote=True)}" target="_blank" '
@@ -54,6 +65,19 @@ def _render_selected(event: dict) -> str:
             continue
         title = item.get("title") if event_type == "triage" else item.get("headline")
         detail = item.get("reason") if event_type == "triage" else item.get("perex")
+        signals = item.get("signals") if isinstance(item.get("signals"), dict) else {}
+        signal_items = []
+        if signals.get("geography"):
+            signal_items.append(str(signals["geography"]))
+        if signals.get("event_type"):
+            signal_items.append(str(signals["event_type"]))
+        signal_items.extend(
+            label for key, label in _SIGNAL_LABELS.items() if signals.get(key) is True
+        )
+        signals_html = "".join(
+            f'<span class="signal">{escape(label)}</span>'
+            for label in signal_items
+        )
         links = []
         for link in item.get("links") or []:
             if isinstance(link, dict):
@@ -68,10 +92,36 @@ def _render_selected(event: dict) -> str:
             '<div>'
             f'<h3>{escape(str(title or "Bez názvu"))}</h3>'
             f'<p>{escape(str(detail or ""))}</p>'
+            f'<div class="signals">{signals_html}</div>'
             f'<div class="links">{"".join(links)}</div>'
             "</div></li>"
         )
     return '<ol class="selections">' + "".join(rows) + "</ol>"
+
+
+def _render_candidates(event: dict) -> str:
+    if event.get("event_type") != "triage":
+        return ""
+    input_data = event.get("input") if isinstance(event.get("input"), dict) else {}
+    candidates = input_data.get("candidates")
+    if not isinstance(candidates, list) or not candidates:
+        return ""
+    rows = []
+    for candidate in candidates[:40]:
+        if not isinstance(candidate, dict):
+            continue
+        source = escape(str(candidate.get("source") or "zdroj"))
+        title = escape(str(candidate.get("title") or "Bez názvu"))
+        url = candidate.get("link", "")
+        rendered = _safe_link(url, str(candidate.get("title") or "Bez názvu"))
+        title_html = rendered if rendered else title
+        rows.append(f"<li><span>{source}</span>{title_html}</li>")
+    return (
+        '<details class="candidates">'
+        f"<summary>Vstupné kandidáty ({len(candidates)}) — kontrola "
+        "možných prehliadnutí</summary>"
+        f'<ul>{"".join(rows)}</ul></details>'
+    )
 
 
 def _render_event(event: dict) -> str:
@@ -94,6 +144,8 @@ def _render_event(event: dict) -> str:
     )
     input_data = event.get("input") if isinstance(event.get("input"), dict) else {}
     input_count = int(input_data.get("article_count", 0) or 0)
+    policy_version = escape(str(input_data.get("policy_version") or ""))
+    policy_html = f" · politika {policy_version}" if policy_version else ""
     revision_html = f" · rev. {revision}" if revision else ""
     return (
         f'<article class="event {css_type}" data-type="{css_type}">'
@@ -103,9 +155,11 @@ def _render_event(event: dict) -> str:
         f'<time>{_fmt_datetime(event.get("recorded_ts", 0))}</time>'
         "</div>"
         f'<div class="meta">{model} · vstup {input_count} článkov · beh {run_id}'
-        f'{revision_html} · <span class="{publish_class}">{publish_label}</span>'
+        f'{revision_html}{policy_html} · '
+        f'<span class="{publish_class}">{publish_label}</span>'
         f"{decision_html}</div>"
         f"{_render_selected(event)}"
+        f"{_render_candidates(event)}"
         "</article>"
     )
 
@@ -169,7 +223,18 @@ button.active {{ color:var(--ink); background:var(--amber); border-color:var(--a
 .rank {{ color:var(--amber); font-family:"IBM Plex Mono",monospace; font-weight:700; }}
 .selection h3 {{ font-size:15px; margin:0 0 3px; }}
 .selection p {{ color:#C9C7C1; font-size:13px; margin:0 0 5px; }}
+.signals {{ display:flex; gap:5px; flex-wrap:wrap; margin:0 0 6px; }}
+.signal {{ color:#B8C9D9; background:#25313D; border:1px solid #34475A;
+  border-radius:999px; padding:1px 6px; font:10px "IBM Plex Mono",monospace; }}
 .links a {{ font-family:"IBM Plex Mono",monospace; font-size:11px; margin-right:12px; }}
+.candidates {{ border-top:1px solid var(--rule); margin-top:8px; padding-top:8px; }}
+.candidates summary {{ color:var(--muted); cursor:pointer;
+  font:11px "IBM Plex Mono",monospace; }}
+.candidates ul {{ list-style:none; margin:8px 0 0; padding:0; }}
+.candidates li {{ display:grid; grid-template-columns:110px 1fr; gap:8px;
+  padding:3px 0; font-size:11.5px; }}
+.candidates li span {{ color:var(--muted); }}
+.candidates li a {{ color:#C9C7C1; }}
 .empty-selection, .empty {{ color:var(--muted); font-style:italic; font-size:13px; }}
 .empty-selection {{ border-top:1px solid var(--rule); padding-top:10px; }}
 @media (max-width:600px) {{ .event-head time {{ width:100%; margin-left:0; }} }}
@@ -183,7 +248,8 @@ button.active {{ color:var(--ink); background:var(--amber); border-color:var(--a
 <main>
   <h1>História výberov</h1>
   <p class="intro">Audit rozhodnutí modelov: čo bolo v jednotlivých behoch
-  označené ako mimoriadne a ktoré témy sa dostali do prehľadu.</p>
+  označené ako mimoriadne a ktoré témy sa dostali do prehľadu. Pri triáži
+  možno rozbaliť aj všetky vstupné kandidáty a skontrolovať možné prehliadnutia.</p>
   <div class="filters" aria-label="Filtrovanie záznamov">
     <button class="active" data-filter="all">Všetko</button>
     <button data-filter="triage">Mimoriadne</button>

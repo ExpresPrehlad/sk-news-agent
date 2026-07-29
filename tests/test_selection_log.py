@@ -20,11 +20,16 @@ class SelectionLogTests(unittest.TestCase):
                         title="Mimoriadna téma",
                         reason="Dôvod výberu",
                         links=["https://example.com/alert"],
+                        signals={
+                            "geography": "slovakia",
+                            "public_impact": True,
+                        },
                     )
                 ],
                 model="test-model",
                 published=True,
                 decision_valid=True,
+                policy_version="test-v2",
             )
             audit.record_synthesis(
                 articles=[{"t": "Článok"}],
@@ -52,6 +57,15 @@ class SelectionLogTests(unittest.TestCase):
                 ["triage", "synthesis"],
             )
             self.assertEqual(records[0]["selected"][0]["reason"], "Dôvod výberu")
+            self.assertEqual(
+                records[0]["selected"][0]["signals"]["geography"],
+                "slovakia",
+            )
+            self.assertEqual(
+                records[0]["input"]["candidates"][0]["title"],
+                "Článok",
+            )
+            self.assertEqual(records[0]["input"]["policy_version"], "test-v2")
             self.assertTrue(records[1]["input"]["forced"])
             self.assertFalse(records[1]["published"])
             self.assertEqual(records[0]["run_id"], records[1]["run_id"])
@@ -73,6 +87,7 @@ class SelectionLogTests(unittest.TestCase):
                     model="test-model",
                     published=True,
                     decision_valid=True,
+                    policy_version="test-v2",
                 )
             )
             record = read_recent_events(directory, limit=1)[0]
@@ -100,6 +115,44 @@ class SelectionLogTests(unittest.TestCase):
         self.assertNotIn("<script>alert(1)</script>", html)
         self.assertIn("&lt;script&gt;alert(1)&lt;/script&gt;", html)
         self.assertNotIn('href="javascript:', html)
+
+    def test_audit_page_shows_policy_signals_and_input_candidates(self):
+        event = {
+            "recorded_ts": 1_700_000_000,
+            "run_id": "abcdefgh",
+            "event_type": "triage",
+            "model": "test-model",
+            "input": {
+                "article_count": 1,
+                "policy_version": "test-v2",
+                "candidates": [
+                    {
+                        "source": "Zdroj",
+                        "title": "Nevybratý kandidát",
+                        "link": "https://example.com/kandidat",
+                    }
+                ],
+            },
+            "selection_count": 1,
+            "selected": [
+                {
+                    "title": "Alert",
+                    "reason": "Dôvod",
+                    "links": [],
+                    "signals": {
+                        "geography": "slovakia",
+                        "event_type": "industrial",
+                        "public_impact": True,
+                    },
+                }
+            ],
+            "published": True,
+        }
+        html = build_audit_html([event])
+        self.assertIn("politika test-v2", html)
+        self.assertIn("verejný dosah", html)
+        self.assertIn("Nevybratý kandidát", html)
+        self.assertIn("kontrola možných prehliadnutí", html)
 
 
 if __name__ == "__main__":
