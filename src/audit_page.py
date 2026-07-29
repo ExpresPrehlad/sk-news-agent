@@ -15,27 +15,18 @@ _OUTPUT_PATH = "docs/audit.html"
 _LOCAL_TZ = ZoneInfo(ACTIVE_HOURS_TZ)
 _MAX_EVENTS = 200
 
-_SIGNAL_LABELS = {
-    "direct_slovak_relevance": "priama väzba na SR",
-    "ongoing_danger": "trvajúce ohrozenie",
-    "public_impact": "verejný dosah",
-    "strategic_infrastructure": "strategická infraštruktúra",
-    "mass_casualty": "veľa obetí",
-    "terrorism": "terorizmus",
-    "public_transport": "verejná doprava",
-    "hazardous_materials": "nebezpečné látky",
-}
-
-
-def _fmt_datetime(ts: float) -> str:
+def _fmt_datetime_parts(ts: float) -> tuple[str, str, str]:
     try:
+        value = datetime.fromtimestamp(
+            float(ts), tz=timezone.utc
+        ).astimezone(_LOCAL_TZ)
         return (
-            datetime.fromtimestamp(float(ts), tz=timezone.utc)
-            .astimezone(_LOCAL_TZ)
-            .strftime("%H:%M · %d.%m.%Y")
+            value.strftime("%d.%m.%Y"),
+            value.strftime("%H:%M:%S"),
+            value.isoformat(),
         )
     except (TypeError, ValueError, OSError):
-        return "neznámy čas"
+        return ("—", "—", "")
 
 
 def _safe_link(url: str, label: str) -> str:
@@ -48,128 +39,64 @@ def _safe_link(url: str, label: str) -> str:
     )
 
 
-def _render_selected(event: dict) -> str:
+def _render_source_links(item: dict) -> str:
+    links = []
+    for link in item.get("links") or []:
+        if isinstance(link, dict):
+            rendered = _safe_link(link.get("url", ""), link.get("source", "zdroj"))
+        else:
+            rendered = _safe_link(str(link), "zdroj")
+        if rendered:
+            links.append(rendered)
+    return '<span class="source-separator"> · </span>'.join(links) or "—"
+
+
+def _render_event_rows(event: dict) -> str:
     event_type = event.get("event_type")
     selected = event.get("selected")
-    if event.get("decision_valid") is False:
-        return (
-            '<div class="empty-selection invalid">'
-            "Výstup modelu sa nepodarilo spracovať.</div>"
-        )
     if not isinstance(selected, list) or not selected:
-        return '<div class="empty-selection">Model nevybral nič.</div>'
+        return ""
 
     rows = []
-    for index, item in enumerate(selected, start=1):
+    date_label, time_label, datetime_value = _fmt_datetime_parts(
+        event.get("recorded_ts", 0)
+    )
+    is_triage = event_type == "triage"
+    type_label = "Mimoriadne" if is_triage else "Top téma"
+    css_type = "triage" if is_triage else "synthesis"
+    published = bool(event.get("published"))
+    status_label = "Publikované" if published else "Nepublikované"
+    status_class = "published" if published else "unpublished"
+    for item in selected:
         if not isinstance(item, dict):
             continue
-        title = item.get("title") if event_type == "triage" else item.get("headline")
-        detail = item.get("reason") if event_type == "triage" else item.get("perex")
-        signals = item.get("signals") if isinstance(item.get("signals"), dict) else {}
-        signal_items = []
-        if signals.get("geography"):
-            signal_items.append(str(signals["geography"]))
-        if signals.get("event_type"):
-            signal_items.append(str(signals["event_type"]))
-        signal_items.extend(
-            label for key, label in _SIGNAL_LABELS.items() if signals.get(key) is True
-        )
-        signals_html = "".join(
-            f'<span class="signal">{escape(label)}</span>'
-            for label in signal_items
-        )
-        links = []
-        for link in item.get("links") or []:
-            if isinstance(link, dict):
-                rendered = _safe_link(link.get("url", ""), link.get("source", "zdroj"))
-            else:
-                rendered = _safe_link(str(link), "zdroj")
-            if rendered:
-                links.append(rendered)
+        title = item.get("title") if is_triage else item.get("headline")
+        detail = item.get("reason") if is_triage else item.get("perex")
+        source_links = _render_source_links(item)
         rows.append(
-            '<li class="selection">'
-            f'<span class="rank">{index:02d}</span>'
-            '<div>'
-            f'<h3>{escape(str(title or "Bez názvu"))}</h3>'
-            f'<p>{escape(str(detail or ""))}</p>'
-            f'<div class="signals">{signals_html}</div>'
-            f'<div class="links">{"".join(links)}</div>'
-            "</div></li>"
+            f'<tr class="archive-row {css_type}" data-type="{css_type}">'
+            f'<td class="date-cell">{escape(date_label)}</td>'
+            f'<td class="time-cell"><time datetime="{escape(datetime_value, quote=True)}">'
+            f"{escape(time_label)}</time></td>"
+            f'<td><span class="type-label">{type_label}</span></td>'
+            f'<td class="title-cell">{escape(str(title or "Bez názvu"))}</td>'
+            f'<td class="detail-cell">{escape(str(detail or ""))}</td>'
+            f'<td class="sources-cell">{source_links}</td>'
+            f'<td><span class="status {status_class}">{status_label}</span></td>'
+            "</tr>"
         )
-    return '<ol class="selections">' + "".join(rows) + "</ol>"
-
-
-def _render_candidates(event: dict) -> str:
-    if event.get("event_type") != "triage":
-        return ""
-    input_data = event.get("input") if isinstance(event.get("input"), dict) else {}
-    candidates = input_data.get("candidates")
-    if not isinstance(candidates, list) or not candidates:
-        return ""
-    rows = []
-    for candidate in candidates[:40]:
-        if not isinstance(candidate, dict):
-            continue
-        source = escape(str(candidate.get("source") or "zdroj"))
-        title = escape(str(candidate.get("title") or "Bez názvu"))
-        url = candidate.get("link", "")
-        rendered = _safe_link(url, str(candidate.get("title") or "Bez názvu"))
-        title_html = rendered if rendered else title
-        rows.append(f"<li><span>{source}</span>{title_html}</li>")
-    return (
-        '<details class="candidates">'
-        f"<summary>Vstupné kandidáty ({len(candidates)}) — kontrola "
-        "možných prehliadnutí</summary>"
-        f'<ul>{"".join(rows)}</ul></details>'
-    )
-
-
-def _render_event(event: dict) -> str:
-    event_type = event.get("event_type", "")
-    is_triage = event_type == "triage"
-    label = "Mimoriadne" if is_triage else "TOP témy"
-    css_type = "triage" if is_triage else "synthesis"
-    count = int(event.get("selection_count", 0) or 0)
-    model = escape(str(event.get("model") or "neznámy model"))
-    run_id = escape(str(event.get("run_id") or "")[:8])
-    revision = escape(str(event.get("code_revision") or "")[:7])
-    published = event.get("published")
-    publish_label = "publikované" if published else "nepublikované"
-    publish_class = "ok" if published else "fail"
-    decision_valid = event.get("decision_valid", True)
-    decision_html = (
-        ' · <span class="fail">neparsovateľný výstup</span>'
-        if not decision_valid
-        else ""
-    )
-    input_data = event.get("input") if isinstance(event.get("input"), dict) else {}
-    input_count = int(input_data.get("article_count", 0) or 0)
-    policy_version = escape(str(input_data.get("policy_version") or ""))
-    policy_html = f" · politika {policy_version}" if policy_version else ""
-    revision_html = f" · rev. {revision}" if revision else ""
-    return (
-        f'<article class="event {css_type}" data-type="{css_type}">'
-        '<div class="event-head">'
-        f'<span class="badge">{label}</span>'
-        f'<strong>{count} vybraných</strong>'
-        f'<time>{_fmt_datetime(event.get("recorded_ts", 0))}</time>'
-        "</div>"
-        f'<div class="meta">{model} · vstup {input_count} článkov · beh {run_id}'
-        f'{revision_html}{policy_html} · '
-        f'<span class="{publish_class}">{publish_label}</span>'
-        f"{decision_html}</div>"
-        f"{_render_selected(event)}"
-        f"{_render_candidates(event)}"
-        "</article>"
-    )
+    return "".join(rows)
 
 
 def build_audit_html(events: list[dict]) -> str:
-    cards = "".join(_render_event(event) for event in events)
-    if not cards:
-        cards = (
-            '<div class="empty">Audit je zatiaľ prázdny. Prvý záznam pribudne '
-            "po najbližšej úspešnej triáži alebo syntéze.</div>"
+    rows = "".join(_render_event_rows(event) for event in events)
+    row_count = rows.count('class="archive-row')
+    triage_count = rows.count('data-type="triage"')
+    synthesis_count = rows.count('data-type="synthesis"')
+    if not rows:
+        rows = (
+            '<tr class="empty-row"><td colspan="7">Archív je zatiaľ prázdny. '
+            "Prvý záznam pribudne po najbližšom výbere.</td></tr>"
         )
     generated = datetime.now(timezone.utc).astimezone(_LOCAL_TZ).strftime(
         "%H:%M:%S · %d.%m.%Y"
@@ -181,94 +108,257 @@ def build_audit_html(events: list[dict]) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
 <title>SK News Agent — História výberov</title>
 <style>
 :root {{
-  --ink:#15171C; --panel:#1E2128; --text:#E8E6E1; --muted:#8A8F98;
-  --amber:#E8A33D; --red:#C6432E; --blue:#5B91C7; --rule:#33373F;
+  --canvas:#FAF9F6; --surface:#FFFFFF; --text:#102033; --navy:#0B1F33;
+  --muted:#64748B; --blue:#2563EB; --blue-soft:#EAF1FF;
+  --red:#D7263D; --red-soft:#FFF1F3; --rule:#DCE2E8; --rule-strong:#C8D0D9;
+  --green:#277443; --green-soft:#EDF8F1;
 }}
 * {{ box-sizing:border-box; }}
-body {{ margin:0; background:var(--ink); color:var(--text);
-  font-family:"IBM Plex Sans",-apple-system,sans-serif; line-height:1.5; }}
-a {{ color:var(--amber); text-decoration:none; }}
+body {{ margin:0; background:var(--canvas); color:var(--text);
+  font-family:"IBM Plex Sans",-apple-system,sans-serif; line-height:1.45;
+  -webkit-font-smoothing:antialiased; }}
+a {{ color:var(--blue); text-decoration:none; }}
 a:hover, a:focus-visible {{ text-decoration:underline; }}
-header {{ padding:24px; border-bottom:1px solid var(--amber); }}
-.bar {{ max-width:1000px; margin:0 auto; display:flex; justify-content:space-between;
-  align-items:baseline; flex-wrap:wrap; gap:10px; }}
-.masthead, .meta, time, button {{ font-family:"IBM Plex Mono",monospace; }}
-.masthead {{ color:var(--amber); font-size:13px; letter-spacing:.12em;
-  text-transform:uppercase; }}
-.updated {{ color:var(--muted); font-size:12px; }}
-main {{ max-width:1000px; margin:0 auto; padding:28px 24px 60px; }}
-h1 {{ font-size:25px; margin:0 0 6px; }}
-.intro {{ color:var(--muted); margin:0 0 18px; max-width:760px; }}
-.filters {{ display:flex; gap:8px; margin-bottom:24px; flex-wrap:wrap; }}
-button {{ cursor:pointer; color:var(--text); background:var(--panel);
-  border:1px solid var(--rule); border-radius:4px; padding:7px 11px; }}
-button.active {{ color:var(--ink); background:var(--amber); border-color:var(--amber); }}
-.event {{ background:var(--panel); border:1px solid var(--rule); border-left:3px solid var(--blue);
-  border-radius:6px; margin-bottom:14px; padding:16px 18px; }}
-.event.triage {{ border-left-color:var(--red); }}
-.event-head {{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }}
-.event-head time {{ color:var(--muted); font-size:12px; margin-left:auto; }}
-.badge {{ font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.08em;
-  text-transform:uppercase; color:var(--blue); }}
-.triage .badge {{ color:var(--red); }}
-.meta {{ color:var(--muted); font-size:11px; margin:5px 0 10px; }}
-.ok {{ color:#7FB08A; }} .fail {{ color:var(--red); }}
-.selections {{ list-style:none; margin:0; padding:0; }}
-.selection {{ display:grid; grid-template-columns:32px 1fr; gap:10px;
-  padding:11px 0; border-top:1px solid var(--rule); }}
-.rank {{ color:var(--amber); font-family:"IBM Plex Mono",monospace; font-weight:700; }}
-.selection h3 {{ font-size:15px; margin:0 0 3px; }}
-.selection p {{ color:#C9C7C1; font-size:13px; margin:0 0 5px; }}
-.signals {{ display:flex; gap:5px; flex-wrap:wrap; margin:0 0 6px; }}
-.signal {{ color:#B8C9D9; background:#25313D; border:1px solid #34475A;
-  border-radius:999px; padding:1px 6px; font:10px "IBM Plex Mono",monospace; }}
-.links a {{ font-family:"IBM Plex Mono",monospace; font-size:11px; margin-right:12px; }}
-.candidates {{ border-top:1px solid var(--rule); margin-top:8px; padding-top:8px; }}
-.candidates summary {{ color:var(--muted); cursor:pointer;
-  font:11px "IBM Plex Mono",monospace; }}
-.candidates ul {{ list-style:none; margin:8px 0 0; padding:0; }}
-.candidates li {{ display:grid; grid-template-columns:110px 1fr; gap:8px;
-  padding:3px 0; font-size:11.5px; }}
-.candidates li span {{ color:var(--muted); }}
-.candidates li a {{ color:#C9C7C1; }}
-.empty-selection, .empty {{ color:var(--muted); font-style:italic; font-size:13px; }}
-.empty-selection {{ border-top:1px solid var(--rule); padding-top:10px; }}
-@media (max-width:600px) {{ .event-head time {{ width:100%; margin-left:0; }} }}
+button:focus-visible, a:focus-visible {{
+  outline:3px solid rgba(37,99,235,.28); outline-offset:3px;
+}}
+.site-header {{ background:var(--navy); color:#FFFFFF; }}
+.header-inner {{
+  max-width:1380px; min-height:64px; margin:0 auto; padding:0 30px;
+  display:grid; grid-template-columns:auto minmax(0,1fr) auto;
+  align-items:center; gap:38px;
+}}
+.masthead {{
+  color:#FFFFFF; font:700 23px "Newsreader",Georgia,serif;
+  letter-spacing:-.025em; white-space:nowrap;
+}}
+.masthead b {{
+  color:#9EC1FF; margin-left:8px; padding-left:10px;
+  border-left:1px solid rgba(255,255,255,.28);
+  font:500 13px "IBM Plex Sans",sans-serif; letter-spacing:.02em;
+  text-transform:uppercase;
+}}
+nav {{ display:flex; gap:6px; }}
+nav a {{
+  display:inline-flex; align-items:center; min-height:64px; padding:0 13px;
+  color:#D7E2EC; font-size:13px; border-bottom:3px solid transparent;
+}}
+nav a:hover, nav a:focus-visible {{
+  color:#FFFFFF; border-bottom-color:#78A7FF; text-decoration:none;
+}}
+nav a.active {{ color:#FFFFFF; border-bottom-color:#78A7FF; }}
+.updated {{ color:#AFC0D2; font:10.5px "IBM Plex Mono",monospace; white-space:nowrap; }}
+main {{ max-width:1380px; margin:0 auto; padding:30px 30px 60px; }}
+.page-head {{
+  display:flex; justify-content:space-between; align-items:flex-end;
+  gap:24px; margin-bottom:18px;
+}}
+.eyebrow {{
+  color:var(--blue); font:700 10px "IBM Plex Mono",monospace;
+  letter-spacing:.14em; text-transform:uppercase;
+}}
+h1 {{
+  font:700 34px "Newsreader",Georgia,serif; letter-spacing:-.025em;
+  margin:2px 0 3px;
+}}
+.intro {{ color:var(--muted); margin:0; max-width:760px; font-size:13.5px; }}
+.archive-count {{ color:var(--muted); font:11px "IBM Plex Mono",monospace; }}
+.toolbar {{
+  display:flex; justify-content:space-between; align-items:center; gap:16px;
+  flex-wrap:wrap; margin-bottom:14px;
+}}
+.filters {{ display:flex; gap:7px; flex-wrap:wrap; }}
+button {{
+  cursor:pointer; border:1px solid var(--rule-strong); background:var(--surface);
+  color:var(--muted); font:500 12px "IBM Plex Sans",sans-serif;
+}}
+.filters button {{
+  min-height:34px; padding:6px 12px; border-radius:999px;
+}}
+.filters button span {{ color:#8A98A8; margin-left:4px; font-size:10px; }}
+.filters button:hover {{ color:var(--blue); border-color:#AFC6F5; }}
+.filters button.active {{ color:#FFFFFF; background:var(--blue); border-color:var(--blue); }}
+.filters button.active span {{ color:#DCE8FF; }}
+.copy-button {{
+  min-height:36px; padding:7px 12px; border-radius:3px; color:var(--blue);
+}}
+.copy-button:hover {{ background:var(--blue-soft); border-color:#AFC6F5; }}
+.copy-button.copied {{ color:var(--green); background:var(--green-soft); border-color:#A9D6B8; }}
+.table-hint {{ display:none; color:var(--muted); font-size:11.5px; margin:0 0 7px; }}
+.table-wrap {{
+  overflow:auto; background:var(--surface); border:1px solid var(--rule-strong);
+}}
+table {{
+  width:100%; min-width:1120px; border-collapse:collapse; table-layout:fixed;
+  font-size:12.5px;
+}}
+col.date {{ width:92px; }} col.time {{ width:78px; }} col.type {{ width:112px; }}
+col.title {{ width:25%; }} col.detail {{ width:33%; }} col.sources {{ width:125px; }}
+col.status {{ width:108px; }}
+thead {{ position:sticky; top:0; z-index:1; }}
+th {{
+  padding:10px 12px; background:var(--navy); color:#DCE6EF;
+  border-right:1px solid #29435A; text-align:left;
+  font:600 10.5px "IBM Plex Sans",sans-serif; letter-spacing:.06em;
+  text-transform:uppercase;
+}}
+th:last-child {{ border-right:0; }}
+td {{
+  padding:10px 12px; border-bottom:1px solid var(--rule);
+  vertical-align:top; overflow-wrap:anywhere;
+}}
+tbody tr:hover {{ background:#F7F9FC; }}
+.archive-row[hidden] {{ display:none; }}
+.date-cell, .time-cell {{
+  color:var(--muted); font:11px "IBM Plex Mono",monospace; white-space:nowrap;
+}}
+.type-label {{
+  color:var(--blue); font-size:11px; font-weight:700; white-space:nowrap;
+}}
+.triage .type-label {{ color:var(--red); }}
+.title-cell {{ color:var(--text); font-weight:600; }}
+.detail-cell {{ color:#526274; }}
+.sources-cell a {{ font:500 11px "IBM Plex Mono",monospace; white-space:nowrap; }}
+.source-separator {{ color:var(--rule-strong); }}
+.status {{
+  display:inline-block; padding:2px 7px; border-radius:999px;
+  font-size:10px; font-weight:600; white-space:nowrap;
+}}
+.published {{ color:var(--green); background:var(--green-soft); }}
+.unpublished {{ color:var(--muted); background:#EEF1F4; }}
+.empty-row td {{ padding:30px; color:var(--muted); text-align:center; font-style:italic; }}
+.no-results {{ padding:24px; color:var(--muted); text-align:center; font-size:13px; }}
+@media (max-width:900px) {{
+  .header-inner {{ grid-template-columns:auto 1fr; gap:20px; }}
+  .updated {{ display:none; }}
+  nav {{ justify-self:end; }}
+}}
+@media (max-width:680px) {{
+  .header-inner {{ min-height:0; padding:13px 17px 0; display:block; }}
+  .masthead {{ font-size:20px; }}
+  nav {{ margin-top:7px; overflow-x:auto; }}
+  nav a {{ min-height:42px; padding:0 8px; font-size:12px; white-space:nowrap; }}
+  main {{ padding:22px 14px 40px; }}
+  .page-head {{ display:block; }}
+  h1 {{ font-size:30px; }}
+  .archive-count {{ display:block; margin-top:8px; }}
+  .copy-button {{ width:100%; }}
+  .table-hint {{ display:block; }}
+  .table-wrap {{ margin-left:-14px; margin-right:-14px; border-left:0; border-right:0; }}
+}}
 </style>
 </head>
 <body>
-<header><div class="bar">
-  <div class="masthead"><a href="index.html">SK News Agent · Wire</a> / História výberov</div>
-  <div class="updated">Vygenerované {generated}</div>
+<header class="site-header"><div class="header-inner">
+  <div class="masthead">SK News Agent <b>Prehľad</b></div>
+  <nav aria-label="Hlavná navigácia">
+    <a href="index.html#top-temy">Prehľad</a>
+    <a href="index.html#media-radar">Media Radar</a>
+    <a class="active" href="audit.html" aria-current="page">História výberov</a>
+  </nav>
+  <div class="updated">Aktualizované {generated}</div>
 </div></header>
 <main>
-  <h1>História výberov</h1>
-  <p class="intro">Audit rozhodnutí modelov: čo bolo v jednotlivých behoch
-  označené ako mimoriadne a ktoré témy sa dostali do prehľadu. Pri triáži
-  možno rozbaliť aj všetky vstupné kandidáty a skontrolovať možné prehliadnutia.</p>
-  <div class="filters" aria-label="Filtrovanie záznamov">
-    <button class="active" data-filter="all">Všetko</button>
-    <button data-filter="triage">Mimoriadne</button>
-    <button data-filter="synthesis">TOP témy</button>
+  <div class="page-head">
+    <div>
+      <div class="eyebrow">Archív redakčných výberov</div>
+      <h1>História výberov</h1>
+      <p class="intro">Jednoduchý chronologický zoznam tém vybraných agentom.
+      Čas označuje moment, keď systém výber zaznamenal.</p>
+    </div>
+    <span class="archive-count"><span id="visible-count">{row_count}</span> záznamov</span>
   </div>
-  <div id="events">{cards}</div>
+  <div class="toolbar">
+    <div class="filters" aria-label="Filtrovanie záznamov">
+      <button class="active" type="button" data-filter="all" aria-pressed="true">
+        Všetko <span>{row_count}</span></button>
+      <button type="button" data-filter="triage" aria-pressed="false">
+        Mimoriadne <span>{triage_count}</span></button>
+      <button type="button" data-filter="synthesis" aria-pressed="false">
+        Top témy <span>{synthesis_count}</span></button>
+    </div>
+    <button class="copy-button" type="button">Kopírovať zobrazené do Excelu</button>
+  </div>
+  <p class="table-hint">Potiahnutím tabuľky doľava zobrazíte ďalšie stĺpce.</p>
+  <div class="table-wrap">
+    <table id="archive-table">
+      <colgroup>
+        <col class="date"><col class="time"><col class="type"><col class="title">
+        <col class="detail"><col class="sources"><col class="status">
+      </colgroup>
+      <thead><tr>
+        <th>Dátum</th><th>Čas</th><th>Kategória</th><th>Téma</th>
+        <th>Popis / dôvod výberu</th><th>Zdroje</th><th>Stav</th>
+      </tr></thead>
+      <tbody>{rows}</tbody>
+    </table>
+  </div>
+  <div class="no-results" hidden>V tejto kategórii nie sú žiadne záznamy.</div>
 </main>
 <script>
 (function () {{
-  var buttons = document.querySelectorAll('[data-filter]');
-  var events = document.querySelectorAll('.event');
+  var buttons = Array.prototype.slice.call(document.querySelectorAll('[data-filter]'));
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.archive-row'));
+  var visibleCount = document.getElementById('visible-count');
+  var noResults = document.querySelector('.no-results');
+  var copyButton = document.querySelector('.copy-button');
+
   buttons.forEach(function (button) {{
     button.addEventListener('click', function () {{
       var filter = button.getAttribute('data-filter');
-      buttons.forEach(function (item) {{ item.classList.remove('active'); }});
-      button.classList.add('active');
-      events.forEach(function (event) {{
-        event.hidden = filter !== 'all' && event.getAttribute('data-type') !== filter;
+      buttons.forEach(function (item) {{
+        var active = item === button;
+        item.classList.toggle('active', active);
+        item.setAttribute('aria-pressed', active ? 'true' : 'false');
       }});
+      var shown = 0;
+      rows.forEach(function (row) {{
+        row.hidden = filter !== 'all' && row.getAttribute('data-type') !== filter;
+        if (!row.hidden) shown += 1;
+      }});
+      visibleCount.textContent = String(shown);
+      noResults.hidden = shown > 0;
+    }});
+  }});
+
+  function copyText(value) {{
+    if (navigator.clipboard && navigator.clipboard.writeText) {{
+      return navigator.clipboard.writeText(value);
+    }}
+    var area = document.createElement('textarea');
+    area.value = value;
+    area.style.position = 'fixed';
+    area.style.opacity = '0';
+    document.body.appendChild(area);
+    area.select();
+    document.execCommand('copy');
+    area.remove();
+    return Promise.resolve();
+  }}
+
+  copyButton.addEventListener('click', function () {{
+    var headers = Array.prototype.map.call(
+      document.querySelectorAll('#archive-table th'),
+      function (cell) {{ return cell.innerText.trim(); }}
+    );
+    var visibleRows = rows.filter(function (row) {{ return !row.hidden; }});
+    var lines = [headers].concat(visibleRows.map(function (row) {{
+      return Array.prototype.map.call(row.cells, function (cell) {{
+        return cell.innerText.replace(/\\s+/g, ' ').trim();
+      }});
+    }}));
+    var tsv = lines.map(function (line) {{ return line.join('\\t'); }}).join('\\n');
+    copyText(tsv).then(function () {{
+      copyButton.textContent = 'Skopírované';
+      copyButton.classList.add('copied');
+      window.setTimeout(function () {{
+        copyButton.textContent = 'Kopírovať zobrazené do Excelu';
+        copyButton.classList.remove('copied');
+      }}, 1800);
     }});
   }});
 }})();

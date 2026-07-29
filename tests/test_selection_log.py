@@ -116,7 +116,7 @@ class SelectionLogTests(unittest.TestCase):
         self.assertIn("&lt;script&gt;alert(1)&lt;/script&gt;", html)
         self.assertNotIn('href="javascript:', html)
 
-    def test_audit_page_shows_policy_signals_and_input_candidates(self):
+    def test_audit_page_renders_simple_filterable_archive_table(self):
         event = {
             "recorded_ts": 1_700_000_000,
             "run_id": "abcdefgh",
@@ -149,10 +149,16 @@ class SelectionLogTests(unittest.TestCase):
             "published": True,
         }
         html = build_audit_html([event])
-        self.assertIn("politika test-v2", html)
-        self.assertIn("verejný dosah", html)
-        self.assertIn("Nevybratý kandidát", html)
-        self.assertIn("kontrola možných prehliadnutí", html)
+        self.assertIn('id="archive-table"', html)
+        self.assertIn('data-filter="triage"', html)
+        self.assertIn('data-filter="synthesis"', html)
+        self.assertIn('data-type="triage"', html)
+        self.assertIn("Mimoriadne", html)
+        self.assertIn("Alert", html)
+        self.assertIn("Dôvod", html)
+        self.assertIn("Kopírovať zobrazené do Excelu", html)
+        self.assertNotIn("Nevybratý kandidát", html)
+        self.assertNotIn("politika test-v2", html)
 
 
 if __name__ == "__main__":
