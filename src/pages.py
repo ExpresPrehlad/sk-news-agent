@@ -13,6 +13,7 @@ dáta z externých RSS/sitemap zdrojov, nie dôveryhodný vstup.
 
 from __future__ import annotations
 
+import json
 import os
 from datetime import datetime, timezone
 from html import escape
@@ -22,8 +23,10 @@ from zoneinfo import ZoneInfo
 from .config import ACTIVE_HOURS_TZ
 
 _OUTPUT_PATH = "docs/index.html"
+_VERSION_PATH = "docs/version.json"
 
-_REFRESH_SECONDS = 180  # auto-reload — stránka sa dá nechať otvorenú v redakcii
+_REFRESH_SECONDS = 600  # záložný reload; nový obsah zachytí ľahší version polling
+_UPDATE_CHECK_MS = 60_000
 _LOCAL_TZ = ZoneInfo(ACTIVE_HOURS_TZ)
 
 
@@ -459,11 +462,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   font-family: "IBM Plex Sans", sans-serif; font-size: 13px; font-weight: 500;
   letter-spacing: 0.02em; text-transform: uppercase;
 }
-.updated { color: #AFC0D2; font-size: 10.5px; white-space: nowrap; }
+.updated { color: #AFC0D2; font-size: 11.5px; white-space: nowrap; }
 .updated .stale-warning { color: #FF8D9A; }
 nav { margin: 0; gap: 6px; }
 nav a {
-  min-height: 64px; padding: 0 13px; color: #D7E2EC; font-size: 13px;
+  min-height: 64px; padding: 0 13px; color: #D7E2EC; font-size: 14px;
   border-bottom: 3px solid transparent;
 }
 nav a:hover, nav a:focus-visible {
@@ -477,7 +480,7 @@ nav a:hover, nav a:focus-visible {
 }
 .flash-label {
   margin: 0; padding: 7px 18px 7px 0; border-right: 1px solid var(--red-rule);
-  align-self: center; color: var(--red); font-size: 10.5px;
+  align-self: center; color: var(--red); font-size: 11.5px;
 }
 .flash-dot { width: 7px; height: 7px; background: var(--red); }
 .flash-list {
@@ -491,25 +494,25 @@ nav a:hover, nav a:focus-visible {
 .flash-item + .flash-item { border-top: 0; }
 .flash-title {
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
-  overflow: hidden; font-size: 14px; line-height: 1.3;
+  overflow: hidden; font-size: 15px; line-height: 1.3;
 }
 .flash-reason {
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  margin-top: 1px; font-size: 11.5px;
+  margin-top: 1px; font-size: 12.5px;
 }
-.flash-cta { color: var(--red); font-size: 11.5px; }
+.flash-cta { color: var(--red); font-size: 12.5px; }
 .flash-item:hover .flash-title, .flash-item:focus-visible .flash-title { color: var(--red); }
 
 main { max-width: 1380px; margin: 0 auto; padding: 22px 30px 42px; display: block; }
 .section-heading { margin: 0; }
 .eyebrow {
-  color: var(--blue); font-size: 10px; letter-spacing: 0.14em; margin-bottom: 0;
+  color: var(--blue); font-size: 11px; letter-spacing: 0.14em; margin-bottom: 0;
 }
 h2 {
-  font-family: "Newsreader", Georgia, serif; font-size: 27px; font-weight: 700;
+  font-family: "Newsreader", Georgia, serif; font-size: 29px; font-weight: 700;
   letter-spacing: -0.025em;
 }
-.section-meta { margin: 2px 0 10px; font-size: 11.5px; }
+.section-meta { margin: 2px 0 10px; font-size: 12.5px; }
 
 .topics-board {
   min-height: 400px; display: grid;
@@ -522,7 +525,7 @@ h2 {
 .topic-rank {
   background: transparent; border-radius: 0; width: auto; height: auto;
   align-items: flex-start; justify-content: flex-start; color: var(--blue);
-  font-size: 12px; line-height: 1.4;
+  font-size: 13px; line-height: 1.4;
 }
 .topic h3 {
   font-family: "Newsreader", Georgia, serif; color: var(--text);
@@ -534,7 +537,7 @@ h2 {
 .topic-links { gap: 14px; }
 .topic-links a {
   min-height: auto; padding: 0; border-radius: 0; background: transparent;
-  color: var(--blue); font-size: 10.5px; font-weight: 500;
+  color: var(--blue); font-size: 11.5px; font-weight: 500;
 }
 .topic-links a:hover, .topic-links a:focus-visible {
   background: transparent; text-decoration: underline;
@@ -544,14 +547,14 @@ h2 {
   grid-template-columns: 34px minmax(0, 1fr); align-content: center;
   gap: 10px; padding: 30px; background: var(--navy); color: #FFFFFF;
 }
-.topic-lead .topic-rank { color: #82ACFF; font-size: 13px; }
+.topic-lead .topic-rank { color: #82ACFF; font-size: 14px; }
 .topic-lead h3 {
   color: #FFFFFF; font-size: clamp(27px, 2.35vw, 38px); line-height: 1.08;
   margin: 0 0 15px;
 }
 .topic-lead h3 a:hover, .topic-lead h3 a:focus-visible { color: #B9D2FF; }
 .topic-lead p {
-  color: #C8D5E2; font-size: 15px; line-height: 1.5; margin-bottom: 18px;
+  color: #C8D5E2; font-size: 16px; line-height: 1.5; margin-bottom: 18px;
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden;
 }
 .topic-lead .topic-links a { color: #AFCBFF; }
@@ -562,11 +565,11 @@ h2 {
 }
 .topic-secondary:last-child { border-bottom: 0; }
 .topic-secondary h3 {
-  margin: 0 0 3px; font-size: 18px; line-height: 1.23;
+  margin: 0 0 3px; font-size: 19.5px; line-height: 1.23;
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
 }
 .topic-secondary p {
-  margin: 0 0 4px; font-size: 12.5px; line-height: 1.35;
+  margin: 0 0 4px; font-size: 13.5px; line-height: 1.35;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 
@@ -577,19 +580,19 @@ h2 {
 .feed-panel .section-heading {
   padding-bottom: 10px; margin-bottom: 0; border-bottom: 2px solid var(--navy);
 }
-.feed-panel h2 { font-size: 27px; }
+.feed-panel h2 { font-size: 29px; }
 .radar-filters {
   display: flex; gap: 7px; padding: 13px 0; overflow-x: auto;
   border-bottom: 1px solid var(--rule);
 }
 .radar-filter, .radar-more {
   border: 1px solid var(--rule-strong); background: var(--surface); color: var(--muted);
-  font: 500 12px "IBM Plex Sans", sans-serif; cursor: pointer;
+  font: 500 13px "IBM Plex Sans", sans-serif; cursor: pointer;
 }
 .radar-filter {
   min-height: 33px; padding: 5px 11px; border-radius: 999px; white-space: nowrap;
 }
-.radar-filter span { margin-left: 4px; color: #8A98A8; font-size: 10px; }
+.radar-filter span { margin-left: 4px; color: #8A98A8; font-size: 11px; }
 .radar-filter:hover { color: var(--blue); border-color: #AFC6F5; }
 .radar-filter.is-active {
   color: #FFFFFF; background: var(--blue); border-color: var(--blue);
@@ -599,14 +602,14 @@ h2 {
 .radar-row {
   display: grid; grid-template-columns: 62px 112px minmax(0, 1fr) 100px;
   align-items: center; gap: 12px; min-height: 48px; padding: 8px 14px;
-  border-bottom: 1px solid var(--rule); font-size: 13.5px;
+  border-bottom: 1px solid var(--rule); font-size: 14.5px;
 }
 .radar-row[hidden] { display: none; }
 .radar-row time, .radar-age {
-  color: var(--muted); font: 11px "IBM Plex Mono", monospace; white-space: nowrap;
+  color: var(--muted); font: 12px "IBM Plex Mono", monospace; white-space: nowrap;
 }
 .radar-source {
-  color: var(--navy-soft); font-size: 11px; font-weight: 700;
+  color: var(--navy-soft); font-size: 12px; font-weight: 700;
   letter-spacing: 0.035em; text-transform: uppercase;
 }
 .radar-title { min-width: 0; }
@@ -619,7 +622,7 @@ h2 {
 }
 .radar-more:hover { background: var(--blue-soft); border-color: #AFC6F5; }
 .radar-more[hidden] { display: none; }
-.radar-empty { padding: 22px 0; color: var(--muted); font-size: 13px; }
+.radar-empty { padding: 22px 0; color: var(--muted); font-size: 14px; }
 
 footer { background: var(--navy); border: 0; color: #B7C7D6; }
 .pill { border-color: #41566A; }
@@ -671,8 +674,9 @@ footer { background: var(--navy); border: 0; color: #B7C7D6; }
   .topic-secondary {
     padding: 15px 10px; grid-template-columns: 27px minmax(0, 1fr);
   }
-  .topic-secondary h3 { font-size: 17px; }
+  .topic-secondary h3 { font-size: 18px; }
   .topic-secondary p {
+    font-size: 14px;
     white-space: normal; display: -webkit-box; -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
   }
@@ -688,8 +692,8 @@ footer { background: var(--navy); border: 0; color: #B7C7D6; }
 """
 
 
-def build_html(state) -> str:
-    now = datetime.now(timezone.utc)
+def build_html(state, generated_at: datetime | None = None) -> str:
+    now = generated_at or datetime.now(timezone.utc)
     now_str = now.astimezone(_LOCAL_TZ).strftime("%H:%M:%S · %d.%m.%Y")
     generated_ts_ms = int(now.timestamp() * 1000)
     alerts_flash = _render_alert_flash(state.recent_alerts_window(3))
@@ -768,6 +772,23 @@ def build_html(state) -> str:
   }}
   tick();
   setInterval(tick, 30000);
+
+  // GitHub cron ani nasadenie Pages nemajú presnú minútu. Namiesto slepého
+  // reloadu často kontrolujeme iba malý version.json a stránku obnovíme až
+  // vtedy, keď je skutočne dostupný novší vygenerovaný obsah.
+  function checkForUpdate() {{
+    fetch('version.json?check=' + Date.now(), {{ cache: 'no-store' }})
+      .then(function (response) {{ return response.ok ? response.json() : null; }})
+      .then(function (version) {{
+        var latest = version && Number(version.generated_ts);
+        if (!latest || latest <= ts) return;
+        var nextUrl = new URL(window.location.href);
+        nextUrl.searchParams.set('v', String(latest));
+        window.location.replace(nextUrl.toString());
+      }})
+      .catch(function () {{ /* 10-minútový meta refresh zostáva ako poistka */ }});
+  }}
+  setInterval(checkForUpdate, {_UPDATE_CHECK_MS});
 }})();
 
 // Media Radar: jeden chronologický tok s rýchlym filtrovaním podľa zdroja.
@@ -817,17 +838,30 @@ def build_html(state) -> str:
 """
 
 
-def write_page(state, path: str = _OUTPUT_PATH) -> None:
+def write_page(
+    state,
+    path: str = _OUTPUT_PATH,
+    version_path: str | None = _VERSION_PATH,
+) -> None:
     """Zapíše stránku na disk. Nikdy nevyhadzuje výnimku vyššie — stránka
     je vylepšenie, nie kritická cesta; jej zlyhanie nesmie zhodiť beh."""
     import logging
     log = logging.getLogger(__name__)
     try:
+        generated_at = datetime.now(timezone.utc)
         os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-        html = build_html(state)
+        html = build_html(state, generated_at)
         tmp = path + ".tmp"
         with open(tmp, "w", encoding="utf-8") as f:
             f.write(html)
         os.replace(tmp, path)
+        if version_path:
+            generated_ts_ms = int(generated_at.timestamp() * 1000)
+            os.makedirs(os.path.dirname(version_path) or ".", exist_ok=True)
+            version_tmp = version_path + ".tmp"
+            with open(version_tmp, "w", encoding="utf-8") as f:
+                json.dump({"generated_ts": generated_ts_ms}, f, separators=(",", ":"))
+                f.write("\n")
+            os.replace(version_tmp, version_path)
     except Exception:  # noqa: BLE001 — stránka nesmie zhodiť beh
         log.exception("Generovanie GitHub Pages stránky zlyhalo — beh pokračuje.")

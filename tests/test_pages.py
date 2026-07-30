@@ -1,6 +1,16 @@
+import json
+import tempfile
 import unittest
+from pathlib import Path
+from types import SimpleNamespace
 
-from src.pages import _render_alert_flash, _render_raw_feed, _render_topics
+from src.pages import (
+    _render_alert_flash,
+    _render_raw_feed,
+    _render_topics,
+    build_html,
+    write_page,
+)
 
 
 class AlertFlashTests(unittest.TestCase):
@@ -44,6 +54,13 @@ class AlertFlashTests(unittest.TestCase):
 
 
 class BriefingPageTests(unittest.TestCase):
+    @staticmethod
+    def _empty_state():
+        state = SimpleNamespace(last_digest={}, source_status={})
+        state.recent_alerts_window = lambda _hours: []
+        state.recent_window = lambda _hours: []
+        return state
+
     def test_top_topics_use_one_lead_and_four_secondary_items(self):
         topics = [
             {
@@ -83,6 +100,27 @@ class BriefingPageTests(unittest.TestCase):
         self.assertIn('data-filter="all"', html)
         self.assertIn('data-filter="Aktuality"', html)
         self.assertIn('data-source="SME"', html)
+
+    def test_page_checks_version_and_keeps_ten_minute_fallback_refresh(self):
+        html = build_html(self._empty_state())
+
+        self.assertIn('<meta http-equiv="refresh" content="600">', html)
+        self.assertIn("fetch('version.json?check=' + Date.now()", html)
+        self.assertIn("setInterval(checkForUpdate, 60000)", html)
+
+    def test_version_file_matches_generated_page_timestamp(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as directory:
+            page_path = Path(directory) / "index.html"
+            version_path = Path(directory) / "version.json"
+            write_page(
+                self._empty_state(),
+                str(page_path),
+                str(version_path),
+            )
+
+            version = json.loads(version_path.read_text(encoding="utf-8"))
+            html = page_path.read_text(encoding="utf-8")
+            self.assertIn(f'data-ts="{version["generated_ts"]}"', html)
 
 
 if __name__ == "__main__":
