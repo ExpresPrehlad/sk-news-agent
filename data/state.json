@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Masívny prílev migrantov do Ceuty: Počet vstupov dosiahol 49-tisíc",
-      "ts": 1785485448.0035772
-    },
-    {
-      "headline": "Ceny pohonných látok na Slovensku prudko vzrástli",
-      "ts": 1785485448.0035772
-    },
-    {
-      "headline": "Požiare v Grécku komplikuje silný vietor",
-      "ts": 1785485448.0035772
-    },
-    {
-      "headline": "Bratislava zriaďuje sieť ochladzovacích miest",
-      "ts": 1785485448.0035772
-    },
-    {
-      "headline": "Ruský tlak na čiernomorské trasy ohrozuje vývoz obilia",
-      "ts": 1785485448.0035772
-    },
-    {
       "headline": "Trump oznámil dohodu o odzbrojení Hamasu",
       "ts": 1785486951.9143162
     },
@@ -219,168 +199,100 @@
     {
       "headline": "Nebezpečné paštéty v kúpeľnom hoteli",
       "ts": 1785498943.1875446
+    },
+    {
+      "headline": "Extrémne horúčavy na Slovensku: SHMÚ vydal výstrahy všetkých stupňov",
+      "ts": 1785499851.5889797
+    },
+    {
+      "headline": "Energetická kríza v Maďarsku: Nízka hladina Dunaja ohrozuje elektrárne",
+      "ts": 1785499851.5889797
+    },
+    {
+      "headline": "Výbuch v pakistanskej uhoľnej bani si vyžiadal desiatky obetí",
+      "ts": 1785499851.5889797
+    },
+    {
+      "headline": "Huliak stopol financie pre futbalový zväz pre sporné nákupy",
+      "ts": 1785499851.5889797
+    },
+    {
+      "headline": "Alžírsko zasiahla tragická nehoda autobusu s dvadsiatimi obeťami",
+      "ts": 1785499851.5889797
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "NATO zvažuje posilnenie jadrového odstrašovania v Európe",
+        "headline": "Extrémne horúčavy na Slovensku: SHMÚ vydal výstrahy všetkých stupňov",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/JJytX3t/nato-zvazuje-rozsirenie-jadroveho-stitu-v-europe-dalsie-americke-zbrane-mozu-pribudnut-aj-blizsie-k-rusku/"
+            "https://www.aktuality.sk/clanok/iqfpI8m/v-piatok-bude-opat-horuco-shmu-vydal-vystrahy-vsetkych-stupnov/"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/wX6qSy9/shmu-varuje-pred-extremnym-suchom-a-vysokym-rizikom-poziarov-na-celom-slovensku/"
           ]
         ],
-        "perex": "Aliancia diskutuje o rozšírení jadrového štítu a možnom rozmiestnení ďalších amerických bômb typu B61-12 bližšie k ruským hraniciam. Rozhodnutie o posilnení odstrašovacích schopností sa podľa dostupných informácií už pripravuje."
+        "perex": "Slovensko čelí ďalšiemu extrémne horúcemu dňu, pričom meteorológovia vydali výstrahy všetkých stupňov. Vysoké teploty dosahujúce až 38 stupňov zvyšujú riziko vzniku a šírenia požiarov v prírode."
       },
       {
-        "headline": "Huliak zastavil financie pre Slovenský futbalový zväz",
+        "headline": "Energetická kríza v Maďarsku: Nízka hladina Dunaja ohrozuje elektrárne",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/madari-a-francuzi-pre-horucavy-vypinaju-atomky-dokedy-pobezia-mochovce-a-jaslovske-bohunice?"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2016641-madarsku-hrozi-najvaznejsia-energeticka-kriza-za-desatrocia-varuje-magyar-po-pakse-klakol-blok-dalsej-elektrarne"
+          ]
+        ],
+        "perex": "Maďarsko čelí vážnej energetickej situácii pre rekordne nízku hladinu Dunaja, ktorá komplikuje prevádzku jadrovej elektrárne v Paksi. Odborníci varujú pred možným odstavením blokov, čo by prehĺbilo energetickú krízu v krajine."
+      },
+      {
+        "headline": "Výbuch v pakistanskej uhoľnej bani si vyžiadal desiatky obetí",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/iapj9r2/explozia-v-pakistanskej-uholnej-bani-si-vyziadala-najmenej-34-obeti/"
+          ]
+        ],
+        "perex": "Najmenej 34 baníkov zahynulo pri explózii v uhoľnej bani v pakistanskej provincii Balúčistan. Úrady predpokladajú, že počet obetí môže ešte narásť a prisľúbili rodinám odškodné."
+      },
+      {
+        "headline": "Huliak stopol financie pre futbalový zväz pre sporné nákupy",
         "links": [
           [
             "Denník N",
             "https://dennikn.sk/5483356/huliak-ozivil-spor-s-kovacikom-futbalovemu-zvazu-znova-zastavil-peniaze-pre-sporne-nakupy-iphonov/"
           ]
         ],
-        "perex": "Minister športu Rudolf Huliak opätovne pozastavil dotácie pre futbalový zväz v objeme štyroch miliónov eur. Dôvodom sú nejasnosti okolo nákupov mobilných telefónov značky iPhone prezidentom zväzu Jánom Kováčikom."
+        "perex": "Minister športu Rudolf Huliak pozastavil vyplatenie približne štyroch miliónov eur pre Slovenský futbalový zväz. Dôvodom sú nejasnosti okolo nákupov mobilných telefónov, za ktoré sa zaručil prezident zväzu Ján Kováčik."
       },
       {
-        "headline": "Záhada zmiznutia trojročného chlapca z Huncoviec",
+        "headline": "Alžírsko zasiahla tragická nehoda autobusu s dvadsiatimi obeťami",
         "links": [
           [
-            "Noviny.sk",
-            "https://www.noviny.sk/krimi/1240631-hovorilo-sa-aj-o-unose-ukazali-ale-zranenia-maria-3-z-huncoviec-ktoreho-hladali-desiatky-ludi"
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2016625-v-alzirsku-sa-zrutil-do-rokliny-autobus-najmenej-20-ludi-zahynulo-a-38-je-zranenych/"
           ]
         ],
-        "perex": "Prípadom trojročného chlapca, ktorý bol v Huncovciach nezvestný viac ako 30 hodín, sa začala zaoberať kriminálna polícia aj sociálna kuratela. Úrady vyvrátili špekulácie o únose a zverejnili informácie o zraneniach dieťaťa."
-      },
-      {
-        "headline": "Počet obetí migračnej vlny v Ceute stúpol na 34",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1240745-pocet-mrtvych-migrantov-pri-snahe-vstupit-do-spanielskej-ceuty-stupol-na-34"
-          ]
-        ],
-        "perex": "Po masívnom vstupe migrantov do španielskej enklávy Ceuta hlásia úrady nárast počtu obetí na 34 osôb. Situácia v oblasti zostáva napätá, pričom mnohí migranti hlásia nepriateľstvo a nedostatok pomoci."
-      },
-      {
-        "headline": "Nebezpečné paštéty v kúpeľnom hoteli",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1240729-v-jednom-z-kupelnych-hotelov-nasli-nebezpecne-pastety-jed-moze-sposobit-ochrnutie"
-          ]
-        ],
-        "perex": "V jednom z kúpeľných zariadení objavili inšpektori nebezpečné paštéty obsahujúce toxín, ktorý môže spôsobiť ochrnutie. Úrady varujú pred konzumáciou výrobkov, ktoré predstavujú vážne zdravotné riziko."
+        "perex": "Najmenej 20 ľudí zahynulo a ďalších 38 utrpelo zranenia po tom, čo sa autobus v Alžírsku zrútil do rokliny. Záchranné zložky na mieste nehody zasahovali a poskytovali pomoc preživším."
       }
     ],
-    "ts": 1785498943.1875374
+    "ts": 1785499851.5889728
   },
   "meta": {
-    "last_collection_ts": 1785498936.602735,
+    "last_collection_ts": 1785499846.32563,
     "last_feed_error_ts": 1785490537.4660606,
     "last_llm_error_ts": 1785243791.1408515,
-    "last_run_ts": 1785498937.5585032,
-    "last_synthesis_ts": 1785498943.1875322
+    "last_run_ts": 1785499846.5719483,
+    "last_synthesis_ts": 1785499851.5889683
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/closer/c/spider-man-film-premiera-recenzia-tom-holland-zendaya?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Viac emócií, viac ľudskosti a hlavne viac Spider-Mana.",
-      "s": "SME",
-      "t": "Chýbalo málo, aby bol najlepší, akého kedy natočili. Tom Holland v pavúčom obleku začína od nuly",
-      "ts": 1785413436.0282793,
-      "u": "706a96a4e5b6dd18cded"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/NyjPuPM/blizi-sa-zatmenie-slnka-dajte-si-pozor-na-oci-ako-ho-pozorovat-bezpecne-a-pohodlne/",
-      "p": "Čiastočné zatmenie Slnka bolo nad Slovenskom naposledy viditeľné v marci 2025.",
-      "s": "Aktuality",
-      "t": "Blíži sa zatmenie Slnka. Dajte si pozor na oči: ako ho pozorovať bezpečne a pohodlne?",
-      "ts": 1785413436.028283,
-      "u": "69c380df0a4305e24580"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/kultura/clanok/2015975-slovenska-filmova-a-televizna-akademia-zverejnila-kandidata-na-oscara-je-nim-film-potopa?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "99. ročník prestížnej ceny Akadémie filmových umení a vied Oscar bude v prostredí slovenskej kinematografie príležitosťou pre film Potopa. Rozhodlo o tom členstvo Slovenskej filmovej a televíznej akadémie, ktorá do súťaže v kategórii Najlepší medzinárodný film posiela práve túto snímku.",
-      "s": "Pravda",
-      "t": "Slovenská filmová a televízna akadémia zverejnila kandidáta na Oscara: Je ním film Potopa",
-      "ts": 1785413436.028285,
-      "u": "151d1401382e9408a32f"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/hazz-s-vysokymi-teplotami-sa-zvysuje/981528-clanok.html",
-      "p": "Odporúčajú nezakladať oheň v prírode ani v blízkosti porastov, neodhadzovať horiace ohorky cigariet a nevypaľovať trávu, porasty ani odpad.",
-      "s": "Teraz.sk",
-      "t": "Hasiči: S vysokými teplotami stúpa aj riziko vzniku požiarov v prírode",
-      "ts": 1785413436.0282862,
-      "u": "b47f49f2e7e1291a9c94"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/spustia-prieskum-eurograduate-odrahac/981522-clanok.html",
-      "p": "Medzinárodný projekt Eurograduate nadväzuje na druhé kolo pilotného zisťovania, ktoré sa realizovalo v roku 2022 a zúčastnilo sa na ňom 17 krajín.",
-      "s": "Teraz.sk",
-      "t": "Spustia prieskum Eurograduate o dráhach absolventov vysokých škôl",
-      "ts": 1785413436.0282876,
-      "u": "bde04a3212f719385e5f"
-    },
-    {
-      "l": "https://www.noviny.sk/pr-spravy/1240277-tesco-za-rok-zmodernizovalo-36-predajni-otvara-vynoveny-supermarket-v-krompachoch",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Tesco za rok zmodernizovalo 36 predajní, otvára vynovený supermarket v Krompachoch",
-      "ts": 1785413436.0282888,
-      "u": "e8621ee086fe6b87ebef"
-    },
-    {
-      "l": "https://www.noviny.sk/ekonomika/1240265-financna-sprava-kontroluje-firemne-auta-poctivi-podnikatelia-sa-nemaju-coho-bat-odkazuje",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Finančná správa kontroluje firemné autá. Poctiví podnikatelia sa nemajú čoho báť, odkazuje",
-      "ts": 1785413436.0282903,
-      "u": "c418c3b839f1c6a85778"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1240169-pri-nemeckom-pobrezi-sa-objavila-dalsia-zranena-velryba-na-chrbte-ma-rany-ako-znamy-timmy",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Pri nemeckom pobreží sa objavila ďalšia zranená veľryba. Na chrbte má rany ako známy Timmy",
-      "ts": 1785413436.0282917,
-      "u": "0c2a243236524b113609"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1240266-eu-stavia-kontroverzne-datove-centra-investuje-viac-ako-30-miliard",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "EÚ stavia kontroverzné dátové centrá. Investuje viac ako 30 miliárd",
-      "ts": 1785413436.0282927,
-      "u": "b899ffd49aa10f6ba806"
-    },
-    {
-      "l": "https://www.noviny.sk/ekonomika/1237902-blizi-sa-cas-dochodku-skontrolujte-si-pocet-rokov-bez-tejto-podmienky-nan-narok-nemate",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Blíži sa čas dôchodku? Skontrolujte si počet rokov, bez tejto podmienky naň nárok nemáte",
-      "ts": 1785413436.0282938,
-      "u": "e537b1c93e274073ef0c"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1240256-odbocovanie-sa-skoncilo-tragicky-po-zrazke-s-autom-zomrel-motorkar",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Odbočovanie sa skončilo tragicky: Po zrážke s autom zomrel motorkár",
-      "ts": 1785413436.0282953,
-      "u": "1720b2a5ea9582c8aef7"
-    },
-    {
-      "l": "https://www.noviny.sk/pr-spravy/1237056-sefka-marketingu-henkel-consumer-brands-pre-cesko-a-slovensko-aby-boli-znacky-relevantne-musia-sa-pohybovat-vo-svete-svojich-spotrebitelov",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Šéfka marketingu Henkel Consumer Brands pre Česko a Slovensko: Aby boli značky relevantné, musia sa pohybovať vo svete svojich spotrebiteľov",
-      "ts": 1785413436.0282965,
-      "u": "bce0cb3668766c7f8b85"
-    },
     {
       "l": "https://www.sme.sk/komentare/c/cesky-prezident-vyhral-preteky-formuly-1?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Petr Pavel ukazuje Česko, ktoré možno málokto pozná.",
@@ -4388,6 +4300,158 @@
       "t": "V jednom z kúpeľných hotelov našli nebezpečné paštéty: Jed môže spôsobiť ochrnutie",
       "ts": 1785498937.5585024,
       "u": "90de4cee7904222ab600"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/mark-zuckerberg-konecne-prisiel-s-dystopickym-no-vynosnym-planom-pre-ai?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Snahou je udržať ľudí pred obrazovkami ich mobilov",
+      "s": "SME",
+      "t": "Mark Zuckerberg konečne prišiel s dystopickým, no výnosným plánom pre AI",
+      "ts": 1785499846.571776,
+      "u": "cead47154ad2c9e3efcc"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/magyar-varuje-pred-vaznou-energetickou-krizou-v-madarsku-hrozi-odstavenie-jadrovej-elektrarne-v-paksi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Dôvodom je nízka hladina Dunaja.",
+      "s": "SME",
+      "t": "Magyar varuje pred vážnou energetickou krízou v Maďarsku, hrozí odstavenie jadrovej elektrárne v Paksi",
+      "ts": 1785499846.571779,
+      "u": "492ded2fea568165f3dd"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/rusi-vo-velkom-vyberaju-peniaze-z-bank-vysokym-urokom-a-reciam-o-dobrej-kondicii-neveria?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Podľa názorov niektorých ruských politikov treba znárodniť vklady obyvateľov.",
+      "s": "SME",
+      "t": "Rusi vo veľkom vyberajú peniaze z bánk. Vysokým úrokom a rečiam o dobrej kondícii neveria",
+      "ts": 1785499846.5717802,
+      "u": "c83036f4a68b10b5aef4"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/najbohatsi-muzi-sveta-hovoria-o-veku-hojnosti-nie-je-to-prvykrat-v-dejinach?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Vek hojnosti nikdy nikomu nespadol z neba",
+      "s": "SME",
+      "t": "Najbohatší muži sveta hovoria o veku hojnosti. Nie je to prvýkrát v dejinách",
+      "ts": 1785499846.571782,
+      "u": "fba7404d270b5d779c69"
+    },
+    {
+      "l": "https://www.sme.sk/closer/c/jazera-kupanie-bratislava-okolie-voda?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Päť obľúbených prírodných kúpalísk pri Bratislave.",
+      "s": "SME",
+      "t": "Kde sa dá kúpať v okolí Bratislavy? Na niektorých jazerách pýtajú 5 eur za vstup, iné sú zadarmo",
+      "ts": 1785499846.5717835,
+      "u": "531c1a112308404327b1"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSDZvNGQ3U0lkS0Fxbm83MVYyZGJzTHV4R3RFWjA4MjZnZU9VSERKaGVhTXpEWHNMT2NDeWRyWnRySkdVdTdzQ0puMjZpVUZJdWlPc0FBNk1URnZISUZac3hjZ182SEVDeS1fNGg2N0hVOWY0ck5tckdEckZpMWpiZmN2TWYwSVB1Q0RveUx1dW53dEQ2WEJNWG1BaEVMeDZzY3ZUTTJwT2ViNlNNZkd0NGpn?oc=5",
+      "p": "V Chorvátsku pátrajú po rakúskom kapitánovi. Vypadol z lode počas nepriaznivého počasia&nbsp;&nbsp;SME.sk",
+      "s": "SME (GNews)",
+      "t": "V Chorvátsku pátrajú po rakúskom kapitánovi. Vypadol z lode počas nepriaznivého počasia - SME.sk",
+      "ts": 1785499846.5717847,
+      "u": "18d55a9d653c72251a60"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mdGZqN0NEVXVFSFdUSDZvc0lqemNjWGhfaDl3a2doMWhYam9EVjRUdmdQWkpoTVNpcERPY0tpemVobjl0UkNsY0pvd3dCRTVCN0hMS20tNTF1NG1pVW1FZ2pn?oc=5",
+      "p": "Kurací perkelt s haluškami, foto recept&nbsp;&nbsp;Naničmama.sk",
+      "s": "SME (GNews)",
+      "t": "Kurací perkelt s haluškami, foto recept - Naničmama.sk",
+      "ts": 1785499846.5717862,
+      "u": "7588c38726ddb312f981"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVnBBMkFWcXh1b2tDNmxYTGg2TWMtQTJieVFGR01FQ0FKaGhHZGdfeVNndHJvU3R5VGFVRi1PckZlenNfWkdOcU5aZ0xYMmVBTDdxMjUzUWl1dTAyN2ZiWEFTWmdOY1NsemFEYVJlREIwTWhtYmtjZlo4WGhFSjVTMVpULWxtTk1zVjZFNkZZY2k1MDVYZi0yYUN1aWs?oc=5",
+      "p": "Visma dlho tajila zostavu na Tour de France. Chladoňová si na svoj debut musí počkať&nbsp;&nbsp;sportnet.sme.sk",
+      "s": "SME (GNews)",
+      "t": "Visma dlho tajila zostavu na Tour de France. Chladoňová si na svoj debut musí počkať - sportnet.sme.sk",
+      "ts": 1785499846.5717876,
+      "u": "dbbf4fd9750066c2cbfb"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlZCMWppbHJOYUQ0TXdPMGxSQW5oR1BQT0hpeDJtMURnb2hzUFI5aTdGMmhWYVdJckx0U1RsWlZmdjFlcEtKbU9sYUVDNDE2SFFxeU1QM3pWUXA3V2RENGttN3VITE9WMndxSTBUZTZTZW5uTWF0MUQ1X1diaXVNTjFUM0NyT2FNd3d4Y1hYNXRhcDlkdTZaMmpUNHVBWmtiS1F4Ug?oc=5",
+      "p": "Mark Zuckerberg konečne prišiel s dystopickým, no výnosným plánom pre AI&nbsp;&nbsp;SME.sk",
+      "s": "SME (GNews)",
+      "t": "Mark Zuckerberg konečne prišiel s dystopickým, no výnosným plánom pre AI - SME.sk",
+      "ts": 1785499846.571935,
+      "u": "2b6440b88ad0edd7f6c4"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/UoTtW4G/nenapustajte-bazeny-potoky-aj-studne-vysychaju-varuju-odbornici-videopodcast/",
+      "p": "Rieky majú rekordne nízke hladiny a niektoré potoky už vyschli. V Dunaji je najmenej vody v porovnaní s ktorýmkoľvek júlom od konca 19. storočia. Čo to spôsobí? V Maďarsku aj Rumunsku musia vypnúť jadrové elektrárne. Odborníci preto žiadajú ľudí, aby si aktuálne nenapúšťali bazény. Polievanie je men",
+      "s": "Aktuality",
+      "t": "Nenapúšťajte bazény. Potoky aj studne vysychajú, varujú odborníci (videopodcast)",
+      "ts": 1785499846.571937,
+      "u": "f454bebe064f480fab89"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/g3m4qW7/do-ceuty-vstupilo-z-maroka-60000-migrantov-oznamil-starosta/",
+      "p": "Do španielskej enklávy Ceuta na africkom pobreží sa pokúsilo z Maroka preniknúť okolo 60 tisíc ľudí. Starosta varuje že situácia v meste je neudržateľná.",
+      "s": "Aktuality",
+      "t": "Do Ceuty vstúpilo z Maroka 60.000 migrantov, oznámil starosta",
+      "ts": 1785499846.5719383,
+      "u": "d75fa8773954041707d3"
+    },
+    {
+      "l": "https://dennikn.sk/5482819/ted-lasso-bol-vycerpany-a-mal-skoncit-preco-sa-vracia-a-trenuje-zeny-tipy-co-pozerat/",
+      "p": "V&#160;tomto výbere nájdete okrem novej série Teda Lassa jeden z&#160;najlepších dokumentov zo sveta tenisu či bizarný skutočný príbeh o&#160;rivalite dvojice šachistov. Bonusom je vydarený artový horor, ktorý sa ešte stále dá vidieť v&#160;kinách. Ted Lasso (Apple TV) Vopred sa ospravedlňujem za od",
+      "s": "Denník N",
+      "t": "Ted Lasso bol vyčerpaný a mal skončiť. Prečo sa vracia a trénuje ženy? (tipy, čo pozerať)",
+      "ts": 1785499846.5719395,
+      "u": "1bbddf97c35d3af80723"
+    },
+    {
+      "l": "https://dennikn.sk/5483231/49-tisic-migrantov-za-jediny-den-najvacsia-migracna-vlna-za-posledne-roky-preveruje-spanielsko-aj-europu/",
+      "p": "Kríza opäť otvorila otázku vzťahov medzi Madridom a&#160;Rabatom.",
+      "s": "Denník N",
+      "t": "49-tisíc migrantov za jediný deň. Najväčšia migračná vlna za posledné roky preveruje Španielsko aj Európu",
+      "ts": 1785499846.5719407,
+      "u": "ef8b8c9d05bca1cbd251"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2016649-zdrazovanie-sa-opat-rozbieha-energie-vystrelili-inflacia-sa-blizi-k-3-percentam?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Inflácia v eurozóne sa v júli mierne zrýchlila a posunula sa k hranici 3 %. Opäť sa tak vzdialila od inflačného cieľa Európskej centrálnej banky (ECB) stanoveného na úrovni 2 %. Informoval o tom v piatok vo svojom predbežnom odhade štatistický úrad Európskej únie Eurostat.",
+      "s": "Pravda",
+      "t": "Zdražovanie sa opäť rozbieha: Energie vystrelili, inflácia sa blíži k 3 percentám",
+      "ts": 1785499846.5719416,
+      "u": "e3274b4321c2a2b5ef35"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2016641-madarsku-hrozi-najvaznejsia-energeticka-kriza-za-desatrocia-varuje-magyar-po-pakse-klakol-blok-dalsej-elektrarne?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Maďarsko je na začiatku vážnej energetickej krízy, pričom pre nízku hladinu Dunaja hrozí odstavenie jadrovej elektrárne v juhomaďarskom Paksi, ktorá už teraz funguje iba na polovičný výkon.",
+      "s": "Pravda",
+      "t": "Maďarsku hrozí najvážnejšia energetická kríza za desaťročia, varuje Magyar. Po Pakse „kľakol“ blok ďalšej elektrárne",
+      "ts": 1785499846.5719426,
+      "u": "e13723ed32c84d25a258"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2016639-slovakom-sa-crta-lacnejsi-plyn-urso-avizuje-domacnostiam-ulavu-v-roku-2027?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Cena plynu ako komodity, ktorá vstupuje do výpočtu koncovej ceny na rok 2027, je medziročne nižšia o takmer desatinu. To bude mať pozitívny vplyv aj na celkové koncové ceny plynu pre slovenské domácnosti.",
+      "s": "Pravda",
+      "t": "Slovákom sa črtá lacnejší plyn. ÚRSO avizuje domácnostiam úľavu v roku 2027",
+      "ts": 1785499846.5719442,
+      "u": "2c334adec4b1cdcd56dd"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2016597-kiama-australia-kniha-objav-najdenie-kniznica-vratenie-pokuta?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Zmizla krátko po otvorení knižnice a nikto nevie, kto si ju požičal ani ako sa dostala za zamurovaný krb. Ak by za jej neskoré vrátenie platili dnešné pravidlá, pokuta by dosiahla približne 17-tisíc eur.",
+      "s": "Pravda",
+      "t": "Nikto nevie, kto ju tam ukryl. Knihu z knižnice objavili po 150 rokoch v zamurovanom krbe",
+      "ts": 1785499846.571945,
+      "u": "51e8c0698e38ad9894aa"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2016625-v-alzirsku-sa-zrutil-do-rokliny-autobus-najmenej-20-ludi-zahynulo-a-38-je-zranenych?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Najmenej 20 ľudí zahynulo, keď sa v Alžírsku zrútil do rokliny autobus. Ďalších 38 ľudí je zranených.",
+      "s": "Pravda",
+      "t": "V Alžírsku sa zrútil do rokliny autobus, najmenej 20 ľudí zahynulo a 38 je zranených",
+      "ts": 1785499846.571946,
+      "u": "ea469ebe12271f61b31c"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/chystate-sa-na-dovolenku-v-grecku-kra/981805-clanok.html",
+      "p": "Grécke úrady zasielajú výstražné správy prostredníctvom systému 112 na mobilné telefóny v blízkosti požiarov v gréckom a anglickom jazyku.",
+      "s": "Teraz.sk",
+      "t": "Chystáte sa na dovolenku v Grécku? Krajinu sužujú požiare",
+      "ts": 1785499846.5719476,
+      "u": "20643f0caea8cb271795"
     }
   ],
   "recent_alerts": [
@@ -5144,6 +5208,7 @@
     "181867ec27f30379e840": 1785412534.6168592,
     "182758c8c11a1668108c": 1785495341.67777,
     "1844b9d957e6a86ef41a": 1785471039.2313385,
+    "18d55a9d653c72251a60": 1785499846.571784,
     "196e24fa94f8b0362d54": 1785344132.2633004,
     "1979f2d7c3e1870a21b8": 1785332142.797323,
     "19ef0f7eb0b70523182e": 1785468933.2361636,
@@ -5153,6 +5218,7 @@
     "1afd7de3243e22b8b13d": 1785468933.2363737,
     "1b28a683670e56fd161d": 1785405346.1416516,
     "1b54dbb76f62b2c5380c": 1785407730.0838037,
+    "1bbddf97c35d3af80723": 1785499846.5719385,
     "1bebe9b872ef6e23387e": 1785468933.2361424,
     "1bf09e26662c743790d0": 1785490537.4660916,
     "1cc2dcb40bca571ce41f": 1785419741.4533744,
@@ -5167,6 +5233,7 @@
     "1f1c0648a9ab2e9857a9": 1785428438.0319102,
     "1f8072dfd46644aac974": 1785407730.084003,
     "1fbe3066d527e81887bc": 1785333337.8980846,
+    "20643f0caea8cb271795": 1785499846.5719469,
     "2071c381c7d5934f1524": 1785382538.289657,
     "20800f4d3b315e8b3f21": 1785426950.593107,
     "2084bacc927934e49224": 1785386139.3540022,
@@ -5179,7 +5246,6 @@
     "215c009fe88b88fd389f": 1785393352.1770356,
     "21683a14d2252b1e3910": 1785494137.7259173,
     "219c7cddf56a35862d27": 1785420643.5027354,
-    "224f9d360a5e270451fb": 1785327036.9285486,
     "225ad5b5dcf3ecc2104e": 1785386139.3540108,
     "22816321f9eefa2a5749": 1785396939.2435112,
     "2286403de06dd992e607": 1785329742.1867867,
@@ -5213,11 +5279,13 @@
     "2a0cff2fbfa2aa94cbd8": 1785393352.177033,
     "2aae2642c6eefff9f151": 1785419741.4533753,
     "2ae8e69c1eeef3a30c6b": 1785471039.231337,
+    "2b6440b88ad0edd7f6c4": 1785499846.5719342,
     "2bb489ba0787b5db4d04": 1785356204.626297,
     "2bbe987ca53564977cc1": 1785408942.823879,
     "2bc8d6995f25a482c8ef": 1785409835.6056306,
     "2c15e2b7e97eb2314cf9": 1785349239.5558856,
     "2c21928a35aee79ab26a": 1785411333.8707619,
+    "2c334adec4b1cdcd56dd": 1785499846.5719435,
     "2c76a8d18ea58be75cb3": 1785494137.725889,
     "2cd9d64f3c72af8fb729": 1785484535.312167,
     "2cfec08b39a2bfdfb52a": 1785407730.084006,
@@ -5342,6 +5410,7 @@
     "486f683fb9b6de2eed4a": 1785382538.289651,
     "48a6dd3ad31d077a55dc": 1785398143.013907,
     "48fa04bf9727d2534296": 1785407730.0838356,
+    "492ded2fea568165f3dd": 1785499846.5717776,
     "493a9fe029052d3c158f": 1785468933.236155,
     "49639297248a9b87648b": 1785400530.2880082,
     "49abb19bbb177c0f3723": 1785344132.2632952,
@@ -5376,7 +5445,6 @@
     "50ed6215ad468b0d19c3": 1785495341.6777768,
     "5113668806353b9bac03": 1785382538.2896843,
     "5121827227c658e9322a": 1785472540.1064942,
-    "5129f715325844c36b53": 1785327036.9285529,
     "51521cb28018453ded89": 1785409835.605638,
     "515fcd91f3bc6b849d3d": 1785430531.8449287,
     "517d7528f3a53a74506f": 1785358542.1667895,
@@ -5384,6 +5452,7 @@
     "51b88abace0acfa0ac61": 1785468933.236166,
     "51de1dc5b5dd9d148c47": 1785396939.2435236,
     "51e454f8c64080b73f11": 1785409835.6056418,
+    "51e8c0698e38ad9894aa": 1785499846.5719445,
     "523916ea5ae927ef251f": 1785352845.7408695,
     "5241c7907bff7f31d4e7": 1785327648.500789,
     "5272f8f655ab0a29de67": 1785411333.870766,
@@ -5391,6 +5460,7 @@
     "52db99b69a7354be6429": 1785468933.2361357,
     "52eb27812055ae5c7cc3": 1785486946.497793,
     "5303f5be557dbd198e82": 1785498937.558318,
+    "531c1a112308404327b1": 1785499846.5717826,
     "53282ef17d466d9e6851": 1785468933.2363808,
     "53562c6b24dabea55ef1": 1785430531.8449297,
     "53628fa834908d17aafa": 1785407730.0838134,
@@ -5408,7 +5478,6 @@
     "5565b29be572c561c1c9": 1785349239.5558882,
     "5574633b6ae7e250d30f": 1785388236.3390994,
     "5593ddb5a64b5509b861": 1785478235.667287,
-    "55ca4f2cf8c02ac082e2": 1785327036.9285505,
     "55e3123d960bf2c19a7c": 1785426950.5931084,
     "56068a6a63176cf79502": 1785426950.5931118,
     "5607fa38e2f9533ffa73": 1785328536.703139,
@@ -5418,7 +5487,6 @@
     "574b8aa72c79e1a703d4": 1785414945.0532763,
     "576406aa6fea78a85c7d": 1785391847.465527,
     "57a0d93240ba784a997b": 1785411333.870781,
-    "57df0470500cee58aa71": 1785327036.9285417,
     "58b8fa2e5c51d31b09b5": 1785391847.4657001,
     "58ca02a7517f34efea97": 1785351346.5945315,
     "58f0cf35dab3ef5f3909": 1785420643.5027256,
@@ -5539,7 +5607,7 @@
     "752c8fbfc18180f5fd66": 1785393352.1770144,
     "7566d3b8b4ca614ba7b1": 1785494137.7259085,
     "75861e30f2e63d64ca10": 1785386139.3540077,
-    "75c61a313c6e7d1085fd": 1785327036.9285386,
+    "7588c38726ddb312f981": 1785499846.5717852,
     "75ca79df6f1827b6063f": 1785484535.31216,
     "75f162b5d41fa36c9550": 1785411333.8707693,
     "765dc45719cfb6918b42": 1785393352.177018,
@@ -5548,7 +5616,6 @@
     "77eb95b849d62a608d49": 1785468933.236383,
     "78110f8e24568cc4597b": 1785402645.963221,
     "7827062c683a645f8283": 1785404135.6777754,
-    "787b4e3de0946a9a6823": 1785327036.9285557,
     "78ba4ea82801f54deaa8": 1785347739.5125124,
     "792f7a0e891c337d4363": 1785468933.236149,
     "79b32a509a036afa42e0": 1785468933.236151,
@@ -5598,7 +5665,6 @@
     "854008cd04ddac2e846d": 1785412534.616866,
     "8578b799cbd4de7853ba": 1785406240.7962036,
     "85a320f260802ec08458": 1785395442.8121953,
-    "85e204c30c1ded1b4137": 1785327036.9285436,
     "861bed5105dffee943fe": 1785398143.013914,
     "861d4467a6ad26cffe4f": 1785407730.0838346,
     "8639dfbd1d24f625d4fd": 1785419741.4533796,
@@ -5671,7 +5737,6 @@
     "998b27f01221a3025af5": 1785490537.4660795,
     "9adb49e817eec17ec8a2": 1785358542.1667953,
     "9aea8678b4aff4d6a331": 1785382538.2896948,
-    "9b354fe65c85638698a7": 1785327036.9285448,
     "9b843a2ae018f988e014": 1785484535.312166,
     "9c7f668feea44e93a111": 1785382538.2896478,
     "9d184e600649975a1df6": 1785393352.1770194,
@@ -5793,7 +5858,6 @@
     "b5f43f63ab12f64f4479": 1785432044.1062367,
     "b630bac4f114bd0872f3": 1785405346.1416647,
     "b644468f864ba948a65d": 1785417040.3398924,
-    "b659a8d8fc6b95ddacf0": 1785327036.9285476,
     "b6bd9cea86ce31ca2e02": 1785352845.7408674,
     "b727338531c7266ef53b": 1785486946.497792,
     "b73eda34d5bf10710e0e": 1785342040.298233,
@@ -5833,7 +5897,6 @@
     "bce590bfbaf2fb40a269": 1785468933.2361386,
     "bcf25608c92fc2d2438f": 1785336943.6052191,
     "bd1f3d11bbe98b4943ff": 1785483345.9121764,
-    "bd4013b042a2a7df2845": 1785327036.928533,
     "bd4f5e3bf7ac9f865aa2": 1785333337.8980885,
     "bd5e0343fd085d4fdfbc": 1785388236.3389318,
     "bd6f50876185cbf950cc": 1785474642.096315,
@@ -5881,10 +5944,10 @@
     "c73ef2310b86677a5f68": 1785425690.0586214,
     "c7747ec388c3b6b01dce": 1785498937.5583265,
     "c7891c99c1bae2dc662a": 1785489042.134336,
+    "c83036f4a68b10b5aef4": 1785499846.5717795,
     "c8bc49ba9a57ca90fe69": 1785490537.4660778,
     "c98529b7de3f76121acb": 1785430531.8449204,
     "c9bc360787191341368f": 1785490537.4660711,
-    "c9c0ee7a1a6a15fd7ef7": 1785327036.9285545,
     "c9d37867e8c163fb387a": 1785417040.3398979,
     "ca205b41d16b3bf0c579": 1785335732.2602694,
     "ca2a1e7ac83651423717": 1785468933.2361712,
@@ -5904,6 +5967,7 @@
     "ce4fe4a632928d73a3db": 1785336943.605223,
     "ce77971d61b4ed829dbd": 1785409835.6056428,
     "ce8426a29bbaf6caccf3": 1785412534.6168604,
+    "cead47154ad2c9e3efcc": 1785499846.5717723,
     "cf3ebc681a4c0912dad4": 1785414945.0532787,
     "cfeff66e1aa5d4448ef8": 1785430531.8449228,
     "d0022650b7765bc40ae5": 1785480939.2563577,
@@ -5914,7 +5978,6 @@
     "d0d269118f94d0662a45": 1785382538.289652,
     "d12833dbeb8ce913ff5e": 1785484535.3121583,
     "d1360ee880b5218fff46": 1785476183.7676482,
-    "d15f05a17caf299e3e08": 1785327036.928546,
     "d1b74e5927bda7e88783": 1785494137.7259,
     "d1c4dc23f912bd2f82ca": 1785396939.24352,
     "d1cf6167f6750c68ad8a": 1785391847.46553,
@@ -5940,9 +6003,9 @@
     "d5dbb7b74582be166127": 1785419741.4533734,
     "d5ef158a85ee10522845": 1785474642.0963287,
     "d6a157c0f464873c484e": 1785468933.2361412,
-    "d710df75abcb93b4cb87": 1785327036.9285407,
     "d724163c8dc831db1cda": 1785391847.465703,
     "d7518dca90c930d6f7d3": 1785414945.0532894,
+    "d75fa8773954041707d3": 1785499846.5719376,
     "d7a1ba67151a23de9d18": 1785489042.1343284,
     "d7a26ff7942c614d98c9": 1785393352.1770208,
     "d7f1fce7c3222ed6ab25": 1785478235.66728,
@@ -5961,6 +6024,7 @@
     "daa4493884ef39d8104c": 1785468933.236167,
     "dab40f1fdf954e051019": 1785407730.0838144,
     "db44c65a7880f4d99e40": 1785423337.5941095,
+    "dbbf4fd9750066c2cbfb": 1785499846.571787,
     "dc37c9eb91a29d7420db": 1785407730.0838304,
     "dc70b6a8cba5f2f92643": 1785468933.2361526,
     "dcb4d699602ec027de47": 1785358542.166793,
@@ -5979,12 +6043,14 @@
     "df9cfbfd0e61279a8a75": 1785339335.029061,
     "e0b9530a224ee2be1cc5": 1785337855.2409105,
     "e0df2b850263e3cdeb73": 1785411333.870761,
+    "e13723ed32c84d25a258": 1785499846.5719419,
     "e1761154749d4b824306": 1785328536.7031357,
     "e1e75eb423bd16f57772": 1785468933.2363725,
     "e22f34d419882d728f9d": 1785332142.7973323,
     "e25eada6679e0f101f63": 1785494137.725906,
     "e2d76d19a24386631d69": 1785332142.7973113,
     "e2d8d2d7820d42a25eca": 1785474642.096326,
+    "e3274b4321c2a2b5ef35": 1785499846.5719411,
     "e37261b78a84ae3a5dd0": 1785333337.8980944,
     "e3a210114379ac0259aa": 1785351346.5945368,
     "e3e5b0caa384b16449e4": 1785491739.116064,
@@ -6019,6 +6085,7 @@
     "e971d3930da373f65fc0": 1785489042.134341,
     "e9fbe95f92e692d84b7b": 1785486946.4977713,
     "ea45171d9a200e6e62e2": 1785472540.1064894,
+    "ea469ebe12271f61b31c": 1785499846.5719454,
     "ead367cf0dc8d5fc7af9": 1785498937.5584993,
     "eaf85e448cbadc2b9560": 1785478235.6672838,
     "ebaf43424a97d9c47c6c": 1785399039.7828999,
@@ -6036,6 +6103,7 @@
     "eed1ba05da0f234b6cae": 1785407730.0838048,
     "eef22064ce9be2bc77ab": 1785490537.4660869,
     "ef10824ca7f09df9a131": 1785327648.5007734,
+    "ef8b8c9d05bca1cbd251": 1785499846.57194,
     "ef8d417f32d93810c744": 1785384645.0348818,
     "efad3e86f9c42d8da5e8": 1785483345.9121985,
     "efc5dbd4270ae4df30de": 1785382538.2896683,
@@ -6047,7 +6115,6 @@
     "f080e14776b2252ba343": 1785476183.7676501,
     "f1634f522a1948ce9b4c": 1785468933.2363818,
     "f165dadc49e553b25cd8": 1785498937.5583243,
-    "f18e7c23ef64ccbe827f": 1785327036.928552,
     "f19fc7f6cbe2b203e158": 1785480939.256362,
     "f1fa08f1442f8ff683cf": 1785468933.2361467,
     "f2003fa10a1d682c2a3c": 1785491739.1160526,
@@ -6059,6 +6126,7 @@
     "f3b929f1bd11be4fa32c": 1785401747.8807542,
     "f3c86ee421affed9d688": 1785414945.053288,
     "f3d512f4d38253617983": 1785404135.6777644,
+    "f454bebe064f480fab89": 1785499846.5719357,
     "f52e840e137678a1d83e": 1785407730.0838363,
     "f53f0aea8d9b697536d3": 1785474642.09633,
     "f59f15d906a1499c18c8": 1785496851.696065,
@@ -6095,6 +6163,7 @@
     "fb10a0818320aa86993b": 1785394538.2547626,
     "fb5f9088a50487aec294": 1785484535.312144,
     "fb8dc1a4cf4bb6452139": 1785472540.1064906,
+    "fba7404d270b5d779c69": 1785499846.571781,
     "fbca5e74a5e9fd70ea7f": 1785407730.0840073,
     "fc0f43514cdc3ba2b00b": 1785344132.2632966,
     "fc74df26c05937c16e23": 1785352845.7407146,
@@ -6116,61 +6185,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785498937.558299
+      "ts": 1785499846.5717587
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785498937.5583005
+      "ts": 1785499846.5717602
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785498937.5583029
+      "ts": 1785499846.5717623
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785498937.558307
+      "ts": 1785499846.5717666
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785498937.5583017
+      "ts": 1785499846.5717611
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785498937.5582922
+      "ts": 1785499846.5717525
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785498937.5582974
+      "ts": 1785499846.5717573
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785498937.5583062
+      "ts": 1785499846.5717657
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785498937.558304
+      "ts": 1785499846.5717638
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785498937.5583053
+      "ts": 1785499846.5717647
     }
   }
 }
