@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Trojročný chlapec nájdený v lese je už doma",
-      "ts": 1785558048.839101
-    },
-    {
-      "headline": "Česko má prvého zahraničného trénera reprezentácie",
-      "ts": 1785558048.839101
-    },
-    {
-      "headline": "Kritika financovania Korčoka cez firmu manželky",
-      "ts": 1785558048.839101
-    },
-    {
-      "headline": "Slovan Bratislava má blízko k Lige majstrov",
-      "ts": 1785558048.839101
-    },
-    {
-      "headline": "Rumunsko odstaví reaktor pre nízku hladinu Dunaja",
-      "ts": 1785558048.839101
-    },
-    {
       "headline": "Ruský útok na Kyjev si vyžiadal obete",
       "ts": 1785560137.6565325
     },
@@ -99,13 +79,57 @@
     {
       "headline": "Tragická nehoda policajta na Liptove",
       "ts": 1785570977.7904654
+    },
+    {
+      "headline": "Ruský útok na Kyjev: Počet obetí stúpol, zranených sú desiatky",
+      "ts": 1785573774.329771
+    },
+    {
+      "headline": "Požiar v Chráme Vasilija Blaženého v Moskve",
+      "ts": 1785573774.329771
+    },
+    {
+      "headline": "Ústavný súd sa obracia na Súdny dvor EÚ v dvoch kľúčových otázkach",
+      "ts": 1785573774.329771
+    },
+    {
+      "headline": "Záchranné zložky pátrajú po nezvestnom horolezcovi v Pakistane",
+      "ts": 1785573774.329771
+    },
+    {
+      "headline": "Trojročný chlapec nájdený v lese je už v domácej opatere",
+      "ts": 1785573774.329771
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Ústavný súd rieši citlivé otázky na európskej úrovni",
+        "headline": "Ruský útok na Kyjev: Počet obetí stúpol, zranených sú desiatky",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/ukrajina-rusko-zelenskyj-putin-trump-online-minuta-po-minute-1-8-2026?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2016945-rusi-opat-masivne-udreli-civilistov-v-kyjeve-zomrelo-devat-ludi-zranenych-je-skoro-30-ludi?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Ruské ozbrojené sily opätovne masívne zaútočili na ukrajinské hlavné mesto Kyjev. Útok si vyžiadal najmenej deväť obetí a takmer 30 zranených civilistov."
+      },
+      {
+        "headline": "Požiar v Chráme Vasilija Blaženého v Moskve",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2017005-v-chrame-vasilija-blazeneho-vypukol-poziar?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "V priestoroch historického Chrámu Vasilija Blaženého v ruskej metropole vypukol v sobotu skoro ráno požiar. Zásahovým zložkám sa oheň podarilo úspešne uhasiť."
+      },
+      {
+        "headline": "Ústavný súd sa obracia na Súdny dvor EÚ v dvoch kľúčových otázkach",
         "links": [
           [
             "Pravda",
@@ -113,182 +137,50 @@
           ],
           [
             "Teraz.sk",
-            "https://www.teraz.sk/slovensko/ustavny-sud-sr-sa-obratil-na-sudny/981957-clanok"
+            "https://www.teraz.sk/slovensko/ustavny-sud-sr-sa-obratil-na-sudny/981957-clanok.html"
           ]
         ],
-        "perex": "Ústavný súd SR sa obrátil na Súdny dvor EÚ s otázkami týkajúcimi sa uznávania manželstiev osôb rovnakého pohlavia. Zároveň žiada európsky súd o výklad práva v súvislosti s problematikou straty slovenského občianstva."
+        "perex": "Ústavný súd SR požiadal Súdny dvor Európskej únie o výklad práva v otázkach uznávania manželstiev osôb rovnakého pohlavia a straty štátneho občianstva. Ide o prejudiciálne otázky, ktoré majú vyjasniť vzťah vnútroštátnych zákonov k európskym normám."
       },
       {
-        "headline": "Extrémne horúčavy pokračujú a lámu historické rekordy",
+        "headline": "Záchranné zložky pátrajú po nezvestnom horolezcovi v Pakistane",
         "links": [
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2016909-extremne-horucavy-lamu-rekordy-v-rakusku-prvykrat-v-juli-namerali-viac-ako-40-stupnov?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "TN Live",
+            "https://tnlive.sk/sport/clanok/1043718-znamy-horolezec-je-nezvestny-po-pade-laviny-v-pakistane-zachranari-hlasia-styroch-mrtvych"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/ranne-noviny/1240985-obnovili-zachranne-operacie-purja-je-stale-nezvestny"
+          ]
+        ],
+        "perex": "Po páde lavíny v Pakistane zostal nezvestný známy horolezec a záchranári hlásia štyri obete. Záchranné operácie v náročnom teréne pokračujú aj napriek komplikovaným podmienkam."
+      },
+      {
+        "headline": "Trojročný chlapec nájdený v lese je už v domácej opatere",
+        "links": [
+          [
+            "TN Live",
+            "https://tnlive.sk/domace/clanok/1043687-pripad-preveruje-kriminalka-aj-socialka-trojrocneho-chlapca-nasli-po-viac-ako-30-hodinach"
           ],
           [
             "TN Live",
-            "https://tnlive.sk/domace/clanok/1043741-kravy-piju-trojnasobok-vody-a-davaju-menej-mlieka-horucavy-mozu-sposobit-jeho-nedostatok"
+            "https://tnlive.sk/domace/clanok/1043721-trojrocny-mario-je-uz-doma-z-nemocnice-otec-prezradil-v-akom-stave-ho-po-33-hodinach-v-lese-nasli"
           ]
         ],
-        "perex": "V Rakúsku namerali prvýkrát v júli teplotu nad 40 stupňov Celzia a podobné extrémy hlásia aj z Chorvátska. Slovenskí hygienici a meteorológovia varujú pred rizikami spojenými s vlnou horúčav, ktorá ovplyvňuje aj poľnohospodárstvo."
-      },
-      {
-        "headline": "Rastúci počet utopení a varovania záchranárov",
-        "links": [
-          [
-            "TN Live",
-            "https://tnlive.sk/domace/clanok/1043767-od-zaciatku-leta-sa-v-slovenských-vodach-utopilo-vyse-30-ludi-zachranari-varuju-pred-castou-chybou"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/utopenie-je-tretou-najcastejsou-pricinou-umrtia-deti-vo-veku-5-az-14-rokov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "Od začiatku leta sa v slovenských vodách utopilo už viac ako 30 ľudí, pričom ide o tretiu najčastejšiu príčinu úmrtia detí vo veku 5 až 14 rokov. Odborníci apelujú na rodičov, aby nepodceňovali nepretržitý dohľad nad deťmi pri vode."
-      },
-      {
-        "headline": "Napätie medzi futbalistami a poslancom Huliakom",
-        "links": [
-          [
-            "TN Live",
-            "https://tnlive.sk/domace/clanok/1043757-napaetie-medzi-futbalistami-a-huliakom-rastie-sfz-pripravuje-trestne-oznamenie"
-          ]
-        ],
-        "perex": "Slovenský futbalový zväz pripravuje trestné oznámenie v súvislosti s narastajúcim napätím medzi futbalovou obcou a poslancom Rudolfom Huliakom. Konflikt sa vyostril po sérii verejných vyjadrení, ktoré vyvolali negatívne reakcie."
-      },
-      {
-        "headline": "Tragická nehoda policajta na Liptove",
-        "links": [
-          [
-            "TN Live",
-            "https://tnlive.sk/domace/clanok/1043787-tragicka-nehoda-na-liptove-policajt-na-sluzobnom-motocykli-neprezil-zrazku-s-autom"
-          ]
-        ],
-        "perex": "Na Liptove došlo k tragickej dopravnej nehode, pri ktorej zahynul policajt na služobnom motocykli. K zrážke s osobným autom došlo v čase, keď sa v regióne stala aj ďalšia vážna nehoda vyžadujúca zásah vrtuľníka."
+        "perex": "Trojročný Mário, ktorého záchranári našli po viac ako 30 hodinách v lese, bol prepustený z nemocnice do domácej liečby. Otec dieťaťa potvrdil, že chlapec je po náročnom zážitku v stabilizovanom stave."
       }
     ],
-    "ts": 1785570977.7904565
+    "ts": 1785573774.3297608
   },
   "meta": {
-    "last_collection_ts": 1785572442.3118882,
+    "last_collection_ts": 1785573768.9117703,
     "last_feed_error_ts": 1785555332.0160618,
     "last_llm_error_ts": 1785243791.1408515,
-    "last_run_ts": 1785572443.0437605,
-    "last_synthesis_ts": 1785570977.7904518
+    "last_run_ts": 1785573769.2936563,
+    "last_synthesis_ts": 1785573774.329755
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/zahrada/c/slovanske-vydymovanie-chranilo-domy-aj-dusu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Pripravte si rafinované vydymovadlá.",
-      "s": "SME",
-      "t": "Slovanské vydymovanie chránilo domy aj dušu",
-      "ts": 1785486946.4977741,
-      "u": "e9fbe95f92e692d84b7b"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/ruska-jednotka-africky-zbor-pri-junovom-utoku-v-mali-zabila-osem-civilistov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Malijskí vojaci aj ich ruskí spojenci sú obviňovaní z porušovania ľudských práv.",
-      "s": "SME",
-      "t": "Ruská jednotka Africký zbor pri júnovom útoku v Mali zabila osem civilistov",
-      "ts": 1785486946.4977772,
-      "u": "72f1a5ee41897e04edbe"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLUIzX3J2bDN4M1JzUzI4blMzMXYyNGpXR3JVMU5qdkpnVGhBcXc5VHdxMk0ydkhieXJJRzg5Rkg5eU5DSUFLNXdDc3UzQ2o3RG5ZWDdoN1JxREZXdjZ1SWJTOFExQk9nV2ZKLTdUMUJCMkVuNEktQnlkTEdFMFB0MGF3SEJVQXIxOWc?oc=5",
-      "p": "Ozbrojenci v Benue zabili 14 osôb a mnohé ďalšie zranili&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Ozbrojenci v Benue zabili 14 osôb a mnohé ďalšie zranili - SME.sk",
-      "ts": 1785486946.4977787,
-      "u": "eff269fbf0f49dd63d1d"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcDFldjBhSlYxQ1pDMlJLb1IwMEJXSEFIUTNGbXlOT3lXZTkyd194TkljRVFYY1g4S1Y0OHVHWlZoYTZzRFYtdGhYdGpITDhBQ0NWQzY3NjhPb0pUNlR6RmJEc3pVSzlhZk9IRkxZbVdLU21aYXRCNFlEdFhQa3psZWJzVDNwMGRDY1Q2ZmtHTGhSV0M3ZkE?oc=5",
-      "p": "Európu a Severnú Ameriku ničia požiare, celosvetovo ich však ubúda&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Európu a Severnú Ameriku ničia požiare, celosvetovo ich však ubúda - SME.sk",
-      "ts": 1785486946.4977806,
-      "u": "d010d3e48a8b0ef801af"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/wQFtxyQ/europsky-ostrov-v-afrike-prekrocili-tisicky-migrantov-viaceri-zahynuli-spanielsko-tam-posiela-specialne-sily/",
-      "p": "Tisíce ľudí v priebehu hodín preplnili španielsku Ceutu z Maroka. Hranica skolabovala a Madrid posiela armádu aj posily pohraničnej stráže.",
-      "s": "Aktuality",
-      "t": "Európsky „ostrov“ v Afrike prekročili tisícky migrantov. Viacerí zahynuli, Španielsko tam posiela špeciálne sily",
-      "ts": 1785486946.4977818,
-      "u": "418dbf47d4850e86d7ae"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/0U39gNx/v-rozpocte-chyba-takmer-pol-miliardy-varuje-rozpoctova-rada-problemom-je-slaby-vyber-dani/",
-      "p": "Júlový rozpočtový semafor ukazuje, že hospodárenie štátu sa vzďaľuje od schváleného rozpočtu.",
-      "s": "Aktuality",
-      "t": "V rozpočte chýba takmer pol miliardy, varuje rozpočtová rada. Problémom je slabý výber daní",
-      "ts": 1785486946.497784,
-      "u": "fa7cfeb6ca72673ac5df"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/lzmJKwc/znamy-nepalsky-horolezec-nirmal-purdza-zmizol-po-pade-laviny-v-pakistane/",
-      "p": "Renomovaný horolezec Nirmal Purdža je medzi desiatimi nezvestnými po lavíne na Broad Peaku v pohorí Karakoram. Na nebezpečnú horu sa vydal po rekordných úspechoch.",
-      "s": "Aktuality",
-      "t": "Známy nepálsky horolezec Nirmal Purdža zmizol po páde lavíny v Pakistane",
-      "ts": 1785486946.4977849,
-      "u": "731063fb93938ad0f0e3"
-    },
-    {
-      "l": "https://dennikn.sk/5480484/lektor-slovenciny-durajka-cudzincov-neucime-vybrane-slova-nepotrebuju-ich/",
-      "p": "U&#160;zahraničných študentov boríme mýtus, že slovenčina je ťažká, hovorí Radoslav Ďurajka, lektor letnej školy slovenského jazyka a&#160;kultúry Studia Academica Slovaca (SAS). Univerzita Komenského v&#160;lete organizuje už 62. ročník tejto letnej jazykovej školy, ktorú absolvuje 173 študentov z&",
-      "s": "Denník N",
-      "t": "Lektor slovenčiny Ďurajka: Cudzincov neučíme vybrané slová, nepotrebujú ich",
-      "ts": 1785486946.4977863,
-      "u": "012c4fedf16041e8704e"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2016439-trump-schladil-zelenskeho-patriotmi-si-nie-je-isty?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Ukrajina už hovorila o politickej dohode, ktorá jej mala otvoriť cestu k vlastnej výrobe protiraketových striel Patriot. Americký prezident Donald Trump však po stretnutí s Volodymyrom Zelenským vyhlásil, že konečné rozhodnutie zatiaľ nepadlo. Pre Kyjev, ktorý čelí čoraz intenzívnejším ruským raketo",
-      "s": "Pravda",
-      "t": "Trump schladil Zelenského. Patriotmi si nie je istý",
-      "ts": 1785486946.4977877,
-      "u": "0a930fce9b470b3476b8"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/v-ramci-akcie-nemezis-podal-vysetrovat/981696-clanok.html",
-      "p": "V prípade sú obvinené dve osoby za spolupáchateľstvo na vražde 25-ročného muža zo Štúrova, ku ktorej malo dôjsť v januári 2005.",
-      "s": "Teraz.sk",
-      "t": "MRAZIVÝ PRÍPAD OŽIL: Polícia žiada väzbu pre dvoch obvinených",
-      "ts": 1785486946.497789,
-      "u": "b5eeae39e4f1c70d6010"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1240568-akcia-nemezis-dvojica-celi-obvineniu-z-vrazdy-mladeho-muza-o-vaezbe-rozhodne-sud",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Akcia Nemezis: Dvojica čelí obvineniu z vraždy mladého muža, o väzbe rozhodne súd",
-      "ts": 1785486946.49779,
-      "u": "b52306fc72e01617889f"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1240565-zena-mala-po-hadke-bodnut-muza-policia-ju-obvinila-z-pokusu-o-vrazdu",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Žena mala po hádke bodnúť muža. Polícia ju obvinila z pokusu o vraždu",
-      "ts": 1785486946.4977915,
-      "u": "38f40f3d9437ffc91aad"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1240560-parazit-z-dovolenky-trapi-coraz-viac-turistov-ide-z-vas-len-voda-opisuju-pacienti",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Parazit z dovolenky trápi čoraz viac turistov: \"Ide z vás len voda,\" opisujú pacienti",
-      "ts": 1785486946.4977922,
-      "u": "b727338531c7266ef53b"
-    },
-    {
-      "l": "https://www.noviny.sk/pr-spravy/1238743-automobilka-jac-motors-spusta-predaj-najkomplexnejsieho-modeloveho-radu-sucasnosti",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Automobilka JAC Motors spúšťa predaj najkomplexnejšieho modelového radu súčasnosti",
-      "ts": 1785486946.4977932,
-      "u": "52eb27812055ae5c7cc3"
-    },
     {
       "l": "https://www.sme.sk/domov/c/politologicka-mesochoritisova-ak-by-sme-si-priali-rodovu-rovnost-odstranili-by-sme-vsetky-prekazky-v-pristupe-k-interrupciam?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Ak nie je rovnosť v Národnej rade, je ťažké presadiť ju v krajine.",
@@ -3904,6 +3796,70 @@
       "t": "Čo chcú od nových primátorov a starostov? Analýza ukázala, čo ľudí pred voľbami trápi najviac",
       "ts": 1785572443.0437598,
       "u": "22d9a7dc635405828c76"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/stovky-bankomatov-v-rakusku-znizili-limit-na-vyber-hotovosti?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Limit je zvyčajne 400 eur.",
+      "s": "SME",
+      "t": "Stovky bankomatov v Rakúsku znížili limit na výber hotovosti",
+      "ts": 1785573769.293643,
+      "u": "07d31ff0f46b01e72bf9"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/pocet-obeti-migracnej-krizy-na-hranici-ceuty-s-marokom-stupol-na-67?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Madrid vybuduje ochrannú zábranu.",
+      "s": "SME",
+      "t": "Počet obetí migračnej krízy na hranici Ceuty s Marokom stúpol na 67",
+      "ts": 1785573769.2936456,
+      "u": "40edf0901ba3f5914540"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/po-nicivej-burke-uzavreli-narodny-park-saske-svajciarsko?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Zahynul jeden človek.",
+      "s": "SME",
+      "t": "Po ničivej búrke uzavreli národný park Saské Švajčiarsko",
+      "ts": 1785573769.2936473,
+      "u": "73355aaf6fbc7dee361d"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFAzdkhBS0VaczJ2b29vUktkM1UyZnAtWENJR3NxWi1URzc1bVBKMldpS2pRQngtT3NVWWlaNVgwdWw?oc=5",
+      "p": "Prihlásenie&nbsp;&nbsp;prihlasenie.sme.sk",
+      "s": "SME (GNews)",
+      "t": "Prihlásenie - prihlasenie.sme.sk",
+      "ts": 1785573769.2936487,
+      "u": "69695cef9d7ec7039e46"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOczB3OUJuZldoU3djX0R2cFdkaFZHemk5NG5FOFl3VWxYVGtNUzYzdUR1ZFJhUWRqanRKQndaT3Qxa21Jb2VMTmIyTVg2NFhEM0tZckJ5TkpOa2FVSkJMX2k1Ny0yRFV3YkR1NmhPZ01BaVhJMzZTeGN4RGtkbHVaTUllNi0yX1RLWE9tRWE3Y3Q3dFBIVVVvVkxQSGRnYk1nS1RwN3M0NEhwb19q?oc=5",
+      "p": "Kandidáti na primátora Košíc vidia najväčšie problémy v doprave a bezpečnosti&nbsp;&nbsp;Korzár",
+      "s": "SME (GNews)",
+      "t": "Kandidáti na primátora Košíc vidia najväčšie problémy v doprave a bezpečnosti - Korzár",
+      "ts": 1785573769.2936502,
+      "u": "e9f134d24e47b263bd0c"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE03YWdMdzRrdm1GMFVkcEJfem42UGdiZU5FMzBRRk1aYnNDNV82T2tQRHd3R1p3SGFkeDgzZTZGZHk1aG8?oc=5",
+      "p": "Bratislava SME - aktuálne správy z Bratislavy a okolia&nbsp;&nbsp;SME.sk",
+      "s": "SME (GNews)",
+      "t": "Bratislava SME - aktuálne správy z Bratislavy a okolia - SME.sk",
+      "ts": 1785573769.293652,
+      "u": "0f58296ca585f378c85d"
+    },
+    {
+      "l": "https://e.dennikn.sk/5482971/slovakov-na-oxforde-a-cambridgei-ubuda-talenty-si-nevedia-predstavit-z-coho-by-zaplatili-studium/",
+      "p": "Celej generácii Slovákov sa aj vďaka štúdiu na Oxforde a&#160;Cambridgei podarilo dostať do špičkových inštitúcií či vybudovať úspešné firmy. Okrem toho, že boli šikovní a&#160;ambiciózni, mali aj historické šťastie: na prestížne univerzity sa dostali ešte pred tým, ako Británia vystúpila z&#160;Eur",
+      "s": "Denník N",
+      "t": "Slovákov na Oxforde a Cambridgei ubúda. Talenty si nevedia predstaviť, z čoho by zaplatili štúdium",
+      "ts": 1785573769.2936537,
+      "u": "43503e301e3d1dca8243"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/dielo-tyzdna-sng-nosy-oci-usta-o/981962-clanok.html",
+      "p": "Znásobením očí, nosov a úst autor roláže túto vznešenosť mení na absurditu.",
+      "s": "Teraz.sk",
+      "t": "Dielo týždňa SNG: Nosy, oči, ústa od Jiřího Kolářa",
+      "ts": 1785573769.2936554,
+      "u": "d11a64b0f4eaf6d57544"
     }
   ],
   "recent_alerts": [
@@ -4602,6 +4558,7 @@
     "06f065b7c4b4862baa2f": 1785555332.0160913,
     "06f5f788cebc86f61e04": 1785419741.453367,
     "077d93c30ef47345ffed": 1785439240.8902395,
+    "07d31ff0f46b01e72bf9": 1785573769.2936394,
     "07f927bf7d3b571a9091": 1785501338.407624,
     "08aca2b24fa4a90bd592": 1785532252.5367293,
     "0929a3bfaa5b7fe111ee": 1785424236.9181828,
@@ -4629,6 +4586,7 @@
     "0e7d71d12e3df799cfff": 1785520540.254778,
     "0f0bd0604e166cc619e1": 1785468933.2361374,
     "0f18a560f4b0a27d889d": 1785468933.2361608,
+    "0f58296ca585f378c85d": 1785573769.2936509,
     "0f6963d5e6dc336a8b1a": 1785496239.7791526,
     "0fa5f261ceece07cf03c": 1785401747.880758,
     "1008ae38665a31993332": 1785494137.725893,
@@ -4825,6 +4783,7 @@
     "3fa38a0dfb18e8f54983": 1785408942.8239186,
     "404aff49346f820b4249": 1785424236.9181798,
     "40a76a39b0f5589ab84a": 1785406240.7962139,
+    "40edf0901ba3f5914540": 1785573769.2936442,
     "417097a6d5bf8d463bb8": 1785404135.677761,
     "417b0301fb7287310997": 1785497733.1558945,
     "418dbf47d4850e86d7ae": 1785486946.4977813,
@@ -4837,6 +4796,7 @@
     "42e7dde1dd9870e73f6e": 1785442838.4749706,
     "431d2ddf4ddacd628d76": 1785422131.2785356,
     "4329c5958e8cfbd3c7b0": 1785404135.677779,
+    "43503e301e3d1dca8243": 1785573769.2936525,
     "435e2e7716bd9808b332": 1785501338.4076288,
     "4370123362bd6aa4bba8": 1785502538.029835,
     "4397e564f13a572fe606": 1785405346.1416693,
@@ -4858,7 +4818,6 @@
     "48fa04bf9727d2534296": 1785407730.0838356,
     "492ded2fea568165f3dd": 1785499846.5717776,
     "493a9fe029052d3c158f": 1785468933.236155,
-    "49639297248a9b87648b": 1785400530.2880082,
     "49e5b74b9106e26a9cee": 1785494137.7259197,
     "4a1277e4f9211c7da9a8": 1785430531.8449275,
     "4a35e14ed8e1f3f3e8ed": 1785472540.106476,
@@ -4901,7 +4860,6 @@
     "53282ef17d466d9e6851": 1785468933.2363808,
     "53562c6b24dabea55ef1": 1785430531.8449297,
     "53628fa834908d17aafa": 1785407730.0838134,
-    "5397ea5d1c95563f86ea": 1785400530.288,
     "539e56441c8a6607999d": 1785498937.558328,
     "53aacdcec654fcbd48c9": 1785468933.2361748,
     "53cd943319024b90a48f": 1785405346.1416616,
@@ -4921,7 +4879,6 @@
     "58b8fa2e5c51d31b09b5": 1785567333.9327893,
     "58f0cf35dab3ef5f3909": 1785420643.5027256,
     "59085d88ce19684ab7d8": 1785497733.1560752,
-    "591d24472025e0181172": 1785400530.2880065,
     "595c55640274b98d3a76": 1785555332.016099,
     "59944c62e70ff27d5102": 1785555332.0161061,
     "599c1e35f86f7ed55fd9": 1785404135.677753,
@@ -4968,12 +4925,12 @@
     "65c671d82ee85ac7bff5": 1785404135.6777728,
     "65e6f83ea68a1e69ae6e": 1785422131.278531,
     "66345149e841722e1bdb": 1785411333.870759,
-    "669126788280ef83c147": 1785400530.2880023,
     "672c7beb6710c58138a8": 1785494137.7259011,
     "675140484d79a00dde1b": 1785560132.9138162,
     "6799c33b1d48e2fa5c7c": 1785406240.7962224,
     "67e0b6133eaf3f62db2a": 1785432044.1062257,
     "68405ab13e1f4335fba1": 1785422131.278528,
+    "69695cef9d7ec7039e46": 1785573769.2936478,
     "69c380df0a4305e24580": 1785413436.0282807,
     "69c7d453f73285745266": 1785422131.278529,
     "69cf9566253b9dd7b19b": 1785502538.0298219,
@@ -5009,7 +4966,6 @@
     "7186d75231b58bea3837": 1785510645.8818316,
     "71995afadddbb6909205": 1785480939.2563653,
     "71aa61ac6e511cb75ad1": 1785416133.3774748,
-    "71cd8872527aa4ad1bce": 1785400530.2880037,
     "7209b7f62f06146bf583": 1785426950.5931027,
     "720ca081ba77db74f8be": 1785471039.2313476,
     "727cad1e332fbf1a40dd": 1785497733.156077,
@@ -5020,6 +4976,7 @@
     "7308f192a7c191bd687d": 1785494137.7259161,
     "731063fb93938ad0f0e3": 1785486946.4977844,
     "7311e3542473f56381ad": 1785507050.7659578,
+    "73355aaf6fbc7dee361d": 1785573769.2936466,
     "738585295c151b4e30a6": 1785423337.5941205,
     "73abb3f621bc2d7041f8": 1785501338.407625,
     "73b50066f1af79f3e85c": 1785527821.3932776,
@@ -5215,7 +5172,6 @@
     "a979668fa667be209ab4": 1785503435.9921439,
     "a9d163022540b54e9af2": 1785468933.2361739,
     "aa2c8f1f54ef3149c10c": 1785474642.0963202,
-    "aa763033edf6ce5f70c5": 1785400530.288011,
     "aa7bb556738e29d6aeed": 1785491739.1160617,
     "aac091577e96512338b1": 1785494137.7258992,
     "ab36c7329cdbb31e2c47": 1785483345.9121847,
@@ -5389,6 +5345,7 @@
     "d01e723582a7e93790a5": 1785405346.141641,
     "d082d36d341bf19c365d": 1785568843.3491254,
     "d09e929f240b0733c5f1": 1785414945.0532854,
+    "d11a64b0f4eaf6d57544": 1785573769.2936544,
     "d12833dbeb8ce913ff5e": 1785484535.3121583,
     "d1360ee880b5218fff46": 1785476183.7676482,
     "d13d77375733f43293e9": 1785565251.586745,
@@ -5471,7 +5428,6 @@
     "e50ca9607d959e094200": 1785490537.4660852,
     "e537b1c93e274073ef0c": 1785413436.0282931,
     "e5db9c4331a4f3ca8c12": 1785468933.2361543,
-    "e5dc301987caf77d10d7": 1785400530.2880104,
     "e5ea56516c17d9650bd4": 1785481842.6186848,
     "e5f16712f2d071d546dd": 1785483345.912197,
     "e605dfde2d719f9b6159": 1785555332.0160825,
@@ -5486,12 +5442,12 @@
     "e791f235a322972606e4": 1785484535.3121548,
     "e7ea3846ad8aea13d9a4": 1785441343.8712246,
     "e8621ee086fe6b87ebef": 1785413436.028288,
-    "e8a91340523024190b94": 1785400530.2879944,
     "e8e8009cbe75c1511d80": 1785555332.016098,
     "e90fe7e3b7b224df0cdf": 1785502538.029834,
     "e95ec05e9165770e44f4": 1785480939.256364,
     "e96b927492a110b5d60f": 1785439240.8902404,
     "e971d3930da373f65fc0": 1785489042.134341,
+    "e9f134d24e47b263bd0c": 1785573769.2936492,
     "e9fbe95f92e692d84b7b": 1785486946.4977713,
     "ea45171d9a200e6e62e2": 1785472540.1064894,
     "ea469ebe12271f61b31c": 1785499846.5719454,
@@ -5578,8 +5534,6 @@
     "fd3a3eb2d13be65443b5": 1785416133.3774529,
     "fd68ba57d9d7df407ed1": 1785516956.0121567,
     "fd8aadcd50a143b0841d": 1785504941.3774316,
-    "fd95675e8f89ae274acc": 1785400530.2880054,
-    "fdb2ca303eef2a05459c": 1785400530.2880092,
     "fdf41dc0300c49ebfb7e": 1785428438.0319111,
     "fe05b27cdcc5c5442f5d": 1785474642.0963173,
     "ff136c203eef36f58d25": 1785411333.8707533,
@@ -5590,61 +5544,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785572443.043728
+      "ts": 1785573769.293624
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785572443.0437293
+      "ts": 1785573769.2936249
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785572443.043732
+      "ts": 1785573769.2936282
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785572443.0437365
+      "ts": 1785573769.293633
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785572443.0437307
+      "ts": 1785573769.2936268
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785572443.0437212
+      "ts": 1785573769.2936177
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785572443.0437264
+      "ts": 1785573769.2936223
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785572443.0437355
+      "ts": 1785573769.293632
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785572443.0437334
+      "ts": 1785573769.2936292
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785572443.0437346
+      "ts": 1785573769.2936304
     }
   }
 }
