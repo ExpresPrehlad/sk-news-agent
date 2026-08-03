@@ -30,6 +30,7 @@ from src.config import (
     OPENROUTER_API_KEY,
     SELECTION_LOG_DIR,
     SOURCES,
+    SPORT_SOURCES,
     STATE_PATH,
     SYNTHESIS_WINDOW_HOURS,
     DiscordConfig,
@@ -43,6 +44,7 @@ from src.notify.discord import (
     send_raw_feed,
 )
 from src.pages import write_page
+from src.sport_page import write_sport_page
 from src.schedule import should_collect, synthesis_interval_minutes
 from src.selection_log import SelectionLog
 from src.state import State
@@ -69,8 +71,9 @@ def _ago_str(ts: float) -> str:
 
 def check_feeds() -> int:
     results = fetch_all(SOURCES)
+    sport_results = fetch_all(SPORT_SOURCES)
     all_ok = True
-    for r in results:
+    for r in results + sport_results:
         if r.ok:
             print(f"  OK   {r.source.id:<10} {len(r.articles):>3} položiek   {r.source.feed_url}")
         else:
@@ -205,6 +208,9 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
         return 0
 
     results = fetch_all(SOURCES)
+    # Šport sa zbiera paralelne. Neprimiešava sa do výsledkov, z ktorých
+    # vzniká dnešný surový feed alebo LLM výber hlavnej stránky.
+    sport_results = fetch_all(SPORT_SOURCES)
     state.set_meta("last_collection_ts", time.time())
     failed = [r for r in results if not r.ok]
     for r in failed:
@@ -214,6 +220,11 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
         for a in r.articles:
             if state.is_new(a.uid):
                 new_articles.append(a)
+    new_sport_articles = []
+    for r in sport_results:
+        for a in r.articles:
+            if state.is_new(a.uid):
+                new_sport_articles.append(a)
 
     # Obohatenie titulkov pre sitemap/homepage zdroje (ta3, hn, noviny):
     # slug-titulky nahradíme skutočnými z og:title. Len pre NOVÉ články
@@ -244,6 +255,7 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
         sent_ok = send_raw_feed(discord.raw_feed_url, new_articles)
 
     state.set_source_status(results)
+    state.set_sport_source_status(sport_results)
 
     # Do #alerty sa hlásia len zlyhania NEoptional zdrojov — optional
     # (SME, GNews) zlyhávajú očakávane a stačí ich vidieť na stavovej stránke.
@@ -265,6 +277,12 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     for a in new_articles:
         state.mark_seen(a.uid)
         state.add_recent(
+            uid=a.uid, source=a.source_name, title=a.title,
+            perex=a.summary, link=a.link,
+        )
+    for a in new_sport_articles:
+        state.mark_seen(a.uid)
+        state.add_sport_recent(
             uid=a.uid, source=a.source_name, title=a.title,
             perex=a.summary, link=a.link,
         )
@@ -302,6 +320,7 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     # takže stránka je vždy aktuálna k poslednému behu. Zlyhanie nesmie
     # zhodiť beh — write_page interne chytá všetky výnimky.
     write_page(state)
+    write_sport_page(state)
     write_audit_page()
 
     state.save()

@@ -720,6 +720,7 @@ def build_html(state, generated_at: datetime | None = None) -> str:
     <nav aria-label="Hlavná navigácia">
       <a href="#top-temy">Prehľad</a>
       <a href="#media-radar">Media Radar</a>
+      <a href="sport.html">Šport</a>
       <a href="audit.html">História výberov</a>
     </nav>
     <div class="updated">

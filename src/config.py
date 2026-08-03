@@ -73,6 +73,13 @@ SOURCES: list[Source] = [
            kind="homepage"),
 ]
 
+# Samostatný športový tok nezasahuje do hlavného výberu správ.
+SPORT_SOURCES: list[Source] = [
+    # Oficiálny RSS export: https://sport.aktuality.sk/page/zoznam
+    Source("sport_sk", "Šport.sk", "https://sport.aktuality.sk/rss/",
+           optional=True),
+]
+
 
 # ---------------------------------------------------------------------------
 # Správanie collectora a stavu
@@ -158,6 +165,9 @@ SYNTHESIS_WINDOW_HOURS: int = 6
 
 # Koľko hodín držíme články v rolling bufferi v stave (vstup pre syntézu).
 RECENT_BUFFER_HOURS: int = 24
+
+SPORT_RECENT_BUFFER_HOURS: int = 24
+MAX_SPORT_RECENT_ITEMS: int = 250
 
 # ---------------------------------------------------------------------------
 # Rozvrh behu — pozri src/schedule.py pre logiku vyhodnocovania
