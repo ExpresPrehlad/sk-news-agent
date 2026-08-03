@@ -65,7 +65,7 @@ jobs:
           git config user.name "sk-news-agent[bot]"
           git config user.email "actions@users.noreply.github.com"
           mkdir -p docs
-          git add data/state.json data/selection_logs docs/index.html docs/audit.html docs/version.json
+          git add data/state.json data/selection_logs docs/index.html docs/audit.html docs/sport.html docs/version.json
           if ! git diff --cached --quiet; then
             git commit -m "state: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             if git pull --rebase origin "${GITHUB_REF_NAME}"; then

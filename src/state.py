@@ -24,7 +24,12 @@ import logging
 import os
 import time
 
-from .config import RECENT_BUFFER_HOURS, SEEN_WINDOW_HOURS
+from .config import (
+    MAX_SPORT_RECENT_ITEMS,
+    RECENT_BUFFER_HOURS,
+    SEEN_WINDOW_HOURS,
+    SPORT_RECENT_BUFFER_HOURS,
+)
 
 log = logging.getLogger(__name__)
 
@@ -34,11 +39,13 @@ class State:
         self.path = path
         self.seen: dict[str, float] = {}
         self.recent: list[dict] = []
+        self.sport_recent: list[dict] = []
         self.meta: dict[str, float] = {}
         self.last_digest: dict = {}       # {"topics": [...], "model": ..., "ts": ...}
         self.digest_topic_history: list[dict] = []  # [{"headline":..., "ts":...}, ...]
         self.recent_alerts: list[dict] = []  # rolling história pre stránku
         self.source_status: dict[str, dict] = {}  # id -> {"ok", "error", "ts"}
+        self.sport_source_status: dict[str, dict] = {}
         self._load()
 
     # -- I/O ---------------------------------------------------------------
@@ -52,6 +59,9 @@ class State:
                 data = json.load(f)
             self.seen = {str(k): float(v) for k, v in data.get("seen", {}).items()}
             self.recent = [r for r in data.get("recent", []) if isinstance(r, dict)]
+            self.sport_recent = [
+                r for r in data.get("sport_recent", []) if isinstance(r, dict)
+            ]
             self.meta = {str(k): float(v) for k, v in data.get("meta", {}).items()}
             self.last_digest = data.get("last_digest") or {}
             self.digest_topic_history = [
@@ -64,10 +74,15 @@ class State:
                 str(k): v for k, v in data.get("source_status", {}).items()
                 if isinstance(v, dict)
             }
+            self.sport_source_status = {
+                str(k): v for k, v in data.get("sport_source_status", {}).items()
+                if isinstance(v, dict)
+            }
         except (json.JSONDecodeError, OSError, ValueError, TypeError) as exc:
             log.error("Stav %s je poškodený (%s) — čistý štart.", self.path, exc)
-            self.seen, self.recent, self.meta = {}, [], {}
+            self.seen, self.recent, self.sport_recent, self.meta = {}, [], [], {}
             self.last_digest, self.recent_alerts, self.source_status = {}, [], {}
+            self.sport_source_status = {}
             self.digest_topic_history = []
 
     def save(self) -> None:
@@ -83,11 +98,13 @@ class State:
                 {
                     "seen": self.seen,
                     "recent": self.recent,
+                    "sport_recent": self.sport_recent,
                     "meta": self.meta,
                     "last_digest": self.last_digest,
                     "digest_topic_history": self.digest_topic_history,
                     "recent_alerts": self.recent_alerts,
                     "source_status": self.source_status,
+                    "sport_source_status": self.sport_source_status,
                 },
                 f,
                 ensure_ascii=False,
@@ -116,6 +133,17 @@ class State:
     def recent_window(self, hours: float) -> list[dict]:
         cutoff = time.time() - hours * 3600
         return [r for r in self.recent if float(r.get("ts", 0)) >= cutoff]
+
+    def add_sport_recent(self, *, uid: str, source: str, title: str,
+                         perex: str, link: str) -> None:
+        self.sport_recent.append(
+            {"u": uid, "s": source, "t": title, "p": perex[:300], "l": link,
+             "ts": time.time()}
+        )
+
+    def sport_recent_window(self, hours: float) -> list[dict]:
+        cutoff = time.time() - hours * 3600
+        return [r for r in self.sport_recent if float(r.get("ts", 0)) >= cutoff]
 
     # -- GitHub Pages: posledný digest, história alertov, zdravie zdrojov --
 
@@ -164,6 +192,15 @@ class State:
                 "ts": time.time(),
             }
 
+    def set_sport_source_status(self, results) -> None:
+        for r in results:
+            self.sport_source_status[r.source.id] = {
+                "name": r.source.name,
+                "ok": r.ok,
+                "error": r.error,
+                "ts": time.time(),
+            }
+
     def _prune(self) -> None:
         cutoff = time.time() - SEEN_WINDOW_HOURS * 3600
         before = len(self.seen)
@@ -173,6 +210,10 @@ class State:
             log.info("Stav: odstránených %d starých záznamov.", removed)
         rcutoff = time.time() - RECENT_BUFFER_HOURS * 3600
         self.recent = [r for r in self.recent if float(r.get("ts", 0)) >= rcutoff]
+        sport_cutoff = time.time() - SPORT_RECENT_BUFFER_HOURS * 3600
+        self.sport_recent = [
+            r for r in self.sport_recent if float(r.get("ts", 0)) >= sport_cutoff
+        ][-MAX_SPORT_RECENT_ITEMS:]
         # Alerty držíme viditeľné dlhšie (7 dní) — sú vzácne a hodnotné,
         # na rozdiel od surového bufferu nezaťažujú veľkosť súboru.
         acutoff = time.time() - 7 * 24 * 3600

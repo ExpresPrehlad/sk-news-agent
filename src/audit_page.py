@@ -258,6 +258,7 @@ tbody tr:hover {{ background:#F7F9FC; }}
   <nav aria-label="Hlavná navigácia">
     <a href="index.html#top-temy">Prehľad</a>
     <a href="index.html#media-radar">Media Radar</a>
+    <a href="sport.html">Šport</a>
     <a class="active" href="audit.html" aria-current="page">História výberov</a>
   </nav>
   <div class="updated">Aktualizované {generated}</div>
