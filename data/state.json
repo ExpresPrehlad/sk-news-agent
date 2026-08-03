@@ -1,46 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Škandál exposlanca: Prokuratúra začala konať ex offo",
-      "ts": 1785764147.1718137
-    },
-    {
-      "headline": "Nahrávka z FPU naznačuje nátlaky na šéfa fondu",
-      "ts": 1785764147.1718137
-    },
-    {
-      "headline": "Rumunsko vyslalo stíhačky proti objektu pri hraniciach",
-      "ts": 1785764147.1718137
-    },
-    {
-      "headline": "Sereď otvorila nový most po siedmich rokoch",
-      "ts": 1785764147.1718137
-    },
-    {
-      "headline": "Zber bio arónie na východe Slovenska",
-      "ts": 1785764147.1718137
-    },
-    {
-      "headline": "Nahrávka z FPU naznačuje nátlaky, ministerstvo sľubuje vyšetrovanie",
-      "ts": 1785764613.9989219
-    },
-    {
-      "headline": "Súd definitívne zamietol obnovu konania v kauze Cervanová",
-      "ts": 1785764613.9989219
-    },
-    {
-      "headline": "Ukrajinské útoky na ruské sklady spôsobili obrovské straty",
-      "ts": 1785764613.9989219
-    },
-    {
-      "headline": "Poľsko bojuje s prudkým nárastom hepatitídy typu A",
-      "ts": 1785764613.9989219
-    },
-    {
-      "headline": "Desiatky tisíc podnikateľov na Slovensku ukončili činnosť",
-      "ts": 1785764613.9989219
-    },
-    {
       "headline": "Nahrávka z FPU: Ministerstvo kultúry sľubuje vyvodenie zodpovednosti",
       "ts": 1785766264.2038162
     },
@@ -183,11 +143,49 @@
     {
       "headline": "Robert F. Kennedy vyzval na očkovanie proti osýpkam",
       "ts": 1785776148.1018384
+    },
+    {
+      "headline": "Súd v kauze Donovaly a Báč: Kočnerovi hrozí ďalší trest",
+      "ts": 1785779746.5339482
+    },
+    {
+      "headline": "Hromadná nehoda na diaľnici D1 pri Senci",
+      "ts": 1785779746.5339482
+    },
+    {
+      "headline": "Bratislava zaznamenala historický teplotný rekord",
+      "ts": 1785779746.5339482
+    },
+    {
+      "headline": "Pseudomor hydiny na Kysuciach",
+      "ts": 1785779746.5339482
+    },
+    {
+      "headline": "Zelenskyj odvolal veľvyslankyňu v USA",
+      "ts": 1785779746.5339482
+    },
+    {
+      "headline": "Nebezpečná paštéta s baktériou v ČR",
+      "ts": 1785779746.5339482
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
+      {
+        "headline": "Súd v kauze Donovaly a Báč: Kočnerovi hrozí ďalší trest",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/obzalovana-v-kauze-donovaly-chcela-stiahnut-vyhlasenie-o-vine-sud-jej-to-neumoznil?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/2aom4Fo/kauza-donovaly-a-bac-sud-s-marianom-kocnerom-pokracuje-zaverecnymi-recami/"
+          ]
+        ],
+        "perex": "Proces s Marianom Kočnerom v kauze Donovaly a Báč pokračuje záverečnými rečami, v ktorých prokurátor žiada pre obžalovaného ďalší tvrdý trest a vysokú pokutu. Súd zároveň zamietol žiadosť spoluobžalovanej Šlachtovej o stiahnutie jej vyhlásenia o vine."
+      },
       {
         "headline": "Hromadná nehoda na diaľnici D1 pri Senci",
         "links": [
@@ -197,10 +195,10 @@
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2017987-foto-hromadna-nehoda-ochromila-d1-smerom-do-bratislavy-zasahuje-aj-vrtulnik-dopravu-odklanaju-pri-senci/"
+            "https://www.pravda.sk/spravy/regiony/clanok/2017987-foto-hromadna-nehoda-ochromila-d1-smerom-do-bratislavy-zasahuje-aj-vrtulnik-dopravu-odklanaju-pri-senci?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ]
         ],
-        "perex": "Na diaľnici D1 v smere do Bratislavy došlo k hromadnej dopravnej nehode, ktorá si vyžiadala zásah všetkých záchranných zložiek vrátane vrtuľníka. Doprava v úseku je obmedzená a polícia vozidlá odkláňa mimo diaľnice."
+        "perex": "Diaľnica D1 v smere do Bratislavy bola ochromená hromadnou dopravnou nehodou viacerých vozidiel. Na mieste zasahovali všetky záchranné zložky vrátane vrtuľníka, pričom doprava bola odkláňaná."
       },
       {
         "headline": "Bratislava zaznamenala historický teplotný rekord",
@@ -214,125 +212,57 @@
             "https://www.noviny.sk/ranne-noviny/1241839-v-bratislave-padol-novy-teplotny-rekord"
           ]
         ],
-        "perex": "V hlavnom meste namerali 39,9 stupňa Celzia, čo je podľa meteorológov najvyššia hodnota v histórii meraní. Extrémne horúčavy naďalej sužujú veľkú časť územia Slovenska."
+        "perex": "Hlavné mesto zasiahla vlna extrémnych horúčav, počas ktorej meteorológovia namerali 39,9 stupňa Celzia. Ide o absolútny teplotný rekord v histórii meraní v Bratislave."
       },
       {
-        "headline": "Slovinsko a Rumunsko čelia energetickým rizikám pre sucho",
+        "headline": "Pseudomor hydiny na Kysuciach",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/wdAN861/rumunska-armada-odpalila-skalu-na-dunaji-kriticky-nizka-hladina-ohrozuje-jadrovu-elektraren-cernavoda/"
+            "https://www.aktuality.sk/clanok/DiDJ1Ya/na-kysuciach-zaznamenali-pseudomor-hydiny-za-par-hodin-uhynulo-v-sukromnom-chove-90-percent-kurciat/"
           ],
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/z9Dnzx7/extremne-horucavy-mozu-obmedzit-prevadzku-slovinskej-jadrovej-elektrarne-krsko/"
+            "Noviny.sk",
+            "https://www.noviny.sk/slovensko/1241885-na-kysuciach-zaznamenali-pseudomor-hydiny-v-sukromnom-drobnochove"
           ]
         ],
-        "perex": "Extrémne nízke hladiny riek ohrozujú prevádzku jadrových elektrární v Slovinsku aj Rumunsku. Obe krajiny prijímajú preventívne opatrenia vrátane znižovania výkonu reaktorov či odstrelov skál v korytách."
+        "perex": "V súkromnom drobnochove na Kysuciach zaznamenali výskyt Newcastleskej choroby, známej ako pseudomor hydiny. Nákaza spôsobila v priebehu niekoľkých hodín úhyn 90 percent chovaných zvierat."
       },
       {
-        "headline": "Incidenty nad Baltským morom zvyšujú napätie",
+        "headline": "Zelenskyj odvolal veľvyslankyňu v USA",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/0ySmuOQ/polske-stihacky-zachytili-ruske-prieskumne-lietadlo-v-priestore-baltskeho-mora/"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2017975-testuje-rusko-reakciu-polskej-armady-nad-baltom-hlasia-dalsi-incident-so-stihackami/"
+            "https://www.aktuality.sk/clanok/YDp0XS3/ukrajinsky-prezident-volodymyr-zelenskyj-odvolal-velvyslankynu-v-usa/"
           ]
         ],
-        "perex": "Poľské stíhačky opakovane zachytili ruské prieskumné lietadlo Il-20, ktoré sa pohybovalo v medzinárodnom vzdušnom priestore bez letového plánu. Ide o ďalší z radu incidentov, ktoré testujú reakcie armád krajín NATO v regióne."
+        "perex": "Ukrajinský prezident Volodymyr Zelenskyj odvolal veľvyslankyňu v USA Oľhu Stefanišynovú v rámci rozsiahlej vládnej reorganizácie. Kyjev týmto krokom signalizuje zmenu stratégie v oblasti diplomacie a získavania vojenskej pomoci."
       },
       {
-        "headline": "Robert F. Kennedy vyzval na očkovanie proti osýpkam",
+        "headline": "Nebezpečná paštéta s baktériou v ČR",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2017845-usa-hlasi-najvacsie-sirenie-osypok-za-desatrocia-antivaxer-kennedy-otocil-a-vyzval-na-ockovanie/"
+            "https://www.pravda.sk/spravy/svet/clanok/2017905-v-ceskom-hoteli-ktory-navstevuju-aj-slovanci-odhalili-nebezpecnu-pastetu-obsahuje-bakteriu-ktora-aj-zabija?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ],
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/D79ztaU/zvrat-v-boji-s-antivaxermi-robert-f-kennedy-apeluje-na-rodicov-aby-deti-nechali-zaockovat/"
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/urad-upozornuje-na-nevyhovujucu-brav/982468-clanok.html"
           ]
         ],
-        "perex": "Dlhoročný odporca vakcín a americký politik Robert F. Kennedy mladší vyzval rodičov, aby dali svoje deti zaočkovať. USA totiž zaznamenávajú najvyšší počet prípadov osýpok za posledných 35 rokov."
+        "perex": "Úrad verejného zdravotníctva varuje pred konzumáciou bravčovej paštéty s mandľami, ktorú objavili v českom hoteli navštevovanom aj Slovákmi. Výrobok obsahuje nebezpečnú baktériu Clostridium botulinum, ktorá môže byť smrteľná."
       }
     ],
-    "ts": 1785776148.1018276
+    "ts": 1785779746.53394
   },
   "meta": {
-    "last_collection_ts": 1785777639.8605852,
+    "last_collection_ts": 1785779739.2152545,
     "last_feed_error_ts": 1785772541.4660928,
     "last_llm_error_ts": 1785243791.1408515,
-    "last_run_ts": 1785777640.5328422,
-    "last_synthesis_ts": 1785776148.1018221
+    "last_run_ts": 1785779740.451626,
+    "last_synthesis_ts": 1785779746.533936
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/grecka-policia-zadrzala-podozriveho-z-vrazdy-britky-ktorej-telo-nasli-v-kufri?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Proti mužovi bolo začaté trestné stíhanie.",
-      "s": "SME",
-      "t": "Grécka polícia zadržala podozrivého z vraždy Britky, ktorej telo našli v kufri",
-      "ts": 1785691242.8750453,
-      "u": "cedf584d945c74d2185b"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXkzTWRYcjFtY3htNUFKbmZSZ24zWEV6YTh0UVdfU0tBNTV0ek1nS1VhdVhzNHZmcG5pVGEwaWtqVHc4ODdhWmRGWERVT2JleTNCX0tOSC0zNTRZY2dlV04ydlRiS2FpcFRPX0xqSHBlYThkV0JmYS1LclBzc3BJOWN5cWRweEcxTkFpalRpX01wV1g1WE1qYg?oc=5",
-      "p": "Tri domorodé sestry oživujú v Amazonii kmeň, bol na pokraji vymretia&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Tri domorodé sestry oživujú v Amazonii kmeň, bol na pokraji vymretia - SME.sk",
-      "ts": 1785691242.875048,
-      "u": "6cb9d662e46f072197dc"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTnVkT1BOeDRTeFh2YjkzSVlHbXVObElacDBCTEFHS0N5M0VtNU52T1ROcVEzRnRpb2JQeFVpQWNDcjBiNEtlcXBKcVluZXNHWm5JSHNIb3oxb3hGMVJvSFl6MEgxeGlOMDhXbW0wclgwSVd4cWRtZ1BiM1FROTNuLUdyZzR3cVpCYXUwOHdZVVQ0dkFSM3g4MThJQlJ4ZE9IaXJlYQ?oc=5",
-      "p": "Zalka mal medzi mužmi sekundový náskok. Ženský súboj priniesol väčšiu drámu&nbsp;&nbsp;SPORTNET",
-      "s": "SME (GNews)",
-      "t": "Zalka mal medzi mužmi sekundový náskok. Ženský súboj priniesol väčšiu drámu - SPORTNET",
-      "ts": 1785691242.875049,
-      "u": "9822e9907e3667dad8ce"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/CFKRsTt/vrazda-britky-v-atenach-ma-dohru-grecka-policia-zadrzala-26-rocneho-muza-jej-telo-nasli-v-kufri/",
-      "p": "Telo obete mal naložiť do kufra, previezť ho a následne pomocou jej bankomatových kariet vybrať peniaze.",
-      "s": "Aktuality",
-      "t": "Vražda Britky v Aténach má dohru: Grécka polícia zadržala 26-ročného muža, jej telo našli v kufri",
-      "ts": 1785691242.87505,
-      "u": "c60944bddff4995e3540"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/na-liptove-je-vyse-900-km-cyklotras-j/982201-clanok.html",
-      "p": "V regióne Tatry - Spiš - Pieniny sú asfaltové cyklochodníky medzi Spišskou Belou a Tatranskou Kotlinou alebo popri Dunajci z Červeného Kláštora do Lesnice.",
-      "s": "Teraz.sk",
-      "t": "Na Liptove je vyše 900 km cyklotrás, jedna približuje Liptovskú Maru",
-      "ts": 1785691242.8750508,
-      "u": "a17f9a6d5cac77cfefcd"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/najvyssie-vystrahy-pred-teplotami-sa-v-pondelok-tykaju-juhu-a-juhozapadu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Vysoké teploty zvyšujú aj riziko vzniku požiarov.",
-      "s": "SME",
-      "t": "Najvyššie výstrahy pred teplotami sa v pondelok týkajú juhu a juhozápadu",
-      "ts": 1785693338.4234583,
-      "u": "ba371b1b6a363e0561a7"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50NjZ5YXBCR2ZHa3ZCbkFBdnpBZjU3Z1R2M3dvZjJGZFpHZmdIczQ1WlV3dTB1Z3psZEFFNElMMVJOcHJZbm1FcERXazRiNlJRZE85aTVaU0ZKTE1OUHpSUmNiVWlKWWt0?oc=5",
-      "p": "Magyarova diera do systému&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Magyarova diera do systému - SME.sk",
-      "ts": 1785693338.423461,
-      "u": "b73eda34d5bf10710e0e"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/extremne-horucavy-vystrahy-pred-tep/982207-clanok.html",
-      "p": "Vysoké teploty a sucho výrazne zvyšujú aj riziko vzniku požiarov.",
-      "s": "Teraz.sk",
-      "t": "EXTRÉMNE HORÚČAVY: Výstrahy pred teplotami sa týkajú juhu a juhozápadu",
-      "ts": 1785693338.4234624,
-      "u": "eb910fba5bcbde0f0946"
-    },
     {
       "l": "https://www.sme.sk/domov/c/pokles-hladiny-dunaja-odhalil-pravdepodobne-municiu-z-2-svetovej-vojny?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Premávka po rieke je pozastavená.",
@@ -4196,18 +4126,113 @@
       "t": "Nové zistenia v prípade Íra (15), ktorý zrazil cyklistu a ušiel. Do väzby nepôjde",
       "ts": 1785777640.5328376,
       "u": "0eff672430ada0fc3dff"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/trump-odsudil-vyjadrenia-iranu-ze-v-sucasnosti-nevedie-rokovania-s-usa?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Vojenská blokáda zo strany USA bude podľa Trumpa pokračovať.",
+      "s": "SME",
+      "t": "Trump odsúdil vyjadrenia Iránu, že v súčasnosti nevedie rokovania s USA",
+      "ts": 1785779740.4516008,
+      "u": "83034790b19466bb40f1"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/karikatura-dna-abeceda-politiky?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Kreslí Mikuláš Sliacky",
+      "s": "SME",
+      "t": "Karikatúra dňa: Abeceda politiky",
+      "ts": 1785779740.4516037,
+      "u": "54973eddffbbbde19206"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcE1Td0RISjVhbEphMEpFZXFTcHpxbUp3RFBhQ0VxcmpDT3p5Yk5CYnhyRjJFTFUyQ1AzWXczUjlpUDJfcEN6SUxIZl9tMHU5UTRZOEhDa0VfU19QQW1CR1hXNGlGWXNLMmFrYlRtcWNDMG50TWF1MjI0c08wNjVXV2VNd21pdk0?oc=5",
+      "p": "Amerika nie je Orava, kde pomáha babke. Slovák si po prvom striedaní myslel, že končí&nbsp;&nbsp;SPORTNET",
+      "s": "SME (GNews)",
+      "t": "Amerika nie je Orava, kde pomáha babke. Slovák si po prvom striedaní myslel, že končí - SPORTNET",
+      "ts": 1785779740.4516056,
+      "u": "ae709363beea48e35a6a"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/DiDJ1Ya/na-kysuciach-zaznamenali-pseudomor-hydiny-za-par-hodin-uhynulo-v-sukromnom-chove-90-percent-kurciat/",
+      "p": "V drobnochove na Kysuciach uhynulo počas pár hodín 90 percent hydiny v dôsledku Newcastleskej choroby. Štátni veterinári už poznajú pravdepodobný zdroj nákazy.",
+      "s": "Aktuality",
+      "t": "Na Kysuciach zaznamenali pseudomor hydiny, za pár hodín uhynulo v súkromnom chove 90 percent kurčiat",
+      "ts": 1785779740.4516065,
+      "u": "9808fbb940b591d1ddb7"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/uuhmcPG/rusky-utok-na-cerpaciu-stanicu-pri-kryvom-rihu-si-vyziadal-tri-obete-medzi-mrtvymi-je-aj-osemrocny-chlapec/",
+      "p": "Rusko zasiahlo čerpaciu stanicu pri Kryvom Rihu a pripravilo o život najmenej troch ľudí vrátane dieťaťa. Útok sprevádzal požiar.",
+      "s": "Aktuality",
+      "t": "Ruský útok na čerpaciu stanicu pri Kryvom Rihu si vyžiadal tri obete. Medzi mŕtvymi je aj osemročný chlapec",
+      "ts": 1785779740.4516077,
+      "u": "2129996d44641164bdbb"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/QAtDiBI/pri-nehode-v-okrese-cadca-sa-zranilo-pat-osob/",
+      "p": "V Staškove v okrese Čadca sa ráno zrazili tri osobné autá a zranilo sa päť ľudí aj malé dieťa. Hasiči z Turzovky pomáhali pri ošetrovaní a zabezpečení miesta.",
+      "s": "Aktuality",
+      "t": "Pri nehode v okrese Čadca sa zranilo päť osôb",
+      "ts": 1785779740.4516087,
+      "u": "277b6cb2e0b20e786286"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/YDp0XS3/ukrajinsky-prezident-volodymyr-zelenskyj-odvolal-velvyslankynu-v-usa/",
+      "p": "Zelenskyj odvolal veľvyslankyňu v USA Oľhu Stefanišynovú uprostred rozsiahlej vládnej reorganizácie. Kyjev signalizuje tvrdší kurz pri získavaní zbraní.",
+      "s": "Aktuality",
+      "t": "Ukrajinský prezident Volodymyr Zelenskyj odvolal veľvyslankyňu v USA",
+      "ts": 1785779740.4516098,
+      "u": "0c8f6a3f1d31e0a5da4a"
+    },
+    {
+      "l": "https://dennikn.sk/5486972/hradzu-proti-nelegalnym-migrantom-chce-stavat-aj-opozicia-najmenej-pocut-ps/",
+      "p": "Zvlášť niektoré političky PS dostávajú záplavu nenávistných správ od ľudí, ktorí v&#160;nich vidia \"vítačky migrantov\".",
+      "s": "Denník N",
+      "t": "Hrádzu proti nelegálnym migrantom chce stavať aj opozícia, najmenej počuť PS",
+      "ts": 1785779740.4516113,
+      "u": "d665dff42ea5dc852743"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/rada-zmos-ziada-zacat-rokovania-o-sta/982475-clanok.html",
+      "p": "Považuje za nevyhnutné začať so štátom rokovania o obnovení podielu miest a obcí na výnose dane z príjmov fyzických osôb na úroveň 56,1 percenta.",
+      "s": "Teraz.sk",
+      "t": "Rada ZMOS žiada začať rokovania o stabilizácii financovania samospráv",
+      "ts": 1785779740.4516125,
+      "u": "2499fd68e0b7a255610a"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1241885-na-kysuciach-zaznamenali-pseudomor-hydiny-v-sukromnom-drobnochove",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Na Kysuciach zaznamenali pseudomor hydiny v súkromnom drobnochove",
+      "ts": 1785779740.4516134,
+      "u": "57511535606a9e53e367"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1240547-bratislava-reaguje-na-vlnu-horucav-spusta-siet-viac-ako-30-bezplatnych-ochladzovacich-miest",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Mestá reagujú na vlnu horúčav. Bratislava spúšťa sieť ochladzovacích miest, Trnava otvorí nečakaný priestor",
+      "ts": 1785779740.4516146,
+      "u": "a4d1ef7f8f3ca56b144f"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1241159-slovensko-ponuka-pomoc-madarsku-v-pripade-energetickej-nudze",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Slovensko ponúka pomoc Maďarsku v prípade energetickej núdze",
+      "ts": 1785779740.4516158,
+      "u": "e2665c65914f1020ff85"
+    },
+    {
+      "l": "https://www.noviny.sk/pr-spravy/1239475-ziadame-preverit-financovanie-kampane-kandidatov-ps",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Žiadame preveriť financovanie kampane kandidátov PS",
+      "ts": 1785779740.4516165,
+      "u": "b7fdd042c2c5455382ab"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.noviny.sk/zahranicie/1238400-male-lietadlo-sa-zrutilo-na-rodinny-dom-najmenej-jeden-clovek-zahynul"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o tragickú nehodu s obeťami na životoch, čo napĺňa kritériá mimoriadnej správy.",
-      "title": "Malé lietadlo sa zrútilo na rodinný dom. Najmenej jeden človek zahynul",
-      "ts": 1785172848.0957067
-    },
     {
       "links": [
         "https://www.noviny.sk/krimi/1238424-mlady-turista-zahynul-vo-vysokych-tatrach-po-posmyknuti-spadol-priblizne-150-metrov"
@@ -4930,6 +4955,15 @@
       "reason": "Hromadná nehoda na kľúčovej diaľničnej tepne s účasťou záchranného vrtuľníka spôsobuje zásadný výpadok dopravy pre verejnosť.",
       "title": "Na D1 v smere do Bratislavy došlo k hromadnej nehode, doprava je odkláňaná",
       "ts": 1785774050.7057714
+    },
+    {
+      "links": [
+        "https://www.aktuality.sk/clanok/DiDJ1Ya/na-kysuciach-zaznamenali-pseudomor-hydiny-za-par-hodin-uhynulo-v-sukromnom-chove-90-percent-kurciat/"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Ide o vysoko nákazlivú chorobu hydiny s rizikom rýchleho šírenia, ktorá si vyžaduje okamžitú pozornosť veterinárnych orgánov a verejnosti.",
+      "title": "Na Kysuciach zaznamenali pseudomor hydiny, za pár hodín uhynulo v súkromnom chove 90 percent kurčiat",
+      "ts": 1785779742.3421173
     }
   ],
   "seen": {
@@ -4969,6 +5003,7 @@
     "0bc44ccb4d7db5b70f17": 1785751839.5786998,
     "0bdb62e848500271c055": 1785758142.595332,
     "0be2e13d73238ad7f783": 1785772541.4661212,
+    "0c8f6a3f1d31e0a5da4a": 1785779740.4516094,
     "0d6a0b228939e043b613": 1785728141.0511243,
     "0d6d4c13d23e3e832ae9": 1785653730.1291862,
     "0d8a1da8b6a9c5083def": 1785672635.555658,
@@ -5037,6 +5072,7 @@
     "1fd3dda22e8e4ee3f0dc": 1785668145.0120542,
     "1fed2a4169028c53c6a5": 1785750936.136332,
     "20babb8b01b21dac33b0": 1785641838.5331511,
+    "2129996d44641164bdbb": 1785779740.451607,
     "212da8459d85eb781a89": 1785610590.2074025,
     "2136014ad7ebc0ed3d88": 1785683447.4053226,
     "215c009fe88b88fd389f": 1785743758.4176776,
@@ -5050,6 +5086,7 @@
     "245c6ed856ec5b3e7cea": 1785749737.1871278,
     "2472de3f84eefd072be6": 1785774048.5034735,
     "24809a419d17d327dd77": 1785728141.0513344,
+    "2499fd68e0b7a255610a": 1785779740.451612,
     "2545f865fb4aa98a4a58": 1785777640.5328271,
     "25be2ee3dbf054b6b8ea": 1785696931.06477,
     "25d69e29673ea1b62e20": 1785740130.8955567,
@@ -5058,6 +5095,7 @@
     "269c2dcbddbc000c29ba": 1785760544.8184636,
     "26c3e9154a490280bc3e": 1785641838.5331085,
     "27267ff28172ffefda7e": 1785740130.8955538,
+    "277b6cb2e0b20e786286": 1785779740.4516084,
     "27ef194f20ae24ee7d71": 1785645584.6750479,
     "27fbde49d3a71f7fb647": 1785674130.1675081,
     "2844db5c19b50e572662": 1785674130.167511,
@@ -5218,12 +5256,14 @@
     "530cf8aae360622f41f9": 1785733836.369837,
     "5341c3393fd8889fbc75": 1785668145.0120714,
     "54604c88dd48fbc89930": 1785668145.0120702,
+    "54973eddffbbbde19206": 1785779740.4516025,
     "54d88c4f3b5382da1d7d": 1785660937.4917228,
     "55075a946755032d390a": 1785728141.051127,
     "55a61b3e5b6c0ff36804": 1785651555.3255541,
     "55f56f76b723ff85caaa": 1785684941.6589537,
     "56e762271afc796b565a": 1785641838.5331368,
     "5741e20168bbedb718e7": 1785740130.8955555,
+    "57511535606a9e53e367": 1785779740.4516127,
     "576406aa6fea78a85c7d": 1785741046.8723223,
     "57bafe61a3fb60911642": 1785683447.405321,
     "57ff660f11fa3134aef2": 1785666045.0620995,
@@ -5294,11 +5334,9 @@
     "680c4e3b7306f9f91570": 1785753338.7468123,
     "68405ab13e1f4335fba1": 1785772541.4661071,
     "689470d708d9c68b4136": 1785607114.4504926,
-    "68ea625ad1156c8cee6d": 1785604843.9285753,
     "68f4e43426b62ea0877a": 1785641838.5331502,
     "693e774a35a05caac842": 1785641838.533144,
     "69695cef9d7ec7039e46": 1785748281.2920706,
-    "696d85370dc70ebf5669": 1785604843.9285688,
     "69824607b0ca554a8cb7": 1785771332.9024174,
     "69c7d453f73285745266": 1785641838.5330863,
     "69f1db997adb1979b710": 1785762649.7563257,
@@ -5322,6 +5360,7 @@
     "715c3aca855d35361961": 1785741046.8723207,
     "71a6534f4b2c649c943b": 1785658844.8372414,
     "7209b7f62f06146bf583": 1785777640.5328243,
+    "72b363e26ebdb7f7f75b": 1785779740.4516199,
     "72dbd6a8f88110a7d22e": 1785747398.3347151,
     "735bbc24da96dab37f7b": 1785689729.9340098,
     "738d83b1488de9bbbc16": 1785641838.5330956,
@@ -5349,7 +5388,6 @@
     "7a3fc5c6726d96be489c": 1785730247.5706887,
     "7a78a0b6cb38baf7853d": 1785768936.6189873,
     "7a8b95a91e72dde04b2a": 1785730247.5706956,
-    "7a94de9dc812724d50da": 1785604843.9285731,
     "7ab612718cc75ed62c98": 1785751839.5787013,
     "7b0f98940daabe0cf416": 1785653730.1291847,
     "7ba6d3dd257a8108c0de": 1785649401.313999,
@@ -5360,6 +5398,7 @@
     "7c9898fa944964950b31": 1785730247.5706937,
     "7ca893ae61b5590d2c6e": 1785738935.5773654,
     "7dae5b1d051dad0b1a2a": 1785767742.3899155,
+    "7dba69da2dd8546e510d": 1785779740.4516215,
     "7dd8ac9545d2ce5dea64": 1785764141.6287923,
     "7e2fa674ab7748a4f52b": 1785677731.4244175,
     "7e4450dc9cf33ba8bbf8": 1785728141.0513446,
@@ -5369,11 +5408,13 @@
     "7fba01ffe2a0378dc8e6": 1785767742.3899179,
     "7fcf96980dc038963c06": 1785641838.53308,
     "8001005669f68f45a7e7": 1785764141.6287863,
+    "80c0fc868076400b96ab": 1785779740.451623,
     "81398532f2fcee02bc9c": 1785777640.532831,
     "816ecde08fd8769686eb": 1785747398.334536,
     "818e4b171459013549bd": 1785750936.1363187,
     "8249f08e4d7b13d9f45a": 1785768936.6191664,
     "82a0d9fb776b468705d5": 1785658844.8372462,
+    "83034790b19466bb40f1": 1785779740.451598,
     "84437c81bf1117bba2f0": 1785762649.7563381,
     "84a4a0e2cef445dd8cc7": 1785735337.7675192,
     "84a7c9c87c0d9541e745": 1785767742.3899062,
@@ -5430,6 +5471,7 @@
     "96736a68d8129ba65d03": 1785728141.051121,
     "973dfe7622575276984f": 1785753338.7466233,
     "97daf196e4b84509f49e": 1785669640.8589694,
+    "9808fbb940b591d1ddb7": 1785779740.451606,
     "9822e9907e3667dad8ce": 1785691242.8750486,
     "984bfb94f64ffd123fde": 1785756935.233438,
     "987be46650c5734237a7": 1785764141.6287982,
@@ -5468,6 +5510,7 @@
     "a46ffe854f7f72be898c": 1785647944.6230025,
     "a4ae0793478fb56c463d": 1785767742.3899002,
     "a4c315cff8b0bccb32b6": 1785764141.6288035,
+    "a4d1ef7f8f3ca56b144f": 1785779740.451614,
     "a4e5dc994cae2bb209af": 1785651555.3255513,
     "a50878cdc6a89ad601d6": 1785771332.9024267,
     "a510713ca8fa9f14aa94": 1785674130.1675134,
@@ -5501,6 +5544,7 @@
     "ad72e0753bc6498b635e": 1785698444.001858,
     "adac0b4e38db6db3dbbb": 1785738935.5773604,
     "adb862eac9103207219b": 1785754539.3211844,
+    "ae709363beea48e35a6a": 1785779740.4516044,
     "aee762eda02ba664eef3": 1785740130.8955512,
     "af06997cff81298ac59b": 1785751839.5786908,
     "afe1e232d243d8426b9a": 1785774048.503476,
@@ -5537,6 +5581,7 @@
     "b77beb7d49bdc1ddb250": 1785769841.7664816,
     "b793d5a166c206f8141f": 1785776143.0015469,
     "b7d84337cb6e07c3bc96": 1785647944.623015,
+    "b7fdd042c2c5455382ab": 1785779740.451616,
     "b844b5231022607edde9": 1785668145.0120869,
     "b8737e6bfef2857d26c4": 1785657291.9984932,
     "b99216e9afe77c9472bc": 1785738935.5773637,
@@ -5636,8 +5681,10 @@
     "d5bd5bfb7ea0bbfe3e86": 1785753338.7468085,
     "d5f94157d8358d64bbca": 1785761747.822527,
     "d6307738d952795fc5ad": 1785760544.8184514,
+    "d665dff42ea5dc852743": 1785779740.4516103,
     "d67cd6c0634c2447953d": 1785730247.5706995,
     "d73d1c337342dee6271e": 1785728141.0513372,
+    "d78b7ad71fe95929b01a": 1785779740.451624,
     "d7a26ff7942c614d98c9": 1785743758.417667,
     "d7dbd564cdce07b28954": 1785735337.7675233,
     "d816219a03b4637a5f0a": 1785655241.357694,
@@ -5652,6 +5699,7 @@
     "dac9457e2268c464c8d6": 1785768936.6189883,
     "dafcae28a1c1a3f70f7d": 1785764608.7590144,
     "db40fe63b85cf747a4df": 1785743758.4176798,
+    "db7917245ef6f1df45c1": 1785779740.4516246,
     "dbb160dedb82c15dd45d": 1785733836.3698347,
     "dbbf4fd9750066c2cbfb": 1785676254.1965635,
     "dd0d7d02434296964d3a": 1785766254.9349945,
@@ -5674,6 +5722,7 @@
     "e1d3c4812e756751c6b2": 1785774048.5034823,
     "e2387f5c8ed80b1e5be5": 1785767742.3899193,
     "e257f2694db6ee18d3e8": 1785641838.5330925,
+    "e2665c65914f1020ff85": 1785779740.4516153,
     "e27e8b969d740141daf1": 1785608442.9283166,
     "e281cc5246886416c4bd": 1785641838.533127,
     "e2caefb42d8a310ab7ff": 1785764141.628795,
@@ -5772,6 +5821,7 @@
     "fc74df26c05937c16e23": 1785730247.5706847,
     "fc779f329cabfc3301d1": 1785758142.5953279,
     "fcaa9916b37fec3a319a": 1785764608.7590241,
+    "fcb7cba4e6b44552d4c7": 1785779740.4516175,
     "fd00b373212d3c03113b": 1785649401.3140025,
     "fd0b6fce23fe1d60ac30": 1785641838.5330818,
     "fd6b679c1074953b1739": 1785731738.633511,
@@ -5782,61 +5832,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785777640.5327969
+      "ts": 1785779740.4515808
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785777640.5327985
+      "ts": 1785779740.4515817
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785777640.532801
+      "ts": 1785779740.4515846
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785777640.5328054
+      "ts": 1785779740.4515889
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785777640.5327995
+      "ts": 1785779740.451583
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785777640.5327895
+      "ts": 1785779740.451575
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785777640.532795
+      "ts": 1785779740.4515789
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785777640.5328045
+      "ts": 1785779740.451588
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785777640.5328023
+      "ts": 1785779740.451586
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785777640.5328033
+      "ts": 1785779740.451587
     }
   },
   "sport_recent": [
@@ -6119,6 +6169,54 @@
       "t": "Slovan pred bojom o Ligu majstrov varuje! Yaya Touré posiela jasný odkaz: Nebude to ľahké",
       "ts": 1785777640.5328412,
       "u": "1b89aad3797d6c23d53d"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/madarsky-veteran-peter-gulacsi-mieri-do-spanielska-zahra-si-ligu-majstrov-2026080317552148287",
+      "p": "Maďarský futbalový brankár Péter Gulácsi prestúpil z RB Lipsko do španielskeho Villarrealu. Tridsaťšesťročný hráč podpísal s tretím tímom uplynulého ročníka La Ligy zmluvu, jej dĺžku klub nezverejnil.",
+      "s": "Šport.sk",
+      "t": "Koniec veľkej éry v Nemecku. Maďarský veterán mieri do Španielska, zahrá si Ligu majstrov",
+      "ts": 1785779740.4516191,
+      "u": "fcb7cba4e6b44552d4c7"
+    },
+    {
+      "l": "https://sport.aktuality.sk/sport-extra/clanok/fanusikovia-vypiskali-johna-terryho-na-koncerte-svetoznameho-spevaka-2026080307475371740",
+      "p": "Bývalý kapitán Anglicka a Chelsea sa postaral o šokujúci moment počas koncertu country speváka Luka Combsa. John Terry sa nečakane objavil na pódiu štadióna Wembley, nie všetci fanúšikovia ho však prijali s nadšením.",
+      "s": "Šport.sk",
+      "t": "VIDEO Terryho vypískali po nečakanom vystúpení so známym umelcom. Reakcia legendy Chelsea bola jasná",
+      "ts": 1785779740.4516208,
+      "u": "72b363e26ebdb7f7f75b"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/wta-toronto-bez-zavahania-v-dvoch-setoch-karolina-pliskova-zvladla-uvodnu-prekazku-2026080317460639333",
+      "p": "Česká tenistka Karolína Plíšková postúpila do 2. kola dvojhry na turnaji WTA v Toronte. V úvodnom kole zdolala Ukrajinku Oleksandru Olijnykovovú 6:4, 6:4.",
+      "s": "Šport.sk",
+      "t": "WTA Toronto: Bez zaváhania v dvoch setoch. Karolína Plíšková zvládla úvodnú prekážku",
+      "ts": 1785779740.4516227,
+      "u": "7dba69da2dd8546e510d"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/liga-majstrov-slovan-mjallby-yaya-toure-o-novej-posile-2026080317321349715",
+      "p": "V prvom súboji 3. predkola Ligy majstrov na pôde švédskeho Mjällby AIF bude môcť slovenský šampión ŠK Slovan Bratislava nastúpiť aj so svojou novou posilou Suleimanom Camarom. Na pondelňajšej tlačovej konferencii to prezradil tréner „belasých“ Yaya Touré.",
+      "s": "Šport.sk",
+      "t": "VIDEO Môže Slovan rátať s novou posilou už proti Mjällby? Touré s jasným vyhlásením aj k žrebu",
+      "ts": 1785779740.4516237,
+      "u": "80c0fc868076400b96ab"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/wta-washington-alexandra-ealaova-jessica-pegulova-21-vysledky-dnes-2026080317262035399",
+      "p": "Filipínska tenistka Alexandra Ealaová získala svoj premiérový titul na okruhu WTA. Vo finále turnaja vo Washingtone zdolala najvyššie nasadenú Američanku Jessicu Pegulovú v troch setoch 4:6, 6:4, 6:0.",
+      "s": "Šport.sk",
+      "t": "Premiérový titul pre mladú tenistku! Filipínka otočila finále a nadelila domácej favoritke kanára",
+      "ts": 1785779740.4516244,
+      "u": "d78b7ad71fe95929b01a"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/fk-inter-bratislava-msk-zilina-b-01-monacobet-liga-vysledky-dnes-2026080317213062261",
+      "p": "Futbalisti B-tímu MŠK Žilina si pripísali prvé body v novej sezóne druhej najvyššej súťaže. V pondelkovom stretnutí 2. kola MONACObet ligy zvíťazili na ihrisku FK Inter Bratislava 1:0. O triumfe hostí na Pasienkoch rozhodol v 22. minúte senegalský útočník Talla Diouf.",
+      "s": "Šport.sk",
+      "t": "Prvé body pre Žilinu. Na Pasienkoch rozhodol Diouf, Inter dohrával bez vylúčeného brankára",
+      "ts": 1785779740.451625,
+      "u": "db7917245ef6f1df45c1"
     }
   ],
   "sport_source_status": {
@@ -6126,7 +6224,7 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1785777640.5328076
+      "ts": 1785779740.451591
     }
   }
 }
