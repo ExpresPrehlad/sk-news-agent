@@ -15,14 +15,20 @@ _OUTPUT_PATH = "docs/sport.html"
 _LOCAL_TZ = ZoneInfo(ACTIVE_HOURS_TZ)
 log = logging.getLogger(__name__)
 
-# Zámerne jednoduché a vysvetliteľné pravidlá. Slúžia len na poradie športovej
-# stránky; nikdy nevstupujú do Mimoriadne, Top tém ani do LLM výberu.
-_HIGH_SIGNAL = (
-    "slovensko", "slovensk", "reprezent", "olympi", "majstrovstv",
-    "medail", "rekord", "titul", "finále", "finale", "postup",
-    "liga majstrov", "svetový pohár", "world cup", "doping",
-    "diskvalifik", "zranen",
+# Prísny filter pre Redakčný výber. Slúži len športovej stránke; nikdy
+# nevstupuje do Mimoriadne, Top tém ani do LLM výberu.
+_SLOVAK_SIGNAL = (
+    "slovensko", "slovensk", "slováci", "slovák", "reprezentácia",
+    "bratislav", "košic", "žilina", "trnava", "nitra", "trenčín",
+    "prešov", "poprad", "banská bystrica",
 )
+_GLOBAL_EVENT_SIGNAL = (
+    "olympi", "majstrovstv sveta", "world championship", "liga majstrov",
+    "champions league", "wimbledon", "roland garros", "us open",
+    "australian open", "super bowl", "formula 1", "veľká cena", "grand prix",
+    "finále nba", "finále nhl", "futbalové euro", "euro 20",
+)
+_HIGH_SIGNAL = _SLOVAK_SIGNAL + _GLOBAL_EVENT_SIGNAL + ("rekord",)
 _LOW_SIGNAL = (
     "live", "online prenos", "program", "tv tip", "kurz", "tipuj",
     "stávk", "fotogaléri", "fotogaleri", "preview", "tip na zápas",
@@ -53,6 +59,19 @@ def _priority(article: dict) -> int:
     return max(0, high * 2 - low * 3)
 
 
+def _is_featured(article: dict) -> bool:
+    """Určí, či článok patrí do prísneho redakčného výberu."""
+    text = " ".join((str(article.get("t", "")), str(article.get("p", "")))).lower()
+    # Prevádzkové formáty nie sú samostatnou redakčnou témou, ani pri veľkej súťaži.
+    if any(keyword in text for keyword in _LOW_SIGNAL):
+        return False
+    # Domáca udalosť alebo preukázateľná väzba na Slovensko má prednosť.
+    if any(keyword in text for keyword in _SLOVAK_SIGNAL):
+        return True
+    # Zahraničný obsah sa vyberá iba pri rekorde alebo konkrétnom globálnom podujatí.
+    return "rekord" in text or any(keyword in text for keyword in _GLOBAL_EVENT_SIGNAL)
+
+
 def _rank_articles(articles: list[dict]) -> list[dict]:
     """Zoradí články podľa redakčnej relevancie, potom podľa čerstvosti."""
     return sorted(
@@ -60,6 +79,10 @@ def _rank_articles(articles: list[dict]) -> list[dict]:
         key=lambda article: (_priority(article), float(article.get("ts", 0))),
         reverse=True,
     )
+
+
+def _featured_articles(articles: list[dict]) -> list[dict]:
+    return [article for article in _rank_articles(articles) if _is_featured(article)][:5]
 
 
 def _article_title(article: dict) -> str:
@@ -75,7 +98,7 @@ def _article_title(article: dict) -> str:
 
 def _render_featured(articles: list[dict]) -> str:
     if not articles:
-        return '<div class="empty">Športový prehľad sa naplní po najbližšom úspešnom zbere.</div>'
+        return '<div class="empty">V tomto okne zatiaľ nie je téma, ktorá spĺňa kritériá redakčného výberu.</div>'
     cards = []
     for rank, article in enumerate(articles[:5], start=1):
         css_class = "sport-topic sport-lead" if rank == 1 else "sport-topic sport-secondary"
@@ -111,9 +134,14 @@ def _render_stream(articles: list[dict]) -> str:
 def build_sport_html(state) -> str:
     articles = state.sport_recent_window(24)
     ranked = _rank_articles(articles)
-    featured = ranked[:5]
-    featured_ids = {str(article.get("u", "")) for article in featured}
-    stream = [article for article in articles if str(article.get("u", "")) not in featured_ids]
+    featured = _featured_articles(ranked)
+    # Články majú stabilné UID z collectora. Porovnanie objektov je poistka pre
+    # ručne vytvorený alebo neúplný záznam bez UID.
+    featured_ids = {str(article["u"]) for article in featured if article.get("u")}
+    stream = [
+        article for article in articles
+        if str(article.get("u", "")) not in featured_ids and article not in featured
+    ]
     generated = datetime.now(timezone.utc).timestamp()
     return f"""<!doctype html>
 <html lang="sk">
@@ -138,7 +166,7 @@ def build_sport_html(state) -> str:
 <body data-ts="{generated:.6f}">
   <header><div class="bar"><div class="brand">SK News Agent</div><nav aria-label="Hlavná navigácia"><a href="index.html">Prehľad</a><a href="index.html#media-radar">Media Radar</a><a class="active" href="sport.html" aria-current="page">Šport</a><a href="audit.html">História výberov</a></nav></div></header>
   <main><div class="eyebrow">Športový radar · posledných 24 hodín</div><h1>Šport</h1><p class="intro">Výber najrelevantnejších športových správ a úplný pracovný tok pre redakciu.</p>
-    <div class="note">Poradie je automatické a slúži iba tejto stránke: zvýhodňuje slovenskú relevanciu a veľké športové udalosti, nižšie radí live formáty, programy a kurzy. Športové témy naďalej môžu byť vybrané aj do Mimoriadne a Top tém.</div>
+    <div class="note">Redakčný výber zahŕňa iba témy so slovenskou väzbou alebo zo Slovenska a zahraničné rekordy či vybrané globálne sledované podujatia. Bežné výsledky, prestupy, live formáty, programy a kurzy zostávajú v úplnom toku. Športové témy naďalej môžu byť vybrané aj do Mimoriadne a Top tém.</div>
     <section aria-labelledby="featured-heading"><div class="section-head"><div><div class="eyebrow">Redakčný výber</div><h2 id="featured-heading">Sledovať</h2></div><span class="section-meta">Vybraných: {len(featured)}</span></div>{_render_featured(featured)}</section>
     <section class="stream-section" aria-labelledby="stream-heading"><div class="section-head"><div><div class="eyebrow">Úplný tok</div><h2 id="stream-heading">Najnovšie správy</h2></div><span class="section-meta">{len(stream)} ďalších</span></div><div class="list">{_render_stream(stream) or '<p class="empty">Žiadne ďalšie športové správy v tomto okne.</p>'}</div></section>
   </main>

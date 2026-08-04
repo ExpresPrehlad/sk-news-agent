@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 from types import SimpleNamespace
 
-from src.sport_page import _rank_articles, build_sport_html, write_sport_page
+from src.sport_page import _featured_articles, _rank_articles, build_sport_html, write_sport_page
 
 
 class SportPageTests(unittest.TestCase):
@@ -36,18 +36,24 @@ class SportPageTests(unittest.TestCase):
         self.assertNotIn("javascript:", html)
         self.assertIn("&lt;Téma&gt;", html)
 
-    def test_priority_promotes_slovak_major_event_and_demotes_live_format(self):
-        ranked = _rank_articles([
+    def test_featured_selection_keeps_slovak_and_global_events_but_excludes_routine_content(self):
+        featured = _featured_articles([
             {"t": "Live prenos z ligy", "p": "Program zápasu", "ts": 300},
             {"t": "Slovenská reprezentácia získala medailu", "p": "MS", "ts": 100},
+            {"t": "Padol svetový rekord v atletike", "p": "Zahraničie", "ts": 200},
+            {"t": "Bežný výsledok zahraničnej ligy", "p": "Rutinný zápas", "ts": 400},
         ])
-        self.assertIn("Slovenská reprezentácia", ranked[0]["t"])
+        titles = [article["t"] for article in featured]
+        self.assertIn("Slovenská reprezentácia získala medailu", titles)
+        self.assertIn("Padol svetový rekord v atletike", titles)
+        self.assertNotIn("Live prenos z ligy", titles)
+        self.assertNotIn("Bežný výsledok zahraničnej ligy", titles)
 
     def test_page_writes_html(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as directory:
             target = Path(directory) / "sport.html"
             write_sport_page(self._state([]), str(target))
-            self.assertIn("Športový prehľad", target.read_text(encoding="utf-8"))
+            self.assertIn("Športový radar", target.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":
