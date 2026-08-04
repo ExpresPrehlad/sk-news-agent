@@ -171,128 +171,96 @@
     {
       "headline": "Kubánska elektrická sieť opäť skolabovala, milióny ľudí sú bez prúdu",
       "ts": 1785841890.0223498
+    },
+    {
+      "headline": "Tesco zvažuje odchod z českého trhu",
+      "ts": 1785843344.61321
+    },
+    {
+      "headline": "Ukrajina vyšetruje dronový útok na civilistu v Chersone",
+      "ts": 1785843344.61321
+    },
+    {
+      "headline": "Bývalý šéf ukrajinského futbalu skončil v bratislavskej väzbe",
+      "ts": 1785843344.61321
+    },
+    {
+      "headline": "Erupcia sopky Fuego v Guatemale si vyžiadala evakuácie",
+      "ts": 1785843344.61321
+    },
+    {
+      "headline": "Požiar v holandskej prírodnej rezervácii",
+      "ts": 1785843344.61321
     }
   ],
   "last_digest": {
-    "model": "gemini/gemini-3.5-flash",
+    "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Kubánska elektrická sieť opäť skolabovala, milióny ľudí sú bez prúdu",
+        "headline": "Tesco zvažuje odchod z českého trhu",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2018151-kubanska-elektricka-siet-kuba-elektrina-vypadok"
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2018445-jasny-krok-k-odchodu-tesco-si-najalo-renomovanych-bankarov-a-opusta-cesko-co-bude-so-slovenskom/"
           ]
         ],
-        "perex": "Celonárodná sieť na Kube skolabovala už druhýkrát za menej než 24 hodín. Výpadok nastal len niekoľko hodín po tom, čo sa dodávky elektriny podarilo čiastočne obnoviť."
+        "perex": "Britský reťazec Tesco si podľa informácií serveru Mergermarket najal bankárov z Citigroup a Goldman Sachs na pomoc s predajom svojich aktivít v Českej republike. Zatiaľ nie je jasné, či sa tento krok dotkne aj prevádzok na Slovensku."
+      },
+      {
+        "headline": "Ukrajina vyšetruje dronový útok na civilistu v Chersone",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2018443-vojna-na-ukrajine-rusky-dron-front-civilista-vojnovy-zlocin-zabijanie-cherson-lov-obyvatelov/"
+          ]
+        ],
+        "perex": "Ukrajinské úrady vyjadrili pobúrenie nad videom, ktoré zachytáva prenasledovanie a útok ruského dronu na utekajúceho muža v meste Cherson. Incident označili za cielený lov civilistov a vojnový zločin."
+      },
+      {
+        "headline": "Bývalý šéf ukrajinského futbalu skončil v bratislavskej väzbe",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/l4QChaW/byvaly-sef-ukrajinskeho-futbalu-mal-spreneverit-miliony-bratislavsky-sud-ho-poslal-do-vazby/"
+          ]
+        ],
+        "perex": "Bratislavský súd poslal do väzby bývalého šéfa ukrajinskej futbalovej federácie pre podozrenie zo sprenevery miliónov eur. Peniaze mal vyvádzať cez fiktívne nákupy luxusného tovaru a elektroniky."
+      },
+      {
+        "headline": "Erupcia sopky Fuego v Guatemale si vyžiadala evakuácie",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/guatemala-zvysila-pohotovost-po-erupcii-sopky-fuego-na-druhy-najvyssi-stupen?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1241966-erupcia-sopky-fuego-v-guatemale-urady-evakuuju-dediny-a-zatvaraju-skoly"
+          ]
+        ],
+        "perex": "Guatemala zvýšila pohotovosť na druhý najvyšší stupeň po erupcii sopky Fuego. Úrady pristúpili k evakuácii okolitých dedín a preventívnemu zatvoreniu škôl."
+      },
+      {
+        "headline": "Požiar v holandskej prírodnej rezervácii",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/hasici-v-holandsku-bojuju-s-rozsiahlym-poziarom-v-prirodnej-rezervacii?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Hasiči v holandskej provincii Limbursko bojujú s rozsiahlym lesným požiarom v prírodnej rezervácii neďaleko nemeckých hraníc. Oheň sa rozšíril v priebehu včerajšieho dňa."
       }
     ],
-    "ts": 1785841890.0223408
+    "ts": 1785843344.613206
   },
   "meta": {
-    "last_collection_ts": 1785841852.25575,
+    "last_collection_ts": 1785843340.1443334,
     "last_feed_error_ts": 1785836150.6413627,
     "last_llm_error_ts": 1785243791.1408515,
-    "last_run_ts": 1785841853.3579316,
-    "last_synthesis_ts": 1785841890.022336
+    "last_run_ts": 1785843340.5838683,
+    "last_synthesis_ts": 1785843344.6132004
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/minuly-tyzden-sa-stalo-247-dopravnych-nehod-zomrelo-pri-nich-11-ludi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Najviac dopravných nehôd bolo zaznamenaných v Prešovskom kraji.",
-      "s": "SME",
-      "t": "Minulý týždeň sa stalo 247 dopravných nehôd, zomrelo pri nich 11 ľudí",
-      "ts": 1785756935.2334294,
-      "u": "52e4c71fb5689d213174"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/neznamy-objekt-najdeny-pri-virte-v-dunaji-je-anglicka-protilodna-mina?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Na miesto nálezu boli vyslané špecializované zložky.",
-      "s": "SME",
-      "t": "Neznámy objekt nájdený pri Virte v Dunaji je anglická protilodná mína",
-      "ts": 1785756935.2334328,
-      "u": "391361a12eb619878053"
-    },
-    {
-      "l": "https://www.sme.sk/bratislava/c/v-pripade-strelby-v-ivanke-pri-dunaji-prehravali-na-sude-telefonaty-obzalovaneho?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Bako je obvinený z vraždy.",
-      "s": "SME",
-      "t": "V prípade streľby v Ivanke pri Dunaji prehrávali na súde telefonáty obžalovaného",
-      "ts": 1785756935.2334347,
-      "u": "592b121291ab375964e9"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV1Q2dG9GWFNoRnRuaU45M2tYZEJ4TlJiMW9paGpjVkF0Y1dKd3ZTU2tXVXZwck43S21xeTgzcXdJOW56VS1mXzNlZ2Vaa2JfUEEyb09iUEFCZG16WFdWallyU2NGVmNXWXlJZzZEcGtFVDc4YTV6elhNc1RzaTB1QTdiYlBrMmFXVXhtSjFrWmh2aTVUUjBCMVN3WmVVMlNlanc5RQ?oc=5",
-      "p": "Pakistanskí záchranári pokračujú v pátraní po skupine nezvestných horolezcov&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Pakistanskí záchranári pokračujú v pátraní po skupine nezvestných horolezcov - SME.sk",
-      "ts": 1785756935.233436,
-      "u": "28aeb6dd337b3e65bdda"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR29heFIwV0lKemx4dWtVUXA0YTd4QUViWEJyVDU1cUdhdmtfRW9WaGxhSDlrTnhvdEJBYXR6Q08wNEF0SnYzTXRqbHA1YlE1blNPX0J2clFPLXBULUlOMDRmS2VPWVJuOEV5RnBjMVpYRU01R2xOYzF6OTNZN2FKNXBOd19YQkpJdFNtTXBmTS1kY244UjI4MmVOb3U?oc=5",
-      "p": "HaZZ: Francúzske úrady požiadali o predĺženie nasadenia slovenských hasičov&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "HaZZ: Francúzske úrady požiadali o predĺženie nasadenia slovenských hasičov - SME.sk",
-      "ts": 1785756935.2334375,
-      "u": "bf932f3d4df75d5f4078"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMickFVX3lxTE81ZUJlVHBjOFhhbVVXS2gxbU82ZngxdUpUYTBaLXJXRU9LM1RpdFhpc1l5S3BLMjdtWHZDTndBSmMwaW1oNDBYUzhVejlFOFFEZ2QtcXUzWGo5NExGV2xNUmFoRXkwR3JtTm5pR2lSOHczQQ?oc=5",
-      "p": "Recenzie - Rethymno Palace&nbsp;&nbsp;Dovolenka.SME.sk",
-      "s": "SME (GNews)",
-      "t": "Recenzie - Rethymno Palace - Dovolenka.SME.sk",
-      "ts": 1785756935.2334385,
-      "u": "984bfb94f64ffd123fde"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/bzqkp6h/hrozostrasny-nalez-pri-kosove-urady-objavili-dalsi-masovy-hrob-podozrenie-pada-na-obete-vojny/",
-      "p": "Kosovské úrady hlásia nález ďalšieho možného masového hrobu na severe krajiny. Objav môže priniesť nové dôkazy o nevyšetrených zločinoch vojny v Kosove.",
-      "s": "Aktuality",
-      "t": "Hrôzostrašný nález pri Kosove. Úrady objavili ďalší masový hrob, podozrenie padá na obete vojny",
-      "ts": 1785756935.2334397,
-      "u": "b1edf6b49e6c1d21a863"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/UovnMRw/z-bacovskych-dni-do-policajnej-cely-policia-obvinila-starostku-za-hlas/",
-      "p": "Tatiana Červeňová odmietla fúkať, obvinili ju z ohrozenia pod vplyvom návykovej látky.",
-      "s": "Aktuality",
-      "t": "Z Bačovských dní do policajnej cely. Polícia obvinila starostku za Hlas",
-      "ts": 1785756935.2334414,
-      "u": "4ab05732f86557202e5e"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2017801-mrazive-objavy-v-kosove-na-severe-uzemia-nasli-stopy-po-dalsom-masovom-hrobe?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Úrady v Kosove v pondelok oznámili, že na severe územia pravdepodobne našli ďalší masový hrob. Informáciu zverejnili krátko po tom, čo kosovské forenzné tímy minulý týždeň v rovnakej oblasti našli na inom mieste v pravdepodobnom masovom hrobe sedem tiel. TASR o tom informuje podľa agentúry AFP.",
-      "s": "Pravda",
-      "t": "Mrazivé objavy v Kosove: Na severe územia našli stopy po ďalšom masovom hrobe",
-      "ts": 1785756935.2334425,
-      "u": "b3896496b21a14c85be2"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2017789-postup-na-fronte-ma-coraz-krvavejsiu-cenu-ukrajina-hlasi-desivu-bilanciu-ruskej-armady?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Personálne straty ruských ozbrojených síl dosiahli v júli 42 860 ľudí, čo je najvyšší mesačný počet od začiatku tohto roka.",
-      "s": "Pravda",
-      "t": "Postup na fronte má čoraz krvavejšiu cenu. Ukrajina hlási desivú bilanciu ruskej armády",
-      "ts": 1785756935.2334437,
-      "u": "5104c74834c4e898c939"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/vedkyna-na-slovensku-je-viac-ako-60-dr/982355-clanok.html",
-      "p": "Človeka môže podľa vedkyne uštipnúť len samička komára, ktorá potrebuje krv na to, aby vyživila svoje vajíčka.",
-      "s": "Teraz.sk",
-      "t": "Vedkyňa: Na Slovensku je viac ako 60 druhov komárov",
-      "ts": 1785756935.233445,
-      "u": "2f7f890e44db8deee12e"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/smutna-bilancia-minuly-tyzden-bolo/982351-clanok.html",
-      "p": "Policajný zbor opätovne vyzýva všetkých účastníkov cestnej premávky na zvýšenú opatrnosť.",
-      "s": "Teraz.sk",
-      "t": "SMUTNÁ BILANCIA: Minulý týždeň bolo 247 nehôd, 11 ľudí neprežilo",
-      "ts": 1785756935.2334464,
-      "u": "facb9159a7e1647d5074"
-    },
     {
       "l": "https://www.sme.sk/domov/c/obzalovana-v-kauze-donovaly-chcela-stiahnut-vyhlasenie-o-vine-sud-jej-to-neumoznil?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Šlachtová tvrdí, že si neuvedomovala dostatočne dôsledky svojho rozhodnutia.",
@@ -4420,6 +4388,78 @@
       "t": "Tureckú nákladnú loď pri ruskom prístave zasiahli drony, hlásia ťažko zranených",
       "ts": 1785841853.3579261,
       "u": "18d389e49c853cd68e30"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/janckulik-v-mene-opozicnych-clenov-vyboru-vyzval-ministra-raza-aby-odvolal-vedenie-slovenskej-posty?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Súčasné vedenie Slovenskej pošty stratilo dôveru svojich zamestnancov a malo by zvážiť odstúpenie.",
+      "s": "SME",
+      "t": "Janckulík v mene opozičných členov výboru vyzval ministra Ráža, aby odvolal vedenie Slovenskej pošty",
+      "ts": 1785843340.5838351,
+      "u": "f2f3179cd9060b5b70f4"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/hori-jeden-sklad-za-druhym-wildberries-uz-prislo-o-takmer-stvrtinu-skladovej-kapacity?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Zvažuje presun do Kazachstanu.",
+      "s": "SME",
+      "t": "Horí jeden sklad za druhým. Wildberries už prišlo o takmer štvrtinu skladovej kapacity",
+      "ts": 1785843340.5838382,
+      "u": "57d988b2f10325169ab2"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONDgwaHNDT3puU1ZJa09kN2t1Y283bmdmUTVFYVpDcG0tNGpxTmdYazY1cDZ3dGppbG54bkhQeDNzZWZZLUtYQm5XX3RrWHBxdVk0b05hME1IaUh1ZGF0NGRBc2lRMTZRcnVBNE9rN1RzWHdQbWNsRWYxTC00UkhmOUpzR2ZreWlNbEpBQ09Wa3NFeUZDZUVLNTFDYVgwb1BKU191azdyb2xNUQ?oc=5",
+      "p": "Spor okolo šéfa FIFA pokračuje. Federácia odmieta, že by Infantino volal Trumpovi&nbsp;&nbsp;SPORTNET",
+      "s": "SME (GNews)",
+      "t": "Spor okolo šéfa FIFA pokračuje. Federácia odmieta, že by Infantino volal Trumpovi - SPORTNET",
+      "ts": 1785843340.5838404,
+      "u": "c4cb2d45ea2bce8064bc"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONXBnVTFuU3ExQWN4WUxtSUZZdEhUSFZJY0d0M0tVbTdZbzBIM0dSeVl6M1B6Vjh6RFRUZGlJU2lydndVV0VxMU5qTEJOdTRCSTZDUjBGYzJCVjYtR0RqY3NlUnBTSlhMbGgydGVITTV0VFlXOFhfcVlrU2NLcDFJTUtBLUZuc3dTYzc0SzlWTEpJdw?oc=5",
+      "p": "Mladých Slovákov čaká domáci favorit. Kde sledovať zápas Slovensko - Kanada? (TV program)&nbsp;&nbsp;SPORTNET",
+      "s": "SME (GNews)",
+      "t": "Mladých Slovákov čaká domáci favorit. Kde sledovať zápas Slovensko - Kanada? (TV program) - SPORTNET",
+      "ts": 1785843340.5838418,
+      "u": "4969b4a95de5dd6905f0"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXB2TlNfcEVCNEdQQnc2dzVVRHN0WnMwSlB5ZkR0WUl6Q2lMRDVoMmtCbzhDbVJsMzhjOUN1elZDRlY5ZkdhdnlxZnVJWm5qazloYmlmRnFIdmJySHdkb25IRm9Ec00tZUR6WjlMLVhOUmlUeGZFMFBGVmNYeFYzaGZhcXpONzJkTEhPZ0M3TUxEWVppR045aFRGMkc3eWxlX3FzZS1B?oc=5",
+      "p": "Záchranári vyzdvihli telo známeho horolezca Nirmala Purju na hore Broad Peak&nbsp;&nbsp;sme.sk",
+      "s": "SME (GNews)",
+      "t": "Záchranári vyzdvihli telo známeho horolezca Nirmala Purju na hore Broad Peak - sme.sk",
+      "ts": 1785843340.5838432,
+      "u": "1fd3dda22e8e4ee3f0dc"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/l4QChaW/byvaly-sef-ukrajinskeho-futbalu-mal-spreneverit-miliony-bratislavsky-sud-ho-poslal-do-vazby/",
+      "p": "Peniaze z futbalovej federácie mal vytiahnuť cez fiktívne nákupy exkluzívnych káv, čajov, morských plodov a elektroniky.",
+      "s": "Aktuality",
+      "t": "Bývalý šéf ukrajinského futbalu mal spreneveriť milióny. Bratislavský súd ho poslal do väzby",
+      "ts": 1785843340.5838447,
+      "u": "1453bd76706ba0e98d58"
+    },
+    {
+      "l": "https://dennikn.sk/5488458/novinka-v-aplikacii-dennik-n-k-oblubenym-rubrikam-sa-teraz-dostanete-jednym-pohybom/",
+      "p": "Hovorili ste nám, že sa niekedy zložitejšie dostávate k&#160;rubrikám, ktoré vás zaujímajú najviac. Počúvame vás, a&#160;preto sme v&#160;mobilnej aplikácii Denník N výrazne uľahčili navigáciu. Čo je nové? Obľúbený obsah na jeden pohyb prsta: Potiahnutím zľava sa okamžite dostanete k&#160;najčítanej",
+      "s": "Denník N",
+      "t": "Novinka v aplikácii Denník N: K obľúbeným rubrikám sa teraz dostanete jedným pohybom",
+      "ts": 1785843340.5838466,
+      "u": "8315521df55f09c61c7c"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2018443-vojna-na-ukrajine-rusky-dron-front-civilista-vojnovy-zlocin-zabijanie-cherson-lov-obyvatelov?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Ukrajinské úrady v utorok vyjadrili pobúrenie nad videom, na ktorom utekajúceho muža prenasleduje dron v meste Cherson a označili to za cielený „lov“ civilistov.",
+      "s": "Pravda",
+      "t": "VIDEO: Ukrajinu pobúril sadistický útok v Chersone: Takto Rusi ‚bojujú‘",
+      "ts": 1785843340.583848,
+      "u": "d175543cc33ea07509f6"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2018445-jasny-krok-k-odchodu-tesco-si-najalo-renomovanych-bankarov-a-opusta-cesko-co-bude-so-slovenskom?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Odchod britskej siete Tesco z Českej republiky dostáva konkrétne obrysy. Podľa informácií serveru Mergermarket si už britská skupina najala bankárov z Citigroup a Goldman Sachs, aby jej s predajom pomohli. Hodnota českého biznisu môže podľa poradcov dosiahnuť až 15 miliárd CZK. Uviedol to portál e15",
+      "s": "Pravda",
+      "t": "Jasný krok k odchodu. Tesco si najalo renomovaných bankárov a opúšťa Česko. Čo bude so Slovenskom?",
+      "ts": 1785843340.5838497,
+      "u": "d89619c80a503e9eda8b"
     }
   ],
   "recent_alerts": [
@@ -5232,6 +5272,7 @@
     "134b4d3b442350f7497d": 1785672635.5556653,
     "13aae97e22c11ee50aba": 1785753338.7468135,
     "142355b9d08d2cf834db": 1785839736.6822183,
+    "1453bd76706ba0e98d58": 1785843340.5838442,
     "14542d8e51adef4c3eed": 1785677731.4244158,
     "1538ee240150ad6d93c0": 1785689729.9340165,
     "15997668c199e3806ec1": 1785761747.8225248,
@@ -5245,7 +5286,6 @@
     "1716f507573096dbe0a4": 1785837332.1853662,
     "17edc44486b10cd46514": 1785764608.7590091,
     "17f9224fa22053714618": 1785746160.893306,
-    "182758c8c11a1668108c": 1785669640.8589654,
     "184432c96a48a32b980e": 1785838238.7715456,
     "18ae034904df262d7100": 1785839736.6822217,
     "18d389e49c853cd68e30": 1785841853.3579257,
@@ -5285,6 +5325,7 @@
     "1f423f6802d40a006286": 1785683447.4053116,
     "1fb1d14416ac6c47be85": 1785769841.766478,
     "1fc289c7548da487a8ad": 1785839736.6822023,
+    "1fd3dda22e8e4ee3f0dc": 1785843340.5838425,
     "1fed2a4169028c53c6a5": 1785750936.136332,
     "2129996d44641164bdbb": 1785779740.451607,
     "2136014ad7ebc0ed3d88": 1785683447.4053226,
@@ -5380,7 +5421,6 @@
     "34be90570ec36b0ba044": 1785774048.5034745,
     "34ecb75be776caca6698": 1785831654.6517122,
     "35cceb7e9234a0121557": 1785774048.5034642,
-    "363a69996c6e3c154376": 1785669640.858964,
     "3643606707a5a3e2f1a0": 1785772541.4660976,
     "364bd76d699a9f66140c": 1785747398.334719,
     "366b6cd51ccabf733f47": 1785774048.5034542,
@@ -5389,6 +5429,7 @@
     "3747ce2da53cf7f77b5e": 1785826545.2546983,
     "375e718ac120ee0c960a": 1785753338.7466037,
     "3801d60ef23ff31ba6fc": 1785814537.8861291,
+    "3864e5fe1f448d19ea9c": 1785843340.5838509,
     "3875128239e126482e19": 1785828942.182897,
     "38b63a167d970c74c174": 1785783341.0486782,
     "38e1be3f392aadb87eea": 1785833744.7846055,
@@ -5455,6 +5496,7 @@
     "48a850ff2c30283a70a1": 1785772541.466113,
     "48ba487e8c21ac6373ee": 1785728141.051108,
     "48e8e1a6ade1267c8e69": 1785767742.389914,
+    "4969b4a95de5dd6905f0": 1785843340.583841,
     "49ca5c7ce58fcd5e9a9b": 1785671163.147988,
     "4a05a88dbca422fe7a23": 1785772541.4661086,
     "4a387f4b3b4184cbaa21": 1785814537.886121,
@@ -5477,6 +5519,7 @@
     "4e683241cc6fb15e2dc4": 1785747398.3347166,
     "4e9a9875484634f9834e": 1785764141.6288006,
     "4f5f0aa956dc3205d32a": 1785728141.0513382,
+    "4fec09e175508bb42abc": 1785843340.5838666,
     "4ff0d586be3dc404bc39": 1785827448.878557,
     "500a39a5dc1fbf07a38d": 1785764608.7590015,
     "506c5714718faad2bc9a": 1785750936.136337,
@@ -5516,6 +5559,8 @@
     "576406aa6fea78a85c7d": 1785741046.8723223,
     "57ace31e7ae49f7ad2f1": 1785818137.7635725,
     "57bafe61a3fb60911642": 1785683447.405321,
+    "57d988b2f10325169ab2": 1785843340.583837,
+    "5811a41cc584bf3040fe": 1785843340.583865,
     "58974452fef91c957881": 1785746160.8933074,
     "58b8fa2e5c51d31b09b5": 1785741046.8723283,
     "58f0cf35dab3ef5f3909": 1785772541.4661105,
@@ -5565,7 +5610,6 @@
     "619881ddd6a242c75063": 1785771332.902415,
     "6251ce85f67c2a4206af": 1785761747.8225224,
     "6259b96257e9acf74916": 1785754539.321192,
-    "62da9be8f5e9fe41eacc": 1785669640.8589706,
     "63594e10929d001d9188": 1785777640.5328147,
     "639c5dbe609d2ba9aff5": 1785767742.389904,
     "63aced0f892ba47d337e": 1785700534.338793,
@@ -5635,7 +5679,6 @@
     "735bbc24da96dab37f7b": 1785689729.9340098,
     "73a27dbf108f9c4277ad": 1785769841.7664745,
     "73b1a228105494aad63b": 1785837332.185363,
-    "73e3b4ea553516f45b05": 1785669640.8589559,
     "7419fd947fc3434d36f1": 1785821740.551894,
     "750b613cbce6d62aeab6": 1785761747.822521,
     "752c8fbfc18180f5fd66": 1785767742.3899095,
@@ -5662,7 +5705,6 @@
     "7ab612718cc75ed62c98": 1785751839.5787013,
     "7bcacd241d94ab6a615a": 1785683447.4055352,
     "7bd57e9601cf21aaeee5": 1785783341.0485063,
-    "7c1c088bd2d33b565989": 1785669640.8589625,
     "7c4a45fd75e83367c84a": 1785814537.886176,
     "7c75f1485c970644bbc3": 1785746160.893304,
     "7c9898fa944964950b31": 1785730247.5706937,
@@ -5695,6 +5737,7 @@
     "818e4b171459013549bd": 1785750936.1363187,
     "8249f08e4d7b13d9f45a": 1785768936.6191664,
     "83034790b19466bb40f1": 1785779740.451598,
+    "8315521df55f09c61c7c": 1785843340.5838454,
     "834f535f5d0f4e0df4a7": 1785833744.7846074,
     "8430ed340827eaf8f6a6": 1785814537.8861544,
     "84437c81bf1117bba2f0": 1785762649.7563381,
@@ -5768,7 +5811,6 @@
     "96736a68d8129ba65d03": 1785728141.051121,
     "96960dabcd2a21dedba5": 1785814537.8861442,
     "973dfe7622575276984f": 1785753338.7466233,
-    "97daf196e4b84509f49e": 1785669640.8589694,
     "9808fbb940b591d1ddb7": 1785779740.451606,
     "9822e9907e3667dad8ce": 1785691242.8750486,
     "984bfb94f64ffd123fde": 1785756935.233438,
@@ -5787,7 +5829,6 @@
     "9ce920fbc1dda8b6517a": 1785834644.8182313,
     "9dbdbd9845efdb4ca219": 1785831654.6517272,
     "9e35020962251c69d5b4": 1785755439.3355799,
-    "9e610d145e86de3b2e08": 1785669640.8589685,
     "9eda686e5d44fb6a0417": 1785767742.389911,
     "9f03b38463551ac901b9": 1785783341.048502,
     "9f7070dd23190d0a982d": 1785684941.658969,
@@ -5818,7 +5859,6 @@
     "a50878cdc6a89ad601d6": 1785771332.9024267,
     "a510713ca8fa9f14aa94": 1785674130.1675134,
     "a516e1d52a7fd7f305ab": 1785728141.0511258,
-    "a56e6fe950971d024f98": 1785669640.8589604,
     "a58fb8f3e00f33f75fd3": 1785774048.5034873,
     "a62afcc5221a79da8307": 1785781249.2657254,
     "a681d2832a083ff10d14": 1785783341.0486903,
@@ -5869,7 +5909,6 @@
     "b21c99165ddf41e7d5e4": 1785825339.1917417,
     "b238e76297812401638c": 1785768936.618993,
     "b2d005f0f2305120a9f9": 1785825339.1917326,
-    "b2f8092abab7a8b1c97b": 1785669640.858967,
     "b3155dfb8d9ece29451d": 1785694839.7004428,
     "b3896496b21a14c85be2": 1785756935.2334418,
     "b391d1f670c848e1b12b": 1785774048.5034857,
@@ -5944,6 +5983,7 @@
     "c418c3b839f1c6a85778": 1785761747.8225322,
     "c451dac54d4fbf790b1d": 1785768936.6191752,
     "c486a472d4b098acc777": 1785768936.618989,
+    "c4cb2d45ea2bce8064bc": 1785843340.5838392,
     "c4d0267b814cf345acca": 1785839736.6822045,
     "c52d4ffbf4c5ebd0beda": 1785728141.0511177,
     "c55a313083d38336de55": 1785840935.874141,
@@ -6002,6 +6042,7 @@
     "d099a9a0aeeaade813e9": 1785751839.5786965,
     "d1028cd6d75d1a73d6e0": 1785776143.001541,
     "d13196906168537f070b": 1785764608.7590225,
+    "d175543cc33ea07509f6": 1785843340.5838473,
     "d1cf6167f6750c68ad8a": 1785741046.8723257,
     "d24a074ce99a95e4a703": 1785836150.6413836,
     "d2a64d84719cf33ab796": 1785746160.8931296,
@@ -6027,6 +6068,7 @@
     "d7dbd564cdce07b28954": 1785735337.7675233,
     "d830048dc13bad7f7fda": 1785672635.5556638,
     "d891bd6cc4baff3232a5": 1785825339.191728,
+    "d89619c80a503e9eda8b": 1785843340.5838487,
     "d91baade938552698dcd": 1785728141.0513303,
     "d92012b322db2e4f2023": 1785816637.223017,
     "d95bac08b824a93c3dc2": 1785759036.231245,
@@ -6131,6 +6173,7 @@
     "f19e51dc7c9ffb780e3a": 1785832531.6088004,
     "f1f61038a4c9bca1491b": 1785836150.6413822,
     "f2d55c05cc64c3d33c3c": 1785728141.0513334,
+    "f2f3179cd9060b5b70f4": 1785843340.5838313,
     "f2fbdf366e13cd1b8a56": 1785765339.9671917,
     "f3333accfb00f9491f81": 1785741046.8723247,
     "f39f5131166ff43efcf9": 1785838238.771544,
@@ -6205,61 +6248,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785841853.3578951
+      "ts": 1785843340.583814
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785841853.3578968
+      "ts": 1785843340.5838153
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785841853.3579004
+      "ts": 1785843340.5838184
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785841853.3579047
+      "ts": 1785843340.5838225
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785841853.3578985
+      "ts": 1785843340.5838168
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785841853.357888
+      "ts": 1785843340.5838068
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785841853.3578932
+      "ts": 1785843340.583812
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785841853.357904
+      "ts": 1785843340.5838218
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785841853.3579018
+      "ts": 1785843340.5838199
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785841853.3579028
+      "ts": 1785843340.583821
     }
   },
   "sport_recent": [
@@ -6998,6 +7041,30 @@
       "t": "Úspech Kapverd nebol len o Vozinhovi. Ich tréner si našiel novú prácu",
       "ts": 1785841853.3579307,
       "u": "8f6641388d5b502e5dc2"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/gianni-infantino-sa-o-svoj-flek-neboji-trumpovi-som-nevolal-tvrdi-prostrednictvom-fifa-2026080411232610423",
+      "p": "Medzinárodná futbalová federácia poprela správy niektorých médií, že prezident FIFA Gianni Infantino telefonoval s americkým prezidentom Donaldom Trumpom v snahe udržať si funkciu.",
+      "s": "Šport.sk",
+      "t": "Gianni Infantino sa o svoj flek nebojí. Trumpovi som nevolal, tvrdí prostredníctvom FIFA",
+      "ts": 1785843340.5838525,
+      "u": "3864e5fe1f448d19ea9c"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/futbalisti-iberie-timu-meskali-s-priletom-a-hrozil-odklad-zapasu-europskej-ligy-2026080410590083778",
+      "p": "FC Iberia 1999 po vypadnutí so Slovanom Bratislava v 2. predkole Ligy majstrov v utorok večer nastúpi proti tímu Larne vo svojom úvodnom zápase kvalifikácie Európskej ligy. Futbalisti gruzínskeho majstra však podľa informácií BBC narazili na problémy s byrokraciou a do Severného Írska prileteli až v",
+      "s": "Šport.sk",
+      "t": "Chaotické momenty. Najprv ich vyradil Slovan, potom Gruzínci čelili problémom na letisku",
+      "ts": 1785843340.583866,
+      "u": "5811a41cc584bf3040fe"
+    },
+    {
+      "l": "https://sport.aktuality.sk/mma/clanok/kerim-engizek-nastupi-mimo-oktagonu-proti-byvalemu-sampionovi-ufc-caka-ho-tazky-suboj-v-istanbule-2026080410171113535",
+      "p": "Kerim Engizek sa len nedávno predstavil v titulovej odvete na turnaji OKTAGON 91, ktorú prehral. Ďalší zápas absolvuje mimo svojej domovskej organizácie. Bývalý šampión strednej váhy prijal ponuku na atraktívny duel s niekdajším držiteľom titulu UFC Belalom Muhammadom.",
+      "s": "Šport.sk",
+      "t": "Kerim Engizek nastúpi mimo OKTAGONu proti bývalému šampiónovi UFC. Čaká ho ťažký súboj v Istanbule",
+      "ts": 1785843340.5838675,
+      "u": "4fec09e175508bb42abc"
     }
   ],
   "sport_source_status": {
@@ -7005,7 +7072,7 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1785841853.3579066
+      "ts": 1785843340.5838246
     }
   }
 }
