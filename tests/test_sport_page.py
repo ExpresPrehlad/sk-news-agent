@@ -20,10 +20,12 @@ class SportPageTests(unittest.TestCase):
             "p": "Stručný popis", "l": "https://example.com/sport", "ts": 100,
         }]))
 
-        self.assertIn("Športový radar", html)
+        self.assertIn("Top športové témy", html)
+        self.assertNotIn("Výber najrelevantnejších športových správ", html)
+        self.assertNotIn("<h1>Šport</h1>", html)
         self.assertNotIn("Redakčný výber zahŕňa iba témy", html)
         self.assertIn("Redakčný výber", html)
-        self.assertIn("Sledovať", html)
+        self.assertNotIn(">Sledovať<", html)
         self.assertIn("--green", html)
         self.assertIn('href="https://example.com/sport"', html)
         self.assertIn('href="index.html#media-radar"', html)
@@ -86,7 +88,7 @@ class SportPageTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as directory:
             target = Path(directory) / "sport.html"
             write_sport_page(self._state([]), str(target))
-            self.assertIn("Športový radar", target.read_text(encoding="utf-8"))
+            self.assertIn("Top športové témy", target.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":
