@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Vražda v Gelnici: Susko podáva trestné oznámenie",
-      "ts": 1785933357.1981897
-    },
-    {
-      "headline": "Opozícia varuje pred ruskými kamerami na cestách",
-      "ts": 1785933357.1981897
-    },
-    {
-      "headline": "Slovensko odmieta pustiť Maďarsku viac vody z Dunaja",
-      "ts": 1785933357.1981897
-    },
-    {
-      "headline": "Výbuch auta šéfa ruskej zbrojovky: Vodič zahynul",
-      "ts": 1785933357.1981897
-    },
-    {
-      "headline": "Slovensko čelí suchu, obce zavádzajú obmedzenia",
-      "ts": 1785933357.1981897
-    },
-    {
       "headline": "Vražda v Gelnici: Susko podáva trestné oznámenie a disciplinárku",
       "ts": 1785934550.8102434
     },
@@ -159,13 +139,37 @@
     {
       "headline": "Vzácnu vilu na Hlbokej ceste v Bratislave rozoberajú",
       "ts": 1785945339.6627579
+    },
+    {
+      "headline": "Extrémne horúčavy na Slovensku priniesli nový teplotný rekord",
+      "ts": 1785948946.254748
+    },
+    {
+      "headline": "Ministerstvo vnútra odmieta obvinenia PS z inštalácie ruských kamier",
+      "ts": 1785948946.254748
+    },
+    {
+      "headline": "Maďarská strana Tisza iniciuje voľbu prezidenta na 11. augusta",
+      "ts": 1785948946.254748
+    },
+    {
+      "headline": "Mladý Hlas podal trestné oznámenie na Ivana Korčoka",
+      "ts": 1785948946.254748
+    },
+    {
+      "headline": "V Dunaji pri maďarskej obci Kisoroszi našli poltonovú bombu",
+      "ts": 1785948946.254748
+    },
+    {
+      "headline": "Čínsky investor IBIH mieri do Trnavy s novým závodom",
+      "ts": 1785948946.254748
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Slovensko zaznamenalo nový teplotný rekord 41,4 stupňa",
+        "headline": "Extrémne horúčavy na Slovensku priniesli nový teplotný rekord",
         "links": [
           [
             "Aktuality",
@@ -176,21 +180,35 @@
             "https://www.sme.sk/domov/c/namerali-novy-rekord-v-kamenici-nad-hronom-dosiahla-teplota-41-4-stupna"
           ]
         ],
-        "perex": "Meteorologická stanica v Kamenici nad Hronom namerala rekordnú teplotu vzduchu, ktorá prekonala hranicu 41 stupňov Celzia. Extrémne horúčavy naďalej sužujú celé územie Slovenska a zvyšujú riziko vzniku požiarov."
+        "perex": "Meteorológovia zaznamenali v Kamenici nad Hronom historicky najvyššiu teplotu 41,4 stupňa Celzia. Extrémne vlny horúčav spôsobujú v krajine nielen zdravotné komplikácie, ale aj zvýšené riziko vzniku lesných požiarov."
       },
       {
-        "headline": "Maďarská strana Tisza žiada voľbu prezidenta na 11. augusta",
+        "headline": "Ministerstvo vnútra odmieta obvinenia PS z inštalácie ruských kamier",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/ALss0SA/madarska-strana-tisza-tlaci-na-rychlu-volbu-hlavy-statu-parlament-ma-noveho-prezidenta-volit-uz-11-augusta/"
+            "https://www.aktuality.sk/clanok/w1hhtFb/nove-kamery-na-cestach-mozu-byt-ruskej-vyroby-je-to-bezpecne-riziko-upozornuje-progresivne-slovensko/"
           ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/mv-odmieta-tvrdenia-ps-o-udajnom-nasade/983032-clanok.html"
+          ]
+        ],
+        "perex": "Opozičné hnutie Progresívne Slovensko varovalo, že na slovenské cesty pribúdajú stacionárne kamery ruskej výroby, čo predstavuje bezpečnostné riziko. Rezort vnútra tvrdenia o nasadení ruského sledovacieho systému odmietol."
+      },
+      {
+        "headline": "Maďarská strana Tisza iniciuje voľbu prezidenta na 11. augusta",
+        "links": [
           [
             "SME",
             "https://www.sme.sk/svet/c/madarska-vladna-tisza-iniciovala-aby-prezidenta-volil-parlament-11-augusta"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2019349-nova-kapitola-v-madarsku-strana-tisza-iniciovala-termin-volby-noveho-prezidenta"
           ]
         ],
-        "perex": "Opozičná strana Tisza iniciovala v maďarskom parlamente termín voľby novej hlavy štátu na túto nedeľu. Krok prichádza v čase politického napätia po kontroverznej zmene ústavy."
+        "perex": "Vládna strana Tisza navrhla, aby sa voľba novej hlavy štátu uskutočnila v parlamente už túto nedeľu. Termín má nadväzovať na nedávne zmeny v ústave a pád doterajšieho prezidenta."
       },
       {
         "headline": "Mladý Hlas podal trestné oznámenie na Ivana Korčoka",
@@ -200,11 +218,25 @@
             "https://www.sme.sk/domov/c/predstavitelia-mladeho-hlasu-podali-trestne-oznamenie-na-korcoka"
           ],
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2019321-mladeznici-hlasu-podali-trestne-oznamenie-na-korcoka-ziadaju-preverit-jeho-odmenovanie-aj-firmu-manzelky"
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/predstavitelia-mladeho-hlasu-podali-tre/983004-clanok.html"
           ]
         ],
-        "perex": "Predstavitelia mládežníckej organizácie strany Hlas-SD podali podnet na Generálnu prokuratúru SR. Žiadajú v ňom preveriť financovanie podpredsedu PS Ivana Korčoka a podnikanie jeho manželky."
+        "perex": "Predstavitelia mládežníckej organizácie strany Hlas-SD podali podnet na Generálnu prokuratúru SR. Žiadajú v ňom preveriť financovanie podpredsedu PS Ivana Korčoka a fungovanie spoločnosti jeho manželky."
+      },
+      {
+        "headline": "V Dunaji pri maďarskej obci Kisoroszi našli poltonovú bombu",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/v-dunaji-pri-obci-kisoroszi-nasli-poltonovú-bombu-odstranili-ju"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/ZXHl19J/na-dunaji-pri-kisoroszi-nasli-500-kilovu-bombu-armadni-pyrotechnici-ju-uz-bezpecne-odstranili/"
+          ]
+        ],
+        "perex": "Suché počasie a nízka hladina Dunaja odhalili v koryte rieky nevybuchnutú muníciu z čias vojny. Armádni pyrotechnici nájdenú 500-kilogramovú bombu úspešne a bezpečne zneškodnili."
       },
       {
         "headline": "Čínsky investor IBIH mieri do Trnavy s novým závodom",
@@ -214,85 +246,19 @@
             "https://www.pravda.sk/spravy/ekonomika/clanok/2019363-cinania-otvaraju-novy-zavod-v-trnave-do-vyroby-pre-elektromobily-naliali-miliony-eur/"
           ]
         ],
-        "perex": "Výrobca materiálov pre batérie elektromobilov plánuje na Slovensku investíciu vo výške desať miliónov eur. Projekt má v regióne vytvoriť viac ako stovku nových pracovných miest."
-      },
-      {
-        "headline": "Vzácnu vilu na Hlbokej ceste v Bratislave rozoberajú",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/vlastnil-ju-mafian-teraz-vietnamci-vzacnu-vilu-demontuju-neznami-muzi-policia-zatial-nepomohla"
-          ]
-        ],
-        "perex": "Národná kultúrna pamiatka, ktorú v minulosti vlastnil mafián, je predmetom demontáže neznámymi osobami. Polícia zatiaľ v prípade nezasiahla, hoci budova podlieha pamiatkovej ochrane."
+        "perex": "Výrobca pokročilých materiálov pre batérie elektromobilov vstupuje na slovenský trh s investíciou desať miliónov eur. Projekt má v Trnave vytvoriť približne 120 nových pracovných miest."
       }
     ],
-    "ts": 1785945339.6627483
+    "ts": 1785948946.2547395
   },
   "meta": {
-    "last_collection_ts": 1785946847.6356368,
+    "last_collection_ts": 1785948940.1612864,
     "last_feed_error_ts": 1785944143.484769,
     "last_llm_error_ts": 1785940655.8055897,
-    "last_run_ts": 1785946847.9870207,
-    "last_synthesis_ts": 1785945339.6627433
+    "last_run_ts": 1785948940.4873536,
+    "last_synthesis_ts": 1785948946.2547333
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/hamas-ziada-od-trumpovej-rady-mieru-vysvetlenie-podmienok-svojho-odzbrojenia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Izrael však naďalej odmieta odsun svojich jednotiek.",
-      "s": "SME",
-      "t": "Hamas žiada od Trumpovej Rady mieru vysvetlenie podmienok svojho odzbrojenia",
-      "ts": 1785862539.9923134,
-      "u": "07687f594f194bb367ee"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/who-vyzvala-na-vacsiu-podporu-v-boji-proti-ebole-v-konzskej-demokratickej-republike?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Epidémia na východe krajiny zabila už viac než 1700 obetí.",
-      "s": "SME",
-      "t": "WHO vyzvala na väčšiu podporu v boji proti ebole v Konžskej demokratickej republike",
-      "ts": 1785862539.9923162,
-      "u": "5aea73cd1e74099e3721"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc0tDUkE2MTlWMF9aLXRDY1hTcjZfd3Nyb2s3MFllbGdaMXd2QUczNWdfal9qSHhTVlJmTURtNkY1RUY2WGdNeVRqNEJTM1Rwai1BU1NiNVNlUXYwYVVOSFpWS2tiSVJremlxaDlCc3B5X0NiS3N1N0RjMjd4cktVdFN2R1BsdFk1UkJ2Si1Xamlad1Q0Z19rRlZwaUVsemFpOGZ1Rw?oc=5",
-      "p": "Hamas žiada od Trumpovej Rady mieru vysvetlenie podmienok svojho odzbrojenia&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Hamas žiada od Trumpovej Rady mieru vysvetlenie podmienok svojho odzbrojenia - SME.sk",
-      "ts": 1785862539.9923177,
-      "u": "f2944435388423fab671"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NRW1GZ1lBU2ZtR0NFR2FENVFhVTBfVkRHblJGdUthMWpTWlVWdUx3MW01YmJ2U1hGXzV0WjR6THBvdnE4Unh2NmYwczNzaXlXcUJmUE1DRTVQQldIS294SA?oc=5",
-      "p": "Počasie Bratislava&nbsp;&nbsp;pocasie.sme.sk",
-      "s": "SME (GNews)",
-      "t": "Počasie Bratislava - pocasie.sme.sk",
-      "ts": 1785862539.9923186,
-      "u": "794ab7fb68f462dbaf62"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/Oy4pzSz/skupina-neonacistov-sa-pokusila-preniknut-do-hotela-kde-boli-mladi-talianski-zidia/",
-      "p": "Skupina neonacistov sa v Sofii pokúsila zaútočiť na hotel s mladými talianskymi židmi a blokovala vchody. Incident vyvolal ostrú reakciu lídrov židovskej komunity aj politikov.",
-      "s": "Aktuality",
-      "t": "Skupina neonacistov sa pokúsila preniknúť do hotela, kde boli mladí talianski Židia",
-      "ts": 1785862539.99232,
-      "u": "d2e90693979956bde015"
-    },
-    {
-      "l": "https://dennikn.sk/5429519/francuzstina-na-skolach-prehrava-uz-aj-so-spanielcinou-hladali-sme-priciny/",
-      "p": "Francúzštinou vo svete hovorí takmer 400 miliónov ľudí, no záujem detí na slovenských školách o&#160;ňu dlhodobo klesá. Ešte pred desiatimi rokmi bola štvrtým najčastejšie vyučovaným cudzím jazykom na Slovensku, dnes jej patrí piate miesto.",
-      "s": "Denník N",
-      "t": "Francúzština na školách prehráva už aj so španielčinou. Hľadali sme príčiny",
-      "ts": 1785862539.9923213,
-      "u": "4f27fd25d065611b7b6b"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1242322-dalsia-tragedia-vo-vode-v-karloveskom-ramene-dunaja-sa-utopila-priblizne-40-rocna-zena",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Ďalšia tragédia vo vode: V Karloveskom ramene Dunaja sa utopila približne 40-ročná žena",
-      "ts": 1785862539.992323,
-      "u": "c9e70904ebe7294eb1a4"
-    },
     {
       "l": "https://www.sme.sk/kultura/c/ako-si-v-dospelosti-platam-hudobne-diery-zo-zivota-socialistickeho-decka?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Dva koncerty Davida Byrneho a Morrisseya za dva týždne.",
@@ -4340,18 +4306,113 @@
       "t": "Donbas stále nepadol, v Moskve lietajú hlavy. Putin spustil čistku medzi generálmi",
       "ts": 1785946847.986331,
       "u": "57e89b6018c13ec60f98"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/nemecky-vicekancelar-klingbeil-chce-preverit-moznost-zakazu-afd?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "AfD pre jej extrémistické názory vyšetrujú nemecké spravodajské služby.",
+      "s": "SME",
+      "t": "Nemecký vicekancelár Klingbeil chce preveriť možnosť zákazu AfD",
+      "ts": 1785948940.4864714,
+      "u": "cc14b51dc083509d9732"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/karikatura-dna-pomoc-2?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Kreslí Mikuláš Sliacky",
+      "s": "SME",
+      "t": "Karikatúra dňa: Pomoc",
+      "ts": 1785948940.4864748,
+      "u": "da76c87fa800070a6b66"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/rakusko-druhy-den-po-sebe-zaznamenalo-novy-teplotny-rekord?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Meteorológovia hovoria, že ide o najsilnejšiu vlnu horúčav, akú Rakúsko doteraz zažilo.",
+      "s": "SME",
+      "t": "Rakúsko druhý deň po sebe zaznamenalo nový teplotný rekord",
+      "ts": 1785948940.4864762,
+      "u": "d9dbefec99a6438cd82e"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/vela-kriku-pre-ceutu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Úmyslom je zahovárať a bagatelizovať stokrát väčšie bezpečnostné hrozby.",
+      "s": "SME",
+      "t": "Veľa kriku pre Ceutu",
+      "ts": 1785948940.4864776,
+      "u": "09414228c5c62ea00437"
+    },
+    {
+      "l": "https://www.sme.sk/kultura/c/zomrel-spisovatel-a-drzitel-prestiznej-francuzskej-literarnej-ceny-didier-decoin?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Decoin zomrel vo veku 81 rokov.",
+      "s": "SME",
+      "t": "Zomrel spisovateľ a držiteľ prestížnej francúzskej literárnej ceny Didier Decoin",
+      "ts": 1785948940.4864786,
+      "u": "807c34792558697f6c10"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/v-dunaji-pri-obci-kisoroszi-nasli-poltonovu-bombu-odstranili-ju?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Tohtoročné suchá odhalili viacero historických artefaktov.",
+      "s": "SME",
+      "t": "V Dunaji pri obci Kisoroszi našli poltonovú bombu, odstránili ju",
+      "ts": 1785948940.4864795,
+      "u": "314a025b3b3b85f7f4f2"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rZUd1bTBDRXZkRU01bF91WktHZ3Fiazh3V2dVdzJ1OFB5UVdrTGhhTE1oZWdzdEtpWF9SdUxJNDVLTGRNc2xuWm1WRnJYdw?oc=5",
+      "p": "Aký je rozdiel medzi písaním slov siedmimi a siedmymi? SME.sk",
+      "s": "SME (GNews)",
+      "t": "Aký je rozdiel medzi písaním slov siedmimi a siedmymi? - SME.sk",
+      "ts": 1785948940.4864807,
+      "u": "1c57934e2fb3f4fcfb9b"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/NYt2oL3/usa-rusia-sankcie-voci-fly-baghdad-iracke-aerolinie-uz-washington-nepovazuje-za-podporovatela-revolucnych-gard/",
+      "p": "USA rušia sankcie voči aerolíniám Fly Baghdad a dvom ich lietadlám. Reštrikcie stále platia pre údajného majiteľa napojeného na iránske Revolučné gardy.",
+      "s": "Aktuality",
+      "t": "USA rušia sankcie voči Fly Baghdad. Iracké aerolínie už Washington nepovažuje za podporovateľa Revolučných gárd",
+      "ts": 1785948940.4864824,
+      "u": "3a65b39f0dff59f94d7c"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/ZXHl19J/na-dunaji-pri-kisoroszi-nasli-500-kilovu-bombu-armadni-pyrotechnici-ju-uz-bezpecne-odstranili/",
+      "p": "Zo dna Dunaja pri maďarskej obci Kisoroszi vytiahli približne 500 kilogramovú bombu. Suché leto odhaľuje v koryte rieky ďalšie zbrane a vojnovú muníciu.",
+      "s": "Aktuality",
+      "t": "Na Dunaji pri Kisoroszi našli 500-kilovú bombu. Armádni pyrotechnici ju už bezpečne odstránili",
+      "ts": 1785948940.486662,
+      "u": "95732e580241ce434756"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/kaxvQBn/rusko-rozbieha-tvrdu-dezinformacnu-ofenzivu-v-nemecku-cieli-na-superov-afd-pred-klucovymi-volbami/",
+      "p": "Rusko pred voľbami cieli Nemecko sofistikovanou kampaňou Matrioška. Dezinformáciami posilňuje AfD a útočí na súperov aj vládne strany CDU CSU SPD a ďalšie.",
+      "s": "Aktuality",
+      "t": "Rusko rozbieha tvrdú dezinformačnú ofenzívu v Nemecku. Cieli na súperov AfD pred kľúčovými voľbami",
+      "ts": 1785948940.486663,
+      "u": "16790d440964611f4b99"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2019359-bratislava-sa-meni-na-pec-termokamera-ukazala-kde-teploty-atakovali-80-stupnov?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Tropické horúčavy menia Bratislavu na rozžeravené mesto. Teplota vzduchu láme rekordy, no ešte extrémnejšie hodnoty ukázala termokamera, s ktorou sme sa vybrali do ulíc. Rozpálený asfalt, autá či bicykle dosahovali teploty, pri ktorých sa ich človek radšej ani nedotkne.",
+      "s": "Pravda",
+      "t": "V Bratislave namerali extrémne teploty. Niektoré povrchy sa rozpálili takmer na 80 °C, asfalt mal 62 °C",
+      "ts": 1785948940.4866638,
+      "u": "3b20072f7c8de4a52fc5"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/mv-odmieta-tvrdenia-ps-o-udajnom-nasade/983032-clanok.html",
+      "p": "Opozičné PS v stredu informovalo, že MV SR pravdepodobne montuje na slovenských cestách dopravné kamery ruskej výroby.",
+      "s": "Teraz.sk",
+      "t": "MV odmieta tvrdenia PS o údajnom nasadení ruského sledovacieho systému",
+      "ts": 1785948940.4866655,
+      "u": "b8934bae3329a6da1ec4"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/vo-stvrtok-ma-byt-opat-horuco-nie/983023-clanok.html",
+      "p": "Intenzívny dážď môže podľa SHMÚ vyvolať prechodný vzostup vodných hladín na malých tokoch a výskyt povodňových úkazov mimo tokov.",
+      "s": "Teraz.sk",
+      "t": "Vo štvrtok má byť opäť horúco, niekde však hrozia búrky",
+      "ts": 1785948940.4866664,
+      "u": "d825b0d3907a02dbd12e"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/i1IVi51/vazna-dopravna-nehoda-pri-komarne-zrazka-dvoch-aut-zablokovala-cestu-i64-pri-hurbanove/"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Závažná dopravná nehoda s viacerými zranenými spôsobila úplné uzavretie dôležitého cestného ťahu I/64.",
-      "title": "Vážna dopravná nehoda pri Komárne. Zrážka dvoch áut zablokovala cestu I/64 pri Hurbanove",
-      "ts": 1785344134.0873137
-    },
     {
       "links": [
         "https://www.aktuality.sk/clanok/zfckkT9/poziar-skladky-zamoril-horne-opatovce-hustym-dymom-v-ziari-nad-hronom-zasahuju-desiatky-hasicov/"
@@ -5135,11 +5196,13 @@
     "0929a3bfaa5b7fe111ee": 1785774048.503489,
     "09359a597ed6fd8a82ce": 1785845447.3297946,
     "093851a150f2ed8862a2": 1785942649.1772068,
+    "09414228c5c62ea00437": 1785948940.486477,
     "097d7d627c8039b4559b": 1785944143.484795,
     "09ab35522a4125dff916": 1785922542.3707774,
     "09ba48e890867229a2a8": 1785766254.9349837,
     "09c3171416031bb48d77": 1785834644.8182297,
     "0a1c63aa64ce58a47bfa": 1785873334.2482007,
+    "0a4964b8999da023843c": 1785948940.486672,
     "0a5b314d5a149324a30d": 1785825339.1917317,
     "0aae88259444000464b7": 1785900937.7316265,
     "0b00355c610c71c44ab5": 1785857743.1189837,
@@ -5208,6 +5271,7 @@
     "160cfca205151fbb2fb9": 1785929753.7564297,
     "1640e4bcef66a2a8da96": 1785916535.8212967,
     "1647c98a7f6ba695a4ee": 1785926139.2316887,
+    "16790d440964611f4b99": 1785948940.4866624,
     "1698ab6c396fafdb2d0f": 1785921043.9083958,
     "169adc5c8269085386c5": 1785916535.8212352,
     "16b62f52f438baac920c": 1785900937.7313983,
@@ -5249,6 +5313,7 @@
     "1c0ec214189cffd6709d": 1785856255.6684346,
     "1c2ec24f5942fb4c0068": 1785905744.7117324,
     "1c42e5f46ec3eeb7d052": 1785864041.6937885,
+    "1c57934e2fb3f4fcfb9b": 1785948940.4864802,
     "1c5ad18e8c2e55e9991a": 1785820250.484853,
     "1c7209965c3aafd778cb": 1785818137.7635617,
     "1cf903bcc6180c444338": 1785814537.8861532,
@@ -5340,6 +5405,7 @@
     "2b691007ecac38e3752e": 1785774048.5034773,
     "2b6e585b9470009569af": 1785918937.1542556,
     "2bd532f4c1cdb3a88ded": 1785814537.8861086,
+    "2bdcd06ae8635ea10d45": 1785948940.4866676,
     "2bfc9e33d795ef423f86": 1785766254.9349973,
     "2c1a0cec76f7606db395": 1785762798.635359,
     "2c4c6ad73812946f501a": 1785777640.53283,
@@ -5370,6 +5436,7 @@
     "30da184fc12d0ab35434": 1785934545.8464007,
     "30ebfdcc39c4c7a55c9e": 1785918937.1542275,
     "30ef3c7a18b491c4e8fd": 1785905744.7117183,
+    "314a025b3b3b85f7f4f2": 1785948940.486479,
     "31559615e22452816333": 1785850548.9502735,
     "316afd200d8012d99c0f": 1785831654.6517098,
     "3172af04e35da12a269f": 1785814537.8861303,
@@ -5433,10 +5500,12 @@
     "39f5d1781ebbaac42306": 1785936058.1281793,
     "3a2af47a560493df68d6": 1785820250.4848557,
     "3a2e7f0b581ccd52245d": 1785840935.8741453,
+    "3a65b39f0dff59f94d7c": 1785948940.4864814,
     "3aa262d0da3cd92c64aa": 1785944143.4847913,
     "3aa479f32e58a9b13c0a": 1785821740.551887,
     "3adba107b6bd670dd285": 1785765339.9671876,
     "3b0db3dc59f04f882340": 1785846940.870049,
+    "3b20072f7c8de4a52fc5": 1785948940.4866636,
     "3b247d554c62a8da51f7": 1785854140.7497435,
     "3b2db3b0aba1fd1546ab": 1785905744.711747,
     "3b36f427a4b294de7e89": 1785936947.746351,
@@ -5563,6 +5632,7 @@
     "4ff0d586be3dc404bc39": 1785827448.878557,
     "500a39a5dc1fbf07a38d": 1785764608.7590015,
     "500b7da62dd361a077c8": 1785846940.870041,
+    "505e2faeafdb6aa0a845": 1785948940.4866772,
     "50a0fc08c887e9e85425": 1785945335.3609421,
     "50b060959fbd90fc2a8d": 1785940544.3352072,
     "50b5188f083ab887b96f": 1785857743.119163,
@@ -5624,6 +5694,7 @@
     "5811a41cc584bf3040fe": 1785843340.583865,
     "58194449a14649ae8cdd": 1785932447.349213,
     "582050fd556f7c712bd4": 1785917440.917596,
+    "583b1443be463075a7fd": 1785948940.4866762,
     "58b8fa2e5c51d31b09b5": 1785916535.8210406,
     "58d97f3c7d038e346288": 1785857743.1191661,
     "58f0cf35dab3ef5f3909": 1785772541.4661105,
@@ -5871,6 +5942,7 @@
     "8001005669f68f45a7e7": 1785764141.6287863,
     "80308a04e025b5580202": 1785814537.8861158,
     "8030d6a03b96fc7cf924": 1785850548.9502747,
+    "807c34792558697f6c10": 1785948940.486478,
     "80c0fc868076400b96ab": 1785779740.451623,
     "80f4bee740ec6cfbbf31": 1785844535.9969199,
     "80fd167747e7aeabf52d": 1785788439.6585217,
@@ -5990,6 +6062,7 @@
     "94bb0f2b4bb6d10fd6d6": 1785856255.6684232,
     "95187c4ae04d253ded2e": 1785839736.682226,
     "953d50215d1dc5207496": 1785927332.9492075,
+    "95732e580241ce434756": 1785948940.486661,
     "957e2d2caaa793b0df2c": 1785916535.8213046,
     "958313d92752173898a2": 1785777640.5328336,
     "9585971f83c9a3bed50f": 1785917440.9175837,
@@ -6009,6 +6082,7 @@
     "987be46650c5734237a7": 1785764141.6287982,
     "9883f09842e0f7201670": 1785916535.8212671,
     "98b9958162b5cab9e627": 1785768936.6191766,
+    "98e4a843c7632dfd897e": 1785948940.4866703,
     "9910de4d29885a8b3392": 1785855348.064254,
     "991ee7c769c415b835bb": 1785916535.8213282,
     "99500c4b107edb419e48": 1785929753.7564359,
@@ -6194,6 +6268,7 @@
     "b881da8e6ba38f9b9cdf": 1785905744.7117274,
     "b8911cd5255e06d88878": 1785814537.8861191,
     "b89331ef4f09740da7b2": 1785869740.5980844,
+    "b8934bae3329a6da1ec4": 1785948940.4866648,
     "b8a0aa040c229c93573f": 1785910852.9855819,
     "b9318ec40190fd7df50c": 1785814537.886145,
     "ba138e16b9f2bde191a1": 1785827448.8785548,
@@ -6312,8 +6387,10 @@
     "cad9a1d6de8e025457ee": 1785832531.6087837,
     "cb4f1d9f2756728016a0": 1785814537.8861632,
     "cb6d07b9056be08338a9": 1785826545.2546785,
+    "cb7aa3e933d04374a696": 1785948940.486675,
     "cbd6874e0100a34043c6": 1785910852.9855766,
     "cbda5c40b10b888ef414": 1785918937.1542175,
+    "cc14b51dc083509d9732": 1785948940.4864678,
     "cc5e43d94580ffda0299": 1785928249.9409,
     "cc8b4561013e6b4a17dc": 1785837332.1853602,
     "ccb064bd213110e7368a": 1785874916.7580345,
@@ -6381,6 +6458,7 @@
     "d78b7ad71fe95929b01a": 1785779740.451624,
     "d7a26ff7942c614d98c9": 1785918937.1542163,
     "d81b8f78d902477458ba": 1785921043.9083917,
+    "d825b0d3907a02dbd12e": 1785948940.486666,
     "d891bd6cc4baff3232a5": 1785825339.191728,
     "d89619c80a503e9eda8b": 1785843340.5838487,
     "d8e2dd0dd4881e01e8f0": 1785946847.9863286,
@@ -6391,11 +6469,13 @@
     "d964d020db142e81530d": 1785846940.8700511,
     "d99bc27929e4f79e81b6": 1785900937.7316282,
     "d9d6e4dc5c0572cc085d": 1785852654.0788424,
+    "d9dbefec99a6438cd82e": 1785948940.4864755,
     "d9e64b01f6b41c04af09": 1785761747.8225284,
     "d9f1d5297820299ee2a3": 1785814537.886117,
     "d9fddb22983d5c045d3b": 1785871239.61765,
     "da3914a1d3e5156ee767": 1785814537.886151,
     "da4671acc988bd0476a9": 1785857743.119162,
+    "da76c87fa800070a6b66": 1785948940.4864726,
     "da8c4a983903719cd550": 1785864041.6937864,
     "daabfb3493462631e3dd": 1785916535.8212664,
     "dac08cdcfdffc1924140": 1785916535.8213522,
@@ -6522,6 +6602,7 @@
     "ee653607afbee10245d6": 1785916535.821353,
     "ee8757689ed1ecb7a6f4": 1785930933.2056198,
     "ee9c15a56c14cb1afd21": 1785930933.2056184,
+    "eecb35a0de2271e696e0": 1785948940.4866734,
     "eed1ba05da0f234b6cae": 1785913843.0190535,
     "ef1c2385b32bb4bf2583": 1785820250.4848578,
     "ef4ba54688302d0bd524": 1785939053.9764519,
@@ -6654,80 +6735,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785946847.9862938
+      "ts": 1785948940.486444
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785946847.9862957
+      "ts": 1785948940.4864454
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785946847.9862988
+      "ts": 1785948940.4864485
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785946847.9863043
+      "ts": 1785948940.4864533
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785946847.986297
+      "ts": 1785948940.486447
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785946847.9862862
+      "ts": 1785948940.486437
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785946847.9862914
+      "ts": 1785948940.4864423
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785946847.9863033
+      "ts": 1785948940.4864523
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785946847.9863007
+      "ts": 1785948940.4864502
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785946847.9863017
+      "ts": 1785948940.4864511
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/sport-extra/clanok/futbal-luis-diaz-prekvapil-po-majstrovstvach-sveta-poriadne-zmenil-vyzor-2026080211321156244",
-      "p": "Juhokórejskí fanúšikovia Bayernu zažili v nedeľu ráno prekvapenie, keď nemecký šampión dorazil na ostrov Jeju.",
-      "s": "Šport.sk",
-      "t": "Fanúšikovia ho ledva spoznali. Hviezdny hráč Bayernu po majstrovstvách sveta poriadne zmenil výzor",
-      "ts": 1785862539.9923255,
-      "u": "dd696187698602562a06"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/riznic-si-novy-klub-hladat-nemusi-slovensky-futbalista-predĺzil-zmluvu-v-cesku-2026080416311290241",
-      "p": "Slovenský futbalista Matej Riznič predĺžil zmluvu s FK Teplice. Český klub o novom dlhodobom kontrakte s 22-ročným ľavým obrancom informoval v utorok na svojom webe.",
-      "s": "Šport.sk",
-      "t": "Riznič si nový klub hľadať nemusí. Slovenský futbalista predĺžil zmluvu v Česku",
-      "ts": 1785862539.9924903,
-      "u": "c254c776850c8c67a397"
-    },
     {
       "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/svajciarska-cyklistka-ovladla-4-etapu-tour-de-france-a-stala-sa-novou-liderkou-2026080417043214838",
       "p": "Švajčiarska cyklistka Marlen Reusserová z tímu Movistar sa stala víťazkou utorkovej individuálnej časovky v ženskej edícii pretekov Tour de France. V 21 kilometrov dlhej 4. etape z Gevrey-Chambertin do Dijonu triumfovala s časom 27:30,90 minúty, pričom najbližšie k nej boli dve Holanďanky.",
@@ -8639,6 +8704,62 @@
       "t": "Mudryk si pripísal prvý štart za Chelsea po dopingovom prípade",
       "ts": 1785946847.9863422,
       "u": "db601c12274767f8df31"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/spisska-nova-ves-ulovila-byvaleho-reprezentanta-oldricha-kotvana-tipsport-liga-2026080516535105225",
+      "p": "Hokejový klub Spišská Nová Ves angažoval na mesačnú skúšku skúseného obrancu Oldricha Kotvana.",
+      "s": "Šport.sk",
+      "t": "Skúsená posila na skúšku. Spišská Nová Ves ulovila bývalého reprezentanta a šampióna Slovenska",
+      "ts": 1785948940.4866693,
+      "u": "2bdcd06ae8635ea10d45"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/tvrdy-uder-pre-infantina-vzbura-europskych-lig-vratane-nike-ligy-moze-vyustit-az-v-bojkot-ms-2026080516534672801",
+      "p": "Európske ligy (European Leagues) v stredu vyzvali na reformu riadenia Medzinárodnej futbalovej federácie (FIFA). Reagovali tak na neúspešný plán prezidenta Gianniho Infantina predať podiely na budúcich ziskoch z majstrovstiev sveta súkromným investorom.",
+      "s": "Šport.sk",
+      "t": "Tvrdý úder pre Infantina. Vzbura európskych líg vrátane Niké ligy môže vyústiť až v bojkot MS",
+      "ts": 1785948940.4866712,
+      "u": "98e4a843c7632dfd897e"
+    },
+    {
+      "l": "https://sport.aktuality.sk/sport-extra/clanok/byvala-lyziarska-hviezda-nina-haverova-losethova-sa-stala-trojnasobnou-matkou-2026080406472266513",
+      "p": "Nina Haverová-Lösethová prežíva jedno z najšťastnejších období svojho života. Niekdajšia nórska špecialistka na technické disciplíny oznámila, že sa spolu s manželom Hermanom Haverom Mathiesenom stali rodičmi už tretieho dieťaťa. Lyžiarka sa o radostnú správu podelila na sociálnej sieti.",
+      "s": "Šport.sk",
+      "t": "FOTO Bývalá slalomárska špecialistka je trojnásobnou mamou. Vzťah s jej partnerom sa začal klamstvom",
+      "ts": 1785948940.4866729,
+      "u": "0a4964b8999da023843c"
+    },
+    {
+      "l": "https://sport.aktuality.sk/mma/clanok/pudilova-zverejnila-rozsah-zranenia-a-rontgen-po-zapase-so-szabovou-palec-mala-zlomeny-na-sest-casti-2026080514393680796",
+      "p": "Lucie Pudilová v titulovom zápase na turnaji OKTAGON 92 nestačila na Luciu Szabovú, ktorej podľahla po piatich kolách jednohlasným rozhodnutím bodových rozhodcov. Skúsená česká bojovníčka však veľkú časť náročného duelu absolvovala so zlomeným palcom.",
+      "s": "Šport.sk",
+      "t": "Pudilová zverejnila rozsah zranenia a röntgen po zápase so Szabovou. Palec mala zlomený na šesť častí",
+      "ts": 1785948940.486674,
+      "u": "eecb35a0de2271e696e0"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/tipsport-liga-presov-stadion-oziva-hokej-chce-po-zlej-sezone-tiez-2026080515020021748",
+      "p": "Nová energia na trénerskom poste i v hráčskom kádri. V predchádzajúcej sezóne beznádejne posledný tím najvyššej slovenskej súťaže verí, že to tentoraz v jeho podaní bude výrazne lepšie.",
+      "s": "Šport.sk",
+      "t": "Slovenský Saddledome naberá moderné kontúry. Aj hokej má ísť po biednej sezóne hore",
+      "ts": 1785948940.4866757,
+      "u": "cb7aa3e933d04374a696"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/real-madrid-ulovi-posilu-za-120-milionov-eur-2026080516060270716",
+      "p": "Real Madrid a RB Lipsko sú blízko k dokončeniu prestupu Yana Diomandeho, ktorý sa stane najväčším predajom v histórii nemeckého klubu. Dohoda je vo finálnej fáze, chýba už len doladiť niektoré formality.",
+      "s": "Šport.sk",
+      "t": "Už sa to finalizuje. Mourinho si vyhliadol hráča za vyše 120 miliónov",
+      "ts": 1785948940.4866767,
+      "u": "583b1443be463075a7fd"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/cyklistika-tdf-zeny-volleringova-vyhr/983025-clanok.html",
+      "p": "Na tretiu priečku sa posunula Niewiadomá (+1:17 min).",
+      "s": "TERAZ.SK",
+      "t": "Volleringová vyhrala 5. etapu, na čele je Reusserová",
+      "ts": 1785948940.4866776,
+      "u": "505e2faeafdb6aa0a845"
     }
   ],
   "sport_source_status": {
@@ -8646,25 +8767,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1785946847.9863071
+      "ts": 1785948940.4864566
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1785946847.9863093
+      "ts": 1785948940.4864585
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1785946847.986312
+      "ts": 1785948940.4864614
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1785946847.9863107
+      "ts": 1785948940.4864602
     }
   }
 }
