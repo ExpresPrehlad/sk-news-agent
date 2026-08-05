@@ -1,30 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Ruský e-shop Wildberries presúva logistiku do Kazachstanu",
-      "ts": 1785927338.0218947
-    },
-    {
-      "headline": "Kimova sestra varuje Japonsko pred vojenskými opatreniami",
-      "ts": 1785927338.0218947
-    },
-    {
-      "headline": "Talianska vláda vyčlenila 100 miliónov na opravu škôd po zemetrasení",
-      "ts": 1785927338.0218947
-    },
-    {
-      "headline": "V meste ovládanom stranou Le Penovej sa objavili hákové kríže",
-      "ts": 1785927338.0218947
-    },
-    {
-      "headline": "Kubánci zažili celoplošný výpadok elektriny",
-      "ts": 1785927338.0218947
-    },
-    {
-      "headline": "Brazílsky veľvyslanec odchádza z Argentíny po diplomatickej roztržke",
-      "ts": 1785927338.0218947
-    },
-    {
       "headline": "Extrémne horúčavy na Slovensku pokračujú",
       "ts": 1785928255.805018
     },
@@ -211,13 +187,33 @@
     {
       "headline": "OSN kritizuje Irán za nárast počtu popráv",
       "ts": 1785939059.3760123
+    },
+    {
+      "headline": "Žaloba Čurillovcov a Lipšica na Kaliňáka",
+      "ts": 1785941753.0505836
+    },
+    {
+      "headline": "Susko žiada disciplinárne stíhanie sudkyne",
+      "ts": 1785941753.0505836
+    },
+    {
+      "headline": "Obavy z ruských kamier na slovenských cestách",
+      "ts": 1785941753.0505836
+    },
+    {
+      "headline": "Tragické úmrtia pri vode v Bratislave",
+      "ts": 1785941753.0505836
+    },
+    {
+      "headline": "Nové vojská bezpilotných systémov v Rusku",
+      "ts": 1785941753.0505836
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Čurillovci a Lipšic žalujú Kaliňáka za výroky o mafii",
+        "headline": "Žaloba Čurillovcov a Lipšica na Kaliňáka",
         "links": [
           [
             "SME",
@@ -228,10 +224,10 @@
             "https://www.aktuality.sk/clanok/rg0zyHu/curillovci-a-daniel-lipsic-zaluju-roberta-kalinaka-a-stranu-smer-pre-vyroky-ze-su-mafia/"
           ]
         ],
-        "perex": "Policajti z tímu okolo Jána Čurillu spolu s bývalým špeciálnym prokurátorom Danielom Lipšicom podali žalobu na ochranu osobnosti proti ministrovi Robertovi Kaliňákovi a strane Smer. Žiadajú ospravedlnenie a finančné odškodnenie v celkovej výške 130-tisíc eur."
+        "perex": "Policajti okolo Jána Čurillu a bývalý špeciálny prokurátor Daniel Lipšic podali žalobu na ministra obrany Roberta Kaliňáka a stranu Smer. Dôvodom sú výroky o mafii, pričom žiadajú ospravedlnenie a odškodné v celkovej výške 130-tisíc eur."
       },
       {
-        "headline": "Susko žiada disciplinárne stíhanie sudkyne pre vraždu v Gelnici",
+        "headline": "Susko žiada disciplinárne stíhanie sudkyne",
         "links": [
           [
             "Teraz.sk",
@@ -245,106 +241,58 @@
         "perex": "Minister spravodlivosti Boris Susko podáva trestné oznámenie a disciplinárny návrh na Najvyšší správny súd v súvislosti s vraždou učiteľky v Gelnici. Tvrdí, že obeť nebola informovaná o prepustení svojho agresívneho manžela z väzby."
       },
       {
-        "headline": "Extrémne horúčavy na Slovensku prekonali hranicu 40 stupňov",
+        "headline": "Obavy z ruských kamier na slovenských cestách",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/w1hhtFb/nove-kamery-na-cestach-mozu-byt-ruskej-vyroby-je-to-bezpecne-riziko-upozornuje-progresivne-slovensko/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/nove-rychlostne-radary-su-podla-progresivcov-pravdepodobne-ruskej-vyroby-uviedlo-ps"
+          ]
+        ],
+        "perex": "Opozičné hnutie Progresívne Slovensko upozorňuje na inštaláciu nových dopravných kamier, ktoré majú byť pravdepodobne ruskej výroby. Strana varuje pred bezpečnostným rizikom zneužitia osobných údajov a kritizuje netransparentnosť nákupu."
+      },
+      {
+        "headline": "Tragické úmrtia pri vode v Bratislave",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/domov/c/teploty-opat-prekrocili-40-stupnov-celzia-na-viacerych-miestach"
+            "https://www.sme.sk/bratislava/c/v-bratislavskom-velkom-drazdiaku-sa-utopil-53-rocny-muz"
           ],
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/lBPWuRO/slovensko-suzuje-vlna-extremnych-horucav-rychlo-rastie-aj-riziko-poziarov-v-suchu/"
+            "Noviny.sk",
+            "https://www.noviny.sk/krimi/1242705-zmizol-pod-hladinou-pred-ocami-kamaratov-tinedzer-zomrel-po-kupani-na-zemplinskej-sirave"
           ]
         ],
-        "perex": "Teploty na viacerých miestach Slovenska opäť prekročili hranicu 40 stupňov Celzia, čo zvyšuje zdravotné riziká aj nebezpečenstvo vzniku požiarov. Meteorológovia a hygienici v dôsledku pretrvávajúcej vlny horúčav apelujú na dodržiavanie preventívnych opatrení."
+        "perex": "Na jazere Veľký Draždiak v bratislavskej Petržalke vyhasol život 53-ročného muža. Polícia a záchranné zložky zasahovali aj pri ďalších prípadoch utopenia, vrátane tragédie na Zemplínskej šírave."
       },
       {
-        "headline": "Slovensko čelí masívnemu zarastaniu poľnohospodárskej pôdy",
+        "headline": "Nové vojská bezpilotných systémov v Rusku",
         "links": [
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/na-slovensku-zarasta-300000-hektarov/982950-clanok.html"
-          ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2019253-skoro-ako-cely-jeden-kraj-na-slovensku-zarasta-burinou-300-tisic-hektarov-urodnej-pody/"
-          ]
-        ],
-        "perex": "Na Slovensku v súčasnosti zarastá burinou približne 300-tisíc hektárov poľnohospodárskej pôdy, čo predstavuje plochu väčšiu ako dve tretiny Trnavského kraja. Odborníci upozorňujú, že ide o dôsledok dlhodobého útlmu pravidelného hospodárenia na lúkach a pasienkoch."
-      },
-      {
-        "headline": "OSN kritizuje Irán za nárast počtu popráv",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/osn-je-znepokojena-rastom-poctu-poprav-v-irane-od-marca-tohto-roka"
+            "https://www.pravda.sk/spravy/svet/clanok/2019249-rusko-hlasi-uplne-novy-druh-vojska-putin-im-dal-vlastne-velenie-aj-generala/"
           ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/OhcJ9RF/osn-bije-na-poplach-vysoky-komisar-turk-vini-iran-z-poprav-ako-nastroja-zastrasovania-obyvatelov/"
+            "https://www.aktuality.sk/clanok/NyJaxuM/putin-zaklada-nove-vojska-bezpilotnych-systemov-do-cela-dronovej-zlozky-ruskej-armady-mieri-denis-lamin/"
           ]
         ],
-        "perex": "Vysoký komisár OSN pre ľudské práva Volker Türk vyjadril znepokojenie nad prudkým nárastom počtu popráv v Iráne od marca tohto roka. Podľa organizácie Teherán využíva trest smrti ako systematický nástroj na zastrašovanie obyvateľov a umlčiavanie odporu."
+        "perex": "Ruský prezident Vladimir Putin oficiálne vytvoril novú zložku armády zameranú na drony. Do jej čela vymenoval generálplukovníka Denisa Ľamina, čím potvrdil kľúčový význam bezpilotných technológií v konflikte."
       }
     ],
-    "ts": 1785939059.3760045
+    "ts": 1785941753.0505729
   },
   "meta": {
-    "last_collection_ts": 1785940543.874459,
+    "last_collection_ts": 1785941747.7319808,
     "last_feed_error_ts": 1785922542.3707724,
     "last_llm_error_ts": 1785940655.8055897,
-    "last_run_ts": 1785940544.3359575,
-    "last_synthesis_ts": 1785939059.3759997
+    "last_run_ts": 1785941748.1058643,
+    "last_synthesis_ts": 1785941753.0505664
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/rakusko-v-utorok-zaznamenalo-novy-teplotny-rekord?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Výstrahy platia ešte najbližšie dni.",
-      "s": "SME",
-      "t": "Rakúsko v utorok zaznamenalo nový teplotný rekord",
-      "ts": 1785855348.0642486,
-      "u": "7fdffecfcda5ab1466a6"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/slovensky-vrtulnik-s-hasicmi-sa-po-desiatich-dnoch-vracia-z-francuzska?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Slováci spolupracovali aj s českým tímom.",
-      "s": "SME",
-      "t": "Slovenský vrtuľník s hasičmi sa po desiatich dňoch vracia z Francúzska",
-      "ts": 1785855348.0642512,
-      "u": "a6249da097f91f6b15d5"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0JGQTNybmUxUmJRU2k0OFhzOXotZUlpb1RQdFhLWW9SM1JlN0ZNU0lNUlFlOFg2X2VSTFNPV2JFZGVFczNOdkRpdWJmTTVWSEtZOTBlWWd2cmF2c1d5T3dmZTFqT2xhbWVYQ1BNT05xNUJqUmU4YWdmb1JyUEZ0MmgzbENGWGtoUjdWU1dkbw?oc=5",
-      "p": "Mladé Slovenky spoznali súperky vo štvrťfinále. Stretnú sa s balkánskou krajinou&nbsp;&nbsp;SPORTNET",
-      "s": "SME (GNews)",
-      "t": "Mladé Slovenky spoznali súperky vo štvrťfinále. Stretnú sa s balkánskou krajinou - SPORTNET",
-      "ts": 1785855348.0642524,
-      "u": "332591bac359402c8b06"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/cgcsOIt/kauza-odpocuvania-na-fpu-objavila-sa-nova-cast-nahravky-ukazuje-tien-lukasa-machalu-aj-odovzdavanie-podkladov-na-usb/",
-      "p": "Časť nahrávky z ilegálneho odpočúvania na FPU ukazuje, ako členovia vedenia uisťovali v tom, že sa musia navzájom podržať a dohodovali si výhovorky pre verejnosť pri blokovaní dlhoročných zmlúv.",
-      "s": "Aktuality",
-      "t": "Kauza odpočúvania na FPU: objavila sa nová časť nahrávky. Ukazuje tieň Lukáša Machalu aj odovzdávanie podkladov na USB",
-      "ts": 1785855348.0642533,
-      "u": "f94c87e43c02cba0377e"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/MsWkG3c/cestujuci-musia-ratat-s-meskanim-zeleznice-zavadzaju-preventivne-opatrenia-pre-horucavy/",
-      "p": "V utorok spomalia vlaky na viacerých tratiach, ŽSR pri výstrahe tretieho stupňa pre horúčavy zavádzajú maximálnu rýchlosť 80 km h a varujú pred meškaniami.",
-      "s": "Aktuality",
-      "t": "Cestujúci musia rátať s meškaním, železnice zavádzajú preventívne opatrenia pre horúčavy",
-      "ts": 1785855348.0642545,
-      "u": "9910de4d29885a8b3392"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1242103-tisice-nakazenych-a-dve-obete-urady-skumaju-salat-z-fastfoodu-pre-smrtelnu-nakazu-parazitom",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Tisíce nakazených a dve obete: Úrady skúmajú šalát z fastfoodu pre smrteľnú nákazu parazitom",
-      "ts": 1785855348.0642555,
-      "u": "9d49bfbbb640df057930"
-    },
     {
       "l": "https://www.sme.sk/komentare/c/gluck-hodil-europanom-rukavicu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Ako by asi vyzeralo, keby nám vrátili úprimnú kritiku?",
@@ -4376,6 +4324,78 @@
       "t": "V centre Londýna útočila žena s nožom, zranila štyroch ľudí",
       "ts": 1785940544.3353918,
       "u": "57f49f1333c3b94b53f4"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/madarska-vladna-tisza-iniciovala-aby-prezidenta-volil-parlament-11-augusta?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Meno prezidentského kandidáta Tiszy zatiaľ nie je známe.",
+      "s": "SME",
+      "t": "Maďarská vládna Tisza iniciovala, aby prezidenta volil parlament 11. augusta",
+      "ts": 1785941748.1053512,
+      "u": "9f7fc7c65f8a0a852025"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/turecko-predlozila-zakon-o-odzbrojeni-pkk-a-amnestii-pre-jej-clenov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Vládna strana sa snaží o ukončenie vyše 40 rokov trvajúceho konfliktu.",
+      "s": "SME",
+      "t": "Turecko predložilo zákon o odzbrojení PKK a amnestii pre jej členov",
+      "ts": 1785941748.1053534,
+      "u": "696cce4efab1b1c43fa5"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/urady-v-ceute-upozornuju-na-neudrzatelnu-situaciu-s-maloletymi-migrantmi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "V Ceute je 1100 maloletých, hoci kapacita zariadení je len 90 miest.",
+      "s": "SME",
+      "t": "Úrady v Ceute upozorňujú na neudržateľnú situáciu s maloletými migrantmi",
+      "ts": 1785941748.1053548,
+      "u": "effcdc42cf5a8f6dd4bf"
+    },
+    {
+      "l": "https://www.sme.sk/bratislava/c/v-bratislavskom-velkom-drazdiaku-sa-utopil-53-rocny-muz?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Na mieste sa nachádzajú všetky záchranné zložky.",
+      "s": "SME",
+      "t": "V bratislavskom Veľkom Draždiaku sa utopil 53-ročný muž",
+      "ts": 1785941748.1053555,
+      "u": "7f16d5922ca037ce0e34"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/nove-rychlostne-radary-su-podla-progresivcov-pravdepodobne-ruskej-vyroby-uviedlo-ps?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Namontované sú už zrejme desiatky.",
+      "s": "SME",
+      "t": "Nové rýchlostné radary sú pravdepodobne ruskej výroby, uviedlo PS",
+      "ts": 1785941748.1053565,
+      "u": "0f3ec6c3ea728d8f2756"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLWVXa1JKbXlWUEpLSWZualdqVEZUcWdIVzBEVDE5bUJyN2k4OUExOXpnZFpUNWdHeTRFOC1aLXJZSGlfcVF4SllsNWR0Q19vbDY1RmVrQzBNbWJ3ckZ6bnZyUnRGNXQzdzRqVFA4eW9haUFfN04wX1E5SkJWRXJJdmJFVmh1OGRWaEtTSFdjR0ZDYTUwcTFXTENpLXY?oc=5",
+      "p": "Lesné požiare neďaleko Atén sú pod kontrolou, nie sú však úplne uhasené SME.sk",
+      "s": "SME (GNews)",
+      "t": "Lesné požiare neďaleko Atén sú pod kontrolou, nie sú však úplne uhasené - SME.sk",
+      "ts": 1785941748.1053581,
+      "u": "71bd04671c9c53966049"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLXY4OVNyUlNzVG80d282RnRScnhlZHB6UWIzTDl4R1NfLUg3N0ZOY1doNTVUWkpCbkUzbERCdkVPZzhfbm85cWFKT1l4aUtVSy1pRl8yeFRmb2RXa1Fmc3NKNmdHYVIwRkduTnNpbF93T25MT21EeUhVekc1Y1FoWlViXzZXdVdBNkhPT0Q2RTJHQ2phX0EwcTFSQ0RET2oxWEE?oc=5",
+      "p": "Maďarská vládna Tisza iniciovala, aby prezidenta volil parlament 11. augusta SME.sk",
+      "s": "SME (GNews)",
+      "t": "Maďarská vládna Tisza iniciovala, aby prezidenta volil parlament 11. augusta - SME.sk",
+      "ts": 1785941748.1053593,
+      "u": "ad975b55889f8b73aa67"
+    },
+    {
+      "l": "https://dennikn.sk/5488460/aplikacie-na-zoznamovanie-vytvaraju-absurdne-vysoke-naroky-na-partnerov-vravi-psycholog/",
+      "p": "Podľa vedkyne zo SAV by si ľudia mali zvoliť takú metódu zoznamovania, ktorá vyhovuje ich preferenciám a povahe. „Ak niekto nie je schopný osloviť cudzieho človeka a nemá širokú skupinu známych, bude inklinovať k aplikáciám, hoci aj tie majú svoje úskalia, rovnako ako zoznamovanie osobne.“",
+      "s": "Denník N",
+      "t": "Aplikácie na zoznamovanie vytvárajú absurdne vysoké nároky na partnerov, vraví psychológ",
+      "ts": 1785941748.10536,
+      "u": "52409db4db81d9f498bc"
+    },
+    {
+      "l": "https://dennikn.sk/5490989/danglar-myslitel/",
+      "p": "Máte pripomienku alebo ste našli chybu? Prosíme, napíšte na pripomienky@dennikn.sk.",
+      "s": "Denník N",
+      "t": "Danglár: Mysliteľ",
+      "ts": 1785941748.1053612,
+      "u": "82ca7586c52af0fe13d2"
     }
   ],
   "recent_alerts": [
@@ -5198,6 +5218,7 @@
     "0de0c038abe7857c9f64": 1785900937.7316217,
     "0ef93f109fb2052bba4f": 1785768936.619169,
     "0eff672430ada0fc3dff": 1785777640.5328372,
+    "0f3ec6c3ea728d8f2756": 1785941748.105356,
     "0f5e64d162188bbc9592": 1785855348.064261,
     "0f7fa42f744b5540e4ba": 1785839736.6822,
     "0f86d29cb663395842c2": 1785917440.9175994,
@@ -5438,6 +5459,7 @@
     "36e3e7656b55ad922f5f": 1785760544.818471,
     "3730412cfda2fc2b4fcb": 1785916535.8213332,
     "3747ce2da53cf7f77b5e": 1785826545.2546983,
+    "37b1ac31889dc13f8ed2": 1785941748.1053636,
     "37df8a5456d72f060ca0": 1785900937.7316513,
     "3801d60ef23ff31ba6fc": 1785814537.8861291,
     "3810c3744ffbd38fd67c": 1785860438.8907044,
@@ -5594,6 +5616,7 @@
     "51efebdba4c250997880": 1785784853.463664,
     "5202e38bcd874de71159": 1785839736.682215,
     "52124925bb12288206e8": 1785871239.6176596,
+    "52409db4db81d9f498bc": 1785941748.1053596,
     "5267f99917647ddcf824": 1785767742.3899074,
     "5295bb88a7c492be0159": 1785814537.886184,
     "5297db10cf1b1d869ea3": 1785781249.2657218,
@@ -5742,6 +5765,7 @@
     "691000349fb546aa44b0": 1785816637.2230022,
     "695561e793e33890f576": 1785814537.8859267,
     "69695cef9d7ec7039e46": 1785923741.7727044,
+    "696cce4efab1b1c43fa5": 1785941748.1053524,
     "69824607b0ca554a8cb7": 1785771332.9024174,
     "6993e97ef9a1ee54f246": 1785823844.0450232,
     "69c7d453f73285745266": 1785818137.7635646,
@@ -5783,6 +5807,7 @@
     "713ee64c41477131a1c2": 1785762649.7563295,
     "71538b7dbb07932d4910": 1785916535.8210487,
     "715c3aca855d35361961": 1785916535.8210328,
+    "71bd04671c9c53966049": 1785941748.1053567,
     "71dcab33cce79d784a22": 1785916535.8210287,
     "71ef3b979d5a3c189a2d": 1785900937.7314193,
     "71fafcff1bb121db1481": 1785839736.6822164,
@@ -5857,6 +5882,7 @@
     "7edd751582aa99098c7c": 1785820250.4848602,
     "7ee91ade44c36e27d5b3": 1785866150.0102458,
     "7f08781dc5bcb17e2ce1": 1785929753.7564435,
+    "7f16d5922ca037ce0e34": 1785941748.1053553,
     "7f4ebba2020a79537bd4": 1785844535.9969165,
     "7f6919552aaed63e7858": 1785820250.484866,
     "7f9e71b85839d05793d9": 1785903643.398641,
@@ -5882,6 +5908,7 @@
     "8249f08e4d7b13d9f45a": 1785768936.6191664,
     "82637e58664e8796ed8d": 1785846940.870037,
     "8285a1ba52749b657a9a": 1785864041.6937532,
+    "82ca7586c52af0fe13d2": 1785941748.1053603,
     "82fb4e0ffa0235c1b1c4": 1785929753.7564325,
     "83034790b19466bb40f1": 1785779740.451598,
     "830e8b262aa778864a56": 1785905744.7117386,
@@ -6034,6 +6061,7 @@
     "9eeb3f393f603e08e3ad": 1785916535.8213315,
     "9f03b38463551ac901b9": 1785783341.048502,
     "9f7e31ae1b03834f6489": 1785772541.466117,
+    "9f7fc7c65f8a0a852025": 1785941748.1053486,
     "a00306e52af656e737ac": 1785928249.940903,
     "a06bd2d0708f8aad3e1b": 1785760544.8184612,
     "a06db4a4aabd13079a91": 1785839736.6822035,
@@ -6110,6 +6138,7 @@
     "ace86dd70849580b424a": 1785900937.7316456,
     "ad04edb1b811a5239d39": 1785764608.7590127,
     "ad6b3afe5343cf97bb67": 1785767742.389921,
+    "ad975b55889f8b73aa67": 1785941748.1053586,
     "adcefe2a149a8de95222": 1785930933.2056258,
     "adf6848e6872b7745db1": 1785846940.870038,
     "ae4888a1f906f225dc98": 1785935441.3197308,
@@ -6442,6 +6471,7 @@
     "e4e0f873d575992eee9e": 1785927332.949206,
     "e4e1268a0ad71f982d1c": 1785867643.085255,
     "e53d8fe7391fc0a5af96": 1785916535.8212416,
+    "e53f1ccae1d0f4d7511d": 1785941748.1053617,
     "e54d276fdd17896549fc": 1785900937.7316496,
     "e579e1f99a8e46ba0bdf": 1785758142.5953302,
     "e5cbb3b670367f4b90bc": 1785915334.5350845,
@@ -6481,6 +6511,7 @@
     "eb73d3dd2cb93c8de1d4": 1785764141.6288052,
     "eb9f0b628f64fc37b47e": 1785856255.668433,
     "eb9f284ffccc6553b4c3": 1785823844.0450215,
+    "ebe5b3749aa6ef9a8a10": 1785941748.1053658,
     "ec5dba3ba8a489158264": 1785857743.1191647,
     "ecb29db3b1b46e9a0e4b": 1785836150.6413896,
     "ecb2e963ed2ca5071fd6": 1785845447.3297913,
@@ -6501,6 +6532,7 @@
     "ef9ab7ea1fb4f2f797a3": 1785900937.7316368,
     "efcf9bc63cb347084b14": 1785788439.6585302,
     "efd42019638ce1645413": 1785920137.5864687,
+    "effcdc42cf5a8f6dd4bf": 1785941748.105354,
     "f01a2c85c9a3ba2c2f0b": 1785900937.7316327,
     "f032e3e35a552bb9a9a9": 1785876945.9086754,
     "f039294817b22d75ec9f": 1785936058.1281805,
@@ -6621,112 +6653,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785940544.3351867
+      "ts": 1785941748.1053307
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785940544.3351882
+      "ts": 1785941748.1053317
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785940544.3351905
+      "ts": 1785941748.1053338
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785940544.3351943
+      "ts": 1785941748.1053374
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785940544.3351893
+      "ts": 1785941748.1053329
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785940544.3351803
+      "ts": 1785941748.105325
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785940544.335185
+      "ts": 1785941748.1053295
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785940544.3351936
+      "ts": 1785941748.1053364
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785940544.335192
+      "ts": 1785941748.1053348
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785940544.3351932
+      "ts": 1785941748.1053355
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/doma-vidi-uz-len-bratov-chrbat-andreas-zampa-trenuje-na-novom-zelande-a-neskryva-odhodlanie-2026080414350459190",
-      "p": "Andreas Žampa má za sebou prvú časť letnej prípravy na novú sezónu Svetového pohára v alpskom lyžovaní. Absolvoval ju prevažne doma aj so svojimi bratmi Adamom a Teom. V novom ročníku by chcel opäť posunúť svoje výkony i umiestnenia a presadiť sa aj na svetovom šampionáte v Crans-Montane, kde pred 1",
-      "s": "Šport.sk",
-      "t": "Doma vidí už len bratov chrbát. Andreas Žampa trénuje na Novom Zélande a neskrýva odhodlanie",
-      "ts": 1785855348.0642588,
-      "u": "51582ccde1774d78c4c6"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/futbal-fifa-blatter-vie-kto-by-mal-nahradit-infantina-nastal-cas-pre-zenu-2026080414483960518",
-      "p": "Bývalý prezident FIFA Sepp Blatter hovoril o súčasnom šéfovi strešnej futbalovej organizácie Giannim Infantinovi a Blatter vie, kto by ho mal na tejto pozícii nahradiť.",
-      "s": "Šport.sk",
-      "t": "Blatter vie, kto by mal nahradiť Infantina: Nastal čas pre ženu na vedúcej pozícii",
-      "ts": 1785855348.06426,
-      "u": "5bc322c436292f3f195e"
-    },
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/najvacsiu-hviezdu-mma-caka-tazka-chvila-conor-mcgregor-ide-pod-skalpel-2026080414250668107",
-      "p": "Conor McGregor oznámil, že ho čaká operácia. Túto správu zverejnil sám na svojom Instagrame v pondelok 3. augusta.",
-      "s": "Šport.sk",
-      "t": "Najväčšiu hviezdu MMA čaká ťažká chvíľa. Conor McGregor ide pod skalpel",
-      "ts": 1785855348.0642617,
-      "u": "0f5e64d162188bbc9592"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/tatran-presov-angazoval-novu-posilu-do-slovenskej-ligy-prichadza-prvy-egyptan-v-historii-2026080414442142170",
-      "p": "Slovenský hádzanársky klub Tatran Prešov prvýkrát vo svojej novodobej histórii angažoval egyptského hráča. Do tímu slovenského majstra pribudol 25-ročný pivot Mohamed Abdelsadek, ktorý podpísal s klubom ročný kontrakt s opciou na ďalšiu sezónu. Tatran o jeho príchode informoval na svojom webe.",
-      "s": "Šport.sk",
-      "t": "Tatran Prešov angažoval novú posilu. Do slovenskej ligy prichádza prvý Egypťan v histórii",
-      "ts": 1785855348.0642626,
-      "u": "99cb47b9b071e3a48b75"
-    },
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/bojovnik-ufc-allan-nascimento-necakane-zomrel-mal-34-rokov-ufc-2026080414414054925",
-      "p": "Bojovník zmiešaných bojových umení (MMA) Allan Nascimento nečakane zomrel vo veku 34 rokov. V utorok to oznámila americká a svetovo najprestížnejšia organizácia UFC, v ktorej Brazílčan pôsobil.",
-      "s": "Šport.sk",
-      "t": "Tragédia vo svete MMA. Bojovník UFC nečakane zomrel vo veku iba 34 rokov",
-      "ts": 1785855348.0642636,
-      "u": "07756a3cc5a91cead8aa"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/futbalove-prestupy-ziska-martin-dubravka-noveho-spoluhraca-v-liverpoole-uz-s-gakpom-nepocitaju-2026080303015450721",
-      "p": "Krídelník Liverpoolu Cody Gakpo čoraz vážnejšie zvažuje odchod z Anfieldu. Klub mu už hľadá kupca a pri dobrej ponuke by mohol odísť, tvrdí TEAMtalk.",
-      "s": "Šport.sk",
-      "t": "Získa Martin Dúbravka nového spoluhráča? V Liverpoole už s krídelníkom príliš nepočítajú",
-      "ts": 1785855348.0642645,
-      "u": "c4f334420b068a67fef3"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/futbal-la-liga-vinicius-vysiel-s-pravdou-von-tieto-veci-ziada-od-neho-mourinho-v-real-madrid-2026080414511017446",
       "p": "Brazílsky útočník sa nedávno pripojil k „bielemu baletu“ po dovolenke po majstrovstvách sveta 2026.",
@@ -8582,6 +8566,30 @@
       "t": "Juniori aj juniorky SR skončili v hliadkach K1 na ME na 4. mieste",
       "ts": 1785940544.3354034,
       "u": "df369eb9174140f69b46"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/okolo-polska-milan-ma-zlaty-hetrik-na-cele-si-buduje-slusny-naskok-2026080514491540168",
+      "p": "Taliansky cyklista Jonathan Milan zvíťazil aj v tretej etape pretekov Okolo Poľska. Jazdec tímu Lidl-Trek potvrdil úlohu favorita na stredajšej 193,5 kilometrov dlhej rovinatej trase do Zielonej Góry, keď v záverečnom špurte uspel pred Britom Noahom Hobbsom (EF Education-EasyPost).",
+      "s": "Šport.sk",
+      "t": "Okolo Poľska: Milan má zlatý hetrik. Na čele si buduje slušný náskok",
+      "ts": 1785941748.1053631,
+      "u": "e53f1ccae1d0f4d7511d"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/krok-od-cenneho-kovu-na-europskom-sampionate-slovenski-juniori-aj-juniorky-zostali-tesne-pod-podiom-2026080514362674160",
+      "p": "Obe slovenské lode obsadili v súťaži hliadok K1 na majstrovstvách Európy juniorov vo vodnom slalome vo francúzskom Épinale zhodne 4. miesto. Slovenské trio Dominik Egyházy, Filip Duda a Matúš Egyházy finišovalo v konkurencii 21 lodí so stratou 7,53 sekundy na víťazných Poliakov. V súťaži junioriek z",
+      "s": "Šport.sk",
+      "t": "Krok od cenného kovu na európskom šampionáte. Slovenskí juniori aj juniorky zostali tesne pod pódiom",
+      "ts": 1785941748.1053655,
+      "u": "37b1ac31889dc13f8ed2"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/pribehy-futbalistov-bez-ruky-majster-sveta-ci-vrazda-po-historickom-triumfe-2026080514275652847",
+      "p": "Počas predchádzajúceho týždňa dánsky futbalista Marius Lindh z klubu NSÍ Runavík z Faerských ostrovov skóroval v odvete 2. kvalifikačného kola Európskej konferenčnej ligy na pôde slovinského tímu FC Koper a prispel k tomu, že jeho tím u súpera zmazal dvojgólové manko z prvého zápasu.",
+      "s": "Šport.sk",
+      "t": "Fascinujúce príbehy futbalistov bez ruky. Jeden vyhral MS, druhého po historickom triumfe zavraždili",
+      "ts": 1785941748.1053665,
+      "u": "ebe5b3749aa6ef9a8a10"
     }
   ],
   "sport_source_status": {
@@ -8589,25 +8597,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1785940544.3351967
+      "ts": 1785941748.1053398
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1785940544.3351989
+      "ts": 1785941748.1053412
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1785940544.335201
+      "ts": 1785941748.1053429
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1785940544.3352
+      "ts": 1785941748.1053424
     }
   }
 }
