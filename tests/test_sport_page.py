@@ -1,5 +1,6 @@
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -20,7 +21,7 @@ class SportPageTests(unittest.TestCase):
         }]))
 
         self.assertIn("Športový radar", html)
-        self.assertIn("Mimoriadne a Top tém", html)
+        self.assertNotIn("Redakčný výber zahŕňa iba témy", html)
         self.assertIn("Redakčný výber", html)
         self.assertIn("Sledovať", html)
         self.assertIn("--green", html)
@@ -28,6 +29,15 @@ class SportPageTests(unittest.TestCase):
         self.assertIn('href="index.html#media-radar"', html)
         self.assertIn('href="sport-audit.html"', html)
         self.assertIn("fetch('version.json?check='+Date.now()", html)
+
+    def test_page_shows_live_feed_update_time(self):
+        generated = datetime(2026, 8, 5, 11, 10, 55, tzinfo=timezone.utc)
+        html = build_sport_html(self._state([]), generated_at=generated)
+
+        self.assertIn("Aktualizované 13:10:55 · 05.08.2026", html)
+        self.assertIn('id="live-ago"', html)
+        self.assertIn('data-ts="1785928255000"', html)
+        self.assertIn("setInterval(tick,30000)", html)
 
     def test_page_rejects_unsafe_link(self):
         html = build_sport_html(self._state([{
