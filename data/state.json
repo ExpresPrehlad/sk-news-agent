@@ -1,50 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Ruské raketové útoky na Kyjev si vyžiadali 17 obetí",
-      "ts": 1785929759.287338
-    },
-    {
-      "headline": "Polícia vyšetruje nehodu Filipa Turka ako ublíženie na zdraví",
-      "ts": 1785929759.287338
-    },
-    {
-      "headline": "Slovensko čelí extrémne horúcim dňom a suchu",
-      "ts": 1785929759.287338
-    },
-    {
-      "headline": "V Nemecku našli pri ukrajinskom lietadle dron s výbušninou",
-      "ts": 1785929759.287338
-    },
-    {
-      "headline": "V Karloveskom ramene našli telo 46-ročnej ženy",
-      "ts": 1785929759.287338
-    },
-    {
-      "headline": "Trump odmietol žiadosť Zelenského o rakety Patriot",
-      "ts": 1785929759.287338
-    },
-    {
-      "headline": "Výbuch auta šéfa ruskej zbrojovky: Vodič zahynul, riaditeľ je v kritickom stave",
-      "ts": 1785930937.808892
-    },
-    {
-      "headline": "Polícia vyšetruje nehodu Filipa Turka pre podozrenie z ublíženia na zdraví",
-      "ts": 1785930937.808892
-    },
-    {
-      "headline": "Slovensko sužuje sucho, obce zavádzajú obmedzenia spotreby vody",
-      "ts": 1785930937.808892
-    },
-    {
-      "headline": "V Mexiku zastrelili influencera počas živého vysielania",
-      "ts": 1785930937.808892
-    },
-    {
-      "headline": "Poľské a české úrady rozbili medzinárodný gang pašerákov drog",
-      "ts": 1785930937.808892
-    },
-    {
       "headline": "Minister Susko podáva trestné oznámenie v prípade vraždy v Gelnici",
       "ts": 1785931602.3669724
     },
@@ -203,24 +159,58 @@
     {
       "headline": "Sotákove železiarne sa po strate vracajú k zisku",
       "ts": 1785944148.5390768
+    },
+    {
+      "headline": "Slovensko zaznamenalo nový teplotný rekord 41,4 stupňa",
+      "ts": 1785945339.6627579
+    },
+    {
+      "headline": "Maďarská strana Tisza žiada voľbu prezidenta na 11. augusta",
+      "ts": 1785945339.6627579
+    },
+    {
+      "headline": "Mladý Hlas podal trestné oznámenie na Ivana Korčoka",
+      "ts": 1785945339.6627579
+    },
+    {
+      "headline": "Čínsky investor IBIH mieri do Trnavy s novým závodom",
+      "ts": 1785945339.6627579
+    },
+    {
+      "headline": "Vzácnu vilu na Hlbokej ceste v Bratislave rozoberajú",
+      "ts": 1785945339.6627579
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Maďarská strana Tisza iniciuje voľbu prezidenta na 11. augusta",
+        "headline": "Slovensko zaznamenalo nový teplotný rekord 41,4 stupňa",
         "links": [
           [
-            "SME",
-            "https://www.sme.sk/svet/c/madarska-vladna-tisza-iniciovala-aby-prezidenta-volil-parlament-11-augusta"
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/RPv1UZS/na-slovensku-padol-novy-teplotny-rekord-v-kamenici-nad-cirochou-namerali-414-stupna-celzia/"
           ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/namerali-novy-rekord-v-kamenici-nad-hronom-dosiahla-teplota-41-4-stupna"
+          ]
+        ],
+        "perex": "Meteorologická stanica v Kamenici nad Hronom namerala rekordnú teplotu vzduchu, ktorá prekonala hranicu 41 stupňov Celzia. Extrémne horúčavy naďalej sužujú celé územie Slovenska a zvyšujú riziko vzniku požiarov."
+      },
+      {
+        "headline": "Maďarská strana Tisza žiada voľbu prezidenta na 11. augusta",
+        "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/ALss0SA/madarska-strana-tisza-tlaci-na-rychlu-volbu-hlavy-statu-parlament-ma-noveho-prezidenta-volit-uz-11-augusta/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/madarska-vladna-tisza-iniciovala-aby-prezidenta-volil-parlament-11-augusta"
           ]
         ],
-        "perex": "Poslanecký klub maďarskej vládnej strany Tisza navrhol, aby sa voľba novej hlavy štátu uskutočnila v parlamente už túto nedeľu. Termín má nadväzovať na nedávnu kontroverznú zmenu ústavy a pád doterajšieho prezidenta Tamása Sulyoka."
+        "perex": "Opozičná strana Tisza iniciovala v maďarskom parlamente termín voľby novej hlavy štátu na túto nedeľu. Krok prichádza v čase politického napätia po kontroverznej zmene ústavy."
       },
       {
         "headline": "Mladý Hlas podal trestné oznámenie na Ivana Korčoka",
@@ -234,51 +224,37 @@
             "https://www.pravda.sk/spravy/domace/clanok/2019321-mladeznici-hlasu-podali-trestne-oznamenie-na-korcoka-ziadaju-preverit-jeho-odmenovanie-aj-firmu-manzelky"
           ]
         ],
-        "perex": "Predstavitelia mládežníckej organizácie strany Hlas-SD podali podnet na Generálnu prokuratúru SR v súvislosti s financovaním podpredsedu Progresívneho Slovenska. Žiadajú preveriť jeho odmeňovanie aj fungovanie spoločnosti jeho manželky."
+        "perex": "Predstavitelia mládežníckej organizácie strany Hlas-SD podali podnet na Generálnu prokuratúru SR. Žiadajú v ňom preveriť financovanie podpredsedu PS Ivana Korčoka a podnikanie jeho manželky."
       },
       {
-        "headline": "Rezort životného prostredia a ochranári v spore o medvede",
+        "headline": "Čínsky investor IBIH mieri do Trnavy s novým závodom",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2019323-medvede-su-stale-premnozene-a-ich-zdravie-sa-zhorsuje-tvrdi-tarabov-rezort-zneuzivate-situaciu-oponuju-ochranari"
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2019363-cinania-otvaraju-novy-zavod-v-trnave-do-vyroby-pre-elektromobily-naliali-miliony-eur/"
           ]
         ],
-        "perex": "Ministerstvo životného prostredia trvá na tom, že medveď hnedý je na Slovensku premnožený a jeho zdravotný stav sa zhoršuje. Ochranárske organizácie tvrdenia rezortu odmietajú a obviňujú ho zo zneužívania situácie."
+        "perex": "Výrobca materiálov pre batérie elektromobilov plánuje na Slovensku investíciu vo výške desať miliónov eur. Projekt má v regióne vytvoriť viac ako stovku nových pracovných miest."
       },
       {
-        "headline": "Wildberries presúva logistiku do Kazachstanu",
+        "headline": "Vzácnu vilu na Hlbokej ceste v Bratislave rozoberajú",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/svet/c/ruska-spolocnost-wildberries-postavi-v-kazachstane-nove-sklady"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/bHc1SwH/rusky-eshop-wildberries-uteka-pred-dronmi-do-kazachstanu-buduje-tam-dva-sklady-za-miliony-eur/"
+            "https://www.sme.sk/domov/c/vlastnil-ju-mafian-teraz-vietnamci-vzacnu-vilu-demontuju-neznami-muzi-policia-zatial-nepomohla"
           ]
         ],
-        "perex": "Ruská spoločnosť Wildberries plánuje v Kazachstane výstavbu nových skladov, ktorých otvorenie je naplánované na rok 2027. Firma tak reaguje na sériu dronových útokov, ktoré poškodili jej logistické centrá v Rusku."
-      },
-      {
-        "headline": "Sotákove železiarne sa po strate vracajú k zisku",
-        "links": [
-          [
-            "Denník N",
-            "https://e.dennikn.sk/5491217/sotakove-zeleziarne-sa-vracaju-do-zisku-pomaha-im-unia-ktoru-dlhodobo-kritizuje/"
-          ]
-        ],
-        "perex": "Železiarne Podbrezová po dvoch rokoch strát dosiahli v lete ziskovosť. K zlepšeniu hospodárenia prispeli najmä nové ochranné opatrenia Európskej únie proti dovozu lacnej ocele z tretích krajín."
+        "perex": "Národná kultúrna pamiatka, ktorú v minulosti vlastnil mafián, je predmetom demontáže neznámymi osobami. Polícia zatiaľ v prípade nezasiahla, hoci budova podlieha pamiatkovej ochrane."
       }
     ],
-    "ts": 1785944148.5390677
+    "ts": 1785945339.6627483
   },
   "meta": {
-    "last_collection_ts": 1785944142.96356,
+    "last_collection_ts": 1785945334.7976053,
     "last_feed_error_ts": 1785944143.484769,
     "last_llm_error_ts": 1785940655.8055897,
-    "last_run_ts": 1785944143.4856672,
-    "last_synthesis_ts": 1785944148.539062
+    "last_run_ts": 1785945335.361557,
+    "last_synthesis_ts": 1785945339.6627433
   },
   "recent": [
     {
@@ -4424,6 +4400,54 @@
       "t": "Slovensko si v Chorvátsku uctilo pamiatku vojakov mierovej misie OSN",
       "ts": 1785944143.4848025,
       "u": "bb31a50c5d2b866b2e09"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/cena-zlata-vzrastla-o-tri-percenta-takmer-na-4200-dolarov-za-uncu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Trhy zároveň sledujú ďalší vývoj na Blízkom východe.",
+      "s": "SME",
+      "t": "Cena zlata vzrástla o tri percentá takmer na 4200 dolárov za uncu",
+      "ts": 1785945335.3609402,
+      "u": "d7061d888e2f07ebeb0b"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/vlastnil-ju-mafian-teraz-vietnamci-vzacnu-vilu-demontuju-neznami-muzi-policia-zatial-nepomohla?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Budova na Hlbokej ceste je národnou kultúrnou pamiatkou.",
+      "s": "SME",
+      "t": "Vlastnil ju mafián, teraz Vietnamci. Vzácnu vilu demontujú neznámi muži, polícia zatiaľ nepomohla",
+      "ts": 1785945335.3609433,
+      "u": "50a0fc08c887e9e85425"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2019383-krvavy-incident-v-londyne-zena-v-covent-garden-napadla-noznicami-styroch-muzov?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Metropolitná polícia dnes v londýnskej štvrti Covent Garden zadržala ženu podozrivú z bodnutia štyroch mužov, informovali médiá s odvolaním sa na miestne úrady. Hovorca londýnskej záchrannej služby uviedol, že štyria pacienti boli ošetrení na mieste a prevezení do neďalekého traumacentra. Podľa stan",
+      "s": "Pravda",
+      "t": "Krvavý incident v Londýne: Žena v Covent Garden napadla nožnicami štyroch mužov",
+      "ts": 1785945335.360946,
+      "u": "57af46ca2a56ff91aa8a"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2019363-cinania-otvaraju-novy-zavod-v-trnave-do-vyroby-pre-elektromobily-naliali-miliony-eur?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Čínsky výrobca pokročilých materiálov pre batérie elektromobilov IBIH Advanced Materials vstupuje na slovenský trh s investíciou desať miliónov eur a plánom vytvoriť 120 pracovných miest.",
+      "s": "Pravda",
+      "t": "Číňania otvárajú nový závod v Trnave: Miliónová investícia prinesie prácu pre desiatky ľudí",
+      "ts": 1785945335.3610744,
+      "u": "446233ee021f281bb2ad"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1242739-madarsko-bude-volit-noveho-prezidenta-hlasovanie-v-parlamente-ma-byt-uz-11-augusta",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Maďarsko bude voliť nového prezidenta. Hlasovanie v parlamente má byť už 11. augusta",
+      "ts": 1785945335.3610759,
+      "u": "f872a99026e683b423e1"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1242749-slovensko-ma-novy-teplotny-rekord-v-kamenici-nad-hronom-namerali-41-4-stupna-celzia",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Slovensko má nový teplotný rekord. V Kamenici nad Hronom namerali 41,4 stupňa Celzia",
+      "ts": 1785945335.3610773,
+      "u": "f32d1be3d8b11e2b82a0"
     }
   ],
   "recent_alerts": [
@@ -5380,6 +5404,7 @@
     "23ffc44f0f153e521ae8": 1785910852.9855728,
     "240587b5ade8f9dde35b": 1785909335.409355,
     "242d4ec69bd266d29656": 1785905744.7117357,
+    "244b09e49db50bed7ebf": 1785945335.3610783,
     "2472de3f84eefd072be6": 1785774048.5034735,
     "2499fd68e0b7a255610a": 1785779740.451612,
     "2545f865fb4aa98a4a58": 1785777640.5328271,
@@ -5570,6 +5595,7 @@
     "43d6449b1bc4dbe5cd46": 1785926139.23173,
     "43dbc62c8060029d1523": 1785934545.8464088,
     "443a6ba8d58d20433480": 1785857743.1191714,
+    "446233ee021f281bb2ad": 1785945335.3610737,
     "44c60e5ce63a9b8dffe6": 1785940544.3353934,
     "44d71000973cbe84c1e6": 1785922542.3709717,
     "44ecb5826d953fea66cc": 1785944143.484773,
@@ -5643,6 +5669,7 @@
     "4ff0d586be3dc404bc39": 1785827448.878557,
     "500a39a5dc1fbf07a38d": 1785764608.7590015,
     "500b7da62dd361a077c8": 1785846940.870041,
+    "50a0fc08c887e9e85425": 1785945335.3609421,
     "50b060959fbd90fc2a8d": 1785940544.3352072,
     "50b5188f083ab887b96f": 1785857743.119163,
     "5104c74834c4e898c939": 1785756935.233443,
@@ -5692,6 +5719,7 @@
     "57511535606a9e53e367": 1785779740.4516127,
     "576406aa6fea78a85c7d": 1785916535.821034,
     "57ace31e7ae49f7ad2f1": 1785818137.7635725,
+    "57af46ca2a56ff91aa8a": 1785945335.360944,
     "57bf3b1919461327074c": 1785920137.5864701,
     "57c3ffd7214aeaf89f2c": 1785850548.950284,
     "57d1a73f7a45ea87fe5d": 1785909335.4093454,
@@ -5763,6 +5791,7 @@
     "614123b7ccf8453352ee": 1785938142.338727,
     "6153c878d37bc145fd75": 1785916535.8213468,
     "619881ddd6a242c75063": 1785771332.902415,
+    "61b0af0dccc377b8dcb5": 1785945335.3610816,
     "6251ce85f67c2a4206af": 1785761747.8225224,
     "6259b96257e9acf74916": 1785929753.7564218,
     "626d7e18fc81b6105037": 1785869740.5980897,
@@ -5837,6 +5866,7 @@
     "6cec4c3270a43fcd8713": 1785814537.8861372,
     "6d09eda0a3d0fc2dbce0": 1785784853.4636571,
     "6d0c275867decd450794": 1785834644.8182385,
+    "6d1c9066886281ff6a48": 1785945335.3610835,
     "6d24a3c6aacadc4ffe77": 1785867643.0852528,
     "6dc35a1df4b02cb253ac": 1785854140.749738,
     "6ee0cc2253d27c16a74c": 1785772541.4661243,
@@ -6446,6 +6476,7 @@
     "d6a91a5145b6b75852e7": 1785900937.7316234,
     "d6ae5fba7ea3e441a3c8": 1785786931.806405,
     "d6b6e1ddf88ebac1c0fa": 1785916535.8213458,
+    "d7061d888e2f07ebeb0b": 1785945335.3609366,
     "d76f6fb48551c0f8f24d": 1785834644.8182278,
     "d78b7ad71fe95929b01a": 1785779740.451624,
     "d7a26ff7942c614d98c9": 1785918937.1542163,
@@ -6617,6 +6648,7 @@
     "f2944435388423fab671": 1785862539.9923172,
     "f2f3179cd9060b5b70f4": 1785843340.5838313,
     "f2fbdf366e13cd1b8a56": 1785765339.9671917,
+    "f32d1be3d8b11e2b82a0": 1785945335.3610768,
     "f333067388e3255bf3bc": 1785873334.248208,
     "f3333accfb00f9491f81": 1785916535.821036,
     "f36be77981517ec9f51e": 1785935441.319715,
@@ -6653,6 +6685,7 @@
     "f86b054996961f573a36": 1785920137.5866446,
     "f86cfee89de2f0ecfa74": 1785926139.2316797,
     "f86d62fa759467bdcd3f": 1785814537.8861144,
+    "f872a99026e683b423e1": 1785945335.3610752,
     "f88635b0d99d4fd26e7f": 1785876945.9086804,
     "f8be671305c5cbb89284": 1785857743.1191545,
     "f8bf69ee356ea30bb400": 1785848150.226689,
@@ -6718,61 +6751,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785944143.2649012
+      "ts": 1785945335.360913
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785944143.2649024
+      "ts": 1785945335.360915
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785944143.2649052
+      "ts": 1785945335.3609178
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785944143.26491
+      "ts": 1785945335.3609223
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785944143.2649038
+      "ts": 1785945335.3609161
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785944143.264894
+      "ts": 1785945335.3609061
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785944143.264899
+      "ts": 1785945335.3609114
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785944143.2649093
+      "ts": 1785945335.3609216
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785944143.2649066
+      "ts": 1785945335.3609192
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785944143.264908
+      "ts": 1785945335.3609204
     }
   },
   "sport_recent": [
@@ -8687,6 +8720,30 @@
       "t": "Taddeucciová získala zlato aj na 5 km",
       "ts": 1785944143.484813,
       "u": "db5eb965307e8deb6ae1"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/novak-djokovic-revolucia-pravidla-tenis-2026080511102442446",
+      "p": "Priemerný vek tenisového fanúšika sa dnes šplhá k hrozivému číslu 61 rokov. Tento alarmujúci údaj, s ktorým nedávno vyrukovala hráčska asociácia PTPA, nenecháva chladným ani najúspešnejšieho hráča histórie. Novak Djokovič si plne uvedomuje, že pokiaľ chce biely šport prežiť a prilákať mladú generáci",
+      "s": "Šport.sk",
+      "t": "Revolúcia podľa Novaka Djokoviča. Zabudnite na tenis, ako ho poznáte",
+      "ts": 1785945335.3610806,
+      "u": "244b09e49db50bed7ebf"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/fifa-ms-2026-hostitelske-mesta-milion-dolarov-2026080515461412244",
+      "p": "Viaceré americké mestá, ktoré hostili zápasy tohtoročných futbalových majstrovstiev sveta, požadujú milióny dolárov, ktoré im mala Medzinárodná futbalová federácia (FIFA) sľúbiť. Informoval o tom portál The Athletic.",
+      "s": "Šport.sk",
+      "t": "GIanni Infantino nás oklamal, tvrdia viaceré mestá. Z peňazí za MS vo futbale nemajú ani cent",
+      "ts": 1785945335.3610828,
+      "u": "61b0af0dccc377b8dcb5"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa1pCb0JkRjV5NnVzMkpLUWFJYThXRU9YNi1QUDM3N2VIQ21KSW5BeFhuSFJUbkZQTHBQd080ZnhiRVVSNG5MOHJjdU9zR2NuSlRIcXNxVmtTbE5iLW5DMW9LOFhjTm5qZS05dHdMZDJaQmg5a2t5RFVXNXp2OWE0RXhMVmxjTVI5Qmc?oc=5",
+      "p": "Slovenský reprezentant mení pôsobisko. Rozohrávač podpísal s tureckým klubom po úspešnej sezóne SPORTNET",
+      "s": "SPORTNET",
+      "t": "Slovenský reprezentant mení pôsobisko. Rozohrávač podpísal s tureckým klubom po úspešnej sezóne",
+      "ts": 1785945335.3610842,
+      "u": "6d1c9066886281ff6a48"
     }
   ],
   "sport_source_status": {
@@ -8694,25 +8751,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1785944143.2649124
+      "ts": 1785945335.3609252
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1785944143.2649148
+      "ts": 1785945335.3609278
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1785944143.2649171
+      "ts": 1785945335.3609304
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1785944143.264916
+      "ts": 1785945335.3609293
     }
   }
 }
