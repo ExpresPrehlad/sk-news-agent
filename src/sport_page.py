@@ -185,7 +185,7 @@ def build_sport_html(state) -> str:
   </style>
 </head>
 <body data-ts="{generated:.6f}">
-  <header><div class="bar"><div class="brand">SK News Agent</div><nav aria-label="Hlavná navigácia"><a href="index.html">Prehľad</a><a href="index.html#media-radar">Media Radar</a><a class="active" href="sport.html" aria-current="page">Šport</a><a href="audit.html">História výberov</a></nav></div></header>
+  <header><div class="bar"><div class="brand">SK News Agent</div><nav aria-label="Hlavná navigácia"><a href="index.html">Prehľad</a><a href="index.html#media-radar">Media Radar</a><a class="active" href="sport.html" aria-current="page">Šport</a><a href="sport-audit.html">História športu</a><a href="audit.html">História výberov</a></nav></div></header>
   <main><div class="eyebrow">Športový radar · posledných 24 hodín</div><h1>Šport</h1><p class="intro">Výber najrelevantnejších športových správ a úplný pracovný tok pre redakciu.</p>
     <div class="note">Redakčný výber zahŕňa iba témy so slovenskou väzbou alebo zo Slovenska a zahraničné rekordy či vybrané globálne sledované podujatia. Bežné výsledky, prestupy, live formáty, programy a kurzy zostávajú v úplnom toku. Športové témy naďalej môžu byť vybrané aj do Mimoriadne a Top tém.</div>
     <section aria-labelledby="featured-heading"><div class="section-head"><div><div class="eyebrow">Redakčný výber</div><h2 id="featured-heading">Sledovať</h2></div><span class="section-meta">Vybraných: {len(featured)}</span></div>{_render_featured(featured)}</section>

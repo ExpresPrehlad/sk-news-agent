@@ -127,6 +127,12 @@ SELECTION_LOG_DIR: str = os.environ.get(
     "SELECTION_LOG_DIR", "data/selection_logs"
 )
 
+# Dlhodobý audit lokálnej prioritizácie športových správ. Je zámerne oddelený
+# od LLM logu, aby sa dal samostatne exportovať a vyhodnocovať v Exceli.
+SPORT_SELECTION_LOG_DIR: str = os.environ.get(
+    "SPORT_SELECTION_LOG_DIR", "data/sport_selection_logs"
+)
+
 # Poistka proti zaplaveniu Discordu pri prvom behu alebo po dlhom výpadku:
 # ak je nových článkov viac, pošle sa len súhrnná hlavička + prvých N.
 MAX_RAW_ITEMS_PER_RUN: int = 40

@@ -26,6 +26,7 @@ class SportPageTests(unittest.TestCase):
         self.assertIn("--green", html)
         self.assertIn('href="https://example.com/sport"', html)
         self.assertIn('href="index.html#media-radar"', html)
+        self.assertIn('href="sport-audit.html"', html)
         self.assertIn("fetch('version.json?check='+Date.now()", html)
 
     def test_page_rejects_unsafe_link(self):

@@ -24,11 +24,13 @@ import time
 
 from src import gha_summary
 from src.audit_page import write_audit_page
+from src.sport_audit_page import write_sport_audit_page
 from src.collector.rss import fetch_all
 from src.config import (
     GEMINI_API_KEY,
     OPENROUTER_API_KEY,
     SELECTION_LOG_DIR,
+    SPORT_SELECTION_LOG_DIR,
     SOURCES,
     SPORT_SOURCES,
     STATE_PATH,
@@ -47,6 +49,7 @@ from src.pages import write_page
 from src.sport_page import write_sport_page
 from src.schedule import should_collect, synthesis_interval_minutes
 from src.selection_log import SelectionLog
+from src.sport_selection_log import SportSelectionLog
 from src.state import State
 
 logging.basicConfig(
@@ -192,6 +195,7 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     discord = DiscordConfig()
     state = State(STATE_PATH)
     selection_log = SelectionLog(SELECTION_LOG_DIR)
+    sport_selection_log = SportSelectionLog(SPORT_SELECTION_LOG_DIR)
 
     do_collect, band = should_collect(state)
     if not do_collect:
@@ -286,6 +290,7 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
             uid=a.uid, source=a.source_name, title=a.title,
             perex=a.summary, link=a.link,
         )
+    sport_selection_log.record_articles(new_sport_articles)
     state.set_meta("last_run_ts", time.time())
 
     # ---- Vrstva 2: LLM (best-effort, nesmie zhodiť beh) -------------------
@@ -322,6 +327,7 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     write_page(state)
     write_sport_page(state)
     write_audit_page()
+    write_sport_audit_page()
 
     state.save()
     log.info("Stav uložený (%d videných, %d v recent bufferi).",
