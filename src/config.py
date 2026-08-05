@@ -100,10 +100,14 @@ SPORT_SOURCES: list[Source] = [
 # Správanie collectora a stavu
 # ---------------------------------------------------------------------------
 
-# Ako dlho si pamätáme videné články. Musí byť výrazne dlhšie než najhorší
-# možný výpadok GitHub Actions, aby sa po výpadku nič neposlalo duplicitne
-# ani nestratilo.
-SEEN_WINDOW_HOURS: int = 48
+# Ako dlho si pamätáme videné články. Sedem dní bráni tomu, aby položka,
+# ktorú vydavateľ nechá dlhšie v RSS, po dvoch dňoch znovu ožila ako „nová“.
+SEEN_WINDOW_HOURS: int = 7 * 24
+
+# Tvrdá poistka pre MIMORIADNE: ak zdroj poskytuje čas publikovania, starší
+# článok sa nesmie poslať modelu ako „čerstvý“. Zostáva však dostupný pre
+# surový feed a syntézu; zdroje bez spoľahlivého času neblokujeme.
+TRIAGE_MAX_ARTICLE_AGE_HOURS: int = 12
 
 # Timeout pre HTTP požiadavky na feedy (sekundy).
 HTTP_TIMEOUT: float = 15.0

@@ -35,9 +35,11 @@ from src.config import (
     SPORT_SOURCES,
     STATE_PATH,
     SYNTHESIS_WINDOW_HOURS,
+    TRIAGE_MAX_ARTICLE_AGE_HOURS,
     DiscordConfig,
 )
 from src.digest import TRIAGE_POLICY_VERSION, synthesize, triage
+from src.freshness import fresh_triage_articles
 from src.llm.router import AllModelsFailed
 from src.notify.discord import (
     send_alerts,
@@ -297,9 +299,20 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
     triage_status = "—"
     synthesis_status = "—"
     if _LLM_ENABLED:
+        triage_articles = fresh_triage_articles(
+            new_articles,
+            max_age_hours=TRIAGE_MAX_ARTICLE_AGE_HOURS,
+        )
+        stale_count = len(new_articles) - len(triage_articles)
+        if stale_count:
+            log.info(
+                "Triáž: vyradených %d článkov starších než %d h.",
+                stale_count,
+                TRIAGE_MAX_ARTICLE_AGE_HOURS,
+            )
         new_dicts = [
             {"s": a.source_name, "t": a.title, "p": a.summary, "l": a.link}
-            for a in new_articles
+            for a in triage_articles
         ]
         try:
             if new_dicts:
