@@ -36,6 +36,17 @@ class SportPageTests(unittest.TestCase):
         self.assertNotIn("javascript:", html)
         self.assertIn("&lt;Téma&gt;", html)
 
+    def test_sport_radar_has_publisher_filters(self):
+        html = build_sport_html(self._state([
+            {"u": "1", "s": "Šport.sk", "t": "Téma", "p": "", "l": "", "ts": 200},
+            {"u": "2", "s": "SPORTNET", "t": "Ďalšia téma", "p": "", "l": "", "ts": 100},
+        ]))
+
+        self.assertIn("Šport Radar", html)
+        self.assertIn('data-filter="SPORTNET"', html)
+        self.assertIn('data-source="Šport.sk"', html)
+        self.assertIn("radar-filter", html)
+
     def test_featured_selection_keeps_slovak_and_global_events_but_excludes_routine_content(self):
         featured = _featured_articles([
             {"t": "Live prenos z ligy", "p": "Program zápasu", "ts": 300},

@@ -78,6 +78,21 @@ SPORT_SOURCES: list[Source] = [
     # Oficiálny RSS export: https://sport.aktuality.sk/page/zoznam
     Source("sport_sk", "Šport.sk", "https://sport.aktuality.sk/rss/",
            optional=True),
+    # SPORTNET nemá stabilný verejný RSS export; Google News RSS je doplnkový
+    # verejný index jeho článkov. Zdroj zostáva oddelený od hlavného výberu.
+    Source("sportnet_gnews", "SPORTNET", (
+        "https://news.google.com/rss/search?q=site%3Asportnet.sme.sk"
+        "&hl=sk&gl=SK&ceid=SK%3Ask"
+    ), optional=True),
+    # Športová rubrika TVNOVINY.sk cez verejný Google News RSS index.
+    Source("tvnoviny_sport_gnews", "TVNOVINY.sk", (
+        "https://news.google.com/rss/search?q=site%3Atvnoviny.sk%2Fsport"
+        "&hl=sk&gl=SK&ceid=SK%3Ask"
+    ), optional=True),
+    # Verejný športový RSS export TASR / TERAZ.SK. Stránka zobrazuje iba
+    # titulok, anotáciu a odkaz na pôvodnú správu.
+    Source("teraz_sport", "TERAZ.SK", "https://www.teraz.sk/rss/sport.rss",
+           optional=True),
 ]
 
 
