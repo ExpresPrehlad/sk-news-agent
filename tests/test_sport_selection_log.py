@@ -29,6 +29,9 @@ class SportSelectionLogTests(unittest.TestCase):
             self.assertIn('data-filter="sport_radar"', html)
             self.assertIn('href="https://example.com/sport"', html)
             self.assertIn("navigator.clipboard.writeText", html)
+            self.assertIn("line.join('\\t')", html)
+            self.assertIn(").join('\\n')", html)
+            self.assertNotIn("line.join('\t')", html)
 
     def test_log_is_jsonl(self):
         with tempfile.TemporaryDirectory() as directory:
