@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Žaloba Čurillovcov a Lipšica na Kaliňáka",
-      "ts": 1785941753.0505836
-    },
-    {
-      "headline": "Susko žiada disciplinárne stíhanie sudkyne",
-      "ts": 1785941753.0505836
-    },
-    {
-      "headline": "Obavy z ruských kamier na slovenských cestách",
-      "ts": 1785941753.0505836
-    },
-    {
-      "headline": "Tragické úmrtia pri vode v Bratislave",
-      "ts": 1785941753.0505836
-    },
-    {
-      "headline": "Nové vojská bezpilotných systémov v Rusku",
-      "ts": 1785941753.0505836
-    },
-    {
       "headline": "Maďarská strana Tisza iniciuje voľbu prezidenta na 11. augusta",
       "ts": 1785944148.5390768
     },
@@ -107,186 +87,108 @@
     {
       "headline": "V Londýne útočila žena s nožom, zranila štyroch mužov",
       "ts": 1785952560.859156
+    },
+    {
+      "headline": "Extrémne horúčavy na Slovensku pokračujú, hrozia aj búrky",
+      "ts": 1785956153.5561366
+    },
+    {
+      "headline": "Irán a Omán sa dohodli na novej trase plavby v Hormuzskom prielive",
+      "ts": 1785956153.5561366
+    },
+    {
+      "headline": "Rusko rozbieha dezinformačnú kampaň proti francúzskym politikom",
+      "ts": 1785956153.5561366
+    },
+    {
+      "headline": "Albánsko bojuje s lesnými požiarmi, nasadili aj letecké sily",
+      "ts": 1785956153.5561366
+    },
+    {
+      "headline": "Brazília znižuje diplomatické vzťahy s Argentínou",
+      "ts": 1785956153.5561366
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Poľsko rokuje s USA o zriadení stálej vojenskej základne",
+        "headline": "Extrémne horúčavy na Slovensku pokračujú, hrozia aj búrky",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/svet/c/polsko-rokuje-so-spojenymi-statmi-o-zriadeni-stalej-americkej-zakladne?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+            "https://www.sme.sk/domov/c/vo-stvrtok-bude-opat-horuco-v-niektorych-okresoch-hrozia-aj-burky"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2019421-slovensko-zasiahne-extrem-cez-den-vyse-38-c-vecer-hrozia-lejaky-vichrica-a-krupy"
           ]
         ],
-        "perex": "Poľsko v súčasnosti vedie rokovania so Spojenými štátmi o vybudovaní stálej americkej základne na svojom území. V krajine je momentálne rozmiestnených takmer 10-tisíc amerických vojakov."
+        "perex": "Meteorológovia varujú pred pretrvávajúcimi vysokými teplotami, ktoré na viacerých miestach prekračujú hranicu 38 stupňov Celzia. Vo štvrtok sa okrem horúčav očakáva v niektorých regiónoch aj výskyt intenzívnych búrok."
       },
       {
-        "headline": "Pápež František navštívi na jeseň Uruguaj, Argentínu a Peru",
+        "headline": "Irán a Omán sa dohodli na novej trase plavby v Hormuzskom prielive",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/iran-oznamil-dohodu-s-omanom-na-novej-trase-plavby-v-hormuzskom-prielive"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2019429-klucova-tepna-svetovej-ropy-sa-moze-znovu-otvorit-iran-sa-dohodol-s-omanom-no-varuje-pred-zasahom-usa"
+          ]
+        ],
+        "perex": "Krajiny finalizujú dohodu o spoločnej správe kľúčovej námornej tepny a určení nových súradníc pre obchodné lode. Teherán však varuje, že bezpečnosť v regióne môžu naďalej ohrozovať aktivity Spojených štátov."
+      },
+      {
+        "headline": "Rusko rozbieha dezinformačnú kampaň proti francúzskym politikom",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/francuzsko-odhalilo-rusku-dezinformacnu-kampan-prot-expremierovi-attalovi"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/o23J4YF/ruska-dezinformacna-siet-utoci-na-attala-francuzsky-urad-viginum-odhalil-kampan-priradenu-matrioske/"
+          ]
+        ],
+        "perex": "Francúzske úrady odhalili sieť s názvom Matrioška, ktorá šíri dezinformácie zamerané na expremiéra Gabriela Attala. Kampaň je súčasťou širšieho úsilia Moskvy o zasahovanie do politického diania v Európe."
+      },
+      {
+        "headline": "Albánsko bojuje s lesnými požiarmi, nasadili aj letecké sily",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/albanski-hasici-sa-snazia-uhasit-najmenej-dva-lesne-poziare"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/HaokPYD/albansko-zachvatili-lesne-poziare-hasici-evakuovali-rodiny-a-nasadili-pozemne-aj-letecke-sily/"
+          ]
+        ],
+        "perex": "Krajina čelí prudkým lesným požiarom, ktoré si v okrese Mallakastër vyžiadali evakuáciu rodín aj zvierat. Hasiči okrem pozemných jednotiek nasadili na likvidáciu plameňov aj lietadlá."
+      },
+      {
+        "headline": "Brazília znižuje diplomatické vzťahy s Argentínou",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/aZjj9nb/papez-na-jesen-navstivi-uruguaj-argentinu-a-peru/"
+            "https://www.aktuality.sk/clanok/sRblniF/brazilia-znizuje-vztahy-s-argentinou-mileiho-utoky-na-lulua-vyhnali-velvyslanca-z-buenos-aires/"
           ]
         ],
-        "perex": "Pápež mieri na najdlhšiu cestu svojho pontifikátu do Uruguaja, Argentíny a Peru. Po štyroch desaťročiach sa tak hlava katolíckej cirkvi vracia do regiónu Južnej Ameriky."
-      },
-      {
-        "headline": "Slovensko odmieta pustiť Maďarsku viac vody z Dunaja",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2019209-slovensko-odmieta-pustit-madarsku-viac-vody-brusel-sleduje-situaciu-v-elektrarni-paks?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Extrémne sucho komplikuje prevádzku energetických zariadení v regióne, pričom situáciu v maďarskej elektrárni Paks sleduje aj Európska komisia. Slovensko zatiaľ odmieta požiadavku na zvýšenie prietoku vody."
-      },
-      {
-        "headline": "Slovenská reprezentácia na ME zvládla aj druhý zápas",
-        "links": [
-          [
-            "SME (GNews)",
-            "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTdEaGEybVVCbkFSYmRfY0dqemJ0OG1QNE44Nmx6RDVPUjFyOWgyN0F5ZUJmaDhnNVJ3dWhYeFZjTFkydThDODQ0RDNndHMwbVgtbHVKbXBWSGhGUWdYMEMxNTFXRGhfWHZrSlRjVEN0ZmZiNVZhNVdmY3BscFF2UnAtc051REF6cmhJWTY5aGVVOVJKMVZCeg?oc=5"
-          ]
-        ],
-        "perex": "Slovenskí športovci úspešne pokračujú na majstrovstvách Európy. Po víťazstve v druhom stretnutí sú na dobrej ceste za postupom."
-      },
-      {
-        "headline": "Polícia vyšetruje sexuálne násilie v bratislavskej sanitke",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/krimi/1242704-tvaril-sa-ze-ju-ide-vysetrit-policia-vysetruje-sexualne-nasilie-v-sanitke-v-bratislave"
-          ]
-        ],
-        "perex": "Polícia začala vyšetrovanie prípadu sexuálneho násilia, ku ktorému malo dôjsť v sanitke v Bratislave. Páchateľ sa mal obeti predstaviť ako zdravotník vykonávajúci vyšetrenie."
-      },
-      {
-        "headline": "V Londýne útočila žena s nožom, zranila štyroch mužov",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1242703-v-centre-londyna-utocil-muz-s-nozom-zranil-styroch-ludi"
-          ]
-        ],
-        "perex": "Metropolitná polícia zadržala v londýnskej štvrti Covent Garden ženu podozrivú z bodnutia štyroch mužov. Záchranné zložky potvrdili, že všetci zranení boli ošetrení."
+        "perex": "Krok prichádza po sérii ostrých útokov argentínskeho prezidenta Javiera Mileia na brazílsku hlavu štátu Luiza Inácia Lulu da Silvu. Veľvyslanca v Buenos Aires nahradí chargé d’affaires."
       }
     ],
-    "ts": 1785952560.859144
+    "ts": 1785956153.5561283
   },
   "meta": {
-    "last_collection_ts": 1785954039.3326437,
+    "last_collection_ts": 1785956147.6990912,
     "last_feed_error_ts": 1785944143.484769,
     "last_llm_error_ts": 1785940655.8055897,
-    "last_run_ts": 1785954039.7661054,
-    "last_synthesis_ts": 1785952560.8591378
+    "last_run_ts": 1785956148.6286623,
+    "last_synthesis_ts": 1785956153.5561235
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/v-stredu-bude-opat-mimoriadne-horuco-pre-vacsinu-okresov-platia-najvyssie-vystrahy?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Teploty sa môžu opäť vyšplhať až k štyridsiatke.",
-      "s": "SME",
-      "t": "V stredu bude opäť mimoriadne horúco, pre väčšinu okresov platia najvyššie výstrahy",
-      "ts": 1785867643.0852387,
-      "u": "d518c78b9a0f9675567d"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/pamati-ruskeho-opozicneho-politika-nadezdina-stiahli-v-rusku-z-predaja?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Nadeždin kritizuje politiku súčasného ruského vedenia.",
-      "s": "SME",
-      "t": "Pamäti ruského opozičného politika Nadeždina stiahli v Rusku z predaja",
-      "ts": 1785867643.085242,
-      "u": "e95da8967846e0b4ffd2"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/neonacisti-sa-pokusili-vtrhnut-do-hotela-v-sofii-s-mladymi-talianskymi-zidmi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zasahovať musela aj polícia.",
-      "s": "SME",
-      "t": "Neonacisti sa pokúsili vtrhnúť do hotela v Sofii s mladými talianskymi židmi",
-      "ts": 1785867643.0852442,
-      "u": "2c8a5bd1a6e76885da1f"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXkzTWRYcjFtY3htNUFKbmZSZ24zWEV6YTh0UVdfU0tBNTV0ek1nS1VhdVhzNHZmcG5pVGEwaWtqVHc4ODdhWmRGWERVT2JleTNCX0tOSC0zNTRZY2dlV04ydlRiS2FpcFRPX0xqSHBlYThkV0JmYS1LclBzc3BJOWN5cWRweEcxTkFpalRpX01wV1g1WE1qYg?oc=5",
-      "p": "Tri domorodé sestry oživujú v Amazonii kmeň, bol na pokraji vymretia&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Tri domorodé sestry oživujú v Amazonii kmeň, bol na pokraji vymretia - SME.sk",
-      "ts": 1785867643.0852458,
-      "u": "6cb9d662e46f072197dc"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50NjZ5YXBCR2ZHa3ZCbkFBdnpBZjU3Z1R2M3dvZjJGZFpHZmdIczQ1WlV3dTB1Z3psZEFFNElMMVJOcHJZbm1FcERXazRiNlJRZE85aTVaU0ZKTE1OUHpSUmNiVWlKWWt0?oc=5",
-      "p": "Magyarova diera do systému&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Magyarova diera do systému - SME.sk",
-      "ts": 1785867643.0852475,
-      "u": "b73eda34d5bf10710e0e"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUExCejY0WXVDM2VJVjFYY3JUb2tsWEx1clNhREh1dFJLc1pVUV9GZzF1U1hYWG50RWR3ZWF1RzdHbjBrTUQ3NGlFcFRCa3hrZlZFMnNza1JiWlZKOUU0cVB2NkpBTzAxY1E5RlhCWFZLSU41S29hZW1nUWtoaEZ6WXZ6LTJ0Q0lreGxxQjZaTEp6SmM?oc=5",
-      "p": "Na západe Španielska vypukol nový požiar, evakuovali stovky ľudí&nbsp;&nbsp;SME.sk",
-      "s": "SME (GNews)",
-      "t": "Na západe Španielska vypukol nový požiar, evakuovali stovky ľudí - SME.sk",
-      "ts": 1785867643.085249,
-      "u": "bf8dd825e502daa293ea"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regiony/clanok/2018575-zaba-kanibal-had-pozierajuci-vajicka-aj-syciaci-svab-divocina-dorazila-do-muzea?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Divočina v múzeu. Na netradičnej výstave možno vidieť rôzne exotické živočíchy. Východoslovenské múzeum (VSM) v Košiciach ponúka v týchto horúcich dňoch výlet do exotických končín.",
-      "s": "Pravda",
-      "t": "Žaba kanibal, had požierajúci vajíčka aj syčiaci šváb. Divočina dorazila do múzea",
-      "ts": 1785867643.0852501,
-      "u": "49109991421065e0bde1"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2018755-co-v-skutocnosti-rozputalo-chaos-v-ceute-tisice-ludi-uverili-jedinej-sprave?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Migračnú vlnu do španielskej severoafrickej exklávy Ceuta, kam koncom minulého týždňa z Maroka nelegálne prenikli desaťtisíce ľudí, podnietili fámy na internete i nepochopenie nových právnych opatrení v Španielsku, napísala v utorok agentúra AP. Migranti, ktorí sa vrátili do Maroka a ktorých AP oslo",
-      "s": "Pravda",
-      "t": "Čo v skutočnosti rozpútalo chaos v Ceute? Tisíce ľudí uverili jedinej správe",
-      "ts": 1785867643.085252,
-      "u": "a5f969957057207d8660"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/brazilia-vysetruje-osoby-podozrive-z-pripravy-utokov-pocas-planovanych-volieb?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Podozriví boli z piatich štátov.",
-      "s": "SME",
-      "t": "Brazília vyšetruje osoby podozrivé z prípravy útokov počas plánovaných volieb",
-      "ts": 1785869740.5980825,
-      "u": "4232623edb48a4768fcd"
-    },
-    {
-      "l": "https://www.sme.sk/kultura/c/v-dubline-sa-rozlucili-s-hudobnikom-glenom-hansardom?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Hansard zahynul vo veku 56 rokov pri nehode na motocykli.",
-      "s": "SME",
-      "t": "V Dubline sa rozlúčili s hudobníkom Glenom Hansardom",
-      "ts": 1785869740.5980864,
-      "u": "b89331ef4f09740da7b2"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/prehriata-lokomotiva-docasne-obmedzila-zeleznicnu-dopravu-pri-bratislave?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Klimatizácia zostala v prevádzke.",
-      "s": "SME",
-      "t": "Prehriata lokomotíva dočasne obmedzila železničnú dopravu pri Bratislave",
-      "ts": 1785869740.598088,
-      "u": "32d1d4a06e01a8b38e84"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5UREJpeUNWM1pRaWVvZkcxQm1FM3BfREFUTWNBQWZfNS1LU0lMRURZZl9qWFZtaXoyUlVmajZGVjlWOEJURUs4MU84V0dyZ3g1bDhxVnRycTdTSW5iU1A4ZWVoWXNZcWotZ0pYX0FETzE3bFk?oc=5",
-      "p": "Karikatúra dňa: Treba zmeniť kulisy&nbsp;&nbsp;sme.sk",
-      "s": "SME (GNews)",
-      "t": "Karikatúra dňa: Treba zmeniť kulisy - sme.sk",
-      "ts": 1785869740.5980892,
-      "u": "b3155dfb8d9ece29451d"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/0hXmwjH/brazilska-policia-odhalila-planovane-utoky-pocas-volieb/",
-      "p": "Vyšetrovatelia sledujú osem podozrivých, ktorí si vymieňali návody na výrobu bômb a 3D plány vládnych budov. Cieľom mali byť útoky počas volieb v Brazílii.",
-      "s": "Aktuality",
-      "t": "Brazílska polícia odhalila plánované útoky počas volieb",
-      "ts": 1785869740.5980902,
-      "u": "626d7e18fc81b6105037"
-    },
     {
       "l": "https://www.sme.sk/index/c/umela-inteligencia-ohrozuje-14-percent-pracovnych-miest-v-krajinach-s-vysokymi-prijmami?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "V krajinách s nižšími príjmami sú pracovné miesta ohrozené menej.",
@@ -4382,6 +4284,30 @@
       "t": "Na Slovensku padol teplotný REKORD",
       "ts": 1785954039.7655733,
       "u": "4484e95c7f5113d500fc"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/na-litovsko-bieloruskych-hraniciach-objavili-dalsi-tunel-prevadzacov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Litovský minister vnútra Katelynas nariadil vnútorné vyšetrovanie.",
+      "s": "SME",
+      "t": "Na litovsko-bieloruských hraniciach objavili ďalší tunel prevádzačov",
+      "ts": 1785956148.627887,
+      "u": "62bf3abc707e32abc27c"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/o23J4YF/ruska-dezinformacna-siet-utoci-na-attala-francuzsky-urad-viginum-odhalil-kampan-priradenu-matrioske/",
+      "p": "Francúzske úrady odhalili ruskú dezinformačnú sieť zameranú na kandidáta Gabriela Attala. Identifikovaná Matrioška testuje limity zasahovania do volieb.",
+      "s": "Aktuality",
+      "t": "Ruská dezinformačná sieť útočí na Attala. Francúzsky úrad Viginum odhalil kampaň priradenú Matrioške",
+      "ts": 1785956148.6278896,
+      "u": "84c19610a4387b7b80c3"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/t-taraba-sr-pomaha-madarsku-s-vodou/983051-clanok.html",
+      "p": "Situácia s dodávkami elektrickej energie sa v Maďarsku skomplikovala po tom, ako v uplynulých dňoch až týždňoch výrazne klesla hladina Dunaja.",
+      "s": "Teraz.sk",
+      "t": "T. Taraba: SR pomáha Maďarsku s vodou aj napriek tomu, že je jej málo",
+      "ts": 1785956148.6278918,
+      "u": "5242570e81dd9ccc7f9e"
     }
   ],
   "recent_alerts": [
@@ -5218,6 +5144,7 @@
     "133193a73d3e4bf16090": 1785852654.0788293,
     "133ee0625d053cd0a6c4": 1785854140.7497563,
     "13969258416f78d9c5da": 1785922542.3707886,
+    "13cd8b7426f94beda88d": 1785956148.627896,
     "142355b9d08d2cf834db": 1785839736.6822183,
     "143cd4d5ad155fc2c431": 1785916535.8212273,
     "143d9e47c737abfc3e76": 1785916535.8212943,
@@ -5276,6 +5203,7 @@
     "1a6aff51e3385ab30e06": 1785760544.8184662,
     "1aa89e9cea108b1fda12": 1785918937.1544662,
     "1b027b02498856b6eee5": 1785828942.1828916,
+    "1b4feca30fc80c058c05": 1785956148.627893,
     "1b5f379ff72a6dcc63f8": 1785916535.8212893,
     "1b6502daa0b959ee0586": 1785933344.7479177,
     "1b89aad3797d6c23d53d": 1785777640.5328386,
@@ -5626,6 +5554,7 @@
     "5202e38bcd874de71159": 1785839736.682215,
     "52124925bb12288206e8": 1785871239.6176596,
     "52409db4db81d9f498bc": 1785941748.1053596,
+    "5242570e81dd9ccc7f9e": 1785956148.6278906,
     "5267f99917647ddcf824": 1785767742.3899074,
     "5295bb88a7c492be0159": 1785814537.886184,
     "5297db10cf1b1d869ea3": 1785781249.2657218,
@@ -5743,6 +5672,7 @@
     "6251ce85f67c2a4206af": 1785761747.8225224,
     "6259b96257e9acf74916": 1785929753.7564218,
     "626d7e18fc81b6105037": 1785869740.5980897,
+    "62bf3abc707e32abc27c": 1785956148.6278827,
     "62e2a4fbc5b0ac8d1082": 1785851751.877689,
     "62f250f80ee0360dd447": 1785950456.1918585,
     "634b6e098b067773a87e": 1785900937.7316399,
@@ -5780,6 +5710,7 @@
     "68405ab13e1f4335fba1": 1785772541.4661071,
     "6854e8c11f624927bd33": 1785850548.950293,
     "688d5ac8761a6bfb0b9a": 1785866150.0102468,
+    "68a7ff5fc503f8903197": 1785956148.6279027,
     "68acfb7ca07cf65228cc": 1785900937.731392,
     "68b773c02b005758b10b": 1785933344.7479198,
     "68d88c691310cbdb1733": 1785814537.8861659,
@@ -5950,11 +5881,13 @@
     "830e8b262aa778864a56": 1785905744.7117386,
     "8315521df55f09c61c7c": 1785843340.5838454,
     "834f535f5d0f4e0df4a7": 1785833744.7846074,
+    "83acdf0a1606e8602134": 1785956148.6279018,
     "8430ed340827eaf8f6a6": 1785814537.8861544,
     "84437c81bf1117bba2f0": 1785762649.7563381,
     "84a7c9c87c0d9541e745": 1785767742.3899062,
     "84adf51305101d78dba0": 1785916535.821284,
     "84b3486f8ffaf3d18f2a": 1785839736.6822233,
+    "84c19610a4387b7b80c3": 1785956148.6278887,
     "84d157b2a228f7ddb091": 1785926139.2317324,
     "85052733b8e609868dd6": 1785913843.0190446,
     "8526ee15536851d1d86b": 1785871239.6176388,
@@ -5968,6 +5901,7 @@
     "8640a168ec321f2ac1f0": 1785926139.231731,
     "866755e7472c58b5f719": 1785912948.2973893,
     "86772a34176028e4bffb": 1785839736.682219,
+    "868fe80ab69c198d7b12": 1785956148.6278992,
     "86b74e40bd74ead94863": 1785759036.2312434,
     "86c089a6decbee888581": 1785916535.8213496,
     "86dbd5baf464881038d4": 1785916535.8212304,
@@ -6044,6 +5978,7 @@
     "93b2ac1242a26bbb701d": 1785923741.7727115,
     "93bc8df2b995c1ac923c": 1785916535.8210533,
     "93c56fe07fcd1e6f8136": 1785776143.0015585,
+    "93e7fe764c757ea810bb": 1785956148.6279006,
     "9447daa8dc077a8d4f91": 1785918937.1542623,
     "9472d0b0b9fb6422c3e0": 1785814537.8861403,
     "94bb0f2b4bb6d10fd6d6": 1785856255.6684232,
@@ -6612,6 +6547,7 @@
     "ef4ba54688302d0bd524": 1785939053.9764519,
     "ef696cd9bfdd6bab3d03": 1785762649.7563326,
     "ef717eb052da8b806a3a": 1785954039.7655745,
+    "ef9399a213e8b82a54dc": 1785956148.6278977,
     "ef9ab7ea1fb4f2f797a3": 1785900937.7316368,
     "efcf9bc63cb347084b14": 1785788439.6585302,
     "efd42019638ce1645413": 1785920137.5864687,
@@ -6742,120 +6678,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1785954039.7653525
+      "ts": 1785956148.6278617
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1785954039.7653534
+      "ts": 1785956148.627863
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1785954039.765356
+      "ts": 1785956148.6278656
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1785954039.76536
+      "ts": 1785956148.6278698
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1785954039.7653546
+      "ts": 1785956148.6278644
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1785954039.765345
+      "ts": 1785956148.627855
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1785954039.7653503
+      "ts": 1785956148.62786
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1785954039.7653594
+      "ts": 1785956148.627869
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1785954039.7653575
+      "ts": 1785956148.6278665
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1785954039.7653587
+      "ts": 1785956148.627868
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/futbal-liga-majstrov-slovan-bratislava-radost-po-gole-na-12-2026080419085288723",
-      "p": "Futbalisti Slovana Bratislava vyhrali v úvodnom zápase 3. predkola Ligy majstrov na pôde Mjällby AIF 2:1. Domáci sa po premenenom pokutovom kope dostali do vedenia 1:0. Obrat a triumf 2:1 pre slovenského majstra zabezpečili Suleiman Camara a Manasse Kianga.",
-      "s": "Šport.sk",
-      "t": "VIDEO So Slovanom to nevyzeralo dobre. Kianga zabezpečil pre slovenského majstra eufóriu radosti",
-      "ts": 1785871239.617658,
-      "u": "9848e6cf8a8ed237f657"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/kto-ovladol-skoky-do-vody-v-parizi-rusi-s-neutralnym-statutom-porazili-superov-a-triumfovali-2026080419071421984",
-      "p": "Ruskí skokani do vody s neutrálnym štatútom Nikita Šlejcher a Ruslan Ternovoj triumfovali na ME v plaveckých športoch v Paríži v synchronizovaných skokoch mužov z 10 m veže.",
-      "s": "Šport.sk",
-      "t": "Kto ovládol skoky do vody v Paríži? Rusi s neutrálnym štatútom porazili súperov a triumfovali",
-      "ts": 1785871239.617659,
-      "u": "bb1c2cbd7c2ec74c3714"
-    },
-    {
-      "l": "https://sport.aktuality.sk/tenis/clanok/wta-toronto-iga-swiatekova-ustedrila-superke-z-ceska-kanara-a-hladko-postupila-2026080418580950138",
-      "p": "Poľská tenistka Iga Swiateková sa suverénnym spôsobom prebojovala do 3. kola dvojhry na turnaji WTA 1000 v Toronte. Nasadená sedmička si v 2. kole poradila s Češkou Sárou Bejlekovou hladko 6:0, 6:3.",
-      "s": "Šport.sk",
-      "t": "WTA Toronto: Iga Swiateková uštedrila súperke z Česka kanára a hladko postúpila",
-      "ts": 1785871239.6176605,
-      "u": "52124925bb12288206e8"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/sparta-lyon-21-liga-majstrov-futbal-dnes-vysledok-2026080419362469550",
-      "p": "AC Sparta Praha privítala na domácej pôde francúzsky Olympique Lyon v úvodnom zápase 3. predkola Ligy majstrov. Český vicemajster predviedol bojovný výkon plný zvratov, nepriaznivých verdiktov VAR aj vlastných chýb. V dramatickom dueli nakoniec rozhodol obrat v druhom polčase, ktorý Pražanom zabezpe",
-      "s": "Šport.sk",
-      "t": "Slovenský súboj brankárov v Lige majstrov ovládol Surovčík! Sparta povstala po vlastnom góle",
-      "ts": 1785873334.248205,
-      "u": "15bcb944d622a3130ea6"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/pripravuje-este-vacsi-balik-arsenal-sa-odmieta-vzdat-hviezdy-newcastle-nechce-zazit-dalsieho-isaka-2026080419323707505",
-      "p": "Vedenie anglického futbalového klubu Arsenal Londýn zintenzívnilo podľa médií rokovania s Newcastlom United v snahe získať brazílskeho reprezentanta Bruna Guimaraesa. Úradujúci majster Premier League nedávno neuspel s ponukou vo výške 70 miliónov libier, no údajne sa chystá predložiť vylepšenú ponuk",
-      "s": "Šport.sk",
-      "t": "Pripravuje ešte väčší balík. Arsenal sa odmieta vzdať hviezdy, Newcastle nechce zažiť ďalšieho Isaka",
-      "ts": 1785873334.2482076,
-      "u": "dda4daa022ab6df25a74"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/slovan-bratislava-zdolal-mjallby-hrdinom-manasse-kianga-2026080419390558663",
-      "p": "Ešte pred pár mesiacmi hral v anglickom amatérskom suteréne. V utorok večer zažil debut v Lige majstrov, zachoval chladnú hlavu a gólom na pôde Mjällby AIF rozhodol o dôležitom triumfe ŠK Slovan Bratislava 2:1. Príbeh Manasseho Kiangu pripomína hollywoodsky film.",
-      "s": "Šport.sk",
-      "t": "VIDEO Z blata deviatej ligy hrdinom Slovana v Lige majstrov! Kianga šokuje Európu: Toto je len začiatok!",
-      "ts": 1785873334.2482085,
-      "u": "f333067388e3255bf3bc"
-    },
-    {
-      "l": "https://sport.aktuality.sk/tenis/clanok/sramkova-snajderova-12-wta-toronto-tenis-dnes-vysledok-2026080419103326937",
-      "p": "Slovenská tenistka Rebecca Šramková a jej ruská súperka Diana Šnajderová sa stretli v zápase 2. kola na prestížnom turnaji WTA 1000 v Toronte. Slovenská reprezentantka po vyhranom druhom sete živila šancu na priaznivý výsledok, no v rozhodujúcom dejstve dominovala pätnásta nasadená hráčka. Šramková ",
-      "s": "Šport.sk",
-      "t": "WTA Toronto: Rebecca Šramková zviedla trojsetovú bitku s Ruskou, v závere však pohorela",
-      "ts": 1785874916.7580388,
-      "u": "b647e8a5e5837e25af30"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/liga-majstrov-slovan-bratislava-dominik-takac-hlasy-2026080420024914805",
       "p": "V rámci zápasu ojedinelým, no veľmi dôležitým zákrokom podržal v utorok brankár Dominik Takáč futbalový Slovan Bratislava. Jeho tím vyhral v úvodnom stretnutí 3. predkola Ligy majstrov na pôde švédskeho Mjällby AIF 2:1 a vytvoril si tak dobrú pozíciu do budúcotýždňovej odvety.",
@@ -8799,6 +8679,62 @@
       "t": "Tréner českej reprezentácie zaskočil novinárov. Denia si nemyslí, že český futbal má problém",
       "ts": 1785954039.7655828,
       "u": "25e6861d1a174bda0642"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/gianni-infantino-chce-europe-vziat-finale-ms-vo-futbale-2030-2026080518385246306",
+      "p": "Podľa informácií anglického denníka The Times ponúkol prezident FIFA Gianni Infantino Maroku možnosť usporiadať finále majstrovstiev sveta 2030, ktoré bude spoluhostiteľom severoafrická krajina spolu s Portugalskom a Španielskom.",
+      "s": "Šport.sk",
+      "t": "Topiaci sa stebla chytá? Infantino chce Európe vziať finále MS vo futbale 2030",
+      "ts": 1785956148.6278954,
+      "u": "1b4feca30fc80c058c05"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/wta-toronto-zapas-mala-pevne-vo-svojich-rukach-belinda-bencicova-nedala-superke-najmensiu-sancu-2026080518373006070",
+      "p": "Švajčiarska tenistka Belinda Benčičová sa suverénnym spôsobom prebojovala do 3. kola dvojhry na turnaji WTA 1000 v Toronte. Dvanásta nasadená hráčka zdolala Američanku Sloane Stephensovú 6:3, 6:1.",
+      "s": "Šport.sk",
+      "t": "WTA Toronto: Zápas mala pevne vo svojich rukách. Belinda Benčičová nedala súperke najmenšiu šancu",
+      "ts": 1785956148.627897,
+      "u": "13cd8b7426f94beda88d"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/newcastle-oficialne-predstavil-noveho-kormidelnika-matthiasa-jaissleho-2026080518170233122",
+      "p": "Newcastle v stredu potvrdil angažovanie Matthiasa Jaissleho na pozíciu hlavného trénera. Oficiálne oznámenie zverejnil anglický klub prostredníctvom svojich sociálnych sietí.",
+      "s": "Šport.sk",
+      "t": "Koniec éry Eddieho Howea. Newcastle oficiálne predstavil nového kormidelníka",
+      "ts": 1785956148.6278985,
+      "u": "ef9399a213e8b82a54dc"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/valter-sedin-syn-legendy-nhl-reprezentuje-kanadu-vo-futbale-2026080512474808325",
+      "p": "Pamätáte si ešte časy, keď ste vo výsledkových listinách videli pri strelcovi gólu meno Sedin? Keď bratia Henrik a Daniel ukončili v roku 2018 profesionálne hokejové kariéry, ich priezvisko zo svetového vrcholového športu na chvíľku odišlo. Je tu ale ich nástupca, no v inom športe.",
+      "s": "Šport.sk",
+      "t": "Vybral si inú krajinu aj šport! Syn a synovec legiend NHL bojuje o olympiádu v drese konkurenta",
+      "ts": 1785956148.6279,
+      "u": "868fe80ab69c198d7b12"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeFZtX1pSY2o5Y0QzVnJNaTlucHByV005akxEWnVSMGMzUF9yejFpdEJmNDhRLU5aWXpWOG8tclRxaFlOSWc5M3A5VzJfVnk0bG1vc3VobVdoXzN4SWZDdTJzY0hCTEd2TU41dWpXd1VQN3VXOERVenNzREw0cTlwbEFWTU9GczZUb3R2RG5FOEdPWWRSNjlyaHZiMFFxRm9McFhiZWptNGpUb2FXVTJYZExBcDNBeXZiaWJCaWJuMHB4VGxRaEFtekx6elFxdUNPX2c?oc=5",
+      "p": "Americký tenista vyradil najvyššie nasadeného a zahrá si semifinále vo Washingtone SPORTNET",
+      "s": "SPORTNET",
+      "t": "Americký tenista vyradil najvyššie nasadeného a zahrá si semifinále vo Washingtone",
+      "ts": 1785956148.6279016,
+      "u": "93e7fe764c757ea810bb"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVzd2bzRHUlNxUzY3Y3RDc3RROVJrcGtWdHdsVi1uWVUxenRTZGdTSkpDUTJfRkdVNTVpUGFfOFlEeFdMZzV4RF9tenhpZ3diRllwTmcwTWNMeW1OVGw3eUpEWldZNHhRQ3FJTVRLRldFdTIxaGNjbTNJdlY1cERCdDJLMW5pTUZMWWZZWFFINVY?oc=5",
+      "p": "Vozinha dostal výnimku. Kapverdský brankár bude v Colo Colo chytať pod svojou prezývkou SPORTNET",
+      "s": "SPORTNET",
+      "t": "Vozinha dostal výnimku. Kapverdský brankár bude v Colo Colo chytať pod svojou prezývkou",
+      "ts": 1785956148.6279023,
+      "u": "83acdf0a1606e8602134"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/futbal-jaissle-sa-stal-novym-trenerom/983050-clanok.html",
+      "p": "Tridsaťosemročný Jaissle, ktorý doteraz viedol Al-Ahli, sa stretol s hráčmi Newcastlu už cez víkend v predsezónnom tréningovom kempe v Španielsku.",
+      "s": "TERAZ.SK",
+      "t": "Jaissle sa stal novým trénerom Newcastlu United",
+      "ts": 1785956148.6279035,
+      "u": "68a7ff5fc503f8903197"
     }
   ],
   "sport_source_status": {
@@ -8806,25 +8742,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1785954039.7653627
+      "ts": 1785956148.627872
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1785954039.7653646
+      "ts": 1785956148.627874
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1785954039.7653677
+      "ts": 1785956148.6278765
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1785954039.7653666
+      "ts": 1785956148.627875
     }
   }
 }
