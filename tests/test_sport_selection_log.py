@@ -9,7 +9,7 @@ from src.sport_selection_log import SportSelectionLog, read_recent_sport_events
 
 
 class SportSelectionLogTests(unittest.TestCase):
-    def test_records_priority_result_and_builds_excel_page(self):
+    def test_records_priority_result_and_builds_copyable_archive_page(self):
         with tempfile.TemporaryDirectory() as directory:
             log = SportSelectionLog(directory)
             article = SimpleNamespace(
@@ -24,11 +24,11 @@ class SportSelectionLogTests(unittest.TestCase):
 
             html = build_sport_audit_html(records)
             self.assertIn("História športových výberov", html)
-            self.assertIn("Stiahnuť CSV pre Excel", html)
-            self.assertIn("data-source-filter=\"TERAZ.SK\"", html)
+            self.assertIn("Kopírovať zobrazené do Excelu", html)
+            self.assertIn('data-filter="redakcny_vyber"', html)
+            self.assertIn('data-filter="sport_radar"', html)
             self.assertIn('href="https://example.com/sport"', html)
-            self.assertIn("document.body.appendChild(link)", html)
-            self.assertIn("URL.revokeObjectURL(url)", html)
+            self.assertIn("navigator.clipboard.writeText", html)
 
     def test_log_is_jsonl(self):
         with tempfile.TemporaryDirectory() as directory:
