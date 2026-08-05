@@ -27,6 +27,8 @@ class SportSelectionLogTests(unittest.TestCase):
             self.assertIn("Stiahnuť CSV pre Excel", html)
             self.assertIn("data-source-filter=\"TERAZ.SK\"", html)
             self.assertIn('href="https://example.com/sport"', html)
+            self.assertIn("document.body.appendChild(link)", html)
+            self.assertIn("URL.revokeObjectURL(url)", html)
 
     def test_log_is_jsonl(self):
         with tempfile.TemporaryDirectory() as directory:
