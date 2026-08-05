@@ -47,6 +47,7 @@ class SportPageTests(unittest.TestCase):
         self.assertIn('data-filter="SPORTNET"', html)
         self.assertIn('data-source="Šport.sk"', html)
         self.assertIn("radar-filter", html)
+        self.assertIn(".sport-row[hidden]", html)
 
     def test_featured_selection_keeps_slovak_and_global_events_but_excludes_routine_content(self):
         featured = _featured_articles([
