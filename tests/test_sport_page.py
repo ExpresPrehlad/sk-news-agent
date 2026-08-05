@@ -37,6 +37,16 @@ class SportPageTests(unittest.TestCase):
         self.assertNotIn("javascript:", html)
         self.assertIn("&lt;Téma&gt;", html)
 
+    def test_page_cleans_existing_google_news_artifacts(self):
+        html = build_sport_html(self._state([{
+            "u": "gnews", "s": "SPORTNET", "t": "Téma - SPORTNET",
+            "p": "Popis&nbsp;&nbsp;SPORTNET", "l": "https://example.com/sport", "ts": 100,
+        }]))
+
+        self.assertNotIn("Téma - SPORTNET</a>", html)
+        self.assertNotIn("&amp;nbsp;", html)
+        self.assertIn("Popis</p>", html)
+
     def test_sport_radar_has_publisher_filters(self):
         html = build_sport_html(self._state([
             {"u": "1", "s": "Šport.sk", "t": "Téma", "p": "", "l": "", "ts": 200},

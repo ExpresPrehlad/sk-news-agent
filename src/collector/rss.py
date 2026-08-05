@@ -15,6 +15,7 @@ import hashlib
 import logging
 import time
 from dataclasses import dataclass
+from html import unescape
 
 import feedparser
 import requests
@@ -72,8 +73,22 @@ def _clean(text: str | None) -> str:
         return ""
     # feedparser HTML väčšinou odstráni sám; toto je lacná druhá línia.
     import re
+    # Google News RSS aj niektoré portály ponechávajú HTML entity v texte.
+    # Pred odstránením značiek ich zmeníme na skutočné znaky / medzery.
+    text = unescape(text)
     text = re.sub(r"<[^>]+>", "", text)
     return " ".join(text.split()).strip()
+
+
+def _clean_google_news_title(title: str, source: Source) -> str:
+    """Odstráni zdrojovú príponu, ktorú Google News vkladá do titulku."""
+    if not source.id.endswith("_gnews"):
+        return title
+    import re
+    return re.sub(
+        rf"\s*[-–—]\s*{re.escape(source.name)}\s*$", "", title,
+        flags=re.IGNORECASE,
+    ).strip()
 
 
 def fetch_source(source: Source) -> FetchResult:
@@ -113,7 +128,7 @@ def fetch_source(source: Source) -> FetchResult:
 
     articles: list[Article] = []
     for entry in parsed.entries:
-        title = _clean(entry.get("title"))
+        title = _clean_google_news_title(_clean(entry.get("title")), source)
         link = (entry.get("link") or "").strip()
         if not title or not link:
             continue  # bez titulku alebo linku je položka pre redakciu bezcenná

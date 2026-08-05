@@ -5,7 +5,8 @@ from __future__ import annotations
 import logging
 import os
 from datetime import datetime, timezone
-from html import escape
+from html import escape, unescape
+import re
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
@@ -86,7 +87,8 @@ def _featured_articles(articles: list[dict]) -> list[dict]:
 
 
 def _article_title(article: dict) -> str:
-    title = escape(str(article.get("t", "")))
+    title = _display_text(article.get("t", ""), article.get("s", ""))
+    title = escape(title)
     url = _safe_url(article.get("l"))
     if url:
         return (
@@ -94,6 +96,18 @@ def _article_title(article: dict) -> str:
             f'rel="noopener">{title}</a>'
         )
     return title
+
+
+def _display_text(value: object, source: object = "") -> str:
+    """Opraví staršie Google News záznamy ešte pred ich zobrazením."""
+    text = " ".join(unescape(str(value or "")).split()).strip()
+    source_name = str(source or "").strip()
+    if source_name:
+        text = re.sub(
+            rf"\s*(?:[-–—]\s*)?{re.escape(source_name)}\s*$", "", text,
+            flags=re.IGNORECASE,
+        ).strip()
+    return text
 
 
 def _render_featured(articles: list[dict]) -> str:
@@ -107,7 +121,7 @@ def _render_featured(articles: list[dict]) -> str:
             f'<div class="topic-rank">{rank:02d}</div><div class="topic-body">'
             f'<span class="topic-source">{escape(str(article.get("s", "Šport")))}</span>'
             f'<h2>{_article_title(article)}</h2>'
-            f'<p>{escape(str(article.get("p", "")))}</p>'
+            f'<p>{escape(_display_text(article.get("p", ""), article.get("s", "")))}</p>'
             f'<span class="topic-time">{_ago(float(article.get("ts", 0)))}</span>'
             '</div></article>'
         )
@@ -141,7 +155,7 @@ def _render_sport_radar(articles: list[dict]) -> str:
             f'<time>{datetime.fromtimestamp(ts, tz=timezone.utc).astimezone(_LOCAL_TZ).strftime("%H:%M")}</time>'
             f'<div><span class="source">{escape(str(article.get("s", "Šport")))}</span>'
             f'<h3>{_article_title(article)}</h3>'
-            f'<p>{escape(str(article.get("p", "")))}</p></div>'
+            f'<p>{escape(_display_text(article.get("p", ""), article.get("s", "")))}</p></div>'
             f'<span class="age">{_ago(ts)}</span></li>'
         )
     return (
