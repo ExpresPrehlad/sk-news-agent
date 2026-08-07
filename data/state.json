@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Japonsko evakuuje 260-tisíc ľudí pred tajfúnom Dolphin",
-      "ts": 1786101043.1986473
-    },
-    {
-      "headline": "Zemetrasenie s magnitúdou 5,8 zasiahlo západ Filipín",
-      "ts": 1786101043.1986473
-    },
-    {
-      "headline": "Nízka hladina Dunaja odkryla v Bulharsku rímsky most",
-      "ts": 1786101043.1986473
-    },
-    {
-      "headline": "Požiar v Slovinsku: Blesk zapálil ťažko prístupný terén",
-      "ts": 1786101043.1986473
-    },
-    {
-      "headline": "Slovensko kandiduje do Bezpečnostnej rady OSN",
-      "ts": 1786101043.1986473
-    },
-    {
       "headline": "Štvrtý blok elektrárne v Mochovciach dosiahol kritický stav",
       "ts": 1786102542.395892
     },
@@ -215,37 +195,75 @@
     {
       "headline": "Jaromír Soukup skončil po brutálnom útoku v nemocnici",
       "ts": 1786114540.54235
+    },
+    {
+      "headline": "Podozrivé radary ministerstva vnútra preverí NBÚ",
+      "ts": 1786115453.23005
+    },
+    {
+      "headline": "Maďarsko čaká zrýchlená voľba prezidenta",
+      "ts": 1786115453.23005
+    },
+    {
+      "headline": "Extrémne horúčavy na východe Slovenska spôsobili núdzový stav",
+      "ts": 1786115453.23005
+    },
+    {
+      "headline": "Španielsko žiada Taliansko o návrat k pravidlám Schengenu",
+      "ts": 1786115453.23005
+    },
+    {
+      "headline": "Ceny potravín v dôsledku klimatických zmien porastú",
+      "ts": 1786115453.23005
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "V Slovnafte po výbuchu horí, spoločnosť tvrdí, že verejnosť nie je ohrozená",
+        "headline": "Podozrivé radary ministerstva vnútra preverí NBÚ",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2020343-spor-o-podozrive-radary-eskaluje-dodavatel-odmieta-rusky-povod-preveri-ich-aj-nbu"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/ministerstvo-poziada-nbu-o-nezavisle-posudenie-radarov-ktore-su-v-pilotnej-prevadzke"
+          ]
+        ],
+        "perex": "Ministerstvo vnútra požiada Národný bezpečnostný úrad o nezávislé posúdenie nových kamerových radarov. Rezort tak reaguje na podozrenia, že zariadenia môžu pochádzať z Ruska a predstavovať bezpečnostné riziko."
+      },
+      {
+        "headline": "Maďarsko čaká zrýchlená voľba prezidenta",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/madarske-narodne-zhromazdenie-moze-rozhodnut-o-generalnom-prokuratorovi-uz-v-utorok"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/1aavMza/peter-magyar-avizuje-neprekvapive-mena-kandidatov-na-prezidenta/"
+          ]
+        ],
+        "perex": "Po odstúpení Tamása Sulyoka sa maďarský parlament pripravuje na zrýchlenú voľbu novej hlavy štátu. Opozičná strana Tisza plánuje v utorok predstaviť svojich kandidátov."
+      },
+      {
+        "headline": "Extrémne horúčavy na východe Slovenska spôsobili núdzový stav",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/kDeyS0A/v-bratislave-sa-siri-husty-cierny-dym-z-poziaru/"
+            "https://www.aktuality.sk/clanok/nefkcek/na-vychode-chyba-pitna-voda-obce-nizny-caj-a-vysny-caj-vyhlasili-pre-horucavy-mimoriadnu-situaciu/"
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2020481-v-slovnafte-hori-rafineriou-otriasol-vybuch-obyvatelom-nebezpecenstvo-nehrozi/"
+            "https://www.pravda.sk/spravy/regiony/clanok/2020355-extremne-sucho-na-vychode-obce-su-bez-pitnej-vody-vyhlasili-mimoriadnu-situaciu"
           ]
         ],
-        "perex": "V bratislavskej rafinérii Slovnaft došlo v piatok k výbuchu a následnému požiaru uskladneného ropného produktu. Hasiči situáciu postupne dostávajú pod kontrolu a spoločnosť ubezpečuje obyvateľov, že nehrozí žiadne nebezpečenstvo."
+        "perex": "Obce Nižný Čaj a Vyšný Čaj vyhlásili pre pretrvávajúce sucho a nedostatok pitnej vody mimoriadnu situáciu. Okresný úrad zároveň zvažuje zrýchlený režim pre výstavbu novej vetvy z vodnej nádrže Starina."
       },
       {
-        "headline": "Po priotrávení ľudí na kúpalisku v Diakovciach začala polícia trestné stíhanie",
-        "links": [
-          [
-            "Denník N",
-            "https://dennikn.sk/5495543/v-diakovciach-sa-priotravilo-16-ludi-vratane-deti-policia-zacala-trestne-stihanie/"
-          ]
-        ],
-        "perex": "Na termálnom kúpalisku AVA Thermalpark sa vo štvrtok priotrávilo 16 ľudí vrátane detí neznámou látkou. Polícia v súvislosti s incidentom začala trestné stíhanie, pričom hasičské merania prítomnosť nebezpečných látok v ovzduší nepotvrdili."
-      },
-      {
-        "headline": "Španielsko vyzvalo Taliansko na obnovenie schengenského režimu",
+        "headline": "Španielsko žiada Taliansko o návrat k pravidlám Schengenu",
         "links": [
           [
             "Aktuality",
@@ -253,50 +271,34 @@
           ],
           [
             "SME",
-            "https://www.sme.sk/svet/c/v-spanielsko-vyzvalo-taliansko-na-obnovenie-schengenskeho-rezimu-volneho-pohybu"
+            "https://www.sme.sk/svet/c/spanielsko-vyzvalo-taliansko-na-obnovenie-schengenskeho-rezimu-volneho-pohybu"
           ]
         ],
-        "perex": "Španielska vláda ostro reaguje na jednostranné zavedenie kontrol na talianskych hraniciach a žiada návrat k pravidlám voľného pohybu. Spor medzi dvoma kľúčovými členmi EÚ podľa médií hrozí prerastením do otvorenej krízy."
+        "perex": "Španielska vláda ostro kritizuje jednostranné kontroly na hraniciach zavedené Rímom a žiada okamžitý návrat k pravidlám schengenského priestoru. Spor medzi dvoma kľúčovými členmi EÚ môže podľa analytikov prerásť do otvorenej krízy."
       },
       {
-        "headline": "V Bratislave sa prevrátilo smetiarske auto, zranená osoba skončila v nemocnici",
+        "headline": "Ceny potravín v dôsledku klimatických zmien porastú",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2020507-v-bratislave-sa-prevratilo-smetiarske-auto?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "K dopravnej nehode došlo v piatok na križovatke ulíc Prístavná a Slovnaftská pod rýchlostnou cestou R7. Pri prevrátení smetiarskeho vozidla utrpela jedna osoba zranenia a musela byť zo stroja vyslobodená."
-      },
-      {
-        "headline": "Slovenská polícia pomohla usvedčiť prevádzača 11 Sýrčanov",
-        "links": [
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2020583-horucavy-uz-nezdrazuju-len-dovolenky-o-par-mesiacov-ich-mozete-pocitit-aj-pri-nakupe-potravin"
+          ],
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/zaN2Wl5/nebezpecny-prevadzac-utekal-s-11-migrantmi-cez-hranicu-slovenska-policia-tvrdi-ze-pomohla-madarom-aby-ho-dostali-za-mreze/"
+            "SME",
+            "https://www.sme.sk/index/c/globalne-ceny-potravin-vzrastli-v-juli-najviac-za-tri-a-pol-roka"
           ]
         ],
-        "perex": "Kriminalisti využili moderné expertízne metódy a analýzu DNA na usvedčenie prevádzača, ktorý v januári 2023 nelegálne prevážal migrantov cez hranicu. Maďarský súd na základe týchto dôkazov páchateľa právoplatne potrestal."
-      },
-      {
-        "headline": "Jaromír Soukup skončil po brutálnom útoku v nemocnici",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2020565-jaromira-soukupa-napadli-udajne-padli-aj-rany-bejzbalkou-dobili-ho-ako-psa-tvrdia-cesi?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Bývalý majiteľ TV Barrandov a známy moderátor sa stal terčom násilného napadnutia, pri ktorom mali byť použité aj zbrane. Český mediálny svet informuje o vážnych zraneniach, ktoré si vyžiadali hospitalizáciu."
+        "perex": "Dlhotrvajúce suchá a extrémne horúčavy začínajú výrazne ovplyvňovať ekonomiku a finančné trhy. Odborníci varujú, že spotrebitelia pocítia následky počasia pri nákupoch potravín už v najbližších mesiacoch."
       }
     ],
-    "ts": 1786114540.5423398
+    "ts": 1786115453.2300398
   },
   "meta": {
-    "last_collection_ts": 1786114534.481218,
+    "last_collection_ts": 1786115447.6161165,
     "last_feed_error_ts": 1786095346.020466,
     "last_llm_error_ts": 1786024736.103106,
-    "last_run_ts": 1786114534.8891327,
-    "last_synthesis_ts": 1786114540.5423346
+    "last_run_ts": 1786115447.966836,
+    "last_synthesis_ts": 1786115453.2300332
   },
   "recent": [
     {
@@ -3554,6 +3556,30 @@
       "t": "Rezort školstva pomôže samosprávam s určovaním školských obvodov",
       "ts": 1786114534.888452,
       "u": "8619aeeb35660664f3cc"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/magyar-odporuci-poslaneckemu-klubu-tisza-troch-kandidatov-na-prezidenta?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Parlament by mal nového prezidenta zvoliť 11. augusta.",
+      "s": "SME",
+      "t": "Magyar odporučí poslaneckému klubu Tisza troch kandidátov na prezidenta",
+      "ts": 1786115447.96635,
+      "u": "91313e098bf095e59184"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/1aavMza/peter-magyar-avizuje-neprekvapive-mena-kandidatov-na-prezidenta/",
+      "p": "Maďarsko čaká zrýchlená voľba prezidenta po páde Tamása Sulyoka. Tisza v sobotu vyberie z troch mien a nový prezident by mal byť zvolený už v utorok.",
+      "s": "Aktuality",
+      "t": "Péter Magyar avizuje neprekvapivé mená kandidátov na prezidenta",
+      "ts": 1786115447.966354,
+      "u": "20c19616579d1e4382bf"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2020583-horucavy-uz-nezdrazuju-len-dovolenky-o-par-mesiacov-ich-mozete-pocitit-aj-pri-nakupe-potravin?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Extrémne horúčavy a dlhotrvajúce sucho prestávajú byť len problémom poľnohospodárov. Čoraz výraznejšie ovplyvňujú aj ekonomiku, finančné trhy a napokon aj peňaženky spotrebiteľov. Investori preto pri rozhodovaní o tom, kam vložia svoje peniaze, už nesledujú iba infláciu, úrokové sadzby či hospodársk",
+      "s": "Pravda",
+      "t": "Extrémne počasie prepíše ceny v obchodoch, za bežné potraviny onedlho zaplatíme viac",
+      "ts": 1786115447.9663575,
+      "u": "550446392efbca31d13b"
     }
   ],
   "recent_alerts": [
@@ -4520,6 +4546,7 @@
     "1453bd76706ba0e98d58": 1785843340.5838442,
     "14542d8e51adef4c3eed": 1785851751.8777027,
     "145b01bdf113d2edf7d2": 1786103745.5864742,
+    "146baca8811eb0038a2e": 1786115447.966362,
     "14a6ebcfbfe0b83da6ae": 1786073737.1310897,
     "14b4e50519d78a305ce6": 1785924646.0536866,
     "14bd635b09269730a24a": 1786005353.7223363,
@@ -4656,6 +4683,7 @@
     "20663650542a892449a8": 1785851751.8776953,
     "209df5da7095c1be8324": 1785926139.2317398,
     "20b9a7bc314043381515": 1786091743.0032513,
+    "20c19616579d1e4382bf": 1786115447.9663522,
     "20c89d9a98b619615c1c": 1785933344.747925,
     "20de2d152bb0cf1957b4": 1786073737.13108,
     "2129996d44641164bdbb": 1785779740.451607,
@@ -5206,6 +5234,7 @@
     "54b3e42094409277ea4c": 1786073737.1308599,
     "54daf2d9cc81fe5dacac": 1785921043.9084074,
     "54f56608ba044e2fe804": 1785924646.0534713,
+    "550446392efbca31d13b": 1786115447.966355,
     "550c745a50aeb79a8dce": 1785786931.8064137,
     "5511f252ab7bd15b1293": 1785924646.0534728,
     "555e7d5110e4718d7bcc": 1786073737.1310992,
@@ -5693,6 +5722,7 @@
     "8255018df2935df4f183": 1786109739.8396902,
     "82634b74f4d54411a2cb": 1785964844.2048266,
     "82637e58664e8796ed8d": 1785846940.870037,
+    "8276b5e368afd5ac233c": 1786115447.966359,
     "8285a1ba52749b657a9a": 1785864041.6937532,
     "82ca7586c52af0fe13d2": 1785941748.1053603,
     "82f4b630719d04f53651": 1785959754.0943782,
@@ -5837,6 +5867,7 @@
     "9106dd26d855497b82e0": 1785856255.6685998,
     "91083de5888111c7db7a": 1785857743.119158,
     "91239f67475058b0f530": 1785917440.917591,
+    "91313e098bf095e59184": 1786115447.9663436,
     "914ff119f3072b150d2e": 1786103745.5862906,
     "91946230ebe7d32eaf25": 1786086648.9332983,
     "91ba0468f6ea411d5361": 1785841853.3579142,
@@ -7037,61 +7068,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786114534.8884106
+      "ts": 1786115447.966316
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786114534.8884122
+      "ts": 1786115447.9663184
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786114534.8884149
+      "ts": 1786115447.9663212
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786114534.88842
+      "ts": 1786115447.9663262
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786114534.8884134
+      "ts": 1786115447.9663196
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786114534.888403
+      "ts": 1786115447.9663079
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786114534.8884087
+      "ts": 1786115447.9663138
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786114534.888419
+      "ts": 1786115447.966325
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786114534.8884165
+      "ts": 1786115447.9663227
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786114534.8884177
+      "ts": 1786115447.9663239
     }
   },
   "sport_recent": [
@@ -8366,6 +8397,22 @@
       "t": "Manchester City odmietol prvú ponuku Barcelony za Rodriho",
       "ts": 1786114534.8884594,
       "u": "5dc94e78b4c3d3804480"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/okolo-polska-skoncil-velky-favorit-svajciar-nechal-v-5-etape-za-chrbtom-kazdeho-2026080715062099556",
+      "p": "Švajčiarsky cyklista Jan Christen z SAE Team Emirates-XRG zvíťazil v piatkovej 5. etape pretekov Okolo Poľska, ktorá viedla z Opole do Kocierz Resortu a merala 218,9 km. Na čele celkového poradia zostal Holanďan Bart Lemmen z Visma Lease a Bike.",
+      "s": "Šport.sk",
+      "t": "Okolo Poľska: Skončil veľký favorit. Švajčiar nechal v 5. etape za chrbtom každého",
+      "ts": 1786115447.9663608,
+      "u": "8276b5e368afd5ac233c"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1VHaV9FQVByZjFqU1B4WFJVWkxrcU41UEM4aHRqMjhDTjFiR0hLUjZqM2FKRm9DUTJ1aFN3RlA5NDJyX0NMZTBSanFIY0JKQkxPbjQzSWpUcHZnNVZmeFFEVkhGaTFNMjhCd1JpSjRwa21DT3FoS3Q0UWtPLXhxTjBSa2YxYXAzVERwYUFwLXBYMGdXR0E?oc=5",
+      "p": "Nórsky zväz žiada koniec Infantina na čele FIFA: Už pre neho neexistuje cesta späť SPORTNET",
+      "s": "SPORTNET",
+      "t": "Nórsky zväz žiada koniec Infantina na čele FIFA: Už pre neho neexistuje cesta späť",
+      "ts": 1786115447.9663634,
+      "u": "146baca8811eb0038a2e"
     }
   ],
   "sport_source_status": {
@@ -8373,25 +8420,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786114534.8884223
+      "ts": 1786115447.9663293
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786114534.8884249
+      "ts": 1786115447.9663317
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786114534.8884282
+      "ts": 1786115447.9663348
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786114534.8884268
+      "ts": 1786115447.9663336
     }
   }
 }
