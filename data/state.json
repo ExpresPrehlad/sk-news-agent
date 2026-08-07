@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Incident s dronom v Lipsku: Výbušninu zneškodnil vodič autobusu",
-      "ts": 1786094015.4419372
-    },
-    {
-      "headline": "Hromadné priotrávenie na kúpalisku v Diakovciach vyšetruje polícia",
-      "ts": 1786094015.4419372
-    },
-    {
-      "headline": "Generálna prokuratúra napadla určenie volebných obvodov",
-      "ts": 1786094015.4419372
-    },
-    {
-      "headline": "Eskalácia sporu o pôvod radarov na slovenských cestách",
-      "ts": 1786094015.4419372
-    },
-    {
-      "headline": "Biedronka mieri na slovenský trh a otvára v Bratislave",
-      "ts": 1786094015.4419372
-    },
-    {
       "headline": "Mimoriadna situácia na východe: Obce sú bez pitnej vody",
       "ts": 1786095352.0887816
     },
@@ -231,11 +211,87 @@
     {
       "headline": "Lesný požiar v Slovinsku po údere blesku",
       "ts": 1786107354.3585851
+    },
+    {
+      "headline": "Trestné stíhanie po úniku neznámej látky na kúpalisku v Diakovciach",
+      "ts": 1786109746.824008
+    },
+    {
+      "headline": "Generálna prokuratúra napadla určenie volebných obvodov",
+      "ts": 1786109746.824008
+    },
+    {
+      "headline": "Ukrajinské drony zasiahli logistické centrum v Jekaterinburgu",
+      "ts": 1786109746.824008
+    },
+    {
+      "headline": "Meta dostala pokutu za nedostatočnú ochranu detí",
+      "ts": 1786109746.824008
+    },
+    {
+      "headline": "Požiar v rafinérii Slovnaft v Bratislave",
+      "ts": 1786109746.824008
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
+      {
+        "headline": "Trestné stíhanie po úniku neznámej látky na kúpalisku v Diakovciach",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/Y8O9NBP/unik-neznamej-latky-na-kupalisku-v-diakovciach-uz-vysetruje-policia-po-zasahu-zachranarov-zacala-trestne-stihanie/"
+          ],
+          [
+            "Denník N",
+            "https://dennikn.sk/5495543/v-diakovciach-sa-priotravilo-16-ludi-vratane-deti-policia-zacala-trestne-stihanie/"
+          ]
+        ],
+        "perex": "Polícia začala trestné stíhanie vo veci všeobecného ohrozenia po tom, čo na termálnom kúpalisku v Diakovciach utrpelo zdravotné ťažkosti 16 ľudí. Osem osôb, vrátane detí, museli záchranári previezť do nemocnice."
+      },
+      {
+        "headline": "Generálna prokuratúra napadla určenie volebných obvodov",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/generalna-prokuraturna-podala-pre-urcenie-volebnych-obvodov-osem-protestov-prokuratora"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/zilinka-gp-podala-pre-volebne-obvody/983349-clanok.html"
+          ]
+        ],
+        "perex": "Generálny prokurátor Maroš Žilinka podal osem protestov proti uzneseniam samospráv týkajúcich sa určenia volebných obvodov. Podľa prokuratúry tieto rozhodnutia porušujú volebný zákon a princíp rovnosti hlasu voliča."
+      },
+      {
+        "headline": "Ukrajinské drony zasiahli logistické centrum v Jekaterinburgu",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/qkmoY16/ukrajinske-drony-udreli-2-tisic-kilometrov-od-hranic-v-jekaterinburgu-po-nalete-opat-horel-sklad-wildberries/"
+          ],
+          [
+            "Denník N",
+            "https://dennikn.sk/5494693/vyvoj-bojov-1625-den-dalsi-rekordny-utok-ukrajiny-ruskemu-amazonu-moze-hrozit-bankrot-ak-ho-kremel-nezachrani/"
+          ]
+        ],
+        "perex": "Ukrajinské drony opätovne zaútočili na sklad internetového predajcu Wildberries v Jekaterinburgu, ktorý leží viac ako 2 000 kilometrov od hraníc. Analytici upozorňujú na rastúce ekonomické ťažkosti ruského giganta v dôsledku vojny."
+      },
+      {
+        "headline": "Meta dostala pokutu za nedostatočnú ochranu detí",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/meta-musi-zaplati-vyse-pol-miliardy-dolarov-za-ohrozovanie-deti-na-socialnych-sietach"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2020365-meta-za-ohrozovanie-deti-na-socialnych-sietach-dostala-pokutu-567-milionov-dolarov"
+          ]
+        ],
+        "perex": "Súd v americkom štáte Nové Mexiko udelil spoločnosti Meta pokutu vo výške 567 miliónov dolárov. Dôvodom je nedostatočná ochrana maloletých používateľov pred rizikami na sociálnych sieťach."
+      },
       {
         "headline": "Požiar v rafinérii Slovnaft v Bratislave",
         "links": [
@@ -244,231 +300,23 @@
             "https://www.noviny.sk/krimi/1243514-aktualne-hori-v-areali-rafinerie-slovnaft"
           ],
           [
-            "SME",
-            "https://www.sme.sk/domov/c/v-slovnafte-doslo-k-mensiemu-vybuchu-ohrozenie-verejnosti-nehrozi"
-          ]
-        ],
-        "perex": "V bratislavskej rafinérii Slovnaft vypukol požiar po výbuchu uskladneného ropného produktu. Spoločnosť ubezpečila verejnosť, že situácia je pod kontrolou a obyvateľom priame nebezpečenstvo nehrozí."
-      },
-      {
-        "headline": "Útok na cudzincov v Nitre vyvolal vlnu odsúdenia",
-        "links": [
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/prezident-nasilie-pachane-pre-rasov/983422-clanok.html"
-          ],
-          [
             "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2020417-maskovani-utocnici-v-nitre-dobili-stvoricu-indov-len-priestupok-tvrdi-policia-reaguje-aj-pellegrini"
+            "https://www.pravda.sk/spravy/regiony/clanok/2020481-v-slovnafte-hori-rafineriou-otriasol-vybuch-obyvatelom-nebezpecenstvo-nehrozi"
           ]
         ],
-        "perex": "Prezident SR odsúdil násilný útok skupiny maskovaných mužov na štvoricu Indov v Nitre, ktorý polícia pôvodne klasifikovala len ako priestupok. K incidentu sa vyjadril aj minister vnútra a prípad vyvolal celospoločenskú diskusiu o rasovej nenávisti."
-      },
-      {
-        "headline": "Štvrtý blok elektrárne v Mochovciach dosiahol kritický stav",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2020441-novy-jadrovy-blok-v-mochovciach-ozil-reaktor-dosiahol-prvy-dolezity-milnik"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/em9wWLO/stvrty-blok-jadrovej-elektrarne-v-mochovciach-dosiahol-kriticky-stav-spustili-ho-na-minimalny-vykon"
-          ]
-        ],
-        "perex": "Štvrtý blok jadrovej elektrárne Mochovce úspešne dosiahol kritický stav reaktora a minimálny kontrolovaný výkon. Ide o kľúčový míľnik v procese uvádzania bloku do prevádzky a jeho následného pripojenia do energetickej siete."
-      },
-      {
-        "headline": "Obranný pakt medzi Saudskou Arábiou, Tureckom a Pakistanom",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/Yz8pVfD/tri-mocnosti-podpisali-pakt-vzajomnej-obrany-saudska-arabia-turecko-a-pakistan-spojili-svoje-sily"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/pakistan-saudska-arabia-a-turecko-podpisali-zmluvu-o-vzajomnej-obrane"
-          ]
-        ],
-        "perex": "Saudská Arábia, Turecko a Pakistan podpísali zmluvu o vzájomnej obrane a kolektívnej bezpečnosti. Dohoda stanovuje princíp, podľa ktorého je útok proti jednej z krajín považovaný za útok proti všetkým signatárom."
-      },
-      {
-        "headline": "Lesný požiar v Slovinsku po údere blesku",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/GqgLiQ6/na-severozapade-slovinska-vypukol-lesny-poziar-blesk-zapalil-tazko-pristupny-teren-pri-kranjskej-gore"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/na-severozapade-slovinska-vypukol-lesny-poziar"
-          ]
-        ],
-        "perex": "V ťažko prístupnom teréne nad dedinou Srednji Vrh v Slovinsku vypukol lesný požiar, ktorý pravdepodobne spôsobil úder blesku. S plameňmi na ploche štyroch hektárov bojujú desiatky hasičov s podporou leteckej techniky."
+        "perex": "V areáli bratislavskej rafinérie Slovnaft došlo k výbuchu a následnému požiaru uskladneného ropného produktu. Spoločnosť ubezpečila verejnosť, že situácia je pod kontrolou a nehrozí priame ohrozenie obyvateľov."
       }
     ],
-    "ts": 1786107354.3585773
+    "ts": 1786109746.823999
   },
   "meta": {
-    "last_collection_ts": 1786108245.113315,
+    "last_collection_ts": 1786109739.1376681,
     "last_feed_error_ts": 1786095346.020466,
     "last_llm_error_ts": 1786024736.103106,
-    "last_run_ts": 1786108245.3855853,
-    "last_synthesis_ts": 1786107354.358572
+    "last_run_ts": 1786109739.840337,
+    "last_synthesis_ts": 1786109746.8239934
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/aj-oni-brali-ako-samozrejmost-ze-romske-deti-vynechavaju-skolu-potom-prisli-k-nim-domov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Ako škola v Jelšave rieši vymeškané hodiny.",
-      "s": "SME",
-      "t": "Aj oni brali ako samozrejmosť, že rómske deti vynechávajú školu. Potom prišli k nim domov",
-      "ts": 1786023343.8060782,
-      "u": "d83534eb5416435ab855"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/ps-ziada-pre-dopravne-kamery-zasadnutie-brannobezpecnostneho-vyboru?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Výbor by sa podľa hnutia mal zaoberať dopravnými kamerami.",
-      "s": "SME",
-      "t": "PS žiada pre dopravné kamery zasadnutie brannobezpečnostného výboru",
-      "ts": 1786023343.8060803,
-      "u": "725dcee9e19b04764f80"
-    },
-    {
-      "l": "https://www.sme.sk/tech/c/takto-sme-slnko-este-nikdy-nevideli-najdetailnejsie-zabery-odhaluju-jeho-povrch?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Nové zábery Slnka môžu pomôcť vyriešiť záhadu jeho horúcej atmosféry.",
-      "s": "SME",
-      "t": "Takto sme Slnko ešte nikdy nevideli. Najdetailnejšie zábery odhaľujú jeho povrch",
-      "ts": 1786023343.8061018,
-      "u": "b7d9d3cfc4eb26ec4a2e"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU19oMlVSWjltbjA5cGg4djFwbGFYdmpYQmRodjZSTU5Pa3BTejdwWGZnTXc2TUtURlJkS0Z5Sm1NSktpbG1GRzNjRGJVbmZ5SWtJTTZmZjRtX3U5MW1BaWZzanFiSkdWMWx0cWNza25LeWg0N0czLTd5WmltSEJScVY4Vl9TMmVDR1VicWNWMnZzMnRyNGdCV05n?oc=5",
-      "p": "PS žiada pre dopravné kamery zasadnutie brannobezpečnostného výboru SME.sk",
-      "s": "SME (GNews)",
-      "t": "PS žiada pre dopravné kamery zasadnutie brannobezpečnostného výboru - SME.sk",
-      "ts": 1786023343.8061063,
-      "u": "3b438715e0eba4509e29"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LdnczeFhkN2x1Yjl4Yjl1MmdEenk4LVF3NHZ0T0dOaUJraEMwTDBYR2tpc2NMUzNYWEpxR1lITHlQeUl4V1hiU1U2M1dQc3c?oc=5",
-      "p": "Ako sa skloňujú zvieracie podstatné mená... SME.sk",
-      "s": "SME (GNews)",
-      "t": "Ako sa skloňujú zvieracie podstatné mená... - SME.sk",
-      "ts": 1786023343.806108,
-      "u": "a28f6fd52371f7e0e097"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lWE1ablRpSjc2U2lidm1feXpOcG03NEQ0cTlZY0JoeFBhcEhZZzRDNFkycFRUbWRobWxwbVl2Q3VaQ0xvNHhjcUVvWWtFQ0U?oc=5",
-      "p": "Ako mám napísať tieto radové číslovky: s... SME.sk",
-      "s": "SME (GNews)",
-      "t": "Ako mám napísať tieto radové číslovky: s... - SME.sk",
-      "ts": 1786023343.8061092,
-      "u": "5d1af9674b6347342842"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1paHVWeDljUmtVZi0zUV9UWXY0Y3E0REJFTk9QYlJ5eUUzay1MUC1POTZualRndEtnbXJHZ19oZndSZU92RFhwNWxFXzA?oc=5",
-      "p": "Diskusia k článku: Moja skúsenosť so službami firmy Slovak Parcel Service blog.sme.sk",
-      "s": "SME (GNews)",
-      "t": "Diskusia k článku: Moja skúsenosť so službami firmy Slovak Parcel Service - blog.sme.sk",
-      "ts": 1786023343.8061101,
-      "u": "4da9f2cb4b5b2d23abcb"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/dgEJkJb/egypt-laka-slovakov-lacnym-morom-no-turistom-uctuju-viac-finax-radi-ako-sa-vyhnut-podvodom-a-prirazkam/",
-      "p": "Egypt láka Slovákov lacnými letenkami, all inclusive rezortmi a nízkymi cenami v obchodoch. Odborníci však varujú pred pascami, prirážkami a podvodmi na turistoch.",
-      "s": "Aktuality",
-      "t": "Egypt láka Slovákov lacným morom, no turistom účtujú viac. Finax radí, ako sa vyhnúť podvodom a prirážkam",
-      "ts": 1786023343.8061116,
-      "u": "b7d37b4d03b6970c8245"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/oVevEs7/ceuta-celi-novej-migracnej-vlne-z-marockych-sieti-sa-siria-vyzvy-na-masovy-pochod-15-augusta/",
-      "p": "Marocké siete zaplavili výzvy na nový pochod migrantov do španielskej Ceuty 15. augusta. Úrady sledujú mobilizáciu po tragickom minulom týždni.",
-      "s": "Aktuality",
-      "t": "Ceuta čelí novej migračnej vlne. Z marockých sietí sa šíria výzvy na masový pochod 15. augusta",
-      "ts": 1786023343.8061135,
-      "u": "74c4d49f742402e90680"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/2ELV0y0/teplota-vzduchu-na-slovensku-prvykrat-v-historii-prekonala-42-stupnov/",
-      "p": "O rekorde informoval Slovenský hydrometeorologický ústav (SHMÚ) s tým, že nemusí ísť o konečné maximum",
-      "s": "Aktuality",
-      "t": "Teplota vzduchu na Slovensku prvýkrát v histórii prekonala 42 stupňov",
-      "ts": 1786023343.806115,
-      "u": "848cc322b2c15bd57812"
-    },
-    {
-      "l": "https://dennikn.sk/5493401/nove-kamery-sutaja-estoka-su-od-cyperskej-schranky-bez-historie-a-jedina-stopa-vedie-k-rusku/",
-      "p": "Minister vnútra presviedča, že vie, kto je výrobcom kamier určených na cesty. V skutočnosti na Slovensko prišli cez cyperskú schránkovú firmu.",
-      "s": "Denník N",
-      "t": "Nové kamery Šutaja Eštoka sú od cyperskej schránky bez histórie a jediná stopa vedie k Rusku",
-      "ts": 1786023343.8061163,
-      "u": "7fe8f77a9dd47ecd5258"
-    },
-    {
-      "l": "https://dennikn.sk/5488476/priemerna-hladina-testosteronu-u-muzov-klesla-za-50-rokov-o-polovicu-zvazuje-sa-vplyv-obezity-stresu-ci-cukrovky/",
-      "p": "Priemerná hladina testosterónu u mužov sa za posledných 50 rokov znížila približne o polovicu. Uviedli to vedci na kongrese Európskej spoločnosti pre ľudskú reprodukciu a embryológiu (ESHRE), ktorý sa konal minulý mesiac v Londýne. O zisteniach informoval denník The Guardian. „Myslím si, že čelíme z",
-      "s": "Denník N",
-      "t": "Priemerná hladina testosterónu u mužov klesla za 50 rokov o polovicu. Zvažuje sa vplyv obezity, stresu či cukrovky",
-      "ts": 1786023343.8061182,
-      "u": "7f8d30dc4835b3acbbe0"
-    },
-    {
-      "l": "https://e.dennikn.sk/5490651/zamestnavatelia-budu-pri-15-septembri-riesit-rovnaku-dilemu-ako-8-maja-vlada-zakon-neopravila/",
-      "p": "Firmy budú aj 15. septembra riešiť nejasný výklad zákona o zrušenom dni pracovného pokoja a príplatkoch za prácu počas sviatku. Zákon sa do septembra opraviť nestihne a ministerstvo práce môže opäť vydať len právne nezáväzné usmernenie. Zamestnávatelia upozorňujú, že nejednoznačné pravidlá môžu vies",
-      "s": "Denník N",
-      "t": "Zamestnávatelia budú pri 15. septembri riešiť rovnakú dilemu ako 8. mája, vláda zákon neopravila",
-      "ts": 1786023343.8061202,
-      "u": "0735ba561a6ec259a4b3"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2019911-prepadnuty-majetok-ludi-uz-nebude-koncit-v-rukach-statu-pomoze-ludom-v-nudzi?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Majetok, ktorý prepadol v prospech štátu, môže namiesto nevyužitia slúžiť na konkrétnu pomoc ľuďom v núdzi.",
-      "s": "Pravda",
-      "t": "Prepadnutý majetok ľudí už nebude končiť v rukách štátu. Pomôže ľuďom v núdzi",
-      "ts": 1786023343.8061216,
-      "u": "f6e761a00ce6a5bb33d4"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/romovia-pristahovani-do-madarskej-ob/983224-clanok.html",
-      "p": "S búraním nelegálnej osady Lubina začali úrady v polovici júla.",
-      "s": "Teraz.sk",
-      "t": "Rómovia prisťahovaní do maďarskej obce sa vrátili do košickej osady",
-      "ts": 1786023343.8061235,
-      "u": "b79783621e4efc921224"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/ps-ziada-pre-kamery-zasadnutie-brannobe/983223-clanok.html",
-      "p": "Člen brannobezpečnostného výboru a poslanec parlamentu Jaroslav Spišiak (PS) si myslí, že minister vnútra SR Matúš Šutaj Eštok (Hlas-SD) by mal na výbor prísť podozrenia vysvetliť.",
-      "s": "Teraz.sk",
-      "t": "PS žiada pre kamery zasadnutie brannobezpečnostného výboru NR SR",
-      "ts": 1786023343.8061252,
-      "u": "52a848e83375f872e3f0"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/nominovat-na-udelenie-znacky-europske/983222-clanok.html",
-      "p": "Žiadosť sa môže týkať jednej lokality či lokalít, ktoré v rámci jedného štátu spája jedna spoločná téma, nominovať však možno i oblasti viacerých štátov, ktoré sú tematicky prepojené.",
-      "s": "Teraz.sk",
-      "t": "Nominovať na udelenie značky Európske dedičstvo možno do 30. septembra",
-      "ts": 1786023343.806127,
-      "u": "376a1e65694c2e171881"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/sutaj-estok-mozno-ocakavat-zvys/983218-clanok.html",
-      "p": "Členské štáty Európskej únie schválili sprísnenie pravidiel ochrany pre ukrajinských mužov utekajúcich pred vojnou s Ruskom.",
-      "s": "Teraz.sk",
-      "t": "Šutaj Eštok: Možno očakávať zvýšenú nelegálnu migráciu",
-      "ts": 1786023343.8061285,
-      "u": "398630e459e1d2443e2c"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1243118-nova-vyzva-na-vpad-do-ceuty-migranti-planuju-pochod-na-15-augusta",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Nová výzva na vpád do Ceuty: Migranti plánujú pochod na 15. augusta",
-      "ts": 1786023343.8061302,
-      "u": "64636d3c70171cb3a615"
-    },
     {
       "l": "https://www.sme.sk/cestovanie/c/reunion-sopecny-ostrov-indicky-ocean?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Za deň sa dostanete z tropickej lagúny na jednu z najaktívnejších sopiek sveta.",
@@ -3732,18 +3580,89 @@
       "t": "Zoo zverejnila znepokojivé zábery. Návštevníci hádzali po zvieratách kamene a iné predmety",
       "ts": 1786108245.3850417,
       "u": "1ff660582e1c50c16133"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/vybuch-v-syrskom-meste-dzaramana-si-vyziadal-14-zranenych?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "V meste žije početná kresťanská a drúzska komunita.",
+      "s": "SME",
+      "t": "Výbuch v sýrskom meste Džaramáná si vyžiadal 14 zranených",
+      "ts": 1786109739.8396862,
+      "u": "a47bdeb176a0b8d4886d"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/hLNgzhS/pri-explozii-na-predmesti-damasku-sa-zranilo-14-ludi/",
+      "p": "Sýrske úrady po výbuchu v mikrobusy v Džaramáne opravili bilanciu obetí. Výbuch zranil 14 ľudí.",
+      "s": "Aktuality",
+      "t": "Pri explózii na predmestí Damasku sa zranilo 14 ľudí",
+      "ts": 1786109739.8396893,
+      "u": "4f5f4404c9e3cf1c5171"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/s4rnVdO/thajsky-premier-avizoval-novy-zakon-o-kontrole-zbrani-po-strelbe-na-skole/",
+      "p": "Anutin Čánvirakul po masakre na škole sľubuje tvrdý zákon o zbraniach. Civilisti by podľa neho prišli o možnosť legálne nosiť strelné zbrane na verejnosti.",
+      "s": "Aktuality",
+      "t": "Thajský premiér avizoval nový zákon o kontrole zbraní po streľbe na škole",
+      "ts": 1786109739.8396916,
+      "u": "8255018df2935df4f183"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/4Vq2l6q/hromadna-nehoda-piatich-vozidiel-blokuje-pravy-jazdny-pruh-d1-pri-bytci/",
+      "p": "Na diaľnici D1 pri Bytči je v smere z Bratislavy do Žiliny blokovaný pravý pruh. Zrážka piatich áut komplikuje premávku a vyžaduje zvýšenú opatrnosť.",
+      "s": "Aktuality",
+      "t": "Hromadná nehoda piatich vozidiel blokuje pravý jazdný pruh D1 pri Bytči",
+      "ts": 1786109739.8396928,
+      "u": "110266d3d97f2d68b5a2"
+    },
+    {
+      "l": "https://dennikn.sk/5495543/v-diakovciach-sa-priotravilo-16-ludi-vratane-deti-policia-zacala-trestne-stihanie/",
+      "p": "Vo štvrtok popoludní sa na termálnom kúpalisku AVA Thermalpark v Diakovciach priotrávilo 16 ľudí neznámou látkou. Polovica skončila v nemocnici, medzi nimi aj deti. Merania, ktoré vykonali hasiči, nepreukázali zvýšenú koncentráciu chlóru, informovalo Krajské riaditeľstvo Hasičského a záchranného zbo",
+      "s": "Denník N",
+      "t": "V Diakovciach sa priotrávilo 16 ľudí vrátane detí. Polícia začala trestné stíhanie",
+      "ts": 1786109739.8396943,
+      "u": "0780c58c755c00fdf9d7"
+    },
+    {
+      "l": "https://dennikn.sk/5495541/spis-ukazuje-ze-manzel-zuzany-z-gelnice-utocil-uz-skor-usvedcili-ho-aj-slova-ich-syna/",
+      "p": "Experti vítajú pripravované zmeny ministerstva spravodlivosti v ochrane obetí domáceho násilia. Majú ďalšie návrhy, ktoré štát roky nevyslyšal.",
+      "s": "Denník N",
+      "t": "Spis ukazuje, že manžel Zuzany z Gelnice útočil už skôr, usvedčili ho aj slová ich syna",
+      "ts": 1786109739.839696,
+      "u": "ad498aa6c8d06f1c433b"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/aj-dovera-a-union-zp-zacali-posielat/983488-clanok.html",
+      "p": "Poistencom, ktorým vznikol preplatok vyšší ako päť eur, Union ZP vráti peniaze najneskôr do 60 dní od prevzatia oznámenia o výsledku ročného zúčtovania.",
+      "s": "Teraz.sk",
+      "t": "Aj Dôvera a Union ZP začali posielať ročné zúčtovania poistného",
+      "ts": 1786109739.8396971,
+      "u": "d416c9b9def897f67205"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/ministerstvo-kultury-sprecizuje-opatren/983485-clanok.html",
+      "p": "Novelizované opatrenie má platiť od 1. septembra.",
+      "s": "Teraz.sk",
+      "t": "Ministerstvo kultúry sprecizuje opatrenie ohľadom poskytovania dotácií",
+      "ts": 1786109739.839698,
+      "u": "765d421294bbedd1812f"
+    },
+    {
+      "l": "https://www.noviny.sk/krimi/1243544-zo-zdravotnickeho-strediska-v-nitre-zmizol-defibrilator",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Zo zdravotníckeho strediska v Nitre zmizol defibrilátor",
+      "ts": 1786109739.8396995,
+      "u": "b2de0a5d4864ca996df3"
+    },
+    {
+      "l": "https://www.noviny.sk/krimi/1243575-nehoda-smetiarskeho-auta-v-bratislave-jedna-osoba-sa-zranila",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Nehoda smetiarskeho auta v Bratislave. Jedna osoba sa zranila",
+      "ts": 1786109739.839701,
+      "u": "0ec8bf0cf2d604a4f3d0"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/bLnTJik/slovensko-suzuju-horucavy-teploty-uz-dosiahli-39-stupnov-celzia-a-dalej-stupaju-urady-varuju-pred-zdravotnymi-rizikami/"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Extrémne horúčavy predstavujú bezprostredné zdravotné riziko pre obyvateľstvo a zvyšujú riziko vzniku rozsiahlych požiarov na území Slovenska.",
-      "title": "Slovensko sužujú horúčavy: Teploty už dosiahli 39 stupňov Celzia a ďalej stúpajú",
-      "ts": 1785504942.9666867
-    },
     {
       "links": [
         "https://www.pravda.sk/spravy/domace/clanok/2016779-krach-solvexu-je-vacsi-nez-sa-cakalo-vyse-tisic-ludi-neodcestovalo-staci-poistka-na-vsetkych?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
@@ -4499,6 +4418,15 @@
       "reason": "Požiar v strategickom priemyselnom podniku predstavuje riziko úniku nebezpečných látok a ohrozenie verejnosti v širšom okolí.",
       "title": "AKTUÁLNE: Horí v areáli rafinérie Slovnaft",
       "ts": 1786105253.2346442
+    },
+    {
+      "links": [
+        "https://dennikn.sk/5495543/v-diakovciach-sa-priotravilo-16-ludi-vratane-deti-policia-zacala-trestne-stihanie/"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Hromadná otrava neznámou látkou na verejnom mieste s účasťou detí a nutnosťou hospitalizácie vyžaduje okamžitú pozornosť.",
+      "title": "V Diakovciach sa priotrávilo 16 ľudí vrátane detí. Polícia začala trestné stíhanie",
+      "ts": 1786109741.9674923
     }
   ],
   "seen": {
@@ -4568,6 +4496,7 @@
     "07687f594f194bb367ee": 1785862539.9923096,
     "0769c993fc5609eaf208": 1785940544.3352141,
     "07756a3cc5a91cead8aa": 1785855348.064263,
+    "0780c58c755c00fdf9d7": 1786109739.8396933,
     "078715941f9ce9b59ea3": 1786012535.8197887,
     "079cda1fbcfd0e61427b": 1786073737.1311424,
     "07f8bd94ba1c070a1d14": 1786073737.1308763,
@@ -4645,6 +4574,7 @@
     "0e792fff6eafe42ae7d7": 1786073737.1311471,
     "0e7b4abc6021408403c9": 1786088144.7309113,
     "0e8211ed261c67697a21": 1786016143.9994469,
+    "0ec8bf0cf2d604a4f3d0": 1786109739.8397002,
     "0ef93f109fb2052bba4f": 1785768936.619169,
     "0eff672430ada0fc3dff": 1785777640.5328372,
     "0f2cdb02d9d955ed43d4": 1786026940.3360107,
@@ -4667,6 +4597,7 @@
     "10ac45492028910140f6": 1785923741.7727003,
     "10c6d8253138923da677": 1786098942.8688939,
     "10d79a9053fd2a156ab0": 1785990943.1423833,
+    "110266d3d97f2d68b5a2": 1786109739.839692,
     "1106b307e08784ad03b8": 1786084543.6317,
     "114f99a277b4996dced7": 1786017348.1262481,
     "11684bf64c110b6191f0": 1786075849.5689204,
@@ -5138,6 +5069,7 @@
     "3d55c3dbf2733c9e0e22": 1786011055.310832,
     "3d5b6e2f0b427aec8e9c": 1785916535.8212585,
     "3d5f510f75910abcf945": 1785814537.8861642,
+    "3d76b9906cd3dd9cef59": 1786109739.839705,
     "3db8514cc9b926a96a0b": 1785823844.0450168,
     "3dd2a84b9f206dc57a5c": 1785845447.3297827,
     "3de81e04ddbcbfb25c8b": 1785792041.80955,
@@ -5316,6 +5248,7 @@
     "4f2cf4cd99303dcf0cd9": 1785987341.675791,
     "4f3056561b05f3e489db": 1786005353.7223225,
     "4f56573742cba54b9719": 1785944143.484797,
+    "4f5f4404c9e3cf1c5171": 1786109739.8396873,
     "4f69eca39182311d0a29": 1785909335.4093504,
     "4fcc54c14f2b9f0cdde1": 1786098942.8689203,
     "4fec09e175508bb42abc": 1785843340.5838666,
@@ -5727,11 +5660,13 @@
     "759063366f7fce876f27": 1786073737.131131,
     "759db9d32bcec278f7c2": 1786073737.1308842,
     "75b1ffc010bae97d43a6": 1785989448.2912846,
+    "75b6fe89e6bc0e0a6900": 1786109739.839707,
     "75d20b32626553a965a9": 1786026940.336035,
     "75e731e18ab243bbfc16": 1786005353.722334,
     "75fc16e2fc0e72d54081": 1786095346.020638,
     "7636407898c0dd2c158c": 1786012535.8198154,
     "763de12226ed6514a4be": 1785987341.675784,
+    "765d421294bbedd1812f": 1786109739.8396976,
     "765dc45719cfb6918b42": 1785918937.154215,
     "7698bccac8122ca991a7": 1785860438.8905067,
     "76a00c1a4c5db210492f": 1786077345.8487046,
@@ -5853,6 +5788,7 @@
     "82013417e6748b2898f7": 1786092933.8214166,
     "823c1dcf095197f6f475": 1785900937.7316272,
     "8249f08e4d7b13d9f45a": 1785768936.6191664,
+    "8255018df2935df4f183": 1786109739.8396902,
     "82634b74f4d54411a2cb": 1785964844.2048266,
     "82637e58664e8796ed8d": 1785846940.870037,
     "8285a1ba52749b657a9a": 1785864041.6937532,
@@ -6053,6 +5989,7 @@
     "96960dabcd2a21dedba5": 1785814537.8861442,
     "96ca62547c05c05221f4": 1785944143.4847906,
     "96cefc855e12ebf8da1b": 1786088144.7308788,
+    "96feed866db28e9960e6": 1786109739.8397024,
     "97104475ca76b8db905b": 1785926139.2317612,
     "971c257173500058ccfb": 1785994533.7426553,
     "9725dae765310ee7c2ce": 1786106143.6532555,
@@ -6169,6 +6106,7 @@
     "a41f1863d0865328ec8c": 1785916535.8212647,
     "a43c15172ce822128bec": 1785825339.1917305,
     "a45870054ab5a25cbe16": 1786095346.0206285,
+    "a47bdeb176a0b8d4886d": 1786109739.8396828,
     "a48fa8a994806db127d4": 1785996653.4923143,
     "a4a031fb93e55860bc3b": 1785828942.1829,
     "a4a581bd8d16bf23d33b": 1785926139.2317457,
@@ -6252,6 +6190,7 @@
     "ace6d578136faa2fd107": 1786008945.8382063,
     "ace86dd70849580b424a": 1785900937.7316456,
     "ad04edb1b811a5239d39": 1785764608.7590127,
+    "ad498aa6c8d06f1c433b": 1786109739.8396952,
     "ad6b3afe5343cf97bb67": 1785767742.389921,
     "ad975b55889f8b73aa67": 1785941748.1053586,
     "ada7ce1ba2926b697c88": 1786073737.130833,
@@ -6309,6 +6248,7 @@
     "b29defc5263185c051ca": 1786073737.1307974,
     "b2b084190f2db5419f36": 1785911745.0911794,
     "b2d005f0f2305120a9f9": 1785825339.1917326,
+    "b2de0a5d4864ca996df3": 1786109739.839699,
     "b2f2208b2fb5c24f3377": 1786098942.8688953,
     "b2fe57ee8922afd5fc10": 1786073737.1310747,
     "b30341d86caf66de8694": 1786030536.4151547,
@@ -6665,6 +6605,7 @@
     "d33cdaf9eb1707b2c6db": 1785818137.7635574,
     "d3587a51a1d25708e284": 1785832531.6087987,
     "d35fc5ce3c87989609d8": 1785926139.231751,
+    "d416c9b9def897f67205": 1786109739.8396964,
     "d42a2b842fc748bc99b1": 1785938142.338735,
     "d44394445357df56c59e": 1785994533.742834,
     "d4539d4dc8d0db39d1eb": 1785942649.1774216,
@@ -7166,96 +7107,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786108245.3850086
+      "ts": 1786109739.8396616
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786108245.38501
+      "ts": 1786109739.839663
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786108245.3850124
+      "ts": 1786109739.839666
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786108245.3850167
+      "ts": 1786109739.8396697
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786108245.3850112
+      "ts": 1786109739.8396647
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786108245.3850017
+      "ts": 1786109739.8396542
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786108245.385007
+      "ts": 1786109739.8396595
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786108245.385016
+      "ts": 1786109739.8396692
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786108245.385014
+      "ts": 1786109739.8396668
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786108245.385015
+      "ts": 1786109739.8396683
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/futbal-mohamed-salah-sa-oficialne-stal-hracom-trabzonsporu-2026080612404301608",
-      "p": "Mohamed Salah sa oficiálne stal hráčom Trabzonsporu. Egyptský reprezentant prišiel do Turecka už v predchádzajúcich hodinách ako voľný hráč po vypršaní zmluvy s Liverpoolom a následne absolvoval tradičný podpis kontraktu.",
-      "s": "Šport.sk",
-      "t": "Je to oficiálne! Mohamed Salah sa stal hráčom Trabzonsporu. Známe sú už aj detaily kontraktu",
-      "ts": 1786023343.806134,
-      "u": "16bd519d2e0c9a127669"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/online-slovensko-cierna-hora-ms-zien-do-18-rokov-live-hadzana-dnes-2026080613310436567",
-      "p": "Slovenské hádzanárky do 18 rokov sa prebojovali do štvrťfinále majstrovstiev sveta kadetiek v Rumunsku. V rozhodujúcom zápase IV. skupiny hlavnej fázy šampionátu zdolali Švajčiarsko 32:27. Medzi elitnú osmičku postúpili z prvého miesta. Slovenky sa v boji o semifinále stretnú dnes v Mioveni s Čierno",
-      "s": "Šport.sk",
-      "t": "ONLINE Slovensko - Čierna Hora / štvrťfinále MS žien do 18 rokov",
-      "ts": 1786023343.8061373,
-      "u": "134f698fd7dc5d3b9e1e"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/otocka-ktora-vojde-do-dejin-vyradenie-uhlavneho-rivala-na-ms-si-argentina-ucti-specialnym-dnom-2026080613222454600",
-      "p": "Triumf argentínskej futbalovej reprezentácie v semifinále MS 2026 nad Anglickom (2:1) si pripomenie aj federácia juhoamerickej krajiny. Argentínska futbalová asociácia (AFA) po stredajšom zasadnutí svojho výkonného výboru stanovila 15. júl, teda deň, keď národný tím zdolal v Atlante úhlavného rivala",
-      "s": "Šport.sk",
-      "t": "Otočka, ktorá vojde do dejín. Vyradenie úhlavného rivala na MS si Argentína uctí špeciálnym dňom",
-      "ts": 1786023343.8061523,
-      "u": "b49f50f6ea0e32525153"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZjJEeC1rRGxveWpkLXY4Nlp1Q1g1eHgwbFhVa3dydF80aWNrY2RSa1J3SHVadW00R3ZHOWVsZWk4bjk3OF9BQTd6X3loVEFXbEd4TmN3THhpdTcxcE45OWEzWDFkaTQ5LXZxTVpIN01DZS1jSl9KTVp5aGRjU2tEWXg1d3R5bXgxaXVIN0s5RE9GSzlsbUVfaVVsWQ?oc=5",
-      "p": "ONLINE: Slovensko - Čierna Hora dnes, štvrťfinále na MS v hádzanej žien do 18 rokov 2026 LIVE SPORTNET",
-      "s": "SPORTNET",
-      "t": "ONLINE: Slovensko - Čierna Hora dnes, štvrťfinále na MS v hádzanej žien do 18 rokov 2026 LIVE",
-      "ts": 1786023343.8061543,
-      "u": "acba6a5781a5520ca316"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/kde-sa-odohra-finale-ms-2030-maroko-moze-pripravit-spanielsko-o-sen-2026080613425508410",
       "p": "Španielska ministerka športu Milagros Tolonová poprela špekulácie, podľa ktorých by Maroko mohlo hostiť finále futbalových majstrovstiev sveta v roku 2030. Zároveň naznačila, že zápas sa musí uskutočniť v Španielsku.",
@@ -8535,6 +8444,30 @@
       "t": "ONLINE HC Dynamo Pardubice - Vlci Žilina",
       "ts": 1786108245.385046,
       "u": "0ff906aa27f9a45d6d7a"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/sipkar-juraj-holub-olympijsky-videocast-2026080709201596682",
+      "p": "Slovenský šípkar žijúci v Olomouci, ktorý sa nezľakol ani veľkého pódia, Juraj Holub, v najnovšom Olympijskom videocaste poodhaľuje zákulisie športu, ktorý na Slovensku momentálne zažíva nevídaný vzostup. V rozhovore vysvetľuje, ako funguje ľudská myseľ pod tlakom tisícok divákov, prečo je 20 minút ",
+      "s": "Šport.sk",
+      "t": "OLYMPIJSKÝ VIDEOCAST Šípkar Juraj Holub. Z utekania k Vietnamcovi na majstrovstvách až pred tisícky divákov",
+      "ts": 1786109739.839704,
+      "u": "96feed866db28e9960e6"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/gianni-infantino-vydieral-jordansko-2026080707520667461",
+      "p": "Prezident Jordánskej futbalovej federácie princ Ali bin Al Hussein nikdy nepatril medzi podporovateľov prezidenta FIFA Gianniho Infantina.",
+      "s": "Šport.sk",
+      "t": "Ďalšie dno Infantina, vydieral účastníka MS vo futbale: Peniaze uvidíte iba ak ma podporíte",
+      "ts": 1786109739.8397064,
+      "u": "3d76b9906cd3dd9cef59"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/slovenky-caka-turnaj-v-piestanoch-v/983484-clanok.html",
+      "p": "Piešťany sú jedno z troch dejísk tohtoročnej B-kategórie ME do 16 rokov, hrať sa ešte bude v gréckej Ioannine a luxemburskom Bertrange.",
+      "s": "TERAZ.SK",
+      "t": "Slovenky čaká turnaj v Piešťanoch, Van Dalen: Máme hráčky",
+      "ts": 1786109739.8397076,
+      "u": "75b6fe89e6bc0e0a6900"
     }
   ],
   "sport_source_status": {
@@ -8542,25 +8475,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786108245.385019
+      "ts": 1786109739.839672
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786108245.3850214
+      "ts": 1786109739.8396738
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786108245.3850243
+      "ts": 1786109739.8396761
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786108245.3850226
+      "ts": 1786109739.8396752
     }
   }
 }
