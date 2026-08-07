@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Vyšetrovanie incidentu na kúpalisku v Diakovciach",
-      "ts": 1786090258.187471
-    },
-    {
-      "headline": "Preverovanie pôvodu kamerových systémov na cestách",
-      "ts": 1786090258.187471
-    },
-    {
-      "headline": "Protesty prokurátora proti volebným obvodom",
-      "ts": 1786090258.187471
-    },
-    {
-      "headline": "Meta dostala pokutu za ohrozovanie detí",
-      "ts": 1786090258.187471
-    },
-    {
-      "headline": "Severná Kórea radí jesť psiu polievku",
-      "ts": 1786090258.187471
-    },
-    {
       "headline": "Trumpove nariadenia proti pôrodnej turistike",
       "ts": 1786091747.7008476
     },
@@ -251,41 +231,57 @@
     {
       "headline": "Nízka hladina Dunaja odkryla rímsky most",
       "ts": 1786103754.9472191
+    },
+    {
+      "headline": "Požiar v rafinérii Slovnaft v Bratislave",
+      "ts": 1786105257.2469733
+    },
+    {
+      "headline": "Štvrtý blok elektrárne v Mochovciach dosiahol kritický stav",
+      "ts": 1786105257.2469733
+    },
+    {
+      "headline": "Rasovo motivovaný útok v Nitre vyvolal vlnu odsúdenia",
+      "ts": 1786105257.2469733
+    },
+    {
+      "headline": "Obranný pakt medzi Saudskou Arábiou, Tureckom a Pakistanom",
+      "ts": 1786105257.2469733
+    },
+    {
+      "headline": "Lesný požiar v Slovinsku po údere blesku",
+      "ts": 1786105257.2469733
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Štvrtý blok Mochoviec dosiahol kritický stav",
+        "headline": "Požiar v rafinérii Slovnaft v Bratislave",
         "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/krimi/1243514-aktualne-hori-v-areali-rafinerie-slovnaft"
+          ]
+        ],
+        "perex": "V areáli bratislavskej rafinérie Slovnaft vypukol požiar, z miesta sa šíri hustý čierny dym. Príčina vzniku ohňa zatiaľ nie je známa."
+      },
+      {
+        "headline": "Štvrtý blok elektrárne v Mochovciach dosiahol kritický stav",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2020441-novy-jadrovy-blok-v-mochovciach-ozil-reaktor-dosiahol-prvy-dolezity-milnik/"
+          ],
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/em9wWLO/stvrty-blok-jadrovej-elektrarne-v-mochovciach-dosiahol-kriticky-stav-spustili-ho-na-minimalny-vykon/"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/index/c/stvrty-blok-jadrovej-elektrarne-v-mochovciach-spustili-na-minimalny-vykon"
           ]
         ],
-        "perex": "Štvrtý blok Jadrovej elektrárne Mochovce úspešne dosiahol kritický stav reaktora a minimálny kontrolovaný výkon. Ide o kľúčový míľnik v procese uvádzania bloku do prevádzky a jeho pripájania do siete."
+        "perex": "Reaktor štvrtého bloku jadrovej elektrárne v Mochovciach po prvý raz dosiahol kritický stav a minimálny kontrolovaný výkon. Ide o kľúčový míľnik v procese spúšťania bloku do prevádzky."
       },
       {
-        "headline": "Saudská Arábia, Turecko a Pakistan podpísali pakt o obrane",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/Yz8pVfD/tri-mocnosti-podpisali-pakt-vzajomnej-obrany-saudska-arabia-turecko-a-pakistan-spojili-svoje-sily/"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2020449-pakt-proti-iranu-alebo-mini-nato-pakistan-saudska-arabia-a-turecko-podpisali-obrannu-dohodu"
-          ]
-        ],
-        "perex": "Tri mocnosti oficiálne uzavreli dohodu o vzájomnej obrane a kolektívnej bezpečnosti. Základným princípom paktu je, že útok proti jednej zo zmluvných krajín sa považuje za útok proti všetkým."
-      },
-      {
-        "headline": "Prezident odsúdil rasovo motivovaný útok v Nitre",
+        "headline": "Rasovo motivovaný útok v Nitre vyvolal vlnu odsúdenia",
         "links": [
           [
             "Teraz.sk",
@@ -293,176 +289,46 @@
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2020417-maskovani-utocnici-v-nitre-dobili-stvoricu-indov-len-priestupok-tvrdi-policia-reaguje-aj-pellegrini"
+            "https://www.pravda.sk/spravy/regiony/clanok/2020417-maskovani-utocnici-v-nitre-dobili-stvoricu-indov-len-priestupok-tvrdi-policia-reaguje-aj-pellegrini/"
           ]
         ],
-        "perex": "Prezident reagoval na brutálne napadnutie štvorice cudzincov z Indie skupinou maskovaných mužov v Nitre. Polícia prípad pôvodne klasifikovala ako priestupok, čo vyvolalo vlnu kritiky."
+        "perex": "Prezident SR odsúdil násilný útok skupiny maskovaných mužov na štvoricu cudzincov z Indie v Nitre. Polícia prípad pôvodne klasifikovala len ako priestupok, čo vyvolalo kritiku verejnosti aj politikov."
       },
       {
-        "headline": "Japonsko evakuuje 260-tisíc ľudí pred tajfúnom Dolphin",
+        "headline": "Obranný pakt medzi Saudskou Arábiou, Tureckom a Pakistanom",
         "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/japonsko-evakuovalo-asi-260-tisic-ludi-v-dosledku-prichadzajuceho-tajfunu-dolphin"
-          ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/HsF1Iuc/japonsko-evakuovalo-260-tisic-ludi-pred-tajfunom-dolphin-vietor-v-narazoch-dosahuje-takmer-200-kilometrov-za-hodinu/"
+            "https://www.aktuality.sk/clanok/Yz8pVfD/tri-mocnosti-podpisali-pakt-vzajomnej-obrany-saudska-arabia-turecko-a-pakistan-spojili-svoje-sily/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2020449-pakt-proti-iranu-alebo-mini-nato-pakistan-saudska-arabia-a-turecko-podpisali-obrannu-dohodu/"
           ]
         ],
-        "perex": "Japonské úrady nariadili rozsiahlu evakuáciu obyvateľov v prefektúrach Kagošima a Okinawa. Búrka sprevádzaná nárazmi vetra takmer 200 kilometrov za hodinu spôsobila zrušenie stoviek letov."
+        "perex": "Tri mocnosti podpísali dohodu o vzájomnej obrane a kolektívnej bezpečnosti. Základným princípom paktu je, že útok proti jednej zo zmluvných krajín sa považuje za útok proti všetkým."
       },
       {
-        "headline": "Zemetrasenie zasiahlo západ Filipín",
+        "headline": "Lesný požiar v Slovinsku po údere blesku",
         "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/zemetrasenie-s-magnitudou-5-8-zasiahlo-zapad-filipin-otrasy-citili-aj-v-manile"
-          ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/tf4KUgn/zapad-filipin-zasiahlo-zemetrasenie-s-magnitudou-58-otrasy-bolo-citit-aj-v-hlavnom-meste-manila/"
+            "https://www.aktuality.sk/clanok/GqgLiQ6/na-severozapade-slovinska-vypukol-lesny-poziar-blesk-zapalil-tazko-pristupny-teren-pri-kranjskej-gore/"
           ]
         ],
-        "perex": "Provinciu Occidental Mindoro na západe Filipín zasiahlo zemetrasenie s magnitúdou 5,8. Otrasy vychádzajúce z hĺbky desiatich kilometrov bolo výrazne cítiť aj v hlavnom meste Manila."
-      },
-      {
-        "headline": "Nízka hladina Dunaja odkryla rímsky most",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/nizka-hladina-dunaja-odkryla-v-bulharsku-zaklady-mosta-z-cias-rimskej-rise"
-          ],
-          [
-            "TN Live",
-            "https://tnlive.sk/zahranicne/clanok/1044790-foto-nizka-hladina-dunaja-odhalila-najdlhsi-most-staroveku-dal-ho-postavit-rimsky-cisar-konstantin-i"
-          ]
-        ],
-        "perex": "Extrémne nízka hladina Dunaja v Bulharsku odhalila základy Konštantínovho mosta z čias Rímskej ríše. Táto stavba bola svojho času najdlhším mostom postaveným cez rieku Dunaj."
+        "perex": "Na severozápade Slovinska v ťažko prístupnom teréne nad dedinou Srednji Vrh vypukol lesný požiar. S plameňmi bojujú desiatky hasičov aj letecká technika."
       }
     ],
-    "ts": 1786103754.9472115
+    "ts": 1786105257.2469637
   },
   "meta": {
-    "last_collection_ts": 1786104538.9077775,
+    "last_collection_ts": 1786105250.1173735,
     "last_feed_error_ts": 1786095346.020466,
     "last_llm_error_ts": 1786024736.103106,
-    "last_run_ts": 1786104540.9555845,
-    "last_synthesis_ts": 1786103754.9472065
+    "last_run_ts": 1786105250.600532,
+    "last_synthesis_ts": 1786105257.2469583
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/nahodna-obet-vojny-v-sinaloa-v-mexiku-zastrelili-v-priamom-prenose-dalsieho-influencera-osudnym-sa-mu-mohol-stat-biely-klobuk?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Od vypuknutia vojny dvoch frakcií drogového kartelu Sinaloa zavraždili najmenej desať influencerov.",
-      "s": "SME",
-      "t": "Náhodná obeť vojny v Sinaloa? V Mexiku zastrelili v priamom prenose ďalšieho influencera, osudným sa mu mohol stať biely klobúk",
-      "ts": 1786018247.989488,
-      "u": "242ff64f670fafe2764c"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/rusko-vysetruje-najviac-pripadov-prania-spinavych-penazi-za-poslednych-15-rokov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Na najprísnejší trest aj za ďalšie trestné činy bol doteraz odsúdený generál Popov.",
-      "s": "SME",
-      "t": "Rusko vyšetruje najviac prípadov prania špinavých peňazí za posledných 15 rokov",
-      "ts": 1786018247.9894912,
-      "u": "d89667b2e1964523c320"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/ozbrojeny-dron-odhalil-slabiny-obrany-europy-utokov-moze-pribudat-varuje-bezpecnostny-analytik?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Cieľom bolo ukrajinské lietadlo naložené muníciou.",
-      "s": "SME",
-      "t": "Ozbrojený dron odhalil slabiny obrany Európy. Útokov môže pribúdať, varuje bezpečnostný analytik",
-      "ts": 1786018247.9894924,
-      "u": "9215c148ada5a513787a"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/HmahzRD/svedsko-zabavilo-lod-z-ruskej-tienovej-flotily-historicky-ju-odovzda-ukrajine-na-vysetrovanie-vojnovych-zlocinov/",
-      "p": "Švédsko odovzdá Ukrajine loď z ruskej tieňovej flotily podozrivú z prepravy ukradnutého obilia. Prelomové rozhodnutie môže ovplyvniť ďalšie prípady.",
-      "s": "Aktuality",
-      "t": "Švédsko zabavilo loď z ruskej tieňovej flotily. Historicky ju odovzdá Ukrajine na vyšetrovanie vojnových zločinov",
-      "ts": 1786018247.9894938,
-      "u": "2815b51780c6f3afb024"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/CrTezFJ/madarski-poslanci-si-zvolia-noveho-prezidenta-uz-v-utorok/",
-      "p": "Maďarský parlament má už o pár dní voliť novú hlavu štátu po odchode Tamása Sulyoka. Vládna Tisza presadila termín, opozícia spochybňuje legitimitu voľby.",
-      "s": "Aktuality",
-      "t": "Maďarskí poslanci si zvolia nového prezidenta už v utorok",
-      "ts": 1786018247.9894948,
-      "u": "50547506f12c3faa82df"
-    },
-    {
-      "l": "https://dennikn.sk/5492608/vyvoj-bojov-1624-den-rusky-starlink-uz-moze-mat-nad-ukrajinou-kratke-komunikacne-okno-ukrajinci-debatuju-ci-sa-da-zostrelit/",
-      "p": "Ruský satelitný internet Rassvet má na orbite len niekoľko satelitov, no už teraz to podľa experta poskytuje krátke komunikačné okno nad Ukrajinou. Prečo je „ruský Starlink“ dôležitý a ako ho môže využívať ruská armáda. Ukrajinský portál rozoberá, či sa ruské satelity dajú zostreliť. Na Kramatorsk a",
-      "s": "Denník N",
-      "t": "Vývoj bojov (1624. deň): Ruský Starlink už môže mať nad Ukrajinou krátke komunikačné okno, Ukrajinci debatujú, či sa dá zostreliť",
-      "ts": 1786018247.989497,
-      "u": "487076e530b31a191a88"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2019375-vznikli-z-chudoby-dnes-fascinuju-odbornikov-slovenske-domy-vytesane-do-skaly-funguju-ako-prirodzena-klimatizacia-uz-starocia?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Na prvý pohľad vyzerajú ako úkryty, v skutočnosti však išlo o premyslené domovy. Hlboko v regiónoch existuje miesto, kde ľudia po stáročia vytesávali obydlia do mäkkého sopečného tufu, ktorý v lete prirodzene chladil a v zime chránil pred mrazom. Hoci ich pôvod dodnes sprevádzajú mýty o skrývaní sa ",
-      "s": "Pravda",
-      "t": "Vznikli z chudoby, dnes fascinujú odborníkov. Slovenské domy vytesané do skaly fungujú ako prirodzená klimatizácia už stáročia",
-      "ts": 1786018247.9894986,
-      "u": "c8f8c4c6f3bb191b7708"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2019747-sestry-ados-uhrady-zdravotne-poistovne?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Zdravotné poisťovne odmietli dočasne zvýšiť úhradu za návštevu sestry v domácej ošetrovateľskej starostlivosti o 2 až 7 eur. Sestry počas horúčav cestujú v rozpálených autách a pracujú v domácnostiach v extrémnom teple.",
-      "s": "Pravda",
-      "t": "Odmietli im kompenzácie za teplo. Mnohí chorí by bez týchto zdravotných sestier neprežili",
-      "ts": 1786018247.9894996,
-      "u": "3a29447bc0b097ae31e5"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2019851-antonov-nemecko-lipsko-dron-municia-letisko-hybridna-vojna?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Ukrajinské lietadlo Antonov, pri ktorom zamestnanci letiska Lipsko/Halle našli v noci na stredu dron s výbušninou, bolo naložené vojenskou muníciou. S odvolaním sa na svoje zdroje o tom dnes informovali nemecké stanice NDR, WDR a denník Süddeutsche Zeitung. Nemecká polícia medzičasom ďalej pátra po ",
-      "s": "Pravda",
-      "t": "Nové zistenie z Lipska: ukrajinské lietadlo pri výbušnom drone bolo plné munície",
-      "ts": 1786018247.9895015,
-      "u": "1dc0789d2e5f2e86a2e7"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2019847-prelomovy-verdikt-vo-svedsku-zabavenu-rusku-lod-odovzdaju-ukrajine?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Švédsko môže Ukrajine odovzdať nákladnú loď Caffa z tzv. ruskej tieňovej flotily, ktorú zaistilo v marci pri svojom južnom pobreží a následne zhabalo. Podľa Kyjeva prevážala obilniny z okupovaných ukrajinských území.",
-      "s": "Pravda",
-      "t": "Prelomový verdikt vo Švédsku: zabavenú ruskú loď odovzdajú Ukrajine",
-      "ts": 1786018247.9895024,
-      "u": "b826445d5840111f0e38"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/zvysene-riziko-vzniku-poziarov-pretr/983197-clanok.html",
-      "p": "Verejnosť by nemala zabúdať na všeobecne záväzné nariadenia jednotlivých obcí, ktoré môžu podmienky na zakladanie ohňov v prírodnom prostredí sprísniť.",
-      "s": "Teraz.sk",
-      "t": "Zvýšené riziko vzniku požiarov pretrváva na väčšine územia Slovenska",
-      "ts": 1786018247.9895034,
-      "u": "9df03bc08690c9f0cb7e"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/agrorezort-prve-zasadnutie-skupiny-pre/983190-clanok.html",
-      "p": "Od roku 2024 platí vyhláška, ktorá umožnila lov vlka na území Slovenska.",
-      "s": "Teraz.sk",
-      "t": "Agrorezort: Prvé zasadnutie skupiny pre kvóty lovu vlka bolo v júni",
-      "ts": 1786018247.9895048,
-      "u": "bcefa64d5e945ae8b4f0"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1242852-trojrocne-dievcatko-zomrelo-po-uviaznuti-v-detskej-kuchynke-pripad-vysetruju",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Trojročné dievčatko zomrelo po uviaznutí v detskej kuchynke. Vyšetrovanie pokračuje",
-      "ts": 1786018247.9895062,
-      "u": "a95edc1ce39cd2e90627"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1242724-britsky-dracula-desil-cele-okolie-pred-kostolmi-nechaval-mrtve-zvierata",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Britský \"Dracula\" desil celé okolie. Pred kostolmi nechával mŕtve zvieratá",
-      "ts": 1786018247.9895077,
-      "u": "daba000e657e8abe8f4b"
-    },
     {
       "l": "https://www.sme.sk/svet/c/novinarka-afp-christina-assi-ziska-medzinarodne-ocenenie-za-slobodu-tlace?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Assi utrpela vážne zranenia v októbri 2023 pri izraelskom útoku.",
@@ -3958,6 +3824,22 @@
       "t": "Musk vyzval na umlčanie kandidátky na francúzskeho prezidenta, tá mu odkázala, že demokracia nie je na predaj",
       "ts": 1786104540.9551055,
       "u": "70b445badb4fa4980ae8"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/zdravotne-rizika-na-festivale-odborn/983456-clanok.html",
+      "p": "ÚVZ zároveň apeluje, aby ľudia na festivaloch nezabúdali dodržiavať pitný režim.",
+      "s": "Teraz.sk",
+      "t": "Zdravotné riziká na festivale: Odborníci radia, čoho sa vyvarovať",
+      "ts": 1786105250.600078,
+      "u": "830c21e3a29edc8f409f"
+    },
+    {
+      "l": "https://www.noviny.sk/krimi/1243514-aktualne-hori-v-areali-rafinerie-slovnaft",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "AKTUÁLNE: Horí v areáli rafinérie Slovnaft",
+      "ts": 1786105250.600081,
+      "u": "cfaa51f11deb9c8bfce9"
     }
   ],
   "recent_alerts": [
@@ -4716,6 +4598,15 @@
       "reason": "Požiar v hlavnom meste s neznámou príčinou a viditeľným dymom predstavuje potenciálne ohrozenie verejnosti a kvality ovzdušia v husto obývanej oblasti.",
       "title": "V Bratislave sa šíri hustý čierny dym z požiaru",
       "ts": 1786103747.3418117
+    },
+    {
+      "links": [
+        "https://www.noviny.sk/krimi/1243514-aktualne-hori-v-areali-rafinerie-slovnaft"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Požiar v strategickom priemyselnom podniku predstavuje riziko úniku nebezpečných látok a ohrozenie verejnosti v širšom okolí.",
+      "title": "AKTUÁLNE: Horí v areáli rafinérie Slovnaft",
+      "ts": 1786105253.2346442
     }
   ],
   "seen": {
@@ -6058,6 +5949,7 @@
     "82f4b630719d04f53651": 1785959754.0943782,
     "82fb4e0ffa0235c1b1c4": 1785929753.7564325,
     "83034790b19466bb40f1": 1785779740.451598,
+    "830c21e3a29edc8f409f": 1786105250.6000745,
     "830e8b262aa778864a56": 1785905744.7117386,
     "8315521df55f09c61c7c": 1785843340.5838454,
     "83333385ceda34f57d75": 1786008945.8382,
@@ -6425,6 +6317,7 @@
     "aa48d8b7d236e0ca0b52": 1785858941.8939471,
     "aa505148e0378a7c4134": 1785844535.9969304,
     "aa62bcbee0e0d71ff170": 1785946847.9863188,
+    "aa717f2df4c12a46c955": 1786105250.600082,
     "aaa358d3adee11b217fe": 1786090246.454034,
     "ab2bae1ac42d62691cc4": 1785814537.8861575,
     "ab36c7329cdbb31e2c47": 1785929753.7563298,
@@ -6816,6 +6709,7 @@
     "cf90673327c0379985b1": 1785764608.759004,
     "cf940831d18de738e9e4": 1786090246.4540358,
     "cfa525135b716febbdf3": 1786026940.336019,
+    "cfaa51f11deb9c8bfce9": 1786105250.6000793,
     "cfe93b274956f993b7e1": 1785816637.2230203,
     "cfffb829b294966469c1": 1786003841.197665,
     "d010d3e48a8b0ef801af": 1785837332.1853538,
@@ -7347,96 +7241,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786104540.9550757
+      "ts": 1786105250.6000516
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786104540.9550772
+      "ts": 1786105250.6000538
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786104540.9550793
+      "ts": 1786105250.6000564
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786104540.9550838
+      "ts": 1786105250.6000607
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786104540.9550781
+      "ts": 1786105250.6000552
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786104540.9550686
+      "ts": 1786105250.6000452
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786104540.9550738
+      "ts": 1786105250.60005
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786104540.9550827
+      "ts": 1786105250.6000597
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786104540.9550805
+      "ts": 1786105250.6000576
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786104540.9550817
+      "ts": 1786105250.6000586
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/trener-basketbalistov-prievidze-dosiahol-s-reprezentaciou-skotska-obrovsky-uspech-2026080612015227362",
-      "p": "Hlavný tréner BC Prievidza Gareth Murray dosiahol v Glasgowe jeden z najväčších úspechov škótskeho basketbalu. Mužskú reprezentáciu v 3x3 basketbale doviedol na Hrách Commonwealthu k bronzovej medaile. Pre Škótsko je to historicky prvá basketbalová medaila a zároveň prvý cenný kov v tímovom športe n",
-      "s": "Šport.sk",
-      "t": "Tréner basketbalistov Prievidze dosiahol s reprezentáciou Škótska obrovský úspech",
-      "ts": 1786018247.9895108,
-      "u": "27c6f59027c625d219f7"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0JGV3hsWWVQdXFRWlJFTEhUV01xUGM2ZXRQcGh5ck5ZaTA3Rm5FQVVnMVRlb0hVOWVpcXM3N3AzNHUtVlVfNVRPaVZnS1JCWE5IMDJFaGRobTAycjRIZWFpdkF6Nk9vdnNnaUlJemlpN0lyelBKdzZkQ2hvblU3OVpMaGwtZU5fV0pyREYyUEcwSGZ2UUlkR242dWQ2VmZITWc2R3BtVDNrcWM?oc=5",
-      "p": "Jeden z najväčších úspechov v histórii. Tréner Prievidze doviedol Škótov k medaile SPORTNET",
-      "s": "SPORTNET",
-      "t": "Jeden z najväčších úspechov v histórii. Tréner Prievidze doviedol Škótov k medaile",
-      "ts": 1786018247.989513,
-      "u": "1f7e33614f9a2d3d4106"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/trener-bc-prievidza-doviedol-skotov-k/983193-clanok.html",
-      "p": "Pre Škótsko je to historicky prvá basketbalová medaila a zároveň prvý cenný kov v tímovom športe na Hrách Commonwealthu.",
-      "s": "TERAZ.SK",
-      "t": "Tréner BC Prievidza doviedol Škótov k bronzu na Hrách Commonwealthu",
-      "ts": 1786018247.9895146,
-      "u": "90e73fb36400e1ab2f64"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/jacquelin-zazije-sutazny-debut-na-c/983191-clanok.html",
-      "p": "V poolympijskej sezóne si chcel biatlonista „rozšíriť obzory a vyjsť z komfortnej zóny.“",
-      "s": "TERAZ.SK",
-      "t": "Jacquelin zažije súťažný debut na cestnom bicykli v rodnom Francúzsku",
-      "ts": 1786018247.9895158,
-      "u": "b1a55d0977a7e4b5b04b"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/najvyssia-zenska-futbalova-sutaz-ponesie-nazov-orange-liga-2026080612345046449",
       "p": "Slovenský futbalový zväz (SFZ) a spoločnosť Orange Slovensko vstupujú do partnerstva, ktoré prináša nový impulz pre rozvoj ženského futbalu na Slovensku. Najvyššia ženská futbalová súťaž, I. liga žien, bude počas najbližších dvoch sezón (2026/2027 a 2027/2028) niesť názov Orange liga.",
@@ -8708,6 +8570,14 @@
       "t": "Aj za vypadnutie Trnavy so Žilinou môže Pavek a Radičovej vláda (tréneroviny)",
       "ts": 1786104540.9551084,
       "u": "6a559b7b90799e8f5fb9"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/darwin-nunez-by-sa-mohol-pridat-k-salahovi-v-trabzonspore-2026080708375446062",
+      "p": "Trabzonspor je čoraz bližšie k tomu, aby opäť spojil bývalých spoluhráčov z Liverpoolu, Mohameda Salaha a Darwina Núñeza. Po tom, čo klub zo severovýchodného Turecka upútal pozornosť futbalového sveta prestupom Egypťana, podniká vážne kroky na posilnenie svojho útoku ďalšou svetovou hviezdou.",
+      "s": "Šport.sk",
+      "t": "Trabzonspor ešte nekončí. Po Salahovi chce získať ďalšiu bývalú hviezdu Liverpoolu",
+      "ts": 1786105250.6000834,
+      "u": "aa717f2df4c12a46c955"
     }
   ],
   "sport_source_status": {
@@ -8715,25 +8585,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786104540.955086
+      "ts": 1786105250.600063
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786104540.9550881
+      "ts": 1786105250.6000652
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786104540.9550908
+      "ts": 1786105250.600068
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786104540.9550896
+      "ts": 1786105250.600067
     }
   }
 }
