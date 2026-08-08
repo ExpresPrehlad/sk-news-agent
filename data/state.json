@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Zadržali podozrivých z útoku na taxikára v Seredi",
-      "ts": 1786176647.309018
-    },
-    {
-      "headline": "Búrky na strednom Slovensku spôsobili škody",
-      "ts": 1786176647.309018
-    },
-    {
-      "headline": "Výpadky v jednej z najväčších slovenských bánk",
-      "ts": 1786176647.309018
-    },
-    {
-      "headline": "Špekulácie o odchode Tesca zo Slovenska",
-      "ts": 1786176647.309018
-    },
-    {
-      "headline": "Nehoda štvorkolkára v Košiciach",
-      "ts": 1786176647.309018
-    },
-    {
       "headline": "Americký Senát potvrdil Todda Blanchea vo funkcii ministra spravodlivosti",
       "ts": 1786180249.3756819
     },
@@ -99,180 +79,104 @@
     {
       "headline": "Ruský súd odsúdil novinárku na 12 rokov väzenia",
       "ts": 1786187446.3066497
+    },
+    {
+      "headline": "Ničivý požiar zasiahol obec na Horehroní",
+      "ts": 1786191051.070081
+    },
+    {
+      "headline": "Napätie v Hormuzskom prielive: Irán čelí obvineniam z útoku na tanker",
+      "ts": 1786191051.070081
+    },
+    {
+      "headline": "Sopka Etna na Sicílii opäť vybuchla",
+      "ts": 1786191051.070081
+    },
+    {
+      "headline": "Politické napätie v Maďarsku: Tisza nominovala kandidáta na prezidenta",
+      "ts": 1786191051.070081
+    },
+    {
+      "headline": "Španielsko obnovuje hraničné kontroly s Talianskom",
+      "ts": 1786191051.070081
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Dron s výbušninami explodoval v Bulharsku pri plynovode",
+        "headline": "Ničivý požiar zasiahol obec na Horehroní",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/M9Sb8Hk/do-bulharska-vnikol-dron-vybuchol-nedaleko-plynovodu-pri-hraniciach-s-rumunskom/"
+            "https://www.aktuality.sk/clanok/kVwHwII/nicivy-poziar-zasiahol-obec-na-horehroni-viacere-domy-lahli-popolom/"
+          ],
+          [
+            "TN Live",
+            "https://tnlive.sk/domace/clanok/1044946-foto-obrovsky-nocny-poziar-pri-brezne-skody-sa-splhaju-k-400-tisic-euram"
+          ]
+        ],
+        "perex": "Požiar v obci Braväcovo v okrese Brezno zasiahol desať stavieb a spôsobil škody odhadované na 400-tisíc eur. Pri udalosti sa splodinami horenia intoxikoval jeden človek, no podľa prvotných informácií nikto neprišiel o život."
+      },
+      {
+        "headline": "Napätie v Hormuzskom prielive: Irán čelí obvineniam z útoku na tanker",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/Vq4VDQt/spojene-arabske-emiraty-obvinili-iran-z-raketoveho-utoku-na-svoj-tanker-v-hormuzskom-prielive/"
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2020835-dron-prenikol-do-bulharskeho-vzdusneho-priestoru-s-velkym-mnozstvom-vybusnin-explodoval-kilometer-od-plynovodu"
+            "https://www.pravda.sk/spravy/svet/clanok/2020749-hormuzsky-prieliv-usa-oman-iran-rokovania-dohoda?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ]
         ],
-        "perex": "V Bulharsku neďaleko hraníc s Rumunskom vybuchol dron nesúci veľké množstvo výbušnín. Incident sa stal len kilometer od kompresornej stanice strategického Transbalkánskeho plynovodu."
+        "perex": "Spojené arabské emiráty obvinili Irán z raketového útoku na svoj tanker v strategickom Hormuzskom prielive. Incident je súčasťou série útokov na plavidlá v tejto oblasti, pričom USA zároveň rokujú s Ománom o budúcej správe prielivu."
       },
       {
-        "headline": "Americký Senát schválil dočasné financovanie federálnych úradov",
+        "headline": "Sopka Etna na Sicílii opäť vybuchla",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2020851-etna-sa-prebudila-vali-sa-z-nej-dym-a-popol-letisko-v-catanii-pozastavilo-prilety"
+          ]
+        ],
+        "perex": "Aktívna sopka Etna začala chrliť dym a popol, čo si vyžiadalo okamžité bezpečnostné opatrenia. Letisko v Catánii muselo v dôsledku zhoršenej situácie pozastaviť prílety lietadiel."
+      },
+      {
+        "headline": "Politické napätie v Maďarsku: Tisza nominovala kandidáta na prezidenta",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/nSE6RxV/americky-senat-schvalil-docasny-plan-na-financovanie-federalnych-uradov-paralyza-vlady-zatial-nehrozi/"
+            "https://www.aktuality.sk/clanok/ZPAQikN/madarska-vladna-strana-tisza-nominovala-na-prezidenta-byvaleho-sefa-najvyssieho-sudu/"
           ],
           [
             "SME",
-            "https://www.sme.sk/svet/c/americky-senat-schvalil-kratkodobe-financovanie-uradov-aby-zamedzil-shutdownu-pred-volbami-do-kongresu"
+            "https://www.sme.sk/svet/c/poslanecky-klub-tiszy-nominuje-na-post-prezidenta-byvaleho-predsedu-najvyssieho-sudu-andrasa-baku"
           ]
         ],
-        "perex": "Senát USA odhlasoval krátkodobý plán na financovanie vládnych inštitúcií, čím sa podarilo odvrátiť hroziacu paralýzu štátu. Legislatívu musí ešte definitívne potvrdiť Snemovňa reprezentantov."
+        "perex": "Opozičná strana Tisza nominovala na post prezidenta bývalého šéfa Najvyššieho súdu Andrása Baku. Vládny Fidesz však avizuje bojkot voľby a spochybňuje jej právnu legitimitu."
       },
       {
-        "headline": "Tajfún Dolphin zasiahol Japonsko a spôsobil zranenia",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2020813-tajfun-dolphin-na-juhu-japonska-zranil-sest-ludi-50-tisic-domov-je-bez-prudu"
-          ]
-        ],
-        "perex": "Silný tajfún Dolphin zasiahol južné prefektúry Okinawu a Kagošimu, kde zranil šesť ľudí. Búrka zároveň pripravila o dodávky elektrickej energie viac ako 50-tisíc domácností."
-      },
-      {
-        "headline": "Lovestream festival odštartoval v Bratislave",
+        "headline": "Španielsko obnovuje hraničné kontroly s Talianskom",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/fCtEsTQ/z-ikonickeho-tomorrowlandu-rovno-na-lovestream-john-newman-roztancoval-bratislavu/"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/kultura/clanok/2020787-lovestream-2026-report-z-piatku"
+            "https://www.aktuality.sk/clanok/hmfRkSq/spanielsko-docasne-obnovuje-hranicne-kontroly-s-talianskom-pre-nezhody-o-migrantoch/"
           ]
         ],
-        "perex": "Prvý deň hudobného festivalu Lovestream prilákal tisíce fanúšikov a priniesol vystúpenia popových hviezd. Na pódiách sa predstavili mená ako John Newman či Bebe Rexha."
-      },
-      {
-        "headline": "Ruský súd odsúdil novinárku na 12 rokov väzenia",
-        "links": [
-          [
-            "Denník N",
-            "https://dennikn.sk/5496549/putinov-rezim-odsudil-vedecku-novinarku-na-dlhorocne-vazenie/"
-          ]
-        ],
-        "perex": "Moskovský súd v zrýchlenom konaní poslal vedeckú novinárku Dariu Šipačevu na 12 rokov do väzenia. Okrem trestu odňatia slobody jej bola vymeraná aj finančná pokuta."
+        "perex": "Madrid reaguje na pretrvávajúce nezhody v otázke migrácie zavedením dočasných kontrol na hraniciach s Talianskom. Opatrenie, ktoré vstúpi do platnosti 8. augusta, odráža rastúce napätie v rámci Európskej únie."
       }
     ],
-    "ts": 1786187446.306641
+    "ts": 1786191051.0700603
   },
   "meta": {
-    "last_collection_ts": 1786188944.9802752,
+    "last_collection_ts": 1786191045.5224597,
     "last_feed_error_ts": 1786181742.4122097,
     "last_llm_error_ts": 1786116961.025012,
-    "last_run_ts": 1786188945.638442,
-    "last_synthesis_ts": 1786187446.3066359
+    "last_run_ts": 1786191046.3164504,
+    "last_synthesis_ts": 1786191051.0700552
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/index/c/stvrty-blok-jadrovej-elektrarne-v-mochovciach-spustili-na-minimalny-vykon?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Nový blok posilní domácu výrobu elektriny.",
-      "s": "SME",
-      "t": "Štvrtý blok jadrovej elektrárne v Mochovciach spustili na minimálny výkon",
-      "ts": 1786103745.5862942,
-      "u": "914ff119f3072b150d2e"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/pakistan-saudska-arabia-a-turecko-podpisali-zmluvu-o-vzajomnej-obrane?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Útok proti jednej krajine je útok proti všetkým.",
-      "s": "SME",
-      "t": "Pakistan, Saudská Arábia a Turecko podpísali zmluvu o vzájomnej obrane",
-      "ts": 1786103745.5862978,
-      "u": "703b8c080aecbf2b36e1"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/kDeyS0A/v-bratislave-sa-siri-husty-cierny-dym-z-poziaru/",
-      "p": "Príčina požiaru zatiaľ nie je známa.",
-      "s": "Aktuality",
-      "t": "V Bratislave sa šíri hustý čierny dym z požiaru",
-      "ts": 1786103745.5863,
-      "u": "b874623e70d50a523a01"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/em9wWLO/stvrty-blok-jadrovej-elektrarne-v-mochovciach-dosiahol-kriticky-stav-spustili-ho-na-minimalny-vykon/",
-      "p": "Reaktor štvrtého bloku Mochoviec po prvý raz dosiahol kritický stav a kontrolovaný výkon. Spúšťa sa séria skúšok vedúcich k pripojeniu do siete.",
-      "s": "Aktuality",
-      "t": "Štvrtý blok jadrovej elektrárne v Mochovciach dosiahol kritický stav, spustili ho na minimálny výkon",
-      "ts": 1786103745.5864737,
-      "u": "fe5824d32f4f6f37ee71"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/inzercia/clanok/2020455-skenovat-lidl-plus-sa-oplati-usetrite-viac-ako-30-z-nakupu?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Skenovať Lidl Plus sa skutočne oplatí. Jediný potravinový diskont s predajňami po celom Slovensku prináša svojim zákazníkom každý týždeň jedinečné zľavy a akcie zostavené tak, aby ušetrili ešte viac. Za nákup vybraných potravín s aplikáciou Lidl Plus zaplatia len niečo cez 40 eur namiesto 60. Ušetri",
-      "s": "Pravda",
-      "t": "Skenovať Lidl Plus sa oplatí: Ušetrite viac ako 30% z nákupu",
-      "ts": 1786103745.5864756,
-      "u": "145b01bdf113d2edf7d2"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2019861-nemocnice-prestavba-agentura-fico-internaty?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Premiér Robert Fico pri návštevách rozostavaných nemocníc v Banskej Bystrici a Martine navrhol, aby sa mohli zmeniť na internáty či nájomné byty pre zamestnancov. A to s pomocou Agentúry štátom podporovaného nájomného bývania. Tá upozorňuje, že zatiaľ ide len o úvodnú diskusiu.",
-      "s": "Pravda",
-      "t": "Nemocnice sa odsťahujú, čo bude so starými budovami? Fico navrhuje nájomné byty",
-      "ts": 1786103745.5864768,
-      "u": "45017e05e03313fb2c79"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2020449-pakt-proti-iranu-alebo-mini-nato-pakistan-saudska-arabia-a-turecko-podpisali-obrannu-dohodu?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Saudská Arábia, Turecko a Pakistan v piatok podpísali dohodu o vzájomnej obrane. Potvrdilo to pakistanské ministerstvo zahraničných vecí. Jej základným princípom je, že útok proti jednej zo zmluvných strán sa považuje za útok proti všetkým. TASR o tom informuje podľa správ agentúr AFP a AP.",
-      "s": "Pravda",
-      "t": "Pakt proti Iránu alebo mini NATO: Pakistan, Saudská Arábia a Turecko podpísali obrannú dohodu",
-      "ts": 1786103745.5864787,
-      "u": "849fd40c6f22febb700f"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/uvz-povolenie-na-prevadzku-malo-k-pia/983455-clanok.html",
-      "p": "Znížená priehľadnosť vody bola zistená na jazere Izra, jazere Krpáčovo Horná Lehota, vodnej nádrži Tajch Nová Baňa a na Veľkých Uhercoch.",
-      "s": "Teraz.sk",
-      "t": "ÚVZ: Povolenie na prevádzku malo k piatku 170 umelých kúpalísk",
-      "ts": 1786103745.58648,
-      "u": "d0b56f23ccaaeeefde05"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/os-zzs-zachranari-vyrazili-v-juli-k/983454-clanok.html",
-      "p": "Ambulancie záchrannej zdravotnej služby smerovali k detským pacientom 619-krát a 6275 výjazdov smerovalo k dospelým pacientom.",
-      "s": "Teraz.sk",
-      "t": "Záchranári apelujú na opatrnosť: V júli vyrazili k takmer 6900 úrazom",
-      "ts": 1786103745.586481,
-      "u": "4986b11ab7fb7ab66a67"
-    },
-    {
-      "l": "https://www.sme.sk/kultura/c/vznika-nova-generacia-tanecnikov-no-formuje-sa-s-vedomim-ze-tu-nie-je-vitana-hovori-tanecnik-stepita?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Ešte stále si pamätá, keď sa pýtal sám seba, ako sa má pozerať na súčasný tanec.",
-      "s": "SME",
-      "t": "Vzniká nová generácia tanečníkov, no formuje sa s vedomím, že tu nie je vítaná, hovorí tanečník Štepita",
-      "ts": 1786104540.9551003,
-      "u": "edb5e8805dc6b3fb3a19"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/vNGGGZq/peter-pellegrini-na-navsteve-v-cine-ukazal-najvacsi-omyl-nasej-zahranicnej-politiky-komentar-petra-weissa/",
-      "p": "Prezident sa v čínskej propagandistickej televízii nepredstavil ako reprezentant demokratického členského štátu EÚ, ale ako nadšený prvoplánový obdivovateľ veľmoci.",
-      "s": "Aktuality",
-      "t": "Peter Pellegrini na návšteve v Číne ukázal najväčší omyl našej zahraničnej politiky (komentár Petra Weissa)",
-      "ts": 1786104540.9551032,
-      "u": "e2d8c08651c8716b7e59"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2020469-musk-vyzval-na-umlcanie-kandidatky-na-francuzskeho-prezidenta-ta-mu-odkazala-ze-demokracia-nie-je-na-predaj?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Miliardár Elon Musk ostro zaútočil na líderku francúzskych Zelených Marine Tondelierovú, píše portál Politico. Najbohatší človek na svete reagoval na Tondelierovej návrh, aby francúzske úrady mohli počas predvolebnej kampane dočasne pozastaviť fungovanie sociálnej siete X v prípade preukázaného zahr",
-      "s": "Pravda",
-      "t": "Musk vyzval na umlčanie kandidátky na francúzskeho prezidenta, tá mu odkázala, že demokracia nie je na predaj",
-      "ts": 1786104540.9551055,
-      "u": "70b445badb4fa4980ae8"
-    },
     {
       "l": "https://www.teraz.sk/slovensko/zdravotne-rizika-na-festivale-odborn/983456-clanok.html",
       "p": "ÚVZ zároveň apeluje, aby ľudia na festivaloch nezabúdali dodržiavať pitný režim.",
@@ -2784,18 +2688,57 @@
       "t": "Etna sa prebudila, valí sa z nej dym a popol. Letisko v Catánii pozastavilo prílety",
       "ts": 1786188945.637747,
       "u": "090c738465060c7c7902"
+    },
+    {
+      "l": "https://www.sme.sk/kulturny-zivot/c/stephen-fry-smiech-je-jednym-z-bozskych-darov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Ako humor odhaľuje ľudskosť mýtov a ich hrdinov.",
+      "s": "SME",
+      "t": "Stephen Fry: Smiech je jedným z božských darov",
+      "ts": 1786191046.3156064,
+      "u": "6de246ce6e49064402a8"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/poslanecky-klub-tiszy-nominuje-na-post-prezidenta-byvaleho-predsedu-najvyssieho-sudu-andrasa-baku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Frakcia to oznámila na svojom účte na Facebooku po tajnom hlasovaní.",
+      "s": "SME",
+      "t": "Poslanecký klub Tiszy nominuje na post prezidenta bývalého predsedu Najvyššieho súdu Andrása Baku",
+      "ts": 1786191046.3156095,
+      "u": "07be2211905d4b429bca"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/Vq4VDQt/spojene-arabske-emiraty-obvinili-iran-z-raketoveho-utoku-na-svoj-tanker-v-hormuzskom-prielive/",
+      "p": "Emiráty vinia Irán z raketového zásahu tankera ADNOC v Hormuzskom prielive. Útok bez obetí zapadá do série napadnutí plavidiel v tejto citlivej oblasti.",
+      "s": "Aktuality",
+      "t": "Spojené arabské emiráty obvinili Irán z raketového útoku na svoj tanker v Hormuzskom prielive",
+      "ts": 1786191046.3156106,
+      "u": "b659817dcbdae2cece74"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2020861-pekarka-zachrana-zivot-nemecko-par-stari-ludia?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Nemecká polícia v piatok uviedla, že rozhodnutie pekárky, ktorá sa vybrala navštíviť svojich dvoch stálych zákazníkov - starší manželský pár - po tom, čo sa u nej niekoľko dní neukázali, im pravdepodobne zachránilo život.",
+      "s": "Pravda",
+      "t": "Starší pár sa niekoľko dní neukázal v pekárni. Majiteľka urobila rozhodnutie, ktoré im zachránilo život",
+      "ts": 1786191046.315612,
+      "u": "f8231015bc4765c91fc2"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/kupele-brusno-pripravuju-19-rocnik/983647-clanok.html",
+      "p": "Muzikálový festival Jozefa Bednárika patrí k najstálejším podujatiam svojho druhu na Slovensku.",
+      "s": "Teraz.sk",
+      "t": "Kúpele Brusno pripravujú 19. ročník festivalu Jozefa Bednárika",
+      "ts": 1786191046.3156135,
+      "u": "163cd1aedab58dd0926a"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1243830-napaetie-na-oblubenom-stredomorskom-ostrove-zostante-doma-vyhrazaju-sa-ozbrojenci",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Napätie na obľúbenom stredomorskom ostrove: „Zostaňte doma,“ vyhrážajú sa ozbrojenci",
+      "ts": 1786191046.3156142,
+      "u": "9b0773e901d14f2401f8"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.noviny.sk/krimi/1241071-zeleznicny-vypravca-bol-pocas-sluzby-pod-vplyvom-drog-ohrozil-tak-zivot-cestujucich"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o závažné zlyhanie v kritickej infraštruktúre s priamym ohrozením bezpečnosti verejnej dopravy.",
-      "title": "Železničný výpravca bol počas služby pod vplyvom drog. Ohrozil tak život cestujúcich",
-      "ts": 1785584296.1566048
-    },
     {
       "links": [
         "https://www.pravda.sk/spravy/svet/clanok/2017085-cesko-v-pohotovosti-u-zeny-ktora-sa-vratila-z-ugandy-je-podozrenie-na-vysoko-nebezpecnu-nakazu?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
@@ -3601,6 +3544,7 @@
     "0780c58c755c00fdf9d7": 1786109739.8396933,
     "078715941f9ce9b59ea3": 1786012535.8197887,
     "079cda1fbcfd0e61427b": 1786073737.1311424,
+    "07be2211905d4b429bca": 1786191046.3156078,
     "07f8bd94ba1c070a1d14": 1786073737.1308763,
     "0803cc96dd19364a10a1": 1786073737.1311707,
     "081b3c2ad47dea2b3710": 1786091743.003254,
@@ -3790,6 +3734,7 @@
     "160760bf63dba47b1d2e": 1786020949.4268548,
     "160cfca205151fbb2fb9": 1785929753.7564297,
     "161ca448920ea5ac4229": 1786176643.3149145,
+    "163cd1aedab58dd0926a": 1786191046.315613,
     "1640e4bcef66a2a8da96": 1785916535.8212967,
     "1647c98a7f6ba695a4ee": 1785926139.2316887,
     "1677a5db697c21605c9f": 1785990943.1424005,
@@ -4216,6 +4161,7 @@
     "398630e459e1d2443e2c": 1786023343.8061278,
     "39943ab959cd22be9196": 1785765339.9671993,
     "39a12ec4c5482698e677": 1785934545.846408,
+    "39abbad1b639647dc65f": 1786191046.3157587,
     "39c00781471211cdb352": 1786003841.1976638,
     "39c75a6d68dcde01c4b5": 1786010150.04237,
     "39da8493e528b7983634": 1785916535.8210385,
@@ -4250,6 +4196,7 @@
     "3bf26bc1c0fc6467f144": 1785933344.7479312,
     "3bf6b62b89f7010bbda9": 1785916535.8210554,
     "3c108b3761ad025ba718": 1785957656.4960716,
+    "3c27688a74c41f68d2b6": 1786191046.3156226,
     "3c497e6504c8c39c26fd": 1786188945.6377518,
     "3c4ff479344cdf096855": 1786024554.5376458,
     "3c6fd4b037b4c79d2f1e": 1785916535.8212848,
@@ -4416,6 +4363,7 @@
     "49f3b09cb8aded7b8bf5": 1785916535.8212237,
     "4a03c00ba0e3688a99dd": 1785921043.9084003,
     "4a05a88dbca422fe7a23": 1785772541.4661086,
+    "4a063fc290bd3a76de94": 1786191046.315618,
     "4a09ee53a63346d09cdf": 1785916535.821354,
     "4a0d5cc0bce8c0c31a10": 1786003841.1976676,
     "4a387f4b3b4184cbaa21": 1785814537.886121,
@@ -4700,6 +4648,7 @@
     "604ce2c5b5d44d241955": 1785938142.3387341,
     "6066f7875e5a0efafedf": 1785765339.9671943,
     "608adb9428e5288cf1ac": 1785814537.8861473,
+    "60a7c67c80f49d782fde": 1786191046.3156195,
     "60ac8ed7b23822e99250": 1785764608.7590177,
     "60c88b741686210c19a2": 1786170939.824478,
     "60c8ef1365b10cb638aa": 1785814537.8861356,
@@ -4732,6 +4681,7 @@
     "634b6e098b067773a87e": 1785900937.7316399,
     "63594e10929d001d9188": 1785777640.5328147,
     "638164eeee364e1ace8c": 1785851751.877684,
+    "63908a1bbf7c028a8c0f": 1786191046.3157613,
     "63968dc3ca994de6014d": 1786180244.555834,
     "639c5dbe609d2ba9aff5": 1785767742.389904,
     "63aced0f892ba47d337e": 1785874916.7580276,
@@ -4860,6 +4810,7 @@
     "6da7db6f367701b3f796": 1785952555.1228788,
     "6dc35a1df4b02cb253ac": 1785854140.749738,
     "6dcab9c7171ecdbfdd8e": 1786162249.9603245,
+    "6de246ce6e49064402a8": 1786191046.3156028,
     "6de98ddc088307ffc51f": 1785946847.986337,
     "6e6ef2f3e05ee410721a": 1786028136.6624064,
     "6e9d68897620d6b95cbb": 1786116937.3716693,
@@ -5202,6 +5153,7 @@
     "8ad94072e27f25a05fb5": 1785924646.053474,
     "8afffbb486674d4c3373": 1786085740.949896,
     "8b247edae58d7451da22": 1786010150.0423532,
+    "8b3d6dd7c1d9f6524f41": 1786191046.315621,
     "8b56e4a0cc5913605d0e": 1785916535.8210313,
     "8b59966158ee96c75f87": 1786012535.8198092,
     "8b5a5850a0711553d0d3": 1786102536.724299,
@@ -5276,6 +5228,7 @@
     "91c140b8a9bd136e3ec3": 1785987341.6757975,
     "91dd05f238653ffaf13b": 1786084543.6316955,
     "91e70096a92e865ae325": 1786098942.868919,
+    "91f3381f95a1bad8fa18": 1786191046.3157628,
     "920263c98152d458365c": 1785928249.9409041,
     "9202672a9902fe4d990b": 1785916535.8212793,
     "9215c148ada5a513787a": 1786018247.989492,
@@ -5384,6 +5337,7 @@
     "9a796896f750839b4ad1": 1786160139.773717,
     "9aacbafe20c6992c8aa6": 1786095346.0206356,
     "9b020223f225df5c3238": 1785836150.6413794,
+    "9b0773e901d14f2401f8": 1786191046.3156137,
     "9b0f910518cae9569620": 1786090246.4540296,
     "9b7786a9af605c1670d3": 1786125343.15084,
     "9b80bba092afa5db34e0": 1785854140.7497633,
@@ -5510,9 +5464,11 @@
     "a6ada6af7bb710fad3e1": 1785826545.2546878,
     "a6eb4e6aa56445b26438": 1785916535.821256,
     "a70eaa2737cd0b61e829": 1786187440.4509199,
+    "a73906b5dc8b2ff0bc10": 1786191046.315624,
     "a76d79829a6461bb0649": 1786073737.1308684,
     "a7725550943f0ec217b7": 1786119653.774932,
     "a77ef7ad53d6effc22c7": 1786188945.6378915,
+    "a7875534a4ddf783be93": 1786191046.3157601,
     "a78b2745f8633d320262": 1786123238.7283735,
     "a792777f0b6230d879b7": 1785814537.8861685,
     "a793055ded62cbafad6f": 1785933344.747922,
@@ -5685,6 +5641,7 @@
     "b5d35b6f8d5d85d7ff7d": 1786086648.9333048,
     "b647e8a5e5837e25af30": 1785874916.7580369,
     "b64effce05b97e43b3d1": 1785814537.8861568,
+    "b659817dcbdae2cece74": 1786191046.3156102,
     "b688dc54f0571d4ea879": 1785934545.8464067,
     "b69dc40b88ff5bffe00c": 1786173042.544523,
     "b6af4f9991272c426f44": 1786028136.662414,
@@ -5878,6 +5835,7 @@
     "c3e230b645ad5894c2de": 1786174534.9473333,
     "c3e81e3e67f618246890": 1786160139.7739213,
     "c40b52b791590a3bc721": 1785918937.1544495,
+    "c40f2588eb47038bb11e": 1786191046.3156154,
     "c418c3b839f1c6a85778": 1785761747.8225322,
     "c41b0c3c9b4b3c87c4f6": 1785869740.598097,
     "c435ce95d7862f05242a": 1786096533.2832303,
@@ -6327,6 +6285,7 @@
     "e803230d8d1bc189d170": 1785916535.8212292,
     "e816162763a0eb6a5743": 1785950456.191818,
     "e8198316ae24b03c6259": 1786029064.376262,
+    "e83bcc52eb65d9388742": 1786191046.3156252,
     "e84e3589f002023c2672": 1786098942.868909,
     "e8505dadc56493782a4f": 1785837332.1853619,
     "e8621ee086fe6b87ebef": 1785761747.8225336,
@@ -6527,6 +6486,7 @@
     "f7fcb6b9210e81eab674": 1785765339.9671862,
     "f807fa80c271880c41ae": 1786160139.7737007,
     "f812dad2c271ca3590e7": 1785944143.4847817,
+    "f8231015bc4765c91fc2": 1786191046.3156111,
     "f829ff8bbb0ae6465213": 1785944143.4848063,
     "f842662104ad3f100913": 1785844535.996928,
     "f84e28c65b4743c7843a": 1785905744.7117245,
@@ -6650,112 +6610,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786188945.6377144
+      "ts": 1786191046.3155828
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786188945.637716
+      "ts": 1786191046.3155842
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786188945.637718
+      "ts": 1786191046.3155866
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786188945.637722
+      "ts": 1786191046.3155901
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786188945.6377168
+      "ts": 1786191046.3155854
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786188945.6377084
+      "ts": 1786191046.315576
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786188945.6377127
+      "ts": 1786191046.3155808
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786188945.6377213
+      "ts": 1786191046.3155894
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786188945.6377194
+      "ts": 1786191046.3155875
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786188945.6377203
+      "ts": 1786191046.315589
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/okolo-polska-najvacsi-favorit-na-vitazstvo-sa-nepostavil-na-start-5-etapy-2026080711410269800",
-      "p": "Portugalský cyklista Joao Almeida sa pre zranenie nepostavil na štart piatkovej 5. etapy pretekov Okolo Poľska.",
-      "s": "Šport.sk",
-      "t": "Okolo Poľska: Najväčší favorit na víťazstvo sa nepostavil na štart 5. etapy",
-      "ts": 1786103745.586484,
-      "u": "8c0fd30825878075ce81"
-    },
-    {
-      "l": "https://sport.aktuality.sk/hokej/clanok/detroit-red-wings-dylan-larkin-trade-request-2026080709572986949",
-      "p": "Agónia fanúšikov slávneho klubu z „mesta motorov“ neberie konca. Tradičná hokejová bašta neprežíva práve najvydarenejšie obdobie, čo podčiarkuje nielen najdlhšia aktívna absencia vo vyraďovacích bojoch, ale najnovšie aj absolútne vákuum vo vedení organizácie.",
-      "s": "Šport.sk",
-      "t": "Absolútny chaos v tradičnej bašte NHL. Kapitán žiada výmenu, pre absurdný dôvod však nemôže odísť",
-      "ts": 1786103745.586486,
-      "u": "90f163a55d95f9a6b9e3"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/lyzovanie-hviezda-balkanu-elvedina-muzaferijaova-si-zlomila-nohu-2026080707572686442",
-      "p": "Lyžiarka z Bosny a Hercegoviny Elvedina Muzaferijaová v uplynulej sezóne Svetového pohára síce nedokázala nadviazať na výborné výsledky spred dvoch rokov, no naplno sa predviedla na zimných olympijských hrách, keď sa svojím výkonom zapísala do histórie. Letnú prípravu na nadchádzajúcu zimu však hvie",
-      "s": "Šport.sk",
-      "t": "Na olympiáde sa zapísala do histórie. Hviezda lyžovania oznámila smutnú správu",
-      "ts": 1786103745.586488,
-      "u": "cf55d89990b027033d0a"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0VQOVVlV21hQi1YajNiMkI4VS03QUVSdUI5aGRPZk1oTVF5YS1hejhWcFFaNl9yZXRrM1BuTTZCaW9mNjZMaEdFRlFJWG5fWnNIZ0lyMGdzM1dEMFZHeEQ0LVIxMW1PQUhaX3BqNGw5Q0RDdVdzUlhKQzhRNGxNaEJ4a0ozUjJrU2QwWGVRV2dhVXItRGZCaFotRHl3cHR3NnNkZnFmR0Q?oc=5",
-      "p": "Arsenal zavŕšil prestup kapitána Newcastlu. Brazílsky stredopoliar stál 75 miliónov libier SPORTNET",
-      "s": "SPORTNET",
-      "t": "Arsenal zavŕšil prestup kapitána Newcastlu. Brazílsky stredopoliar stál 75 miliónov libier",
-      "ts": 1786103745.58649,
-      "u": "64859f575ec8a7987679"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/zraneny-favorit-almeida-odstupil-z-pre/983449-clanok.html",
-      "p": "Bol v hromadnom páde na mokrej vozovke.",
-      "s": "TERAZ.SK",
-      "t": "Zranený favorit Almeida odstúpil z pretekov Okolo Poľska",
-      "ts": 1786103745.586491,
-      "u": "25e02a2eba062b2dc338"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaVNFSng5Qi0yZmFySC0wWW9DSzdlc2lqczNaMXdzUFBBQWJLdlZIQ2xnSHE4R1lYck56OVVmQlZxNF9ONTFUdXVzdEw2M2FpZDc5MmRmdEdUWUtLQ1VkOVhRM3Z2YVZ2bFF2Q3MxT3NDbDY3MnJDMERXa2piNVdBWGxKQVNqelFnWF9ieGV2REI2MTdsVGdDcXhyMnJiRHBW?oc=5",
-      "p": "Aj za vypadnutie Trnavy so Žilinou môže Pavek a Radičovej vláda (tréneroviny) SPORTNET",
-      "s": "SPORTNET",
-      "t": "Aj za vypadnutie Trnavy so Žilinou môže Pavek a Radičovej vláda (tréneroviny)",
-      "ts": 1786104540.9551084,
-      "u": "6a559b7b90799e8f5fb9"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/darwin-nunez-by-sa-mohol-pridat-k-salahovi-v-trabzonspore-2026080708375446062",
       "p": "Trabzonspor je čoraz bližšie k tomu, aby opäť spojil bývalých spoluhráčov z Liverpoolu, Mohameda Salaha a Darwina Núñeza. Po tom, čo klub zo severovýchodného Turecka upútal pozornosť futbalového sveta prestupom Egypťana, podniká vážne kroky na posilnenie svojho útoku ďalšou svetovou hviezdou.",
@@ -8259,6 +8171,94 @@
       "t": "Fodrek po druhej výhre Liberca vonku: Kabína má obrovskú silu",
       "ts": 1786188945.637892,
       "u": "a77ef7ad53d6effc22c7"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/obrovska-tragedia-v-rodine-futbalovej-legendy-zomrel-otec-lionela-messiho-2026080811554769026",
+      "p": "Jorge Messi, otec a manažér kapitána argentínskej reprezentácie Lionela Messiho, zomrel v sobotu skoro ráno vo veku 68 rokov v nemocničnom zariadení v Rosariu v Argentíne. Podľa Infobae Jorge Messi bojoval s dlhodobou chorobou.",
+      "s": "Šport.sk",
+      "t": "Obrovská tragédia v rodine futbalovej legendy. Zomrel otec Lionela Messiho",
+      "ts": 1786191046.3156173,
+      "u": "c40f2588eb47038bb11e"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/generalny-riaditel-atletica-madrid-nepreda-alvareza-ani-za-200-milionov-2026080811400378037",
+      "p": "Futbalový klub Atletico Madrid neuvažuje o predaji argentínskeho útočníka Juliana Alvareza počas aktuálneho prestupového obdobia. Napriek enormnému záujmu FC Barcelona to v sobotu vyhlásil tréner Diego Simeone.",
+      "s": "Šport.sk",
+      "t": "Neprijmeme ponuku ani za 200 miliónov! Generálny riaditeľ Atletica Madrid sa odmieta vzdať Alvareza",
+      "ts": 1786191046.315619,
+      "u": "4a063fc290bd3a76de94"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/jan-volko-mlady-talent-machata-bodaj-by-prekonal-vsetky-moje-rekordy-atletika-2026080811270163771",
+      "p": "Senzačné šieste miesto Richarda Machatu v behu na 100 m na juniorských majstrovstvách sveta v atletike v americkom Eugene našlo pozitívnu odozvu aj u jeho domáceho konkurenta a zároveň kolegu v klube Naša atletika Bratislava Jána Volka.",
+      "s": "Šport.sk",
+      "t": "Ján Volko nešetril chválou na mladý talent Slovenska. Machata? Bodaj by prekonal všetky moje rekordy",
+      "ts": 1786191046.3156202,
+      "u": "60a7c67c80f49d782fde"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNM2IzV0QtRXFUdXRhU1ZUYlAxQkF3cWVxejFFRS1aZXVaLU5qVXJWWHJlRlQ3OG1PTmNYU2pzTVdpLVlrMnhRXzJxc0FTS0dqQ0o1cEVFOE5ENUxrdHExUzlJMmY2NGxmbGYwbk5oMzU5OER5T1BIX3BzTEUyczFua1U3bVppOGp2S0JBYkIyeW1ESHlJVFlMcEJ4dFBOX0tkV05kMGFxM0hQV1NOM1BjdEc2aw?oc=5",
+      "p": "Útočná hviezda Atlética nikam neodíde, vyhlásil Simeone. Klub podal sťažnosť na Barcelonu SPORTNET",
+      "s": "SPORTNET",
+      "t": "Útočná hviezda Atlética nikam neodíde, vyhlásil Simeone. Klub podal sťažnosť na Barcelonu",
+      "ts": 1786191046.3156219,
+      "u": "8b3d6dd7c1d9f6524f41"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXFuSF9ISjdCaFpGOFhZYzFFdGxybFlXa0lqb1JabDIwQ3lORW9WYnA1OEl6SzF1LWZMUVFmT1ZZWS1uNm5aVGh5ZF9ySGJjQW1mY2dZM1pWNjJNdnlTU3QtZVJRNUhtTW1rSzJRanByNk95SGFrOTVhTlVGcVVzRGJ6d25Ma3VHVVRUZ3lrQnhKU0szYWVtVDIyenJWdw?oc=5",
+      "p": "Končí aj bývalý druholigista. Prestupový poriadok chráni hráčov-špekulantov, vraví šéf klubu SPORTNET",
+      "s": "SPORTNET",
+      "t": "Končí aj bývalý druholigista. Prestupový poriadok chráni hráčov-špekulantov, vraví šéf klubu",
+      "ts": 1786191046.3156233,
+      "u": "3c27688a74c41f68d2b6"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDFZSXJuOFVwNFdHM2M0MndvZDlOYXBTcnB6WWhOZ25xalNRY0FqeFpJaXN3ZTJFT3hyMUxGU285NzNlMVVhak9oQVE1eDFWVGFPRmJILU42T3FzWDhoT3VnclVrWGdwTkh3cmdQM3VURkVlUnBoY2xzVkFrTjNaUXRlQ1MtV2loLVpRQmpnR3hGeWk2UXBpWmRKalduOE84QVlsNWQ1OA?oc=5",
+      "p": "Arsenal potvrdil príchod Guimaraesa. S klubom podpísal dlhodobú zmluvu SPORTNET",
+      "s": "SPORTNET",
+      "t": "Arsenal potvrdil príchod Guimaraesa. S klubom podpísal dlhodobú zmluvu",
+      "ts": 1786191046.3156245,
+      "u": "a73906b5dc8b2ff0bc10"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLUFyb3JKN215cEhld0JNUUJIejFhQjlFXzRSckJ5TlVFSldONnBMRzdzOUtNcDBrUm56eHYwbExKb20yUlNpSmF0Z2NhYmtYOGRzbm1jMnBXZjFoSzRkZWtNWndXbHFvbGhpTmMtMHhkNVZfbFN5YzYwS1Z0bmhkY0dkNkQ?oc=5",
+      "p": "Ťažká rana pre Lionela Messiho. Jeho otec Jorge zomrel vo veku 68 rokov SPORTNET",
+      "s": "SPORTNET",
+      "t": "Ťažká rana pre Lionela Messiho. Jeho otec Jorge zomrel vo veku 68 rokov",
+      "ts": 1786191046.3156257,
+      "u": "e83bcc52eb65d9388742"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT05CM3lKYnlWYlR6dUdiTGZnMU9DU1VVNXAtcFRBRE40ZlVMMnRLbjY3UDlmRnV6SlRtaWdzbzJNdjFUZUNLTkVTdkFvYzU1MXhpQ0NCN29TQW1lMllTcG1od1pER1ZNVnduNnBpZDJtZ1Mtcy1jTmpPcWpiLWNtMjlkQnIwLWNQbW1aR0RSU3dFV2pNZUE?oc=5",
+      "p": "Benčičová zvládla drámu a oslavuje postup. Andrejevová nečakane podľahla domácej tenistke SPORTNET",
+      "s": "SPORTNET",
+      "t": "Benčičová zvládla drámu a oslavuje postup. Andrejevová nečakane podľahla domácej tenistke",
+      "ts": 1786191046.3157594,
+      "u": "39abbad1b639647dc65f"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbkxJRzFRUEJ3SjFSU0Y4Q1hlS3l3cHRpUkI1ZjF0VlNVaXdsNUF4VWVpOXVBbjFqWFVNbkhmbXdIWlVab19zV0FMQTJsOThwc0xfSzZqV2xVNHJOMkNrM0ZsMWxycVV5Yk9TTnlsVzhncVN0WkN2SXpkMzNnREhyY3hvd1o3VkxISXJvQk54Z1lWQQ?oc=5",
+      "p": "Slovenskí mladíci bojujú o medailu. Kde sledovať zápas Slovensko - Fínsko? (TV program) SPORTNET",
+      "s": "SPORTNET",
+      "t": "Slovenskí mladíci bojujú o medailu. Kde sledovať zápas Slovensko - Fínsko? (TV program)",
+      "ts": 1786191046.3157606,
+      "u": "a7875534a4ddf783be93"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/guimaraes-podpisal-s-arsenalom-stvorro/983648-clanok.html",
+      "p": "Podľa britských médií zaplatil Arsenal za Guimaraesa približne 75 miliónov libier (približne 87 mil. eur).",
+      "s": "TERAZ.SK",
+      "t": "Guimaraes podpísal s Arsenalom štvorročnú zmluvu s opciou na ďalší rok",
+      "ts": 1786191046.3157623,
+      "u": "63908a1bbf7c028a8c0f"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/alvarez-z-atletica-madrid-neodide-vyhl/983644-clanok.html",
+      "p": "Atletico minulý mesiac podalo na FIFA sťažnosť na Barcelonu pre údajné nepovolené kontaktovanie Alvareza.",
+      "s": "TERAZ.SK",
+      "t": "Alvarez z Atletica Madrid neodíde, vyhlásil kouč Simeone",
+      "ts": 1786191046.3157635,
+      "u": "91f3381f95a1bad8fa18"
     }
   ],
   "sport_source_status": {
@@ -8266,25 +8266,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786188945.6377244
+      "ts": 1786191046.3155925
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786188945.6377263
+      "ts": 1786191046.3155942
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786188945.637729
+      "ts": 1786191046.3155973
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786188945.6377275
+      "ts": 1786191046.3155956
     }
   }
 }
