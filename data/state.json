@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Americký Senát potvrdil Todda Blanchea do funkcie ministra spravodlivosti",
-      "ts": 1786194657.2505608
-    },
-    {
-      "headline": "Kolumbia vyhlásila vojnu narkoterorizmu s podporou USA",
-      "ts": 1786194657.2505608
-    },
-    {
-      "headline": "Nárast bezpečnostných incidentov s dronmi v Európe",
-      "ts": 1786194657.2505608
-    },
-    {
-      "headline": "Zisk slovenských subdodávateľov v automobilovom priemysle vzrástol",
-      "ts": 1786194657.2505608
-    },
-    {
-      "headline": "Zavedenie AI gramotnosti do vzdelávania na základných školách",
-      "ts": 1786194657.2505608
-    },
-    {
       "headline": "Zelenskyj v Srbsku: Rokoval s Vučičom o výrobe dronov a energetike",
       "ts": 1786197888.6884522
     },
@@ -99,156 +79,100 @@
     {
       "headline": "Rotterdamská polícia zadržala podozrivého z útokov nožom",
       "ts": 1786205445.262346
+    },
+    {
+      "headline": "Maďarská strana Tisza nominovala Andrása Baku na prezidenta",
+      "ts": 1786209072.3122714
+    },
+    {
+      "headline": "SAE obvinili Irán z útoku na tanker v Hormuzskom prielive",
+      "ts": 1786209072.3122714
+    },
+    {
+      "headline": "Sopka Etna na Sicílii ochromila leteckú dopravu",
+      "ts": 1786209072.3122714
+    },
+    {
+      "headline": "Nemecká polícia vyšetruje drony nad vojenskou základňou",
+      "ts": 1786209072.3122714
+    },
+    {
+      "headline": "Americké akcie zaznamenali najlepší týždeň od apríla",
+      "ts": 1786209072.3122714
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Lovestream festival spôsobil v Bratislave dopravný kolaps",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2020917-lovestream-ochromil-dopravu-v-bratislave-kolony-sa-tvoria-vo-vsetkych-smeroch"
-          ]
-        ],
-        "perex": "Prvý deň hudobného festivalu Lovestream priniesol výrazné komplikácie v cestnej premávke v hlavnom meste. Kolóny vozidiel sa tvoria vo všetkých smeroch vedúcich k dejisku podujatia."
-      },
-      {
-        "headline": "Ukrajina varuje pred nedostatkom rakiet pre systémy Patriot",
+        "headline": "Maďarská strana Tisza nominovala Andrása Baku na prezidenta",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/brHtgGv/ukrajina-ma-dohodu-s-usa-o-patriotoch-ich-nedostatok-ohrozuje-obranu-kyjeva"
+            "https://www.aktuality.sk/clanok/ZPAQikN/madarska-vladna-strana-tisza-nominovala-na-prezidenta-bavaleho-sefa-najvyssieho-sudu/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/baka-prijal-ponuku-kandidovat-na-post-prezidenta-republiky-tvrdi-magyar"
+          ]
+        ],
+        "perex": "Opozičná strana Tisza nominovala na post hlavy štátu bývalého predsedu Najvyššieho súdu Andrása Baku. Vládny Fidesz však avizuje bojkot voľby a spochybňuje jej právnu legitimitu."
+      },
+      {
+        "headline": "SAE obvinili Irán z útoku na tanker v Hormuzskom prielive",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/spojene-arabske-emiraty-obvinili-iran-z-utoku-na-tanker-svojej-statnej-spolocnosti"
           ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/OQhTmEZ/po-ruskej-ofenzive-ostali-ukrajinske-elektrarne-zdevastovane-zima-ohrozuje-miliony-ludi"
+            "https://www.aktuality.sk/clanok/Vq4VDQt/spojene-arabske-emiraty-obvinili-iran-z-raketoveho-utoku-na-svoj-tanker-v-hormuzskom-prielive"
           ]
         ],
-        "perex": "Kyjev uzavrel s USA dohodu o pravidelných dodávkach rakiet, no súčasné kapacity na obranu proti balistickým útokom sú stále nedostatočné. Ruské útoky na energetickú infraštruktúru navyše ohrozujú milióny ľudí pred blížiacou sa zimou."
+        "perex": "Spojené arabské emiráty oficiálne obvinili Irán z raketového útoku na svoj tanker v citlivej oblasti Hormuzského prielivu. Incident bez obetí je súčasťou série útokov na plavidlá v tomto regióne."
       },
       {
-        "headline": "Súd v Moskve poslal vedeckú novinárku na 12 rokov do väzenia",
+        "headline": "Sopka Etna na Sicílii ochromila leteckú dopravu",
         "links": [
           [
-            "Denník N",
-            "https://dennikn.sk/5496549/putinov-rezim-odsudil-vedecku-novinarku-na-dlhorocne-vazenie"
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2020851-etna-sa-prebudila-vali-sa-z-nej-dym-a-popol-letisko-v-catanii-pozastavilo-prilety"
           ]
         ],
-        "perex": "Ruský súd odsúdil novinárku Dariu Šipačevu v zrýchlenom konaní za údajné vlastizradné konanie. Okrem dlhoročného trestu odňatia slobody jej bola vymeraná aj finančná pokuta."
+        "perex": "Sopka Etna začala chrliť dym a popol, čo prinútilo letisko v Katánii pozastaviť všetky prílety. Ide o jednu z najaktívnejších sopiek na svete, ktorej aktivita aktuálne obmedzuje prevádzku."
       },
       {
-        "headline": "Protesty proti nadmernému turizmu na Malorke",
+        "headline": "Nemecká polícia vyšetruje drony nad vojenskou základňou",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/lbw8kqh/nad-vojenskou-zakladnou-v-nemecku-spozorovali-dva-drony/"
+          ]
+        ],
+        "perex": "Nemecké úrady spustili vyšetrovanie po tom, čo boli spozorované drony nad vojenskou základňou Mechernich. Incident spolu s nálezom výbušného dronu v Lipsku zvyšuje tlak na bezpečnosť NATO."
+      },
+      {
+        "headline": "Americké akcie zaznamenali najlepší týždeň od apríla",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/svet/c/obyvatelia-malorky-demonstrovali-proti-nadmernemu-turizmu"
+            "https://www.sme.sk/index/c/akcie-v-usa-maju-za-sebou-najlepsi-tyzden-od-aprila-naladu-na-trhu-zlepsila-sprava-z-trhu-prace"
           ]
         ],
-        "perex": "Obyvatelia obľúbeného španielskeho ostrova vyšli do ulíc, aby vyjadrili nesúhlas s negatívnymi dopadmi masového turizmu. Polícia počas demonštrácií nezaznamenala žiadne násilné strety."
-      },
-      {
-        "headline": "Rotterdamská polícia zadržala podozrivého z útokov nožom",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/holandska-policia-zadrzala-muza-podozriveho-zo-serie-utokov-nozom-v-rotterdame"
-          ]
-        ],
-        "perex": "Holandské úrady zasahovali po sérii násilných incidentov, pri ktorých neznámy páchateľ útočil nožom na verejných miestach. Polícia potvrdila zadržanie muža podozrivého z týchto činov."
+        "perex": "Náladu na trhoch v USA výrazne zlepšila správa z trhu práce, ktorá naznačila stabilitu ekonomiky. Investori reagovali pozitívne aj na predpoklad, že Fed nebude zvyšovať úrokové sadzby."
       }
     ],
-    "ts": 1786205445.2623365
+    "ts": 1786209072.3122633
   },
   "meta": {
-    "last_collection_ts": 1786206936.0944195,
+    "last_collection_ts": 1786209065.8869371,
     "last_feed_error_ts": 1786205441.6580143,
     "last_llm_error_ts": 1786116961.025012,
-    "last_run_ts": 1786206936.3692052,
-    "last_synthesis_ts": 1786205445.2623317
+    "last_run_ts": 1786209066.380063,
+    "last_synthesis_ts": 1786209072.312258
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/index/c/statna-poistovna-nebude-terennym-sestram-kompenzovat-horucavy?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Poisťovne obmedzil zákon a množstvo voľných peňazí, tvrdí Union.",
-      "s": "SME",
-      "t": "Štátna poisťovňa nebude terénnym sestrám kompenzovať horúčavy",
-      "ts": 1786121733.8603382,
-      "u": "7d49e7f1006b93b59777"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/brutalny-utok-na-indickeho-studenta-prezident-odsudil-predsedovia-koalicnych-stran-nepovedali-nic?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Útok v Nitre vyšetrujú ako zločin.",
-      "s": "SME",
-      "t": "Brutálny útok na indického študenta prezident odsúdil, predsedovia koaličných strán nepovedali nič",
-      "ts": 1786121733.860341,
-      "u": "b8867cc71ad608bb3bff"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaHZNb2gwYnJFMVFkUFlwRG9salZfdnh6MGdrMEk1RnItMnN3NFRkSmliYk16QnN2TTJ2SzVoYXNmbmdPN0UtOE1rLU5odkJEVjJTX1I2eGNjaFZjd2xFVWNpelhWV29qTUpVVExhOFNRbUJlZ0RDYlJWZ2VXWDJiV2RvSUhSUnVKZzUzZlo0OG8yQQ?oc=5",
-      "p": "Štátna poisťovňa nebude terénnym sestrám kompenzovať horúčavy SME.sk",
-      "s": "SME (GNews)",
-      "t": "Štátna poisťovňa nebude terénnym sestrám kompenzovať horúčavy - SME.sk",
-      "ts": 1786121733.8603427,
-      "u": "781a9eb2e0090d137e82"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/eBNekyt/severovychod-indie-zasiahli-nicive-povodne-zahynulo-takmer-100-ludi/",
-      "p": "Záplavy v indickom Ásame majú už najmenej 97 obetí a zasiahli takmer 170-tisíc ľudí. Voda ničí domy, polia a prehlbuje humanitárnu krízu v regióne.",
-      "s": "Aktuality",
-      "t": "Severovýchod Indie zasiahli ničivé povodne, zahynulo takmer 100 ľudí",
-      "ts": 1786121733.8603446,
-      "u": "ca6838dff1d5b64783ed"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/q75Tj0i/taliansko-odmieta-poziadavku-spanielska-na-ukoncenie-kontrol-na-hraniciach/",
-      "p": "Rím odmietol výzvu Španielska a predĺžil hraničné kontroly pre cestujúcich zo španielskych letísk a prístavov. Tvrdí, že chráni národnú bezpečnosť.",
-      "s": "Aktuality",
-      "t": "Taliansko odmieta požiadavku Španielska na ukončenie kontrol na hraniciach",
-      "ts": 1786121733.8603458,
-      "u": "14006c47fcbf13e1b6fc"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/rMPFBt9/kupalisko-v-diakovciach-je-napriek-podozreniam-z-uniku-nebezpecnej-latky-otvorene/",
-      "p": "Kúpalisko v Diakovciach je pre návštevníkov sprístupnené aj napriek tomu, že vo štvrtok zdravotníci ošetrovali viacero ľudí pre podozrenie na zranenia v dôsledku úniku nebezpečnej látky.",
-      "s": "Aktuality",
-      "t": "Kúpalisko v Diakovciach je napriek podozreniam z úniku nebezpečnej látky otvorené",
-      "ts": 1786121733.8603466,
-      "u": "80d918374eaaf20e3e65"
-    },
-    {
-      "l": "https://e.dennikn.sk/5496020/europska-komisia-vycita-slovensku-pri-zonaciach-narodnych-parkov-viacero-nedostatkov-vladne-argumenty-nesedia/",
-      "p": "Denník N získal stanovisko Európskej komisie k zonáciám národných parkov. Viaceré argumenty slovenskej vlády nesedia. Komisia vyčíta Slovensku, že k národným parkom pristupuje selektívne a vysvetľuje, prečo mu hrozí strata obrovských súm z plánu obnovy. Európska komisia má veľké výhrady k tomu, ako ",
-      "s": "Denník N",
-      "t": "Európska komisia vyčíta Slovensku pri zonáciách národných parkov viacero nedostatkov. Vládne argumenty nesedia",
-      "ts": 1786121733.8603485,
-      "u": "5a7f0233b3a3bcb572c7"
-    },
-    {
-      "l": "https://dennikn.sk/5493768/umysel-bezbrannost-obete-ci-ignorovanie-nesuhlasu-pat-odbornikov-vysvetluje-ako-rozpoznat-pokus-o-znasilnenie/",
-      "p": "Televízia Markíza odvysielala v rámci reality šou Party Shore zábery, ktoré normalizovali násilné sexuálne správanie a obsahovali náznaky pokusu o znásilnenie. Po tom, čo na ne upozornil Denník N, sa verejná diskusia sústredila aj na otázku, kde je hranica medzi nevhodným správaním a situáciou, ktor",
-      "s": "Denník N",
-      "t": "Úmysel, bezbrannosť obete či ignorovanie nesúhlasu. Päť odborníkov vysvetľuje, ako rozpoznať pokus o znásilnenie",
-      "ts": 1786121733.8603497,
-      "u": "33c36e8984d0f4c68361"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regiony/clanok/2020631-zahada-na-kupalisku-v-diakovciach-pokracuje-stale-nevedia-co-sposobilo-problemy-16-ludom?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Príčina zdravotných problémov návštevníkov kúpaliska v Diakovciach v okrese Šaľa zostáva naďalej nejasná. Napriek dôkladnej kontrole sa nepodarilo identifikovať jednoznačný zdroj možnej intoxikácie ani potvrdiť prítomnosť nebezpečných látok v priestore kúpaliska, informovala spoločnosť Bekor, prevád",
-      "s": "Pravda",
-      "t": "Záhada na kúpalisku v Diakovciach pokračuje. Stále nevedia, čo spôsobilo problémy 16 ľuďom",
-      "ts": 1786121733.8603506,
-      "u": "947caa98a4601bbbf5bb"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2020627-nova-zjazdovka-v-jasnej-pod-drobnohladom-prokuratury-ochranari-hovoria-o-retazeni-vaznych-chyb?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Iniciatíva My sme les v spolupráci s organizáciou Via Juris podala podnet na Okresnú prokuratúru v Liptovskom Mikuláši na preskúmanie zákonnosti postupu obce Demänovská Dolina pri povoľovaní novej zjazdovky Luková - Otupné v stredisku Jasná. Podľa Mareka Kuchtu z iniciatívy My sme les existuje podoz",
-      "s": "Pravda",
-      "t": "Nová zjazdovka v Jasnej pod drobnohľadom prokuratúry. Ochranári hovoria o reťazení vážnych chýb",
-      "ts": 1786121733.8603523,
-      "u": "7ab0a083ecce98010f2f"
-    },
     {
       "l": "https://www.sme.sk/svet/c/odvolaci-sud-nariadil-pozastavit-stavbu-tanecnej-saly-bieleho-domu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Národný fond na ochranu historických pamiatok podal v decembri 2025 žalobu.",
@@ -2272,6 +2196,22 @@
       "t": "Vo vojenskom obvode na Záhorí vypukol požiar, na mieste zasahujú desiatky hasičov",
       "ts": 1786206936.3685076,
       "u": "14bf67c52ecddb654531"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/izraelske-sily-vtrhli-do-libanonskej-dediny-a-vztycili-tam-val?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Dedina je súčasťou tzv. pilotných zón.",
+      "s": "SME",
+      "t": "Izraelské sily vtrhli do libanonskej dediny a vztýčili tam val",
+      "ts": 1786209066.3794413,
+      "u": "51ed714bb14a84141583"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2020925-usa-kolumbia-pomoc-miliarda-bezpecnost-prezident-kartel-abelardo-de-la-espriella?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Len niekoľko hodín po nástupe nového kolumbijského prezidenta Abelarda de la Espriellu prišla z Washingtonu prvá výrazná podpora. Administratíva Donalda Trumpa plánuje krajine poskytnúť bezpečnostný balík vo výške jednej miliardy dolárov. Zároveň privítala jej pripravované zapojenie do iniciatívy Št",
+      "s": "Pravda",
+      "t": "Po nástupe nového prezidenta prichádza prvá veľká odmena. Krajina smeruje k Štítu Amerík",
+      "ts": 1786209066.3794446,
+      "u": "65b406e182da2a214f90"
     }
   ],
   "recent_alerts": [
@@ -3341,6 +3281,7 @@
     "196382e88940156b4760": 1785900937.731418,
     "1967cd7c5937806d6473": 1786011055.3106577,
     "1987ed57643420c946db": 1785857743.1191745,
+    "19a74b8bbeaeb83c1499": 1786209066.3794487,
     "19ad998cc0ea1bde3e27": 1786012535.819813,
     "19c19d56d926946b0353": 1785814537.8861463,
     "19d4261fa116fe7fa3dd": 1785814537.8861747,
@@ -4032,6 +3973,7 @@
     "51b1c2a33f54cc143183": 1786187440.450924,
     "51b3a1a2d55a217fb835": 1785918937.1544704,
     "51ea5dae4289ddf9f2b0": 1786160139.7736998,
+    "51ed714bb14a84141583": 1786209066.3794377,
     "51efebdba4c250997880": 1785784853.463664,
     "5202e38bcd874de71159": 1785839736.682215,
     "52124925bb12288206e8": 1785871239.6176596,
@@ -4131,6 +4073,7 @@
     "58d0b22ff0a14d0f1f26": 1786101038.4649045,
     "58d97f3c7d038e346288": 1785857743.1191661,
     "58f0cf35dab3ef5f3909": 1785772541.4661105,
+    "591db9896495a618337c": 1786209066.3794458,
     "592093bac0b122caa224": 1785821740.5518928,
     "592b121291ab375964e9": 1785756935.2334335,
     "5941bd5960b18bed43f2": 1785920137.5864642,
@@ -4287,6 +4230,7 @@
     "656077ff84f75efaa6ac": 1786014656.4304483,
     "6570e832b832ec28553b": 1785903643.3986435,
     "65b1e6c68e2604cf3420": 1785844535.9969327,
+    "65b406e182da2a214f90": 1786209066.3794425,
     "65c1b62e0a5b9ca98d0d": 1785839736.6822286,
     "65da7260e78923eb72ff": 1785858941.8939571,
     "65e0a1c01a8dd2ab2848": 1785916535.8213346,
@@ -4694,6 +4638,7 @@
     "86d1aad9dee6a63bbc31": 1786094008.5085757,
     "86d44513bd6717c8f548": 1786125343.1508386,
     "86dbd5baf464881038d4": 1785916535.8212304,
+    "871b36932c122fa8d1ad": 1786209066.3794518,
     "871bcba1933c36b22cad": 1786173042.5444887,
     "87332cb35f57e70eaa47": 1785921043.90839,
     "873c8d44a221b0249fda": 1785907250.3533747,
@@ -6191,6 +6136,7 @@
     "fc90b1f50d3826d49f8c": 1785916535.8212361,
     "fc975fba0bb98aef672c": 1785860438.8905044,
     "fcaa9916b37fec3a319a": 1785764608.7590241,
+    "fcb271aeb21e6b438a32": 1786209066.37945,
     "fcb3b756719546bd2dfd": 1785784853.463656,
     "fcb7cba4e6b44552d4c7": 1785779740.4516175,
     "fce2be493c6f8dec39b1": 1786005353.7223318,
@@ -6234,112 +6180,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786206936.3684788
+      "ts": 1786209066.3794155
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786206936.3684804
+      "ts": 1786209066.3794172
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786206936.3684835
+      "ts": 1786209066.3794196
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786206936.3684886
+      "ts": 1786209066.379424
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786206936.3684819
+      "ts": 1786209066.3794184
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786206936.3684707
+      "ts": 1786209066.3794081
     },
     "sme_gnews": {
-      "error": null,
+      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:sme.sk&hl=sk&gl=SK&ceid=SK:sk",
       "name": "SME (GNews)",
-      "ok": true,
-      "ts": 1786206936.3684766
+      "ok": false,
+      "ts": 1786209066.3794136
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786206936.3684874
+      "ts": 1786209066.3794231
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786206936.3684855
+      "ts": 1786209066.379421
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786206936.3684866
+      "ts": 1786209066.3794222
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/japonec-z-arsenalu-ma-novy-klub-zostava-v-anglicku-aj-v-londyne-2026080716302786419",
-      "p": "Japonský futbalový obranca Takehiro Tomijasu sa stal novou posilou Crystal Palace. Londýnsky klub v piatok oznámil jeho príchod, podľa britských médií zamieril do tímu ako voľný hráč.",
-      "s": "Šport.sk",
-      "t": "Japonec z Arsenalu má nový klub. Zostáva v Anglicku aj v Londýne",
-      "ts": 1786121733.8603554,
-      "u": "4fd2e8b41dab72e0e1d0"
-    },
-    {
-      "l": "https://sport.aktuality.sk/sport-extra/clanok/diletta-leottaova-sa-objavila-na-prvom-treningu-edina-dzeka-v-schalke-04-2026080411495362340",
-      "p": "Prvý tréning bosnianskeho útočníka Edina Džeka po podpise zmluvy so Schalke 04 prilákal množstvo fanúšikov aj médií. Skúsený kanonier rozdával autogramy a ochotne sa fotografoval s priaznivcami, no najväčšiu pozornosť na seba strhla talianska televízna moderátorka Diletta Leottaová.",
-      "s": "Šport.sk",
-      "t": "FOTO Prítomnosť Diletty Leottaovej zatienila Edina Džeka na prvom tréningu v novom klube",
-      "ts": 1786121733.860357,
-      "u": "81f19d317a1fa96348b2"
-    },
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/vynimocny-uspech-lucie-szabovej-po-vyhre-nad-pudilovou-takto-poskocila-vo-svetovom-rebricku-2026080716235546647",
-      "p": "Lucia Szabová zvládla jeden z najdôležitejších zápasov svojej kariéry. Na turnaji OKTAGON 92 na pražskej Štvanici porazila skúsenú Luciu Pudilovú po piatich kolách jednomyseľným rozhodnutím bodových rozhodcov a predĺžila svoju neporaziteľnosť.",
-      "s": "Šport.sk",
-      "t": "Výnimočný úspech Lucie Szabovej. Po výhre nad Pudilovou takto poskočila vo svetovom rebríčku!",
-      "ts": 1786121733.8603585,
-      "u": "d4dd5800b71590ab06fe"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2VvejVzbmxmRFVPNHdyUG9mZlR1U3dndEE5WGdRRmlYTGp0em9fR0w1ZGdGREQ2Y1Yxb1VMSEIzbktVSzNKTFEyUC1nZ1BRWjdXb0FWQW1tdlJvVmJoWFRqS3A1LVJtVWhJRVdzU29qRWRRdjVLQjRjZ2tGV2prTVZTSkl1d2FZM3dyQ3R4X1BnUk1oZ21fTA?oc=5",
-      "p": "Dobrý signál do ďalších rokov. Slovenskí tenisti získali na európskom šampionáte medailu SPORTNET",
-      "s": "SPORTNET",
-      "t": "Dobrý signál do ďalších rokov. Slovenskí tenisti získali na európskom šampionáte medailu",
-      "ts": 1786121733.8603811,
-      "u": "aa08e915d03b0f969128"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/fiorentina-ziskala-na-hostovanie-masta/983537-clanok.html",
-      "p": "Mastantuono sa pripojil k „bielemu baletu“ vlani v lete po tom, ako zaujal svojimi výkonmi v drese River Plate a stal sa najmladším reprezentantom Argentíny.",
-      "s": "TERAZ.SK",
-      "t": "Fiorentina získala na hosťovanie Mastantuona z Realu Madrid",
-      "ts": 1786121733.860383,
-      "u": "bb8e028404dc97ecd81c"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/japonsky-obranca-tomijasu-podpisal-kon/983532-clanok.html",
-      "p": "Dvadsaťsedemročný bývalý zadák Arsenalu je druhou letnou posilou trénera Pierra Sagea po príchode obrancu Oscara Minguezu.",
-      "s": "TERAZ.SK",
-      "t": "Japonský obranca Tomijasu podpísal kontrakt s Crystal Palace",
-      "ts": 1786121733.860384,
-      "u": "698d3d58e4e7b36f4e81"
-    },
     {
       "l": "https://sport.aktuality.sk/hokej/clanok/montreal-vdaka-jurajovi-slafkovskemu-vytrel-zrak-celej-nhl-2026080712451634577",
       "p": "Keď generálny manažér Philadelphie Flyers Daniel Briere hodil na stôl „offer sheet“ pre útočníka Anaheimu Lea Carlssona, pravidlá hry v NHL sa definitívne prepísali. Súčasná realita je neúprosná: opraty na trhu prevzali do rúk mladé talenty a ich agenti. Práve oni dnes diktujú dĺžku kontraktov, astr",
@@ -7771,6 +7669,38 @@
       "t": "ONLINE: Slovensko U18 - Fínsko U18 dnes, zápas o bronz na Hlinka Gretzky Cupe 2026 LIVE",
       "ts": 1786206936.368519,
       "u": "f420eb17ad15c6ad6c93"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/futbal-mosimane-ma-prevziat-reprezentaciu-juhoafrickej-republiky-2026080817041478406",
+      "p": "Staronovým trénerom futbalistov Juhoafrickej republiky má byť Pitso Mosimane. Vedenie Juhoafrickej futbalovej asociácie (SAFA) schválilo 62-ročného kouča ako náhradníka za Belgičana Huga Brossa.",
+      "s": "Šport.sk",
+      "t": "Na MS oslavovali historický postup, úspešný tréner napriek tomu končí. Nahradí ho staronová tvár",
+      "ts": 1786209066.3794477,
+      "u": "591db9896495a618337c"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/jorge-messi-lionel-messi-vyhlasenie-nemocnice-v-rosariu-2026080816371983783",
+      "p": "Jorge Messi, otec Lionela Messiho, zomrel v sobotu 8. augusta vo veku 68 rokov. Sanatorio Centro v Rosariu, nemocnica, v ktorej bol hospitalizovaný, oficiálne potvrdila úmrtie prostredníctvom vyhlásenia.",
+      "s": "Šport.sk",
+      "t": "Koniec nádejám, zavládol obrovský smútok. Oficiálne stanovisko nemocnice potvrdilo smrť Messiho otca",
+      "ts": 1786209066.3794496,
+      "u": "19a74b8bbeaeb83c1499"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/kto-nakoniec-ovladne-zensku-tour-de-france-rozhodne-posledna-etapa-rozdiely-su-minimalne-2026080816393747311",
+      "p": "Holandská cyklistka Demi Volleringová zvíťazila v predposlednej 8. etape ženskej edície Tour de France a obliekla sa do žltého dresu. Pretekárka tímu FDJ United-SUEZ sa presadila v záverečnom stúpaní pred cieľom a 171,9 km dlhú trasu zo Sisteronu do Nice zvládla za 4:02:39 hodiny. Druhá finišovala T",
+      "s": "Šport.sk",
+      "t": "Kto nakoniec ovládne ženskú Tour de France? Rozhodne posledná etapa, rozdiely sú minimálne",
+      "ts": 1786209066.379451,
+      "u": "fcb271aeb21e6b438a32"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/rumun-preda-novym-majstrom-europy-v-ex/983680-clanok.html",
+      "p": "Pred posledným kolom bol 35-ročný Rumun na treťom mieste, no napokon triumfoval.",
+      "s": "TERAZ.SK",
+      "t": "Rumun Preda sa stal novým majstrom Európy v extrémnych skokoch z 20 m",
+      "ts": 1786209066.3794525,
+      "u": "871b36932c122fa8d1ad"
     }
   ],
   "sport_source_status": {
@@ -7778,25 +7708,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786206936.3684912
+      "ts": 1786209066.3794265
     },
     "sportnet_gnews": {
-      "error": null,
+      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Asportnet.sme.sk&hl=sk&gl=SK&ceid=SK%3Ask",
       "name": "SPORTNET",
-      "ok": true,
-      "ts": 1786206936.3684936
+      "ok": false,
+      "ts": 1786209066.3794281
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786206936.368497
+      "ts": 1786209066.379431
     },
     "tvnoviny_sport_gnews": {
-      "error": null,
+      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Atvnoviny.sk%2Fsport&hl=sk&gl=SK&ceid=SK%3Ask",
       "name": "TVNOVINY.sk",
-      "ok": true,
-      "ts": 1786206936.3684955
+      "ok": false,
+      "ts": 1786209066.3794296
     }
   }
 }
