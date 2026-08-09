@@ -138,10 +138,10 @@
     "ts": 1786255850.2268162
   },
   "meta": {
-    "last_collection_ts": 1786255844.468453,
+    "last_collection_ts": 1786257092.759827,
     "last_feed_error_ts": 1786246544.1280544,
     "last_llm_error_ts": 1786116961.025012,
-    "last_run_ts": 1786255844.878971,
+    "last_run_ts": 1786257092.9874563,
     "last_synthesis_ts": 1786255850.2268121
   },
   "recent": [
@@ -1840,18 +1840,17 @@
       "t": "Slovensko čakajú astronomické úkazy, zatmenie Slnka striedajú Perzeidy",
       "ts": 1786255844.8783042,
       "u": "f1a48e593f3f40f996af"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVd3MzFvMFlacnNJT203MGx6NU5TWjUtd3ZFakZzT25CejcxcnRsMlZ6Z1J2Z09ILXBLaS0tQmZlZTlpS0VrTUZwVUd2WWpMOEVUVHZOajA3Rjd4TUFOeENucXlkalhTY0ZaUEx0VHh4eDZTSmo3dFVGNXFtcWh3X3hjM09SSy1NMmk4c2NOUk1WS2VqWnFQNFdDb09sTWc?oc=5",
+      "p": "Výbor Senátu USA označil imunológa Fauciho za osobu pohŕdajúcu Kongresom SME.sk",
+      "s": "SME (GNews)",
+      "t": "Výbor Senátu USA označil imunológa Fauciho za osobu pohŕdajúcu Kongresom - SME.sk",
+      "ts": 1786257092.9868352,
+      "u": "616a98e8a27e41cbbcec"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.pravda.sk/spravy/svet/clanok/2017243-ukrajinci-poslali-vyse-600-dronov-rusi-uzavreli-letiska-v-moskve-a-povolzi-utoku-celil-aj-saratov?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o masívny útok dronmi s priamym dopadom na bezpečnosť v regióne a narušenie leteckej dopravy v Rusku, čo predstavuje významnú eskaláciu konfliktu.",
-      "title": "Ukrajinci poslali vyše 600 dronov, Rusi uzavreli letiská v Moskve a Povolží",
-      "ts": 1785651557.053602
-    },
     {
       "links": [
         "https://www.aktuality.sk/clanok/SBQj7Wa/madarsko-odstavilo-dalsi-blok-jadrovej-elektrarne-hrozi-jej-uplna-stopka/"
@@ -3892,6 +3891,7 @@
     "61270b5415933d09abb9": 1785942649.177214,
     "614123b7ccf8453352ee": 1785938142.338727,
     "6153c878d37bc145fd75": 1785916535.8213468,
+    "616a98e8a27e41cbbcec": 1786257092.9868314,
     "619881ddd6a242c75063": 1785771332.902415,
     "61b0af0dccc377b8dcb5": 1785945335.3610816,
     "61be476dd3f7204d3d14": 1785993046.943941,
@@ -5029,6 +5029,7 @@
     "bc097879b1be3a0dae8a": 1786020949.4270523,
     "bc387b1337110061b718": 1785916535.821255,
     "bc3f389d42804c70031b": 1785854140.7497506,
+    "bc6a8f505786363a6e0e": 1786257092.9868417,
     "bc6bba5cff759434caaa": 1786010150.0423274,
     "bc6c32f8dd1f71a89471": 1786169446.3150904,
     "bc81e4c269a7ef140bf4": 1786160139.7739182,
@@ -5354,6 +5355,7 @@
     "d3f72adeb2ef9094612f": 1786113334.0900946,
     "d416c9b9def897f67205": 1786109739.8396964,
     "d42a2b842fc748bc99b1": 1785938142.338735,
+    "d42b81416548cfbd3efc": 1786257092.986837,
     "d4437a050ee0c91181d9": 1786174534.9475214,
     "d44394445357df56c59e": 1785994533.742834,
     "d4539d4dc8d0db39d1eb": 1785942649.1774216,
@@ -5975,61 +5977,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786255844.8782704
+      "ts": 1786257092.986805
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786255844.8782716
+      "ts": 1786257092.9868062
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786255844.8782747
+      "ts": 1786257092.9868095
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786255844.8782787
+      "ts": 1786257092.9868152
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786255844.878273
+      "ts": 1786257092.9868078
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786255844.8782644
+      "ts": 1786257092.9867978
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786255844.878269
+      "ts": 1786257092.986803
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786255844.8782778
+      "ts": 1786257092.986814
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786255844.8782756
+      "ts": 1786257092.9868112
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786255844.8782766
+      "ts": 1786257092.9868128
     }
   },
   "sport_recent": [
@@ -7360,6 +7362,22 @@
       "t": "Kanada zdolala vo finále USA 8:1 a triumfovala štvrtýkrát za sebou",
       "ts": 1786255844.8783143,
       "u": "0830948422058d53111e"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/ako-sa-simon-nemec-stane-superhviezdou-nhl-2026080904065575418",
+      "p": "Hokejové Calgary má za sebou sezónu hrôzy. Flames v ročníku 2025/26 obsadili tretie miesto od konca, trápili sa herne i výsledkovo. Bolestivá prestavba kádra sa však blíži do ďalšej fázy. Hoci najbližšie mesiace pravdepodobne opäť prinesú náročné chvíle, pre mladé jadro tímu ide o ideálnu živnú pôdu",
+      "s": "Šport.sk",
+      "t": "Ako sa zo Šimona Nemca stane superhviezda NHL? Expert posiela trénerovi Calgary jasný odkaz",
+      "ts": 1786257092.9868402,
+      "u": "d42b81416548cfbd3efc"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSHpvZUl1NUtnRzRDdzN2T0ZQNGo1ZE5TRENsVFhqM0Y0aXFkdjFaSk9RY0pWdE5FbnJoRkQzbTlyT0ZjVm0zRld4RGhSQl90RkNNLTNsYXFlRDJqT25kNXpEUWR0NmRQdkRkSFltb2hUOGJ6MjliMjE4WmhhbGFtVVNueDRjZk1aMnVQbVZINGNIcUwzaTk1dkIzQmFndw?oc=5",
+      "p": "Diskusia: Proti bývalému klubu strelil v derby kľúčový gól. Neoslavoval ho, bral to s pokorou SPORTNET",
+      "s": "SPORTNET",
+      "t": "Diskusia: Proti bývalému klubu strelil v derby kľúčový gól. Neoslavoval ho, bral to s pokorou",
+      "ts": 1786257092.9868429,
+      "u": "bc6a8f505786363a6e0e"
     }
   ],
   "sport_source_status": {
@@ -7367,25 +7385,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786255844.8782809
+      "ts": 1786257092.986818
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786255844.8782828
+      "ts": 1786257092.9868205
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786255844.8782854
+      "ts": 1786257092.986824
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786255844.8782842
+      "ts": 1786257092.986822
     }
   }
 }
