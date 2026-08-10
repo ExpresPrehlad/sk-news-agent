@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Zastrelili medvedicu, ktorá pri Turanoch napadla muža",
-      "ts": 1786360254.468854
-    },
-    {
-      "headline": "Slovenská firma Sudo Labs predala podiel gigantovi Eldridge",
-      "ts": 1786360254.468854
-    },
-    {
-      "headline": "Greenpeace napadol povolenie pre spaľovňu Slovnaftu",
-      "ts": 1786360254.468854
-    },
-    {
-      "headline": "Areál bývalej Bukózy čaká investícia za 350 miliónov",
-      "ts": 1786360254.468854
-    },
-    {
-      "headline": "Ruský súd rozhoduje o vylúčení strany Jabloko z volieb",
-      "ts": 1786360254.468854
-    },
-    {
       "headline": "Dráma v Lučenci: Ozbrojený muž vnikal do bytov cez balkóny",
       "ts": 1786361764.9484253
     },
@@ -247,100 +227,108 @@
     {
       "headline": "Ochranári kritizujú ťažbu v biotope hlucháňa v Muránskej planine",
       "ts": 1786373757.2828312
+    },
+    {
+      "headline": "Ministerstvo vnútra nariadilo okamžitú demontáž sporných radarov",
+      "ts": 1786376155.470873
+    },
+    {
+      "headline": "Slovensko sužuje extrémne sucho, zasiahlo už 60 percent územia",
+      "ts": 1786376155.470873
+    },
+    {
+      "headline": "Zemetrasenie v Kolumbii si vyžiadalo škody a zranených",
+      "ts": 1786376155.470873
+    },
+    {
+      "headline": "Nemecko posilňuje ochranu letísk po dronovom útoku pri Lipsku",
+      "ts": 1786376155.470873
+    },
+    {
+      "headline": "Filipíny paralyzovali ničivé záplavy a zosuvy pôdy",
+      "ts": 1786376155.470873
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Rezort vnútra nariadil demontáž radarov z testovacej prevádzky",
+        "headline": "Ministerstvo vnútra nariadilo okamžitú demontáž sporných radarov",
         "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/fWo7IFd/velka-otocka-matusa-sutaja-estoka-cudne-radary-maju-demontovat/"
           ],
           [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/mv-vyzvalo-na-okamzite-odstranenie-ra/984035-clanok.html"
+            "SME",
+            "https://www.sme.sk/domov/c/ministerstvo-vnutra-vyzvalo-dodavatela-na-okamzite-odstranenie-radarov-z-testovacej-prevadzky"
           ]
         ],
-        "perex": "Ministerstvo vnútra vyzvalo na okamžité odstránenie radarov, ktoré boli v testovacej prevádzke na slovenských cestách. Dôvodom sú vážne pochybnosti o ich pôvode a možné prepojenie na Rusko."
+        "perex": "Rezort vnútra vyzval dodávateľa na okamžité odstránenie dvoch radarových zariadení z testovacej prevádzky. Dôvodom sú pretrvávajúce pochybnosti o pôvode a certifikácii týchto prístrojov."
       },
       {
-        "headline": "Polícia v Komárne vyšetruje napadnutie muža policajtom",
+        "headline": "Slovensko sužuje extrémne sucho, zasiahlo už 60 percent územia",
         "links": [
           [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2021771-slovensko-vysycha-extremne-sucho-zasiahlo-takmer-60-percent-uzemia-situacia-sa-ma-este-zhorsit/"
+          ],
+          [
             "Noviny.sk",
-            "https://www.noviny.sk/krimi/1244515-policajt-v-komarne-napadol-muza-ten-skoncil-s-vaznymi-zraneniami-v-nemocnici"
+            "https://www.noviny.sk/slovensko/1244364-horucavy-sucho-aj-poziare-unia-miest-vyzyva-stat-na-riesenie-klimatickej-krizy"
           ]
         ],
-        "perex": "V Komárne došlo k incidentu, pri ktorom mal policajt napadnúť muža. Obeť útoku skončila v nemocnici s vážnymi zraneniami."
+        "perex": "Nedostatok zrážok a vysoké teploty výrazne prehlbujú sucho na väčšine územia krajiny. Únia miest Slovenska v tejto súvislosti vyzvala štát na prijatie ráznych opatrení v rámci klimatickej krízy."
       },
       {
-        "headline": "Filipíny zasiahli ničivé záplavy a zosuvy pôdy",
+        "headline": "Zemetrasenie v Kolumbii si vyžiadalo škody a zranených",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/kolumbiu-zasiahlo-zemetrasenie-s-magnitudom-7-4-otrasy-citili-aj-v-susednych-krajinach"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/bC9pLBN/kolumbiu-zasiahlo-silne-zemetrasenie-s-magnitudou-74-otrasy-hlasia-z-viacerych-regionov-aj-z-ekvadoru"
+          ]
+        ],
+        "perex": "Silné zemetrasenie s magnitúdou 7,4 zasiahlo Kolumbiu a otrasy boli citeľné aj v susednom Ekvádore. Miestne úrady aktuálne mapujú rozsah škôd a hlásia prvých zranených obyvateľov."
+      },
+      {
+        "headline": "Nemecko posilňuje ochranu letísk po dronovom útoku pri Lipsku",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2021777-na-drone-s-vybusninou-z-letiska-pri-lipsku-nasli-policajti-stopy-dna/"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/Pq8giPs/nemecko-po-dronovom-utoku-pri-lipsku-pritvrdzuje-spolkova-policia-masivne-posilni-protidronovu-jednotku/"
+          ]
+        ],
+        "perex": "Po náleze DNA na drone s výbušninou pri letisku Lipsko-Halle sa nemecká polícia rozhodla masívne posilniť protidronové jednotky. Cieľom je zvýšiť bezpečnosť strategických cieľov pred podobnými incidentmi."
+      },
+      {
+        "headline": "Filipíny paralyzovali ničivé záplavy a zosuvy pôdy",
         "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/e5zoRc8/zaplavy-a-zosuvy-pody-na-filipinach-si-vyziadali-najmenej-16-obeti-tropicke-burky-paralyzovali-ostrov-luzon/"
           ]
         ],
-        "perex": "Intenzívne tropické búrky spôsobili na severe Filipín rozsiahle povodne a zosuvy pôdy. Prírodný živel si vyžiadal najmenej 16 obetí a paralyzoval chod krajiny."
-      },
-      {
-        "headline": "Štát ignoruje zákonné lehoty pri LGBTI pároch",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/AYq4fY3/mame-list-ktory-minister-vnutra-sutaj-estok-rozposiela-lgbti-parom-stat-zakonne-lehoty-ignoruje/"
-          ]
-        ],
-        "perex": "Ministerstvo vnútra pod vedením Matúša Šutaja Eštoka zasiela LGBTI párom namiesto oficiálnych rozhodnutí len informatívne listy. Štát tak podľa kritikov necháva manželov v právnom vákuu."
-      },
-      {
-        "headline": "Ochranári kritizujú ťažbu v biotope hlucháňa v Muránskej planine",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2021811-v-srdci-muranskej-planiny-sa-rube-v-uzemi-hluchana-biju-na-poplach-ochranari-pripad-uz-poslali-do-bruselu"
-          ]
-        ],
-        "perex": "V centrálnej časti Národného parku Muránska planina sa ťaží drevo v chránenej zóne hlucháňa hôrneho. Ochranári podali podnet do Bruselu a tvrdia, že povolenie na ťažbu bolo vydané v rozpore s pravidlami."
+        "perex": "Intenzívne tropické búrky na severe Filipín spôsobili rozsiahle povodne a zosuvy pôdy. Prírodná katastrofa si vyžiadala najmenej 16 obetí a vynútila si zatvorenie škôl aj úradov."
       }
     ],
-    "ts": 1786373757.2828224
+    "ts": 1786376155.470865
   },
   "meta": {
-    "last_collection_ts": 1786374648.991301,
+    "last_collection_ts": 1786376148.7255316,
     "last_feed_error_ts": 1786354549.7338657,
     "last_llm_error_ts": 1786116961.025012,
-    "last_run_ts": 1786374649.3887265,
-    "last_synthesis_ts": 1786373757.2828174
+    "last_run_ts": 1786376149.234354,
+    "last_synthesis_ts": 1786376155.4708571
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/ak-si-korcok-zalozi-zivnost-nebude-to-spravne-tvrdi-minister-tomas?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Podpredseda opozičného PS by mal byť v hnutí podľa Tomáša zamestnaný, nie si zakladať živnosť.",
-      "s": "SME",
-      "t": "Ak si Korčok založí živnosť, nebude to správne, tvrdí minister Tomáš",
-      "ts": 1786288850.080513,
-      "u": "387ed8c2f0e4689546be"
-    },
-    {
-      "l": "https://www.sme.sk/komentare/c/preco-nevieme-co-nas-zabija-pise-miroslav-beblavy?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Poďme riešiť vlastné problémy",
-      "s": "SME",
-      "t": "Prečo nevieme, čo nás zabíja (píše Miroslav Beblavý)",
-      "ts": 1786288850.0805154,
-      "u": "bb54f56d37913d31380f"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/nemeckeho-novinara-obvinili-z-antisemitizmu-v-suvislosti-s-krizou-v-ceute?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Georg Restle sa od svojho príspevku už dištancoval.",
-      "s": "SME",
-      "t": "Nemeckého novinára obvinili z antisemitizmu v súvislosti s krízou v Ceute",
-      "ts": 1786288850.080517,
-      "u": "959b0c35b8645e1ba313"
-    },
     {
       "l": "https://www.sme.sk/svet/c/za-odhodenu-cigaretu-namiesto-pokuty-vazba-a-sud-francuzsko-kvoli-poziarom-zadrzalo-stovky-ludi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Francúzske úrady sprísňujú kroky.",
@@ -3428,6 +3416,62 @@
       "t": "Kríza v Ceute ako katalyzátor zmeny: Lídri Európy vyzývajú na rýchle zriadenie návratových centier v Afrike",
       "ts": 1786374649.3880353,
       "u": "ab72c9c91ecc5e80cac3"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/mestska-policia-hodnoti-lovestream-ako-pokojny-riesila-vsak-viacere-situacie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Najviac práce si opäť vyžiadalo usmerňovanie dopravy pri výjazdoch z parkovísk.",
+      "s": "SME",
+      "t": "Mestská polícia hodnotí Lovestream ako pokojný, riešila však viaceré situácie",
+      "ts": 1786376149.2334957,
+      "u": "3d9edf495a86c403002c"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/pedofil-z-dokumentu-v-sieti-si-znova-pisal-s-13-rocnou-nachytali-ho-skoncil-v-putach?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Z Českej republiky recidivistu vyhostili na šesť rokov.",
+      "s": "SME",
+      "t": "Sexuálny predátor z dokumentu V sieti si znova písal s 13-ročnou. Nachytali ho, skončil v putách",
+      "ts": 1786376149.2335,
+      "u": "9e3922fc6f39fd2fb115"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/VWXTkgi/planov-mame-dost-skusme-uz-nejaky-aj-splnit-nazor-tomasa-szalaya/",
+      "p": "Prezident Pellegrini si v Číne zaspomínal na časy plánovania.",
+      "s": "Aktuality",
+      "t": "Plánov máme dosť. Skúsme už nejaký aj splniť (názor Tomáša Szalaya)",
+      "ts": 1786376149.2335021,
+      "u": "9347731e9479b09def81"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/DBjXfXq/v-kosickom-klecenove-sa-zrazili-dve-auta-cestu-na-michalovce-zablokovala-prevazana-lod/",
+      "p": "Premávku na mieste riadi polícia a vodičov vyzýva k opatrnosti.",
+      "s": "Aktuality",
+      "t": "V Košickom Klečenove sa zrazili dve autá, cestu na Michalovce zablokovala prevážaná loď",
+      "ts": 1786376149.2335038,
+      "u": "7389df29d4bef286afa6"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/zhcaK2h/spanielsko-prepisuje-odhady-naporu-na-ceutu-minister-hovori-az-o-80-000-nelegalnych-migrantoch/",
+      "p": "Španielsko zvyšuje odhad počtu migrantov, ktorí koncom júla vtrhli do exklávy Ceuta. Úrady teraz hovoria až o 80 000 ľuďoch a riešia dôsledky krízy.",
+      "s": "Aktuality",
+      "t": "Španielsko prepisuje odhady náporu na Ceutu. Minister hovorí až o 80 000 nelegálnych migrantoch",
+      "ts": 1786376149.2335055,
+      "u": "d8d6225df2f763c3fa61"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/Pq8giPs/nemecko-po-dronovom-utoku-pri-lipsku-pritvrdzuje-spolkova-policia-masivne-posilni-protidronovu-jednotku/",
+      "p": "Nemecko masívne posilňuje špeciálnu protidronovú jednotku po incidente pri letisku Lipsko Halle. Cieľom je rýchlo chrániť letiská a strategické ciele.",
+      "s": "Aktuality",
+      "t": "Nemecko po dronovom útoku pri Lipsku pritvrdzuje. Spolková polícia masívne posilní protidronovú jednotku",
+      "ts": 1786376149.233507,
+      "u": "2724055a8c0e11a21dea"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1244532-falosna-sprava-na-tiktoku-vyvolala-utok-na-sanitku-zachranarov-napadli-sekerami-a-kamenmi",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Falošná správa na TikToku vyvolala útok na sanitku. Záchranárov napadli sekerami a kameňmi",
+      "ts": 1786376149.2335088,
+      "u": "63216f65f4561224b61f"
     }
   ],
   "recent_alerts": [
@@ -4088,6 +4132,15 @@
       "reason": "Nález výbušniny na medzinárodnom letisku v Nemecku predstavuje vážne bezpečnostné ohrozenie s možným medzinárodným presahom.",
       "title": "Na drone s výbušninou pri Lipsku našli DNA. Stopy vedú k útoku pripisovanému Rusom",
       "ts": 1786371063.4115272
+    },
+    {
+      "links": [
+        "https://www.aktuality.sk/clanok/Pq8giPs/nemecko-po-dronovom-utoku-pri-lipsku-pritvrdzuje-spolkova-policia-masivne-posilni-protidronovu-jednotku/"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Ide o zásadné bezpečnostné opatrenie v reakcii na útok na kritickú infraštruktúru (letisko), čo má európsky bezpečnostný význam.",
+      "title": "Nemecko po dronovom útoku pri Lipsku pritvrdzuje. Spolková polícia masívne posilní protidronovú jednotku",
+      "ts": 1786376150.9676902
     }
   ],
   "seen": {
@@ -4549,6 +4602,7 @@
     "1cc1281433dfe6a22317": 1786098942.8688998,
     "1cf903bcc6180c444338": 1785814537.8861532,
     "1cf951b4b9f7443a1850": 1786086648.9333014,
+    "1d185dc93ed71b40c500": 1786376149.2335174,
     "1d1c02616be6c7f6f05a": 1785814537.8861423,
     "1d26a836ab136182ff98": 1786073737.1310968,
     "1d4f52f08fbcc5c994f9": 1785833744.7846024,
@@ -4631,7 +4685,6 @@
     "223197c9ffa5030e74c5": 1786084543.631698,
     "224d6946e3654052a38c": 1786272940.5618975,
     "224ebe1f97ad6e80d694": 1786007441.9570124,
-    "2258e8bb3269ea44b41f": 1785771332.902431,
     "2295e52b025c7ca7f26f": 1786366535.460368,
     "22b162bc10dc48d39ab7": 1786116937.3718572,
     "22be76441fae7b3deeae": 1786269333.818482,
@@ -4640,6 +4693,7 @@
     "22d40062e2a51506e740": 1785926139.2317576,
     "22d95218ca73349573dd": 1786160139.7737222,
     "22f5745887e6b19df032": 1785839736.6822221,
+    "2307c5a43d6d7a2d80f2": 1786376149.233513,
     "2330bb8d37fe7af4546d": 1786025441.608006,
     "23363a4722a50e2a7976": 1785916535.8210564,
     "234bafb860e3d29c73e9": 1785839736.6822243,
@@ -4683,6 +4737,7 @@
     "26dc84421fa2e886d036": 1786125343.1508565,
     "26ebca6a31561c08dcef": 1786019741.5938365,
     "2714eacfd1da61aa044a": 1785936947.7463422,
+    "2724055a8c0e11a21dea": 1786376149.2335062,
     "27267ff28172ffefda7e": 1785913843.0190501,
     "2748cc06e031843b7663": 1786029064.3762732,
     "27597e167f68c925bdc5": 1786332934.513741,
@@ -4708,7 +4763,6 @@
     "28b362b9e294ca2fb750": 1785900937.7314045,
     "28c1f4aa690810870e7b": 1785916535.8212337,
     "28c449dc7e973571fc91": 1785987341.675806,
-    "28c4c03daa959d241857": 1785771332.9024231,
     "28cdda37cffcd5b39508": 1786125343.1508281,
     "28da81ffeeae0eb2d987": 1786096533.283236,
     "2912480e4f0e17e9f296": 1786299049.5377097,
@@ -4720,7 +4774,6 @@
     "298b54777b8226f04871": 1785832531.6087964,
     "298fbe962acb0eb4ff64": 1786260043.5539024,
     "299163b55b48f4401749": 1786353043.8178163,
-    "299901acaeda9bd205d5": 1785771332.90242,
     "29cbadc7d112629ddee4": 1786024554.5376308,
     "29cdad6a986666a74c01": 1785900937.7314153,
     "29f5268610c3790368ed": 1786201845.7721066,
@@ -5020,6 +5073,7 @@
     "3d5b6e2f0b427aec8e9c": 1785916535.8212585,
     "3d5f510f75910abcf945": 1785814537.8861642,
     "3d76b9906cd3dd9cef59": 1786109739.839705,
+    "3d9edf495a86c403002c": 1786376149.233492,
     "3db82c1c486bc03c1fde": 1786246544.1280773,
     "3db8514cc9b926a96a0b": 1785823844.0450168,
     "3dd2a84b9f206dc57a5c": 1785845447.3297827,
@@ -5057,6 +5111,7 @@
     "3ff49ea3a4dc99e8b548": 1786287348.3161926,
     "3ff5c5e3f20651410396": 1786073737.1311095,
     "3ffeee420f0bc41ceb80": 1786187440.4509711,
+    "4015cc82f5cdcec74dca": 1786376149.2335188,
     "4017b87354331813689b": 1785830131.4877987,
     "40795eb98974ac27187d": 1786199743.0366633,
     "4086c91a7a129836b1db": 1786098942.8689148,
@@ -5229,7 +5284,6 @@
     "4b5ff740d98ea0087c41": 1786106143.6532485,
     "4b61908575c83dd00ca2": 1785849057.3139496,
     "4b766d2f6c91f1ca466c": 1786299049.5377073,
-    "4b7a8a5b9810872021d8": 1785771332.902429,
     "4b7d8573bf392c91749b": 1785849057.3141158,
     "4b81c2f2d074aa53fc1a": 1786088144.7309012,
     "4bab3254513f943265b1": 1786336543.1614509,
@@ -5528,7 +5582,6 @@
     "5d37df146d162978f964": 1785909335.4093537,
     "5d44a0731105826f0b94": 1786336543.1614518,
     "5d4b42417d27dda5ac1f": 1786160139.7736943,
-    "5d4e0720ecdd227a0192": 1785771332.9024186,
     "5d5f724f9f1a32982ddd": 1785918937.1542609,
     "5d7bb391ecae6572ac24": 1785907250.353377,
     "5d7e896c0905e94389db": 1786118147.421458,
@@ -5591,7 +5644,6 @@
     "614c6e49e42d46506608": 1786372441.0140078,
     "6153c878d37bc145fd75": 1785916535.8213468,
     "616a98e8a27e41cbbcec": 1786257092.9868314,
-    "619881ddd6a242c75063": 1785771332.902415,
     "61b0af0dccc377b8dcb5": 1785945335.3610816,
     "61be476dd3f7204d3d14": 1785993046.943941,
     "61c5d4d0ba699f6579f4": 1786283735.5743277,
@@ -5617,6 +5669,7 @@
     "62e7a70b57fc8195d28b": 1786281641.228685,
     "62f250f80ee0360dd447": 1785950456.1918585,
     "6308dff492c6517f1648": 1786283735.574341,
+    "63216f65f4561224b61f": 1786376149.2335079,
     "634b6e098b067773a87e": 1785900937.7316399,
     "63594e10929d001d9188": 1785777640.5328147,
     "635f132326c2b8f183dd": 1786253737.1413333,
@@ -5717,7 +5770,6 @@
     "695561e793e33890f576": 1785814537.8859267,
     "69695cef9d7ec7039e46": 1785923741.7727044,
     "696cce4efab1b1c43fa5": 1785941748.1053524,
-    "69824607b0ca554a8cb7": 1785771332.9024174,
     "698d3d58e4e7b36f4e81": 1786121733.8603835,
     "6993e97ef9a1ee54f246": 1785823844.0450232,
     "699b14269f2962517712": 1786336543.161448,
@@ -5741,7 +5793,6 @@
     "6ad79720a0e24a9c6a97": 1785916535.8212428,
     "6af9fcff6aea34a8e6a7": 1786001734.4773157,
     "6b12b9b1a75198e2d524": 1785836150.6413863,
-    "6b2d4e1c79656232db5f": 1785771332.9024053,
     "6b3278b7b4c1cd06eb47": 1785830131.4878056,
     "6b5811903dc719ccad4b": 1786294541.3060365,
     "6b5e1d05fdc1ca4dcb6f": 1786185359.3238692,
@@ -5874,6 +5925,7 @@
     "737e1654364aa543b90c": 1786003841.1976624,
     "737f02241aee0accad67": 1786073737.1311035,
     "737fc3ece519019cf5d2": 1786265735.066208,
+    "7389df29d4bef286afa6": 1786376149.2335033,
     "738e1397265b30b7019b": 1785961243.9413693,
     "73906cd7b79ffd970e0e": 1785854140.749749,
     "73921e924138071b3029": 1786098942.8688931,
@@ -6176,7 +6228,6 @@
     "878d5420a38261fd6d87": 1785990943.1424053,
     "8792936792d5cdab34d5": 1786332934.5137217,
     "8793ffde8add163c232e": 1786001734.4773197,
-    "87a275f99eef4d1fdbff": 1785771332.9024003,
     "87b4b5f489b058e660f8": 1786285130.0011892,
     "87c017ff1b7ed06729cf": 1786349461.199769,
     "87c3e063313a2f1aa8e5": 1786366535.4603586,
@@ -6244,7 +6295,6 @@
     "8c2105ea09ffe76ae4a9": 1786297822.2932346,
     "8c28b97fe3f3655aed05": 1785987341.6757762,
     "8c3894eba3806fc24e43": 1785814537.886132,
-    "8c398d9533501b033b37": 1785771332.9024246,
     "8c462990982617b00447": 1785858941.8939524,
     "8c4d7219dc6aa4482e7b": 1785777640.532826,
     "8c5fb5556c60983d1c13": 1785840935.8741488,
@@ -6345,6 +6395,8 @@
     "92f75ebd6e20b5ee0dd1": 1786372441.0140178,
     "9313bc594ebf778df665": 1786113334.0901017,
     "931ef871810d2b10729a": 1785990943.1423888,
+    "9327b39b0e9dc563ccd7": 1786376149.2335155,
+    "9347731e9479b09def81": 1786376149.2335012,
     "9351d0dbfb04ca0321f4": 1786005353.7223327,
     "9370012cb094159f33d6": 1786016143.999451,
     "9379f4f0f1e2efc452e9": 1786088144.7309089,
@@ -6505,6 +6557,7 @@
     "9dbdbd9845efdb4ca219": 1785831654.6517272,
     "9df03bc08690c9f0cb7e": 1786018247.989503,
     "9e0fe80bb1593a3d6939": 1785852654.0788362,
+    "9e3922fc6f39fd2fb115": 1786376149.2334976,
     "9e59d2ecdb3822df269c": 1786181742.4122353,
     "9e625eb208b41ad6d42e": 1786287348.316173,
     "9e6825401c60a33327e8": 1785961243.9413812,
@@ -6604,7 +6657,6 @@
     "a4d1ef7f8f3ca56b144f": 1785779740.451614,
     "a4ef4cc46086337f2397": 1786296045.9069388,
     "a508752d57d2674a1755": 1785788439.6585317,
-    "a50878cdc6a89ad601d6": 1785771332.9024267,
     "a50d8b7d51977c1d2041": 1785873334.2481835,
     "a52bd8ce7631a6b3e7df": 1785916535.8213253,
     "a53445ebc0512b0492b3": 1786253737.141343,
@@ -7410,6 +7462,7 @@
     "d89667b2e1964523c320": 1786018247.989489,
     "d8a55b2fdb86ca3434fd": 1786297822.2932541,
     "d8b4ce0dfae47a1d1f1c": 1786082495.9418125,
+    "d8d6225df2f763c3fa61": 1786376149.2335045,
     "d8e2dd0dd4881e01e8f0": 1785946847.9863286,
     "d8efe695e3e79b3fb91c": 1785942649.1774294,
     "d8f24324cb17acd4394e": 1786110934.271596,
@@ -7570,6 +7623,7 @@
     "e19f039053a2d5b10817": 1785959754.0943806,
     "e1c37f1860cbc1d95182": 1786005353.722327,
     "e1d3c4812e756751c6b2": 1785774048.5034823,
+    "e1d79d6bcfab71ae733d": 1786376149.2335103,
     "e1f21fe1c832b6433858": 1786360249.5415895,
     "e1f239e2eb0b34ed7a94": 1785909335.4093494,
     "e1f82e2cbb019c703513": 1785916535.8212538,
@@ -7703,7 +7757,6 @@
     "eaf4e08086c714eb6f00": 1786005353.7223291,
     "eafed303e6ba0bd925f0": 1786287348.3161826,
     "eb184e2d9b4f73679efe": 1786100133.7073054,
-    "eb3ae3ba03041b7bda6a": 1785771332.902421,
     "eb4a3819e9c16d68655b": 1786091743.0032592,
     "eb4be3cd1ee3a253ccd5": 1786012535.8198123,
     "eb5a8ffadcb9ea41e65a": 1786073737.131112,
@@ -7906,7 +7959,6 @@
     "f709dbdc4f0a876ab301": 1786269333.818467,
     "f7106822ce3d8a61c83d": 1786160139.7736893,
     "f721e614035f187a898e": 1786350940.4726539,
-    "f726d839b98a5644b555": 1785771332.9024167,
     "f73fff1d26d32405379c": 1786073737.1308224,
     "f75d0722a7a291994a9a": 1786110934.271585,
     "f7651af3f5b02ee7b32f": 1786267238.5823798,
@@ -8062,96 +8114,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786374649.3879964
+      "ts": 1786376149.2334678
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786374649.3879976
+      "ts": 1786376149.2334697
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786374649.3880005
+      "ts": 1786376149.2334726
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786374649.3880048
+      "ts": 1786376149.2334769
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786374649.3879993
+      "ts": 1786376149.233471
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786374649.387989
+      "ts": 1786376149.2334604
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786374649.387994
+      "ts": 1786376149.233466
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786374649.388004
+      "ts": 1786376149.233476
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786374649.3880017
+      "ts": 1786376149.2334738
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786374649.3880029
+      "ts": 1786376149.233475
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/futbal-maldini-o-guardiolovi-a-ancelottim-2026080914571251490",
-      "p": "Približne dva týždne po rezignácii z funkcie technického riaditeľa talianskej federácie sa Paolo Maldini prvýkrát verejne vyjadril k dôvodom, ktoré ho viedli k odstúpeniu ešte predtým, než vôbec podpísal zmluvu.",
-      "s": "Šport.sk",
-      "t": "Dohoda s Guardiolom bola na spadnutie! Maldini odhalil šokujúce pozadie výberu trénera Talianska",
-      "ts": 1786288850.08052,
-      "u": "686b57ff8093db75c8c1"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/cyklistika-nemec-brenner-vyhral-okolo-polska-2026080915010822672",
-      "p": "Nemecký cyklista Marco Brenner z tímu Tudor Pro Cycling sa stal celkovým víťazom 83. ročníka pretekov Okolo Poľska. O prvenstve rozhodol v nedeľnej záverečnej 7. etape, ktorou bola individuálna časovka na 12,5 km so štartom i cieľom vo Wieliczke. Pred ňou figuroval na štvrtej priečke so stratou 11 s",
-      "s": "Šport.sk",
-      "t": "Líder pretekov v závere úplne vyhorel! Nemec zmazal manko a vyfúkol celkový titul z rúk Taliana",
-      "ts": 1786288850.080522,
-      "u": "133f0affe82b99480afa"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/gianni-infantino-celi-obrovskemu-tlaku-k-uefa-sa-pridava-aj-sef-la-ligy-a-hlasi-jeho-koniec-2026080914564195697",
-      "p": "Prezident španielskej La Ligy Javier Tebas vyhlásil, že Gianni Infantino „ničí samotnú podstatu“ futbalu. Podľa neho sa Infantinova éra na čele Medzinárodnej futbalovej federácie (FIFA) skončila, hoci zatiaľ nie formálne.",
-      "s": "Šport.sk",
-      "t": "Gianni Infantino čelí obrovskému tlaku. K UEFA sa pridáva aj šéf La Ligy a hlási jeho koniec",
-      "ts": 1786288850.080524,
-      "u": "c7b6e1a01165fa5c1197"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObm9tN3JXR3FmLS0yS2E5cEVDVnk0UGlva0F0Z3RNZ0J4WGIzYkVjYnI4cVVXYkI0RmtzbnJZSkhVcmlJLXF1cm1IYTN4VHFLSEhjak9MRmUzaWhoZnFFZjhUM2VZTC1neFJ1aktHWF84TFVoLTJaSTE3UWQxU19xTWxNaXI3bVZBTnNaMg?oc=5",
-      "p": "Potocká bude na ME najväčším slovenským želiezkom, Trníková sníva o finále SPORTNET",
-      "s": "SPORTNET",
-      "t": "Potocká bude na ME najväčším slovenským želiezkom, Trníková sníva o finále",
-      "ts": 1786288850.0805259,
-      "u": "6f52ebd9b1090e5701a4"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/chance-liga-vysledky-3-kolo-nedela-2026080915351058753",
       "p": "Futbalisti pražskej Slavie zdolali v nedeľnom stretnutí 3. kola českej ligy Pardubice 2:1. Oba góly domácich strelil Mojmír Chytil. „Zošívaní“ tak vedú tabuľku s plným počtom bodov, naopak Pardubice nezískali ešte ani jeden. Slovenský krídelník Ivan Schranz nastúpil za Slaviu v 78. minúte.",
@@ -9511,6 +9531,46 @@
       "t": "Rayo musí odohrať prvý domáci zápas sezóny na štadióne Leganesu",
       "ts": 1786374649.3881915,
       "u": "cac5a753bf440d635354"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/yaya-toure-pred-slovan-mjallby-liga-majstrov-2026081014240327282",
+      "p": "Futbalisti ŠK Slovan Bratislava chcú odvete 3. predkola Ligy majstrov proti Mjällby AIF potešiť svojich priaznivcov výkonom aj víťazstvom. Na tlačovej konferencii pred utorkovým stretnutím na Tehelnom poli to povedal tréner slovenského majstra Yaya Toure. „Belasí“ nechcú nič podceniť a zdôrazňujú dô",
+      "s": "Šport.sk",
+      "t": "V Slovane neriešia odchod najväčšej hviezdy súpera. Yaya Touré doprial hráčom voľno",
+      "ts": 1786376149.2335122,
+      "u": "e1d79d6bcfab71ae733d"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/novym-trenerom-mfk-dukla-banska-bystrica-je-daniel-valach-2026081015080459412",
+      "p": "Novým trénerom futbalistov MFK Dukla Banská Bystrica sa stal Daniel Valach. Doterajší šéftréner projektu (U19 a B-mužstvo) nahradil na lavičke Juraja Jarábka, ktorý skončil vo funkcii po úvodných troch kolách novej sezóny Niké ligy.",
+      "s": "Šport.sk",
+      "t": "Banská Bystrica po odchode Jarábeka okamžite našla nového trénera",
+      "ts": 1786376149.2335145,
+      "u": "2307c5a43d6d7a2d80f2"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbDNCSGNNNFJSVFpSRzFwS0xKZGpMTkdpcE5wUi1YeXFQakxRTmRFcmxJM1FpeVdjU0paVE50bms3cFlocDZsTHRldUJYQU1TNnMwcTdIeEhaMFpCTHFIN3ZLaDVKYTZVdEx1ZU1OeGgyRS1XYTBUdmVGc0d4WGFyRmtDOUNPRllpLUpseFlCRzdEdXllTnhLcENB?oc=5",
+      "p": "Česko čakalo na víťaza Moto2 dlhých 16 rokov. Salač opanoval legendárnu trať SPORTNET",
+      "s": "SPORTNET",
+      "t": "Česko čakalo na víťaza Moto2 dlhých 16 rokov. Salač opanoval legendárnu trať",
+      "ts": 1786376149.2335162,
+      "u": "9327b39b0e9dc563ccd7"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa3BZcVhyZ2h1ZDFHQ3dscENHUVNZYjFVc041b3otYzJSbDFnTVBwYllLMVRWbGlKeHV1NmhYYnNYd1VEbXU0N19tYm5EUVZtdUN5VGs0R0JjVV90LVRSTFVwVkF5MjB3dkxlSG1odk8xVS1zUVZfMEQ1VXpwSFAwRWN5UDBJbG82d3FiMXVCRHpSWDRlSHRpRXM0QkhsY1p5cEx3SVVKWmM?oc=5",
+      "p": "Kanea odmenili za vydarenú sezónu. Získal Zlatú kopačku pre najlepšieho strelca Európy SPORTNET",
+      "s": "SPORTNET",
+      "t": "Kanea odmenili za vydarenú sezónu. Získal Zlatú kopačku pre najlepšieho strelca Európy",
+      "ts": 1786376149.2335181,
+      "u": "1d185dc93ed71b40c500"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/valach-sa-stal-novym-trenerom-banskej/984042-clanok.html",
+      "p": "Doterajší šéftréner projektu (U19 a B-mužstvo) nahradil na lavičke Juraja Jarábka, ktorý skončil vo funkcii po úvodných troch kolách novej sezóny Niké ligy.",
+      "s": "TERAZ.SK",
+      "t": "Valach sa stal novým trénerom Banskej Bystrice",
+      "ts": 1786376149.2335207,
+      "u": "4015cc82f5cdcec74dca"
     }
   ],
   "sport_source_status": {
@@ -9518,25 +9578,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786374649.3880074
+      "ts": 1786376149.2334795
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786374649.3880095
+      "ts": 1786376149.233482
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786374649.3880122
+      "ts": 1786376149.2334843
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786374649.3880107
+      "ts": 1786376149.2334833
     }
   }
 }
