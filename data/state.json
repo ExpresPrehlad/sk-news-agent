@@ -1,30 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Súd v Sýrii odsúdil Bašára Asada na trest smrti",
-      "ts": 1786462586.840216
-    },
-    {
-      "headline": "Lotyšsko objavilo tajný tunel z Bieloruska",
-      "ts": 1786462586.840216
-    },
-    {
-      "headline": "Útok na loď v Červenom mori si vyžiadal obete",
-      "ts": 1786462586.840216
-    },
-    {
-      "headline": "Nitrianska nemocnica čelí kritike pre nefunkčný systém",
-      "ts": 1786462586.840216
-    },
-    {
-      "headline": "Koalícia čelí pred jesennou schôdzou rozpočtovým rizikám",
-      "ts": 1786462586.840216
-    },
-    {
-      "headline": "Mesto Košice uspelo v súdnom spore o parkovanie",
-      "ts": 1786462586.840216
-    },
-    {
       "headline": "Sýrsky súd odsúdil Bašára Asada na trest smrti",
       "ts": 1786463758.1923795
     },
@@ -111,146 +87,104 @@
     {
       "headline": "Španielska polícia rozbila gang obchodujúci s migrantkami",
       "ts": 1786474547.7894042
+    },
+    {
+      "headline": "Imrecze pred súdom odmietol obžalobu v kauze Očistec",
+      "ts": 1786478148.3106787
+    },
+    {
+      "headline": "Fidesz odmieta novozvoleného maďarského prezidenta Baku",
+      "ts": 1786478148.3106787
+    },
+    {
+      "headline": "Vážna nehoda pri Kolárove si vyžiadala ťažko zranených",
+      "ts": 1786478148.3106787
+    },
+    {
+      "headline": "Útok v Červenom mori si vyžiadal obete",
+      "ts": 1786478148.3106787
+    },
+    {
+      "headline": "Zamestnanci nitrianskej nemocnice žiadajú zmenu systému",
+      "ts": 1786478148.3106787
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Súdna rada zvolila Moniku Valašikovú za kandidátku na predsedníčku NSS",
+        "headline": "Imrecze pred súdom odmietol obžalobu v kauze Očistec",
         "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/ZiAvYuM/sudna-rada-zvolila-za-kandidatku-na-predsednicku-najvyssieho-spravneho-sudu-moniku-valasikovu/"
-          ],
           [
             "SME",
-            "https://www.sme.sk/domov/c/sudna-rada-zvolila-za-kandidatku-na-predsedu-nss-moniku-valasikovu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "Súdna rada SR v utorok zvolila za kandidátku na post predsedníčky Najvyššieho správneho súdu Moniku Valašikovú. Do funkcie ju musí následne oficiálne vymenovať prezident republiky."
-      },
-      {
-        "headline": "Maďarský parlament zvolil za prezidenta Andrása Baku",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2022457-madarsky-parlament-zvolil-andrasa-baku-za-noveho-prezidenta/"
+            "https://www.sme.sk/domov/c/ziadny-40-tisicovy-uplatok-sklamany-a-nahnevany-imrecze-na-sude-vypovedal-len-spolovice"
           ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/diUMPJ7/pellegrini-gratuloval-novemu-prezidentovi-bakovi-veri-v-skoru-oficialnu-navstevu-slovenska/"
-          ]
-        ],
-        "perex": "Maďarskí poslanci v tajnom hlasovaní zvolili za nového prezidenta republiky Andrása Baku, niekdajšieho predsedu Najvyššieho súdu. Prezident SR Peter Pellegrini už novozvolenej hlave štátu zablahoželal a pozval ho na návštevu."
-      },
-      {
-        "headline": "František Imrecze vypovedal v kauze Očistec",
-        "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/cE55VLH/kauza-ocistec-frantisek-imrecze-sa-hneva-ze-je-obzalovany-v-minulosti-opisal-schodzku-u-premiera-fica-teraz-bol-strucny/"
+          ]
+        ],
+        "perex": "Bývalý šéf finančnej správy František Imrecze odmietol pred súdom obžalobu a spochybnil výpovede spoluobvineného Ľudovíta Makóa. Na rozdiel od predošlých výpovedí na polícii bol tentoraz stručný a na otázky neodpovedal."
+      },
+      {
+        "headline": "Fidesz odmieta novozvoleného maďarského prezidenta Baku",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/GmHmdyU/fidesz-utoci-na-noveho-madarskeho-prezidenta-baka-podla-opozicie-nie-je-hoden-najvyssieho-uradu/"
           ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/diUMPJ7/pellegrini-gratuloval-novemu-prezidentovi-madarska-bakovi-veri-v-skoru-oficialnu-navstevu-slovenska/"
+          ]
+        ],
+        "perex": "Opozičná strana Fidesz označila novozvoleného prezidenta Andrása Baku za nehodného výkonu funkcie a spochybnila legitimitu jeho zvolenia. Prezidenta SR Pellegriniho gratulácia k zvoleniu nového maďarského lídra vyvolala v domácej politike diskusiu o susedských vzťahoch."
+      },
+      {
+        "headline": "Vážna nehoda pri Kolárove si vyžiadala ťažko zranených",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/xUarQw4/vazna-nehoda-pri-kolarove-zrazka-troch-aut-zanechala-viacerych-tazko-zranenych/"
+          ]
+        ],
+        "perex": "Pri zrážke troch áut v blízkosti Kolárova utrpelo viacero osôb ťažké zranenia. Do záchrannej akcie sa zapojila aj záchranárka mimo služby, ktorá sa v čase nehody nachádzala na mieste."
+      },
+      {
+        "headline": "Útok v Červenom mori si vyžiadal obete",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2022477-krvavy-utok-v-cervenom-mori-nakladnu-lod-zasiahli-projektily-hlasia-mrtvych-aj-zranenych"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/lod-v-cervenom-mori-zasiahol-projektil-hlasia-niekolko-obeti"
+          ]
+        ],
+        "perex": "Nákladnú loď v blízkosti prielivu Báb al-Mandab zasiahli projektily, čo viedlo k úmrtiam a zraneniam posádky. Z útoku sú podozriví húsíovia, incident potvrdila Agentúra Spojeného kráľovstva pre námorné obchodné operácie."
+      },
+      {
+        "headline": "Zamestnanci nitrianskej nemocnice žiadajú zmenu systému",
+        "links": [
           [
             "Denník N",
-            "https://dennikn.sk/5500355/dokazy-o-zaujatosti-curillu-na-sude-zatial-nezazneli-zato-dalsie-svedectvo-o-stretnutiach-bodora-a-gaspara-v-transpetrole-ano/"
+            "https://dennikn.sk/5501319/firmu-ktora-dodala-system-do-nemocnice-v-nitre-vlastni-siet-penty-zamestnanci-voci-nemu-spisali-peticiu/"
           ]
         ],
-        "perex": "Bývalý šéf Finančnej správy František Imrecze pred Špecializovaným trestným súdom odmietol obžalobu v kauze Očistec. Vo svojej výpovedi sa vyjadril iba ku skutku, z ktorého je sám obvinený, a kritizoval svedectvo Ľudovíta Makóa."
-      },
-      {
-        "headline": "Dôvera a Achmea žiadajú o stanovisko ku kúpe Unionu",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/index/c/dovera-a-achmea-v-suvislosti-s-kupou-union-odoslali-ziadost-eurokomisii?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/QGj4Aca/dovera-v-suvislosti-s-kupou-unionu-podali-ziadosti-na-urady-a-caka-na-stanoviska/"
-          ]
-        ],
-        "perex": "Zdravotná poisťovňa Dôvera a spoločnosť Achmea podali žiadosti o posúdenie kúpy Union zdravotnej poisťovne na Európsku komisiu a Úrad pre dohľad nad zdravotnou starostlivosťou. Prípadná realizácia obchodu by zásadne zmenila slovenský súkromný poistný trh."
-      },
-      {
-        "headline": "Počet obetí zemetrasenia v Kolumbii stúpol na vyše 200",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/pocet-obeti-pondelkoveho-zemetrasenia-v-kolumbii-stupol-na-224?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/RFFqJ8o/eu-posiela-prvu-financnu-pomoc-kolumbii-sto-tisic-eur-ma-podporit-zachranarov-po-nicivom-zemetraseni/"
-          ]
-        ],
-        "perex": "Počet potvrdených obetí pondelkového ničivého zemetrasenia v Kolumbii vzrástol na 224 osôb. Európska únia už uvoľnila prvú núdzovú finančnú pomoc na podporu záchranných prác v postihnutej oblasti."
-      },
-      {
-        "headline": "Španielska polícia rozbila gang obchodujúci s migrantkami",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/spanielska-policia-rozbila-siet-obvinenu-z-obchodovania-s-dievcatami-migrantkami?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/HFDwMyA/spanielska-policia-rozbila-gang-obchodnikov-s-migrantkami-neplnolete-dievcata-lakali-na-pracu-a-zneuzivali-ich/"
-          ]
-        ],
-        "perex": "Španielske úrady rozbili organizovanú skupinu, ktorá verbovala neplnoleté migrantky na prácu a následne ich zneužívala. Časť obetí čelila v rámci siete sexuálnemu násiliu."
+        "perex": "Fakultná nemocnica v Nitre čelí problémom s novým informačným systémom, ktorý mal byť plne funkčný od začiatku mesiaca. Zamestnanci proti prevádzke systému, ktorý dodala firma vlastnená sieťou Penta, spísali petíciu."
       }
     ],
-    "ts": 1786474547.7893946
+    "ts": 1786478148.3106682
   },
   "meta": {
-    "last_collection_ts": 1786476048.7289746,
+    "last_collection_ts": 1786478142.5250545,
     "last_feed_error_ts": 1786462543.9848933,
     "last_llm_error_ts": 1786455421.30012,
-    "last_run_ts": 1786476049.0705202,
-    "last_synthesis_ts": 1786474547.7893887
+    "last_run_ts": 1786478143.174915,
+    "last_synthesis_ts": 1786478148.310663
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/finsko-obnovilo-vlakove-spojenie-so-svedskom-po-takmer-40-rokoch?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Nové spojenie bude premávať dvakrát denne z Oulu do Haparanda.",
-      "s": "SME",
-      "t": "Fínsko obnovilo vlakové spojenie so Švédskom po takmer 40 rokoch",
-      "ts": 1786391740.462263,
-      "u": "dca6584a21e82daf1fcc"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM0FUdWxZQTR2ZnFTMU16TUZncW1BZmYzaTVIY1MyRVRienplTE90UnBHOHJVQkZaSV9UTVRnTWttaWNlVDRCSzRQeWNpckJmN0tXMTFPMlNUemVrZXNFV2N1UHFoNXBRRXFCbF9BOU9WT2ZzeC1HQk9oRTBqZXNOM29YbVhMWmdCNFhqMmV0WDVUWWowVlV0cVNySW8wSnpp?oc=5",
-      "p": "Skvelý vstup Sloveniek do domácich ME. Výrazne sa priblížili k postupu SPORTNET",
-      "s": "SME (GNews)",
-      "t": "Skvelý vstup Sloveniek do domácich ME. Výrazne sa priblížili k postupu - SPORTNET",
-      "ts": 1786391740.4622664,
-      "u": "507639f8f6b1ebb2cfa1"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/GqWdXvR/osn-reaguje-na-nicive-zemetrasenie-v-kolumbii-organizacia-ponuka-pomoc-po-spravach-o-zrutenych-domoch-a-obetiach/",
-      "p": "OSN oznámila pripravenosť pomôcť po silnom zemetrasení na západe Kolumbie. Otrasy zničili domy v odľahlých regiónoch a úrady hlásia desiatky obetí.",
-      "s": "Aktuality",
-      "t": "OSN reaguje na ničivé zemetrasenie v Kolumbii. Organizácia ponúka pomoc po správach o zrútených domoch a obetiach",
-      "ts": 1786391740.4622676,
-      "u": "6be7f2a9e870be9d5fdb"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2021965-pri-odese-sa-zrutil-ukrajinsky-mig-29-zrejme-zlyhal-odpal-rakety?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Pri bojovej operácii v Odeskej oblasti sa dnes večer zrútilo stíhacie lietadlo MiG-29 ukrajinských vzdušných síl, pilot sa stihol z horiaceho stroja katapultovať, informovalo ukrajinské letectvo. Príčiny incidentu sa vyšetrujú, podľa prvotných informácií sa stroj pokazil vo vzduchu pri odpale rakety",
-      "s": "Pravda",
-      "t": "Pri Odese sa zrútil ukrajinský MiG-29, zrejme zlyhal odpal rakety",
-      "ts": 1786391740.4622695,
-      "u": "99491d8241829fbba7de"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2021961-znamy-aktivista-priznal-vaznu-diagnozu-nikam-vsak-neodchadzam-odkazal-neprajnikom?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Zakladateľ známeho projektu Mladí proti fašizmu Marek Mach (24) sa na sociálnych sieťach prihovoril svojim sledovateľom s ťažkou správou. Otvorene priznal, že mu v posledných mesiacoch diagnostikovali onkologické ochorenie.",
-      "s": "Pravda",
-      "t": "Známy aktivista priznal vážnu diagnózu. Nikam však neodchádzam, odkázal neprajníkom",
-      "ts": 1786391740.4622705,
-      "u": "db0128b2e938753a7c35"
-    },
     {
       "l": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5aV016bWU5VE5pMjNkRG1zRkl1TXZDSHgtc19FLWJsTmx1VDJxNlpzUnpIOXZZcE95RzhBWTZITXNtaUpPZjh2QnRR?oc=5",
       "p": "Krimi správy Prešov - Korzár Prešov SME Korzár",
@@ -4178,6 +4112,70 @@
       "t": "Obeťami už dvaja Česi. Francúzska obec žiada zastavenie výstupov na Mont Blanc",
       "ts": 1786476049.0699232,
       "u": "95d8e51dad0567b8f81e"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/miliony-afganskych-dievcat-nemaju-pristup-k-stredoskolskemu-vzdelaniu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Obmedzenia so sebou prinášajú aj značné ekonomické škody.",
+      "s": "SME",
+      "t": "Milióny afganských dievčat nemajú prístup k stredoškolskému vzdelaniu",
+      "ts": 1786478143.1741056,
+      "u": "c6645d44c8dfa5df1db0"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kUmQ4OUxnd1lYc3ctNW1pWDJ1OTBSQS1uY25neXRGNzJaMlBHeWg0VC1WMm0tdklJeW9BTXBVOXRGYUJib3M3cUh5SV94QUk?oc=5",
+      "p": "Ako sa správne píše slovné spojenie každ... SME.sk",
+      "s": "SME (GNews)",
+      "t": "Ako sa správne píše slovné spojenie každ... - SME.sk",
+      "ts": 1786478143.1741085,
+      "u": "80e0bb5b6895881b096a"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeGhKVEN5T2dRcjlLcEc1UzdfLTFLWjBsRmVrSHlEWXpYc1N0MThYOEhPSFdmVmk0VGYxcjNBVkFKa3NQWE9oQUJUU2c1ajhPMmxtaEJ0TUx4Mjl1S2E2LWV0X1R1RzdXR1pzdGdneExia3huYzMxRTVOYXIyV0dIRFhzSzdxLTZqTlVJMXBkZDVDSUFK?oc=5",
+      "p": "Volko nemal nárok na postup. Semifinále stovky bolo preňho maximum SPORTNET",
+      "s": "SME (GNews)",
+      "t": "Volko nemal nárok na postup. Semifinále stovky bolo preňho maximum - SPORTNET",
+      "ts": 1786478143.17411,
+      "u": "e1183e051533fcb05df2"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Ma1VESXlnRzRFRW9TTm12TVc3X2E2dnNleE54SDdEd2xIRmNzVVRHZlZSemRnbEZnWjY1RVh0QUhuLUNhOUV2Q1JnaGh5NDg?oc=5",
+      "p": "Pošta sa spisovne posiela, zasiela alebo odosiela? SME.sk",
+      "s": "SME (GNews)",
+      "t": "Pošta sa spisovne posiela, zasiela alebo odosiela? - SME.sk",
+      "ts": 1786478143.174111,
+      "u": "2b2b52509a8906644aa1"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40TVN4emZzZGlaTnpuWG5rT3EzRmdyXzlaSkpLbmJXZnhBcmZOaHBpMjhfdzFXOHB0bTZ6LUNIOVhQTXRaNzJhRHlYS0NRcm8?oc=5",
+      "p": "Je správna veta Čo povedať na margo prez... SME.sk",
+      "s": "SME (GNews)",
+      "t": "Je správna veta Čo povedať na margo prez... - SME.sk",
+      "ts": 1786478143.1741126,
+      "u": "eda255397bfe60d0384d"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRSFdJb1YzN1hBNlg3S0dFUzFzazJta2tlYjdCQ1owZklYRjk4WU5rNGY2UFRaYzNVeFdFdWNYNVZkM240MXRBc0VvanlGVTg?oc=5",
+      "p": "Slovo ulica sa v názve ulice píše s veľk... SME.sk",
+      "s": "SME (GNews)",
+      "t": "Slovo ulica sa v názve ulice píše s veľk... - SME.sk",
+      "ts": 1786478143.1741147,
+      "u": "2d7b8f10ad04b6c5bbdd"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/oSZdq0M/izrael-a-libanon-chystaju-nove-kolo-rokovani-v-rime-usa-oznamuju-termin-a-hovoria-o-pokroku-v-dialogu/",
+      "p": "Izrael a Libanon sa začiatkom septembra opäť stretnú v Ríme. Priame rokovania majú posunúť implementáciu dohody o odzbrojení Hizballáhu a odsune Izraela.",
+      "s": "Aktuality",
+      "t": "Izrael a Libanon chystajú nové kolo rokovaní v Ríme. USA oznamujú termín a hovoria o pokroku v dialógu",
+      "ts": 1786478143.1741166,
+      "u": "d8111b12027c9082aeb2"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1245056-unesco-miliony-afganskych-dievcat-nemaju-pristup-k-stredoskolskemu-vzdelaniu",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "UNESCO: Milióny afganských dievčat nemajú prístup k stredoškolskému vzdelaniu",
+      "ts": 1786478143.174118,
+      "u": "78b770cab3d7ba19e6bf"
     }
   ],
   "recent_alerts": [
@@ -5116,7 +5114,6 @@
     "0a01332444bfc5b63c02": 1786113334.0901115,
     "0a0b847f833731c8dbb3": 1786358141.531105,
     "0a193971697c681094b0": 1786102536.7242944,
-    "0a1c63aa64ce58a47bfa": 1785873334.2482007,
     "0a3903ad80211c57cfbd": 1786073737.1311066,
     "0a4964b8999da023843c": 1785948940.486672,
     "0a7609066520dc9cbb59": 1785999346.0777955,
@@ -5132,7 +5129,6 @@
     "0b686a0c28b14c50a44c": 1786419332.7680552,
     "0b723e7b062ba9edf2ab": 1786197882.5307791,
     "0b94d9f7e6a3ed826924": 1786453856.0082626,
-    "0bb5f42f31d9b0ac4af5": 1785873334.248198,
     "0bc777227a1c1f0f52b7": 1786134055.007673,
     "0bff966328acd98530b8": 1785900937.7316387,
     "0c1d6820135f7ef55ca3": 1786187440.450972,
@@ -5312,7 +5308,6 @@
     "15b24e833eb583aa6b26": 1786374649.3880286,
     "15b72fbf3997b6d6936a": 1785916535.8210468,
     "15bac58e6bf622e35474": 1786457465.8849313,
-    "15bcb944d622a3130ea6": 1785873334.2482026,
     "15c2086f71a44ada901c": 1785923741.772713,
     "15d6ffdf82da2d16a8df": 1786095346.0206456,
     "15f204decb92778f1efd": 1786283735.5743353,
@@ -5501,7 +5496,6 @@
     "21f1c17e6db8d9630256": 1786019741.5938377,
     "21f9235870f588c1cbdd": 1786476049.069924,
     "21fa4e0bfbc6321cb817": 1786450239.3027864,
-    "21fab2862a839dcfa7af": 1785873334.2481906,
     "21ff954aae3a91ff65b1": 1786246544.1280906,
     "21ffbc04b7da9f764015": 1786098942.8689044,
     "2200c6274cb9044371b1": 1786450239.3028011,
@@ -5626,6 +5620,7 @@
     "2b003343266f1424ab5a": 1786097442.879929,
     "2b055d3f212af26b887f": 1786458936.4902687,
     "2b1d192cfc875db308ac": 1786013740.4516006,
+    "2b2b52509a8906644aa1": 1786478143.1741104,
     "2b5fc54291e7b9a66a74": 1786160139.7737055,
     "2b6e585b9470009569af": 1785918937.1542556,
     "2b7e932318d44ab7570e": 1786272940.561905,
@@ -5651,6 +5646,7 @@
     "2d44ab1bf83db662eb37": 1785916535.8212867,
     "2d653b5853209956a743": 1785994533.7428393,
     "2d726982c7aff60849dc": 1786125343.1508431,
+    "2d7b8f10ad04b6c5bbdd": 1786478143.174113,
     "2d7cf4b7e108bceed5c9": 1786374649.3880439,
     "2d7ddd7d3eb47a046890": 1786079446.953806,
     "2daa2ad5ceb656f4d1c3": 1786205441.65803,
@@ -6422,6 +6418,7 @@
     "5dec9080f0905d692126": 1786095346.0204751,
     "5dee714fcd971bbf291f": 1785927332.9491963,
     "5dff121f52b8839d1526": 1786463744.1618543,
+    "5e42a9bf32d95c191062": 1786478143.174126,
     "5e47cdda74732dcdee2f": 1786444542.8142357,
     "5e480e8f4210f8ba400a": 1786332934.5137331,
     "5e59ea8746f86ff8e6ac": 1786459690.2495842,
@@ -6858,6 +6855,7 @@
     "787aa323eddc116f678a": 1786012535.8198059,
     "788b6c15ef41fd2e732a": 1786098942.8688881,
     "789c432e49f26f6bdd0c": 1786116937.3718622,
+    "78b770cab3d7ba19e6bf": 1786478143.174117,
     "78c0472b732cbcf9f2a0": 1786091743.0032625,
     "78c66d03fa92d2b84656": 1786354549.7338793,
     "78dbc65b64485756e847": 1785944143.4847863,
@@ -6958,6 +6956,7 @@
     "80b41c92754eaa5c0bea": 1786160139.7737284,
     "80d3c91188682809268a": 1786358141.531104,
     "80d918374eaaf20e3e65": 1786121733.8603463,
+    "80e0bb5b6895881b096a": 1786478143.1741068,
     "811a50ea97aebe1230fb": 1786073737.1308775,
     "81263764974e8b4e070a": 1786113334.0901089,
     "814d7734f0cd6e153164": 1786123238.7283556,
@@ -7379,6 +7378,7 @@
     "9b0773e901d14f2401f8": 1786191046.3156137,
     "9b0f910518cae9569620": 1786090246.4540296,
     "9b24a1dae51cc2161f9c": 1786287348.3161874,
+    "9b5955f1e01712daea0f": 1786478143.1741192,
     "9b7786a9af605c1670d3": 1786125343.15084,
     "9ba2c9d935f29b613c99": 1786196143.445962,
     "9bb42bb201797c076844": 1786463744.1618452,
@@ -7530,10 +7530,10 @@
     "a4b702e8b36dc97f88ee": 1786362935.3279421,
     "a4e4576980588be788da": 1786419332.7680776,
     "a4ef4cc46086337f2397": 1786296045.9069388,
-    "a50d8b7d51977c1d2041": 1785873334.2481835,
     "a52bd8ce7631a6b3e7df": 1785916535.8213253,
     "a53445ebc0512b0492b3": 1786253737.141343,
     "a53c406dec41f81b5e57": 1786123238.7283752,
+    "a544954fdcb5e9a28fb7": 1786478143.1741238,
     "a54990e9407d5ce03903": 1786365343.4193013,
     "a58990f73262eba8c1e1": 1786073737.1311617,
     "a58fcee32c9eb1c2bd67": 1786260043.5539587,
@@ -7667,6 +7667,7 @@
     "ae1bd52f3f1cfb7166b2": 1786340132.9474983,
     "ae4888a1f906f225dc98": 1785935441.3197308,
     "ae5ff76604ca9b2fb338": 1786020949.4270403,
+    "ae60666b9c3ee6186e74": 1786478143.1741307,
     "ae64f340e47f1bc0ceda": 1786419332.7682972,
     "ae685355929092bad2c6": 1786260043.553974,
     "ae6b5813e8d5ac44df7b": 1786160139.7739308,
@@ -8063,6 +8064,7 @@
     "c60d3e83a28582da3e1e": 1786160139.7739236,
     "c62429c0e37f0d436d26": 1786378855.0274606,
     "c6620b3585d3cc858275": 1786205441.658034,
+    "c6645d44c8dfa5df1db0": 1786478143.1741018,
     "c665ae7aa24a98161778": 1785916535.8212826,
     "c68fa11ebc6e8494f422": 1786462543.9849148,
     "c697716826151817d29f": 1786073737.1311457,
@@ -8092,7 +8094,6 @@
     "c810279861b7c12ccc66": 1786352150.9875517,
     "c813079b95ffb4bfd196": 1786001734.4773273,
     "c84092db2fe8e4c29de6": 1785910852.985575,
-    "c84d1965c62f087d3ff0": 1785873334.248195,
     "c8627b9150a00a4f0669": 1786470935.13837,
     "c875957930e44e4fdb70": 1786274438.0685983,
     "c878970e5e11462300f9": 1785939053.9764512,
@@ -8194,6 +8195,7 @@
     "ced35d84a64e3e585d9c": 1785944143.4847984,
     "cee6795e4dc8eb0f6a78": 1786016143.999327,
     "ceeb8f17eadd34a12643": 1786455342.6232975,
+    "cef154205f4d9b9abe38": 1786478143.1741295,
     "cef3d6999d13b5eec2fd": 1786360249.5415838,
     "cf1229a2947a387e5b33": 1786449336.8902705,
     "cf194f2f1c0c5d23cc80": 1786130440.9255006,
@@ -8325,6 +8327,7 @@
     "d7c3965a802c2f9cd4f8": 1786472451.9695215,
     "d7e031fa40406df5fed1": 1786160139.7737048,
     "d7e2f53ec9a135617d45": 1786132536.7446783,
+    "d8111b12027c9082aeb2": 1786478143.1741154,
     "d817fdec981f99fae889": 1786372441.0140092,
     "d81b8f78d902477458ba": 1785921043.9083917,
     "d82434001ed237442539": 1786287348.3161945,
@@ -8423,7 +8426,6 @@
     "dd49c7987ba975ac7c98": 1786461050.8647363,
     "dd4f2e54f0bd2cb30166": 1786029064.3762746,
     "dd9d8802bd2fc0314be1": 1785950456.1918762,
-    "dda4daa022ab6df25a74": 1785873334.2482061,
     "ddc7322017803483beda": 1786370141.7762249,
     "ddcd84d40236ced5e793": 1786434940.8055964,
     "ddd69b1ae756eff3c003": 1785954039.765569,
@@ -8490,6 +8492,7 @@
     "e0d27b19c9e458d8a59b": 1786290947.0907333,
     "e0d5095a3c407f541982": 1786452942.7688036,
     "e0fd64a08ba6793e7519": 1785916535.8212488,
+    "e1183e051533fcb05df2": 1786478143.1741092,
     "e1273a288ac18a8cc08b": 1785911745.091173,
     "e145c63f602155ac94fa": 1786203341.996032,
     "e14d39ad96a88191c84e": 1786419332.7683215,
@@ -8657,6 +8660,7 @@
     "eb98d0284ee09d28c981": 1786358141.531272,
     "eb9d7600d2e18d1ced0f": 1786451735.279042,
     "eba25d3477fd06fc9546": 1786118147.4214451,
+    "ebb6081747a176747b8a": 1786478143.1741276,
     "ebc5b6be6c64707fa730": 1786340132.9474938,
     "ebe5b3749aa6ef9a8a10": 1785941748.1053658,
     "ebf813c2c9ff5ee01028": 1785987341.6758115,
@@ -8681,6 +8685,7 @@
     "ed7e33eb9d98c14d99a3": 1786116937.3718677,
     "ed8527f1974d677337f0": 1786160139.7736964,
     "ed85429deb64c984f381": 1786188945.6377528,
+    "eda255397bfe60d0384d": 1786478143.174112,
     "edb5e8805dc6b3fb3a19": 1786104540.9550962,
     "eddda1cfe2a01539a840": 1785918937.1542566,
     "eddf5c330979177b447e": 1785916535.8213475,
@@ -8790,7 +8795,6 @@
     "f31488c1b6c53dec8b01": 1786386065.919411,
     "f32b72b4ffd2ddc05f4f": 1786107343.3232596,
     "f32d1be3d8b11e2b82a0": 1785945335.3610768,
-    "f333067388e3255bf3bc": 1785873334.248208,
     "f3333accfb00f9491f81": 1785916535.821036,
     "f354948bc1c173580fba": 1786095346.0206294,
     "f3693aa8108543461c88": 1786176643.3149233,
@@ -9004,136 +9008,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786476049.0698946
+      "ts": 1786478143.1740785
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786476049.0698957
+      "ts": 1786478143.17408
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786476049.0698988
+      "ts": 1786478143.1740832
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786476049.0699024
+      "ts": 1786478143.174088
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786476049.0698972
+      "ts": 1786478143.1740816
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786476049.0698876
+      "ts": 1786478143.1740708
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786476049.069893
+      "ts": 1786478143.1740766
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786476049.0699015
+      "ts": 1786478143.1740868
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786476049.0698998
+      "ts": 1786478143.1740847
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786476049.0699008
+      "ts": 1786478143.174086
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/koniec-ale-kdeze-dlhorocny-trener-conora-mcgregora-mame-technologiu-ako-ho-urobit-lepsim-nez-kedykolvek-predtym-2026081019435205714",
-      "p": "Žiadny koniec! Skôr to vyzerá na nový začiatok. Silné vyhlásenie dlhoročného trénera Conora McGregora. Bol to dlho očakávaný návrat. Ikonický a kontroverzný bývalý šampión dvoch váhových divízií UFC Conor McGregor sa nedávno vracal po päťročnej pauze. Odvetný súboj proti Maxovi Hollowayovi však skon",
-      "s": "Šport.sk",
-      "t": "Koniec? Ale kdeže! Dlhoročný tréner Conora McGregora: Máme technológiu, ako ho urobiť lepším než kedykoľvek predtým",
-      "ts": 1786391740.4622734,
-      "u": "def3a9b377ac1da24faf"
-    },
-    {
-      "l": "https://sport.aktuality.sk/tenis/clanok/co-sa-v-skutocnosti-deje-s-carlosom-alcarazom-doktor-prezradil-ze-problem-nemusi-byt-fyzicky-2026081017142442582",
-      "p": "Španielsky tenista Carlos Alcaraz je štyri mesiace mimo kurtov pre zranenie, už vynechal Roland Garros, Wimbledon a nikto si netrúfa povedať, či bude hrať na US Open, poslednom grandslame sezóny.",
-      "s": "Šport.sk",
-      "t": "Čo sa v skutočnosti deje s Carlosom Alcarazom? Doktor prezradil, že problém nemusí byť fyzický",
-      "ts": 1786391740.462275,
-      "u": "971ba228890e7811aff7"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/me-slovenska-kladivarka-kanuchova-sa-skoncila-tesne-pred-branami-finale-2026081019280320072",
-      "p": "Slovenská kladivárka Veronika Kaňuchová nepostúpila do finále na atletických ME v Birminghame. V kvalifikačnej A-skupine obsadila v pondelok 13. miesto výkonom 62,71 m.",
-      "s": "Šport.sk",
-      "t": "ME: Slovenská kladivárka Kaňuchová sa skončila tesne pred bránami finále",
-      "ts": 1786391740.4622765,
-      "u": "ccd1cd99f9d10e55bd3d"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/ronald-araujo-z-fc-barcelona-na-hostovanie-do-liverpool-fc-2026081017523643744",
-      "p": "Liverpool oficiálne oznámil príchod obrancu Ronalda Araúja, ktorý prichádza na hosťovanie z Barcelony s opciou na kúpu v hodnote 55 miliónov eur.",
-      "s": "Šport.sk",
-      "t": "Liverpool oznámil príchod veľkej posily. Získal kapitána FC Barcelona",
-      "ts": 1786391740.4622777,
-      "u": "e2c409339181bd371ae0"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/me-mlade-slovenske-basketbalistky-odstartovali-domaci-sampionat-vitazstvom-2026081019275896686",
-      "p": "Slovenské basketbalové reprezentantky do 16 rokov odštartovali účinkovanie v B-kategórii majstrovstiev Európy v Piešťanoch víťazstvom nad Azerbajdžanom 59:50. V rámci B-skupiny ich čaká ešte jeden duel, v stredu 12. augusta nastúpia o 19.00 h proti rovesníčkam zo Švédska.",
-      "s": "Šport.sk",
-      "t": "ME: Mladé slovenské basketbalistky odštartovali domáci šampionát víťazstvom",
-      "ts": 1786391740.4622786,
-      "u": "72af7692f23c4441f054"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUlJJQkpmS0xpaTYwWDNwdVNHMFF0ak1oRzg0S293anFSSENKRjNZNW5vLWJrSHBfMGNRY3lqQU9CX3hlX0w5cFI5WmF0ZmpHNkpFbkwxNjF6TnNVOENNREdnVDRwaDFNcDVsc3ZWNWFiTkpQUGhqSkJlNlJQQk5kR24ydDFPUVdENnNGOVhvcUxWTXc?oc=5",
-      "p": "ME v atletike prišli o veľkého favorita. Talianskeho mladíka odniesli na vozíku SPORTNET",
-      "s": "SPORTNET",
-      "t": "ME v atletike prišli o veľkého favorita. Talianskeho mladíka odniesli na vozíku",
-      "ts": 1786391740.4622803,
-      "u": "8934832b3f234bac8406"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/slovenky-vitazne-odstartovali-b-kateg/984079-clanok.html",
-      "p": "Z každej skupiny postupujú ďalej tímy na prvých dvoch miestach, na ostatných čakajú súboje o umiestnenie. Miestenku do A-kategórie ME hráčok do 16 rokov získa len víťaz piešťanskej časti podujatia.",
-      "s": "TERAZ.SK",
-      "t": "Slovenky víťazne odštartovali B-kategóriu ME do 16 rokov",
-      "ts": 1786391740.462281,
-      "u": "8d080fa3d19d4af60643"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/kanuchova-sa-neprebojovala-do-finale/984080-clanok.html",
-      "p": "Už po polovici kvalifikácie tak bolo isté, že slovenská reprezentantka sa nedostane medzi finálovú dvanástku. Na šampionáte sa predstavila celkovo štvrtýkrát.",
-      "s": "TERAZ.SK",
-      "t": "Kaňuchová sa neprebojovala do finále kladiva",
-      "ts": 1786391740.462282,
-      "u": "dad1cf85152e6fa93219"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/araujo-zamieril-na-hostovanie-z-barcelo/984077-clanok.html",
-      "p": "Podľa španielskych médií je súčasťou dohody aj opcia na trvalý prestup vo výške 55 miliónov eur.",
-      "s": "TERAZ.SK",
-      "t": "Araujo zamieril na hosťovanie z Barcelony do Liverpoolu: Ideálny krok",
-      "ts": 1786391740.4622827,
-      "u": "7471d0b5c5f10395333d"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/milenka-prezidenta-fifa-dostala-175-000-eur-2026081018283106030",
       "p": "Britský denník The Telegraph odhaľuje sumu, ktorá mala byť vyplatená zamestnankyni, s ktorou mal prezident FIFA pomer ešte v čase, keď pôsobil ako generálny tajomník UEFA.",
@@ -10693,6 +10625,54 @@
       "t": "Iberia vyhrala nad Larne 2:1 pp a zahrá si v play off",
       "ts": 1786476049.0699286,
       "u": "395b6383c9e386ea199f"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/jan-volko-semifinale-vysledky-dnes-me-birmingham-2026081119383396133",
+      "p": "Slovenský atlét Ján Volko sa neprebojoval do finále behu na 100 m na majstrovstvách Európy v Birminghame. Dvadsaťdeväťročný šprintér skončil vo svojom semifinálovom behu na siedmom mieste časom 10,55 s. Z každého semifinále postúpili dvaja najlepší pretekári, finálovú osmičku doplnili dvaja najlepší",
+      "s": "Šport.sk",
+      "t": "ME: Na najlepších nestačil. Ján Volko sa neprebojoval do finále stovky",
+      "ts": 1786478143.1741228,
+      "u": "9b5955f1e01712daea0f"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/me-birmingham-madar-bence-halasz-ovladol-finale-desiatym-najlepsim-hodom-historie-2026081119453529116",
+      "p": "Maďar Bence Halász suverénne triumfoval na atletických ME v Birminghame v súťaži kladivárov. V utorkovom finále zvíťazil vo svetovom výkone roka 84,25 m, čo je zároveň národný rekord i desiaty najlepší hod histórie.",
+      "s": "Šport.sk",
+      "t": "ME: Neskutočný výkon v Birminghame! Maďar ovládol finále desiatym najlepším hodom histórie",
+      "ts": 1786478143.1741252,
+      "u": "a544954fdcb5e9a28fb7"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/me-atletika-semifinale-viktoria-forsterova-skoncila-posledna-vysledky-dnes-birmingham-2026081119291756531",
+      "p": "Slovenská atlétka Viktória Forster nepostúpila do finále behu na 100 m prek. na majstrovstvách Európy v Birminghame. Dvadsaťštyriročná pretekárka obsadila v treťom semifinálovom behu posledné ôsme miesto časom 13,43 s. V celkovom poradí skončila na 23. priečke.",
+      "s": "Šport.sk",
+      "t": "ME: Sklamanie v semifinále. Forster skončila na chvoste, na napravenie chuti má poslednú šancu",
+      "ts": 1786478143.1741269,
+      "u": "5e42a9bf32d95c191062"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/europska-liga-vysledky-utorok-iberia-1999-postupila-2026081116382721204",
+      "p": "Futbalisti gruzínskeho klubu Iberia 1999 Tbilisi sa predstavia v play off o účasť v skupinovej fáze Európskej ligy. V odvete tretieho predkola zvíťazili pred domácim publikom nad severoírskym Larne 2:1 po predĺžení. Gruzínsky klub spadol do Európskej ligy po vyradení Slovanom Bratislava v 2. predkol",
+      "s": "Šport.sk",
+      "t": "Po vyradení Slovanom dostala Iberia jednoduchšieho súpera. V Európskej lige ide ďalej",
+      "ts": 1786478143.1741285,
+      "u": "ebb6081747a176747b8a"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTRFUUY2aEFra2dadTRDWFExVGZ5VU9QcVowaFk1TnhocWRQNUhwbHFqN2pQQy1xOThnaTRRd21TdVdRalA1Vzh0dXlUU2VwTDh0eTZvQlcxS0JrN3FQckl6bFBhSUNmdHIyWnNmM0Y4YnJSM2ZILXB5UnVybHlqaTRSMEFOMHdxZjE5Wlpn?oc=5",
+      "p": "Na majstrovstvách sveta očakávala lepší čas. Potrebujem koniec sezóny, vraví Frličková SPORTNET",
+      "s": "SPORTNET",
+      "t": "Na majstrovstvách sveta očakávala lepší čas. Potrebujem koniec sezóny, vraví Frličková",
+      "ts": 1786478143.1741302,
+      "u": "cef154205f4d9b9abe38"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/forsterova-nepostupila-do-finale-na-1/984337-clanok.html",
+      "p": "Forsterová bola vo svojej silnejšej disciplíne nasadená priamo do semifinále.",
+      "s": "TERAZ.SK",
+      "t": "Forsterová nepostúpila do finále na 100 m prek.",
+      "ts": 1786478143.1741316,
+      "u": "ae60666b9c3ee6186e74"
     }
   ],
   "sport_source_status": {
@@ -10700,25 +10680,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786476049.0699048
+      "ts": 1786478143.174091
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786476049.0699067
+      "ts": 1786478143.1740928
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786476049.0699093
+      "ts": 1786478143.1740952
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786476049.069908
+      "ts": 1786478143.174094
     }
   }
 }
