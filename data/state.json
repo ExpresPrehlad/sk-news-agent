@@ -1,46 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Libanon obviňuje Izrael zo zakladania požiarov na juhu krajiny",
-      "ts": 1786613748.8316963
-    },
-    {
-      "headline": "Súkromní lekári žiadajú ombudsmana o objektívny prístup",
-      "ts": 1786613748.8316963
-    },
-    {
-      "headline": "V Petržalke vznikne nový kampus zdravia a športu",
-      "ts": 1786613748.8316963
-    },
-    {
-      "headline": "ICE plánuje nákup elektrošokových rukavíc",
-      "ts": 1786613748.8316963
-    },
-    {
-      "headline": "Kauza blahorečenia biskupa Jána Vojtaššáka pokračuje",
-      "ts": 1786613748.8316963
-    },
-    {
-      "headline": "Nízka hladina Dunaja komplikuje prevádzku jadrových elektrární",
-      "ts": 1786614948.8026202
-    },
-    {
-      "headline": "Izraelsko-libanonské napätie eskaluje kvôli lesným požiarom",
-      "ts": 1786614948.8026202
-    },
-    {
-      "headline": "Nálezy povojnovej munície v korytách riek",
-      "ts": 1786614948.8026202
-    },
-    {
-      "headline": "Súkromní lekári sa ohradili voči kritike ombudsmana",
-      "ts": 1786614948.8026202
-    },
-    {
-      "headline": "ICE plánuje nákup kontroverzných elektrošokových rukavíc",
-      "ts": 1786614948.8026202
-    },
-    {
       "headline": "Putin navštívil sporné Kurilské ostrovy, Japonsko protestuje",
       "ts": 1786615856.8723598
     },
@@ -183,20 +143,58 @@
     {
       "headline": "Google predstavil nové telefóny s dôrazom na AI",
       "ts": 1786628143.9572358
+    },
+    {
+      "headline": "SNS stupňuje tlak na Tarabu: Do septembra má opustiť funkciu",
+      "ts": 1786629350.2199676
+    },
+    {
+      "headline": "Ukrajina hlási najväčší postup za štyri roky",
+      "ts": 1786629350.2199676
+    },
+    {
+      "headline": "Ruské drony narušili vzdušný priestor Rumunska",
+      "ts": 1786629350.2199676
+    },
+    {
+      "headline": "Taraba rokuje o predaji U. S. Steel japonskému investorovi",
+      "ts": 1786629350.2199676
+    },
+    {
+      "headline": "SaS kritizuje vládne zmeny v justícii",
+      "ts": 1786629350.2199676
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
+        "headline": "SNS stupňuje tlak na Tarabu: Do septembra má opustiť funkciu",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/michelko-ocakava-ze-minister-taraba-opusti-svoju-funkciu-do-15-septembra"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2023693-sns-pritvrdzuje-voci-tarabovi-bud-odide-alebo-pridu-na-rad-tvrdsie-scenare-cas-sa-krati"
+          ]
+        ],
+        "perex": "Predseda poslaneckého klubu SNS Roman Michelko očakáva, že minister životného prostredia Tomáš Taraba odíde zo svojho postu do 15. septembra. V prípade, že tak neurobí dobrovoľne, strana nevylučuje tvrdšie scenáre vrátane odvolávania v parlamente."
+      },
+      {
         "headline": "Ukrajina hlási najväčší postup za štyri roky",
         "links": [
           [
             "Denník N",
             "https://dennikn.sk/5504401/vyvoj-bojov-1631-den-ticho-sa-skoncilo-ukrajina-ukazala-najvacsie-oslobodenie-uzemia-za-styri-roky/"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/nGM4vcw/rusky-dron-zasiahol-vlak-pri-odese-dvaja-zelezniciari-zahynuli-a-stovky-cestujucich-evakuovali/"
           ]
         ],
-        "perex": "Ukrajinské sily oznámili rozsiahly postup v Olexandrivskom smere, ktorý je najvýznamnejším oslobodením územia od jesene 2022. Ofenzíva bola utajená a podľa analytikov mení naratív o vývoji vojnového konfliktu."
+        "perex": "Ukrajinské sily oznámili rozsiahly postup v Olexandrivskom smere, ktorý je najväčším oslobodením územia od jesene 2022. Súčasne však krajina čelí zosilneným ruským útokom, vrátane dronového úderu na vlak pri Odese."
       },
       {
         "headline": "Ruské drony narušili vzdušný priestor Rumunska",
@@ -210,7 +208,7 @@
             "https://www.pravda.sk/spravy/svet/clanok/2023723-ruske-drony-prenikli-do-rumunska-bukurest-vyslala-stihacky/"
           ]
         ],
-        "perex": "Počas nočného útoku na ukrajinský prístav Izmajil zaznamenali rumunské radary dva prípady narušenia vzdušného priestoru. Bukurešť v reakcii na incident vyslala do vzduchu stíhačky."
+        "perex": "Rumunské ministerstvo obrany zaznamenalo dva prípady narušenia vzdušného priestoru ruskými dronmi počas útokov na ukrajinský prístav Izmajil. Bukurešť v reakcii na incidenty vyslala do vzduchu stíhačky."
       },
       {
         "headline": "Taraba rokuje o predaji U. S. Steel japonskému investorovi",
@@ -220,279 +218,33 @@
             "https://www.aktuality.sk/clanok/Xbnf2XG/tomas-taraba-teraz-riesime-u-s-steel-ministerstvo-rokuje-s-japonskym-investorom-v-hre-je-8500-miest/"
           ]
         ],
-        "perex": "Minister životného prostredia Tomáš Taraba potvrdil rokovania o vstupe japonskej spoločnosti Nippon Steel do košických oceliarní. Zmena vlastníka, ktorá má nastať v októbri, sa týka pracovných miest tisícok zamestnancov."
+        "perex": "Minister životného prostredia Tomáš Taraba potvrdil, že rezort rokuje s japonským investorom o budúcnosti košických oceliarní. Od 1. októbra by mal podnik prejsť pod spoločnosť Nippon Steel Slovakia."
       },
       {
-        "headline": "Najväčšie AI laboratóriá varujú pred autonómnymi útokmi",
-        "links": [
-          [
-            "Denník N",
-            "https://e.dennikn.sk/5503040/najvacsie-ai-laboratoria-vystrasili-svet-autonomnymi-hackerskymi-utokmi-svojich-modelov-slovensky-expert-vysvetluje-co-sa-stalo/"
-          ]
-        ],
-        "perex": "Popredné spoločnosti vyvíjajúce umelú inteligenciu zaznamenali prípady, kedy sa ich modely počas testov samostatne nabúrali do cudzích systémov. Odborníci varujú, že technológia sa začína v bezpečnostnej oblasti vymykať kontrole."
-      },
-      {
-        "headline": "Google predstavil nové telefóny s dôrazom na AI",
+        "headline": "SaS kritizuje vládne zmeny v justícii",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/closer/c/google-ukazal-nove-ai-telefony-revolucie-sme-sa-nedockali-dostali-este-aj-mensiu-pamat?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+            "https://www.sme.sk/domov/c/sas-kritizuje-suskove-zmeny-v-justicii-podla-strany-oslabia-vyber-aj-hodnotenie-sudcov"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/sas-susko-predlozil-obmedzujuce-zmeny/984753-clanok.html"
           ]
         ],
-        "perex": "Nová séria Pixel 11 prináša podľa recenzentov len minimálne hardvérové zmeny a dokonca zníženú kapacitu pamäte. Hlavným lákadlom noviniek od spoločnosti Google sú rozšírené funkcie umelej inteligencie."
+        "perex": "Strana SaS vyzvala ministra spravodlivosti Borisa Suska, aby stiahol návrhy zmien v justícii. Podľa opozície tieto kroky oslabia proces výberu a hodnotenia sudcov."
       }
     ],
-    "ts": 1786628143.9572275
+    "ts": 1786629350.2199585
   },
   "meta": {
-    "last_collection_ts": 1786628132.5120423,
+    "last_collection_ts": 1786629332.7270987,
     "last_feed_error_ts": 1786613741.3997595,
     "last_llm_error_ts": 1786617545.5936332,
-    "last_run_ts": 1786628132.8925703,
-    "last_synthesis_ts": 1786628143.957223
+    "last_run_ts": 1786629333.3292527,
+    "last_synthesis_ts": 1786629350.2199533
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/na-celom-slovensku-plati-cas-zvyseneho-nebezpecenstva-vzniku-poziaru?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Aj malá nepozornosť môže mať následky.",
-      "s": "SME",
-      "t": "Na celom Slovensku platí čas zvýšeného nebezpečenstva vzniku požiaru",
-      "ts": 1786541745.3487046,
-      "u": "6657d3cf7b2ee8f96ff1"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/v-zimbabwe-nasli-uz-44-obeti-po-prevrateni-trajektu-na-jazere-kariba?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zachrániť sa podarilo 77 osôb.",
-      "s": "SME",
-      "t": "V Zimbabwe našli už 44 obetí po prevrátení trajektu na jazere Kariba",
-      "ts": 1786541745.348708,
-      "u": "3d910ad4e3eece0d3d5c"
-    },
-    {
-      "l": "https://www.sme.sk/magazin-zdravia/c/co-hovori-veda-o-opalovani-pokozku-treba-na-slnko-pripravit-aj-zvnutra?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zmeňte slnko z hrozby na partnera.",
-      "s": "SME",
-      "t": "Čo hovorí veda o opaľovaní: Pokožku treba na slnko pripraviť aj zvnútra",
-      "ts": 1786541745.3487096,
-      "u": "bc78372df0ce38437ed8"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/zomrela-vyznamna-literarna-vedkyna-marta-souckova?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Publikovala vo viacerých periodikách.",
-      "s": "SME",
-      "t": "Zomrela významná literárna vedkyňa Marta Součková",
-      "ts": 1786541745.348711,
-      "u": "c2c23781ebadda784731"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/v-turecku-sa-zrutila-stihacka-f-16-pilot-sa-katapultoval?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Príčina nehody sa vyšetruje.",
-      "s": "SME",
-      "t": "V Turecku sa zrútila stíhačka F-16. Pilot sa katapultoval",
-      "ts": 1786541745.348712,
-      "u": "3c0b45e490a6cad28520"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdHN1WHc3VmgwbC1zaTFrWmdaNG5WOE95eGZvc09JRTNqY3NMSW41ZHpjRFl1bUw1OXFwYW5hVUZ4NGhVbGwyd1dBQkctWml6aHZrZGJEMlU3YXBXNi1lOXFhVm1wVDM2NUdjRHZkbWt1MjhfZjBMa3lheFIzNWZEeC1GWXpsb2RRenlhU3RhbVJLODdXZlhpczZaYXhjbDlzWTZJ?oc=5",
-      "p": "Diskusia: Sedemnásť sezón profi hokeja a olympiáda v Soči. Bystrica angažovala skúseného slovinského centra SPORTNET",
-      "s": "SME (GNews)",
-      "t": "Diskusia: Sedemnásť sezón profi hokeja a olympiáda v Soči. Bystrica angažovala skúseného slovinského centra - SPORTNET",
-      "ts": 1786541745.3487134,
-      "u": "f2649b6adc579c359308"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/UtPDAwy/hasici-varuju-pred-poziarmi-vyhlasili-cas-zvyseneho-nebezpecenstva-pre-cele-slovensko/",
-      "p": "Hasičský a záchranný zbor (HaZZ) upozorňuje, že riziko je mimoriadne vysoké, a pripomína prísne zákazy vrátane zakladania ohňa či vypaľovania porastov.",
-      "s": "Aktuality",
-      "t": "Hasiči varujú pred požiarmi: Vyhlásili čas zvýšeného nebezpečenstva pre celé Slovensko",
-      "ts": 1786541745.3487146,
-      "u": "112eb80c0feed7624747"
-    },
-    {
-      "l": "https://dennikn.sk/5498522/nechceli-v-triedach-socialne-bubliny-ale-male-slovenska-zvolenska-alma-spaja-kvalitne-vzdelanie-s-inkluziou/",
-      "p": "Základnú školu v širšom centre Zvolena na Jilemnického ulici poznal každý ako „rómsku“. Keďže Zvolenčania zapisovali svoje deti do iných škôl v meste, v roku 2023 sa do prvého ročníka hlásilo už len 13 žiakov. Na obrat o 180 stupňov stačili len dva roky, verejná základná škola medzitým zmenila zriaď",
-      "s": "Denník N",
-      "t": "Nechceli v triedach sociálne bubliny, ale malé Slovenská. Zvolenská Alma spája kvalitné vzdelanie s inklúziou",
-      "ts": 1786541745.3487163,
-      "u": "051e29b2279f0ccecb72"
-    },
-    {
-      "l": "https://dennikn.sk/5501042/vyvoj-bojov-1630-den-co-sa-deje-v-slavnej-moskovskej-rafinerii-ktorej-pri-vybuchu-odletela-strecha/",
-      "p": "Teplotná analýza z vesmíru pomáha určovať rozsah škôd. Ukrajinskí vojaci postúpili k dôležitej obci Komar. Rusi tvrdia, že dobyli inú dedinu o 50 kilometrov ďalej. Ruské útoky vyprázdnili kyjivské regály s potravinami. Pokračujú vzájomné útoky na export obilia – tentoraz Ukrajinci odrezali námorný t",
-      "s": "Denník N",
-      "t": "Vývoj bojov (1630. deň): Čo sa deje v slávnej moskovskej rafinérii, ktorej pri výbuchu „odletela strecha“",
-      "ts": 1786541745.3487175,
-      "u": "ce38ef733329e90f81d8"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2023059-iran-schladil-spravy-o-primeri-s-usa-niet-co-predlzovat-washington-dohodu-porusil-uz-po-48-hodinach?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Irán a Spojené štáty nerokujú o predĺžení prímeria, pretože z pohľadu Teheránu ich vzájomná dohoda nemala stanovený dátum začiatku, a tým pádom nebolo čo predĺžiť. Pre agentúru Reuters to v stredu povedal vysokopostavený iránsky predstaviteľ.",
-      "s": "Pravda",
-      "t": "Irán schladil správy o prímerí s USA: Niet čo predlžovať, Washington dohodu porušil už po 48 hodinách",
-      "ts": 1786541745.3487194,
-      "u": "e2323a2463103b756304"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/sr-podpori-11-rozvojovych-projektov-sl/984544-clanok.html",
-      "p": "Program podnikateľských partnerstiev dlhodobo vytvára priestor na zapájanie slovenského súkromného sektora do rozvojovej spolupráce.",
-      "s": "Teraz.sk",
-      "t": "SR podporí 11 rozvojových projektov slovenských firiem v zahraničí",
-      "ts": 1786541745.3487215,
-      "u": "f324b89a031416ddbab1"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/ps-vyzvalo-sutaja-estoka-aby-zverejni/984538-clanok.html",
-      "p": "Bátor poznamenal, že kamery i v testovacej prevádzke bežali a snímali ľudí. Ak ich v systéme na zisťovanie porušení pravidiel cestnej premávky chceli otestovať, museli ich naň pripojiť.",
-      "s": "Teraz.sk",
-      "t": "PS vyzvalo Šutaja Eštoka, aby zverejnil všetky informácie o kamerách",
-      "ts": 1786541745.3487225,
-      "u": "44e7ff42dc7cad05623b"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/rezort-vyzyva-oznamit-podozrenia-pri/984543-clanok.html",
-      "p": "Oznámiť ich treba Úradu pre dohľad nad zdravotnou starostlivosťou (ÚDZS), Operačnému stredisku záchrannej zdravotnej služby a rezortu zdravotníctva.",
-      "s": "Teraz.sk",
-      "t": "Rezort vyzýva oznámiť podozrenia pri záchrannej zdravotnej službe",
-      "ts": 1786541745.3487236,
-      "u": "81ae7597e8b3cf180bd0"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/diskutuje-sa-o-elektronickom-monitoringu/984533-clanok.html",
-      "p": "Témam sa venovalo spoločné pracovné stretnutie za účasti zástupcov viacerých inštitúcií, odborníkov a tretieho sektora. Rezort o tom informoval na svojom webe.",
-      "s": "Teraz.sk",
-      "t": "Diskutuje sa o elektronickom monitoringu pri diváckom násilí",
-      "ts": 1786541745.3487248,
-      "u": "39fffa3be88734ba613c"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1245404-nemecko-zakaze-detom-mladsim-ako-16-rokov-pit-alkohol-aj-za-pritomnosti-rodicov",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Nemecko zakáže deťom mladším ako 16 rokov piť alkohol aj za prítomnosti rodičov",
-      "ts": 1786541745.348726,
-      "u": "4a599173b1259a567df2"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1245343-hmyz-moze-robit-lepsie-rozhodnutia-ako-ludia-co-nas-mozu-naucit-mravce-vcely-ci-svaby",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Hmyz môže robiť lepšie rozhodnutia ako ľudia. Čo by nás mohli naučiť mravce, včely či šváby?",
-      "ts": 1786541745.3487272,
-      "u": "6ffc090c74b438b1dcf2"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1245318-chystate-sa-na-splav-zachranari-upozornuju-na-rizika-ktore-netreba-podcenit",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Chystáte sa na splav? Záchranári upozorňujú na riziká, ktoré netreba podceniť",
-      "ts": 1786541745.348729,
-      "u": "7dfb960649bede99b776"
-    },
-    {
-      "l": "https://www.noviny.sk/pr-spravy/1242685-tropicke-sestonedelie-co-robia-horucavy-s-telom-mamy-a-babaetka",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Tropické šestonedelie. Čo robia horúčavy s telom mamy a bábätka?",
-      "ts": 1786541745.34873,
-      "u": "051d33cc7dd8f30ab70f"
-    },
-    {
-      "l": "https://www.sme.sk/kultura/c/fpu-chce-sefovat-okrem-kornaja-aj-referentka-ci-byvaly-riaditel-nitrianskeho-divadla?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "",
-      "s": "SME",
-      "t": "FPU chce šéfovať okrem Kornaja aj referentka či bývalý riaditeľ nitrianskeho divadla",
-      "ts": 1786542939.114635,
-      "u": "d9abddc40a6cdcd35802"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/kolumbia-vyhlasila-trojdnovy-statny-smutok-za-obete-zemetrasenia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zomrelo viac ako 200 ľudí.",
-      "s": "SME",
-      "t": "Kolumbia vyhlásila trojdňový štátny smútok za obete zemetrasenia",
-      "ts": 1786542939.1146379,
-      "u": "e9b12568e48abc3d0be3"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/polsko-sa-stazuje-na-vylucenie-predplatitelov-starlinku-z-europskeho-roamingu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zmena prinúti používateľov mimo Poľska opakovane predkladať pas a prejsť na drahšie prémiové tarify.",
-      "s": "SME",
-      "t": "Poľsko sa sťažuje na vylúčenie predplatiteľov Starlinku z európskeho roamingu",
-      "ts": 1786542939.1146398,
-      "u": "c67f200e853213e54416"
-    },
-    {
-      "l": "https://www.sme.sk/komentare/c/konecne-vieme-co-je-premierska-tema-cynicka-obluda?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Sú v strehu, to im treba uznať chalanom koaličným.",
-      "s": "SME",
-      "t": "Cynická obluda: Konečne vieme, čo je premiérska téma",
-      "ts": 1786542939.1146414,
-      "u": "2cee1964e9f9f8d327a1"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/sutajove-estokove-radary-su-ruske-minister-aj-dodavatel-tvrdia-ze-boli-oklamani?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "PS hovorí o škandále európskeho rozmeru.",
-      "s": "SME",
-      "t": "Radary sú ruské. Môj rezort nespravil chybu, tvrdí Šutaj Eštok a viní dodávateľa aj metrológov",
-      "ts": 1786542939.1146424,
-      "u": "8f13424c586166ab8717"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV1ltQmI2d08tXzIyVUNUUVhfTlE0Tzg5Sy1BTE93OF9YZUxKVTBjV1F4RkRnaGcyLW00aEJydi1jWElVQVpOWFhLSkJRNEx3V1FnVXlKaGllQm1faVBnSW5sT1UwTWpBbjRYUFZFWXB0UTZ2cmRubEdJNDBHRmw2dFRmLVhaSUVJcEswRGRJZnVSQ2JaMUE2RS1QU2t0RUpsZW9BWWN3?oc=5",
-      "p": "Poľsko sa sťažuje na vylúčenie predplatiteľov Starlinku z európskeho roamingu SME.sk",
-      "s": "SME (GNews)",
-      "t": "Poľsko sa sťažuje na vylúčenie predplatiteľov Starlinku z európskeho roamingu - SME.sk",
-      "ts": 1786542939.1146438,
-      "u": "5203bdbe101472c0f2e2"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeTZKVkwxWHZHLUpQaFE0XzZrSFQzZm51SkRtVmlpeUhRM2g3NHZSbU9MQUp4NFZKSzF0SkJtNi1sX1Zja0MwTnZQaUhpT2NpQzhzSF9BbmFIYXdNc254Mk5DU2ppYm14c0VJSmF4aVRMRXo3elFCZ1FiOWp4UnhSWmJfQkgxNlNjSm9NVXNPRjZOc0gwN2E1UXVsNUdQNnl6?oc=5",
-      "p": "Slovinská jadrová elektráreň Krško zníži pre horúčavy výkon na 80 percent SME.sk",
-      "s": "SME (GNews)",
-      "t": "Slovinská jadrová elektráreň Krško zníži pre horúčavy výkon na 80 percent - SME.sk",
-      "ts": 1786542939.1146452,
-      "u": "df4efb2040a7fa9ec4c7"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/RpG9hYx/palestinski-studenti-zazalovali-kolumbiu-tvrdia-ze-univerzita-ich-od-roku-2023-systematicky-diskriminuje/",
-      "p": "Palestínski študenti a zamestnanci žalujú Kolumbijskú univerzitu za systematickú diskrimináciu. Tvrdia, že škola ich nechala napospas obťažovaniu.",
-      "s": "Aktuality",
-      "t": "Palestínski študenti zažalovali Kolumbiu. Tvrdia, že univerzita ich od roku 2023 systematicky diskriminuje",
-      "ts": 1786542939.1146464,
-      "u": "be356b69b7d4bef3c659"
-    },
-    {
-      "l": "https://dennikn.sk/5498226/ako-vyzera-nizka-hladina-dunaja-na-slovensku-z-vesmiru-porovnanie-s-minulym-rokom/",
-      "p": "Ak má niekto radosť, že hladina Dunaja výrazne klesla, sú to archeológovia. Vo viacerých štátoch mohli vďaka tomu preskúmať viacero historických skvostov – potopené nacistické lode v Srbsku, rímsky most cez Dunaj medzi Bulharskom a Rumunskom alebo koly z dreveného mosta v Komárne. Na niektorých mies",
-      "s": "Denník N",
-      "t": "Ako vyzerá nízka hladina Dunaja na Slovensku z vesmíru (porovnanie s minulým rokom)",
-      "ts": 1786542939.1146486,
-      "u": "d3f5b15676592e0fcaed"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2023079-muskov-starlink-odstrihol-poliakov-od-vyhodnejsich-pravidiel-varsava-zuri-preco-mame-byt-horsi-nez-zvysok-europy?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Poľská vláda v stredu ostro kritizovala rozhodnutie americkej spoločnosti Starlink vylúčiť Poľsko z nových európskych roamingových pravidiel pre prístup na internet, čo podľa Varšavy znamená zhoršené podmienky pre poľských zákazníkov.",
-      "s": "Pravda",
-      "t": "Muskov Starlink odstrihol Poliakov od výhodnejších pravidiel. Varšava zúri: Prečo máme byť horší než zvyšok Európy?",
-      "ts": 1786542939.1146498,
-      "u": "d32add81430d59d6ac05"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2023067-zufale-casy-si-ziadaju-zufale-riesenia-kazachstan-bojuje-proti-suchu-zasievanim-dazda?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Nad vyprahnutými stepami južného Kazachstanu sa vznieslo malé lietadlo s nezvyčajnou úlohou: priviesť dážď tam, kde už mesiace nepršalo. Krajina sužovaná extrémnym suchom a nedostatkom vody začala skúšať metódu, ktorá je v Strednej Ázii novinkou – umelé „zasievanie oblakov“.",
-      "s": "Pravda",
-      "t": "Zúfalé časy si žiadajú zúfalé riešenia. Kazachstan bojuje proti suchu zasievaním dažďa",
-      "ts": 1786542939.1146512,
-      "u": "8abc466a96994a6fc4aa"
-    },
-    {
-      "l": "https://www.noviny.sk/ekonomika/1245379-analyzy-24-horucavy-menia-ekonomiku-miklos-a-vano-upozornuju-na-drahsiu-energiu-aj-potraviny",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Analýzy 24: Horúčavy menia ekonomiku. Mikloš a Vaňo upozorňujú na drahšiu energiu aj potraviny",
-      "ts": 1786542939.114653,
-      "u": "f62d7469720fde1a6375"
-    },
     {
       "l": "https://www.sme.sk/svet/c/v-grecku-zadrzali-v-suvislosti-s-poziarmi-281-ludi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Usvedčeným z úmyslu hrozí až 20-ročný väzenský trest a pokuta 200-tisíc eur.",
@@ -3972,18 +3724,89 @@
       "t": "Výbuch v Rotterdame. Hlásia najmenej jednu obeť a viacerých zranených",
       "ts": 1786628132.8917017,
       "u": "56fa08298d207a1ba657"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/danko-si-spomenul-ze-je-v-koalicii?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Keď chcel Fica pritlačiť, mal to urobiť minule.",
+      "s": "SME",
+      "t": "Danko si spomenul, že je v koalícii",
+      "ts": 1786629333.3287117,
+      "u": "90e0d289c24b9d0f1884"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/slovak-ktory-radil-miklosovi-do-desiatich-rokov-budu-vsetky-financie-na-blockchaine-rozhovor?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Výhodou je, že sa naň nevzťahuje transakčná daň, hovorí Martin Bruncko.",
+      "s": "SME",
+      "t": "Slovák, ktorý radil Miklošovi: Do desiatich rokov budú všetky financie na blockchaine (rozhovor)",
+      "ts": 1786629333.3287148,
+      "u": "67d373a084f36f174085"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/nepriechodne-z-bozej-vole?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Zdravotnícke reformy nevie nikto politicky presadiť. Zrejme ani v Česku.",
+      "s": "SME",
+      "t": "Nepriechodné z božej vôle",
+      "ts": 1786629333.328717,
+      "u": "ac6a165e846d8e939089"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU19oMlVSWjltbjA5cGg4djFwbGFYdmpYQmRodjZSTU5Pa3BTejdwWGZnTXc2TUtURlJkS0Z5Sm1NSktpbG1GRzNjRGJVbmZ5SWtJTTZmZjRtX3U5MW1BaWZzanFiSkdWMWx0cWNza25LeWg0N0czLTd5WmltSEJScVY4Vl9TMmVDR1VicWNWMnZzMnRyNGdCV05n?oc=5",
+      "p": "PS žiada pre dopravné kamery zasadnutie brannobezpečnostného výboru SME.sk",
+      "s": "SME (GNews)",
+      "t": "PS žiada pre dopravné kamery zasadnutie brannobezpečnostného výboru - SME.sk",
+      "ts": 1786629333.3287184,
+      "u": "3b438715e0eba4509e29"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUklqUHRTdEhLMmVySUV6eE9ST1daYmRTeWpYelkzTWFVWV90RlhBZkpBVFY5Q0FOVEc1bHRZOTVYZWpyMGlxMEtFZTl5MnBrVHBmdEVacFhUUzZNcnZ6YXpUOXVlcVVJODhzdFlhZHgwUFZQMUEzR0RXUUtPeXFCVEJKWGU3VW9uWDhSODdsTjdINXVBeTNmY3NUQ3hSdw?oc=5",
+      "p": "Vládna reforma podľa opozičnej SaS ohrozuje ambulantné sociálne služby SME.sk",
+      "s": "SME (GNews)",
+      "t": "Vládna reforma podľa opozičnej SaS ohrozuje ambulantné sociálne služby - SME.sk",
+      "ts": 1786629333.32872,
+      "u": "3b76cbce6853176e4604"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2023709-braunsberg-zatmenie-slnka-mesiac-rakusko-reportaz?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Na svahu nad Dunajom sedia vedľa seba deti, mladé páry aj starší ľudia. Pred nimi nie je pódium ani plátno. Iba otvorený horizont a Slnko, z ktorého postupne „ukrajuje“ Mesiac. Keď napokon zmizne za horizontom, z prírodného hľadiska na rakúskom Braunsbergu sa ozve potlesk. Pravda vyrazila sledovať j",
+      "s": "Pravda",
+      "t": "Slnku a Mesiacu na záver zatlieskali. Takto vyzeralo zatmenie na kopci nad Hainburgom",
+      "ts": 1786629333.3287227,
+      "u": "9747962fbe3b267432e6"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/prihlasovanie-do-europskej-ceny-pre-pre/984787-clanok.html",
+      "p": "Úspech v medzinárodnom kole môže priniesť nielen publicitu a uznanie, ale i finančné ohodnotenie vo výške 5000 až 10.000 eur.",
+      "s": "Teraz.sk",
+      "t": "Prihlasovanie do Európskej ceny pre prevenciu kriminality predĺžili",
+      "ts": 1786629333.328724,
+      "u": "7e3ab42220611cd70ae3"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/vo-velkych-karloviciach-bude-vystava-o/984778-clanok.html",
+      "p": "Výstava využíva vizuálne a interaktívne prvky, prostredníctvom ktorých približuje rôzne pohľady na beskydskú krajinu.",
+      "s": "Teraz.sk",
+      "t": "Vo Velkých Karloviciach bude výstava o Beskydách očami ľudí i prírody",
+      "ts": 1786629333.3287246,
+      "u": "53e8cd2b681e649d1e29"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1245824-slovak-prevazal-v-dodavke-migrantov-zadrzala-ho-slovinska-policia",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Slovák prevážal v dodávke migrantov. Zadržala ho slovinská polícia",
+      "ts": 1786629333.3287263,
+      "u": "4ada812d96aa30736a35"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1245820-rumunska-jadrova-elektraren-cernavoda-uplne-odstavena-dunaj-spadol-na-kriticke-minimum",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Rumunská jadrová elektráreň Cernavoda je úplne odstavená: Dunaj spadol na kritické minimum",
+      "ts": 1786629333.3287277,
+      "u": "320ccf34d0128395f65e"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/2ELV0y0/teplota-vzduchu-na-slovensku-prvykrat-v-historii-prekonala-42-stupnov/"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o historicky najvyššiu nameranú teplotu na území Slovenska, čo predstavuje mimoriadny meteorologický jav s priamym dopadom na verejnosť.",
-      "title": "Teplota vzduchu na Slovensku prvýkrát v histórii prekonal 42 stupňov",
-      "ts": 1786023345.7745304
-    },
     {
       "links": [
         "https://www.aktuality.sk/clanok/cbw3NFR/rusko-moze-zautocit-na-pobaltie-ukoristenymi-dronmi-z-ukrajiny-litva-varuje-pred-operaciou-pod-falosnou-vlajkou/"
@@ -4701,6 +4524,15 @@
       "reason": "Ide o priame narušenie vzdušného priestoru členského štátu NATO v tesnej blízkosti hraníc s Ukrajinou, čo predstavuje riziko eskalácie konfliktu v regióne.",
       "title": "Rumunsko zaznamenalo dve narušenia vzdušného priestoru pri hraniciach s Ukrajinou",
       "ts": 1786626663.5664902
+    },
+    {
+      "links": [
+        "https://www.noviny.sk/zahranicie/1245820-rumunska-jadrova-elektraren-cernavoda-uplne-odstavena-dunaj-spadol-na-kriticke-minimum"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Odstavenie jadrovej elektrárne z dôvodu kritického stavu vodného toku Dunaja predstavuje významné bezpečnostné a energetické riziko s možným cezhraničným dopadom.",
+      "title": "Rumunská jadrová elektráreň Cernavoda je úplne odstavená: Dunaj spadol na kritické minimum",
+      "ts": 1786629337.8318574
     }
   ],
   "seen": {
@@ -5463,6 +5295,7 @@
     "31e639e8e4fd096fffb6": 1786557344.696896,
     "3202113265131d00804c": 1786292442.0811894,
     "3205a80e97407fe4b0a9": 1786128949.1056457,
+    "320ccf34d0128395f65e": 1786629333.3287272,
     "321390c118511fea0c34": 1786094008.5087478,
     "32144afe7ebfa3e7df36": 1786082495.9418225,
     "3227a7189f1624a8ef39": 1786116937.37166,
@@ -5608,7 +5441,9 @@
     "3adc40e7f19db36e9a9f": 1786101038.4649315,
     "3af1c3aed508efc530da": 1786025441.6080108,
     "3b2f4881c60f1732e2a3": 1786462543.9849982,
+    "3b438715e0eba4509e29": 1786629333.3287177,
     "3b6cbb6ef106200401e9": 1786419332.7680871,
+    "3b76cbce6853176e4604": 1786629333.3287191,
     "3bb0f399e16179260149": 1786363847.407516,
     "3bb789714a72e6af4f29": 1786349461.1997793,
     "3bc98f206433c423259f": 1786348548.4125783,
@@ -5834,6 +5669,7 @@
     "4aabaf63efd7019314cd": 1786082495.9418058,
     "4abd7cb1fe7aaab7b525": 1786432253.0012388,
     "4abf4c6faccdaf497afa": 1786626653.9510577,
+    "4ada812d96aa30736a35": 1786629333.3287253,
     "4ade0eead8501a002d62": 1786107343.3232443,
     "4ae43cf2539ae7c5819e": 1786470935.138353,
     "4ae81d77b575601a4181": 1786290947.090723,
@@ -5988,6 +5824,7 @@
     "5399cc9254770fb59332": 1786372441.014024,
     "53a0caff181d44b0997b": 1786092933.8214238,
     "53acd5906c0cf8a0629b": 1786274438.0685904,
+    "53e8cd2b681e649d1e29": 1786629333.3287241,
     "53ef479d1b8b9b4881b6": 1786425049.4590356,
     "541bc8e191ef2be381f0": 1786278040.3494892,
     "54204fe036e1a4522f15": 1786358141.5310738,
@@ -6323,6 +6160,7 @@
     "679ac3532ce2ba65b6ee": 1786355742.4513063,
     "679e99e9081782550f56": 1786353043.817679,
     "67d3280cb726385a1767": 1786467345.6881099,
+    "67d373a084f36f174085": 1786629333.3287132,
     "67e3487882e24392968c": 1786617342.4193132,
     "67ed0b4a5ff038790918": 1786205441.6580272,
     "67f83468a91a347d130c": 1786419332.768064,
@@ -6630,6 +6468,7 @@
     "79fce3a667f553cc67be": 1786560129.9676301,
     "7a4841c75daaee4533ae": 1786628132.8917081,
     "7a4a3d585fdc62ae8d67": 1786604134.290674,
+    "7a55dd313bc4fcb3e92a": 1786629333.328729,
     "7a71442789370f636212": 1786332934.5137274,
     "7a96e65c3abc574fe9fc": 1786269333.818474,
     "7a9e57190fd6f7b586aa": 1786617342.4193182,
@@ -6672,6 +6511,7 @@
     "7dfb960649bede99b776": 1786541745.3487277,
     "7e1c74798ecf2cc6ed7f": 1786419332.7682912,
     "7e372e6f9ac3c41b2d33": 1786525855.858673,
+    "7e3ab42220611cd70ae3": 1786629333.3287232,
     "7e4cb11348089ae6f37e": 1786430143.524898,
     "7e65ef963a56215ae2a6": 1786073737.1308532,
     "7e90589f7bef9d1aa290": 1786128949.1056442,
@@ -6956,6 +6796,7 @@
     "90ceb6b818ae9e4c021f": 1786449336.8902664,
     "90d004616c4da1a91c1e": 1786380934.993344,
     "90db38ca0e3f27707137": 1786092933.8214228,
+    "90e0d289c24b9d0f1884": 1786629333.3287072,
     "90f163a55d95f9a6b9e3": 1786103745.586485,
     "90f6bc9fd7992b34f7ba": 1786262140.003826,
     "912a63c749afe073c4b5": 1786216239.893339,
@@ -7069,6 +6910,7 @@
     "9725dae765310ee7c2ce": 1786106143.6532555,
     "97331487725f9e1ca6cc": 1786246544.1282678,
     "973cdcee63aafb921f1e": 1786604134.290684,
+    "9747962fbe3b267432e6": 1786629333.3287206,
     "97552f68057e187d5a89": 1786332934.5135674,
     "97809e4f413e5a4cca8b": 1786388141.3308237,
     "9786a3ec5ccd49d42e30": 1786370141.776234,
@@ -7397,6 +7239,7 @@
     "ac390f0902cf269af52d": 1786167337.284118,
     "ac404d3a247184c9e298": 1786187440.4509192,
     "ac535661cd64ccf37aae": 1786169446.315077,
+    "ac6a165e846d8e939089": 1786629333.3287158,
     "ac7e5752190781f93184": 1786447727.4435868,
     "acb48aca368dc3623b52": 1786163747.893645,
     "acb5bca20280221e1db0": 1786481738.4356627,
@@ -8715,136 +8558,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786628132.8916674
+      "ts": 1786629333.3286853
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786628132.891669
+      "ts": 1786629333.328687
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786628132.8916717
+      "ts": 1786629333.3286896
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786628132.8916755
+      "ts": 1786629333.3286939
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786628132.89167
+      "ts": 1786629333.3286881
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786628132.8916607
+      "ts": 1786629333.3286777
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786628132.8916657
+      "ts": 1786629333.328683
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786628132.8916745
+      "ts": 1786629333.328693
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786628132.8916726
+      "ts": 1786629333.328691
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786628132.8916736
+      "ts": 1786629333.328692
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/ruzomberok-si-poistil-iba-17-rocny-talent-tobias-jan-mirko-nike-liga-2026081213090381263",
-      "p": "Účastník najvyššej slovenskej futbalovej súťaže MFK Ružomberok podpísal trojročný kontrakt so 17–ročným útočníkom Tobiasom Jánom Mirkom.",
-      "s": "Šport.sk",
-      "t": "Veľký deň pre mládežníckeho reprezentanta. Ružomberok si poistil iba 17-ročný talent",
-      "ts": 1786541745.348733,
-      "u": "a7e9a054d56f826be70d"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVmU4cUdlT0pEQ3U3eDVSanBFb3QxcWZLRWxXd2o0QWdFQTE5TXdVdlJzaFV5eXg4NXdvSUxDaVRCVkdObXhRbWs1UV9nWS1HQjl4eV9OX19NMW9DRndhZjRwOGRvYlFqZ0ozTi1jMDFBLVIxZk54Sk5Cd1Z1eWhZNW5raTZyOTlwNXI5N2J3?oc=5",
-      "p": "Slováci zabojujú po piatich rokoch o finále. Kde sledovať zápas Slovensko - USA? (TV program) SPORTNET",
-      "s": "SPORTNET",
-      "t": "Slováci zabojujú po piatich rokoch o finále. Kde sledovať zápas Slovensko - USA? (TV program)",
-      "ts": 1786541745.3487353,
-      "u": "71897863dfe86db29905"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/ruzomberok-podpisal-trojrocnu-zmluvu/984542-clanok.html",
-      "p": "Mladík začínal s futbalom v Spišskom Bystrom a pod Čebrať prišiel ako 13–ročný žiak z FC Poprad – Stráže.",
-      "s": "TERAZ.SK",
-      "t": "Ružomberok podpísal trojročnú zmluvu so 17-ročným Jánom Mirkom",
-      "ts": 1786541745.3487368,
-      "u": "95863dd8d1b0829a97b7"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/jekaterinburg-ziskal-prava-na-ruzick/984537-clanok.html",
-      "p": "Ružička odohral uplynulé dve sezóny v drese Spartaka Moskva.",
-      "s": "TERAZ.SK",
-      "t": "Jekaterinburg získal práva na Ružičku",
-      "ts": 1786541745.3487377,
-      "u": "3a67dad35c1236f93001"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/banska-bystrica-angazovala-slovinskeh/984532-clanok.html",
-      "p": "Tridsaťsedemročný útočník má za sebou 17 sezón v profesionálnom hokeji, počas ktorých si zahral i v nadnárodnej KHL a predstavil sa so Slovinskom na zimných olympijských hrách 2014 v Soči.",
-      "s": "TERAZ.SK",
-      "t": "Banská Bystrica angažovala slovinského reprezentanta Tičara",
-      "ts": 1786541745.3487387,
-      "u": "a974222b8489e2c34601"
-    },
-    {
-      "l": "https://sport.aktuality.sk/hokej/clanok/peter-cehlarik-trenuje-v-ziline-v-hre-je-aj-necakany-extraligovy-start-2026081213360302681",
-      "p": "Slovenský hokejový reprezentant Peter Cehlárik trénuje počas letnej prípravy na novú sezónu s extraligovým tímom Vlci Žilina. Vedenie klubu nevylučuje, že 31-ročný útočník nastúpi za „vlkov“ aj v prípravných zápasoch či v samotnom úvode nového ročníka Tipsport ligy.",
-      "s": "Šport.sk",
-      "t": "Návrat k materským koreňom! Peter Cehlárik trénuje v Žiline, v hre je aj nečakaný extraligový štart",
-      "ts": 1786542939.1146562,
-      "u": "372cce7c492f685b3edd"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/lionel-messi-napisal-dojemny-odkaz-zosnulemu-otcovi-2026081213210447456",
-      "p": "Argentínska superhviezda Lionel Messi prvýkrát verejne prehovoril o svojich emóciách po smrti svojho otca Jorgeho Messiho. Útočník to urobil v dlhom a dojemnom liste, ktorý zverejnil na Instagrame.",
-      "s": "Šport.sk",
-      "t": "Lionel Messi prehovoril prvýkrát od smrti otca: Neviem, ako bez teba pokračovať",
-      "ts": 1786542939.1146579,
-      "u": "c5d53a35754433f04e91"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/louis-van-gaal-holandsko-trener-reprezentacia-2026080311472481905",
-      "p": "Holandská futbalová federácia po rezignácii Ronalda Koemana na poste trénera reprezentácie čelí jednému odmietnutiu za druhým.",
-      "s": "Šport.sk",
-      "t": "Holandská reprezentácia čelí jednému odmietnutiu za druhým. Vráti sa na lavičku legendárne meno?",
-      "ts": 1786542939.114659,
-      "u": "82b02ee988271f36f522"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/cehlarik-sa-pripravuje-s-hracmi-zili/984552-clanok.html",
-      "p": "Žilinský odchovanec bude vo svojej kariére pokračovať v najvyššej švédskej súťaži SHL, v júli podpísal dvojročnú zmluvu s Växjö Lakers.",
-      "s": "TERAZ.SK",
-      "t": "Cehlárik sa pripravuje s hráčmi Žiliny, nevylučuje štart za Vlkov",
-      "ts": 1786542939.1146605,
-      "u": "4bc939a71e5e5fecd763"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/cristiano-ronaldo-poslal-messimu-dojemny-odkaz-po-smrti-otca-2026081213473066892",
       "p": "Cristiano Ronaldo vyjadril úprimnú sústrasť svojmu dlhoročnému rivalovi na futbalových trávnikoch Lionelovi Messimu, ktorý minulý týždeň prišiel o svojho otca Jorgeho Messiho.",
@@ -10260,6 +10031,14 @@
       "t": "Slovenskí mladíci uspeli na medzinárodnej scéne, Mečíř: Potešili nás",
       "ts": 1786628132.8917146,
       "u": "f6539282f4a65b5e981b"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/bayern-mnichov-ceny-vstupeniek-allianz-arena-2026080612312718262",
+      "p": "Generálny riaditeľ Bayernu Mníchov Jan-Christian Dreesen prezradil, že na zápas „Der Klassiker“ proti Borussii Dortmund dostal klub až 350 000 žiadostí o vstupenky.",
+      "s": "Šport.sk",
+      "t": "Šialenstvo! Allianz Arenu rúcajú státisíce žiadostí o lístky, Bayern napriek tomu drží ceny pri zemi",
+      "ts": 1786629333.3287308,
+      "u": "7a55dd313bc4fcb3e92a"
     }
   ],
   "sport_source_status": {
@@ -10267,25 +10046,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786628132.8916776
+      "ts": 1786629333.3286967
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786628132.8916798
+      "ts": 1786629333.3286986
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786628132.8916826
+      "ts": 1786629333.3287015
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786628132.8916812
+      "ts": 1786629333.3286998
     }
   }
 }
