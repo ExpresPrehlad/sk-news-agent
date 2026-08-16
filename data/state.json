@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Tragické požiare na gréckom ostrove Salamina",
-      "ts": 1786893648.189466
-    },
-    {
-      "headline": "Irán vyhlásil odmeny za útoky na amerických vojakov",
-      "ts": 1786893648.189466
-    },
-    {
-      "headline": "Poľsko a Ukrajina v napätí pre historické spory",
-      "ts": 1786893648.189466
-    },
-    {
-      "headline": "Kritika tendra na záchrannú službu",
-      "ts": 1786893648.189466
-    },
-    {
-      "headline": "Požiar v chorvátskom Omiši zanechal zranených v kritickom stave",
-      "ts": 1786893648.189466
-    },
-    {
       "headline": "Danko žiada výmenu Tarabu na poste ministra",
       "ts": 1786895474.674681
     },
@@ -99,100 +79,136 @@
     {
       "headline": "Moslimské krajiny kritizujú Izrael za odmietnutie mierového plánu",
       "ts": 1786905348.6750498
+    },
+    {
+      "headline": "Tragická nehoda poľského autobusu v Maďarsku",
+      "ts": 1786908067.887103
+    },
+    {
+      "headline": "Požiare na gréckom ostrove Salamina si vyžiadali obete",
+      "ts": 1786908067.887103
+    },
+    {
+      "headline": "Výstrahy pred intenzívnymi búrkami na Slovensku",
+      "ts": 1786908067.887103
+    },
+    {
+      "headline": "Kritika tendra na záchrannú službu",
+      "ts": 1786908067.887103
+    },
+    {
+      "headline": "Konflikt medzi zmrzlinárom a finančnou správou",
+      "ts": 1786908067.887103
+    },
+    {
+      "headline": "Požiar historického kostola v Poľsku",
+      "ts": 1786908067.887103
+    },
+    {
+      "headline": "Dramatický galavečer bojových športov na hrade",
+      "ts": 1786908067.887103
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Požiar v Dunajskej Lužnej zastavil železničnú dopravu",
+        "headline": "Tragická nehoda poľského autobusu v Maďarsku",
+        "links": [
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/pellegrini-babis-a-sybiha-vyjadrili-po/985361-clanok.html"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/ranne-noviny/1246877-na-madarskej-dialnici-sa-prevratil-polsky-autobus-nehodu-neprezilo-12-ludi"
+          ]
+        ],
+        "perex": "Na maďarskej diaľnici pri meste Mezőkeresztes došlo k prevráteniu poľského autobusu do priekopy. Nehoda si vyžiadala dvanásť obetí, ku ktorým vyjadrili sústrasť viacerí štátnici."
+      },
+      {
+        "headline": "Požiare na gréckom ostrove Salamina si vyžiadali obete",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/V5PO7Ne/poziar-pri-zeleznicnej-stanici-v-dunajskej-luznej-zastavil-vlakovu-dopravu/"
+            "https://www.aktuality.sk/clanok/ITpeC5w/poziare-na-ostrove-salamina-si-vyziadali-dve-obete-a-sposobili-hromadnu-evakuaciu/"
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2025201-poziar-pri-stanici-v-dunajskej-luznej-zastavil-vlaky-hasici-bojuju-s-plamenmi-vo-viacerych-objektoch/"
+            "https://www.pravda.sk/spravy/svet/clanok/2025165-plamene-zasiahli-oblubeny-grecky-ostrov-dvaja-ludia-zahynuli-stovky-museli-evakuovat"
           ]
         ],
-        "perex": "V blízkosti železničnej stanice v Dunajskej Lužnej vypukol rozsiahly požiar viacerých objektov. Železničná doprava v danom úseku bola z bezpečnostných dôvodov zastavená."
+        "perex": "Na gréckom ostrove Salamina vypukli viaceré požiare, ktoré spôsobili hromadnú evakuáciu stoviek ľudí. Incident si vyžiadal dve obete, pričom hasiči zasahovali v blízkosti pláží."
       },
       {
-        "headline": "Soitron reaguje na kauzu ruských kamier v Bratislave",
+        "headline": "Výstrahy pred intenzívnymi búrkami na Slovensku",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/GOah4Md/slovensko-zasiahne-zvlneny-studený-front-prinesie-intenzivne-burky-a-ochladenie/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/v-pondelok-sa-vyskytnu-intenzivne-burky-platia-vystrahy"
+          ]
+        ],
+        "perex": "Slovenský hydrometeorologický ústav varuje pred príchodom zvlneného studeného frontu, ktorý prinesie na celé územie krajiny intenzívne búrky. Okrem zrážok sa očakáva aj výraznejšie ochladenie."
+      },
+      {
+        "headline": "Kritika tendra na záchrannú službu",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/domov/c/ruska-kamera-streamovala-bratislavu-soitron-vini-distributora-hoci-bola-zapojena-na-jeho-pozemku"
-          ],
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/soitron-pri-kamerach-nemohlo-dojst-k/985398-clanok.html"
+            "https://www.sme.sk/domov/c/sasko-nachystal-zmeny-v-zachrankovom-tendri-ludia-z-praxe-nedostali-slovo-vytkla-mu-jurik?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "Spoločnosť Soitron odmieta, že by kamery dodané pre ministerstvo vnútra mohli byť ovládané na diaľku. Firma je ochotná podstúpiť audit a potvrdila, že peniaze za zariadenia už vrátila štátu."
+        "perex": "Podpredsedníčka PS Jurík kritizuje ministra zdravotníctva Šaška za zmeny v tendri na záchranky. Podľa opozície ministerstvo pri tvorbe podmienok neumožnilo vyjadriť sa odborníkom z praxe."
       },
       {
-        "headline": "Ukrajinské drony zasiahli ruské ropné zariadenia",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2025133-hlboko-v-rusku-sa-objavili-britske-drony?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/dG35Rde/ukrajinske-utoky-zasiahli-tovaren-na-palivo-pre-ruske-raketomety-aj-system-bastion-na-kryme/"
-          ]
-        ],
-        "perex": "Ukrajinské sily použili britské útočné drony pri útokoch na ropné zariadenia v ruskom Volgograde a Jaroslavli. Kyjev hlási aj zásah továrne na výrobu raketového paliva a systému Bastion na Kryme."
-      },
-      {
-        "headline": "Irán sprísňuje zákony proti kontaktom s médiami",
+        "headline": "Konflikt medzi zmrzlinárom a finančnou správou",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/82d1iSg/iran-sprisnuje-zakony-o-komunikacii-s-nepriatelskymi-mediami-hrozi-aj-vazenie/"
+            "https://www.aktuality.sk/clanok/frKdTGo/humenne-riesi-burlivy-konflikt-s-danovakmi-zakaznici-vraj-utocili-zmrzlinou-financna-správa-to-popiera/"
+          ],
+          [
+            "Denník N",
+            "https://dennikn.sk/5509670/po-langosi-zmrzlina-ludia-sa-zastali-svojho-zmrzlinara-pred-kontrolormi-musela-zasiahnut-policia/"
           ]
         ],
-        "perex": "Iránsky parlament schválil legislatívu, ktorá kriminalizuje rozhovory s médiami označenými za nepriateľské. Za bežný kontakt s takýmito inštitúciami má po novom hroziť až dvojročné väzenie."
+        "perex": "V Humennom vznikol spor po kontrole finančnej správy v prevádzke so zmrzlinou, pričom sa šíria informácie o údajných útokoch zákazníkov. Finančné riaditeľstvo tvrdenia o šikane odmieta a argumentuje oficiálnou zápisnicou."
       },
       {
-        "headline": "Moslimské krajiny kritizujú Izrael za odmietnutie mierového plánu",
+        "headline": "Požiar historického kostola v Poľsku",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2025223-osem-moslimskych-krajin-odsudilo-izrael-za-odmietnutie-planu-pre-gazu/"
+            "https://www.pravda.sk/spravy/svet/clanok/2025151-polsko-prislo-o-unikat-poziar-znicil-poklad-zo-17-storocia-z-historickeho-kostola-zostal-len-kriz"
           ]
         ],
-        "perex": "Ministri zahraničných vecí ôsmich moslimských krajín odsúdili Izrael za odmietnutie mierového plánu pre Pásmo Gazy. Podľa vyhlásenia nesie Izrael zodpovednosť za brzdenie mierového procesu."
+        "perex": "V obci Sanok úplne zhorel drevený kostol zo 17. storočia, ktorý bol súčasťou miestneho skanzenu. Oheň zničil všetko vybavenie historickej pamiatky, pričom z objektu zostal iba kríž."
+      },
+      {
+        "headline": "Dramatický galavečer bojových športov na hrade",
+        "links": [
+          [
+            "Denník N",
+            "https://dennikn.sk/5509431/dramatický-moment-galavecera-na-bratislavskom-hrade-v-ringu-skoncil-zapasnik-v-bezvedomi/"
+          ]
+        ],
+        "perex": "Historicky prvý galavečer bojových zápasov na Bratislavskom hrade poznačil incident, pri ktorom jeden zo zápasníkov skončil v ringu v bezvedomí. Podujatie bolo čiastočne financované zo štátnych prostriedkov Tiposu."
       }
     ],
-    "ts": 1786905348.6750405
+    "ts": 1786908067.8870912
   },
   "meta": {
-    "last_collection_ts": 1786906784.2024815,
+    "last_collection_ts": 1786908046.4430149,
     "last_feed_error_ts": 1786897246.3066127,
     "last_llm_error_ts": 1786721769.1309679,
-    "last_run_ts": 1786906785.255402,
-    "last_synthesis_ts": 1786905348.6750357
+    "last_run_ts": 1786908046.8298361,
+    "last_synthesis_ts": 1786908067.887085
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/velky-krtis-a-jeho-okolie-su-plne-kuriozit-jedna-vas-vrati-do-detstva-s-dalsou-sa-spaja-temny-pribeh?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Správy o Slovensku, ktoré zaujali cudzincov.",
-      "s": "SME",
-      "t": "Zabudnutý kút Slovenska je plný kuriozít. Jedna vás vráti do detstva, s ďalšou sa spája temný príbeh",
-      "ts": 1786820442.2501144,
-      "u": "213616280547fdfa085d"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1246623-chystate-sa-na-dovolenku-so-psikom-na-tieto-veci-by-ste-nemali-zabudnut",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Chystáte sa na dovolenku so psíkom? Na tieto veci by ste nemali zabudnúť",
-      "ts": 1786820442.2501178,
-      "u": "5c0c118e27370d8ce683"
-    },
     {
       "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qbmxhNGhPZGJlMUVBT3hyQ1RCZ2tOOUx5ZEsyWVB1WEh2TDRhUTRBMVBnWDRKYzVBdmVtNng2Snd1WjNpZmtfMk8yRERab2tnaWdkR2VtYnNIblA1RUt1bXJmM0xyUWpVT1k1aGY3b3BUSm14dVdaSTN3YzJUTEk?oc=5",
       "p": "Rýchly pudingový koláč, recept Tortyodmamy.sk",
@@ -2296,6 +2312,14 @@
       "t": "Zrušený sviatok, no s príplatkami: Chaos okolo 8. mája sa zrejme zopakuje aj teraz, parlament problém nevyriešil",
       "ts": 1786906785.2547028,
       "u": "4cf4d2efa54e22a3c4f1"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/GOah4Md/slovensko-zasiahne-zvlneny-studeny-front-prinesie-intenzivne-burky-a-ochladenie/",
+      "p": "Cez našu oblasť bude pomaly postupovať smerom na juhovýchod zvlnený studený front spojený s tlakovou nížou so stredom nad Fínskom. Na mnohých miestach sa musíme pripraviť na dážď, prehánky a lokálne aj intenzívne búrky. Vyplýva to z aktuálnej prognózy meteorológov z SHMÚ.",
+      "s": "Aktuality",
+      "t": "Slovensko zasiahne zvlnený studený front, prinesie intenzívne búrky a ochladenie",
+      "ts": 1786908046.82906,
+      "u": "ae74d86836daacc0daea"
     }
   ],
   "recent_alerts": [
@@ -3096,7 +3120,6 @@
     "061004ebc27cfa09e837": 1786791130.016799,
     "061c78e6060cc262a4d9": 1786633854.0282347,
     "0627015828377afe45bb": 1786851337.9795728,
-    "063d9b4911f9a00b7585": 1786302647.1824598,
     "064958e6ac788feea8c7": 1786358141.531058,
     "0655a171ff4bf772d600": 1786432253.0012448,
     "065acdc17c2bf61e7cb9": 1786770648.3465648,
@@ -3540,7 +3563,6 @@
     "20ec33e614fbc0ecd49e": 1786903841.0828664,
     "20f230310773fa2fd521": 1786352150.9875557,
     "20fdf208ab46940677fe": 1786781449.3448794,
-    "2101c66b848410336efe": 1786302647.1824577,
     "2107c5965665f6991bf3": 1786597855.3159869,
     "2117d151beac6df518e8": 1786764943.2255495,
     "213616280547fdfa085d": 1786820442.2501113,
@@ -4124,7 +4146,6 @@
     "4525a160a620e2b4c67c": 1786635343.5509875,
     "453a5f4a4ed1e3a11fa4": 1786425049.459024,
     "4542c820d50087d8a71e": 1786716651.1433609,
-    "454bdb65968bbc102e33": 1786302647.1824498,
     "4557038227bd2d073371": 1786704939.6430628,
     "455f2a5d7f66e32c9c3e": 1786507855.3994627,
     "4571444b3b7607fcfcaa": 1786615849.4196193,
@@ -4484,7 +4505,6 @@
     "5a2a9f827bf5be2c2b0b": 1786455342.623288,
     "5a2d1ce5da17aae59547": 1786648850.595054,
     "5a4f9826c13d558f2130": 1786432253.0012493,
-    "5a7129e366d4c2b7ed42": 1786302647.1824706,
     "5a82064e375e93a1e86d": 1786380934.993348,
     "5a8bd13906825c0d4f0d": 1786505733.7933428,
     "5a904e14f4bf6024231a": 1786689340.8094406,
@@ -4528,7 +4548,6 @@
     "5cb12d185c62fb2e0224": 1786900839.4960241,
     "5cd001a2133810afe6ca": 1786699857.4533408,
     "5cdc016bd8d71fbf0771": 1786721739.8867455,
-    "5cebefacc373e05c546f": 1786302647.1824646,
     "5cfde74d6483377a760d": 1786696540.2034736,
     "5d077c8a046622618044": 1786426545.402519,
     "5d0b679124bbab8076e4": 1786560129.967626,
@@ -4841,6 +4860,7 @@
     "6e202db3126b3e2a940d": 1786797341.351508,
     "6e2503b327bde58732b0": 1786332934.5137057,
     "6e46ea34cdfd885e16d0": 1786377336.2836914,
+    "6e549bb0cc3347061d6c": 1786908046.829073,
     "6e55f3dd4cc7d3c0bef4": 1786372441.0140216,
     "6e60b9a7c6c39886c131": 1786536642.3481634,
     "6e6adaadbcb99716da99": 1786691450.680837,
@@ -4959,7 +4979,6 @@
     "74c01c2b5584cb013e0b": 1786851337.9795735,
     "74d1aa096b88515046b8": 1786439440.8764896,
     "74e95478b53d8790a717": 1786338439.133162,
-    "74ec3e2156b70279a3f4": 1786302647.182468,
     "74f965bdd491b21af69e": 1786370141.7762408,
     "7505dc78c52bf91d1698": 1786682136.09734,
     "750fc2e53495fc3a2135": 1786641649.0763254,
@@ -5623,6 +5642,7 @@
     "9d6f6faac14bf49c3ac2": 1786536642.3479853,
     "9d751c1bdb50e33f6492": 1786304139.5333767,
     "9d96cc108fd1bec4b373": 1786707336.3090498,
+    "9d9e649e8b99e64134ec": 1786908046.829062,
     "9dc61944623d2918f8fc": 1786655442.2385952,
     "9dca971a43fe0f1c3eee": 1786726538.157079,
     "9deceaf7df1d4c0e4d7b": 1786791130.016801,
@@ -5664,7 +5684,6 @@
     "a066d66f80b65f9c0144": 1786617342.4193208,
     "a07603b6f62b5dffdad4": 1786366535.4603531,
     "a0789296343a43e412ad": 1786592139.2915103,
-    "a07e98c3d6ca45bed754": 1786302647.1824663,
     "a085497783ecc9a5a097": 1786444542.8140256,
     "a0a3d0e4b238c4b485c5": 1786635343.550964,
     "a0b51d847729aad94252": 1786618538.9897227,
@@ -5713,7 +5732,6 @@
     "a3136300e282de42a226": 1786851337.97957,
     "a32fd5307d797baac532": 1786435848.3601785,
     "a36255da3ff8e5a97fdf": 1786439440.8764834,
-    "a3820433a2b8f4741287": 1786302647.1824615,
     "a3839a184b443a8becce": 1786722940.6366513,
     "a384e83ede4be1812ab7": 1786439440.8764856,
     "a389ae4603507f8b5a4d": 1786895455.3987136,
@@ -5903,6 +5921,7 @@
     "ae621c6f4703296383bb": 1786601441.687486,
     "ae64f340e47f1bc0ceda": 1786419332.7682972,
     "ae665e643df8142e3435": 1786773395.4634042,
+    "ae74d86836daacc0daea": 1786908046.8290555,
     "ae83f093ac06359f8918": 1786372441.0142102,
     "ae915a383df06e855698": 1786384541.211016,
     "ae951a75ef8fc28ad3c7": 1786628132.891703,
@@ -5916,8 +5935,10 @@
     "aef7a15d5f61f3219d58": 1786528537.8422742,
     "af0457f898b606619211": 1786545337.117008,
     "af04b5f79f751e03fcc9": 1786689340.8094344,
+    "af685d24c7343a1a291e": 1786908046.8290646,
     "af69915f961c623b1367": 1786358141.531078,
     "af6a4429a24f12ac5d39": 1786738847.426102,
+    "af6cee8736dd8696cbd8": 1786908046.8290691,
     "af727f262765306e8e42": 1786505733.793425,
     "af7594d8ddfcaec5f737": 1786715734.781314,
     "afb60e9dc6fd79fd9292": 1786764943.2257328,
@@ -5986,7 +6007,6 @@
     "b5406a09669eb0bf589f": 1786597855.3161724,
     "b551d7d273e68ffdd6fa": 1786532147.7073188,
     "b5537a4c0e280f581a39": 1786792846.2537997,
-    "b57685ea112dfb4142ad": 1786302647.182472,
     "b577f0b42c55d4e02ce3": 1786470935.1383555,
     "b5af451a211ecf771622": 1786900839.496016,
     "b5c359582d1d7b50f2f1": 1786795843.0388854,
@@ -6066,7 +6086,6 @@
     "ba08389df1bd1aec8f6b": 1786459690.249589,
     "ba0b4009bedf6777fb4c": 1786550133.2492108,
     "ba1592541726298c1dc2": 1786515649.2922215,
-    "ba34cbbd5f19b7c8e06b": 1786302647.1824546,
     "ba3761549946c8069b05": 1786511442.639303,
     "ba39b473671bc972dee3": 1786419332.7680454,
     "ba3b270bc9ce095a45f4": 1786505733.7933471,
@@ -6289,7 +6308,6 @@
     "c77eed2a6053446ed9ed": 1786611336.2932844,
     "c78d3efeb5dc4e222aa9": 1786342249.058683,
     "c79aa681b808a0617b9e": 1786678534.2997167,
-    "c7a3f9cfe46e2601d74f": 1786302647.1824563,
     "c7a8745796e01f8597c7": 1786714541.4302258,
     "c7abe9ebc9c8131fb17f": 1786697737.3038397,
     "c7b9eae3fa64019656ea": 1786348548.4125981,
@@ -6699,6 +6717,7 @@
     "def40ad5ecf3fb61d829": 1786560129.967616,
     "defc978669b2d330a16e": 1786304139.5333827,
     "df09b8c117dfe4de119e": 1786438549.0281804,
+    "df17c7e54870cda1380c": 1786908046.8292232,
     "df21381fa7911b2627d3": 1786742447.4319894,
     "df31c1e84fe775be4ff8": 1786774838.975892,
     "df379b1afc2ffd274fac": 1786428649.9200442,
@@ -6715,7 +6734,6 @@
     "dfd362a11e1add1a90ac": 1786698645.7180316,
     "dfd7b61672a4a589f6da": 1786599335.052498,
     "dfd85b3cb46fc9bd5294": 1786779821.192956,
-    "dff96ba554ad7988121b": 1786302647.1824694,
     "e00072e01dcd93a02672": 1786887336.843718,
     "e05eefd410f6868772ca": 1786893638.9600484,
     "e06a7639e73b3ad96f52": 1786822542.2873583,
@@ -7007,6 +7025,7 @@
     "f203bce411454bc0f090": 1786335041.1448548,
     "f20e19465d22b86cf821": 1786384541.2110093,
     "f22d52e36717688f77e4": 1786684253.5031502,
+    "f23a48b17a5595e4dc66": 1786908046.829071,
     "f24942ff063ec3811be3": 1786505733.7933314,
     "f25648b59b56c710c328": 1786620943.717421,
     "f2649b6adc579c359308": 1786541745.3487124,
@@ -7097,6 +7116,7 @@
     "f74f9f756bf18c285957": 1786906785.2547128,
     "f753c7e20f1700deebe9": 1786860076.2222395,
     "f7713fa811fca84be71e": 1786797341.3514886,
+    "f7780628b6a48bdbadc5": 1786908046.8292243,
     "f77bb64a6cdee88c8f1f": 1786768542.8482518,
     "f77bc43cf26835f932d6": 1786515649.2922146,
     "f796676ba9f8059f4f48": 1786509343.855988,
@@ -7234,120 +7254,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1786906785.2546735
+      "ts": 1786908046.8290284
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1786906785.2546747
+      "ts": 1786908046.8290298
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1786906785.2546775
+      "ts": 1786908046.8290331
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1786906785.254682
+      "ts": 1786908046.8290381
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1786906785.2546763
+      "ts": 1786908046.829032
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1786906785.2546663
+      "ts": 1786908046.8290212
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1786906785.254671
+      "ts": 1786908046.8290262
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1786906785.2546813
+      "ts": 1786908046.8290367
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1786906785.254679
+      "ts": 1786908046.8290346
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1786906785.2546802
+      "ts": 1786908046.8290358
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/highlighty-mfk-skalica-fc-kosice-2026081519000506012",
-      "p": "Futbalisti FC Košice sa v 4. kole Niké ligy dočkali prvého víťazstva v sezóne. Na pôde dovtedy nezdolanej Skalice triumfovali 4:2, pričom všetky štyri góly nasúkali domácim už do prestávky. Záhoráci po zmene strán dvakrát znížili, rozbehnutých hostí však už nezastavili.",
-      "s": "Šport.sk",
-      "t": "VIDEO Pozrite si highlighty zo zápasu MFK Skalica - FC Košice",
-      "ts": 1786820442.2501209,
-      "u": "e46860d2def5f044de8a"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/highlighty-sk-slovan-bratislava-msk-ruzomberok-2026081518532946962",
-      "p": "Futbalisti ŠK Slovan Bratislava sú bez straty bodu a inkasovaného gólu v novom ročníku Niké ligy aj po treťom odohratom zápase. „Belasí“ v sobotnom súboji 4. kola zvíťazili na Tehelnom poli nad MFK Ružomberok hladko 5:0.",
-      "s": "Šport.sk",
-      "t": "VIDEO Pozrite si highlighty zo zápasu ŠK Slovan Bratislava - MFK Ružomberok",
-      "ts": 1786820442.2501235,
-      "u": "1fdda413a228162083cc"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/liebmann-prekonal-svetovy-rekord-na-1500-m-na-me-2026081518054832142",
-      "p": "Nemecký plavec Johannes Liebmann vytvoril na ME v Paríži svetový rekord na 1500 m v.sp. Vo finále dosiahol čas 14:26,79 a o 3,88 s prekonal doterajšie maximum Američana Bobbyho Finkeho z OH 2024 v Paríži. Striebro si vyplával Maďar Zalan Sarkány, bronz patrí ďalšiemu Nemcovi Oliverovi Klemetovi.",
-      "s": "Šport.sk",
-      "t": "VIDEO Plávanie-ME: Padla magická hranica aj európsky rekord. Nemec prepísal dejiny na 1500 m",
-      "ts": 1786820442.2501247,
-      "u": "a2710e07200f6fe93a44"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT0ZfX3NGQlFxZ2VhZnJkb25IYTZPRjVBZzljZWVaUjVhTHd4RXVtMmlQbFdRRXVsQzAwS1BCb1NxVG90X1d0NW4wZzFRZE9jUWxobFotLTkzYXNyT1d5Uk9CdzJXVkJvS0VVX19JZHR4QXNDUERqSTVFN0lSaThlZUpYekJvQWZwQXVhRjAzc0p0ejBYUmRXUDVXbmlDQ1MxZUp3TURB?oc=5",
-      "p": "Diskusia: Slovenky boli súčasťou kuriózneho behu. Z posledného miesta sa nečakane dostali vyššie SPORTNET",
-      "s": "SPORTNET",
-      "t": "Diskusia: Slovenky boli súčasťou kuriózneho behu. Z posledného miesta sa nečakane dostali vyššie",
-      "ts": 1786820442.2501264,
-      "u": "1fba4e85e86235f6faf3"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/anisimovova-postupila-do-3-kola-turna/985258-clanok.html",
-      "p": "V 2. kole v pozícii nasadenej deviatky zdolala Turkyňu Zeynep Sönmezovú 6:2, 6:3.",
-      "s": "TERAZ.SK",
-      "t": "Anisimovová postúpila do 3. kola turnaja WTA v Cincinnati",
-      "ts": 1786820442.2501278,
-      "u": "42d374cc2015060c4816"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/moluhova-ziskala-zlato-na-100-m-znak-v/985257-clanok.html",
-      "p": "Domáci francúzsky plavec Leon Marchand získal zlatú medailu na 200 m motýlik.",
-      "s": "TERAZ.SK",
-      "t": "Moluhová získala zlato na 100 m znak v európskom rekorde",
-      "ts": 1786820442.2501295,
-      "u": "e2ab18e96dae0c6b8e61"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/douglasova-vytvorila-svetovy-rekord-na/985255-clanok.html",
-      "p": "Douglasová je päťnásobnou olympijskou medailistkou.",
-      "s": "TERAZ.SK",
-      "t": "Douglasová vytvorila svetový rekord na 50 m v.sp.",
-      "ts": 1786820442.2501302,
-      "u": "c41fb718c4cff400f208"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/nike-liga-slovan-ruzomberok-reaguje-yaya-toure-2026081519290420147",
       "p": "Futbalisti ŠK Slovan Bratislava sú bez straty bodu a inkasovaného gólu v novom ročníku Niké ligy aj po treťom odohratom zápase. „Belasí“ v sobotnom súboji 4. kola zvíťazili na Tehelnom poli nad MFK Ružomberok hladko 5:0. Prečítajte si reakciu nového trénera slovenského majstra Yayu Tourého.",
@@ -8859,6 +8823,62 @@
       "t": "Diskusia: Páleníková mohla byť prvou Slovenkou, ktorá dobehne maratón na ME. Birminghamský okruh nedokončila",
       "ts": 1786906785.2547138,
       "u": "f74f9f756bf18c285957"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/rodri-sa-dohodol-s-fc-barcelona-la-liga-2026081619044863160",
+      "p": "Obchod bude oficiálne potvrdený v najbližších dňoch, garantuje katalánska tlač.",
+      "s": "Šport.sk",
+      "t": "Prestupová bomba je na spadnutie! Rodri sa už dohodol s novým klubom, píšu v Španielsku",
+      "ts": 1786908046.8290637,
+      "u": "9d9e649e8b99e64134ec"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/atp-cincinnati-2-kolo-vysledky-dnes-2026081619130622002",
+      "p": "Kanadský tenista Felix Auger-Aliassime sa prebojoval do 3. kola turnaja ATP Masters 1000 v Cincinnati. V nedeľu zvládol pozíciu nasadenej dvojky a vyradil Gréka Stefanosa Tsitsipasa po výsledku 6:3, 7:5. Ďalej ide aj štvrtý nasadený Rus Daniil Medvedev po víťazstve nad Marcom Trungellitim z Argentín",
+      "s": "Šport.sk",
+      "t": "ATP Cincinnati: Casper Ruud zápas skrečoval, Tsitsipas neuhral ani set",
+      "ts": 1786908046.8290682,
+      "u": "af685d24c7343a1a291e"
+    },
+    {
+      "l": "https://sport.aktuality.sk/mma/clanok/wau-pozrite-sa-ako-v-druhom-kole-islam-makhachev-poslal-kopom-iana-garryho-k-zemi-2026081619044826893",
+      "p": "Islam Makhachev úspešne zvládol prvú obhajobu titulu vo welterovej váhe, no Ian Machado Garry mu pripravil mimoriadne náročný zápas. Šampión mal blízko k ukončeniu v druhom kole, keď súpera po kombinácii úderov poslal presným kopom do hlavy k zemi.",
+      "s": "Šport.sk",
+      "t": "VIDEO Wau! Pozrite sa ako v druhom kole Islam Makhachev poslal kopom Iana Garryho k zemi!",
+      "ts": 1786908046.8290703,
+      "u": "af6cee8736dd8696cbd8"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/wta-cincinnati-2-kolo-vysledky-dnes-2026081619025416030",
+      "p": "Ruska Mirra Andrejevová a Poľka Iga Swiateková sa suverénnym spôsobom prebojovali do 3. kola dvojhry na turnaji WTA 1000 v Cincinnati. Piata nasadená Andrejevová zdolala Oleksandru Olijnykovovú z Ukrajiny 6:1, 6:0. Turnajová sedmička Swiateková zmietla Kolumbijčanku Emilianu Arangovú v pomere 6:3, 6",
+      "s": "Šport.sk",
+      "t": "WTA Cincinnati: Swiateková aj Andrejevová nadelili kanára a suverénne postupujú",
+      "ts": 1786908046.8290725,
+      "u": "f23a48b17a5595e4dc66"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/me-dominancia-talianska-v-zjazde-medzi-najlepsou-patnastkou-skoncil-aj-slovak-2026081619014896898",
+      "p": "Triumfom talianskych reprezentantov v horskej cyklistike sa skončili majstrovstvá Európy v zjazde, keď medzi mužmi i ženami brali zhodne zlato aj striebro.",
+      "s": "Šport.sk",
+      "t": "ME: Dominancia Talianska v zjazde. Medzi najlepšou pätnástkou skončil aj Slovák",
+      "ts": 1786908046.8290744,
+      "u": "6e549bb0cc3347061d6c"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLXdEWlNGWGxzU3g0UWhtbHJYSUtTa1BMWC14SERIVGltNzVGa19fck9vdVJWQ3NqbW5MNFd1dlZVV0FET3BEUzJJVmR0NzJBelQxaG9lWUZfTUhZWS1mUk03czJPalU2VUpBLVpiWEJ5YllNTG1MRXMtVVVscC1RZU4xSjg0d1VReWp4MlRPcXg?oc=5",
+      "p": "Nemec vylepšil svetový rekord o takmer štyri sekundy. Marchand si suverénne vybojoval zlato SPORTNET",
+      "s": "SPORTNET",
+      "t": "Nemec vylepšil svetový rekord o takmer štyri sekundy. Marchand si suverénne vybojoval zlato",
+      "ts": 1786908046.8292239,
+      "u": "df17c7e54870cda1380c"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/uvodny-den-priniesol-prehru-vargu-ne/985402-clanok.html",
+      "p": "Navyše sa nedostal ani do pondelkovej repasáže, pretože Demir v ďalšom kole nestačil na ruského zápasníka Kazmachova.",
+      "s": "TERAZ.SK",
+      "t": "Úvodný deň priniesol prehru Vargu, nepostúpil ani do repasáže",
+      "ts": 1786908046.8292255,
+      "u": "f7780628b6a48bdbadc5"
     }
   ],
   "sport_source_status": {
@@ -8866,25 +8886,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1786906785.2546844
+      "ts": 1786908046.8290405
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1786906785.254686
+      "ts": 1786908046.8290427
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1786906785.254689
+      "ts": 1786908046.8290465
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1786906785.2546878
+      "ts": 1786908046.8290446
     }
   }
 }
