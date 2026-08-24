@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Francúzska politika: Glucksmann ohlásil prezidentskú kandidatúru",
-      "ts": 1787545247.119575
-    },
-    {
-      "headline": "Masívny požiar v Nevade si vyžiadal evakuáciu tisícov ľudí",
-      "ts": 1787545247.119575
-    },
-    {
-      "headline": "Zdravotný stav nórskeho kráľa Haralda V. sa zhoršil",
-      "ts": 1787545247.119575
-    },
-    {
-      "headline": "Zomrel najstarší americký väzeň, za mrežami strávil 76 rokov",
-      "ts": 1787545247.119575
-    },
-    {
-      "headline": "Nemecko bojuje s premnoženými mývalmi ohrozujúcimi prírodu",
-      "ts": 1787545247.119575
-    },
-    {
       "headline": "Pri útokoch Ruska a Ukrajiny zahynuli civilisti vrátane detí",
       "ts": 1787547348.3104224
     },
@@ -151,27 +131,71 @@
     {
       "headline": "Simulovaná vesmírna misia pod vodou s účasťou Musilovej",
       "ts": 1787558145.143341
+    },
+    {
+      "headline": "USA eskalujú tlak na Irán, rušia cvičenia s Južnou Kóreou",
+      "ts": 1787560279.2929134
+    },
+    {
+      "headline": "Rušňovodič po zrážke vlakov pri Jablonove čelí obvineniu",
+      "ts": 1787560279.2929134
+    },
+    {
+      "headline": "Anonym nahlásil bombu v trnavskej nemocnici",
+      "ts": 1787560279.2929134
+    },
+    {
+      "headline": "Úhyn labutí v Drženiciach vyvolal varovania úradov",
+      "ts": 1787560279.2929134
+    },
+    {
+      "headline": "NÚDCH zverejnil informácie k siamským dvojičkám",
+      "ts": 1787560279.2929134
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Polícia obvinila rušňovodiča po zrážke rýchlikov pri Jablonove",
+        "headline": "USA eskalujú tlak na Irán, rušia cvičenia s Južnou Kóreou",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/kyVsi7e/minister-financii-scott-bessent-usa-su-v-zaverecnej-faze-vojny-s-iranom/"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/gMmtXVn/usa-zrusili-spolocne-namorne-cvicenia-s-juznou-koreou-pre-obmedzenu-dostupnost-sil/"
+          ]
+        ],
+        "perex": "Americký minister financií ohlásil záverečnú fázu vojny s Iránom a prípravu najtvrdších sankcií v histórii. V dôsledku presunu vojenských síl USA zároveň zrušili spoločné námorné cvičenia s Južnou Kóreou."
+      },
+      {
+        "headline": "Rušňovodič po zrážke vlakov pri Jablonove čelí obvineniu",
         "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/zWPzlOZ/zrazka-rychlikov-policia-obvinila-34rocneho-rusnovodica/"
           ],
           [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/zrazka-vlakov-pri-jablonove-nad-turno/986985-clanok.html"
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2029021-zrazka-vlakov-pri-roznave-ma-vinnika-rusnovodic-34-celi-obvineniu-hrozi-mu-az-10-rokov"
           ]
         ],
-        "perex": "Polícia uzavrela vyšetrovanie nehody rýchlikov pri Jablonove nad Turňou a vzniesla obvinenie voči 34-ročnému rušňovodičovi. Za prečin všeobecného ohrozenia mu v prípade dokázania viny hrozí trest odňatia slobody až na desať rokov."
+        "perex": "Polícia uzavrela vyšetrovanie nehody rýchlikov pri Jablonove nad Turňou a obvinila 34-ročného rušňovodiča. V prípade dokázania viny mu za prečin všeobecného ohrozenia hrozí až desaťročný trest odňatia slobody."
       },
       {
-        "headline": "Úhyn mláďat labutí v Drženiciach po kŕmení pečivom",
+        "headline": "Anonym nahlásil bombu v trnavskej nemocnici",
+        "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/krimi/1249701-anonym-nahlasil-bombu-v-trnavskej-nemocnici"
+          ]
+        ],
+        "perex": "Trnavská nemocnica čelila bombovej hrozbe, ktorú nahlásil neznámy anonym. Páchateľ za neuskutočnenie útoku požaduje výkupné v kryptomene."
+      },
+      {
+        "headline": "Úhyn labutí v Drženiciach vyvolal varovania úradov",
         "links": [
           [
             "Aktuality",
@@ -179,54 +203,30 @@
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2028997-chlieb-labute-zabija-urady-varuju-pred-krmenim-pecivom-po-uhyne-mladat-pri-leviciach/"
+            "https://www.pravda.sk/spravy/regiony/clanok/2028997-chlieb-labute-zabija-urady-varuju-pred-krmenim-pecivom-po-uhyne-mladat-pri-leviciach"
           ]
         ],
-        "perex": "Obec Drženice v okrese Levice rieši ekologický problém po tom, čo kŕmenie labutí chlebom a pečivom viedlo k úhynu mláďat. Odborníci zo Štátnej ochrany prírody varujú verejnosť, že nevhodná potrava spôsobuje zvieratám zdravotné deformácie."
+        "perex": "Po úhyne mláďat labutí na rybníku pri obci Drženice vydali úrady varovanie pred kŕmením vtáctva pečivom. Odborníci upozorňujú, že chlieb spôsobuje mláďatám vážne zdravotné komplikácie a deformácie krídel."
       },
       {
-        "headline": "NÚDCH vyhodnocuje ďalší postup pri siamských dvojičkách",
+        "headline": "NÚDCH zverejnil informácie k siamským dvojičkám",
         "links": [
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/narodny-ustav-detskych-chorob-vyhodnocuje-dalsi-postup-pri-siamskych-dvojickach"
-          ],
           [
             "Noviny.sk",
             "https://www.noviny.sk/slovensko/1249687-co-bude-dalej-so-slovenskymi-siamskymi-dvojickami-nudch-zverejnil-nove-informacie"
           ]
         ],
-        "perex": "Národný ústav detských chorôb v Bratislave aktuálne analyzuje nasledujúce kroky v starostlivosti o siamské dvojičky. Lekári pri riešení komplikovaného prípadu spolupracujú s nemocnicou v Rijáde."
-      },
-      {
-        "headline": "Slovensko zaznamenalo rekordnú vlnu horúčav",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/mame-za-sebou-pat-dni-nad-styridsat-stupnov-toto-leto-zlomilo-rekordy"
-          ]
-        ],
-        "perex": "Klimatológovia potvrdili, že aktuálne leto na Slovensku prekonalo historické rekordy v dĺžke trvania extrémnych teplôt. Počas uplynulých piatich dní sa teploty na viacerých miestach stabilne držali nad hranicou 40 stupňov Celzia."
-      },
-      {
-        "headline": "Simulovaná vesmírna misia pod vodou s účasťou Musilovej",
-        "links": [
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/marsonautka-musilova-absolvovala-simulo/986987-clanok.html"
-          ]
-        ],
-        "perex": "Slovenská marsonautka Michaela Musilová úspešne absolvovala ďalšiu simulovanú vesmírnu misiu, tentoraz realizovanú v podvodnom prostredí. Pre vedkyňu ide v poradí už o štyridsiaty podobný projekt, ktorý viedla v pozícii veliteľky."
+        "perex": "Národný ústav detských chorôb v Bratislave aktuálne vyhodnocuje ďalší postup v prípade siamských dvojičiek. Lekári sú v tejto súvislosti v úzkom kontakte s nemocnicou v Rijáde."
       }
     ],
-    "ts": 1787558145.143333
+    "ts": 1787560279.292904
   },
   "meta": {
-    "last_collection_ts": 1787559042.4033659,
+    "last_collection_ts": 1787560273.5589764,
     "last_feed_error_ts": 1787542537.437604,
     "last_llm_error_ts": 1787315783.6196923,
-    "last_run_ts": 1787559042.8774023,
-    "last_synthesis_ts": 1787558145.1433275
+    "last_run_ts": 1787560274.6870458,
+    "last_synthesis_ts": 1787560279.2928984
   },
   "recent": [
     {
@@ -2572,19 +2572,73 @@
       "t": "Ako môže AI odbremeniť samosprávy? Odpovede prinesie Inovačný Cirkus",
       "ts": 1787559042.8767972,
       "u": "6faa47dd852c3af8c57b"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/spojene-staty-zrusili-spolocne-cvicenia-s-koreou-pre-obmedzenie-vojenskych-sil-v-dosledku-vojny-v-irane?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "USA v júni informovali Južnú Kóreu o obmedzenej dostupnosti síl na cvičenie Ssangyong.",
+      "s": "SME",
+      "t": "Spojené štáty zrušili spoločné cvičenia s Kóreou pre obmedzenie vojenských síl v dôsledku vojny v Iráne",
+      "ts": 1787560274.686479,
+      "u": "327451077b140375965b"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/gMmtXVn/usa-zrusili-spolocne-namorne-cvicenia-s-juznou-koreou-pre-obmedzenu-dostupnost-sil/",
+      "p": "Obmedzená dostupnosť amerických jednotiek pre vojnu v Iráne ruší kľúčové cvičenie Ssangyong. Soul a Washington riešia, ako udržať pripravenosť svojich síl.",
+      "s": "Aktuality",
+      "t": "USA zrušili spoločné námorné cvičenia s Južnou Kóreou pre obmedzenú dostupnosť síl",
+      "ts": 1787560274.6864824,
+      "u": "f1ecdc42808c3e207a1a"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/hkrUIte/ukrajinske-drony-zasiahli-styri-logisticke-centra-ruskeho-ozonu/",
+      "p": "Ukrajina zasiahla ďalšie logistické centrá druhého najväčšieho ruského e shopu Ozon. Útoky spôsobili požiare, evakuácie aj prvé potvrdené zranenia.",
+      "s": "Aktuality",
+      "t": "Ukrajinské drony zasiahli štyri logistické centrá ruského Ozonu",
+      "ts": 1787560274.6864843,
+      "u": "df4f900d4c2b477ccc7b"
+    },
+    {
+      "l": "https://e.dennikn.sk/5518269/ako-si-kupit-mobil-z-druhej-ruky-a-kedy-sa-oplati-opravit-svoj-stary-odbornici-radia-ako-preckat-casy-drahej-elektroniky/",
+      "p": "Technologické firmy stavajú toľko datacentier pre umelú inteligenciu, že spôsobili nedostatok komponentov v spotrebnej elektronike. Bežní kupujúci si preto teraz musia za nové počítače a mobily priplatiť. Často pritom dostanú za viac peňazí menej výkonný produkt. Napríklad najnovší smartfón Google P",
+      "s": "Denník N",
+      "t": "Ako si kúpiť mobil z druhej ruky a kedy sa oplatí opraviť svoj starý? Odborníci radia, ako prečkať časy drahej elektroniky",
+      "ts": 1787560274.6864862,
+      "u": "959fa23032db48fb9288"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/inzercia/clanok/2029039-odisiel-aby-zistil-kam-patri-dnes-je-vladko-v-coop-jednote-predavacom-od-ktoreho-sa-ucia-ostatni?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Po pár rokoch odišiel, aby si vyskúšal prácu vo fabrike aj v inom obchodnom reťazci, no napokon sa vrátil tam, kde sa cíti doma. Dnes sa v TEMPO Supermarkete stará o ovocie, zeleninu, má pod palcom aj pivo, pomáha zákazníkom, kolegyniam aj novým predavačom v iných predajniach. Pozná ho celá dedina a",
+      "s": "Pravda",
+      "t": "Odišiel, aby zistil, kam patrí. Dnes je Vladko v COOP Jednote predavačom, od ktorého sa učia ostatní",
+      "ts": 1787560274.6864884,
+      "u": "ea8f81334a3845b2cce6"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/nova-medzinarodna-linka-prepoji-zli/986997-clanok.html",
+      "p": "Linka 735 bude premávať štyrikrát denne v každom smere na trase Zlín - Luhačovice - Uherský Brod - Trenčín a zastavovať bude vo vybraných obciach na trase.",
+      "s": "Teraz.sk",
+      "t": "Nová medzinárodná linka prepojí Zlín a Trenčín",
+      "ts": 1787560274.6864903,
+      "u": "869d272cf161cf2afbd9"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/skoly-sa-mozu-zapojit-do-programu-el/986996-clanok.html",
+      "p": "V rámci vzdelávania účastníci preskúmavajú celý životný cyklus elektrospotrebičov, od ťažby surovín a výroby cez predaj až po možnosti likvidácie a recyklácie.",
+      "s": "Teraz.sk",
+      "t": "Školy sa môžu zapojiť do programu ElektroodpadDopad",
+      "ts": 1787560274.6864915,
+      "u": "720f08be614fb349e64d"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/poistovna-od-jula-pocet-navrhov-na/986992-clanok.html",
+      "p": "Medzi dôvodmi odmietnutia návrhov sú formálne nedostatky.",
+      "s": "Teraz.sk",
+      "t": "Poisťovňa: Od júla počet návrhov na plánované operácie klesol",
+      "ts": 1787560274.6864924,
+      "u": "8b388fd9a6dc867b5abf"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.pravda.sk/spravy/domace/clanok/2025375-v-narodnom-parku-hori-poziar-zasiahol-srdce-velkej-fatry?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-        "https://www.noviny.sk/slovensko/1247026-v-centralnej-casti-narodneho-parku-velka-fatra-hori"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Požiar v chránenej oblasti národného parku predstavuje akútne ohrozenie prírodného dedičstva a vyžaduje si zásah záchranných zložiek.",
-      "title": "Požiar v Národnom parku Veľká Fatra",
-      "ts": 1786954248.178506
-    },
     {
       "links": [
         "https://tnlive.sk/domace/clanok/1046221-foto-v-srdci-velkej-fatry-vypukol-poziar-narodny-park-vyzyva-turistov-aby-sa-oblasti-vyhli"
@@ -3394,7 +3448,6 @@
     "0828a2c765b8c504cae9": 1787369811.5702207,
     "082d6a52934e292056e3": 1786985766.9016936,
     "08342c97f0d40f72c0eb": 1787038538.2863572,
-    "0863e59d7170981c9608": 1786954246.1274295,
     "0879e32b2f9b54f3c00f": 1787051442.5327182,
     "0882b3db275ca5c3ae11": 1787547342.3652396,
     "0887f629f6af743b9ba9": 1787472089.5180764,
@@ -3434,7 +3487,6 @@
     "0a022b07d790a637d28c": 1787558140.5963821,
     "0a08954aab28c2a45ead": 1787247342.3462121,
     "0a0e75b97acc2a0c766d": 1787165744.798401,
-    "0a379c0ece83e0cea7b2": 1786954246.1274261,
     "0a3ce4ceff64d2d8226f": 1786962941.542963,
     "0a50fabcfdf52d2c9912": 1787055042.7138453,
     "0a52f062d4988dd0a3b4": 1787553333.1434531,
@@ -3459,7 +3511,6 @@
     "0b8a3dc46d810e2aef68": 1787067339.4218085,
     "0b8dddd69c0292eceff8": 1787260839.63736,
     "0b941ae47faca4bb41d8": 1786971340.5778165,
-    "0b9ca5be34a5342e1a7d": 1786954246.127422,
     "0baed38c4c9df3488776": 1787456142.4792225,
     "0bafa384adc7f570613c": 1787213238.76829,
     "0bb13578f2fcfbd8fc08": 1787146541.6520631,
@@ -4077,6 +4128,7 @@
     "325dcb5ee621544278b3": 1787231451.9086132,
     "3268da777dc02a46c122": 1787067339.4216027,
     "326c3b51b39349b58fb3": 1787136939.2482698,
+    "327451077b140375965b": 1787560274.6864746,
     "327f81a144bb8eb41b09": 1786993849.9158251,
     "32848c5cf0065fd022cf": 1787412042.0796494,
     "329b373d90a53ff3801c": 1787334818.6976697,
@@ -4295,7 +4347,6 @@
     "4095542e5eb547cbcc0f": 1787141449.0065382,
     "40bdcb0d25ba6d49f5f1": 1787298917.8810883,
     "40d9e9e01020238114f7": 1787463341.6447186,
-    "40dcd69e4d81de3c1f92": 1786954246.1274314,
     "40e4e6fddef88ccc6ee9": 1787478458.1032572,
     "40f868f4609232c4d9e4": 1787072147.2010524,
     "40fa49a7b5211c41a52b": 1787220653.9871314,
@@ -4844,6 +4895,7 @@
     "624399803881579e0f58": 1787254542.16812,
     "62734b5cc34e89f9d09e": 1787131720.2062073,
     "6275192a0549e2575c2b": 1786980935.5923607,
+    "627cd69467ec2c274c0c": 1787560274.6864934,
     "6284f353b2e58ce13aae": 1787476840.991662,
     "628c84cacf2555679954": 1787474133.4829643,
     "62aefee4513817a615c1": 1787319340.7457252,
@@ -4944,7 +4996,6 @@
     "68aa06f541fb431c0300": 1787466935.0380945,
     "68b6c858ca9d38991307": 1787327740.9624264,
     "68c96b3cb4ce778357a2": 1787342561.2798362,
-    "68d1f0026bcd6dcb1f50": 1786954246.1274333,
     "68d9bc69732929c1d133": 1787456142.4792042,
     "68d9f29c90eecddc6d62": 1787140543.571468,
     "68ede837c164718bda47": 1787322941.2711313,
@@ -5078,9 +5129,9 @@
     "71832f188765b628652c": 1787147735.518993,
     "71876586fc14aca5feda": 1787253047.2848806,
     "71e360a9afd6fc1accd3": 1787481341.5191166,
-    "71e98c7101bea4f933dd": 1786954246.1274204,
     "71ef0f43c1815822ecfa": 1786974935.0683842,
     "71f843edd9d9be1f6fcd": 1787413889.4666512,
+    "720f08be614fb349e64d": 1787560274.6864908,
     "7215ae1eb2e48643d1f8": 1787042137.8800201,
     "72165b91b157c5ed15c0": 1787314244.855637,
     "7224f0df2660d49eb087": 1787483288.7316203,
@@ -5400,6 +5451,7 @@
     "867a3787ac99b770bd48": 1787134246.271265,
     "867bb1c4df2838dc86da": 1787112642.5867128,
     "86802317c9dfdac80275": 1786997446.4662554,
+    "869d272cf161cf2afbd9": 1787560274.686489,
     "86fa267aef1a1904a3f5": 1787297746.4203856,
     "870173089fb8321412b8": 1786995335.918501,
     "8751f8f35f5da2d004b1": 1787067339.4218056,
@@ -5457,6 +5509,7 @@
     "8b0cd64c83a736b4e35b": 1787234138.7237878,
     "8b2525becb4ef5b04940": 1787037048.0552332,
     "8b35e283fa324449f3bf": 1787205333.4022322,
+    "8b388fd9a6dc867b5abf": 1787560274.686492,
     "8b5302d4e862058e9e4e": 1787255810.2858589,
     "8b61d92c8425c11c3478": 1787136939.248275,
     "8bc048406f8d2ebb233e": 1787170839.8170762,
@@ -5502,7 +5555,6 @@
     "8e63ea1a577821236bca": 1787290543.605576,
     "8e6567012d602973d969": 1787257244.1972153,
     "8e7f9e81c99dad7e21cf": 1787474133.48295,
-    "8e8e95f4f5d7a49f5698": 1786954246.127412,
     "8e9506397920cc0e9a1c": 1787383247.9968512,
     "8e9b63fccd28036b0580": 1787308540.434832,
     "8ebd3525da3c4514b93d": 1786993849.9158313,
@@ -5611,6 +5663,7 @@
     "95561e29167fe0ef6a71": 1787558140.5963783,
     "957e70b2c91d29dfb510": 1787196935.3342948,
     "9599052d898276a99c66": 1787476840.991661,
+    "959fa23032db48fb9288": 1787560274.686485,
     "95a9735ebc140dd26075": 1787196935.334056,
     "95aaa954cd238fe88cf0": 1787466935.0380862,
     "95b30d5ead6ed976800e": 1787222138.459699,
@@ -5721,7 +5774,6 @@
     "9c0525c5147a34eaace8": 1787285182.7063107,
     "9c0fce93fe90eb276a2a": 1786967742.306152,
     "9c2487557826141ae9bc": 1787172937.2699788,
-    "9c357ae966ef7caf09c0": 1786954246.1274273,
     "9c3dd175ff0c49b7618e": 1787057736.387889,
     "9c436d4a4ec079aa45de": 1787319340.7455528,
     "9c5802fa9ff7f08ecf17": 1787339443.4317245,
@@ -5865,7 +5917,6 @@
     "a483e5a89f7b58bb5f08": 1787315734.897231,
     "a4883f121924c289d3ba": 1787283347.5203145,
     "a4b702e8b36dc97f88ee": 1786968649.123957,
-    "a4e65a7e16b81e3a2f05": 1786954246.1274304,
     "a4ee4c9341ea4d392607": 1787551844.8858366,
     "a52bd8ce7631a6b3e7df": 1787128554.043248,
     "a57a012d1a47dfed2b3a": 1787207735.2165751,
@@ -6622,7 +6673,6 @@
     "d3c959dbb472034b009f": 1787196935.334071,
     "d3e3e917a83e67acf76a": 1787295342.1228082,
     "d3f00f699870940cb0f5": 1787088937.4191813,
-    "d40f1c8fc6a1ae0659c0": 1786954246.127418,
     "d412993d6259a90050d8": 1787082943.348834,
     "d418915a8509cbe9fc5a": 1787556943.5885763,
     "d42472556ea812679353": 1787144141.8520865,
@@ -6723,7 +6773,6 @@
     "d8ef541aa2f587d7609f": 1786955739.811666,
     "d8ef8eb0cb18dcdefd49": 1787044240.786677,
     "d8f33ae639a2aa4cdd64": 1787242850.4859922,
-    "d8fb5494bdc3d2299439": 1786954246.1274235,
     "d9187a61a692c88ef8f0": 1787052940.697064,
     "d92c7b36df1031cc5460": 1787039736.2073953,
     "d9338d14ac0a00b58bc7": 1787141449.0065439,
@@ -6827,6 +6876,7 @@
     "df321e6b1f423565d645": 1787417732.7541018,
     "df386d1a5ab1ab3f9a7a": 1786967742.3061433,
     "df49cb96a358c01fb5ac": 1786973736.9749455,
+    "df4f900d4c2b477ccc7b": 1787560274.6864834,
     "df6613d6eabe11cc1e1e": 1787551844.885824,
     "df80a3920b65d6d08148": 1787153741.7469375,
     "df8191c72de9cb2786c5": 1787141449.0065465,
@@ -7030,6 +7080,7 @@
     "ea7032041f1d9fb19037": 1787234138.723774,
     "ea8266643a70ca4a7158": 1787052940.6970732,
     "ea8755b3cc4078744425": 1787135740.660714,
+    "ea8f81334a3845b2cce6": 1787560274.6864867,
     "ea97a7b5dc78ecee47dc": 1787314244.8554451,
     "eaa33bc4d9997cf41853": 1787220653.9871333,
     "eabc7e239b6e9fb67fdf": 1787172937.2699723,
@@ -7143,6 +7194,7 @@
     "f1ab8477ebab58fc1b45": 1787235051.3235028,
     "f1d20005e17bf45b3a42": 1787320540.8967757,
     "f1ddc7b761d956c69019": 1787146541.6522534,
+    "f1ecdc42808c3e207a1a": 1787560274.6864805,
     "f1f577fe6b428da2bbcc": 1787394937.744303,
     "f203994d015a77edcb7c": 1786955739.8116763,
     "f203b75da785da1359bb": 1787203248.3640893,
@@ -7376,61 +7428,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1787559042.8767612
+      "ts": 1787560274.6864507
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1787559042.8767629
+      "ts": 1787560274.6864524
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1787559042.8767655
+      "ts": 1787560274.686455
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1787559042.876769
+      "ts": 1787560274.6864593
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1787559042.8767638
+      "ts": 1787560274.6864536
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1787559042.8767548
+      "ts": 1787560274.6864433
     },
     "sme_gnews": {
-      "error": null,
+      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:sme.sk&hl=sk&gl=SK&ceid=SK:sk",
       "name": "SME (GNews)",
-      "ok": true,
-      "ts": 1787559042.8767593
+      "ok": false,
+      "ts": 1787560274.6864488
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1787559042.8767684
+      "ts": 1787560274.6864583
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1787559042.8767664
+      "ts": 1787560274.6864567
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1787559042.8767674
+      "ts": 1787560274.6864576
     }
   },
   "sport_recent": [
@@ -8865,6 +8917,14 @@
       "t": "Alvarez nahneval fanúšikov Atletica, Barcelona s presvedčivým triumfom",
       "ts": 1787559042.8768039,
       "u": "c8ff52debff45872e541"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/psychicky-stav-juliana-alvareza-po-vypiskani-trener-atletica-odpovedal-2026082407302602358",
+      "p": "Tréner Atlética Madrid Diego Simeone sa po domácej remíze 2:2 s Villarrealom rozprával s médiami. Hlavnou témou bol opäť Julián Álvarez, piskot na jeho adresu a skutočnosť, že argentínskemu útočníkovi nebolo dovolené pozdraviť fanúšikov spolu so svojimi spoluhráčmi po skončení zápasu.",
+      "s": "Šport.sk",
+      "t": "Psychický stav Juliána Álvareza po vypískaní? Tréner Atlética: Musíme byť jednotní",
+      "ts": 1787560274.6864953,
+      "u": "627cd69467ec2c274c0c"
     }
   ],
   "sport_source_status": {
@@ -8872,25 +8932,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1787559042.8767712
+      "ts": 1787560274.686462
     },
     "sportnet_gnews": {
-      "error": null,
+      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Asportnet.sme.sk&hl=sk&gl=SK&ceid=SK%3Ask",
       "name": "SPORTNET",
-      "ok": true,
-      "ts": 1787559042.8767734
+      "ok": false,
+      "ts": 1787560274.686464
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1787559042.876776
+      "ts": 1787560274.6864672
     },
     "tvnoviny_sport_gnews": {
-      "error": null,
+      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Atvnoviny.sk%2Fsport&hl=sk&gl=SK&ceid=SK%3Ask",
       "name": "TVNOVINY.sk",
-      "ok": true,
-      "ts": 1787559042.8767745
+      "ok": false,
+      "ts": 1787560274.6864655
     }
   }
 }
