@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Súd v kauze vraždy Jána Kuciaka pokračuje čítaním listín",
-      "ts": 1787644545.9787104
-    },
-    {
-      "headline": "Tornádo vo Francúzsku zranilo desiatky ľudí",
-      "ts": 1787644545.9787104
-    },
-    {
-      "headline": "Tragické úmrtie dieťaťa po odmietnutí očkovania",
-      "ts": 1787644545.9787104
-    },
-    {
-      "headline": "Hustý dym nad Košicami po požiari skládky",
-      "ts": 1787644545.9787104
-    },
-    {
-      "headline": "Díleri heroínu zadržaní v Bratislave",
-      "ts": 1787644545.9787104
-    },
-    {
       "headline": "Počet obetí zemetrasenia vo Venezuele presiahol 6 500",
       "ts": 1787646057.9637032
     },
@@ -227,25 +207,39 @@
     {
       "headline": "Pellegrini podporil vstup Čiernej Hory do EÚ",
       "ts": 1787658938.6592205
+    },
+    {
+      "headline": "Prieskum Ipsos: PS a Smer sú v preferenciách bok po boku",
+      "ts": 1787659866.4906695
+    },
+    {
+      "headline": "Ukrajina vypracovala s partnermi mierový plán pre Rusko",
+      "ts": 1787659866.4906695
+    },
+    {
+      "headline": "Taraba odmietol ultimátum SNS a odchod z funkcie",
+      "ts": 1787659866.4906695
+    },
+    {
+      "headline": "V Arménsku zadržali exprezidenta Kočarjana aj jeho syna",
+      "ts": 1787659866.4906695
+    },
+    {
+      "headline": "Maďarsko podalo trestné oznámenie v kauze ventilátorov",
+      "ts": 1787659866.4906695
+    },
+    {
+      "headline": "Tornádo vo Francúzsku zranilo desiatky ľudí",
+      "ts": 1787659866.4906695
+    },
+    {
+      "headline": "Branislav Becík ohlásil kandidatúru na župana",
+      "ts": 1787659866.4906695
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
-      {
-        "headline": "Ukrajina pripravila mierový plán, dokument pošle Moskve",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/5MEyjPT/ukrajina-vypracovala-s-usa-a-europou-dokument-s-navrhmi-na-ukoncenie-vojny/"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2029799-zelenskyj-vytiahol-novy-plan-na-ukoncenie-vojny-dokument-poslu-moskve-v-hre-je-aj-donbas"
-          ]
-        ],
-        "perex": "Ukrajina v spolupráci s USA a Európou vypracovala trojbodový návrh na ukončenie vojny s Ruskom. Dokument obsahuje podmienky prímeria a osobitný režim pre oblasť Donbasu."
-      },
       {
         "headline": "Prieskum Ipsos: PS a Smer sú v preferenciách bok po boku",
         "links": [
@@ -255,24 +249,52 @@
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2029817-prieskum-volebnych-preferencii-ipsos-ps-a-smer-bok-po-boku-deli-ich-len-statisticka-odchylka"
+            "https://www.pravda.sk/spravy/domace/clanok/2029817-prieskum-volebnych-preferencii-ipsos-ps-a-smer-bok-po-boku-deli-ich-len-statisticka-odchylka/"
           ]
         ],
-        "perex": "Ak by sa parlamentné voľby konali koncom leta, o víťazstvo by súperili Progresívne Slovensko a Smer. Rozdiel medzi oboma stranami sa pohybuje v rámci štatistickej odchýlky."
+        "perex": "Podľa najnovšieho prieskumu agentúry Ipsos sa podpora Progresívneho Slovenska a strany Smer vyrovnala. Obe strany sa nachádzajú na úrovni 18 percent, pričom rozdiel medzi nimi je v rámci štatistickej odchýlky."
       },
       {
-        "headline": "V Arménsku zadržali exprezidenta Kočarjana",
+        "headline": "Ukrajina vypracovala s partnermi mierový plán pre Rusko",
         "links": [
           [
-            "SME",
-            "https://www.sme.sk/svet/c/v-armensku-zadrzali-exprezidenta-kocarjana-aj-jeho-syna"
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/5MEyjPT/ukrajina-vypracovala-s-usa-a-europou-dokument-s-navrhmi-na-ukoncenie-vojny/"
           ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2029799-zelenskyj-vytiahol-novy-plan-na-ukoncenie-vojny-dokument-poslu-moskve-v-hre-je-aj-donbas/"
+          ]
+        ],
+        "perex": "Ukrajinský prezident Volodymyr Zelenskyj potvrdil prípravu trojbodového dokumentu na ukončenie vojny. Návrh, ktorý vznikol v spolupráci s USA a Európou, počíta s prímerím a osobitným režimom pre Donbas."
+      },
+      {
+        "headline": "Taraba odmietol ultimátum SNS a odchod z funkcie",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/gg6ydg7/tvrdy-odkaz-ministra-tarabu-pre-sns-odmietol-ultimatum-aj-scenar-s-filipom-kuffom-na-cele-rezortu/"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/slovensko/1250271-taraba-ja-15-septembra-neodchadzam-mozu-si-davat-datumy-ake-chcu"
+          ]
+        ],
+        "perex": "Minister životného prostredia Tomáš Taraba rázne odmietol špekulácie o svojom odchode z postu k 15. septembru. Zároveň vylúčil scenár, v ktorom by ho na čele rezortu nahradil Filip Kuffa."
+      },
+      {
+        "headline": "V Arménsku zadržali exprezidenta Kočarjana aj jeho syna",
+        "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/0dlGIXL/exprezidenta-armenska-roberta-kocarjana-zadrzali-pri-velkej-razii-protikorupcny-vybor-ho-vini-zo-zneuzitia-pravomoci/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/v-armensku-zadrzali-exprezidenta-kocarjana-aj-jeho-syna"
           ]
         ],
-        "perex": "Protikorupčný výbor v Arménsku zadržal exprezidenta Roberta Kočarjana aj jeho syna Sedraka. Dvojica čelí obvineniam zo zneužitia právomocí pri privatizácii štátnych nehnuteľností."
+        "perex": "Protikorupčný výbor v Arménsku vykonal rozsiahlu raziu, pri ktorej zadržal bývalého prezidenta Roberta Kočarjana. Dôvodom sú obvinenia zo zneužitia právomocí pri privatizácii štátneho majetku."
       },
       {
         "headline": "Maďarsko podalo trestné oznámenie v kauze ventilátorov",
@@ -282,179 +304,47 @@
             "https://www.sme.sk/svet/c/v-kauze-biznisu-s-plucnymi-ventilatormi-madarsky-rezort-zahranicnych-veci-podal-trestne-oznamenie"
           ]
         ],
-        "perex": "Maďarský rezort zahraničných vecí podnikol právne kroky v súvislosti s nákupom 17-tisíc pľúcnych ventilátorov z roku 2020. Väčšina z nich ostala nevyužitá a nákup sprostredkovalo 28 firiem."
+        "perex": "Maďarský rezort zahraničných vecí sa obrátil na políciu v súvislosti s nákupom 17-tisíc pľúcnych ventilátorov z roku 2020. Väčšina z týchto prístrojov, obstaraných cez sprostredkovateľov, nebola nikdy využitá."
       },
       {
-        "headline": "Bitcoin prekonal hranicu 80-tisíc dolárov",
+        "headline": "Tornádo vo Francúzsku zranilo desiatky ľudí",
         "links": [
           [
-            "SME",
-            "https://www.sme.sk/index/c/bitcoin-prelomil-hranicu-80-tisic-dolarov-a-pokracuje-v-prudkom-raste"
-          ]
-        ],
-        "perex": "Najznámejšia kryptomena pokračuje v prudkom raste a prelomila psychologickú hranicu 80-tisíc dolárov. Pozitívny trend zaznamenali aj ďalšie digitálne meny na trhu."
-      },
-      {
-        "headline": "Pellegrini podporil vstup Čiernej Hory do EÚ",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2029785-pellegrini-privital-v-bratislave-prezidenta-ciernej-hory-podporil-vstup-ciernej-hory-do-eu-do-roku-2028"
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1250078-tornado-vo-francuzsku-strhavalo-strechy-zranilo-41-ludi-medzi-nimi-aj-tehotnu-zenu"
           ],
           [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/prezident-vstup-ciernej-hory-do-eu-by/987319-clanok.html"
+            "SME",
+            "https://www.sme.sk/svet/c/pondelkove-tornado-zranilo-39-ludi-na-juhu-francuzska"
           ]
         ],
-        "perex": "Prezident SR Peter Pellegrini sa v Bratislave stretol s prezidentom Čiernej Hory Jakovom Milatovićom. Slovenská hlava štátu vyjadrila podporu ambícii krajiny vstúpiť do Únie do roku 2028."
+        "perex": "Silné tornádo zasiahlo juh Francúzska a spôsobilo rozsiahle škody na stovkách budov. Pri nešťastí utrpelo zranenia celkovo 39 osôb."
+      },
+      {
+        "headline": "Branislav Becík ohlásil kandidatúru na župana",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/ZjrD4zW/branislav-becik-vstupuje-do-boja-o-kreslo-zupana-nitrianskeho-kraja-kandidaturu-oznamil-v-posledny-mozny-den/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2029773-becik-ide-opat-do-boja-o-nitriansky-kraj-kampan-chce-viest-na-traktore-a-ukazal-kto-stoji-za-nim/"
+          ]
+        ],
+        "perex": "Predseda Nitrianskeho samosprávneho kraja Branislav Becík oficiálne potvrdil, že sa bude v októbrových voľbách uchádzať o znovuzvolenie. Svoju kampaň plánuje viesť netradične na traktore."
       }
     ],
-    "ts": 1787658938.6592119
+    "ts": 1787659866.4906616
   },
   "meta": {
-    "last_collection_ts": 1787658933.911241,
+    "last_collection_ts": 1787659844.401626,
     "last_feed_error_ts": 1787650567.9317012,
     "last_llm_error_ts": 1787577266.2838125,
-    "last_run_ts": 1787658934.2421687,
-    "last_synthesis_ts": 1787658938.6592062
+    "last_run_ts": 1787659844.7819493,
+    "last_synthesis_ts": 1787659866.4906552
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/fideszu-nehrozi-ziadny-rozkol-vyhlasil-komunikacny-riaditel-strany-havasi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Vznik platformy Občianski demokrati nie je podľa neho žiadnou predzvesťou rozkolu.",
-      "s": "SME",
-      "t": "Fideszu nehrozí žiadny rozkol, vyhlásil komunikačný riaditeľ strany Havasi",
-      "ts": 1787572545.8986096,
-      "u": "14ac9c69ce91cd486da0"
-    },
-    {
-      "l": "https://www.sme.sk/closer/c/slovensko-emigracia-zahranicie-mladi-ludia-odchod-plat-lacne-peniaze-prieskum-2026?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Mladá generácia má pocit, že nemajú viac príležitostí v porovnaní s rodičmi.",
-      "s": "SME",
-      "t": "Až 80 percent mladých ľudí by ochotne zo Slovenska odišlo za lepšími príležitosťami",
-      "ts": 1787572545.8986127,
-      "u": "38f94c812412772dc571"
-    },
-    {
-      "l": "https://www.sme.sk/komentare/c/gaspar-ako-jednotka-nevkusu-a-drzosti-pise-samo-marec?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Nedá sa čakať, že pomenujú veci pravým menom",
-      "s": "SME",
-      "t": "Gašpar ako jednotka nevkusu a drzosti (píše Samo Marec)",
-      "ts": 1787572545.898614,
-      "u": "27e781ac824d31d27810"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/kandidatom-v-samospravnych-volbach-zostava-na-podanie-kandidatok-uz-len-den?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Samospráva je podľa Rašiho k občanom najbližšie.",
-      "s": "SME",
-      "t": "Kandidátom v samosprávnych voľbách zostáva na podanie kandidátok už len deň",
-      "ts": 1787572545.8986158,
-      "u": "be09f28721f61e40df74"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/svedsko-zriadi-komisiu-v-snahe-predist-utokom-na-skoly?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Pri piatkovom útoku mečom na škole v obci Fagersta zahynula 17-ročná študentka.",
-      "s": "SME",
-      "t": "Švédsko zriadi komisiu v snahe predísť útokom na školy",
-      "ts": 1787572545.8986168,
-      "u": "0558b39664b162fe907c"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/nehoda-autobusu-s-nemeckymi-skolakmi-v-holandsku-si-vyziadala-16-zranenych?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Na palube autobusu sa nachádzalo približne 50 ľudí.",
-      "s": "SME",
-      "t": "Nehoda autobusu s nemeckými školákmi v Holandsku si vyžiadala 16 zranených",
-      "ts": 1787572545.8986187,
-      "u": "7386b356d396d3307eb3"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/aXfCHUn/svedsko-reaguje-na-krvavy-utok-mecom-na-strednej-skole-vlada-zriaduje-komisiu-na-prevenciu-nasilia/",
-      "p": "Švédska vláda reaguje na útok mečom na škole vo Fagerste zriadením špeciálnej komisie. Tá má pripraviť nové opatrenia na ochranu žiakov aj učiteľov.",
-      "s": "Aktuality",
-      "t": "Švédsko reaguje na krvavý útok mečom na strednej škole. Vláda zriaďuje komisiu na prevenciu násilia",
-      "ts": 1787572545.8986201,
-      "u": "0e86e03fbf1612aeec2d"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2029185-koniec-pasivneho-sedenia-v-laviciach-zodpovednost-za-vzdelanie-preberaju-samotni-ziaci?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "V škole 21. storočia majú všetci aktéri (žiak, učiteľ, rodič) možnosť spoluvytvárať obsah a formy vzdelávania, spoločne sa vlastnou aktivitou učiť a zlepšovať. Žiak bude po novom hlavným aktérom spoluzodpovedným za svoje vzdelávanie. Vyplýva to zo Štátneho vzdelávacieho programu (ŠVP) pre základné v",
-      "s": "Pravda",
-      "t": "Koniec pasívneho sedenia v laviciach: Zodpovednosť za vzdelanie preberajú samotní žiaci",
-      "ts": 1787572545.8986223,
-      "u": "dfa3ba2b612ecb666541"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1249870-ku-konaniu-ucitela-k-maloletym-na-zs-budatinska-sa-mozu-vyjadrovat-sud-zrusil-opatrenie",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Ku konaniu učiteľa k maloletým na ZŠ Budatínska sa môžu vyjadrovať. Sud zrušil opatrenie",
-      "ts": 1787572545.8986235,
-      "u": "5a9ce04a8552d202cec4"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1249855-bielorusko-vyhana-polskych-knazov",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Bielorusko vyháňa poľských kňazov",
-      "ts": 1787572545.8986247,
-      "u": "77f4d63ac58773c43c65"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1249856-utok-na-9-rocne-dievca-muz-ju-udrel-do-tvare-a-ukradol-jej-peniaze",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Útok na 9-ročné dievča: Muž ju udrel do tváre a ukradol jej peniaze",
-      "ts": 1787572545.8986263,
-      "u": "b7489da251cbb7108413"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1249837-holandsko-konci-s-euroviziou-sutaz-vraj-stratila-svoju-neutralitu",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Holandsko končí s Eurovíziou: Súťaž vraj stratila svoju neutralitu",
-      "ts": 1787572545.8986273,
-      "u": "b997d54b9713ae977f22"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1249846-transakcna-dan-sa-ma-zrusit-opozicia-posiela-tvrde-odkazy-simecka-su-obycajni-babraci",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Transakčná daň sa má zrušiť, opozícia posiela tvrdé odkazy. Šimečka: Sú obyčajní babráci",
-      "ts": 1787572545.8986287,
-      "u": "a657877addc2eb3a3070"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/francuzsko-straca-pozicie-v-armensku-nahradza-ho-americky-vplyv?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Francúzi boli dlhodobí spojenci, teraz ho USA vytláčajú aj zo strategických projektov.",
-      "s": "SME",
-      "t": "Francúzsko stráca pozície v Arménsku. Nahrádza ho americký vplyv",
-      "ts": 1787573448.285074,
-      "u": "a8a7acd261bf51214afb"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTE5pSUNMZkU3ZE93X1hMU1Vsek5hOTF3dXpBeXpGZUlweEdUVmVDbkVZOXhtSEZQUGRFTkVMWDFaSmlFckFuZnhKUWV4VkNGZ2dFa1NKWm56ME5RbkdubXFTbHQ4aEtyblBDdVQ4T2VuWXhkZE9hd0xfWmFEb0dkejl6eDFSX2pheGln?oc=5",
-      "p": "Slovan v záverečnej fáze Ligy majstrov, ME vo volejbale žien, F1 či štart Vuelty (TV tipy) SPORTNET",
-      "s": "SME (GNews)",
-      "t": "Slovan v záverečnej fáze Ligy majstrov, ME vo volejbale žien, F1 či štart Vuelty (TV tipy) - SPORTNET",
-      "ts": 1787573448.2850773,
-      "u": "c1530f95e8f7c49c7bd5"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/qLOvEhE/koniec-slovenskej-montaznej-dielne-skryty-dovod-preco-z-nasich-fabrik-miznu-desiatky-tisic-ludi/",
-      "p": "Chrbtová kosť slovenskej ekonomiky stráca desaťtisíce ľudí, no paradoxne stále trpí ich nedostatkom. Je to začiatok konca našej priemyselnej dominancie alebo len nevyhnutná daň za modernizáciu a prechod na inovácie? Viac sa dozviete v našej pravidelnej rubrike - panel expertov.",
-      "s": "Aktuality",
-      "t": "Koniec slovenskej montážnej dielne? Skrytý dôvod, prečo z našich fabrík miznú desiatky tisíc ľudí",
-      "ts": 1787573448.285079,
-      "u": "6be75b39585d7e11e4dd"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2029195-brutalny-utok-v-secovciach-muz-udrel-na-ulici-9-rocne-dievca-kvoli-30-euram-skoncil-v-putach?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Zo zločinu lúpeže obvinil policajný vyšetrovateľ 28-ročného muža. Ten v meste Sečovce v Trebišovskom okrese podľa polície pristúpil k deväťročnému dievčaťu, ktoré kráčalo po chodníku, udrel ho do tváre a vytrhol mu 30 eur, ktoré zvieralo v dlani. Potom ušiel. Informovala o tom košická krajská políci",
-      "s": "Pravda",
-      "t": "Brutálny útok na východe: Muž udrel na ulici 9-ročné dievča, kvôli 30 eurám skončil v putách",
-      "ts": 1787573448.285082,
-      "u": "429616d794169969a1ec"
-    },
     {
       "l": "https://www.sme.sk/domov/c/hlas-chce-zmenou-ustavy-zaviest-moznost-odvolat-parlament-v-referende?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Zmena by umožnila predčasne ukončiť volebné obdobie referendom.",
@@ -4086,6 +3976,62 @@
       "t": "Pod Donovalmi sa prevrátil kamión s ťahačmi",
       "ts": 1787658934.2413023,
       "u": "b2de60a24062f76748b7"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/prieskum-politickych-stran-august-ipsos-2026?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Matovičova dôvera dlhodobo rastie.",
+      "s": "SME",
+      "t": "Prieskum Ipsos: Progresívne Slovensko prišlo o časť tvrdého jadra a kleslo na úroveň Smeru",
+      "ts": 1787659844.7808597,
+      "u": "e9463db416057aed0325"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/macacie-uska-a-koniec-praslovenskej-civilizacie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "„Wellness utópia“ sa odkladá na neurčito, máme iné priority.",
+      "s": "SME",
+      "t": "Mačacie ušká a koniec praslovenskej civilizácie",
+      "ts": 1787659844.7808669,
+      "u": "aa4c4d7a2c10fefcca74"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/zYS6ULG/krajne-pravicovy-izraelsky-poslanec-rozbil-kladivom-palestinsky-pamatnik-jeho-cin-odsudila-armada-aj-benjamin-netanjahu/",
+      "p": "Izraelský krajne pravicový poslanec Cvi Jedidja Sukot vyvolal škandál po tom, čo v sprievode vojakov kladivom rozbil palestínsky pamätník v dedine Mádamá na okupovanom Západnom brehu Jordánu. Poslanec a osadnícky aktivista svoj čin obhajuje tým, že išlo o pomník teroristom, ktorý armáda neodstránila",
+      "s": "Aktuality",
+      "t": "Krajne pravicový izraelský poslanec rozbil kladivom palestínsky pamätník: Jeho čin odsúdila armáda aj Benjamin Netanjahu",
+      "ts": 1787659844.780871,
+      "u": "b56fce05b21c19c1e1a3"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/gg6ydg7/tvrdy-odkaz-ministra-tarabu-pre-sns-odmietol-ultimatum-aj-scenar-s-filipom-kuffom-na-cele-rezortu/",
+      "p": "Šéf envirorezortu Taraba vyzval k stávke celého majetku na to, že Kuffa nebude od polovice septembra jeho nástupcom vo funkcii.",
+      "s": "Aktuality",
+      "t": "Tvrdý odkaz ministra Tarabu pre SNS. Odmietol ultimátum aj scenár s Filipom Kuffom na čele rezortu",
+      "ts": 1787659844.7808738,
+      "u": "d5aa49d4a975aff75283"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/ywZCQOQ/opity-vodic-zrazil-v-portugalsku-12-ludi-medzi-zranenymi-su-aj-policajti/",
+      "p": "Tridsaťpäťročný opitý vodič zrazil v utorok nadránom v portugalskom letovisku Albufeira 12 ľudí po tom, čo neuposlúchol výzvu policajnej hliadky na zastavenie. Medzi zranenými v rušnej ulici známej nočným životom sú okrem mladých ľudí vo veku 18 až 22 rokov aj dvaja policajti a jeden občan Poľska.",
+      "s": "Aktuality",
+      "t": "Opitý vodič zrazil v Portugalsku 12 ľudí: Medzi zranenými sú aj policajti",
+      "ts": 1787659844.7808769,
+      "u": "238bcce66b639a2ee4fd"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/AjV1D4q/bohaty-zapad-na-nas-ukor-fico-v-bratislave-odmietol-novy-plan-bruselu/",
+      "p": "V Bratislave sa začal boj o budúci európsky rozpočet. Kým Costa žiada nové zdroje na obranu, Fico presadzuje výhody pre východné štáty.",
+      "s": "Aktuality",
+      "t": "Bohatý Západ na náš úkor? Fico v Bratislave odmietol nový plán Bruselu",
+      "ts": 1787659844.7808788,
+      "u": "51580f9ae355fc47a44f"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/9klwFCm/peter-pellegrini-podporil-vstup-ciernej-hory-do-eu-do-roku-2028-bol-by-to-signal-pre-ostatne-krajiny/",
+      "p": "Vstup Čiernej Hory do Európskej únie v roku 2028 je reálny, ak to lídri členských štátov myslia s rozširovaním vážne. Vyhlásil to prezident SR Peter Pellegrini po rokovaní s čiernohorským prezidentom Jakovom Milatovičom v Bratislave.",
+      "s": "Aktuality",
+      "t": "Peter Pellegrini podporil vstup Čiernej Hory do EÚ do roku 2028: Bol by to signál pre ostatné krajiny",
+      "ts": 1787659844.780881,
+      "u": "ab757e693018eddefd5a"
     }
   ],
   "recent_alerts": [
@@ -4781,6 +4727,15 @@
       "reason": "Ide o zásadný diplomatický posun v konflikte s priamym bezpečnostným a geopolitickým dopadom na európsky priestor vrátane Slovenska.",
       "title": "Ukrajina vypracovala s USA a Európou dokument s návrhmi na ukončenie vojny",
       "ts": 1787657744.7726593
+    },
+    {
+      "links": [
+        "https://www.aktuality.sk/clanok/ywZCQOQ/opity-vodic-zrazil-v-portugalsku-12-ludi-medzi-zranenymi-su-aj-policajti/"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Ide o závažný incident s vysokým počtom zranených osôb v zahraničí, ktorý zahŕňa útok na bezpečnostné zložky a má charakter verejného ohrozenia.",
+      "title": "Opitý vodič zrazil v Portugalsku 12 ľudí: Medzi zranenými sú aj policajti",
+      "ts": 1787659859.388781
     }
   ],
   "seen": {
@@ -4897,6 +4852,7 @@
     "0746938a826102351963": 1787249445.1706269,
     "0752e35d166632764d8b": 1787574942.3252575,
     "07596e325ae3796cb588": 1787459741.0059235,
+    "0768e1953460eb67a53d": 1787659844.7808864,
     "0771893c47efcedc8bcc": 1787628936.907341,
     "0779004a9bfecab7e097": 1787567741.3584082,
     "078499f76d8e999790c4": 1787401242.258108,
@@ -4954,7 +4910,6 @@
     "0a3187fb80333052b586": 1787574942.32526,
     "0a371951d88086b37349": 1787632538.4268644,
     "0a4ae598fd345bf10210": 1787636140.450184,
-    "0a50fabcfdf52d2c9912": 1787055042.7138453,
     "0a52f062d4988dd0a3b4": 1787553333.1434531,
     "0a56d1634bcea5b4fb73": 1787424932.5622838,
     "0a5a818bcf437dd33f45": 1787653303.3602755,
@@ -5369,6 +5324,7 @@
     "23703b780f6a4be2cc4a": 1787236566.5270271,
     "23783af1840ed6576ef3": 1787507510.3871377,
     "23879935b005ac5e2e0d": 1787512846.7958038,
+    "238bcce66b639a2ee4fd": 1787659844.7808752,
     "23b37b930018f7585082": 1787596534.6409807,
     "23b4953d0672818eb80c": 1787135740.6609118,
     "23b5ee3adcb6e54c3ab4": 1787213238.7682915,
@@ -5422,7 +5378,6 @@
     "271d711d68a257a2d2ac": 1787404842.5791876,
     "271e6e56ef3f59f0ec9e": 1787469043.4707077,
     "273a1ac801314e4e42c5": 1787496939.2108002,
-    "273d400b176b57077d1d": 1787055042.7138422,
     "2740aa684895597432e4": 1787542537.4378266,
     "277b83389bfd32f2f1c2": 1787222138.4597206,
     "279a453b1cae190dc0d2": 1787486142.9767644,
@@ -5651,7 +5606,6 @@
     "338f3f592decd4f65d29": 1787565342.1616788,
     "33900043295338d9e624": 1787115905.4334843,
     "339704f429f320d809e1": 1787577050.0981631,
-    "33ab46dc5331d855bffc": 1787055042.7138288,
     "33bebad8b2988c5efd8d": 1787634428.3617551,
     "33c8387292eae69d5429": 1787399735.3553333,
     "33d37895cd49fbc3379a": 1787330990.8248284,
@@ -6125,9 +6079,9 @@
     "50ebabddcedcfae133e0": 1787060144.361079,
     "50fb4d23562dc076e1c9": 1787160041.774569,
     "513d0baa383b83ec4768": 1787576141.668816,
+    "51580f9ae355fc47a44f": 1787659844.7808778,
     "515b066be20a5fc51de3": 1787472089.5180736,
     "516cb2db44ab40cbce1f": 1787469043.4707139,
-    "5173ef321324ce1668f4": 1787055042.7138443,
     "518a16c39f998dd5bc6f": 1787476840.9918451,
     "51bd382e998d209a7380": 1787312821.2008233,
     "51cbdeb6ae85d372eb56": 1787391341.5968587,
@@ -6327,7 +6281,6 @@
     "5f849195cd5b8f3428fd": 1787286943.0372882,
     "5f9d697e309aac37435f": 1787110543.872842,
     "5fa3651da0703ce0423d": 1787220653.9871414,
-    "5fa9653cce3a4b90a905": 1787055042.7138405,
     "5faa8620f100982b7795": 1787393360.9364798,
     "5faf5fa650d252e5da46": 1787065844.3404949,
     "5fb1eaf03e5bdd0e3c47": 1787577050.0981667,
@@ -6645,7 +6598,6 @@
     "7606e76e7dc26ce2d877": 1787551844.8858309,
     "760b621de7361cac40a6": 1787375442.778492,
     "7640e3a23be344736b63": 1787314244.8554432,
-    "764a27cf749ec4d0f7ee": 1787055042.7138503,
     "76555bb590ed60ab17cf": 1787229342.5192645,
     "765dc45719cfb6918b42": 1787131720.206194,
     "7660608b3f409800aa14": 1787303443.3724387,
@@ -7251,7 +7203,6 @@
     "9ca1c339d410a5cf8159": 1787654133.7301328,
     "9cae94338c71baa49982": 1787140543.5714512,
     "9cc2ce57b9e20ad69854": 1787456142.479202,
-    "9ce920fbc1dda8b6517a": 1787055042.7138357,
     "9cf098fb675a65d16833": 1787289047.8083565,
     "9cfe16297fd5101b81fc": 1787127048.9546895,
     "9d0354528bc5075209c8": 1787162149.6929505,
@@ -7390,6 +7341,7 @@
     "a60c7c7aeea2fa66ae0e": 1787070051.9906309,
     "a61208a484b3937c37a3": 1787131720.2062156,
     "a61f0f1535582f0b79fc": 1787569850.3318646,
+    "a622d8623c4a93632a29": 1787659844.7808895,
     "a62b23aeb98a2c296c1b": 1787638242.877744,
     "a63805419a3ca579a321": 1787065844.3404975,
     "a64cb0909745c5229744": 1787658934.2413034,
@@ -7434,6 +7386,7 @@
     "a8645f3b5c2c9aa3c6fe": 1787060144.3610942,
     "a8a7acd261bf51214afb": 1787573448.2850702,
     "a8be5d507ac8f3490feb": 1787399735.355328,
+    "a8c14048a8fe02b380c4": 1787659844.7808824,
     "a8c3159329664a72391a": 1787222138.4597259,
     "a8d8cf6895b86cbe4f47": 1787145047.915649,
     "a8e96d5fa7387f01f7a4": 1787124933.9053414,
@@ -7458,6 +7411,7 @@
     "aa2a10fd427a3b921b0b": 1787218540.0533507,
     "aa408d98195cb2d59986": 1787326537.6136432,
     "aa4225b729bc63661b4d": 1787628936.907334,
+    "aa4c4d7a2c10fefcca74": 1787659844.7808628,
     "aa5f997bf367c6c6caab": 1787199342.5860467,
     "aa708ced7e6e54264850": 1787144141.8520956,
     "aa77d3ba08dec6785d11": 1787150144.8428693,
@@ -7475,6 +7429,7 @@
     "ab36c7329cdbb31e2c47": 1787542537.4376216,
     "ab40ae00a8744f6785e0": 1787310642.5820515,
     "ab5c16eedf0f2265caea": 1787303443.3721328,
+    "ab757e693018eddefd5a": 1787659844.78088,
     "ab75afba94ec1e011851": 1787456142.4792073,
     "ab82df23576448c21ec6": 1787406942.3488178,
     "ab8810dcafe3de0b82b0": 1787553333.143445,
@@ -7538,7 +7493,6 @@
     "aef9b162ee61e4a49996": 1787205333.4020436,
     "af0f61854e506f7d3e48": 1787548851.2769692,
     "af38a970f6cf9b1edfe2": 1787150144.8428707,
-    "af6d61ff1bcf0bd3ac1c": 1787055042.7138476,
     "af78e4f8d368d4176cad": 1787254542.1681168,
     "af881cdf5bf9777ee42e": 1787579754.1879559,
     "af9f77c26f4600511e00": 1787119406.8426592,
@@ -7636,6 +7590,7 @@
     "b5516efa7eb7a94d3ba6": 1787595047.5804036,
     "b557d081d0634a4c1b5c": 1787207735.2165837,
     "b55c81ec52f5919d3f4f": 1787456142.4789276,
+    "b56fce05b21c19c1e1a3": 1787659844.7808685,
     "b57ec03508ed45c14ae4": 1787285182.7063081,
     "b58a2792f25b48452a56": 1787493340.5322018,
     "b5ac0bed93fe2bd3d6dc": 1787115905.4334989,
@@ -7756,6 +7711,7 @@
     "bcf464bce4262b540f55": 1787650567.9317226,
     "bd13cdab42298598e480": 1787642612.2145221,
     "bd1e4033f446df914712": 1787124933.9053485,
+    "bd3208a7e848ae6d689d": 1787659844.7808924,
     "bd40e8836c5e9a66b11d": 1787131720.206214,
     "bd4ba2e0c43a95724e62": 1787286943.0372927,
     "bd7451ad487715087308": 1787216133.9500918,
@@ -8081,7 +8037,6 @@
     "d042659e1cda03af4685": 1787562646.7294233,
     "d082d36d341bf19c365d": 1787131720.206193,
     "d083f3024dffa8d26aaa": 1787389839.1119516,
-    "d0aa895279d00efe29d5": 1787055042.7138383,
     "d0b0387c6b401ec9cf7c": 1787283347.5205002,
     "d0b309add2ae30056401": 1787315734.897217,
     "d0be3b67d0ee772de0da": 1787316933.322208,
@@ -8177,6 +8132,7 @@
     "d584f00d8eb7cd46a0db": 1787068312.646576,
     "d586c7355e3905b1b1e8": 1787163649.9441347,
     "d5a634c062b382ea85dc": 1787500535.314691,
+    "d5aa49d4a975aff75283": 1787659844.7808723,
     "d5ac2e2dee96e7ebc051": 1787283347.5205078,
     "d5addcc68dbdeb714fa6": 1787393360.936467,
     "d5d9d5836cc6a9cc130f": 1787511342.2209268,
@@ -8533,6 +8489,7 @@
     "e92bc60b2ab061f61844": 1787306139.2190871,
     "e932ddcfbd441952a774": 1787136939.248261,
     "e93ef95ef9d77dab2361": 1787131720.2062128,
+    "e9463db416057aed0325": 1787659844.7808535,
     "e96b927492a110b5d60f": 1787286943.037491,
     "e9716d2b7d641154bf50": 1787337849.6526668,
     "e97730cddba3fe693101": 1787286943.0373101,
@@ -8915,128 +8872,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1787658934.2412603
+      "ts": 1787659844.7808065
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1787658934.2412615
+      "ts": 1787659844.7808084
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1787658934.2412646
+      "ts": 1787659844.7808127
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1787658934.2412684
+      "ts": 1787659844.7808197
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1787658934.2412632
+      "ts": 1787659844.7808106
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1787658934.241253
+      "ts": 1787659844.780796
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1787658934.2412581
+      "ts": 1787659844.7808037
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1787658934.2412677
+      "ts": 1787659844.7808185
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1787658934.2412658
+      "ts": 1787659844.780815
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1787658934.2412667
+      "ts": 1787659844.7808166
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/sviatok-cyklistiky-na-slovensku-letape-prilakala-vyse-tisic-pretekarov-a-vyvrcholila-na-kamziku-2026082411462648611",
-      "p": "Na dvoch hlavných tratiach šiesteho ročníka cyklistického podujatia L’Étape Slovakia by Tour de France súťažilo počas uplynulého víkendu spolu 1146 pretekárov. Dlhšia trať The Race merala 113 kilometrov a mala prevýšenie 1700 metrov, kratšia The Ride ponúkla 60 kilometrov s prevýšením 900 metrov.",
-      "s": "Šport.sk",
-      "t": "Sviatok cyklistiky na Slovensku. L’Étape prilákala vyše tisíc pretekárov a vyvrcholila na Kamzíku",
-      "ts": 1787572545.898632,
-      "u": "72b3e918b3d82a79dd09"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/dedinsky-futbal-tj-partizan-hiadel-prehral-vysoko-022-2026082409565680701",
-      "p": "Mala to byť oslava návratu kopačiek do obce po dvoch rokoch ticha. Namiesto rozprávky však nováčik v 8. lige zažil krutú realitu dospelého futbalu a domov odišiel s výpraskom 0:22. Domáci fanúšikovia radšej fandili súperovi, aby dal aspoň čestný gól.",
-      "s": "Šport.sk",
-      "t": "Diváci kričali: Už im nedávajte góly! Bizarný masaker, nováčik sa vrátil s historickým debaklom",
-      "ts": 1787572545.898634,
-      "u": "0d86b463d3a3334d4875"
-    },
-    {
-      "l": "https://sport.aktuality.sk/tenis/clanok/na-cele-kraluje-jannik-sinner-molcan-sa-prepadol-rebricek-atp-2026082411404574646",
-      "p": "Lídrom rebríčka ATP naďalej zostáva taliansky tenista Jannik Sinner. Najväčším skokanom v najlepšej desiatke je jeho krajan Flavio Cobolli, ktorému semifinálová účasť na turnaji ATP Masters 1000 v Cincinnati zaistila posun z 10. na 6. priečku. Slovenská jednotka Alex Molčan sa prepadla zo 75. miesta",
-      "s": "Šport.sk",
-      "t": "Na čele kraľuje Jannik Sinner, Molčan sa prepadol. Pozrite si aktuálny rebríček ATP",
-      "ts": 1787572545.8986356,
-      "u": "91fef29dc0fc19e8561a"
-    },
-    {
-      "l": "https://sport.aktuality.sk/tenis/clanok/pad-slovenskej-jednotky-ci-utok-noskovej-na-elitu-rebricek-wta-2026082411370326279",
-      "p": "Bieloruská tenistka Arina Sobolenková zostáva naďalej na čele rebríčka WTA aj po vypadnutí v osemfinále turnaja WTA 1000 v Cincinnati. V najlepšej desiatke si o dve pozície polepšila Linda Nosková, ktorá sa dostala na šiestu priečku. Najlepšou Slovenkou zostáva Rebecca Šrámková, ktorá sa však prepad",
-      "s": "Šport.sk",
-      "t": "Pád slovenskej jednotky či útok Noskovej na elitu. Pozrite si aktuálny rebríček WTA",
-      "ts": 1787572545.8986368,
-      "u": "778ba8887a142655d8ed"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/na-letape-slovakia-sa-predstavilo-ce/987087-clanok.html",
-      "p": "Preteky odštartovali pri bratislavskom Auparku a pokračovali cez Most SNP smerom na Riviéru.",
-      "s": "TERAZ.SK",
-      "t": "Na L’Étape Slovakia sa predstavilo celkovo 1146 pretekárov",
-      "ts": 1787572545.8986385,
-      "u": "1911de18ceefb3be6049"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/siiner-vedie-rebricek-atp-molcan-sa/987083-clanok.html",
-      "p": "Slovenská jednotka Alex Molčan sa prepadla zo 75. miesta na 84. pozíciu.",
-      "s": "TERAZ.SK",
-      "t": "Sinner vedie rebríček ATP, Molčan sa prepadol na 84. miesto",
-      "ts": 1787572545.89864,
-      "u": "c6b29eda811e4fa74586"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/lukas-podolski-smrt-fanusika-pomoc-rodine-2026082411250812071",
-      "p": "Poľským futbalom otriasla brutálna smrť fanúšika klubu Hutnik Krakov. K tragickému incidentu sa teraz vyjadril aj majiteľ Górnika Zabrze. Lukas Podolski hovoril o zbabelom správaní páchateľov a rodine zosnulého muža prisľúbil finančnú pomoc.",
-      "s": "Šport.sk",
-      "t": "Lukas Podolski reaguje na smrť fanúšika, ktorá otriasla Poľskom. Majiteľ Górnika urobil silné gesto",
-      "ts": 1787573448.2850852,
-      "u": "39113ffc92411d6fa323"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/online-slovensko-chorvatsko-me-zien-vo-volejbale-live-2026082412000376926",
-      "p": "Slovenské volejbalové reprezentantky prehrali aj vo svojom druhom zápase v D-skupine majstrovstiev Európy. V sobotu podľahli v Göteborgu domácim Švédkam 2:3 a získali tak prvý dôležitý bod na šampionáte. Slovenky už v piatok nestačili na favorizované Francúzky (0:3). Dnes sa na šampionáte stretnú s ",
-      "s": "Šport.sk",
-      "t": "ONLINE Chorvátsko - Slovensko / ME žien vo volejbale",
-      "ts": 1787573448.2850878,
-      "u": "88db18618ccff90d66d3"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/gol-mohameda-salaha-z-takmer-45-metrov-zrusil-ofsajd-2026082406261450855",
       "p": "Bývalý útočník Liverpoolu Mohamed Salah strelil svoje prvé dva góly v drese Trabzonsporu pri víťazstve 2:1 nad Basaksehirom.",
@@ -10428,6 +10321,38 @@
       "t": "Vuelta obmedzila prístup vlastnej influencerke, čelila veľkej kritike",
       "ts": 1787658934.2413154,
       "u": "1864e3919fa14a7321db"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/skandal-v-ceskom-tenise-vymyslene-sluzby-aj-kratenie-dani-padli-prve-tvrde-obvinenia-2026082512072572451",
+      "p": "Polícia v Česku začala so stíhaním dvoch ľudí a dvoch firiem v súvislosti s hospodárením a financovaním klubov v tenisovom prostredí. Ide o poznatky z preverovania nedávnej kauzy okolo Českého tenisového zväzu (ČTS).",
+      "s": "Šport.sk",
+      "t": "Škandál v českom tenise! Vymyslené služby aj krátenie daní, padli prvé tvrdé obvinenia",
+      "ts": 1787659844.780885,
+      "u": "a8c14048a8fe02b380c4"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/online-slovensko-taliansko-me-zien-vo-volejbale-live-2026082512040206283",
+      "p": "Slovenské volejbalové reprezentantky prehrali aj vo svojom treťom zápase v D-skupine majstrovstiev Európy. V pondelok podľahli v Göteborgu Chorvátkam 2:3. Po troch dueloch majú na konte dva body a skomplikovali si tak cestu do osemfinále. Dnes sa na šampionáte stretnú s favorizovanými Taliankami.",
+      "s": "Šport.sk",
+      "t": "ONLINE Taliansko - Slovensko / ME žien vo volejbale",
+      "ts": 1787659844.7808883,
+      "u": "0768e1953460eb67a53d"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/etiopia-chce-usporiadat-africky-pohar-narodov-2026082511480439450",
+      "p": "Etiópia sa oficiálne uchádza o usporiadanie Afrického pohára národov (APN) v roku 2028. Národná federácia to potvrdila na sociálnych sieťach. Etiópia naposledy hostila podujatie v roku 1976.",
+      "s": "Šport.sk",
+      "t": "Obrovská odvaha alebo čisté šialenstvo? Krajina zmietaná konfliktmi chce usporiadať futbalový šampionát",
+      "ts": 1787659844.7808912,
+      "u": "a622d8623c4a93632a29"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/etiopia-sa-uchadza-o-usporiadanie-afri/987330-clanok.html",
+      "p": "Etiópia je s takmer 130 miliónmi obyvateľov druhá najľudnatejšia krajiny Afriky a jej hlavné mesto Addis Abeba je sídlo Africkej únie (AÚ).",
+      "s": "TERAZ.SK",
+      "t": "Etiópia sa uchádza o usporiadanie Afrického pohára národov v roku 2028",
+      "ts": 1787659844.780893,
+      "u": "bd3208a7e848ae6d689d"
     }
   ],
   "sport_source_status": {
@@ -10435,25 +10360,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1787658934.2412713
+      "ts": 1787659844.7808342
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1787658934.2412739
+      "ts": 1787659844.7808378
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1787658934.241277
+      "ts": 1787659844.7808416
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1787658934.2412753
+      "ts": 1787659844.78084
     }
   }
 }
