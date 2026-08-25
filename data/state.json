@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Zrážka dvoch lietadiel v Rakúsku si vyžiadala obete",
-      "ts": 1787631044.716191
-    },
-    {
-      "headline": "Polícia identifikovala páchateľov útokov detského gangu v Trnave",
-      "ts": 1787631044.716191
-    },
-    {
-      "headline": "Európske krajiny varujú pred nekvalitnými kondómami",
-      "ts": 1787631044.716191
-    },
-    {
-      "headline": "Počet obetí zemetrasenia vo Venezuele presiahol 6500",
-      "ts": 1787631044.716191
-    },
-    {
-      "headline": "Nová vakcína má zabrániť návratu rakoviny",
-      "ts": 1787631044.716191
-    },
-    {
       "headline": "Fico navrhol zrušenie transakčnej dane",
       "ts": 1787634434.20309
     },
@@ -139,124 +119,108 @@
     {
       "headline": "Díleri heroínu zadržaní v Bratislave",
       "ts": 1787644545.9787104
+    },
+    {
+      "headline": "Počet obetí zemetrasenia vo Venezuele presiahol 6 500",
+      "ts": 1787646057.9637032
+    },
+    {
+      "headline": "Súd v kauze vraždy Jána Kuciaka pokračuje čítaním listín",
+      "ts": 1787646057.9637032
+    },
+    {
+      "headline": "Najvyšší súd USA podporil Trumpov zámer sprísniť hlasovanie poštou",
+      "ts": 1787646057.9637032
+    },
+    {
+      "headline": "Osobná doprava na Slovensku dosiahla rekordné čísla",
+      "ts": 1787646057.9637032
+    },
+    {
+      "headline": "Nález tretieho dronu s výbušninou pri letisku v Lipsku",
+      "ts": 1787646057.9637032
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
+        "headline": "Počet obetí zemetrasenia vo Venezuele presiahol 6 500",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/pocet-obeti-junoveho-zemetrasenia-vo-venezuele-stupol-na-viac-ako-6500?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1250099-tragicke-nasledky-zemetrasenia-vo-venezuele-pocet-obeti-presiahol-6-500"
+          ]
+        ],
+        "perex": "Počet obetí ničivého júnového zemetrasenia vo Venezuele opäť stúpol na viac ako 6 500 ľudí. Záchranári naďalej prehľadávajú trosky v najviac zasiahnutom štáte La Guaira."
+      },
+      {
         "headline": "Súd v kauze vraždy Jána Kuciaka pokračuje čítaním listín",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2029597-kuciakova-vrazda-po-treti-raz-pred-sudom-kocner-ani-dalsi-obžalovaní-neprisli-co-zaznie-v-pezinku?"
+            "https://www.pravda.sk/spravy/domace/clanok/2029597-kuciakova-vrazda-po-tretie-raz-pred-sudom-kocner-ani-dalsi-obzalovani-neprisli-co-zaznie-v-pezinku?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ],
           [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/sud-v-kauze-vrazdy-j-kuciaka-pokracu/987216-clanok.html"
+            "SME",
+            "https://www.sme.sk/domov/c/sud-v-kauze-vrazdy-novinara-kuciaka-pokracuje-citanim-listin?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "Hlavné pojednávanie v prípade vraždy novinára Jána Kuciaka a jeho snúbenice Martiny Kušnírovej pokračuje na Špecializovanom trestnom súde. Obžalovaní Marian K. a Alena Zs. sa na dnešnom procese nezúčastnili."
+        "perex": "Hlavné pojednávanie v prípade vraždy novinára Jána Kuciaka a jeho snúbenice Martiny Kušnírovej pokračuje na Špecializovanom trestnom súde. Obžalovaní Marian K. a Alena Zs. sa na dnešnom čítaní listín nezúčastnili."
       },
       {
-        "headline": "Tornádo vo Francúzsku zranilo desiatky ľudí",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1250078-tornado-vo-francuzsku-strhavalo-strechy-zranilo-41-ludi-medzi-nimi-aj-tehotnu-zenu"
-          ]
-        ],
-        "perex": "Živel zasiahol obývané oblasti a spôsobil rozsiahle materiálne škody na budovách. Pri vyčíňaní tornáda utrpelo zranenia 41 osôb vrátane tehotnej ženy."
-      },
-      {
-        "headline": "Tragické úmrtie dieťaťa po odmietnutí očkovania",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/krimi/1250130-stvorrocna-anna-zomrela-na-beznu-chorobu-rodicia-ju-odmietli-dat-zaockovat"
-          ]
-        ],
-        "perex": "Štvorročné dievčatko podľahlo ochoreniu, ktorému sa dalo predísť vďaka vakcinácii. Rodičia dieťaťa sa rozhodli povinné očkovanie odmietnuť."
-      },
-      {
-        "headline": "Hustý dym nad Košicami po požiari skládky",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1250149-gulatina-zasypala-zeleznicnu-trat-naklad-sa-vysypal-z-prevrateneho-privesu"
-          ]
-        ],
-        "perex": "Pri požiari skládky priemyselného odpadu v Košiciach zasahujú desiatky hasičov. Nad mestom sa v dôsledku udalosti vytvoril hustý čierny dym."
-      },
-      {
-        "headline": "Díleri heroínu zadržaní v Bratislave",
+        "headline": "Najvyšší súd USA podporil Trumpov zámer sprísniť hlasovanie poštou",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/zlEis3O/dileri-heroinu-v-bratislave-policia-obvinila-46-rocneho-muza-a-18-rocneho-komplica/"
+            "https://www.aktuality.sk/clanok/GzGWFtD/najvyssi-sud-usa-zatial-podporil-trumpov-zamer-sprisnit-hlasovanie-postou/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/najvyssi-sud-usa-zatial-podporil-trumpov-zamer-sprisnit-hlasovanie-postou?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "Polícia v hlavnom meste obvinila 46-ročného muža a jeho 18-ročného komplica z drogovej trestnej činnosti. Dvojicu prichytila hliadka priamo pri predaji heroínu."
+        "perex": "Americký najvyšší súd uvoľnil cestu častiam nariadenia prezidenta Donalda Trumpa o sprísnení pravidiel pre hlasovanie poštou. Budúcnosť sporného výnosu však naďalej brzdia ďalšie súdne bloky."
+      },
+      {
+        "headline": "Osobná doprava na Slovensku dosiahla rekordné čísla",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/osobna-doprava-dosiahla-rekord-mhd-prepravila-vyse-130-milionov-cestujucich?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/b5KvakT/nakladna-doprava-klesala-deviaty-stvrtrok-po-sebe-vyrazne-rastla-cestna-osobna-preprava/"
+          ]
+        ],
+        "perex": "V druhom štvrťroku 2026 prepravila mestská hromadná doprava na Slovensku historicky najvyšší počet cestujúcich. Celkovo využilo služby MHD viac ako 130 miliónov ľudí."
+      },
+      {
+        "headline": "Nález tretieho dronu s výbušninou pri letisku v Lipsku",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2029607-novy-zvrat-pri-letisku-lipsku-nasli-treti-dron-lezal-na-poli-vedla-neho-nasli-hexogen?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Nemeckí vyšetrovatelia objavili neďaleko letiska Lipsko/Halle tretí dron, ktorý súvisí s hybridným incidentom zo začiatku augusta. Pri zariadení sa našla aj nebezpečná výbušnina hexogén."
       }
     ],
-    "ts": 1787644545.9787016
+    "ts": 1787646057.9636948
   },
   "meta": {
-    "last_collection_ts": 1787645360.957665,
+    "last_collection_ts": 1787646050.5998769,
     "last_feed_error_ts": 1787628936.9071305,
     "last_llm_error_ts": 1787577266.2838125,
-    "last_run_ts": 1787645361.3003461,
-    "last_synthesis_ts": 1787644545.978696
+    "last_run_ts": 1787646051.2554276,
+    "last_synthesis_ts": 1787646057.9636893
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/tech/c/astrobiologicka-musilova-absolvovala-simulovanu-vesmirnu-misiu-pod-vodou?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Posádka väčšinu času trávila prácou v podmorskom laboratóriu.",
-      "s": "SME",
-      "t": "Astrobiologička Musilová absolvovala simulovanú vesmírnu misiu pod vodou",
-      "ts": 1787559042.876787,
-      "u": "4d5457ca995f32263bcd"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/mSgLvtS/cina-rozohrala-velku-strategicku-hru-na-sever-od-nas-zatial-sa-len-prizerame-obavaju-sa-odbornici/",
-      "p": "Prečo Čína mieri na sever? Ako nenápadná polárna stratégia mení globálne rozloženie síl.",
-      "s": "Aktuality",
-      "t": "Čína rozohrala veľkú strategickú hru na sever od nás. Zatiaľ sa len prizeráme, obávajú sa odborníci",
-      "ts": 1787559042.8767903,
-      "u": "9b05d78a2ccd12644904"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2029021-zrazka-vlakov-pri-roznave-ma-vinnika-rusnovodic-34-celi-obvineniu-hrozi-mu-az-10-rokov?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Vyšetrovateľ obvinil 34-ročného rušňovodiča z prečinu všeobecného ohrozenia v súvislosti so zrážkou vlakov pri Jablonove nad Turňou. V prípade dokázania viny mu hrozí trest odňatia slobody na štyri až desať rokov. Polícia o tom informovala na sociálnej sieti.",
-      "s": "Pravda",
-      "t": "Zrážka vlakov pri Rožňave má vinníka: Rušňovodič (34) čelí obvineniu, hrozí mu až 10 rokov",
-      "ts": 1787559042.8767927,
-      "u": "0cb09a5880b117ff46c3"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2029017-zelenskyj-putin-moskva-vojna-na-ukrajine-kyjev-rusko-flamingo-zbrane-moskva-armada-front?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Ukrajinský prezident Volodymyr Zelenskyj vo svojom prejave pri príležitosti Dňa nezávislosti Ukrajiny vyzval na výrazné rozšírenie výroby a nasadenia ukrajinských zbraní dlhého dosahu vrátane rakiet Flamingo. Zároveň apeloval na Spojené štáty a Čínu, aby voči Rusku zaujali dôraznejší postoj.",
-      "s": "Pravda",
-      "t": "„Putin je smrteľný.“ Zelenskyj poslal z Kyjeva jeden z najtvrdších odkazov od začiatku vojny",
-      "ts": 1787559042.876794,
-      "u": "c3950cd6f43616cd86e8"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1249701-anonym-nahlasil-bombu-v-trnavskej-nemocnici",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Anonym nahlásil bombu v trnavskej nemocnici. Žiada výkupné v kryptomene",
-      "ts": 1787559042.876796,
-      "u": "a90f7fd65a8686319020"
-    },
-    {
-      "l": "https://www.noviny.sk/pr-spravy/1244253-ako-moze-ai-odbremenit-samospravy-odpovede-prinesie-inovacny-cirkus",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Ako môže AI odbremeniť samosprávy? Odpovede prinesie Inovačný Cirkus",
-      "ts": 1787559042.8767972,
-      "u": "6faa47dd852c3af8c57b"
-    },
     {
       "l": "https://www.sme.sk/svet/c/spojene-staty-zrusili-spolocne-cvicenia-s-koreou-pre-obmedzenie-vojenskych-sil-v-dosledku-vojny-v-irane?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "USA v júni informovali Južnú Kóreu o obmedzenej dostupnosti síl na cvičenie Ssangyong.",
@@ -4168,6 +4132,54 @@
       "t": "Sto technikov skladalo vzácnu výšivku dvadsať hodín. Ako Tapiséria z Bayeux cestovala do Londýna (reportáž NY Times)",
       "ts": 1787645361.2997851,
       "u": "c6c9bc07665581c74a54"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/najvyssi-sud-usa-zatial-podporil-trumpov-zamer-sprisnit-hlasovanie-postou?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Naďalej platí opatrenie blokujúce časť nariadenia, jeho budúcnosť tak zostáva neistá.",
+      "s": "SME",
+      "t": "Najvyšší súd USA zatiaľ podporil Trumpov zámer sprísniť hlasovanie poštou",
+      "ts": 1787646051.2548764,
+      "u": "1d6578f54ccb7e004da8"
+    },
+    {
+      "l": "https://www.sme.sk/closer/c/slovensko-svadba-v-zahranici-cena-jedlo-letenky-slovaci-kolko-lacnejsie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Svadba pri mori niektorých stála oveľa menej než na Slovensku.",
+      "s": "SME",
+      "t": "Slováci, ktorí mali svadbu v zahraničí: Nechcel som dať 20-tisíc eur za večeru na lúke",
+      "ts": 1787646051.2548792,
+      "u": "7d2872027e0198925fd7"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/RyXMS9Q/ps-by-volby-nevyhralo-no-smer-bez-sance-zlozit-vladu-stat-zverejnil-dalsi-prieskum/",
+      "p": "Štátny Infostat vidí v parlamente aj Demokratov.",
+      "s": "Aktuality",
+      "t": "PS by voľby nevyhralo, no Smer bez šance zložiť vládu. Štát zverejnil ďalší prieskum",
+      "ts": 1787646051.2548807,
+      "u": "0988de2cfa61f7c8b253"
+    },
+    {
+      "l": "https://e.dennikn.sk/5522186/sef-rozpoctovej-rady-varuje-verejne-financie-nie-su-pripravene-na-dalsiu-velku-krizu/",
+      "p": "Situácia v slovenských verejných financiách je veľmi vážna, máme vysoké deficity, ktoré prudko zvyšujú dlh. Také nárasty dlhu Slovensko doteraz zažilo len počas najväčších kríz, hovorí predseda Rady pre rozpočtovú zodpovednosť Ján Tóth. Štátna pokladnica nie je podľa neho pripravená na prípadné budú",
+      "s": "Denník N",
+      "t": "Šéf rozpočtovej rady varuje: Verejné financie nie sú pripravené na ďalšiu veľkú krízu",
+      "ts": 1787646051.254883,
+      "u": "99151bc3b33b54e646dc"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/inzercia/clanok/2029633-dji-drony-ako-si-vybrat-spravny-model-od-zaciatocnika-po-pokrocileho-pilota?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Drony sa stali jedným z najpopulárnejších technologických fenoménov súčasnosti. Prečo ich ľudia tak milujú, prečo ich nákupné trendy neustále rastú a ako si v záplave modelov vybrať ten pravý? Spoločne s odborníkmi z PLANEO sme pre vás pripravili kompletného sprievodcu svetom dronov značky DJI, ktor",
+      "s": "Pravda",
+      "t": "DJI drony: ako si vybrať správny model od začiatočníka po pokročilého pilota",
+      "ts": 1787646051.254885,
+      "u": "fcb5d7aa83a384857f26"
+    },
+    {
+      "l": "https://www.noviny.sk/krimi/1250153-bratislavsku-dopravu-skomplikovala-nehoda-auta-a-motocykla",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Bratislavskú dopravu skomplikovala nehoda auta a motocykla",
+      "ts": 1787646051.2548866,
+      "u": "10cfe6140912b836dbda"
     }
   ],
   "recent_alerts": [
@@ -4853,6 +4865,15 @@
       "reason": "Konkrétna hrozba teroristického útoku na európskom území vyžaduje okamžitú pozornosť z hľadiska bezpečnosti občanov.",
       "title": "Irán hrozí útokom v Európe. Známe sú možné ciele, Grécko už reaguje",
       "ts": 1787642615.4282098
+    },
+    {
+      "links": [
+        "https://e.dennikn.sk/5522186/sef-rozpoctovej-rady-varuje-verejne-financie-nie-su-pripravene-na-dalsiu-velku-krizu/"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Analýza predsedu RRZ upozorňuje na kritický stav verejných financií a neschopnosť štátu reagovať na prípadnú ekonomickú krízu, čo má zásadný systémový význam pre Slovensko.",
+      "title": "Šéf rozpočtovej rady varuje: Verejné financie nie sú pripravené na ďalšiu veľkú krízu",
+      "ts": 1787646053.0039606
     }
   ],
   "seen": {
@@ -5004,6 +5025,7 @@
     "0961d08ea9e2fc106d90": 1787229342.519277,
     "09652bec1db447be5e6b": 1787312133.4807174,
     "0971e7c0ec5dd6c158e9": 1787494841.1803312,
+    "0988de2cfa61f7c8b253": 1787646051.25488,
     "099d35607949a931ae04": 1787130272.3365889,
     "099f384d84152dd58090": 1787580439.849788,
     "09b4a739968958c05e58": 1787211338.6510017,
@@ -5124,6 +5146,7 @@
     "108fb064915ec84fbdb2": 1787641842.9865546,
     "109185aaf5a9add76d7b": 1787236566.5270302,
     "10c1642a0cd0c03c8411": 1787369811.5701914,
+    "10cfe6140912b836dbda": 1787646051.2548857,
     "10d7a5ae6ff824fbfea6": 1787542537.437821,
     "10e24087bab4cbb965fb": 1787369811.5702133,
     "10ffe3e96fbb3e971b28": 1787211338.6509995,
@@ -5324,6 +5347,7 @@
     "1d10c6b5b54e303fe351": 1787128554.0432181,
     "1d291c7a742dd9ac4182": 1787568939.9399188,
     "1d47eee10a8f3d070eac": 1787110543.8730295,
+    "1d6578f54ccb7e004da8": 1787646051.2548723,
     "1d83814dcdb0a27d5835": 1787214936.1960127,
     "1d8779ca444dca4f8852": 1787491239.163715,
     "1d90d298efc05d63f77e": 1787329243.0898314,
@@ -6825,6 +6849,7 @@
     "7d0ab5167b911d47222a": 1787456142.4792247,
     "7d0eabbd649c5336194b": 1787426441.6489818,
     "7d1fea80b01b37a4e96d": 1787563738.246078,
+    "7d2872027e0198925fd7": 1787646051.254878,
     "7d4e4a93d67daeeb03cb": 1787122540.5829084,
     "7d5bffb98950f772837c": 1787607298.5970917,
     "7d788ec07b17e55d4898": 1787375442.7785485,
@@ -6955,7 +6980,6 @@
     "84dd197f46f46b62e44a": 1787145047.9156575,
     "850f2f2193f316541974": 1787050533.869875,
     "8515a352aaa7d3b56fda": 1787401242.2581036,
-    "8524a2dfaf085c3c0eb0": 1787040648.150302,
     "8524d79991b46e11344f": 1787415641.1334617,
     "852b4e5016a844d5ed14": 1787128554.043249,
     "85312cad1d8c2e24f966": 1787144141.8520982,
@@ -7263,6 +7287,7 @@
     "98d1c088ed0593b36f49": 1787381696.323109,
     "98fe2a0029ca441b94cb": 1787394937.744305,
     "99065675dcfbb2c81ff2": 1787479789.2885735,
+    "99151bc3b33b54e646dc": 1787646051.2548816,
     "991b957d07b9a7eb8ca4": 1787158536.3601935,
     "9923546f41e57f2614ab": 1787316933.3222103,
     "99469996221aeb9ce0f1": 1787042137.880024,
@@ -7359,6 +7384,7 @@
     "9eb6c0d9fb0853614014": 1787073643.7781239,
     "9ef2217275664d33d5f9": 1787582142.2709556,
     "9f158878b9074298a6ad": 1787211338.6509826,
+    "9f18c8796909eccb7849": 1787646051.2548878,
     "9f1c3ab77a805748bd6b": 1787154723.1154776,
     "9f3135a07432ba130a0e": 1787211338.650997,
     "9f41c00a4b3893872693": 1787085922.0822458,
@@ -7438,6 +7464,7 @@
     "a483e5a89f7b58bb5f08": 1787315734.897231,
     "a4883f121924c289d3ba": 1787283347.5203145,
     "a4ee4c9341ea4d392607": 1787551844.8858366,
+    "a51411f3a6e12b92a35d": 1787646051.2548907,
     "a52bd8ce7631a6b3e7df": 1787128554.043248,
     "a57a012d1a47dfed2b3a": 1787207735.2165751,
     "a59478cfa4ec568f0e5c": 1787577050.0980332,
@@ -7995,6 +8022,7 @@
     "c72ce3af1bb5ded719a2": 1787295342.1228108,
     "c72e88c5243992276706": 1787580439.849794,
     "c7795b68397717f0457e": 1787149241.8768504,
+    "c784f1314736cd448c17": 1787646051.2548926,
     "c79583f6fb01d4344702": 1787585738.4640496,
     "c799b092bed6d71199dc": 1787394937.7443063,
     "c7a2b8e33c1839eb98f5": 1787319340.7455435,
@@ -8016,7 +8044,6 @@
     "c887270e2def3ec14875": 1787110543.8730237,
     "c88bbab3187c06ac4838": 1787257244.1971993,
     "c88f39ec24aeccf594c7": 1787052940.6970696,
-    "c8a0c8005e6edf134c5c": 1787040648.1502936,
     "c8a37df63914022942dd": 1787463341.6447248,
     "c8c49fe4afe6855996d9": 1787602246.9270885,
     "c8e30ef88d064eb36c10": 1787472089.518075,
@@ -8091,7 +8118,6 @@
     "cd3ec59ae73e46dc3d17": 1787212542.4327552,
     "cd3f199b68cb5d26a297": 1787060144.3611064,
     "cd46ece86b0eed2ad565": 1787067339.4216194,
-    "cd47418795d6f292f8dd": 1787040648.1502986,
     "cd4d7b59b31ed5e1c35f": 1787123445.0304494,
     "cd54a70a1ded35a03bb6": 1787156447.595466,
     "cd5e6b4b4e4666e70cf1": 1787148505.5164704,
@@ -8925,6 +8951,7 @@
     "fca23b17082e7bc56d4a": 1787628936.9071875,
     "fca736e6ebf5b05c2d04": 1787307047.5998757,
     "fcae35b65bd2eb766883": 1787203248.3641024,
+    "fcb5d7aa83a384857f26": 1787646051.2548835,
     "fcbeac6b7ffdc5114791": 1787309758.0161655,
     "fcc54242d8706156f6b8": 1787073643.7778919,
     "fcc6f0ca3a79c421cfdc": 1787481341.5192945,
@@ -8977,88 +9004,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1787645361.299749
+      "ts": 1787646051.254849
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1787645361.2997499
+      "ts": 1787646051.2548506
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1787645361.2997525
+      "ts": 1787646051.2548535
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1787645361.2997568
+      "ts": 1787646051.2548585
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1787645361.2997513
+      "ts": 1787646051.2548518
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1787645361.2997406
+      "ts": 1787646051.2548423
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1787645361.2997468
+      "ts": 1787646051.254847
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1787645361.2997558
+      "ts": 1787646051.2548575
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1787645361.2997537
+      "ts": 1787646051.2548552
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1787645361.2997549
+      "ts": 1787646051.254856
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/premier-league-1-kolo-hlasy-2026082407170697668",
-      "p": "Futbalisti Manchestru City majú za sebou úspešný štart do nového ročníka Premier League, keď v 1. kole otočili v závere nepriaznivý stav proti Bournemouthu a zvíťazili 2:1. Pre trénera Enza Marescu išlo o prvý triumf na lavičke „Citizens“, z čoho mal 46-ročný kouč veľkú radosť. Menšiu spokojnosť už ",
-      "s": "Šport.sk",
-      "t": "Iraola po remíze Liverpoolu otvorene priznal chyby. Zdrvený tréner Emery po výprasku: Je to bláznivé",
-      "ts": 1787559042.8768008,
-      "u": "893d41611423f5ed3ba7"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ3UyZVZTUzNOM2F6dXF4VTJyWFNxaFB2V3hGdkl2MlFpQi1OcW91UndTNkdtRGlEVVB2aGV6ei1IcGtuVnJ3a1JzYzJCdWQ4aUFfaUZiVWh2dk9sV19oNWdYMUN5UDhvM2NXRDJOYkR1TklPVW5mcXc3cWlkeXRrYVpaTEYzUjVWVDRrdllocUtFRlNTUUxZREd5RWY0azU0Vzg5T0MwVUdjQXA5S1NKWE1KZw?oc=5",
-      "p": "Mladík vychytal nováčikovi prvý plusový bod. Vynuloval letný objav favorita SPORTNET",
-      "s": "SPORTNET",
-      "t": "Mladík vychytal nováčikovi prvý plusový bod. Vynuloval letný objav favorita",
-      "ts": 1787559042.8768024,
-      "u": "1bbc0ce3f8afd37348b8"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/alvarez-nahneval-fanusikov-atletica-b/986984-clanok.html",
-      "p": "Katalánci hneď vo svojom prvom vystúpení ukázali, že titul nepustia z rúk len tak ľahko. Flick aj pod vplyvom svetového šampionátu nemohol počítať s niekoľkými pravidelnými členmi základnej zostavy.",
-      "s": "TERAZ.SK",
-      "t": "Alvarez nahneval fanúšikov Atletica, Barcelona s presvedčivým triumfom",
-      "ts": 1787559042.8768039,
-      "u": "c8ff52debff45872e541"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/psychicky-stav-juliana-alvareza-po-vypiskani-trener-atletica-odpovedal-2026082407302602358",
       "p": "Tréner Atlética Madrid Diego Simeone sa po domácej remíze 2:2 s Villarrealom rozprával s médiami. Hlavnou témou bol opäť Julián Álvarez, piskot na jeho adresu a skutočnosť, že argentínskemu útočníkovi nebolo dovolené pozdraviť fanúšikov spolu so svojimi spoluhráčmi po skončení zápasu.",
@@ -10450,6 +10453,30 @@
       "t": "Z deviatej ligy až na MŠK Žilina! Dedinský skokan zažíva rozprávku, štyria budú hrať proti šéfovi",
       "ts": 1787645361.2997901,
       "u": "6888da1a9c9ba15d55ed"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/slovenske-volejbalistky-prehra-chorvatsko-me-volejbal-2026082508172347577",
+      "p": "Slovenské volejbalové reprezentantky dnes (v utorok 25. augusta) nastúpia na svoj štvrtý zápas v základnej D-skupine majstrovstiev Európy. V Göteborgu ich od 16.00 h preverí veľký favorit turnaja, výber Talianska. Kde si môžete tento náročný duel pozrieť naživo?",
+      "s": "Šport.sk",
+      "t": "Slovenky po ďalšej dráme vyzvú na ME vo volejbale veľkého favorita. Kde sledovať zápas s Talianskom?",
+      "ts": 1787646051.2548897,
+      "u": "9f18c8796909eccb7849"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/wnba-reeseova-dosiahla-26-doskokov-a-pisala-historiu-2026082508102042859",
+      "p": "V nočnom zápase ženskej WNBA medzi Los Angeles Sparks a Atlantou Dream (71:78) sa do histórie zapísala krídelníčka hosťujúceho tímu Angel Reeseová. Vytvorila nový rekord ligy v počte doskokov v jednej sezóne, ich hodnota je aktuálne na čísle 458.",
+      "s": "Šport.sk",
+      "t": "WNBA: Rekordy padali ako na bežiacom páse. Basketbalistka dosiahla 26 doskokov a písala históriu",
+      "ts": 1787646051.2548919,
+      "u": "a51411f3a6e12b92a35d"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSVJxYjd0M1VEbU43a1RyNzgxMW1vcUduUTdOMVg2V2hZc1ptZ2RuVjZfbGpmWXB5ZTFzRWMtNmJ4QjZRUWhBMmRCM25NNEx2ZjdVemZyQ1RNMUc1cURWd3JDTmh2Q0lQZFRMWGpfNnh4Q2EtemV2QlpPSWotdGlONldpM3hTNk5OYjB3QXA5S1RNdHhJbl9pNS1vbw?oc=5",
+      "p": "Diskusia: Krídelníčka Atlanty prepisuje históriu WNBA. Zlomila dva rekordy SPORTNET",
+      "s": "SPORTNET",
+      "t": "Diskusia: Krídelníčka Atlanty prepisuje históriu WNBA. Zlomila dva rekordy",
+      "ts": 1787646051.2548933,
+      "u": "c784f1314736cd448c17"
     }
   ],
   "sport_source_status": {
@@ -10457,25 +10484,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1787645361.2997587
+      "ts": 1787646051.2548606
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1787645361.2997603
+      "ts": 1787646051.254863
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1787645361.299763
+      "ts": 1787646051.2548654
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1787645361.2997618
+      "ts": 1787646051.2548645
     }
   }
 }
