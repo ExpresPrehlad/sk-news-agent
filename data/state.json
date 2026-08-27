@@ -179,27 +179,57 @@
     {
       "headline": "Vážny incident v Trnave: Rýchlik ohrozil nákladný vlak",
       "ts": 1787831742.1744914
+    },
+    {
+      "headline": "Súd vzal do väzby dvoch cudzincov za prípravu útoku na východe",
+      "ts": 1787832650.663788
+    },
+    {
+      "headline": "Slovalco obnovuje výrobu hliníka s investíciou 100 miliónov eur",
+      "ts": 1787832650.663788
+    },
+    {
+      "headline": "Počet obetí povodní v Nepále stúpol na 270, stovky sú nezvestné",
+      "ts": 1787832650.663788
+    },
+    {
+      "headline": "Atentát v Petrohrade: Výbuch auta zabil ruského podplukovníka",
+      "ts": 1787832650.663788
+    },
+    {
+      "headline": "Tragédia na Aljaške: Pád lietadla neprežil nikto na palube",
+      "ts": 1787832650.663788
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Prezident žiada vládu o riešenie bezpečnosti po útoku na východe",
+        "headline": "Súd vzal do väzby dvoch cudzincov za prípravu útoku na východe",
         "links": [
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/JjHexvH/peter-pellegrini-ziada-vladu-aby-riesila-prekazeny-utok-i-dalsie-mozne-rizika/"
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2031149-sud-rozhodol-po-prekazenom-utoku-na-vychode-dvoch-cudzincov-poslal-za-mreze"
           ],
           [
-            "SME",
-            "https://www.sme.sk/domov/c/prezidernt-ziada-vladu-aby-riesila-prekazeny-utok-na-vyrobny-zavod-na-vychodnom-slovensku"
+            "Noviny.sk",
+            "https://www.noviny.sk/slovensko/1251337-riziko-dalsich-utokov-je-realne-prezident-pellegrini-ziada-vladu-o-okamzite-bezpecnostne-opatrenia"
           ]
         ],
-        "perex": "Prezident Peter Pellegrini vyzval vládu na mimoriadne rokovanie v súvislosti s prekazeným útokom na výrobný závod na východnom Slovensku. Žiada vypracovanie jasného plánu na ochranu kritickej infraštruktúry a verejnosti pred ďalšími rizikami."
+        "perex": "Sudca pre prípravné konanie v Prešove rozhodol o väzobnom stíhaní dvoch cudzincov obvinených z prípravy útoku na výrobný závod. Prezident Peter Pellegrini v reakcii na incident vyzval vládu na prijatie okamžitých bezpečnostných opatrení."
       },
       {
-        "headline": "Katastrofálne povodne v Nepále: Počet obetí stúpol na 270",
+        "headline": "Slovalco obnovuje výrobu hliníka s investíciou 100 miliónov eur",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2031157-slovalco-po-viac-ako-troch-rokoch-obnovuje-vyrobu-hlinika-do-restartu-investuje-najmenej-100-milionov-eur"
+          ]
+        ],
+        "perex": "Spoločnosť Slovalco po viac ako troch rokoch spúšťa postupný reštart výroby primárneho hliníka. V prvej fáze plánuje obnoviť kapacitu 75-tisíc ton ročne."
+      },
+      {
+        "headline": "Počet obetí povodní v Nepále stúpol na 270, stovky sú nezvestné",
         "links": [
           [
             "Aktuality",
@@ -210,17 +240,17 @@
             "https://www.noviny.sk/zahranicie/1251277-moja-zena-je-stale-niekde-pod-tym-bahnom-ludia-v-nepale-opisuju-utrpenie-a-boj-o-zivot"
           ]
         ],
-        "perex": "Počet potvrdených obetí ničivých prívalových povodní a zosuvov pôdy v Nepále vzrástol na 270 osôb. Záchranári stále pátrajú po viac ako 1300 nezvestných, pričom situáciu komplikuje rozsah zničenej infraštruktúry."
+        "perex": "Ničivé prívalové povodne a zosuvy pôdy v horskom údolí na hranici Nepálu a Tibetu si vyžiadali už najmenej 270 životov. Medzi viac ako tisíckou nezvestných osôb sa nachádzajú aj turisti z viacerých krajín."
       },
       {
         "headline": "Atentát v Petrohrade: Výbuch auta zabil ruského podplukovníka",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2031093-atentat-v-petrohrade-rusko-vojna-na-ukrajine-odtrhnute-nohy-podplukovnik-zbrane-bomba-vubuch/"
+            "https://www.pravda.sk/spravy/svet/clanok/2031093-atentat-v-petrohrade-rusko-vojna-na-ukrajine-odtrhnute-nohy-podplukovnik-zbrane-bomba-vubuch"
           ]
         ],
-        "perex": "V petrohradskej štvrti Puškin došlo k explózii osobného vozidla, pri ktorej zahynul ruský podplukovník vzdušných síl spolu so svojou manželkou. Ruské úrady incident vyšetrujú ako cielený útok."
+        "perex": "V petrohradskej štvrti Puškin zahynul pri explózii osobného automobilu ruský podplukovník vzdušných síl. Incident, pri ktorom zomrela aj jeho manželka, vyšetrujú ruské úrady ako útok."
       },
       {
         "headline": "Tragédia na Aljaške: Pád lietadla neprežil nikto na palube",
@@ -230,109 +260,19 @@
             "https://www.aktuality.sk/clanok/fwRLHSo/tragedia-na-aljaske-male-lietadlo-sa-zrutilo-do-zatoky-pri-seldovii-nehodu-nikto-neprezil/"
           ]
         ],
-        "perex": "Malé lietadlo typu Piper PA-24 sa zrútilo do zátoky neďaleko mestečka Seldovia na Aljaške. Pri nešťastí zahynuli všetky štyri osoby, ktoré sa nachádzali na palube stroja."
-      },
-      {
-        "headline": "Vážny incident v Trnave: Rýchlik ohrozil nákladný vlak",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1251343-vazny-incident-na-stanici-v-trnave-rychlik-vosiel-do-vlakovej-cesty-nakladneho-vlaku"
-          ]
-        ],
-        "perex": "Na železničnej stanici v Trnave došlo k nebezpečnej situácii, keď rýchlik vošiel do vlakovej cesty nákladného vlaku. Prípadom sa už zaoberajú príslušné orgány, ktoré zisťujú príčiny zlyhania."
+        "perex": "Malé lietadlo typu Piper PA-24 sa zrútilo do zátoky pri meste Seldovia na Aljaške. Nehodu, pri ktorej zahynuli štyri osoby, momentálne vyšetrujú miestne bezpečnostné zložky."
       }
     ],
-    "ts": 1787831742.174482
+    "ts": 1787832650.663779
   },
   "meta": {
-    "last_collection_ts": 1787831735.035303,
+    "last_collection_ts": 1787832645.2499995,
     "last_feed_error_ts": 1787823344.5721042,
     "last_llm_error_ts": 1787817584.7856328,
-    "last_run_ts": 1787831735.5975435,
-    "last_synthesis_ts": 1787831742.174477
+    "last_run_ts": 1787832645.7229264,
+    "last_synthesis_ts": 1787832650.6637738
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/za-prekazenym-utokom-na-tovaren-na-vyrobu-dronov-pri-presove-su-dvaja-obcania-litvy-a-jeden-obcan-ukrajiny?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Opozícia o udalosti hovorí ako o veľkom bezpečnostnom incidente.",
-      "s": "SME",
-      "t": "Za prekazeným útokom na továreň na výrobu dronov pri Prešove sú dvaja občania Litvy a jeden občan Ukrajiny",
-      "ts": 1787746245.883186,
-      "u": "0ae84e6c21c83141a560"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/americka-armada-zneskodnila-v-karibiku-dalsi-cln?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zahynuli štyria ľudia.",
-      "s": "SME",
-      "t": "Americká armáda zneškodnila v Karibiku ďalší čln",
-      "ts": 1787746245.8831892,
-      "u": "56b126c27505b0631bb5"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/fidesz-rozoslal-svojim-clenom-dotaznik-na-posudenie-stavu-strany?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Orbán údajne venoval zostaveniu podrobného dotazníka veľa úsilia.",
-      "s": "SME",
-      "t": "Fidesz rozoslal svojim členom dotazník na posúdenie stavu strany",
-      "ts": 1787746245.8831913,
-      "u": "b8f6e3c0b4a276e704ed"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/muz-usiel-zo-styroch-vaznic-opat-ho-dolapili-v-spanielsku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Pri zatýkaní kládol odpor.",
-      "s": "SME",
-      "t": "Muž ušiel zo štyroch väzníc. Opäť ho dolapili v Španielsku",
-      "ts": 1787746245.8831925,
-      "u": "da9b2d8e8fc42cb65697"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/Igt4MSK/madarska-strana-fidesz-odstartovala-velky-prieskum-medzi-clenmi/",
-      "p": "Dotazník o stave strany vyplnilo približne 28-tisíc členov.",
-      "s": "Aktuality",
-      "t": "Maďarská strana Fidesz odštartovala veľký prieskum medzi členmi",
-      "ts": 1787746245.8831942,
-      "u": "9c76d28a113b46428af7"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2030527-madarska-jadrova-elektraren-paks-funguje-naplno-plny-vykon-by-mala-dosiahnut-uz-v-stredu-vecer?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Maďarská jadrová elektráreň Paks by mala dosiahnuť maximálny výkon skôr, ako sa pôvodne plánovalo, a to už dnes večer. Uviedol to maďarský premiér Péter Magyar na sociálnej sieti Facebook.",
-      "s": "Pravda",
-      "t": "Maďarská jadrová elektráreň Paks funguje naplno: Plný výkon by mala dosiahnuť už v stredu večer",
-      "ts": 1787746245.8831954,
-      "u": "014c3b6c9937b0bacf95"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1250645-smerujeme-ku-katastrofe-varuje-nemecka-charita-zbrane-nasli-uz-u-11-rocnych-deti",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "„Smerujeme ku katastrofe,“ varuje nemecká charita. Zbrane našli už u 11-ročných detí",
-      "ts": 1787746245.8831966,
-      "u": "3d3b378323ecc197482c"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1250820-vo-vodnej-nadrzi-v-krompachoch-patraju-po-21-rocnom-emilovi",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Vo vodnej nádrži v Krompachoch pátrajú po 21-ročnom Emilovi",
-      "ts": 1787746245.883198,
-      "u": "384ab3f682644c74604c"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1250818-vazna-nehoda-na-kysuciach-auto-skoncilo-v-priekope-na-mieste-je-aj-vrtulnik",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Vážna nehoda na Kysuciach: Auto skončilo v priekope, na mieste je aj vrtuľník",
-      "ts": 1787746245.8831987,
-      "u": "e46ec7389061685ff080"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1250803-nicive-privalove-povodne-v-nepale-zivel-bral-dediny-hlasia-prve-obete",
-      "p": "",
-      "s": "Noviny.sk",
-      "t": "Ničivé prívalové povodne v Nepále: Živel bral dediny, hlásia prvé obete",
-      "ts": 1787746245.8831997,
-      "u": "c6dd77796f56ab3748ac"
-    },
     {
       "l": "https://www.sme.sk/svet/c/v-nemecku-vznika-spor-o-uchovavanie-informacii-o-spotrebiteloch?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Schufa poskytuje hodnotenia bonity potenciálnych zákazníkov.",
@@ -4260,6 +4200,118 @@
       "t": "Vážny incident na stanici v Trnave: Rýchlik vošiel do vlakovej cesty nákladného vlaku",
       "ts": 1787831735.5967813,
       "u": "e4cd2023663544f784e1"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/rychlik-vosiel-v-trnave-do-cesty-nakladneho-vlaku-k-zrazke-nedoslo?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Rýchlik prešiel návesť „Stoj“ a vošiel do cesty nákladného vlaku.",
+      "s": "SME",
+      "t": "Rýchlik vošiel v Trnave do cesty nákladného vlaku. K zrážke nedošlo",
+      "ts": 1787832645.7222903,
+      "u": "45d0bb1933b8d1b93278"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/meseznikov-a-mislovic-hlas-sa-tymto-tempom-do-parlamentu-nedostane-uspech-za-zrusenie-transakcnej-dane-si-pripise-fico-nie-danko?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Politológ a analytik hodnotia aktuálne dianie na politickej scéne.",
+      "s": "SME",
+      "t": "Mesežnikov a Mislovič: Hlas sa týmto tempom do parlamentu nedostane. Úspech za zrušenie transakčnej dane si pripíše Fico, nie Danko",
+      "ts": 1787832645.7222943,
+      "u": "a4d076b97ada37e99310"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/grecky-patriot-zostrelil-drony-pri-rafineriach-v-saudskej-arabii?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Systém zachytil roj v okolí mesta Janbu, kde sú významné ropné rafinérie.",
+      "s": "SME",
+      "t": "Grécky Patriot zostrelil drony pri rafinériách v Saudskej Arábii",
+      "ts": 1787832645.722296,
+      "u": "d771a5d3f8ec406b667f"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/rakuske-zasobniky-plynu-su-naplnene-na-vyse-polovicu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Dôvodom je konflikt na Blízkom východe.",
+      "s": "SME",
+      "t": "Rakúske zásobníky plynu sú naplnené na vyše polovicu",
+      "ts": 1787832645.7222981,
+      "u": "b7c02cbc692568311e70"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbDdST3ZsNFVlNzhBR21sSHBQZDUzaWRmSExIUzdxdzNmUTFxTElWakJWTE5zOGx5V25URzJJWVc4UGoyWGtKTlRrdmZNdl9rUk94aFpQVWRUb2hJODhnRjB3eGtENWRaQU9aODU4aHVwdGpNbUNrYXlPR1Z4QmR6RW0wVTRFejdvZFdoei1jOThCQ2Zl?oc=5",
+      "p": "Grécky Patriot zostrelil drony pri rafinériách v Saudskej Arábii SME.sk",
+      "s": "SME (GNews)",
+      "t": "Grécky Patriot zostrelil drony pri rafinériách v Saudskej Arábii - SME.sk",
+      "ts": 1787832645.7222998,
+      "u": "03343beb50b4feea670e"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/me81lCK/za-par-sekund-povoden-splachla-budovy-aj-autobusy-medzi-nezvestnymi-su-aj-stovky-zapadnych-turistov/",
+      "p": "V horskom údolí na hranici Nepálu a Tibetu sa po náhlej povodni pátra po asi 1 500 ľuďoch. Nezvestní sú aj turisti z Indie, USA či Austrálie.",
+      "s": "Aktuality",
+      "t": "Za pár sekúnd povodeň spláchla budovy aj autobusy. Medzi nezvestnými sú aj stovky západných turistov",
+      "ts": 1787832645.7223017,
+      "u": "75b744dd782ffb4c6ac9"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/vhDLntr/21-vynimocnych-filmov-21-rocnika-cinematiku-zlata-palma-berlinale-aj-karlove-vary-velke-mena-svetovej-kinematografie-i-vyrazne-slovenske-filmy/",
+      "p": "Medzinárodný filmový festival Cinematik v Piešťanoch predstaví na svojom 21. ročníku ďalšiu kolekciu filmov, ktoré patria k najzaujímavejším dielam súčasnej svetovej a európskej kinematografie. Medzi 21 vybranými titulmi nechýbajú Zlatou palmou ocenený film Cristiana Mungiu Fjord, nový film Pawła Pa",
+      "s": "Aktuality",
+      "t": "21 výnimočných filmov 21. ročníka Cinematiku: Zlatá palma, Berlinale aj Karlove Vary, veľké mená svetovej kinematografie i výrazné slovenské filmy",
+      "ts": 1787832645.722304,
+      "u": "5d8c3db8afde8f445570"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2031157-slovalco-po-viac-ako-troch-rokoch-obnovuje-vyrobu-hlinika-do-restartu-investuje-najmenej-100-milionov-eur?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Slovensko sa po viac ako troch rokoch vracia medzi krajiny vyrábajúce primárny hliník. V spoločnosti Slovalco sa začína postupný reštart výroby, ktorý má v prvej fáze obnoviť kapacitu 75-tisíc ton ročne. Firma do opätovného spustenia výroby investuje najmenej 100 miliónov eur. Obnovenie prevádzky má",
+      "s": "Pravda",
+      "t": "Slovalco po viac ako troch rokoch obnovuje výrobu hliníka. Do reštartu investuje najmenej 100 miliónov eur",
+      "ts": 1787832645.722306,
+      "u": "7b7c46ac035aa4f79c79"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2031149-sud-rozhodol-po-prekazenom-utoku-na-vychode-dvoch-cudzincov-poslal-za-mreze?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Dvaja cudzinci obvinení z obzvlášť závažného zločinu všeobecného ohrozenia v štádiu prípravy budú stíhaní väzobne. Rozhodol o tom vo štvrtok sudca pre prípravné konanie Okresného súdu Prešov. TASR o tom informovala hovorkyňa prešovského krajského súdu Ivana Petrufová. V prípade ide podľa polície o p",
+      "s": "Pravda",
+      "t": "Súd rozhodol po prekazenom útoku na východe: dvoch cudzincov poslal za mreže",
+      "ts": 1787832645.7223082,
+      "u": "588d2c9bf0ff60b8fcbc"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/sud-poslal-dvoch-cudzincov-v-kauze-pri/987939-clanok.html",
+      "p": "Sudca pre prípravné konanie oboch cudzích štátnych príslušníkov, na základe návrhu prokurátora Krajskej prokuratúry v Prešove, po vypočutí vzal do väzby.",
+      "s": "Teraz.sk",
+      "t": "Súd poslal dvoch cudzincov v kauze prípravy útoku na závod do väzby",
+      "ts": 1787832645.7223096,
+      "u": "8f793c3367ed9326f90f"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1251350-svet-prisiel-o-kralovnu-bodiek-yayoi-kusama-zomrela-vo-veku-97-rokov",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Svet prišiel o kráľovnú bodiek. Yayoi Kusama zomrela vo veku 97 rokov",
+      "ts": 1787832645.7223113,
+      "u": "5e34fca44099940a0a8a"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1251290-slovak-prisiel-o-obcianstvo-pre-manzelstvo-s-muzom-jeho-pripad-riesia-europske-sudy",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Slovák prišiel o občianstvo pre manželstvo s mužom. Jeho prípad riešia európske súdy",
+      "ts": 1787832645.7223125,
+      "u": "8499d5d808bc1b6453bd"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1251337-riziko-dalsich-utokov-je-realne-prezident-pellegrini-ziada-vladu-o-okamzite-bezpecnostne-opatrenia",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "„Riziko ďalších útokov je reálne.“ Prezident Pellegrini žiada vládu o okamžité bezpečnostné opatrenia",
+      "ts": 1787832645.7223136,
+      "u": "388a1d268422600a1d1e"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1251324-dalsie-smrtelne-nestastie-na-aljaske-lietadlo-spadlo-do-vody-zahynuli-styria-ludia",
+      "p": "",
+      "s": "Noviny.sk",
+      "t": "Ďalšie smrteľné nešťastie na Aljaške: Lietadlo spadlo do vody, zahynuli štyria ľudia",
+      "ts": 1787832645.722315,
+      "u": "12b884bef01f39fe5072"
     }
   ],
   "recent_alerts": [
@@ -5074,7 +5126,7 @@
     "02f8f5c655743a1f3e6e": 1787803842.143408,
     "031a3c4cf55926802dc8": 1787628936.9071712,
     "0330c6c116f082f3aae5": 1787811047.6671307,
-    "03338a25d47b08cce037": 1787227843.580065,
+    "03343beb50b4feea670e": 1787832645.7222986,
     "03499db6378115390053": 1787715343.6123402,
     "035ddeee88107261a41d": 1787574942.3252764,
     "0367389a6e79b73084d4": 1787740534.9994228,
@@ -5335,6 +5387,7 @@
     "128f09459be703a99da9": 1787413889.466654,
     "12a5e99eb9760511952e": 1787458241.3429084,
     "12b465c200b26b838031": 1787424932.5622973,
+    "12b884bef01f39fe5072": 1787832645.7223144,
     "12bde5fd468a684eb50c": 1787653303.360279,
     "12bf9e5fe33fa57e5c00": 1787548851.2769701,
     "12c40140453c62cde793": 1787656239.442219,
@@ -5602,7 +5655,6 @@
     "20b4aef4fd705ef5f68e": 1787643342.568016,
     "20bab486a35a40b95106": 1787569850.3318808,
     "20bcfd53d94c6a0d9c2f": 1787415641.1334436,
-    "20ceeb8a1fa605b47fdd": 1787227843.5800614,
     "20d3fa3e3ebf3b707a55": 1787666142.4275312,
     "20d5dc82d9c19500bd6e": 1787669744.2143764,
     "20ea8e91733e4d38c2dc": 1787371752.44728,
@@ -5911,6 +5963,7 @@
     "31ddfae594079e3519f7": 1787334818.6976616,
     "31e224c4674f4511bb5d": 1787664935.1745734,
     "31fb9948cd8dba32ce0a": 1787744135.9481895,
+    "3207cb27fef89bd231b6": 1787832645.7223163,
     "3211ab7b9512fca11af0": 1787685646.6450102,
     "3214f4ea57803064c7e0": 1787676946.0094056,
     "3219858bfb31416ede3f": 1787542537.437846,
@@ -6009,6 +6062,7 @@
     "3871b752eafa79218456": 1787244570.5961223,
     "3876ecfef2938ba7bc59": 1787740534.9994304,
     "387d621b044d0ab7ea17": 1787242850.485997,
+    "388a1d268422600a1d1e": 1787832645.722313,
     "389b0d0a7f4e0383ea17": 1787768448.6251116,
     "389fb1adc4be975093f5": 1787715343.6125762,
     "38aadf0b0dfb886175b2": 1787638242.8777757,
@@ -6193,6 +6247,7 @@
     "4441d5a3be55b938c972": 1787595047.580409,
     "44493d29c8dbec974e35": 1787733341.0347693,
     "446b53e669f21ec47599": 1787583344.0963368,
+    "448752989b41ad4861c4": 1787832645.7223196,
     "4489b42d54a80360a1d7": 1787310642.582054,
     "449f95fefaa6f0000d40": 1787548851.2769628,
     "44b0e24c1aafb80fde52": 1787736942.3664606,
@@ -6213,6 +6268,7 @@
     "45aa2d01e6af983f3ae4": 1787731851.036984,
     "45aece8f9067a1733943": 1787245844.6221104,
     "45bff307933d750081df": 1787813734.036719,
+    "45d0bb1933b8d1b93278": 1787832645.722286,
     "45dd12cfaa32cbcd0290": 1787413889.4668176,
     "45e5c230550ec779b85f": 1787736050.207026,
     "45e94c3c90a8a6362c44": 1787375442.778503,
@@ -6312,7 +6368,6 @@
     "4b9a0728f3bd47f8b425": 1787344540.4029112,
     "4b9ce9c9243dfa78353d": 1787554537.4489484,
     "4bbcf644ad1ee64fb266": 1787740534.9991903,
-    "4bc2486253e9e2cba9a8": 1787227843.5800662,
     "4bde1f8e27fa8034adeb": 1787678448.986585,
     "4be202ec14c5a159658a": 1787394937.7443006,
     "4be6539359df8ca825ad": 1787389839.1119447,
@@ -6521,6 +6576,7 @@
     "58585f4b56add1a659f9": 1787542537.4376338,
     "5860d41329edb51a6451": 1787393360.9364953,
     "58753544e222de82ad8d": 1787764860.9793675,
+    "588d2c9bf0ff60b8fcbc": 1787832645.7223065,
     "5897df699446cf7ad86c": 1787824539.1676042,
     "589900fdb50a311efb17": 1787542537.4378722,
     "58a1e804f91189b530c1": 1787748938.6210089,
@@ -6600,6 +6656,7 @@
     "5d67b4b9c4ad34329588": 1787581255.8135483,
     "5d6ab6396ff8c3bf8006": 1787744135.9481857,
     "5d879b545029be015dcb": 1787736050.2070153,
+    "5d8c3db8afde8f445570": 1787832645.7223022,
     "5da0afc0dd7051441e0d": 1787754936.7357326,
     "5db580b3c85ced55f507": 1787385335.583108,
     "5dcfdbada508907cd2df": 1787316933.3222015,
@@ -6615,6 +6672,7 @@
     "5e2aa525d8f9084259bb": 1787826936.6594656,
     "5e2ec759a545cca9d4f6": 1787542537.4376228,
     "5e3007b2538848f3a12e": 1787595047.5803814,
+    "5e34fca44099940a0a8a": 1787832645.7223103,
     "5e740240ec41d18b506b": 1787638242.877756,
     "5e87169a604603846d87": 1787826936.6594355,
     "5e9456cd82cc2b81ac6f": 1787738141.6257133,
@@ -6983,6 +7041,7 @@
     "7588c38726ddb312f981": 1787323924.1338925,
     "759f8fb497dfc9b50c4f": 1787484885.5306914,
     "75ae112d995530b43832": 1787728241.5570283,
+    "75b744dd782ffb4c6ac9": 1787832645.7223008,
     "75c959848eab6789b101": 1787348143.4787831,
     "75ebdb40557c44b1393f": 1787304129.4314535,
     "75fa080a607d29370970": 1787344540.402921,
@@ -7074,6 +7133,7 @@
     "7b10aceb23d817e738b6": 1787666142.4275262,
     "7b22a23a1c164b458b95": 1787669744.214386,
     "7b2a43ea1fc51dd07d1b": 1787805339.7157402,
+    "7b7c46ac035aa4f79c79": 1787832645.7223048,
     "7b919d07019b95a251d9": 1787744135.9480782,
     "7b98ac68222adb16596d": 1787344540.402772,
     "7b9f3a3ced2f2753e6a6": 1787561740.5643096,
@@ -7169,7 +7229,6 @@
     "805d5b5e37207189a14c": 1787821839.3008392,
     "8069d01d53330086c80d": 1787761251.3352957,
     "8079e3650523dbe0940f": 1787656239.4422212,
-    "807fb936594c89b33e4d": 1787227843.5800686,
     "8082d435d911624d536a": 1787603737.529584,
     "809434d5060f0ff314aa": 1787547342.3652341,
     "80a96e1602349c63b15d": 1787571338.736327,
@@ -7236,6 +7295,7 @@
     "845bb3e27fd16b5340e8": 1787571338.7363243,
     "846a2e364ae1984d4600": 1787636140.4501982,
     "847e6d2627701b51c832": 1787344540.402927,
+    "8499d5d808bc1b6453bd": 1787832645.7223117,
     "84aa925dec15eca1bbee": 1787744135.9481962,
     "84b1176df2b64ae98b0e": 1787337849.652661,
     "84b6834ad1a935ee6806": 1787801739.4162624,
@@ -7420,6 +7480,7 @@
     "8f2d95c2081e212c73eb": 1787770542.8081934,
     "8f440d9a22c62db39031": 1787493340.532196,
     "8f50c6bab8850be59e46": 1787484885.5305147,
+    "8f793c3367ed9326f90f": 1787832645.7223086,
     "8fa29ad6651985cf8dea": 1787241343.2761345,
     "8fa7d069adc856bdcc71": 1787585738.4640439,
     "8fb940f3babaa1883d46": 1787825439.9880433,
@@ -7762,6 +7823,7 @@
     "a483e5a89f7b58bb5f08": 1787315734.897231,
     "a4883f121924c289d3ba": 1787283347.5203145,
     "a4c0fd431396ca81cfbb": 1787715343.6123264,
+    "a4d076b97ada37e99310": 1787832645.7222917,
     "a4ee4c9341ea4d392607": 1787551844.8858366,
     "a51411f3a6e12b92a35d": 1787646051.2548907,
     "a517fc5b9e49e4fe86a8": 1787820933.8585658,
@@ -7888,7 +7950,6 @@
     "ab824d02630815ef60f2": 1787729241.5377934,
     "ab82df23576448c21ec6": 1787406942.3488178,
     "ab8810dcafe3de0b82b0": 1787553333.143445,
-    "aba13edbbd2854a766b2": 1787227843.5800586,
     "aba389981e6c1998cc4b": 1787369811.5701764,
     "aba6693c71d46c05f534": 1787417732.7541268,
     "abaac7daaf17628679d0": 1787458241.3429143,
@@ -8074,6 +8135,7 @@
     "b78dca5dfe4ac197ff25": 1787605843.4720576,
     "b79aff0f3851268525c5": 1787369811.5702171,
     "b7bf725c32931e8b25e9": 1787304939.9524174,
+    "b7c02cbc692568311e70": 1787832645.7222972,
     "b7efd956156b5bc3b2d8": 1787654133.7301168,
     "b8036aa5a1a49bee54da": 1787470532.8546972,
     "b8045a053e9ebd7ec77c": 1787298917.8812687,
@@ -8155,7 +8217,6 @@
     "bc96cd215ea166325ae3": 1787764860.9793646,
     "bc9c98edd6b9fe0f8124": 1787818250.6163669,
     "bcbaf3cd132f0accd2d5": 1787825439.9880576,
-    "bcbc82f3362cf79be6dc": 1787227843.5800602,
     "bcbf085b66dde7beb1bd": 1787286943.037496,
     "bcc6b8216ce73869837a": 1787826936.6594424,
     "bce098dbdc598b9ef786": 1787369811.5702066,
@@ -8448,7 +8509,6 @@
     "cd0176826f8efe1d82dd": 1787741735.066157,
     "cd206f0e04d31d0b667f": 1787308540.434998,
     "cd2970df217a111aa5db": 1787715343.612569,
-    "cd297acd76276b149444": 1787227843.5800626,
     "cd2db77ad3e69daffa5e": 1787595047.5803986,
     "cd374be1826bbc22c654": 1787491239.1637042,
     "cd5790c092be7083d13f": 1787663452.9815567,
@@ -8641,6 +8701,7 @@
     "d73833e749e3a439f1d9": 1787304129.431447,
     "d760bbf3eda3d28e119b": 1787229342.519278,
     "d7629d78d11385ad5ad5": 1787801739.4162526,
+    "d771a5d3f8ec406b667f": 1787832645.7222953,
     "d7a26ff7942c614d98c9": 1787738141.6257062,
     "d7a366d96ef7cecab5e2": 1787759758.8927717,
     "d7a67e4a04d9f64eb9d1": 1787371752.447277,
@@ -8783,7 +8844,6 @@
     "dfa3ba2b612ecb666541": 1787572545.8986206,
     "dfc130ab01cfd52b5c69": 1787314244.8556347,
     "dfc51ce96eb3362cf363": 1787403230.2244918,
-    "dfdd0be2ac8531eb41cb": 1787227843.5800507,
     "dfe1bd6c552894ba4981": 1787511342.2209384,
     "dff1b768f1c3aa019c7d": 1787257244.1973867,
     "e01a0efa8a9dfd46d03d": 1787481341.5191107,
@@ -8990,7 +9050,6 @@
     "eb0dcc854d798ecc7b2d": 1787775648.694276,
     "eb24e5f02750e86050ef": 1787735167.4503646,
     "eb33a2144258c1f464f7": 1787299852.9989536,
-    "eb5294a6a1fa272801cb": 1787227843.580064,
     "eb65b970600c69c8bb06": 1787657742.0832026,
     "eb68f54bf7ef5f1ea53d": 1787694124.1933658,
     "eb7b81eafbde04b90e78": 1787304939.9524097,
@@ -9003,7 +9062,6 @@
     "ebc0eed0eb6c588fe17e": 1787685646.6450326,
     "ebc207a54984ec488af9": 1787751353.4570065,
     "ebc611593c6e3fda3441": 1787720160.6263902,
-    "ebdaf0bfa5e04eecb9c0": 1787227843.5800552,
     "ebdd28664441274baefe": 1787322941.2711227,
     "ebde41573287b4618a58": 1787749840.208012,
     "ebe4c8c1a8edc47dce7f": 1787307047.599867,
@@ -9031,7 +9089,6 @@
     "edc86ce913ccf5916b00": 1787817338.3802848,
     "eddb9fcf95b83aec9f9f": 1787561740.564314,
     "eddd303fe3ba3eaea478": 1787303443.3724427,
-    "edf1966467e5c20d11f4": 1787227843.5800576,
     "edf66064d08d6ee6d33a": 1787507510.3871398,
     "ee14630b5af6ba9c70d3": 1787386849.1978443,
     "ee24f0ec72193be0e6ee": 1787567741.3584476,
@@ -9337,80 +9394,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1787831735.5967393
+      "ts": 1787832645.7222617
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1787831735.5967407
+      "ts": 1787832645.7222633
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1787831735.5967436
+      "ts": 1787832645.7222662
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1787831735.5967479
+      "ts": 1787832645.7222707
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1787831735.596742
+      "ts": 1787832645.7222648
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1787831735.5967321
+      "ts": 1787832645.7222538
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1787831735.5967376
+      "ts": 1787832645.7222595
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1787831735.596747
+      "ts": 1787832645.7222698
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1787831735.596745
+      "ts": 1787832645.7222676
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1787831735.596746
+      "ts": 1787832645.7222686
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/lewandowski-chicago-fire-kritika-monterrey-2026082610311665538",
-      "p": "Poľský útočník svojmu novému tímu v pohárovej súťaži Leagues Cup príliš nepomohol. Chicago Fire prehralo vo štvrťfinále s CF Monterrey 1:2, pričom rozhodujúci gól padol po akcii, ktorá nasledovala po chybe Roberta Lewandowského.",
-      "s": "Šport.sk",
-      "t": "Robert Lewandowski zažil nevydarený večer, médiá si na ňom zgustli: Za toto ho neplatia",
-      "ts": 1787746245.8832018,
-      "u": "a5875649888a64a62854"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/najdrahsi-prestup-tinedzera-v-historii-premier-league-ayyoub-bouaddi-smeruje-do-city-za-100-milionov-2026082610463449738",
-      "p": "Manchester City oficiálne oznámil prestup Ayyouba Bouaddiho z Lille, za ktorého zaplatí fixnú sumu 81,3 milióna libier plus ďalších 4,3 milióna vo forme bonusov. Celková suma dosahuje 85,6 milióna libier (100 miliónov eur), čo robí z Maročana najdrahšieho tínedžera v histórii Premier League. Jeho pr",
-      "s": "Šport.sk",
-      "t": "Najdrahší prestup tínedžera v histórii Premier League! Anglický klub za mladíka vysolil 100 miliónov eur",
-      "ts": 1787746245.8832045,
-      "u": "25f33daef385aad68988"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/juventus-vyriesil-brankarsku-krizu-a-priviedol-polskeho-golmana-kamila-grabara-2026082610480732595",
       "p": "Poľský brankár Kamil Grabara posilnil futbalistov Juventusu Turín. Do šiesteho tímu uplynulého ročníka Serie A prichádza na hosťovanie z nemeckého Wolfsburgu, pričom taliansky klub má prednostné právo hráča kúpiť za 11,5 milióna eur.",
@@ -11146,6 +11187,22 @@
       "t": "Cristiano Ronaldo si kúpil najdrahšie auto histórie - tnlive.sk",
       "ts": 1787831735.5967906,
       "u": "bc95ab684631e7ef25c2"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/nepredajny-atletico-madrid-vydalo-jasne-vyhlasenie-voci-kauze-menom-julian-alvarez-2026082712092757099",
+      "p": "Španielsky futbalový klub Atletico Madrid vydal vyhlásenie predstavenstva o absolútnej jednomyseľnej podpore rozhodnutia nepredať Juliana Alvareza do konkurenčnej Barcelony.",
+      "s": "Šport.sk",
+      "t": "Nepredajný. Atletico Madrid vydalo jasné vyhlásenie voči kauze menom Julian Alvarez",
+      "ts": 1787832645.7223184,
+      "u": "3207cb27fef89bd231b6"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWUJVRXFTd0xZOXhBd3lmNXdnc1h4aGFENTdTbFVFamdDVXEzUDEzSXY5eXQzWmVJeTlUOXhpSnlXa1VzZE5GRi1jcGhnb25GV1ZhWHdEbTFEaHJzaE1Pb2pRbFV4YkNqeW5Jc2pVWVd1MS1Wcjk2Sjh5V25xOER0SVZLaHR1a3hiUU9NS2hLU1BWSWs?oc=5",
+      "p": "Minnesota ulovila novú posilu, hoci Lakers ponúkali lepšie podmienky SPORTNET",
+      "s": "SPORTNET",
+      "t": "Minnesota ulovila novú posilu, hoci Lakers ponúkali lepšie podmienky",
+      "ts": 1787832645.7223208,
+      "u": "448752989b41ad4861c4"
     }
   ],
   "sport_source_status": {
@@ -11153,25 +11210,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1787831735.59675
+      "ts": 1787832645.722273
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1787831735.5967526
+      "ts": 1787832645.7222755
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1787831735.5967555
+      "ts": 1787832645.7222784
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1787831735.596754
+      "ts": 1787832645.7222772
     }
   }
 }
