@@ -2,10 +2,14 @@ import unittest
 from types import SimpleNamespace
 
 from src.config import SEEN_WINDOW_HOURS
-from src.freshness import fresh_triage_articles, is_fresh_for_triage
+from src.freshness import (
+    fresh_synthesis_articles,
+    fresh_triage_articles,
+    is_fresh_for_triage,
+)
 
 
-class TriageFreshnessTests(unittest.TestCase):
+class FreshnessTests(unittest.TestCase):
     NOW = 2_000_000_000.0
 
     def test_two_day_old_article_is_rejected(self):
@@ -44,8 +48,23 @@ class TriageFreshnessTests(unittest.TestCase):
             [recent, unknown],
         )
 
-    def test_seen_memory_is_at_least_seven_days(self):
-        self.assertGreaterEqual(SEEN_WINDOW_HOURS, 7 * 24)
+    def test_seen_memory_is_at_least_fourteen_days(self):
+        self.assertGreaterEqual(SEEN_WINDOW_HOURS, 14 * 24)
+
+    def test_synthesis_rejects_old_article_seen_now(self):
+        articles = [
+            {"t": "čerstvá", "ts": self.NOW, "pub": self.NOW - 3600},
+            {"t": "stará", "ts": self.NOW, "pub": self.NOW - 7 * 24 * 3600},
+            {"t": "bez dátumu", "ts": self.NOW},
+        ]
+        self.assertEqual(
+            fresh_synthesis_articles(
+                articles,
+                max_age_hours=24,
+                now_ts=self.NOW,
+            ),
+            [articles[0], articles[2]],
+        )
 
 
 if __name__ == "__main__":

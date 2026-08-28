@@ -100,13 +100,13 @@ SPORT_SOURCES: list[Source] = [
 # Správanie collectora a stavu
 # ---------------------------------------------------------------------------
 
-# Ako dlho si pamätáme videné články. Sedem dní bráni tomu, aby položka,
-# ktorú vydavateľ nechá dlhšie v RSS, po dvoch dňoch znovu ožila ako „nová“.
-SEEN_WINDOW_HOURS: int = 7 * 24
+# Ako dlho si pamätáme videné články. Dva týždne pokrývajú aj položky, ktoré
+# Google News alebo vydavateľ po týždni znovu vytiahne na vrch RSS.
+SEEN_WINDOW_HOURS: int = 14 * 24
 
 # Tvrdá poistka pre MIMORIADNE: ak zdroj poskytuje čas publikovania, starší
-# článok sa nesmie poslať modelu ako „čerstvý“. Zostáva však dostupný pre
-# surový feed a syntézu; zdroje bez spoľahlivého času neblokujeme.
+# článok sa nesmie poslať modelu ako „čerstvý“. Zostáva však dostupný v
+# surovom feede a Media Radare; zdroje bez spoľahlivého času neblokujeme.
 TRIAGE_MAX_ARTICLE_AGE_HOURS: int = 12
 
 # Timeout pre HTTP požiadavky na feedy (sekundy).
@@ -187,6 +187,11 @@ LLM_TIMEOUT: float = 60.0
 
 # Okno článkov, ktoré vstupujú do syntézy (hodiny dozadu).
 SYNTHESIS_WINDOW_HOURS: int = 6
+
+# Tvrdý limit podľa skutočného času publikovania pre TOP témy. Je zámerne
+# voľnejší než MIMORIADNE, aby toleroval oneskorené RSS, ale nie staré články,
+# ktoré Google News znovu ponúkne ako nový záznam.
+SYNTHESIS_MAX_ARTICLE_AGE_HOURS: int = 24
 
 # Koľko hodín držíme články v rolling bufferi v stave (vstup pre syntézu).
 RECENT_BUFFER_HOURS: int = 24

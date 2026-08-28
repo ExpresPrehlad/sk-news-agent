@@ -6,7 +6,8 @@ workflow po behu commitne späť do repa. Formát:
 
 {
   "seen": { "<uid>": <first_seen_unix_ts>, ... },
-  "recent": [ {"u": uid, "s": zdroj, "t": titulok, "p": perex, "l": link, "ts": ...}, ... ],
+  "recent": [ {"u": uid, "s": zdroj, "t": titulok, "p": perex, "l": link,
+                "ts": first_seen, "pub": published_ts}, ... ],
   "meta": { "last_run_ts": ..., "last_synthesis_ts": ... }
 }
 
@@ -124,10 +125,11 @@ class State:
     # -- Rolling buffer pre syntézu ---------------------------------------
 
     def add_recent(self, *, uid: str, source: str, title: str,
-                   perex: str, link: str) -> None:
+                   perex: str, link: str,
+                   published_ts: float | None = None) -> None:
         self.recent.append(
             {"u": uid, "s": source, "t": title, "p": perex[:300], "l": link,
-             "ts": time.time()}
+             "ts": time.time(), "pub": published_ts}
         )
 
     def recent_window(self, hours: float) -> list[dict]:

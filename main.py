@@ -34,12 +34,13 @@ from src.config import (
     SOURCES,
     SPORT_SOURCES,
     STATE_PATH,
+    SYNTHESIS_MAX_ARTICLE_AGE_HOURS,
     SYNTHESIS_WINDOW_HOURS,
     TRIAGE_MAX_ARTICLE_AGE_HOURS,
     DiscordConfig,
 )
 from src.digest import TRIAGE_POLICY_VERSION, synthesize, triage
-from src.freshness import fresh_triage_articles
+from src.freshness import fresh_synthesis_articles, fresh_triage_articles
 from src.llm.router import AllModelsFailed
 from src.notify.discord import (
     send_alerts,
@@ -153,7 +154,18 @@ def _run_synthesis(
     if not (due or force):
         mins_left = interval_minutes - (time.time() - state.get_meta("last_synthesis_ts")) / 60
         return f"⏳ ešte nie je splatná (o ~{max(0, mins_left):.0f} min)"
-    window = state.recent_window(SYNTHESIS_WINDOW_HOURS)
+    unfiltered_window = state.recent_window(SYNTHESIS_WINDOW_HOURS)
+    window = fresh_synthesis_articles(
+        unfiltered_window,
+        max_age_hours=SYNTHESIS_MAX_ARTICLE_AGE_HOURS,
+    )
+    stale_count = len(unfiltered_window) - len(window)
+    if stale_count:
+        log.info(
+            "Syntéza: vyradených %d článkov starších než %d h.",
+            stale_count,
+            SYNTHESIS_MAX_ARTICLE_AGE_HOURS,
+        )
     if len(window) < 5:
         log.info("Syntéza: v okne len %d článkov — preskakujem.", len(window))
         return f"preskočená (len {len(window)} článkov v okne, treba 5+)"
@@ -284,7 +296,7 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
         state.mark_seen(a.uid)
         state.add_recent(
             uid=a.uid, source=a.source_name, title=a.title,
-            perex=a.summary, link=a.link,
+            perex=a.summary, link=a.link, published_ts=a.published_ts,
         )
     for a in new_sport_articles:
         state.mark_seen(a.uid)
