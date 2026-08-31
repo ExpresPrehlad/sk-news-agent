@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Štát povolil odstrel 68 vlkov",
-      "ts": 1788173745.306298
-    },
-    {
-      "headline": "Návrat žiakov do škôl a školská reforma",
-      "ts": 1788173745.306298
-    },
-    {
-      "headline": "Kritika plánovanej výstavby sídla vnútra",
-      "ts": 1788173745.306298
-    },
-    {
-      "headline": "Zmeny v pravidlách cestnej premávky",
-      "ts": 1788173745.306298
-    },
-    {
-      "headline": "Súd potvrdil trest pre Janu Nagyovú",
-      "ts": 1788173745.306298
-    },
-    {
       "headline": "Minister Šaško plánuje výstavbu novej nemocnice v Trnave",
       "ts": 1788174660.033055
     },
@@ -219,90 +199,134 @@
     {
       "headline": "Lesný požiar pri Vyšnom Medzeve zamestnal hasičov aj vrtuľník",
       "ts": 1788186950.3433387
+    },
+    {
+      "headline": "Eskalácia napätia medzi USA a Iránom",
+      "ts": 1788188157.867683
+    },
+    {
+      "headline": "Spor o modernizáciu elektrárne Gabčíkovo",
+      "ts": 1788188157.867683
+    },
+    {
+      "headline": "Kritika plánovanej výstavby sídla vnútra",
+      "ts": 1788188157.867683
+    },
+    {
+      "headline": "Výpoveď vraha z gymnázia v Spišskej Starej Vsi",
+      "ts": 1788188157.867683
+    },
+    {
+      "headline": "Nárast agresie voči Ukrajincom v Poľsku",
+      "ts": 1788188157.867683
+    },
+    {
+      "headline": "Nové sankcie EÚ proti Rusku",
+      "ts": 1788188157.867683
+    },
+    {
+      "headline": "Zhoršujúca sa situácia v Nepále",
+      "ts": 1788188157.867683
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Spor o modernizáciu Gabčíkova: SNS odmieta tender za 465 miliónov",
+        "headline": "Eskalácia napätia medzi USA a Iránom",
         "links": [
           [
-            "SME",
-            "https://www.sme.sk/index/c/vymena-turbin-vo-vodnej-elektrarni-gabcikovo-bude-trvat-desat-rokov"
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2033215-iran-udrel-na-americanov-trump-hrozi-tvrdou-odvetou-arakci-tvrdo-zautocil-na-netanjahua-oklamal-usa-a-zatiahol-ich-do-vojny"
           ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/dqU7auD/iran-opatovne-vyzyva-na-dialog-so-spojenymi-statmi-rokovania-oznacuje-za-cestu-k-mieru/"
+          ]
+        ],
+        "perex": "Iránsky minister zahraničných vecí obvinil izraelského premiéra z manipulácie Spojených štátov a ich zatiahnutia do vojny. Napätie v regióne opäť vzrástlo po vzájomných útokoch a iránskych vyhláseniach o potrebe dialógu."
+      },
+      {
+        "headline": "Spor o modernizáciu elektrárne Gabčíkovo",
+        "links": [
           [
             "Denník N",
             "https://e.dennikn.sk/5532622/fico-s-tarabom-ohlasil-polmiliardovu-opravu-gabcikovskej-elektrarne-sns-chce-tender-zrusit/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/index/c/vymena-turbin-vo-vodnej-elektrarni-gabcikovo-bude-trvat-desat-rokov"
           ]
         ],
-        "perex": "Premiér Fico ohlásil rozsiahlu obnovu turbín vo vodnej elektrárni, no koaličná SNS zákazku označila za predraženú. Strana žiada zrušenie tendra, ktorý má trvať desať rokov a realizovať ho má rakúska spoločnosť."
+        "perex": "Premiér Robert Fico ohlásil plánovanú obnovu turbín za 465 miliónov eur, proti ktorej sa však postavila SNS. Strana považuje zákazku za predraženú a žiada jej zrušenie."
       },
       {
-        "headline": "Požiar v poľskej továrni na drony vyšetruje kontrarozviedka",
+        "headline": "Kritika plánovanej výstavby sídla vnútra",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/NwiKPNQ/vyrobnu-cerpadiel-pre-drony-v-polsku-zachvatil-poziar-pricina-je-stale-nejasna/"
+            "https://www.aktuality.sk/clanok/q0jmXnh/rezort-vnutra-zatvoril-cast-budovy-lebo-pada-uradnikom-na-hlavu-sutaj-estok-chce-investovat-85-milionov/"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/rezort-vnutra-odmieta-tvrdenia-k-zamer/988799-clanok.html"
+          ]
+        ],
+        "perex": "Ministerstvo vnútra plánuje výstavbu nového administratívneho centra za viac ako 85 miliónov eur. Opozičné hnutie Slovensko projekt kritizuje a označuje ho za darček pre developerov."
+      },
+      {
+        "headline": "Výpoveď vraha z gymnázia v Spišskej Starej Vsi",
+        "links": [
+          [
+            "Denník N",
+            "https://dennikn.sk/5532482/vrah-zo-spisskej-o-spoluziacke-ktoru-zabil-ako-jedina-sa-o-mna-zaujimala-zamiloval-som-sa-do-nej/"
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2033161-poziar-v-strategickej-tovarni-na-drony-poliaci-preveruju-sabotaz-na-mieste-zasahuje-kontrarozviedka"
+            "https://www.pravda.sk/spravy/domace/clanok/2032603-brutalny-utok-na-spisi-utocnik-samuel-sa-postavi-pred-specializovany-sud"
           ]
         ],
-        "perex": "V poľskom meste Skaržysko-Kamienna vypukol v noci požiar v závode na výrobu komponentov pre bezpilotné systémy. Úrady preverujú podozrenie zo sabotáže, na mieste zasahujú bezpečnostné zložky."
+        "perex": "Na Špecializovanom trestnom súde prvýkrát podrobnejšie vypovedal študent, ktorý vlani útočil na gymnáziu. Po jeho vyčíňaní prišli o život dve ženy, pričom útočník na súde opisoval aj svoj vzťah k obeti."
       },
       {
-        "headline": "Blaha čelí kritike za kúpu nehnuteľnosti v hodnote milión eur",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/neznasam-bohatych-ludi-hovoril-blaha-vlani-si-kupil-nehnutelnost-za-takmer-milion-eur"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/JnWfs17/hlas-chudoby-v-luxusnej-vile-ako-novinar-kysel-odhalil-milionovy-dom-blahu-videopodcast/"
-          ]
-        ],
-        "perex": "Politik Ľuboš Blaha sa stal terčom verejnej kritiky po odhalení, že si vlani zaobstaral luxusnú nehnuteľnosť. Médiá poukazujú na rozpor medzi jeho rétorikou o bohatých ľuďoch a jeho súkromnými investíciami."
-      },
-      {
-        "headline": "Násilný incident v Bratislave: Útočník použil stredoveký cep",
+        "headline": "Nárast agresie voči Ukrajincom v Poľsku",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/NibZyBg/policia-v-bratislave-zasahovala-proti-dvojici-muzov-ktori-sa-na-parkovisku-vyhrazali-zabitim/"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/bratislava/c/muz-zautocil-v-bratislave-bojovym-cepom-teraz-celi-obvineniu"
+            "https://www.aktuality.sk/clanok/lGC2A0I/agresie-je-kazdym-rokom-viac-po-rokoch-solidarity-sa-v-polsku-meni-nalada-voci-ukrajincom/"
           ]
         ],
-        "perex": "Polícia v Bratislave zadržala dvoch mužov, ktorí na parkovisku napadli ľudí a vyhrážali sa im smrťou. Jeden z páchateľov pri útoku použil netradičnú zbraň, konkrétne stredoveký bojový cep."
+        "perex": "Poľská spoločnosť čelí zmenám v náladách voči ukrajinským utečencom, pričom sa množia správy o útokoch. Do vzťahov sa čoraz viac vracia aj historická pamäť a napätie."
       },
       {
-        "headline": "Lesný požiar pri Vyšnom Medzeve zamestnal hasičov aj vrtuľník",
+        "headline": "Nové sankcie EÚ proti Rusku",
         "links": [
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/SMWGt85/vysny-medzev-suzuje-lesny-poziar-hasici-nasadili-vrtulnik-i-dron/"
-          ],
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1252896-rozsiahly-poziar-pri-vysnom-medzeve-plamene-zasiahli-pole-aj-les"
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2032941-moskva-ma-pocitit-tvrdy-uder-eu-chysta-jeden-z-najvacsich-sankcnych-balikov-od-zaciatku-vojny"
           ]
         ],
-        "perex": "Rozsiahly požiar v katastri obce Vyšný Medzev sa rozšíril z trávnatého porastu do lesného územia. Hasiči bojujú s plameňmi na ploche ôsmich hektárov za pomoci leteckej techniky."
+        "perex": "Európska únia pripravuje jeden z najväčších sankčných balíkov od začiatku vojny na Ukrajine. Obmedzenia sa majú dotknúť približne 1 600 osôb a subjektov."
+      },
+      {
+        "headline": "Zhoršujúca sa situácia v Nepále",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2033169-desiva-bilancia-z-nepalu-rastie-590-cudzincov-je-nezvestnych-po-povodni-patraju-po-tisicoch-ludi"
+          ]
+        ],
+        "perex": "Počet obetí ničivých povodní v Nepále naďalej rastie a nezvestných je už vyše 500 cudzincov z desiatok krajín. Záchranári pokračujú v pátraní po tisícoch ľudí v zasiahnutej oblasti."
       }
     ],
-    "ts": 1788186950.3433285
+    "ts": 1788188157.8676727
   },
   "meta": {
-    "last_collection_ts": 1788186942.7747474,
+    "last_collection_ts": 1788188150.261209,
     "last_feed_error_ts": 1788170143.2969892,
     "last_llm_error_ts": 1788172700.6310825,
-    "last_run_ts": 1788186943.281239,
-    "last_synthesis_ts": 1788186950.3433218
+    "last_run_ts": 1788188151.5738308,
+    "last_synthesis_ts": 1788188157.8676665
   },
   "recent": [
     {
@@ -4003,6 +4027,96 @@
       "t": "Požiar v strategickej továrni na drony. Poliaci preverujú sabotáž, na mieste zasahuje kontrarozviedka",
       "ts": 1788186943.2806702,
       "u": "4b3db1ffdd710dd9c3ac"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/iran-sa-nadalej-usiluje-riesit-konflikt-s-usa-cestou-rokovani?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Vyjadrenia prišli po vzájomných útokoch oboch krajín.",
+      "pub": 1788187954.0,
+      "s": "SME",
+      "t": "Irán sa naďalej usiluje riešiť konflikt s USA cestou rokovaní",
+      "ts": 1788188151.573201,
+      "u": "be5ecb744bb012373c05"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/leto-v-rakusku-bolo-najhorucejsie-od-zaciatku-merani-pred-260-rokmi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Vysoké teploty sprevádzalo intenzívne sucho.",
+      "pub": 1788187483.0,
+      "s": "SME",
+      "t": "Leto v Rakúsku bolo najhorúcejšie od začiatku meraní pred 260 rokmi",
+      "ts": 1788188151.5732048,
+      "u": "6ede319cf099e2d4e575"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/meta-pod-tlakom-konecne-robi-pre-tinedzerov-spravnu-vec?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Z núdze robí cnosť, pričom dosah na jej reklamný model zatiaľ nepoznáme.",
+      "pub": 1788186942.0,
+      "s": "SME",
+      "t": "Meta pod tlakom konečne robí pre tínedžerov správnu vec",
+      "ts": 1788188151.5732064,
+      "u": "6fdd2498c61f6964b1a5"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/AqFXDnU/kosovo-je-blizko-ukoncenia-politickej-patovej-situacie-dohodli-sa-na-spolocnom-prezidentskom-kandidatovi/",
+      "p": "Dve kľúčové strany v Kosove našli spoločnú reč pri voľbe hlavy štátu. Dohodli sa na podpore bývalého diplomata a profesora práva Bekima Sejdiua.",
+      "pub": 1788187820.0,
+      "s": "Aktuality",
+      "t": "Kosovo je blízko ukončenia politickej patovej situácie, dohodli sa na spoločnom prezidentskom kandidátovi",
+      "ts": 1788188151.5732079,
+      "u": "2d68266afb28b3af3ffd"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/3ONpCiR/madarsky-premier-na-bledskom-fore-nasa-vlada-uz-zvladla-viacero-krizovych-situacii/",
+      "p": "Péter Magyar na Bledskom strategickom fóre zdôraznil úspechy vlády pri riešení energetických kríz. Tvrdí, že Brusel Maďarsko za ochranu hraníc nespravodlivo trestá.",
+      "pub": 1788187587.0,
+      "s": "Aktuality",
+      "t": "Maďarský premiér na Bledskom fóre: Naša vláda už zvládla viacero krízových situácií",
+      "ts": 1788188151.5732086,
+      "u": "bd30e480a6441f61aa46"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/CowaBO7/europa-zostava-pre-island-strategickym-partnerom-aj-po-odmietnuti-vstupu-do-unie-v-referende/",
+      "p": "Odmietnutie členstva v EÚ otvára na Islande novú debatu o bezpečnosti a geopolitike. Krajina bez armády siahne po bilaterálnych zmluvách so spojencami.",
+      "pub": 1788187055.0,
+      "s": "Aktuality",
+      "t": "Európa zostáva pre Island strategickým partnerom aj po odmietnutí vstupu do Únie v referende",
+      "ts": 1788188151.5732105,
+      "u": "da51000f136c8ca2a9d4"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/oIJA26T/jaroslav-nad-tvrdi-ze-agresor-v-senci-sa-snazil-uhasit-cigaretu-na-tvari-politika/",
+      "p": "Bývalý minister obrany uviedol, že proruského agresora, ktorý sa pokúsil zahasiť cigaretu na politikovej tvári, nevyprovokoval.",
+      "pub": 1788186929.0,
+      "s": "Aktuality",
+      "t": "Jaroslav Naď tvrdí, že agresor v Senci sa snažil uhasiť cigaretu na tvári politika",
+      "ts": 1788188151.573214,
+      "u": "b175b2e3391bbebeafaa"
+    },
+    {
+      "l": "https://dennikn.sk/5532482/vrah-zo-spisskej-o-spoluziacke-ktoru-zabil-ako-jedina-sa-o-mna-zaujimala-zamiloval-som-sa-do-nej/",
+      "p": "Článok obsahuje opisy násilia, zvážte či chcete v čítaní pokračovať Na Špecializovanom trestnom súde v Pezinku po približne roku a pol od útoku prvýkrát podrobnejšie vypovedal vrah z gymnázia v Spišskej Starej Vsi. Samuel S. v čase útoku v januári 2025 mal 18 rokov. Prokuratúra ho obžalovala z obzvl",
+      "pub": 1788187376.0,
+      "s": "Denník N",
+      "t": "Vrah zo Spišskej o spolužiačke, ktorú zabil: Ako jediná sa o mňa zaujímala, zamiloval som sa do nej",
+      "ts": 1788188151.5732167,
+      "u": "43b83864b08692daf491"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2033215-iran-udrel-na-americanov-trump-hrozi-tvrdou-odvetou-arakci-tvrdo-zautocil-na-netanjahua-oklamal-usa-a-zatiahol-ich-do-vojny?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Napätie medzi Spojenými štátmi a Iránom po niekoľkých týždňoch relatívneho pokoja opäť prudko vzrástlo. Americké útoky na iránske raketové zariadenia v strategickom Hormuzskom prielive vyvolali odvetu Teheránu proti cieľom v Jordánsku a Spojených arabských emirátoch. Americký prezident Donald Trump ",
+      "pub": 1788187200.0,
+      "s": "Pravda",
+      "t": "Irán udrel na Američanov, Trump hrozí tvrdou odvetou. Arákčí: Netanjahu sa chváli, že oklamal USA a zatiahol ich do vojny",
+      "ts": 1788188151.57322,
+      "u": "fa40ad3305972e89dccf"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2033207-europu-caka-dalsi-utok-horucav-teploty-mozu-opat-vystupit-k-40-c?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Leto sa ešte nekončí. Do Európy sa začiatkom septembra podľa aktuálnych meteorologických modelov začne presúvať veľmi teplý vzduch zo severnej Afriky. Na juhu kontinentu môžu teploty opäť vystúpiť k hranici 40 °C, pričom výrazné oteplenie sa môže postupne prejaviť aj v strednej Európe.",
+      "pub": 1788186854.0,
+      "s": "Pravda",
+      "t": "Európu čaká ďalší útok horúčav. Teploty môžu opäť vystúpiť k 40 °C",
+      "ts": 1788188151.5732217,
+      "u": "5f129748f949506ab86e"
     }
   ],
   "recent_alerts": [
@@ -5031,6 +5145,7 @@
     "0a82cd092632cc9714b7": 1787378142.6780782,
     "0a856fbe564bdd277248": 1788099045.0231812,
     "0a95fa063218c8df3874": 1787634428.3617609,
+    "0a9d02628e169dac0789": 1788188151.5734007,
     "0aa7b75ca192f45ff63d": 1788017751.086796,
     "0aac489622c4bb53540b": 1787542537.4378412,
     "0aae273d7eb2a9c131d8": 1787735167.450363,
@@ -5583,6 +5698,7 @@
     "21a01f0407f7a2dde81a": 1787582142.270957,
     "21c91d81fa17d42a91f5": 1787748938.6208487,
     "21cc2fcce8f3408b833b": 1787569850.3318694,
+    "21e29081a68401119c1c": 1788188151.5732226,
     "21ead2d213cdab49073c": 1787888142.736438,
     "21fe9cb2302e84f8b959": 1787718935.7174077,
     "2203e35eaf12fe15a5fc": 1787939788.0272794,
@@ -5858,6 +5974,7 @@
     "2d47ad6d12d1b3f2233f": 1787763344.7251654,
     "2d5d47273d177b60b5ca": 1787314244.855624,
     "2d64837542753eb9808a": 1787655340.3742354,
+    "2d68266afb28b3af3ffd": 1788188151.5732071,
     "2d73aed7d2282524f80f": 1787931345.6164122,
     "2d899218a6ce76fe5f2a": 1787731851.0369873,
     "2d8a7fca9efdc1a927c3": 1787864136.7144012,
@@ -6371,6 +6488,7 @@
     "43ada3ec9477f8c5a475": 1787914543.8761814,
     "43b0ab20cd5932cbe681": 1788177335.7394114,
     "43b2bb3e89cadbbe5040": 1787567741.3584363,
+    "43b83864b08692daf491": 1788188151.5732148,
     "43c1f8f76fac3407614e": 1787728241.557019,
     "43c3ee7c0eecdd3a3c6e": 1787369811.570202,
     "43ca96396ac6d72acdc0": 1787585738.4640534,
@@ -7002,6 +7120,7 @@
     "5efb09a8428bf8ed439e": 1787456142.479195,
     "5f053c4ae81cac716a38": 1787496939.2107987,
     "5f1160e6a477f3014ec4": 1787542537.4378512,
+    "5f129748f949506ab86e": 1788188151.5732212,
     "5f19cf232146afc710d1": 1787685646.645026,
     "5f1fa6402c1145bedd13": 1787901047.1229513,
     "5f223ea405119743fdbd": 1787842547.0096827,
@@ -7394,6 +7513,7 @@
     "6eceb8dbd65af18788ae": 1787555446.6649716,
     "6ed3a0aa6d042e4ff39f": 1787893841.6739504,
     "6edb74d310e563b96a76": 1787312133.4807265,
+    "6ede319cf099e2d4e575": 1788188151.5732024,
     "6edfdcb2c797f891a714": 1788081639.335349,
     "6ee31435d9f9c76261f0": 1787902541.2183294,
     "6eed23731c28a45d5890": 1788184541.088369,
@@ -7422,6 +7542,7 @@
     "6fd12b37e4bade5636b9": 1787736050.2070293,
     "6fd282aa0c32bd3a7eb7": 1787642612.2145321,
     "6fd96a62cda07b51bffd": 1787935972.972289,
+    "6fdd2498c61f6964b1a5": 1788188151.5732057,
     "6fe19c078c823ed45f41": 1787628936.9073417,
     "6fe42c74919b22bd3c76": 1787931345.6164107,
     "700b60db15bff7662192": 1788085245.0494456,
@@ -8931,6 +9052,7 @@
     "b16d43f248373ca862af": 1788185452.7234557,
     "b16ef1c028c6cb6de18e": 1788153661.6553195,
     "b17133fc0fad278ed885": 1788012652.6881356,
+    "b175b2e3391bbebeafaa": 1788188151.5732117,
     "b17888cc16bcc8a09baa": 1787314244.8554482,
     "b18ba0a13848d81858e2": 1788078041.9947815,
     "b18e54496c8aae21d2e4": 1788178243.5002425,
@@ -9225,6 +9347,7 @@
     "bd09108edbefc1cf4763": 1787676946.0094147,
     "bd13cdab42298598e480": 1787642612.2145221,
     "bd2b2212f40ba5ea7932": 1787772054.2168977,
+    "bd30e480a6441f61aa46": 1788188151.573208,
     "bd3208a7e848ae6d689d": 1787659844.7808924,
     "bd4ba2e0c43a95724e62": 1787895333.4598029,
     "bd7e80744948a7498fbb": 1787638242.8777611,
@@ -9248,6 +9371,7 @@
     "be4904e9990cecdc8c5d": 1787813734.0367174,
     "be49f89d488aff39b88e": 1787801739.416085,
     "be5e355b06a2c9c24c6e": 1788030639.2262185,
+    "be5ecb744bb012373c05": 1788188151.5731971,
     "be671b7f132b0dbe9fa9": 1788080142.836402,
     "be710880cdcdbba35633": 1787900134.8069077,
     "be74e8b92bffae4b4297": 1787542537.4378347,
@@ -9922,6 +10046,7 @@
     "d951d56a6fb2311c9c76": 1788012652.688112,
     "d97a3a199d689d3d48cb": 1788014140.161496,
     "d97f879c76c320c75499": 1787768448.6251016,
+    "d98eddd46b58e9c27990": 1788188151.573403,
     "d99379db5ce6c3119c4c": 1787774141.759642,
     "d9997e2ad02c4a111a6f": 1788147343.5651133,
     "d9aad8c0d3fbff8f28cc": 1787759758.8927972,
@@ -9937,6 +10062,7 @@
     "da408bd92faa071634f5": 1787554537.4487412,
     "da4ae6de28c561429261": 1787408444.0217795,
     "da4fdd516ca84e2139e4": 1787668547.3071995,
+    "da51000f136c8ca2a9d4": 1788188151.5732093,
     "da559b7e09a8aab61efe": 1787694124.1933694,
     "da64b02916ee49e3f1d4": 1788072941.3856876,
     "da6a495cad6473d9313b": 1787580439.8497906,
@@ -10704,6 +10830,7 @@
     "fa2a1b7ea32231430969": 1787563738.246075,
     "fa3864375fb819d16ebc": 1787747734.1281054,
     "fa39ffd0cada8eccdd33": 1787913343.3502731,
+    "fa40ad3305972e89dccf": 1788188151.573218,
     "fa4da88bee16a0a39c21": 1787830534.4112115,
     "fa5441348639913294d9": 1787340937.6726112,
     "fa672d6c903a24f26a30": 1787408444.0215762,
@@ -10838,61 +10965,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1788186943.2806273
+      "ts": 1788188151.5731745
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1788186943.2806284
+      "ts": 1788188151.573176
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1788186943.2806315
+      "ts": 1788188151.5731783
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1788186943.280636
+      "ts": 1788188151.5731833
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1788186943.2806299
+      "ts": 1788188151.573177
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1788186943.28062
+      "ts": 1788188151.573167
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1788186943.2806253
+      "ts": 1788188151.5731726
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1788186943.2806354
+      "ts": 1788188151.573182
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1788186943.2806334
+      "ts": 1788188151.57318
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1788186943.2806342
+      "ts": 1788188151.5731814
     }
   },
   "sport_recent": [
@@ -12495,6 +12622,30 @@
       "t": "VIDEO Lobotkovým spoluhráčom sa nestane. Najnovšia posila Kataláncov Gabriel Jesus je už v Barcelone",
       "ts": 1788186943.2808423,
       "u": "ea20b8cec5c11e4300ea"
+    },
+    {
+      "l": "https://sport.aktuality.sk/mma/clanok/zdravie-na-prvom-mieste-rfa-34-prichadza-o-atraktivny-titulovy-zapas-domaca-hviezda-musela-odstupit-2026083113393924663",
+      "p": "Turnaj RFA 34, ktorý sa uskutoční 17. októbra na Zimnom štadióne v Žiline, prišiel o jeden z najatraktívnejších zápasov. Domáci Michal Kopas (4-0) sa mal v súboji dvoch neporazených Slovákov stretnúť s Marcelom Šimom (3-0) o titul RFA v perovej váhe. Zo zápasu však pre zranenie odstúpil.",
+      "s": "Šport.sk",
+      "t": "Zdravie na prvom mieste. RFA 34 prichádza o atraktívny titulový zápas! Domáca hviezda musela odstúpiť",
+      "ts": 1788188151.5732245,
+      "u": "21e29081a68401119c1c"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/matthew-mayich-kolaps-trening-horucava-2026083113214165551",
+      "p": "Budúcnosť 21-ročného hokejistu Matthewa Mayicha zostáva neistá. Talentovaný obranca, ktorého v roku 2023 draftoval St. Louis Blues, leží v nemocnici a naďalej je v kóme. Hráč, ktorý aktuálne oblieka dres tímu Arizona State, sa do kritického stavu dostal po kolapse počas kondičného tréningu v extrémn",
+      "s": "Šport.sk",
+      "t": "Náročný tréning v extrémnej horúčave sa skončil kolapsom. Nádej St. Louis Blues je v kóme",
+      "ts": 1788188151.5734022,
+      "u": "0a9d02628e169dac0789"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/hokej-tl-gilak-bude-pokracovat-v-pr/988819-clanok.html",
+      "p": "Giľák odohral za Prešovčanov v uplynulej sezóne 20 stretnutí počas hosťovania.",
+      "s": "TERAZ.SK",
+      "t": "Giľák bude pokračovať v Prešove: Najlepšie rozhodnutie pre kariéru",
+      "ts": 1788188151.5734034,
+      "u": "d98eddd46b58e9c27990"
     }
   ],
   "sport_source_status": {
@@ -12502,25 +12653,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1788186943.2806385
+      "ts": 1788188151.5731854
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1788186943.280641
+      "ts": 1788188151.573188
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1788186943.280644
+      "ts": 1788188151.5731907
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1788186943.2806423
+      "ts": 1788188151.5731893
     }
   }
 }
