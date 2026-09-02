@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Vražda viceprezidentky Bank of America na Times Square",
-      "ts": 1788342951.3857763
-    },
-    {
-      "headline": "Putin odmietol vylúčiť útoky na ciele v Británii",
-      "ts": 1788342951.3857763
-    },
-    {
-      "headline": "Nemecko sprísňuje postoj k obchodným praktikám Číny",
-      "ts": 1788342951.3857763
-    },
-    {
-      "headline": "Nvidia rokuje o akvizícii startupu Hugging Face",
-      "ts": 1788342951.3857763
-    },
-    {
-      "headline": "Slovenská pošta čelí kritike za utajovanie platov",
-      "ts": 1788342951.3857763
-    },
-    {
       "headline": "Hongkonský aktivista Joshua Wong priznal vinu za spoluprácu so zahraničím",
       "ts": 1788345350.3693442
     },
@@ -207,182 +187,112 @@
     {
       "headline": "Vláda schválila pomoc poľnohospodárom na kompenzáciu škôd zo sucha",
       "ts": 1788357344.784082
+    },
+    {
+      "headline": "Exhumácia ostatkov Jana Masaryka má objasniť príčiny jeho smrti",
+      "ts": 1788358255.2444992
+    },
+    {
+      "headline": "Slovensko zažaluje Európsku komisiu pre genetické úpravy potravín",
+      "ts": 1788358255.2444992
+    },
+    {
+      "headline": "Útok na Times Square: Zomrela viceprezidentka Bank of America",
+      "ts": 1788358255.2444992
+    },
+    {
+      "headline": "Nemecko identifikovalo podozrivých z hybridného útoku na letisku",
+      "ts": 1788358255.2444992
+    },
+    {
+      "headline": "Deficit štátneho rozpočtu ku koncu augusta klesol",
+      "ts": 1788358255.2444992
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Nemecko čelí vlne sabotáží, po výbuchu v Augsburgu hlásia útoky na energetiku",
+        "headline": "Exhumácia ostatkov Jana Masaryka má objasniť príčiny jeho smrti",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/svet/c/nemecke-urady-pozastavili-vlakovu-dopravu-po-vybuchu-na-stanici-v-augsburgu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+            "https://www.sme.sk/svet/c/ceska-policia-zacala-exhumovat-ostatky-jana-masaryka-chce-objasnit-jeho-smrt?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ],
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2034189-dalsia-sabotaz-nemeckej-energetiky-pri-koline-niekto-umyselne-sposobil-skrat"
+            "TN Live",
+            "https://tnlive.sk/zahranicne/clanok/1048874-v-cesku-otvaraju-pripad-zahadnej-smrti-jana-masaryka-policia-zacala-exhumovat-ostatky-jana-masaryka"
           ]
         ],
-        "perex": "Nemecké úrady vyšetrujú sériu útokov na kritickú infraštruktúru vrátane výbuchu pri stanici v Augsburgu a úmyselného skratu v rozvodni. Bezpečnostnú situáciu v krajine označil český premiér Andrej Babiš za vážnu a ponúkol nemeckej strane spoluprácu."
+        "perex": "Česká polícia začala s exhumáciou ostatkov bývalého ministra zahraničných vecí Jana Masaryka. Cieľom je po rokoch definitívne určiť, či bola jeho smrť samovraždou alebo vraždou."
       },
       {
-        "headline": "Pellegrini vyjadril solidaritu Nemecku po dronovom incidente na letisku",
+        "headline": "Slovensko zažaluje Európsku komisiu pre genetické úpravy potravín",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/slovensko-zazaluje-europsku-komisiu-za-geneticke-upravy-potravin?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "TN Live",
+            "https://tnlive.sk/domace/clanok/1048893-slovensko-sa-pre-gmo-bude-sudit-s-europskou-uniou-nevieme-co-to-moze-sposobit-ludom-tvrdi-fico"
+          ]
+        ],
+        "perex": "Premiér Robert Fico oznámil, že Slovensko podá žalobu na Európsku komisiu v súvislosti s novými pravidlami pre geneticky modifikované organizmy. Vláda argumentuje obavami z možných negatívnych vplyvov na zdravie ľudí."
+      },
+      {
+        "headline": "Útok na Times Square: Zomrela viceprezidentka Bank of America",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/MpDYouW/na-times-square-doslo-k-utoku-nozmi-zomrela-pri-nom-viceprezidentka-bank-of-america/"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1253750-tragedia-na-times-square-pri-utokoch-nozom-zomrela-viceprezidentka-bank-of-america"
+          ]
+        ],
+        "perex": "Pri náhodnom útoku nožmi na newyorskom námestí Times Square prišla o život 32-ročná viceprezidentka Bank of America Erin Piacentiová. Polícia útočníčku, ktorá mala v minulosti problémy s duševným zdravím, na mieste zastrelila."
+      },
+      {
+        "headline": "Nemecko identifikovalo podozrivých z hybridného útoku na letisku",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2034173-pellegrini-podporil-nemecko-po-incidente-s-dronmi-za-ktorym-je-vraj-rusko?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "https://www.pravda.sk/spravy/svet/clanok/2034507-dron-s-bombou-sa-objavil-pri-ukrajinskom-lietadle-nemci-uz-poznaju-podozrivych-stopy-vedu-k-rusku"
           ],
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/aXDAxNg/kaja-kallasova-utok-dronom-v-lipsku-nesie-znamky-statom-podporovaneho-terorizmu/"
           ]
         ],
-        "perex": "Prezident Peter Pellegrini podporil Nemecko v súvislosti s augustovým incidentom s výbušným dronom na letisku Lipsko/Halle. Nemecké úrady za týmto hybridným útokom vidia Rusko, čo viedlo k predvolaniu ruského veľvyslanca v Bruseli."
+        "perex": "Nemecké úrady identifikovali dvoch podozrivých v súvislosti s augustovým dronovým útokom na letisku Lipsko/Halle. Stopy v prípade, ktorý Berlín označuje za štátom podporovaný terorizmus, vedú k Rusku."
       },
       {
-        "headline": "Slovensko zažaluje Európsku komisiu pre dereguláciu genetických technológií",
+        "headline": "Deficit štátneho rozpočtu ku koncu augusta klesol",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/FyhAfZk/robert-fico-slovensko-zazaluje-europsku-komisiu-pre-genomove-techniky-pri-slachteni-rastlin/"
-          ],
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1253686-slovensko-zazaluje-europsku-komisiu-dovodom-je-deregulacia-gmo"
-          ]
-        ],
-        "perex": "Premiér Robert Fico oznámil, že Slovensko podá žalobu na Súdny dvor EÚ pre nariadenie o deregulácii nových geneticky modifikovaných organizmov. Vláda argumentuje obavami z možných negatívnych dopadov na zdravie obyvateľov a zaostávaním vo vývoji odolných odrôd."
-      },
-      {
-        "headline": "Polícia odhalila desiatky opitých vodičov počas prvého školského dňa",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2034161-tolko-policajti-necakali-prvy-skolsky-den-odhalili-desiatky-opitych-vodicov?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ],
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/policia-odhalila-v-utorok-rano-29-vodi/989221-clanok.html"
-          ]
-        ],
-        "perex": "Počas celoslovenskej dopravnej akcie zameranej na bezpečnosť v prvý školský deň odhalili policajti za dve hodiny 29 vodičov pod vplyvom alkoholu. Štyria z nich nafúkali viac ako jedno promile."
-      },
-      {
-        "headline": "Vláda schválila pomoc poľnohospodárom na kompenzáciu škôd zo sucha",
-        "links": [
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/greenpeace-vlada-by-sa-mala-sustredi/989309-clanok.html"
+            "https://www.aktuality.sk/clanok/76B7ci5/deficit-statneho-rozpoctu-ku-koncu-augusta-klesol-na-367-miliardy-eur/"
           ],
           [
             "SME",
-            "https://www.sme.sk/domov/c/prezident-zdoraznil-vyznam-potravinovej-sebestacnosti-a-boj-proti-suchu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+            "https://www.sme.sk/index/c/deficit-statneho-rozpoctu-vzrastol-na-3-675-miliardy-eur?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "Vláda vyčlenila zo štátneho rozpočtu 30 miliónov eur na kompenzáciu škôd spôsobených suchom v roku 2026. Prezident Peter Pellegrini zároveň zdôraznil potrebu posilnenia potravinovej sebestačnosti Slovenska."
+        "perex": "Hotovostný schodok štátneho rozpočtu dosiahol ku koncu augusta 3,675 miliardy eur. Medziročne ide o pokles o 14,6 percenta, čo ministerstvo financií pripisuje vyšším daňovým príjmom."
       }
     ],
-    "ts": 1788357344.7840538
+    "ts": 1788358255.2444909
   },
   "meta": {
-    "last_collection_ts": 1788357334.5236616,
+    "last_collection_ts": 1788358246.918763,
     "last_feed_error_ts": 1788342945.0246794,
     "last_llm_error_ts": 1788277005.6892486,
-    "last_run_ts": 1788357334.9887784,
-    "last_synthesis_ts": 1788357344.7840483
+    "last_run_ts": 1788358248.0462866,
+    "last_synthesis_ts": 1788358255.2444859
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/francuzske-vaznice-su-preplnene?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Obsadenosť dosiahla 141,6 percenta.",
-      "pub": 1788271413.0,
-      "s": "SME",
-      "t": "Francúzske väznice sú preplnené",
-      "ts": 1788271840.8776963,
-      "u": "8d95b9fdd54cde0ba88b"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/do-problemoveho-fondu-na-rozvoj-turizmu-nastupili-huliakovi-pravnici?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Účtovníctvo zadali firme za vyše 34-tisíc eur.",
-      "pub": 1788270941.0,
-      "s": "SME",
-      "t": "Do problémového fondu na rozvoj turizmu nastúpili Huliakovi právnici",
-      "ts": 1788271840.8776999,
-      "u": "64e08afd232c11786031"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/DIbzf9w/slovenski-hasici-ukoncili-zasah-v-srbsku-poziare-su-pod-kontrolou/",
-      "p": "Nasadenie slovenských hasičov v Srbsku sa skončilo po tom, čo požiare v Deliblatskej peščare a okolí dostali pod kontrolu. V utorok sa vrátili na Slovensko.",
-      "pub": 1788271560.0,
-      "s": "Aktuality",
-      "t": "Slovenskí hasiči ukončili zásah v Srbsku, požiare sú pod kontrolou",
-      "ts": 1788271840.877702,
-      "u": "debb6b20309c3fca493a"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/16xE2Q4/rusi-sa-nam-vyhrazali-pre-ukrajinu-ficova-vlada-sa-zlakla-a-ustupila-vyplyva-z-tajneho-dokumentu/",
-      "p": "Rusko malo varovať Slovensko pred podpisom dohody o odškodnení Ukrajiny. Premiér Robert Fico ju napokon na rokovaní vlády stopol. SaS hovorí o tlaku Moskvy.",
-      "pub": 1788271200.0,
-      "s": "Aktuality",
-      "t": "Rusi sa nám vyhrážali pre Ukrajinu. Ficova vláda sa zľakla a ustúpila, vyplýva z tajného dokumentu",
-      "ts": 1788271840.8778734,
-      "u": "a4b61b2d920c719db858"
-    },
-    {
-      "l": "https://dennikn.sk/5534407/co-slovensku-hrozi-viac-vojenska-diktatura-alebo-hybridne-utoky/",
-      "p": "Je najvyšší čas začať sa rozprávať o reálnych hrozbách pre našu krajinu a o zmene jej bezpečnostnej architektúry - bez ohľadu na naše politické či svetonázorové rozdiely.",
-      "pub": 1788271240.0,
-      "s": "Denník N",
-      "t": "Čo Slovensku hrozí viac – vojenská diktatúra alebo hybridné útoky?",
-      "ts": 1788271840.8778756,
-      "u": "04a0aeca7cb8a34c5861"
-    },
-    {
-      "l": "https://dennikn.sk/5535093/ked-pre-nasich-plati-iny-meter/",
-      "p": "Rodina nám môže dať dobré rady, vzdelanie aj telefónne číslo na správneho človeka. Kedy sa však obyčajná pomoc mení na nepotizmus, po našom rodinkárstvo? Veda ukazuje, že hranica vedie tadiaľ, kde rodinná väzba začne meniť pravidlá hry, teda regulované spoločenské vzťahy.",
-      "pub": 1788271033.0,
-      "s": "Denník N",
-      "t": "Keď pre našich platí iný meter",
-      "ts": 1788271840.8778768,
-      "u": "26c5989127eea6892067"
-    },
-    {
-      "l": "https://dennikn.sk/5493729/pri-suranoch-nasli-zvysky-rimskeho-tabora-ludske-tela-sa-nepochovali-s-pietou-tvar-tabora-je-zahadou/",
-      "p": "Na Ponitrí archeológovia objavili prvý rímsky tábor. Nachádza sa na území pripravovaného priemyselného parku pri Šuranoch. Na nálezisku prebieha jeden z najrozsiahlejších archeologických výskumov v histórii Slovenska, vedci dosiaľ preskúmali viac ako 150 hektárov. Tábor sa našiel v južnej časti budú",
-      "pub": 1788270827.0,
-      "s": "Denník N",
-      "t": "Pri Šuranoch našli zvyšky rímskeho tábora. Ľudské telá sa nepochovali s pietou, tvar tábora je záhadou",
-      "ts": 1788271840.8778787,
-      "u": "dbc95a0f400fd3c11306"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/v-benatkach-sa-zacina-najstarsi-fil/989103-clanok.html",
-      "p": "O Zlatého leva bude súťažiť celkovo 21 filmov.",
-      "pub": 1788271200.0,
-      "s": "Teraz.sk",
-      "t": "V Benátkach sa začína najstarší filmový festival,má aj slovenskú stopu",
-      "ts": 1788271840.8778806,
-      "u": "1fe09782a5bc85bc21f1"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/slovenski-hasici-ukoncili-nasadenie-v/989102-clanok.html",
-      "p": "Slovenský modul leteckého hasenia dorazil do Srbska v sobotu 22. augusta a bezprostredne po prílete sa zapojil do boja s rozsiahlym lesným požiarom východne od Belehradu.",
-      "pub": 1788271140.0,
-      "s": "Teraz.sk",
-      "t": "Slovenskí hasiči ukončili nasadenie v Srbsku, požiare sú pod kontrolou",
-      "ts": 1788271840.877882,
-      "u": "82c7f61a157b1463a4d0"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/policia-pri-utorkovej-rannej-kontrole-o/989100-clanok.html",
-      "p": "Počas kontroly policajti vykonali viac ako 12.600 dychových skúšok.",
-      "pub": 1788270600.0,
-      "s": "Teraz.sk",
-      "t": "Ranná kontrola: Policajti odhalili opitých vodičov",
-      "ts": 1788271840.8778834,
-      "u": "cd673e998c0eaf80a9b0"
-    },
     {
       "l": "https://www.sme.sk/svet/c/hnutie-byvaleho-generala-predbieha-berlusconiho-stranu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Hnutie Národná budúcnosť vo februári po tom, ako Vannacci odišiel z koaličnej strany Liga.",
@@ -4828,18 +4738,99 @@
       "t": "Nábytkársky gigant zlacňuje v Európe 1500 produktov. Bude ho to stáť miliardy",
       "ts": 1788357334.9879618,
       "u": "5f2158bf9df348f09c63"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/sankcionovany-tovar-tecie-cez-tropicky-raj-maldivy-su-vstupnou-branou-do-ruska?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Rusi sú častými návštevníkmi Maldív.",
+      "pub": 1788358077.0,
+      "s": "SME",
+      "t": "Sankcionovaný tovar tečie cez tropický raj. Maldivy sú vstupnou bránou do Ruska",
+      "ts": 1788358248.0456595,
+      "u": "4bb2e953f7b84e2552b3"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/cez-qr-platby-ziskala-financna-sprava-vyse-15-milionov-eur?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "V auguste cez tento systém uskutočnili takmer 109-tisíc platieb.",
+      "pub": 1788358046.0,
+      "s": "SME",
+      "t": "Cez QR platby získala Finančná správa vyše 15 miliónov eur",
+      "ts": 1788358248.0456624,
+      "u": "e0a14e1da128741d7b4a"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/takto-si-churchill-uniu-nepredstavoval?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Pred 80 rokmi vyzval na vznik Spojených štátov európskych.",
+      "pub": 1788358043.0,
+      "s": "SME",
+      "t": "Takto si Churchill Úniu nepredstavoval",
+      "ts": 1788358248.0456645,
+      "u": "6107cb6051851801aadc"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/76B7ci5/deficit-statneho-rozpoctu-ku-koncu-augusta-klesol-na-367-miliardy-eur/",
+      "p": "Štátny rozpočet dosiahol ku koncu augusta 2026 hotovostný schodok vo výške 3,675 miliardy eur. Medziročne tak deficit klesol o 14,6 percenta, a to najmä vďaka vyššiemu výberu daní a príjmom z európskych zdrojov. Vyplýva to z najnovších údajov Ministerstva financií SR.",
+      "pub": 1788357686.0,
+      "s": "Aktuality",
+      "t": "Deficit štátneho rozpočtu ku koncu augusta klesol na 3,67 miliardy eur",
+      "ts": 1788358248.0456657,
+      "u": "bb8026fcf2a81d6f8f4d"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/aHXCYjo/smer-pod-tlakom-republiky-fico-ozivuje-myty-o-husakovi-kym-blaha-drazdi-luxusnou-vilou-videopodcast/",
+      "p": "„Naša politická reprezentácia nám doslova ‚zbombicnieva‘ a namiesto vecnej argumentácie preberá agresívne správanie internetových extrémistov. Keď vládni činitelia namiesto vysvetľovania svojich miliónových majetkov útočia na novinárov a robia z nich terče prenasledovania, prekračujú akékoľvek hrani",
+      "pub": 1788357615.0,
+      "s": "Aktuality",
+      "t": "Smer pod tlakom Republiky: Fico oživuje mýty o Husákovi, kým Blaha dráždi luxusnou vilou (videopodcast)",
+      "ts": 1788358248.0456681,
+      "u": "05bafba4b1b0ec31397b"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/wmAHCTl/si-tin-pching-v-kahire-odmieta-zasahy-velmoci-blizky-vychod-si-ma-podla-ciny-riesit-konflikty-sam/",
+      "p": "Si Ťin pching v Káhire odmieta zásahy USA do Blízkeho východu a volá po regionálnych riešeniach konfliktov. Zároveň posilňuje čínsky vplyv cez nové investície.",
+      "pub": 1788357359.0,
+      "s": "Aktuality",
+      "t": "Si Ťin-pching v Káhire odmieta zásahy veľmocí. Blízky východ si má podľa Číny riešiť konflikty sám",
+      "ts": 1788358248.0456693,
+      "u": "121561d1ac1943f337e8"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2034541-styroch-slovakov-v-britanii-obvinili-z-vrazdy-novorodenca-dievcatko-nasli-dobodane-v-dome?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Štyria občania Slovenska sa v britskom Sheffielde postavili pred súd po tom, ako ich obvinili z vraždy novonarodeného dievčatka.",
+      "pub": 1788357542.0,
+      "s": "Pravda",
+      "t": "Štyroch Slovákov v Británii obvinili z vraždy novorodenca. Dievčatko našli dobodané v dome",
+      "ts": 1788358248.045671,
+      "u": "c9c2b850e146b296bda6"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2034507-dron-s-bombou-sa-objavil-pri-ukrajinskom-lietadle-nemci-uz-poznaju-podozrivych-stopy-vedu-k-rusku?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Nemecké úrady identifikovali dvoch podozrivých z augustového hybridného útoku na letisku Lipsko/Halle. S odvolaním sa na svoje zdroje o tom dnes informovali stanice NDR, WDR a denník Süddeutsche Zeitung. Podľa nich ide o Rusa s lotyšským pasom a Bielorusa s ruským občianstvom.",
+      "pub": 1788355273.0,
+      "s": "Pravda",
+      "t": "Dron s bombou sa objavil pri ukrajinskom lietadle. Nemci už poznajú podozrivých, stopy vedú k Rusku",
+      "ts": 1788358248.0456722,
+      "u": "76f855a6f4e82906717f"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1253853-manzelia-investovali-2-milony-do-rekonstrukcie-domu-pre-svojho-psa",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Manželia investovali 2 milóny do rekonštrukcie domu pre svojho psa",
+      "ts": 1788358248.0456743,
+      "u": "1d1ffbc13a43571391d0"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1253927-slovensko-celi-vyzvam-klimy-vlada-riesi-sucho-klimaticka-koalicia-vola-po-komplexnom-pristupe",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Slovensko čelí výzvam klímy: Vláda rieši sucho, Klimatická koalícia volá po komplexnom prístupe",
+      "ts": 1788358248.045676,
+      "u": "6af39fd71d7eddb29563"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://dennikn.sk/5524812/sceny-ako-zo-spionazneho-trileru-stopy-po-tajnom-sklade-zbrani-pri-berline-smeruju-do-moskvy/"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Nemecké bezpečnostné orgány varujú pred plánovanými atentátmi ruských tajných služieb na území Nemecka, čo predstavuje zásadnú bezpečnostnú eskaláciu v európskom priestore.",
-      "title": "Stopy po tajnom sklade zbraní pri Berlíne smerujú do Moskvy",
-      "ts": 1787752545.7410755
-    },
     {
       "links": [
         "https://www.noviny.sk/slovensko/1250991-pri-sladkovicove-sa-zrutilo-male-lietadlo-s-dvoma-ludmi-na-palube"
@@ -5696,6 +5687,7 @@
     "05a9c279f2005e652a36": 1788240176.2908528,
     "05aafdbf8604fba9ae86": 1788278142.4224482,
     "05ae52be4f1e065fbbc1": 1788024935.7907689,
+    "05bafba4b1b0ec31397b": 1788358248.0456662,
     "05bc14c818731489d835": 1787911850.6664107,
     "05bdfa099764303649e8": 1788183334.983394,
     "05cdc12b4399a74bf6a1": 1787715343.6125412,
@@ -6054,6 +6046,7 @@
     "11feaec237fda24b1eca": 1788060942.1997812,
     "1207551d2dce1df85b21": 1788353735.296315,
     "120b5482fade55c067e8": 1787999743.3973908,
+    "121561d1ac1943f337e8": 1788358248.0456686,
     "121b2489fc5dc9a910de": 1788248139.9292192,
     "1222fc16e91f432d4076": 1788172545.7724364,
     "122af270fd8a0eef0480": 1788195337.2234871,
@@ -6394,6 +6387,7 @@
     "1ce572736ee09bced68f": 1787841337.6650329,
     "1cf35aae6ace4c7e9aa0": 1787563738.2460792,
     "1cf80f1c47f5aecf93c5": 1787891734.4803164,
+    "1d1ffbc13a43571391d0": 1788358248.045673,
     "1d291c7a742dd9ac4182": 1787568939.9399188,
     "1d3435e186ecb1018448": 1788253840.6794863,
     "1d34f0f309965ace5a51": 1788087342.9873986,
@@ -6473,6 +6467,7 @@
     "1f9ae9843057a5ee5ef2": 1787831735.5967755,
     "1f9e7683ef323dee209b": 1788282646.9694648,
     "1fabff471cf4e033a24e": 1787494841.1803336,
+    "1faf21b3ff042e467ab9": 1788358248.0456774,
     "1fb0024b7c4afb7e35a6": 1788024935.7907844,
     "1fb139f4971a1e29ee2b": 1788269742.6108,
     "1fb6eabc75b595d9c19b": 1787826936.659461,
@@ -7725,6 +7720,7 @@
     "4b9a0728f3bd47f8b425": 1787344540.4029112,
     "4b9ce9c9243dfa78353d": 1787554537.4489484,
     "4bada422d4abb709f63b": 1788268251.306619,
+    "4bb2e953f7b84e2552b3": 1788358248.0456548,
     "4bbcf644ad1ee64fb266": 1787740534.9991903,
     "4bde1f8e27fa8034adeb": 1787678448.986585,
     "4be202ec14c5a159658a": 1787394937.7443006,
@@ -8067,6 +8063,7 @@
     "57a3d881599e87896238": 1788340037.543203,
     "57a84b377403c82377bc": 1787639743.5066063,
     "57aeecd79f38f521d7eb": 1787801739.4162784,
+    "57b3f757935f469af0e4": 1788358248.0456805,
     "57cfe9919a361f5fbb36": 1788060942.1995814,
     "57d3cbc5043939a52e36": 1788147343.5651484,
     "57da7ee5183b7d801268": 1787831735.5967824,
@@ -8346,6 +8343,7 @@
     "60eb94e1ba556da49dc5": 1787763344.7250886,
     "60f6904fbacadaaa6bf6": 1787744135.9480915,
     "60fa6d475f4d24799772": 1788005446.06335,
+    "6107cb6051851801aadc": 1788358248.045663,
     "6107e03321b2a7ff6f29": 1787465444.7328215,
     "611d09e287cdb6b14b86": 1788185452.7234519,
     "613735bc58a49936e151": 1787826936.659432,
@@ -8630,6 +8628,7 @@
     "6ac8d9c3597936b74d51": 1788017751.086807,
     "6ae7155be324132659fa": 1788149451.61437,
     "6af2a2f61550bb065f6a": 1787922640.680089,
+    "6af39fd71d7eddb29563": 1788358248.0456753,
     "6afc5a109d6d06070fab": 1787818250.616357,
     "6afed1ee80a4642e8cec": 1788322250.221663,
     "6b002df0bd09accef0cf": 1788060942.1998036,
@@ -8962,6 +8961,7 @@
     "76d8a70eacf2047d7edd": 1788165340.1380203,
     "76e196b06850360296ae": 1787339443.4317164,
     "76e1de913cf24a7ebf52": 1787494841.180339,
+    "76f855a6f4e82906717f": 1788358248.0456715,
     "7705f75d0299e43a2328": 1787489680.9908786,
     "77092f7fa0a470f43874": 1788284140.3810978,
     "77105e08942765d90bf0": 1787476840.9918506,
@@ -10937,6 +10937,7 @@
     "bb7a86d0ef00ae3d6e97": 1787456142.4791882,
     "bb7cc79474a4fcb42d20": 1787628936.9071696,
     "bb7e4591d58aa490ac4e": 1787900134.8069208,
+    "bb8026fcf2a81d6f8f4d": 1788358248.0456653,
     "bb8ab8f551364196c512": 1787321453.8102033,
     "bb8d448a71ac361900e5": 1787838934.8504105,
     "bb9584b78e821d3d1a5b": 1787394937.7443001,
@@ -11154,6 +11155,7 @@
     "c2efeb430ad5f037339e": 1787386849.197838,
     "c2f8e376b4650e5ed92c": 1787644541.6486363,
     "c3109dcdcea82f12c85e": 1787582142.2709522,
+    "c31d9614dc071eff2f8c": 1788358248.0456827,
     "c3387e690922cdbf5228": 1787494841.1804876,
     "c33ca94c0a4057c982ce": 1788179745.076246,
     "c33d52d18e024d2817d2": 1787542537.437832,
@@ -11375,6 +11377,7 @@
     "c9adbc698d65f8cf28a4": 1787558140.5963707,
     "c9b7744999228fac05eb": 1788264639.9310873,
     "c9b7ba860e158a922bd8": 1788060942.1995795,
+    "c9c2b850e146b296bda6": 1788358248.0456698,
     "c9c8d354a655b794d196": 1787422843.0970533,
     "c9dc12822e330d3039bf": 1788352543.043265,
     "c9e2b8b9d654c51b807d": 1787476840.9918544,
@@ -12062,6 +12065,7 @@
     "e07456dfb994aebb3f9c": 1787323924.1338866,
     "e08cc1b516329c3dbdfc": 1788113442.2970335,
     "e099e200e7c07e155a44": 1787398401.8127477,
+    "e0a14e1da128741d7b4a": 1788358248.0456614,
     "e0c20e11d4d9a79b0503": 1787843445.6692462,
     "e0c3742039794f058dc7": 1787652648.730445,
     "e0c794322719d5ffe3c6": 1788322250.221655,
@@ -12964,96 +12968,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1788357334.9879224
+      "ts": 1788358248.0456297
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1788357334.9879239
+      "ts": 1788358248.0456312
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1788357334.987927
+      "ts": 1788358248.0456336
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1788357334.9879322
+      "ts": 1788358248.0456388
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1788357334.9879255
+      "ts": 1788358248.0456326
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1788357334.9879165
+      "ts": 1788358248.0456223
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1788357334.987921
+      "ts": 1788358248.0456276
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1788357334.9879315
+      "ts": 1788358248.0456378
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1788357334.9879289
+      "ts": 1788358248.0456352
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1788357334.98793
+      "ts": 1788358248.0456367
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/predtreningovka-leo-lendvorsky-kvalitna-staroba-po-40-2026090112041306630",
-      "p": "Ak vás bolí chrbát, beh vám nemusí pomôcť. Vytrvalostný tréner a odborník na športovú diagnostiku Leo Lendvorský upozorňuje, že pre generáciu po 40. roku života je silový tréning oveľa dôležitejší než aeróbna aktivita. Pomáha totiž bojovať proti sarkopénii – prirodzenej strate svalovej hmoty, ktorá ",
-      "s": "Šport.sk",
-      "t": "PREDTRÉNINGOVKA Silový tréning je tá najlepšia investícia do vašej budúcnosti",
-      "ts": 1788271840.877887,
-      "u": "5a816284116c978029f4"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/hull-city-ansah-prestup-100-milionov-2026090112361072714",
-      "p": "Hull City prekročil hranicu 100 miliónov libier, ktoré minul počas letného prestupového obdobia, príchodom Nemca Iliasa Ansaha z Unionu Berlín, informuje Sky Sports.",
-      "s": "Šport.sk",
-      "t": "Nováčik Premier League nepozná limity. Tradičný klub hlási ďalšiu posilu, prekonal magickú hranicu",
-      "ts": 1788271840.877889,
-      "u": "ac9d4f3ee3b4af2148f6"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFlGWFFDUVBYZm5wNENERmY2UktkZUVWY0dMZ3BKandqSjlfQ0xjNGp1LVBSVWJoNVViM0paT1phQnB0dEFhek0tVmlMS1BCSkVCZU1jNmRvdW84dThsWHpPaDI3V2dpNHJxSG13bTdhZWl0YW52a3BRSm9tY1NvZXpyUXpmZUNtdC16dnhPY1Z0VGJwcVd0ZEY0OVdERXZMS0hJb0w5VWZZZzhLb3BhaDdZalpmQlU?oc=5",
-      "p": "Po zatknutí prezidenta hrozí Poliakom trest. MOV im môže zakázať účasť na olympijských hrách SPORTNET",
-      "s": "SPORTNET",
-      "t": "Po zatknutí prezidenta hrozí Poliakom trest. MOV im môže zakázať účasť na olympijských hrách",
-      "ts": 1788271840.8778906,
-      "u": "d562b3f7312417158b23"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/lipsko-podpisalo-zmluvu-s-utocnikom/989101-clanok.html",
-      "p": "Guiu je odchovanec akadémie Barcelony, v drese ktorej debutoval v A-tíme v októbri 2023 vo veku 17 rokov. Do konca sezóny odohral sedem súťažných zápasov a strelil dva góly.",
-      "s": "TERAZ.SK",
-      "t": "Lipsko podpísalo zmluvu s útočníkom Guiuom z Chelsea",
-      "ts": 1788271840.8778918,
-      "u": "6a3122999a7bf8a8426d"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/matus-bero-po-podpise-do-ferencvarosu-reakcia-2026090114254753334",
       "p": "Slovenský futbalový reprezentant Matúš Bero bude pokračovať v kariére v drese Ferencvárosu Budapešť. Rekordný maďarský šampión to oznámil v utorok na oficiálnej stránke.",
@@ -14557,6 +14529,30 @@
       "t": "Kapitán Gabonu Aubameyang ukončil reprezentačnú kariéru",
       "ts": 1788357334.9879718,
       "u": "6001694aff3b5d37c6ad"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/lyzovanie-po-tragickom-umrti-lyziara-zvazy-menia-pristup-k-treningom-2026090208265386191",
+      "p": "Pred rokom zomrel taliansky lyžiar Matteo Franzoso počas prípravného kempu v Čile. Rýchlostný špecialista spadol 15. septembra počas tréningu, pretrhol dve ochranné siete a narazil do dreveného plota. Deň pred svojimi 26. narodeninami podľahol následkom ťažkého poranenia hlavy a mozgu. Návrat lyžiar",
+      "s": "Šport.sk",
+      "t": "Po tragickom úmrtí lyžiara národné tímy menia prístup k tréningom",
+      "ts": 1788358248.0456796,
+      "u": "1faf21b3ff042e467ab9"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/online-nitra-chrenova-slovan-bratislava-slovnaft-cup-nazivo-live-2026090214001040133",
+      "p": "Slovan Bratislava dnes štartuje cestu v domácej pohárovej súťaži, Slovnaft Cupe. V rámci druhého kola sa predstaví na hlavnom štadióne v Nitre, kde sa stretne s miestnym účastníkom šiestej najvyššej súťaže TJ Slovan Nitra-Chrenová.",
+      "s": "Šport.sk",
+      "t": "NAŽIVO TJ Slovan Nitra-Chrenová - ŠK Slovan Bratislava / Slovnaft Cup",
+      "ts": 1788358248.0456817,
+      "u": "57b3f757935f469af0e4"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/michal-bortnak-ukoncil-karieru-pri-hokeji-zostava-2026090213565277749",
+      "p": "Slovenský hokejový útočník Dalibor Bortňák sa rozhodol ukončiť hráčsku kariéru. Po nej by mal naďalej pôsobiť v štruktúrach klubu HC Prešov, ktorého dres si obliekal v uplynulej sezóne 2025/2026. Klub o tom informoval na sociálnych sieťach.",
+      "s": "Šport.sk",
+      "t": "Bol na juniorských MS. Bortňák dal kariére zbohom, pri hokeji zostáva",
+      "ts": 1788358248.0456834,
+      "u": "c31d9614dc071eff2f8c"
     }
   ],
   "sport_source_status": {
@@ -14564,25 +14560,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1788357334.9879344
+      "ts": 1788358248.0456412
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1788357334.9879365
+      "ts": 1788358248.0456436
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1788357334.987939
+      "ts": 1788358248.0456467
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1788357334.9879377
+      "ts": 1788358248.045645
     }
   }
 }
