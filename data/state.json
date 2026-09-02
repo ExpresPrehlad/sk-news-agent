@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Svedectvo Ľudovíta Makóa v kauze Očistec",
-      "ts": 1788368225.5290306
-    },
-    {
-      "headline": "Medvedev pohrozil Nemecku útokmi na Berlín",
-      "ts": 1788368225.5290306
-    },
-    {
-      "headline": "Tusk označil požiar v poľskom závode za sabotáž",
-      "ts": 1788368225.5290306
-    },
-    {
-      "headline": "Belgicko odmieta využiť ruské aktíva pre Ukrajinu",
-      "ts": 1788368225.5290306
-    },
-    {
-      "headline": "Národné cvičenie krízového riadenia Tiene v oblakoch",
-      "ts": 1788368225.5290306
-    },
-    {
       "headline": "Ľudovít Makó na súde opísal zneužívanie polície v kauze Očistec",
       "ts": 1788371750.7938516
     },
@@ -178,22 +158,13 @@
     "ts": 1788382547.4122632
   },
   "meta": {
-    "last_collection_ts": 1788382538.9617076,
+    "last_collection_ts": 1788384040.2390842,
     "last_feed_error_ts": 1788366046.4683638,
     "last_llm_error_ts": 1788277005.6892486,
-    "last_run_ts": 1788382539.556175,
+    "last_run_ts": 1788384040.8772714,
     "last_synthesis_ts": 1788382547.4122581
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/armensky-premier-sa-stretol-s-putinom-jeho-vyzvu-na-referendum-o-vstupe-do-eu-odmietol?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Moskva podľa Putina uznáva právo Arménska uchádzať sa o členstvo v EÚ.",
-      "pub": 1788295917.0,
-      "s": "SME",
-      "t": "Arménsky premiér sa stretol s Putinom, jeho výzvu na referendum o vstupe do EÚ odmietol",
-      "ts": 1788297349.8143618,
-      "u": "cf7168f37cfbd33c2095"
-    },
     {
       "l": "https://www.sme.sk/podcasty/c/nemecko-volby-afd-sasko-anhaltsko-dobre-rano-podcast?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "AfD môže v Sasku-Anhaltsku zažiť historický volebný úspech.",
@@ -5062,18 +5033,18 @@
       "t": "Šesť odpaľovacích zariadení pri rozvodni. Dva útoky v Nemecku majú rovnaký rukopis",
       "ts": 1788382539.5556839,
       "u": "c732606d4de1b4df4b23"
+    },
+    {
+      "l": "https://www.sme.sk/podcasty/c/ucitel-michal-sivak-o-svojom-detstve-pocas-strednej-skoly-som-nemal-peniaze-na-obed-tak-som-zostaval-sam-v-triede?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Z prvej výplaty som si kúpil všetko, čo mi v detstve chýbalo, hovorí.",
+      "pub": 1788383100.0,
+      "s": "SME",
+      "t": "Učiteľ Michal Sivák o svojom detstve: Počas strednej školy som nemal peniaze na obed, tak som zostával sám v triede",
+      "ts": 1788384040.8772688,
+      "u": "a77fc66b58f6dc0d922b"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.sme.sk/svet/c/podozriveho-z-pripravy-podpalacskeho-utoku-na-slovensku-zadrzali-v-hamburgu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Zadržanie podozrivej osoby v súvislosti s plánovaným útokom na území Slovenska predstavuje priame bezpečnostné riziko a zásadný vývoj v prebiehajúcom vyšetrovaní.",
-      "title": "Podozrivého z prípravy podpaľačského útoku na Slovensku zadržali v Hamburgu",
-      "ts": 1787777809.647707
-    },
     {
       "links": [
         "https://www.noviny.sk/zahranicie/1251075-policia-zmarila-podpalacsky-utok-na-zavod-na-slovensku-podozriveho-lotysa-zadrzali-v-hamburgu"
@@ -10749,6 +10720,7 @@
     "a773e465fc222502db6f": 1787856943.3970535,
     "a7747aad79cf9716f15d": 1788060942.1998107,
     "a77da7d46f9d89606660": 1787826936.659445,
+    "a77fc66b58f6dc0d922b": 1788384040.877266,
     "a785bde1b17532c23648": 1787329243.0898223,
     "a78d16f5c8cd70f1d6de": 1787406942.3488164,
     "a790043e2140e5c8239b": 1787385335.5831068,
@@ -13449,72 +13421,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1788382539.5556443
+      "ts": 1788384040.8772495
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1788382539.5556457
+      "ts": 1788384040.877251
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1788382539.555648
+      "ts": 1788384040.877253
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1788382539.5556533
+      "ts": 1788384040.877256
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1788382539.555647
+      "ts": 1788384040.8772523
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1788382539.5556366
+      "ts": 1788384040.8772438
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1788382539.5556421
+      "ts": 1788384040.8772478
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1788382539.5556521
+      "ts": 1788384040.8772554
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1788382539.5556495
+      "ts": 1788384040.8772542
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1788382539.5556512
+      "ts": 1788384040.8772547
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/piratovi-buchli-poistky-trpezlivost-ma-svoje-hranice-tvrdy-naklad-aky-naruszczka-len-tak-nerozdycha-2026090119365812890",
-      "p": "Samuel Pirát Krištofič to už viac nemohol vydržať a posiela Poliakovi Marcinovi Naruszczkovi tvrdý odkaz. Pirát Krištofič absolvoval svoju premiéru v organizácii RFA na turnaji na Bratislavskom hrade. Predstavoval si to však úplne inak! Z klietky odchádzal na nosidlách po tom, ako mu Poliak Marcin N",
-      "s": "Šport.sk",
-      "t": "Pirátovi buchli poistky, trpezlivosť má svoje hranice: Tvrdý náklad, aký Naruszczka len tak nerozdýcha!",
-      "ts": 1788297349.8143666,
-      "u": "23044ea9fa4019ddc7b5"
-    },
     {
       "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZjF6M1l6M2g4U3hnb2pQV3BRTkdjcmgxNjlycHJMcWo3bk1XREtzZ2RfRkJlbm90c0xtZk5TRHM0VmNZY0dFeDNFVnlXSF81RFpSUTBSTm9Ca0x5anRnNG5ldDV1dFJ6WkgtVGhzOGNnMVlGd1NaVkdkX1BxeWptVTJpMmdRM3pkZ0dPaDgxZ2xKU2dPT05kOXJkSjRaQ1BibGhVT2JRYXlObWhRNE80?oc=5",
       "p": "Tréner Slovana opäť riskoval, no Pospíšil ho potrestal. V príprave zaujala aj Žilina SPORTNET",
@@ -14817,25 +14781,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1788382539.5556557
+      "ts": 1788384040.8772578
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1788382539.5556583
+      "ts": 1788384040.8772595
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1788382539.5556607
+      "ts": 1788384040.8772612
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1788382539.5556598
+      "ts": 1788384040.8772602
     }
   }
 }
