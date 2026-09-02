@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Slovenský futbal v smútku: Na ihrisku zomrel trinásťročný chlapec",
-      "ts": 1788322255.2247584
-    },
-    {
-      "headline": "Vlakovú dopravu čakajú na jeseň rozsiahle obmedzenia",
-      "ts": 1788322255.2247584
-    },
-    {
-      "headline": "Mazurek čelí kritike za film o SNP glorifikujúci Tisov režim",
-      "ts": 1788322255.2247584
-    },
-    {
-      "headline": "Nemecká AfD mieri v Sasku-Anhaltsku k historickému úspechu",
-      "ts": 1788322255.2247584
-    },
-    {
-      "headline": "Jaroslav Naď opísal fyzický útok na čerpacej stanici",
-      "ts": 1788322255.2247584
-    },
-    {
       "headline": "Nemecké námorníctvo úspešne otestovalo izraelské rakety Lora",
       "ts": 1788325854.5585132
     },
@@ -151,265 +131,100 @@
     {
       "headline": "Sabotáž v nemeckej elektrickej sieti",
       "ts": 1788335750.7071445
+    },
+    {
+      "headline": "Fico ohlásil vznik komisie na boj proti suchu",
+      "ts": 1788338144.928006
+    },
+    {
+      "headline": "Nemecko čelí sérii útokov na kritickú infraštruktúru",
+      "ts": 1788338144.928006
+    },
+    {
+      "headline": "EÚ reaguje na incident v Lipsku, Kallasová hovorí o terorizme",
+      "ts": 1788338144.928006
+    },
+    {
+      "headline": "Počet obetí záplav na hranici Nepálu a Číny presiahol tisíc",
+      "ts": 1788338144.928006
+    },
+    {
+      "headline": "Slovensko zažaluje Európsku komisiu pre pravidlá o GMO",
+      "ts": 1788338144.928006
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Fico zažaluje Európsku komisiu pre pravidlá o GMO",
+        "headline": "Fico ohlásil vznik komisie na boj proti suchu",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2034211-robert-fico-sucho-pocasie-slovensko-komisia-zalozenie-klimaticka-zmena"
+          ]
+        ],
+        "perex": "Premiér Robert Fico na výjazdovom rokovaní v Nitre oznámil založenie Národnej komisie pre sucho a vodu. Jej hlavnou úlohou bude riešenie následkov extrémnych klimatických zmien a podpora výstavby vodných diel."
+      },
+      {
+        "headline": "Nemecko čelí sérii útokov na kritickú infraštruktúru",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/FyhAfZk/robert-fico-slovensko-zazaluje-europsku-komisiu-pre-genomove-techniky-pri-slachteni-rastlin/"
-          ]
-        ],
-        "perex": "Slovenský premiér oznámil, že vláda podá žalobu na Súdny dvor EÚ pre nariadenie o deregulácii nových geneticky modifikovaných organizmov. Podľa Fica súčasný prístup komisie ohrozuje vývoj odrôd rastlín odolných voči suchu."
-      },
-      {
-        "headline": "Výbuch na stanici v nemeckom Augsburgu",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/nemecke-urady-pozastavili-vlakovu-dopravu-po-vybuchu-na-stanici-v-augsburgu"
+            "https://www.aktuality.sk/clanok/JhLBxky/policia-vysetruje-exploziu-na-stanici-v-augsburgu-vlakova-doprava-je-pozastavena/"
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2034169-vybuch-pri-stanici-v-juhonemeckom-augsburgu-zranil-dvoch-ludi-policia-nasla-dalsi-podozrivy-predmet"
+            "https://www.pravda.sk/spravy/svet/clanok/2034189-dalsia-sabotaz-nemeckej-energetiky-pri-koline-niekto-umyselne-sposobil-skrat"
           ]
         ],
-        "perex": "Pri explózii neznámeho predmetu v pasáži neďaleko hlavnej stanice v Augsburgu utrpeli dvaja ľudia ľahké zranenia. Polícia následne na mieste objavila ďalší podozrivý predmet a dočasne pozastavila vlakovú dopravu."
+        "perex": "Po incidente s dronom na letisku Lipsko/Halle a sabotáži v rozvodni pri Kolíne došlo k ďalšiemu narušeniu bezpečnosti v Augsburgu. Polícia vyšetruje výbuch neznámeho predmetu na stanici, ktorý si vyžiadal zranených."
       },
       {
-        "headline": "Pellegrini vyjadril solidaritu Nemecku po incidente s dronmi",
+        "headline": "EÚ reaguje na incident v Lipsku, Kallasová hovorí o terorizme",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/aXDAxNg/kaja-kallasova-utok-dronom-v-lipsku-nesie-znamky-statom-podporovaného-terorizmu/"
+          ]
+        ],
+        "perex": "Európska únia si predvolala ruského veľvyslanca v reakcii na pokus o útok dronom na nemeckom letisku. Kaja Kallasová označila tento čin za prejav štátom podporovaného terorizmu."
+      },
+      {
+        "headline": "Počet obetí záplav na hranici Nepálu a Číny presiahol tisíc",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2034173-pellegrini-podporil-nemecko-po-incidente-s-dronmi-za-ktorym-je-vraj-rusko"
+            "https://www.pravda.sk/spravy/svet/clanok/2034203-pocet-obeti-zaplav-na-hranici-nepalu-a-ciny-nadalej-stupa-pribuzni-po-tyzdni-stracaju-nadej-a-robia-obrady-bez-tiel"
           ]
         ],
-        "perex": "Prezident Peter Pellegrini podporil Nemecko v súvislosti s augustovým nálezom bezpilotného stroja a výbušniny pri letisku Lipsko/Halle. Nemecké úrady z pokusu o útok na letisko podozrievajú Rusko."
+        "perex": "Ničivé prívalové záplavy si vyžiadali už 1 130 obetí, pričom tisíce ľudí zostávajú nezvestných. Príbuzní obetí začali týždeň po katastrofe vykonávať smútočné obrady aj bez nájdených tiel."
       },
       {
-        "headline": "Polícia odhalila desiatky opitých vodičov počas prvého školského dňa",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2034161-tolko-policajti-necakali-prvy-skolsky-den-odhalili-desiatky-opitych-vodicov"
-          ]
-        ],
-        "perex": "Počas celoslovenskej dopravnej akcie zameranej na vodičov odhalila polícia v utorok ráno takmer tri desiatky prípadov požitia alkoholu. V štyroch prípadoch namerali vodičom hodnotu nad jedno promile."
-      },
-      {
-        "headline": "Sabotáž v nemeckej elektrickej sieti",
+        "headline": "Slovensko zažaluje Európsku komisiu pre pravidlá o GMO",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/svet/c/nemecka-policia-zaznamenala-dalsi-pokus-o-sabotaz-elektrickej-siete"
+            "https://www.sme.sk/domov/c/slovensko-zazaluje-europsku-komisiu-za-geneticke-upravy-potravin"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/slovensko/1253686-slovensko-zazaluje-europsku-komisiu-dovodom-je-deregulacia-gmo"
           ]
         ],
-        "perex": "Nemecká polícia zaznamenala ďalší pokus o sabotáž, pri ktorom niekto spôsobil skrat v rozvodni. Incident viedol k odpojeniu piatich blokov dvoch elektrární od siete."
+        "perex": "Premiér Robert Fico oznámil, že Slovensko podá žalobu na Súdny dvor EÚ pre nariadenie o deregulácii nových geneticky modifikovaných organizmov. Dôvodom sú obavy z možných negatívnych dopadov na zdravie obyvateľov."
       }
     ],
-    "ts": 1788335750.7071338
+    "ts": 1788338144.9279974
   },
   "meta": {
-    "last_collection_ts": 1788336641.1296194,
+    "last_collection_ts": 1788338139.4298155,
     "last_feed_error_ts": 1788320144.7140174,
     "last_llm_error_ts": 1788277005.6892486,
-    "last_run_ts": 1788336641.9318864,
-    "last_synthesis_ts": 1788335750.7071283
+    "last_run_ts": 1788338140.4800947,
+    "last_synthesis_ts": 1788338144.9279923
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/closer/c/slovensko-optika-lacne-okuliare-ramy-20-eur-cena-bezpecne?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Odborníčky sme sa opýtali, či sú lacné okuliare bezpečné.",
-      "pub": 1788250014.0,
-      "s": "SME",
-      "t": "Niektoré e-shopy predávajú dioptrické okuliare za 20 eur. Napokon ťa môžu vyjsť draho",
-      "ts": 1788250243.947748,
-      "u": "df5ce47a16c5459fe507"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS05ITkkyRElwOVFvMjg1Y3dGWEI3bGRuTkRPYmhOaFVtNUgyTk9oLXY3Z3NhdEVDTTZSZjZVLXE3bGVSSTk1dEVSSjlwMGVpZUgxaXpxM0s2cnhnd1UxSWF4dFZUUndZdjJ6WnBMdVFtTWNSSVVLN1Jwd3NFWGxWVjZCblE3VUlJYTkw?oc=5",
-      "p": "ONLINE: 10. etapa na Vuelta a Espaňa 2026 dnes LIVE SPORTNET",
-      "pub": 1788249657.0,
-      "s": "SME (GNews)",
-      "t": "ONLINE: 10. etapa na Vuelta a Espaňa 2026 dnes LIVE - SPORTNET",
-      "ts": 1788250243.9477515,
-      "u": "75e693c4f8cb45281d6d"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQc1dsZ0xtZExiZjNmaW1seHVobDEzd2JZakZyZl9TWlItVlVQNmRtM1k0NTFLa1B1RVFya3R4bTZDWUZhYnNWT0NiTVh2bUdHNlBjMHVfZ2I1enlDVUh3RG50NmhnekdLWGZkYlhEd2pVSW40U3ZkUTdLNTlXRDNTUG9aZnRGNmhJeGs3WFlR?oc=5",
-      "p": "Niektoré e-shopy predávajú dioptrické okuliare za 20 eur. Napokon ťa môžu vyjsť draho SME.sk",
-      "pub": 1788250141.0,
-      "s": "SME (GNews)",
-      "t": "Niektoré e-shopy predávajú dioptrické okuliare za 20 eur. Napokon ťa môžu vyjsť draho - SME.sk",
-      "ts": 1788250243.9477534,
-      "u": "b55e7d7bfc68afc3fa89"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/7YANmBR/video-po-dronovom-utoku-vypukol-v-ruskom-pristave-ust-luga-poziar/",
-      "p": "Ukrajinské drony zasiahli strategický prístav Usť Luga pri Petrohrade a spôsobili požiar. Zásah mieril na kľúčový exportný uzol ruských ropných produktov.",
-      "pub": 1788249937.0,
-      "s": "Aktuality",
-      "t": "VIDEO: Po dronovom útoku, vypukol v ruskom prístave Usť-Luga požiar",
-      "ts": 1788250243.9477556,
-      "u": "4fabbe6a66683168111c"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/qYLiDIY/uprising-festival-ma-za-sebou-nezabudnutelny-19-rocnik-zlate-piesky-ovladli-svetove-hviezdy-ale-aj-slovenska-scena/",
-      "p": "Devätnásty ročník Uprising Festivalu priniesol na bratislavské Zlaté piesky dva dni plné hudby, tanca, letnej atmosféry a silných zážitkov. Sedem pódií, vyše 100 vystúpení, svetové aj domáce mená vytvorili festivalový víkend, na ktorý sa bude ešte dlho spomínať. Napriek krátkej nepriazni počasia sa ",
-      "pub": 1788249631.0,
-      "s": "Aktuality",
-      "t": "Uprising Festival má za sebou nezabudnuteľný 19. ročník. Zlaté piesky ovládli svetové hviezdy, ale aj slovenská scéna",
-      "ts": 1788250243.9477582,
-      "u": "b34e734b9cda4cc58853"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/oFiotPP/rusi-opat-utekaju-za-hranice-chysta-kremel-masivnu-mobilizaciu/",
-      "p": "Nápor na hranici s Gruzínskom pripomína paniku z jesene 2022. Desaťtisíce Rusov v zúfalstve odchádzajú, zatiaľ čo Moskva chystá státisícovú mobilizáciu.",
-      "pub": 1788249600.0,
-      "s": "Aktuality",
-      "t": "Rusi opäť utekajú za hranice. Chystá Kremeľ masívnu mobilizáciu?",
-      "ts": 1788250243.9477594,
-      "u": "2e529aaeb1159f31443c"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2033521-verejny-ochranca-prav-ombudsman-skola-ziacka-sikana-prava-robert-dobrovodsky?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Verejný ochranca práv Róbert Dobrovodský konštatoval porušenie práv žiačky základnej školy, ktorá bola dlhodobo vystavená konfliktom a prejavom šikanovania zo strany spolužiaka.",
-      "pub": 1788249478.0,
-      "s": "Pravda",
-      "t": "Žiačku dlhodobo šikanoval spolužiak. Ombudsman našiel pochybenie školy",
-      "ts": 1788250243.9477608,
-      "u": "9ce604041854951f9f73"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/rasi-ustava-nikdy-nesmie-byt-nastro/988934-clanok.html",
-      "p": "V prípade debaty o ďalšom vývoji ústavy by sme podľa Rašiho nemali vychádzať z momentálnych politických potrieb, ale z toho, čo môže posilniť postavenie občana voči politickej moci.",
-      "pub": 1788249120.0,
-      "s": "Teraz.sk",
-      "t": "Raši: Ústava nikdy nesmie byť nástrojom chvíľkovej politickej výhody",
-      "ts": 1788250243.9477625,
-      "u": "0e32e42d61bae0b9c26f"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1252851-z-bazena-sa-stal-medvedi-aquapark-dvojici-na-zahradu-chodi-medvedia-rodinka",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Z bazéna sa stal medvedí aquapark: Dvojici na záhradu chodí medvedia rodinka",
-      "ts": 1788250243.9477634,
-      "u": "f3e78ac4f33dd70381a2"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1253156-slovensko-si-pripomina-34-rokov-od-prijatia-ustavy-rasi-otvoril-aj-otazku-predcasnych-volieb",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Slovensko si pripomína 34 rokov od prijatia Ústavy. Raši otvoril aj otázku predčasných volieb",
-      "ts": 1788250243.9477649,
-      "u": "c493d3c32f4212cb9e19"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1253146-detska-zvedavost-sa-zmenila-na-dramu-paetrocny-chlapec-odplaval-v-clne-na-rybniku",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Detská zvedavosť sa zmenila na drámu: Päťročný chlapec odplával v člne na rybníku",
-      "ts": 1788250243.9477668,
-      "u": "9e97fbb1d633063a1983"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1253138-minister-drucker-otvoril-novy-skolsky-rok-ziakom-dal-tri-cenne-rady",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Minister Drucker otvoril nový školský rok: Žiakom dal tri cenné rady",
-      "ts": 1788250243.9477677,
-      "u": "bed5c2558e1996a0b41b"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/ak-budu-usa-respektovat-junove-memorandum-iran-spravi-to-iste-tvrdi-pezeskijan?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "USA obnovili útoky a podnikli údery na iránsky ostrov Lárak v Hormuzskom prielive.",
-      "pub": 1788250613.0,
-      "s": "SME",
-      "t": "Ak budú USA rešpektovať júnové memorandum, Irán spraví to isté, tvrdí Pezeškiján",
-      "ts": 1788251740.760985,
-      "u": "1fc9a820f16ef4f0224e"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/drucker-otvoril-skolsky-rok-v-kralovej-pri-senci-detom-adresoval-tri-rady?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Spomenul aj zavádzanie kurikuklárnej reformy.",
-      "pub": 1788250353.0,
-      "s": "SME",
-      "t": "Drucker otvoril školský rok v Kráľovej pri Senci. Deťom adresoval tri rady",
-      "ts": 1788251740.7609878,
-      "u": "5e000928186cdafa9ab3"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQXQ5VmZxZGhyenBwMEJ2LXZ1MzRwdjhzSTRFOUhWbWFkejhOWTY5eUMwbjhjRGxrdDVtTjh1b0pMM2JYbHdsLVBQbjU5Z3R0cFI2VUZMM3Z4encybUNMcWVINV9SVXRreXlkSktwOHJDVm5fZVRHU2JpUVBZVnRqTUNpTmdCOEdCQXFGRm9pQWRVc0EzeVhUNHJ5eHRKN3duOFIwdkMyYURrUEpTODRNODBsX1VtdFE?oc=5",
-      "p": "Diskusia: LIVE STREAM:Veľká Británia - Slovensko dnes, predkvalifikácia ME mužov v basketbale LIVE (E-skupina) SPORTNET",
-      "pub": 1787986800.0,
-      "s": "SME (GNews)",
-      "t": "Diskusia: LIVE STREAM:Veľká Británia - Slovensko dnes, predkvalifikácia ME mužov v basketbale LIVE (E-skupina) - SPORTNET",
-      "ts": 1788251740.760989,
-      "u": "807d94da203261b75421"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/w729rwM/obec-paca-na-gemeri-suzuje-extremne-sucho-obyvatelia-niektorych-casti-su-uz-bez-vody/",
-      "p": "Obec Pača vyhlásila pre extrémne sucho a takmer prázdne vodojemy mimoriadnu situáciu. V časti Velď sú ľudia bez vody už niekoľko dní.",
-      "pub": 1788251580.0,
-      "s": "Aktuality",
-      "t": "Obec Pača na Gemeri sužuje extrémne sucho, obyvatelia niektorých častí sú už bez vody",
-      "ts": 1788251740.7609901,
-      "u": "f6e0c5c610eaad260584"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/3uLhlk7/ustave-k-narodeninam-zelame-co-najviac-politikov-ktori-ju-budu-porusovat-ako-robert-fico-komentar-martina-behula/",
-      "p": "Azda nikdy nemala ústava taký veľký význam ako práve teraz. O čo horšie sa k nej vládnuci politici správajú, o to väčšiu váhu má minimálne vo verejnej debate.",
-      "pub": 1788251400.0,
-      "s": "Aktuality",
-      "t": "Ústave k narodeninám želáme čo najviac politikov, ktorí ju budú porušovať ako Robert Fico (komentár Martina Behula)",
-      "ts": 1788251740.7609909,
-      "u": "d007184b3781e444c8ba"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regiony/clanok/2033555-obci-na-gemeri-dochadza-voda-poziadala-o-pomoc-armadu-vo-vodojemoch-zostalo-len-20-centimetrov?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Obec Pača v okrese Rožňava vyhlásila pre pretrvávajúce sucho a nedostatok vody mimoriadnu situáciu. V časti obce Velď sú obyvatelia bez vody už niekoľko dní a obecné vodojemy sú takmer prázdne. Samospráva preto požiadala o pomoc Ozbrojené sily SR.",
-      "pub": 1788250708.0,
-      "s": "Pravda",
-      "t": "Obci na Gemeri dochádza voda, požiadala o pomoc armádu. Vo vodojemoch zostalo len 20 centimetrov",
-      "ts": 1788251740.760992,
-      "u": "dc3ac3c0afe9db8ee4b0"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regiony/clanok/2033541-chlapec-holic-cln-policia-zachrana-rybnik?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Nezvyčajný zásah majú za sebou mestskí policajti v Holíči. Počas pešej obchôdzky v okolí zámku si na Zámockom rybníku všimli malého chlapca v rybárskom člne, ktorý sa vzďaľoval od brehu.",
-      "pub": 1788250475.0,
-      "s": "Pravda",
-      "t": "Päťročný chlapec nastúpil zo zvedavosti do člna. Vietor ho odniesol od brehu",
-      "ts": 1788251740.760993,
-      "u": "23dd2408bcf32ccf2d26"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2033537-najvyssi-sud-povolil-pokracovat-vo-vystavbe-tanecnej-saly-v-bielom-dome?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Najvyšší súd USA v pondelok povolil pokračovať vo výstavbe tanečnej sály v Bielom dome. Prezident Donald Trump tvrdí, že tým boli odstránené všetky hrozby pre tento projekt, ktorý by mal byť dokončený do polovice roka 2028.",
-      "pub": 1788248280.0,
-      "s": "Pravda",
-      "t": "Najvyšší súd USA dal zelenú Trumpovi. V stavbe obrej tanečnej sály môže pokračovať",
-      "ts": 1788251740.760994,
-      "u": "f17afd989ae57f9c2e1e"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/nts-od-utorka-vstupuje-do-platnosti-nov/988947-clanok.html",
-      "p": "Po vytrhnutí zuba možno krv darovať najskôr po týždni, keď bude rana zahojená.",
-      "pub": 1788250500.0,
-      "s": "Teraz.sk",
-      "t": "Od utorka vstupuje do platnosti nový dotazník pre darcov krvi",
-      "ts": 1788251740.7609947,
-      "u": "9ac49d73ea4401d3a8ce"
-    },
     {
       "l": "https://www.sme.sk/domov/c/vizia-slovensko-2040-je-nadstranicka-do-tvorby-politici-nezasahovali-uviedol-premier?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Základným parametrom je podľa neho kvalita života.",
@@ -4873,27 +4688,108 @@
       "t": "Proces v kauze Očistec pokračuje. Pred súdom vypovedá jeden z kľúčových svedkov Ľudovít Makó",
       "ts": 1788336641.9314425,
       "u": "5d008bf9a00b684659be"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/ceska-policia-zacala-exhumovat-ostatky-jana-masaryka-chce-objasnit-jeho-smrt?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "O príčinách jeho úmrtia existujú viaceré teórie.",
+      "pub": 1788337573.0,
+      "s": "SME",
+      "t": "Experti začali exhumovať ostatky Jana Masaryka, chcú objasniť jeho smrť",
+      "ts": 1788338140.4793782,
+      "u": "1ad75964748ef67430dc"
+    },
+    {
+      "l": "https://www.sme.sk/bratislava/c/v-bratislave-otvorili-inovacne-centrum-siemens-healthineers?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Zameria sa na umelú inteligenciu v klinických aplikáciách a kybernetickú bezpečnosť zdravotníckych technológií.",
+      "pub": 1788337505.0,
+      "s": "SME",
+      "t": "V Bratislave otvorili Inovačné centrum Siemens Healthineers",
+      "ts": 1788338140.4793816,
+      "u": "4cdf57a65335db0ae20e"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/potravinarsky-koncern-nestle-predava-diviziu-vyzivovych-doplnkov-za-miliardu-dolarov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Spoločnosť chce sústrediť zdroje na oblasti, v ktorých má najsilnejšiu konkurenčnú výhodu.",
+      "pub": 1788337156.0,
+      "s": "SME",
+      "t": "Potravinársky koncern Nestlé predáva divíziu výživových doplnkov za miliardu dolárov",
+      "ts": 1788338140.479383,
+      "u": "d47f597646e33191764f"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/slovensko-zazaluje-europsku-komisiu-za-geneticke-upravy-potravin?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Nevieme, čo to môže spôsobiť ľuďom, uviedol premiér Fico.",
+      "pub": 1788336727.0,
+      "s": "SME",
+      "t": "Slovensko zažaluje Európsku komisiu za genetické úpravy potravín",
+      "ts": 1788338140.4793847,
+      "u": "4f0d5829772efcac888c"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/aXDAxNg/kaja-kallasova-utok-dronom-v-lipsku-nesie-znamky-statom-podporovaneho-terorizmu/",
+      "p": "Európska únia si predvolala ruského veľvyslanca po pokuse o útok dronom na nemeckom letisku. Berlín obviňuje Rusko zo štátom podporovaného terorizmu.",
+      "pub": 1788337172.0,
+      "s": "Aktuality",
+      "t": "Kaja Kallasová: Útok dronom v Lipsku nesie známky štátom podporovaného terorizmu",
+      "ts": 1788338140.4795575,
+      "u": "6e2e7d4fa637bef26395"
+    },
+    {
+      "l": "https://dennikn.sk/5534343/rumunske-strany-sa-nedohodli-a-krajina-prisla-o-770-milionov-z-eurofondov-socialnych-demokratov-prirovnavaju-k-smeru/",
+      "p": "Rumunské vládne strany sa nedokázali dohodnúť na reforme platov. Liberáli presadzovali úspornejší návrh, sociálni demokrati žiadali o miliardy viac pre učiteľov, zdravotníkov a úradníkov.",
+      "pub": 1788337110.0,
+      "s": "Denník N",
+      "t": "Rumunské strany sa nedohodli a krajina prišla o 770 miliónov z eurofondov. Sociálnych demokratov prirovnávajú k Smeru",
+      "ts": 1788338140.4795592,
+      "u": "a047582ff70802ea8e11"
+    },
+    {
+      "l": "https://dennikn.sk/5534708/odvolany-fedorov-hyri-aktivitou-ziada-volby-cestuje-po-usa-a-bude-radit-talianom-no-podporovatelov-uz-aj-sklamal/",
+      "p": "Píšeme nové dejiny vojny, vyhlásil Fedorov, ktorý tento týždeň v Spojených štátoch zháňa investorov pre svoj nový fond.",
+      "pub": 1788337052.0,
+      "s": "Denník N",
+      "t": "Odvolaný Fedorov hýri aktivitou. Žiada voľby, cestuje po USA a bude radiť Talianom, no podporovateľov už aj sklamal",
+      "ts": 1788338140.4795604,
+      "u": "5ffc557ba3029e28e531"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2034211-robert-fico-sucho-pocasie-slovensko-komisia-zalozenie-klimaticka-zmena?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Premiér Robert Fico na agrokomplexe v Nitre oznámil vznik Národnej komisie pre sucho a vodu. Jej úlohou bude boj proti následkom extrémneho počasia a sucha. Zároveň oznámil, že Slovensko potrebuje začať stavať vodné diela.",
+      "pub": 1788338099.0,
+      "s": "Pravda",
+      "t": "Fico vyhlásil boj klimatickým zmenám. Oznámil vznik komisie, chce masívne stavať vodné diela",
+      "ts": 1788338140.4795618,
+      "u": "178f4addad2d8274709b"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2034203-pocet-obeti-zaplav-na-hranici-nepalu-a-ciny-nadalej-stupa-pribuzni-po-tyzdni-stracaju-nadej-a-robia-obrady-bez-tiel?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Počet obetí ničivých prívalových záplav na hranici Nepálu a Číny stúpol na 1 130 a ďalších 4 462 ľudí zostáva nezvestných. Týždeň po katastrofe začali niektoré nepálske rodiny, ktoré stratili nádej na nájdenie svojich príbuzných, vykonávať symbolické pohrebné obrady.",
+      "pub": 1788337000.0,
+      "s": "Pravda",
+      "t": "Počet obetí záplav na hranici Nepálu a Číny naďalej stúpa, príbuzní po týždni strácajú nádej a robia obrady bez tiel",
+      "ts": 1788338140.4795628,
+      "u": "59f72a2caeca71777c59"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2034201-ocistec-proces-sudy-ludovit-mako?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Na banskobystrickom pracovisku Špecializovaného trestného súdu v stredu pokračuje hlavné pojednávanie v kauze Očistec, ktorá sa týka podozrení z údajného vytvorenia a fungovania zločineckej skupiny v rámci najvyšších zložiek polície a bezpečnostných orgánov v období rokov 2012 až 2018.",
+      "pub": 1788336783.0,
+      "s": "Pravda",
+      "t": "Ľudovít Makó sa postavil pred súd. Vypovedá ako svedok v kauze Očistec",
+      "ts": 1788338140.4795637,
+      "u": "cceea5453ab811389e2c"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1253689-narast-sexualneho-nasilia-v-ceute-medzi-podozrivymi-su-aj-europania",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Nárast sexuálneho násilia v Ceute: Medzi podozrivými sú aj Európania",
+      "ts": 1788338140.4795654,
+      "u": "6725af3e7601aa26f717"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.noviny.sk/krimi/1250604-hasici-zasahuju-pri-rozsiahlom-poziari-bytu-v-kosiciach-na-miesto-vyslali-evakuacny-autobus"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o prebiehajúcu mimoriadnu udalosť s nutnosťou evakuácie obyvateľov, ktorá predstavuje priame ohrozenie života a zdravia.",
-      "title": "Hasiči zasahujú pri rozsiahlom požiari bytu v Košiciach. Na miesto vyslali evakuačný autobus",
-      "ts": 1787731852.8027022
-    },
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/lCeaMe0/masivna-dezinformacna-kampan-u-nasich-susedov-falosne-spravy-sirili-tvrdenia-ze-polsko-planuje-zabrat-cast-ceskeho-uzemia/"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Koordinovaná dezinformačná kampaň zameraná na vyvolávanie napätia medzi susednými štátmi EÚ a NATO predstavuje bezpečnostné riziko s regionálnym dosahom.",
-      "title": "Masívna dezinformačná kampaň u našich susedov: Falošné správy šírili tvrdenia, že Poľsko plánuje zabrať časť českého územia",
-      "ts": 1787733343.2743556
-    },
     {
       "links": [
         "https://www.aktuality.sk/clanok/8UJFzKK/policia-upozornuje-na-vaznu-nehodu-na-juhu-slovenska-usek-hlasi-ako-uplne-neprejazdny/"
@@ -6277,6 +6173,7 @@
     "177cf85396e489e2f6b4": 1787316933.322192,
     "1781d627184777b7b7df": 1787934049.7108982,
     "178817d7a995d93e7bd7": 1788170143.297037,
+    "178f4addad2d8274709b": 1788338140.4795613,
     "1792656e1ac859404963": 1787749840.2080014,
     "1797e666b4a9aa3da819": 1787589337.3695314,
     "17b589bd95eeaa3494e1": 1788060942.1998281,
@@ -6358,6 +6255,7 @@
     "1a9f7ac721a700df6141": 1787974533.3224492,
     "1aa78a838c670f5990f5": 1788240176.2908542,
     "1acd8d8949e571d379b4": 1787385335.5830991,
+    "1ad75964748ef67430dc": 1788338140.479373,
     "1adac3954f2b5a42418c": 1787812535.0769875,
     "1add48a8341541054139": 1787491239.163703,
     "1ae86db012c8f33aa17b": 1787927735.2369993,
@@ -7743,6 +7641,7 @@
     "4cc78be1fbdef42660d7": 1788179745.0762525,
     "4cc8364d2621c66f32ee": 1788279642.9249825,
     "4cd2c77da8ea50a5c45b": 1788006946.6744902,
+    "4cdf57a65335db0ae20e": 1788338140.4793797,
     "4cdf626a923788ebebcf": 1787913343.3502789,
     "4ce386e0baefeb9f85cf": 1787847651.275613,
     "4ce4f7de5311a38601ef": 1787811047.6671233,
@@ -7808,6 +7707,7 @@
     "4ee42ebfb8510e07cc6a": 1788087342.9874256,
     "4eed08fcdc4d8fcefb9a": 1787748938.6210072,
     "4ef658701b7e2e12bf1d": 1787344540.4027858,
+    "4f0d5829772efcac888c": 1788338140.4793837,
     "4f0d82a234feb9f4663a": 1787663452.9815667,
     "4f13d824537fb7e04e88": 1787741735.0658607,
     "4f173a1dc0bb258bd9e4": 1788107738.6367571,
@@ -8109,6 +8009,7 @@
     "59d53ab7a9c495c4952a": 1788096942.8974805,
     "59ee7d245a4b85dfa049": 1787542537.4376268,
     "59f135f25b5f5fba0bf7": 1787478458.1034818,
+    "59f72a2caeca71777c59": 1788338140.4795623,
     "5a07b220ab221c213d28": 1787476840.9916573,
     "5a178da7ab6898768696": 1787740534.9991925,
     "5a1a05a8e010172bc530": 1788096942.8972976,
@@ -8280,6 +8181,7 @@
     "5fdfae0910344f9059bb": 1788109843.091582,
     "5fe49b43c6102dae3b33": 1787602246.927084,
     "5fed357a056d36f2e6fa": 1787888142.7364187,
+    "5ffc557ba3029e28e531": 1788338140.4795597,
     "60054edce04cb4200a1f": 1788106240.4256911,
     "6006de8dc70d86c269ca": 1787337849.6526542,
     "600f7e0694370410648f": 1787824539.1676276,
@@ -8472,6 +8374,7 @@
     "66fff22a64b05faf355c": 1787897450.1460643,
     "670d788bbd16dab558d5": 1788010544.2020514,
     "672278614bc71e6327fb": 1787807449.8818839,
+    "6725af3e7601aa26f717": 1788338140.4795642,
     "6726f7fa7ab1dd204e25": 1787817338.3802772,
     "6732dda31649f8f30c5e": 1787888142.7363865,
     "673d75ab4e25650a24c5": 1787720160.6264043,
@@ -8677,6 +8580,7 @@
     "6dffa650cc2b1d553260": 1787779246.5768816,
     "6e1f3ae20a4624b7a628": 1787826936.6594622,
     "6e2e5f7d0ea9b3aff247": 1787841337.6650527,
+    "6e2e7d4fa637bef26395": 1788338140.4795563,
     "6e3a8d625cee51c6ec9f": 1787974533.322421,
     "6e3aaabdfaaedc00f10c": 1788286254.0011804,
     "6e4f238d47df68ebcd74": 1787720160.6263978,
@@ -8899,6 +8803,7 @@
     "76a5c66ce8470a560488": 1787980248.544817,
     "76a6f5aa187ad201b7ba": 1788243640.6479554,
     "76ad86ab30c6fbd1da59": 1787567741.3584301,
+    "76b229d213058cf141a9": 1788338140.4795666,
     "76bfeb415ffb971d53c3": 1787824539.1676004,
     "76cbe7c4cbaa4d525dc6": 1787801739.4160712,
     "76cfeb1a0c94b8bb63e4": 1787734540.9066186,
@@ -9023,6 +8928,7 @@
     "7b919d07019b95a251d9": 1787744135.9480782,
     "7b98ac68222adb16596d": 1787344540.402772,
     "7b9f3a3ced2f2753e6a6": 1787561740.5643096,
+    "7ba81be525944fb03a2f": 1788338140.4795732,
     "7ba99bcc6fa4224503cb": 1787825439.9880528,
     "7bad648de65defa2ddba": 1788087342.9874341,
     "7bb4eccec1048514258b": 1787913343.350267,
@@ -10045,6 +9951,7 @@
     "a02f75a449ab86fc9e20": 1787668547.307205,
     "a03d125686df447959ae": 1787985341.181306,
     "a042e9f53dada145a253": 1787644541.6486287,
+    "a047582ff70802ea8e11": 1788338140.4795587,
     "a04a1832fbf337e13645": 1787751353.4570258,
     "a053452d6720532df867": 1787649045.507788,
     "a0654d855781bbffb11b": 1787847651.2755978,
@@ -10609,6 +10516,7 @@
     "b4a74cf7f1e61d96b4be": 1787741735.065862,
     "b4ac8e2f07bb8cbf7667": 1787319340.7455487,
     "b4ae340ac4949ab82967": 1787636140.4502053,
+    "b4af3e90d2ca2e946c3e": 1788338140.4795713,
     "b4b891b7af9a4dce83b9": 1787547342.3652313,
     "b4b9243178aed40c2236": 1787652648.7304575,
     "b4c897d93a2eb0840e0c": 1788258937.619251,
@@ -11299,6 +11207,7 @@
     "ccd9043e35229b6ed94e": 1787314244.85544,
     "ccda4fe6251962779107": 1787561740.5643113,
     "cce55f35742147532882": 1788261041.5101752,
+    "cceea5453ab811389e2c": 1788338140.4795632,
     "ccf14503a43cd99690db": 1788193247.8996356,
     "cd0035e45c3bff90308c": 1788060942.199786,
     "cd0176826f8efe1d82dd": 1787741735.066157,
@@ -11538,6 +11447,7 @@
     "d44a84d1c4b8e666a30a": 1788087342.9874003,
     "d45ad4420db3d9c93b4d": 1788334533.4152591,
     "d45b13a8a0633b4cb104": 1788114943.2733545,
+    "d47f597646e33191764f": 1788338140.4793823,
     "d488ccfcbf5898c1ee08": 1788147343.564909,
     "d48df60d809d8b0152e5": 1787921742.964172,
     "d4942071c01fb55f4bb5": 1787596534.640978,
@@ -12762,112 +12672,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1788336641.931401
+      "ts": 1788338140.4793415
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1788336641.931402
+      "ts": 1788338140.479344
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1788336641.9314048
+      "ts": 1788338140.479347
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1788336641.931409
+      "ts": 1788338140.4793534
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1788336641.931403
+      "ts": 1788338140.4793453
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1788336641.931394
+      "ts": 1788338140.479307
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1788336641.9313993
+      "ts": 1788338140.4793122
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1788336641.9314082
+      "ts": 1788338140.479352
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1788336641.931406
+      "ts": 1788338140.479349
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1788336641.9314072
+      "ts": 1788338140.4793508
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/tenis/clanok/byvaly-rival-si-nebral-servitku-pred-usta-o-dopingovom-prehresku-kyrgiosa-vedel-uz-skor-2026090107563540335",
-      "p": "Gréckeho tenistu Stefanosa Tsitsipasa neprekvapilo, že Nick Kyrgios mal pozitívny test na kokaín. Medzinárodná agentúra pre tenisovú integritu (ITIA) predbežne suspendovala Austrálčana 19. augusta v súlade s Tenisovým antidopingovým programom.",
-      "s": "Šport.sk",
-      "t": "Bývalý rival si nebral servítku pred ústa. O dopingovom prehrešku Kyrgiosa vedel už skôr",
-      "ts": 1788250243.947771,
-      "u": "a2f9b33e868188cdb136"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUTN0QzRMWGdUcHJpM0pkSlJhTDNfMHZDLWNlNExaM05JV3FDeEVFLU5hb3dCTWdBWHZwUVlIeWRPS3ozSzliYXladl9rRmNwX1N3d2h1MHZoVXh0TWxyTVgtdTA0NDE4RTQ3emVaZ2Z0WlRUUmxwUENCajQ3Mm5zUDdwWWdmeGc?oc=5",
-      "p": "Zachráni Molčan česť slovenského tenisu na US Open? Športový program na dnes (1. september) SPORTNET",
-      "s": "SPORTNET",
-      "t": "Zachráni Molčan česť slovenského tenisu na US Open? Športový program na dnes (1. september)",
-      "ts": 1788250243.9477735,
-      "u": "35f26c2936c15388f7c2"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/tsitsipasa-neprekvapil-pozitivny-test-k/988933-clanok.html",
-      "p": "Medzinárodná agentúra pre tenisovú integritu (ITIA) predbežne suspendovala Austrálčana 19. augusta v súlade s Tenisovým antidopingovým programom.",
-      "s": "TERAZ.SK",
-      "t": "Tsitsipasa neprekvapil pozitívny test Kyrgiosa: Očakával som to",
-      "ts": 1788250243.9477756,
-      "u": "1f3bdba8cbd74f08bead"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/slovnaft-cup-sk-slovan-bratislava-proti-tj-slovan-chrenova-2026090107574489719",
-      "p": "Slovnaft Cup píše príbehy, aké nevymyslí žiadny scenárista. V stredu od 18.00 h zažije štadión FC Nitra nevídané futbalové divadlo. Domáci šiestoligista TJ Slovan Nitra-Chrenová privíta úradujúceho majstra a čerstvého účastníka Ligy majstrov – Slovan Bratislava. Priepastný rozdiel medzi oboma táborm",
-      "s": "Šport.sk",
-      "t": "PSG a Inter Miláno? Slovan čaká najskôr bláznivý súboj: Z dôchodku sa vráti bývalý reprezentant!",
-      "ts": 1788251740.7609973,
-      "u": "5de6a533743bf4596d27"
-    },
-    {
-      "l": "https://sport.aktuality.sk/hokej/clanok/tipsport-liga-jaroslav-janus-si-nasiel-novy-klub-pokracuje-na-slovensku-2026090108103570466",
-      "p": "Slovenský hokejový brankár Jaroslav Janus prestúpil z HC Slovan Bratislava do Vlci Žilina.",
-      "s": "Šport.sk",
-      "t": "Jaroslav Janus si našiel nový klub. V novej sezóne bude pokračovať na Slovensku",
-      "ts": 1788251740.7609994,
-      "u": "d808eb92a92f9f7a3e63"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/janus-bude-v-sezone-202627-hajit-br/988949-clanok.html",
-      "p": "Slovenský hokejový brankár Jaroslav Janus prestúpil zo Slovana Bratislava do Žiliny.",
-      "s": "TERAZ.SK",
-      "t": "Janus bude v sezóne 2026/27 hájiť bránku Žiliny",
-      "ts": 1788251740.7610002,
-      "u": "5a7bf8d577b6340aed73"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/sfz-jan-kovacik-kauza-mobilov-financna-kriza-2026090108410457213",
       "p": "Zmrazené financie si vyberajú krutú daň priamo v Slovenskom futbalovom zväze (SFZ). Najbizarnejšie na celej situácii je, že finančné obmedzenia dobiehajú aj samotnú pýchu zväzu – národný tím. Futbalistom, ktorí pútajú pozornosť celej krajiny, dlhuje ich vlastná organizácia viac ako 200-tisíc eur na ",
@@ -14435,6 +14297,30 @@
       "t": "Nový domov pre fínskeho kanoniera. New York Rangers ulovili posilu zo Seattlu",
       "ts": 1788336641.931446,
       "u": "1c7e32d07d8815ea2741"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/slavia-slovan-ceny-listkov-liga-majstrov-2026090208211300641",
+      "p": "Pražský Eden sa opäť raz prezlečie do najprestížnejšieho futbalového šatu. Základná fáza Ligy majstrov prinesie do metropoly Českej republiky štyri veľkolepé európske večery, pričom vedenie „zošívaných“ už odkrylo karty v otázke cenotvorby a distribúcie vstupeniek. Pre fanúšikov, ktorí si chcú naživ",
+      "s": "Šport.sk",
+      "t": "Porovnali sme ceny lístkov na Ligu majstrov na Slovane a Slavii. Kde zaplatia fanúšikovia viac?",
+      "ts": 1788338140.4795702,
+      "u": "76b229d213058cf141a9"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMHdJSkhFc3ByeW9EU09UTEZFeGp0OXlIQlhMalVaTFlXNUpPQ0FOelZoTERBVFF2YmJxY0IxRWVETUtYSWlhaTQ3SF9IRU9mNnl0dzhiTnlVMFk3VlBoOU1TTEFIUjZGemhPUUM4T2dUd2J6cll3VW9ieGlVVE9lMG8yM3RnTDM1NnphTC1QWFJWYVZLRXg2YmRkV2NFZ2U1U0dPWVExVGJ3NTNDd0RZQQ?oc=5",
+      "p": "Diskusia: Futbalové prestupy ONLINE: Grealish sa do City ešte nevráti (2. september) SPORTNET",
+      "s": "SPORTNET",
+      "t": "Diskusia: Futbalové prestupy ONLINE: Grealish sa do City ešte nevráti (2. september)",
+      "ts": 1788338140.4795728,
+      "u": "b4af3e90d2ca2e946c3e"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/americky-investor-kushner-lutuje-ze/989246-clanok.html",
+      "p": "Američan sa mal stať investičným partnerom FIFA pri snahe predať práva okrem iného aj na majstrovstvá sveta prostredníctvom novej dcérskej spoločnosti FFE (FIFA Forward Enterprise).",
+      "s": "TERAZ.SK",
+      "t": "Americký investor Kushner ľutuje, že sa zapojil do plánu Infantina",
+      "ts": 1788338140.479574,
+      "u": "7ba81be525944fb03a2f"
     }
   ],
   "sport_source_status": {
@@ -14442,25 +14328,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1788336641.931411
+      "ts": 1788338140.4793572
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1788336641.9314127
+      "ts": 1788338140.4793606
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1788336641.9314156
+      "ts": 1788338140.4793642
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1788336641.9314144
+      "ts": 1788338140.4793625
     }
   }
 }
