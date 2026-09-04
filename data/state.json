@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Slováci opäť chudobnejú, reálne mzdy klesli do mínusu",
-      "ts": 1788492976.3134215
-    },
-    {
-      "headline": "Slovensko sužujú požiare, hasiči zasahujú na viacerých miestach",
-      "ts": 1788492976.3134215
-    },
-    {
-      "headline": "Začali sa prípravné práce na tuneli Karpaty",
-      "ts": 1788492976.3134215
-    },
-    {
-      "headline": "Slovan Bratislava zverejnil súpisku pre Ligu majstrov",
-      "ts": 1788492976.3134215
-    },
-    {
-      "headline": "Celosvetový výpadok AI nástrojov zasiahol ChatGPT",
-      "ts": 1788492976.3134215
-    },
-    {
       "headline": "Ukrajina mala poslať protestnú nótu poslancovi Kérymu",
       "ts": 1788495081.0111294
     },
@@ -151,20 +131,68 @@
     {
       "headline": "Ukrajinské drony zasiahli ropný sklad v Soči",
       "ts": 1788507341.8469174
+    },
+    {
+      "headline": "Polícia rozbila medzinárodnú daňovú chobotnicu",
+      "ts": 1788508573.2601397
+    },
+    {
+      "headline": "Slovenská ekonomika spomalila, HDP rástlo len o 0,8 percenta",
+      "ts": 1788508573.2601397
+    },
+    {
+      "headline": "Európu čaká teplotný šok, juh zasiahnu štyridsiatky",
+      "ts": 1788508573.2601397
+    },
+    {
+      "headline": "Dopravný kolaps v Bratislave: Tunel Sitina zostáva uzavretý",
+      "ts": 1788508573.2601397
+    },
+    {
+      "headline": "Krádeže piva v Británii a USA: Zlodeji zmizli s kamiónmi Guinnessu",
+      "ts": 1788508573.2601397
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Fico zablokoval predĺženie sankcií voči Rusku na 12 mesiacov",
+        "headline": "Polícia rozbila medzinárodnú daňovú chobotnicu",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/pr3Qb8N/policia-zasiahla-proti-medzinarodnej-danovej-chobotnici-a-zaistila-majetok-za-16-milionov-eur/"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/ubok-obvinil-devat-ludi-a-pravnick/989812-clanok.html"
+          ]
+        ],
+        "perex": "Vyšetrovateľ Úradu boja proti organizovanej kriminalite obvinil deväť osôb a jednu právnickú osobu z prania špinavých peňazí. V rámci medzinárodnej akcie bol zaistený majetok v hodnote 16 miliónov eur."
+      },
+      {
+        "headline": "Slovenská ekonomika spomalila, HDP rástlo len o 0,8 percenta",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/hdp-sa-v-druhom-stvrtroku-medziročne-zvysil-o-0-8-percenta?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/index/c/maloobchodne-trzby-v-juli-2026-medziročne-klesli-o-0-1-percenta?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Tempo rastu hrubého domáceho produktu bolo v druhom štvrťroku najnižšie za posledný rok. Zároveň sa v júli medziročne znížili maloobchodné tržby, pričom pokles zaznamenala väčšina sledovaných zložiek."
+      },
+      {
+        "headline": "Európu čaká teplotný šok, juh zasiahnu štyridsiatky",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2035589-fico-prevzal-stafetu-od-orbana-a-ako-jediny-zablokoval-plan-na-rocne-predlzovanie-sankcii-voci-rusku"
+            "https://www.pravda.sk/spravy/svet/clanok/2035587-europu-caka-teplotny-sok-juh-zasiahnu-styridsiatky-slovensko-prudky-zlom-pocasia?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ]
         ],
-        "perex": "Slovensko sa stalo jedinou krajinou Európskej únie, ktorá odmietla návrh na predĺženie platnosti individuálnych sankcií proti Rusku. Veľvyslanci členských štátov tak neschválili plán, ktorý mal sankcie predĺžiť zo šiestich na dvanásť mesiacov."
+        "perex": "September prináša na juh kontinentu mimoriadne teplý vzduch zo severnej Afriky, ktorý miestami vyženie teploty k 40 stupňom. Na Slovensku sa očakáva prudký zlom počasia spojený s ochladením."
       },
       {
         "headline": "Dopravný kolaps v Bratislave: Tunel Sitina zostáva uzavretý",
@@ -178,157 +206,29 @@
             "https://www.pravda.sk/spravy/regiony/clanok/2035605-viacere-nehody-paralyzovali-dopravu-cez-sitinu-zdrzanie-dosahuje-hodinu"
           ]
         ],
-        "perex": "Diaľničný tunel Sitina v smere do mesta je uzavretý pre viaceré dopravné nehody. Situácia na mieste spôsobuje rozsiahle kolóny, pričom zdržanie pre motoristov dosahuje až hodinu."
+        "perex": "Diaľničný tunel Sitina v smere do mesta je pre viaceré nehody uzavretý, čo spôsobuje rozsiahle kolóny. Zdržanie v doprave na hlavných ťahoch hlavného mesta dosahuje až hodinu."
       },
       {
-        "headline": "Polícia zasiahla proti medzinárodnej daňovej chobotnici",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/pr3Qb8N/policia-zasiahla-proti-medzinarodnej-danovej-chobotnici-a-zaistila-majetok-za-16-milionov-eur/"
-          ]
-        ],
-        "perex": "Policajní špecialisti v spolupráci s európskou prokuratúrou odhalili rozsiahlu schému prania špinavých peňazí. Počas masívnej akcie sa podarilo zaistiť majetok v hodnote 16 miliónov eur."
-      },
-      {
-        "headline": "Migračná kríza v Španielsku prerástla do násilných stretov",
+        "headline": "Krádeže piva v Británii a USA: Zlodeji zmizli s kamiónmi Guinnessu",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2035579-migracna-kriza-otriasa-spanielskom-madrid-zachvatili-nasilne-strety-ulice-sa-zmenili-na-bojisko"
+            "https://www.pravda.sk/spravy/svet/clanok/2035617-zlodeji-ukradli-dva-kamiony-guinnessu-v-usa-zmizlo-dalsich-34-tisic-piv-pivovar-ponuka-tucnu-odmenu?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ]
         ],
-        "perex": "Situácia v Ceute sa stala jednou z najvážnejších politických skúšok španielskej vlády po príchode tisícok migrantov z Maroka. Protesty sa rozšírili do ulíc Madridu, ktoré sa podľa správ zmenili na bojisko."
-      },
-      {
-        "headline": "Ukrajinské drony zasiahli ropný sklad v Soči",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/szT9hbw/ukrajinske-drony-zasiahli-ropny-sklad-v-soci-po-nocnom-utoku-v-ciernomorskom-letovisku-vypukol-rozsiahly-poziar-video/"
-          ]
-        ],
-        "perex": "V ruskom čiernomorskom letovisku vypukol po útoku ukrajinských dronov rozsiahly požiar v ropnom sklade. Obyvatelia mesta hlásili sériu výbuchov, pričom úrady zatiaľ nezverejnili podrobnosti o rozsahu škôd."
+        "perex": "Polícia v dvoch krajinách vyšetruje podobné prípady lúpeží veľkých zásob alkoholu. Pivovar Guinness ponúka odmenu za informácie o dvoch ukradnutých kamiónoch plných sudov."
       }
     ],
-    "ts": 1788507341.8469105
+    "ts": 1788508573.260131
   },
   "meta": {
-    "last_collection_ts": 1788507335.4107642,
+    "last_collection_ts": 1788508564.3587806,
     "last_feed_error_ts": 1788492969.8739743,
     "last_llm_error_ts": 1788445350.8281732,
-    "last_run_ts": 1788507335.7606297,
-    "last_synthesis_ts": 1788507341.846905
+    "last_run_ts": 1788508564.684017,
+    "last_synthesis_ts": 1788508573.260125
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/closer/c/kolko-kavy-denne-vypit-benefity-kofein-bezkofeinova-zdravie-travie-reflux-odbornik-radi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Lekár vysvetľuje, ako káva vplýva na žalúdok, srdce či cukrovku.",
-      "pub": 1788421440.0,
-      "s": "SME",
-      "t": "Päť káv denne nemusí byť problém. Dôležitejšie je, kedy si dáte poslednú, hovorí gastroenterológ",
-      "ts": 1788422141.0715654,
-      "u": "a2d8b118dcdc54d8bea1"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/cina-zacala-vyskum-prirodnych-zdrojov-vo-vodach-nedaleko-taiwanu-tchaj-pej-to-povazuje-za-provokaciu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Ide o tretiu takúto hliadku od júna.",
-      "pub": 1788421328.0,
-      "s": "SME",
-      "t": "Čína začala výskum prírodných zdrojov vo vodách neďaleko Taiwanu. Tchaj-pej to považuje za provokáciu",
-      "ts": 1788422141.0715687,
-      "u": "bd94c6320b90b3a016cb"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/vo-vietname-odsudili-11-ludi-na-trest-smrti-v-jednom-z-najvacsich-pripadov-pasovania-drog-v-historii-krajiny?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Najmenej 20 ďalších obžalovaných odsúdil na doživotné väzenie.",
-      "pub": 1788421105.0,
-      "s": "SME",
-      "t": "Vo Vietname odsúdili 11 ľudí na trest smrti v jednom z najväčších prípadov pašovania drog v histórii krajiny",
-      "ts": 1788422141.0715704,
-      "u": "8de31215eed68dafee23"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/proces-v-kauze-vrazdy-daniela-tupeho-ma-pokracovat-v-novembri?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Pôvodne vytýčený termín bol zrušený z dôvodu neprítomnosti náhradného sudcu.",
-      "pub": 1788421008.0,
-      "s": "SME",
-      "t": "Proces v kauze vraždy Daniela Tupého má pokračovať v novembri",
-      "ts": 1788422141.0715723,
-      "u": "a4a0ce6a9dd6bfab71db"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/1Fki2r1/peter-magyar-a-antonio-costa-rokovali-o-rozpocte-eu-aj-o-migracii/",
-      "p": "Maďarsko podporí nový rozpočet EÚ len vtedy, ak prinesie výhody jeho ľuďom a firmám. Magyar pritvrdil aj pri migrácii a žiada uznanie maďarských opatrení.",
-      "pub": 1788421860.0,
-      "s": "Aktuality",
-      "t": "Péter Magyar a António Costa rokovali o rozpočte EÚ aj o migrácii",
-      "ts": 1788422141.0715742,
-      "u": "3fef33be95906e556688"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/rxY9Igy/madurovci-v-usa-tvrdia-ze-maju-imunitu-a-ocakavaju-zamietnutie-zaloby/",
-      "p": "Obhajoba Nicolása Madura tvrdí, že americký súd nesmie súdiť uznávanú hlavu štátu. Sudca na Manhattane teraz rozhoduje, či obžalobu z pašovania zruší.",
-      "pub": 1788421440.0,
-      "s": "Aktuality",
-      "t": "Madurovci v USA tvrdia, že majú imunitu a očakávajú zamietnutie žaloby",
-      "ts": 1788422141.0715759,
-      "u": "465634da852a71c12fce"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2034921-skola-skolstvo-ministerstvo-skolstva-usmernenie-sviatok-ziaci-volno?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Školy dostali od ministerstva školstva usmernenie, ako postupovať v utorok 15. septembra. Sviatok Sedembolestnej Panny Márie totiž v roku 2026 zostáva sviatkom, no výnimočne nie je dňom pracovného pokoja. To znamená, že vyučovanie môže prebiehať ako počas bežného pracovného dňa.",
-      "pub": 1788422121.0,
-      "s": "Pravda",
-      "t": "Deti nemusia mať 15. septembra voľno. Ministerstvo školstva vydalo školám usmernenie",
-      "ts": 1788422141.071577,
-      "u": "6ce36634399ac84477dd"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/kultura/clanok/2034919-zomrela-a-drzitelka-grammy-cassandra-wilsonova?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "V Spojených štátoch v utorok v 70 rokoch zomrela Cassandra Wilsonová, slávna americká jazzová speváčka a držiteľka dvoch hudobných cien Grammy. Informovali o tom tlačové agentúry s odvolaním sa na tlačové vyhlásenie jej agenta.",
-      "pub": 1788421571.0,
-      "s": "Pravda",
-      "t": "Zomrela držiteľka Grammy Cassandra Wilsonová",
-      "ts": 1788422141.0715795,
-      "u": "4b1d8220914a15f942bd"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regiony/clanok/2034907-z-poslaneckeho-klubu-vzniklo-politicke-hnutie-jan-polakovic-ide-po-styroch-rokoch-opat-do-suboja-o-racu?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Na slovenskej politickej scéne pribudlo nové hnutie Spoločný Cieľ. Vzniklo z rovnomenného komunálneho tímu, ktorý už niekoľko rokov pôsobí v bratislavskej Rači. Jeho predseda Ján Polakovič sa zároveň opäť uchádza o funkciu starostu mestskej časti.",
-      "pub": 1788421092.0,
-      "s": "Pravda",
-      "t": "Z poslaneckého klubu vzniklo politické hnutie. Polakovič ide po štyroch rokoch opäť do súboja o Raču",
-      "ts": 1788422141.071581,
-      "u": "446d49b861b64b61c9ef"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/fridrichova-pri-prechode-ziaka-zo-sk/989518-clanok.html",
-      "p": "Učiteľ overí, podľa akej učebnice žiak postupoval, čo už vie, kde sú limity a nastaví adaptačný proces, vysvetlila Fridrichová.",
-      "pub": 1788420600.0,
-      "s": "Teraz.sk",
-      "t": "Fridrichová: Pri prechode žiaka zo školy na školu sa postupuje rovnako",
-      "ts": 1788422141.0715823,
-      "u": "d2167e8846ae251531e7"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1254147-tajfun-saudel-ochromuje-vychod-ciny-zastavila-dopravu-aj-vyucbu",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Tajfún Saudel ochromuje východ Číny, zastavil dopravu aj výučbu",
-      "ts": 1788422141.0715837,
-      "u": "bd0d8d8802605498fda5"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1254117-zasah-v-ruzinove-dovodom-rozsiahlej-akcie-je-pornografia",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Zásah v Ružinove: Dôvodom rozsiahlej akcie je pornografia",
-      "ts": 1788422141.071585,
-      "u": "e0bd24af280e5a90c69e"
-    },
     {
       "l": "https://www.sme.sk/zena/c/satnik-age-positivity-zrely-kapsulovy-satnik-je-o-kvalite-elegancii-a-respektovani-vlastneho-stylu-a-tela?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Objavte čaro nadčasových kúskov, v ktorých budete \"svoja\" a chic.",
@@ -4666,6 +4566,114 @@
       "t": "Tragédia pri výstupe na Mont Blanc: Dvaja horolezci sa zrútili zo skaly, jeden neprežil",
       "ts": 1788507335.7601075,
       "u": "3811972f9c09dfaed0da"
+    },
+    {
+      "l": "https://www.sme.sk/kultura/c/billy-strings-prisiel-o-matku-zomrela-na-predavkovanie-vznikol-z-toho-jeho-najsilnejsi-album?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Nepoznáte meno Billy Strings? Mali by ste.",
+      "pub": 1788507734.0,
+      "s": "SME",
+      "t": "Billy Strings prišiel o matku, zomrela na predávkovanie. Vznikol z toho jeho najsilnejší album",
+      "ts": 1788508564.683381,
+      "u": "bf23bfc65a1e8572a78f"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/dvoch-americkych-namornikov-po-potycke-na-pevnine-v-thajsku-odviedli-spat-na-lod?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Boli zapojení do potýčky v blízkosti ulice, ktorá je centrom nočného života v letovisku Pattajá.",
+      "pub": 1788507682.0,
+      "s": "SME",
+      "t": "Dvoch amerických námorníkov po potýčke v Thajsku odviedli späť na loď",
+      "ts": 1788508564.683385,
+      "u": "fce44fa5fa5f3c99ba29"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT244cHd6STNuZ0o4VmQwajVaTk50ZVVIeUNhaDUyX1ctWktrMDJVbXZrdm12X1h4LVllTkxNZGhkQ0tHUHMyVDlPb1Ntd2xzMlRaLTF2MDNaTkc5VndaNE1Ec2Q2SnFvYnh3dV91TTRMZ05fN0tGTmQ1Tkl1bFllajNCS1lfWE1yNnR0N2VJaGNoM3JFajVVR2ctaW96Zw?oc=5",
+      "p": "Dobré ráno: Meta zaplatí miliardy, závislosť detí však priznať nechce SME.sk",
+      "pub": 1788485431.0,
+      "s": "SME (GNews)",
+      "t": "Dobré ráno: Meta zaplatí miliardy, závislosť detí však priznať nechce - SME.sk",
+      "ts": 1788508564.683387,
+      "u": "b22b7843320ac6c47d50"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/OZ3y2b6/juzna-korea-zvazuje-podporu-bezpecnostnych-snah-usa-v-hormuzskom-prielive/",
+      "p": "Soul zvažuje účasť na ochrane Hormuzského prielivu po boku USA, no podmieňuje ju neohrozením vlastnej obrany. Zatiaľ nepadlo žiadne rozhodnutie.",
+      "pub": 1788507660.0,
+      "s": "Aktuality",
+      "t": "Južná Kórea zvažuje podporu bezpečnostných snáh USA v Hormuzskom prielive",
+      "ts": 1788508564.6833887,
+      "u": "1e819472e3cd13011f0b"
+    },
+    {
+      "l": "https://dennikn.sk/5541023/citajuc-stefana-zweiga-a-jeho-svet-vcerajska/",
+      "p": "Ak dnes necítim akútnu hrozbu ako vtedy Zweig, sú na to len dve vysvetlenia: buď som naivný, alebo nie sú znaky súčasného fašizmu dostatočne desivé.",
+      "pub": 1788507469.0,
+      "s": "Denník N",
+      "t": "Čítajúc Stefana Zweiga a jeho Svet včerajška",
+      "ts": 1788508564.68339,
+      "u": "b410018ce5c8d6b7ece0"
+    },
+    {
+      "l": "https://dennikn.sk/5539231/v-ceute-hlasia-sexualny-utok-takmer-denne-nie-vsetci-podozrivi-su-migranti-odbornicka-varuje-pred-politickym-zneuzivanim/",
+      "p": "Španielsko dievčatá nedokáže ochrániť pred sexuálnym násilím.",
+      "pub": 1788507375.0,
+      "s": "Denník N",
+      "t": "V Ceute hlásia sexuálny útok takmer denne. Nie všetci podozriví sú migranti, odborníčka varuje pred politickým zneužívaním",
+      "ts": 1788508564.6833913,
+      "u": "a499da55bde909156d07"
+    },
+    {
+      "l": "https://dennikn.sk/5536904/manzel-neberie-ohlad-na-moje-pocity-ani-unavu-ukazala-sa-narodenim-dcery-jeho-prava-tvar/",
+      "p": "S manželom sme spolu šesť rokov, pred ôsmimi mesiacmi sa narodila naša dcéra. Neviem, či sa zrovna narodením dieťaťa môže ukázať pravá tvár človeka alebo sa tým mne otvorili oči. Môj manžel nechápe, že pri 24-hodinovej starostlivosti o dieťa si potrebujem aspoň na dve hodiny denne vyvetrať hlavu, ís",
+      "pub": 1788498933.0,
+      "s": "Denník N",
+      "t": "Manžel neberie ohľad na moje pocity ani únavu. Ukázala sa narodením dcéry jeho pravá tvár?",
+      "ts": 1788508564.6833935,
+      "u": "d669a44f1084750967d6"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2035631-prevracia-oci-robi-grimasy-a-vladne-dalej-meloniova-prepisala-talianske-dejiny?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Keď Giorgia Meloniová sedí medzi svetovými lídrami, kameramani nemusia dlho čakať. Nadvihnuté obočie, pohľad ponad stôl, teatrálne prevrátenie očí či úsmev, pri ktorom si divák nie je istý, či ide o pobavenie alebo diplomatickú sebakontrolu. Talianska premiérka si za necelé štyri roky vybudovala pov",
+      "pub": 1788508200.0,
+      "s": "Pravda",
+      "t": "Prevracia oči, robí grimasy a vládne ďalej. Meloniová prepísala talianske dejiny",
+      "ts": 1788508564.6833951,
+      "u": "78ce2560493734112e57"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2035613-ubok-policia-pranie-spinavych-penazi-akcia?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Vyšetrovateľ Úradu boja proti organizovanej kriminalite (ÚBOK) obvinil deväť ľudí a jednu právnickú osobu z pokračovacieho zločinu legalizácie výnosu z trestnej činnosti. Prípad súvisí s vyšetrovaním daňovej trestnej činnosti so škodou predbežne vyčíslenou na viac ako 26 miliónov eur.",
+      "pub": 1788507472.0,
+      "s": "Pravda",
+      "t": "ÚBOK odhalil rozsiahle pranie špinavých peňazí. Zaistili majetok za 16 miliónov eur",
+      "ts": 1788508564.683396,
+      "u": "137a3fc8347d5f4c602f"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2035617-zlodeji-ukradli-dva-kamiony-guinnessu-v-usa-zmizlo-dalsich-34-tisic-piv-pivovar-ponuka-tucnu-odmenu?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Polícia v Británii a Spojených štátoch rieši dva podobné prípady krádeží veľkých zásob piva. Pivovar Guinness prišiel o dva kamióny plné sudov, ktoré zlodeji odviezli zo skladu neďaleko severoanglického Liverpoolu. Americký Pabst zase ponúkol odmenu za vypátranie 34 000 plechoviek ukradnutých zo skl",
+      "pub": 1788507190.0,
+      "s": "Pravda",
+      "t": "Zlodeji ukradli dva kamióny Guinnessu. V USA zmizlo ďalších 34-tisíc pív, pivovar ponúka tučnú odmenu",
+      "ts": 1788508564.6833978,
+      "u": "4028e4a13ad29a3ebc55"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/rodicia-musia-doplacat-na-pracovne-z/989821-clanok.html",
+      "p": "Štát dal na učebnice 28 miliónov eur.",
+      "pub": 1788508320.0,
+      "s": "Teraz.sk",
+      "t": "Rodičia musia doplácať na pracovné zošity",
+      "ts": 1788508564.6833994,
+      "u": "9b2d7032d87a14324f91"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/ubok-obvinil-devat-ludi-a-pravnick/989812-clanok.html",
+      "p": "V rámci vyšetrovania bol už na základe rozhodnutí európskeho prokurátora zaistený majetok v hodnote približne 16 miliónov eur.",
+      "pub": 1788507720.0,
+      "s": "Teraz.sk",
+      "t": "PRANIE ŠPINAVÝCH PEŇAZÍ: Obvinili deväť ľudí a právnickú osobu",
+      "ts": 1788508564.6834006,
+      "u": "fc6fb9b42ba3564d454b"
     }
   ],
   "recent_alerts": [
@@ -6038,6 +6046,7 @@
     "1374e48e92327e5a8f9b": 1787854853.1658008,
     "137801ae8e2af7fe5dbc": 1788196848.5580733,
     "137803fbae24db17c599": 1787807449.8818438,
+    "137a3fc8347d5f4c602f": 1788508564.6833956,
     "137b3b418d1f4805a09d": 1787565342.161682,
     "137d281862608de79cdc": 1788366046.4683807,
     "13807aee457365617f45": 1788091840.6308792,
@@ -6428,6 +6437,7 @@
     "1e645ee4bb7e1fffeb9f": 1788196848.5580835,
     "1e6cd73537dc807edf8f": 1787902541.2183058,
     "1e7fc4b87edd035613b3": 1788332149.1602023,
+    "1e819472e3cd13011f0b": 1788508564.683388,
     "1e837025eae87c2ea9aa": 1788435343.217283,
     "1e85cee8a968a7e3f013": 1788244546.8398416,
     "1e905c91f94b0a0a9192": 1788354641.5438106,
@@ -7559,6 +7569,7 @@
     "4017b87354331813689b": 1787371752.4472742,
     "401c23155fd59ac4e28b": 1788106240.4256856,
     "402143af22383ac2f990": 1788425739.2132003,
+    "4028e4a13ad29a3ebc55": 1788508564.6833963,
     "402c5a776c05f61b678f": 1788242146.11197,
     "402e382d3815c3c30bea": 1787461847.5125377,
     "403a0a59175ec6d510cd": 1787545242.013384,
@@ -7586,6 +7597,7 @@
     "410c68a18837650c0067": 1788264639.931083,
     "410d02f490fb4bd7c63d": 1787481341.5192995,
     "410faf959564f82b0b17": 1788070850.2948606,
+    "4110411882deb3f4ddc8": 1788508564.6834114,
     "4118cb08963454ea626b": 1787320540.8967862,
     "411a8030ad6e64d2d4e2": 1788366046.4685757,
     "412ba7df1ea0ddfc63bd": 1787801739.416292,
@@ -7862,6 +7874,7 @@
     "49d729f5ddc40195248b": 1787943333.1759586,
     "49dfb288a7d4df5642e2": 1787489680.9908757,
     "49f4919e471ab37391af": 1787388086.158564,
+    "49f55386099aaf7f2a06": 1788508564.6834052,
     "4a07c2f7afccf2b362c9": 1787654133.7301106,
     "4a17945000edad53e705": 1788505843.9673176,
     "4a2b3e10b01e5c84a27a": 1787919047.3712413,
@@ -8536,6 +8549,7 @@
     "5e1aa4d402ef448bb6fb": 1787730943.1406815,
     "5e1c676bfa19dca817c6": 1788180936.666062,
     "5e22cbe135ae1c5121a6": 1787991061.3627617,
+    "5e2742cf30f92f65e696": 1788508564.6834078,
     "5e2aa525d8f9084259bb": 1787826936.6594656,
     "5e2d0e11b7b6d22f058a": 1788435343.217282,
     "5e2ec759a545cca9d4f6": 1787542537.4376228,
@@ -9426,6 +9440,7 @@
     "789a38c4376377b3ad47": 1787858442.420554,
     "78a8f9b8daed103e6e5e": 1788028535.9819753,
     "78bf5a07536378547845": 1788496541.7111118,
+    "78ce2560493734112e57": 1788508564.6833942,
     "78d68c2989319f1e426f": 1788245332.8137543,
     "78fb36d60991e80b9cd0": 1787483288.7315984,
     "79023185f6171caa7492": 1787584248.2150462,
@@ -10539,6 +10554,7 @@
     "9b05d78a2ccd12644904": 1787559042.8767884,
     "9b133c0609a8eef4fb19": 1787838934.8504012,
     "9b1999b3d6b2e4698cbf": 1788465344.8050082,
+    "9b2d7032d87a14324f91": 1788508564.6833987,
     "9b3913ec095203bb806a": 1788286254.0011923,
     "9b3e307947df7251c660": 1787632538.426872,
     "9b51b214b8ad3cb00e82": 1788190544.0862505,
@@ -10816,6 +10832,7 @@
     "a48090e1a79a5e8b4984": 1787974533.3224187,
     "a483e5a89f7b58bb5f08": 1787315734.897231,
     "a491fb7356de6994c199": 1788446151.0847611,
+    "a499da55bde909156d07": 1788508564.6833904,
     "a49a2c428b3b5e2d03b2": 1788357334.9879508,
     "a4a0ce6a9dd6bfab71db": 1788422141.0715714,
     "a4a65fa49cf2ab730597": 1788268251.3066113,
@@ -11281,6 +11298,7 @@
     "b224c9733e661b2e264d": 1787628936.907134,
     "b2273a05d1c4a0a1585a": 1787410541.9098237,
     "b227b613b42c7b3d9549": 1787667700.4724836,
+    "b22b7843320ac6c47d50": 1788508564.6833858,
     "b23690c717f7841c98c9": 1788202538.0801992,
     "b2387f22203c303209ae": 1787336448.6936612,
     "b242694689ad9964c958": 1788153661.655313,
@@ -11348,6 +11366,7 @@
     "b409a83925f464fdc729": 1787470532.854695,
     "b40ba903925eb7e2a5b2": 1788446151.0847642,
     "b40e0e32f9e50b549e16": 1787428483.7915812,
+    "b410018ce5c8d6b7ece0": 1788508564.6833894,
     "b414b89258acb089392b": 1788014140.1615093,
     "b42743048357ec625805": 1788436548.089874,
     "b4383f1a3884a2ed15aa": 1787715343.6123295,
@@ -11713,6 +11732,7 @@
     "bf04b91d918245ffae44": 1787988941.1139429,
     "bf17070d15ad13bf0293": 1787569850.3318677,
     "bf172dbf8d4141a79597": 1788014140.161511,
+    "bf23bfc65a1e8572a78f": 1788508564.6833773,
     "bf3e46093feb4e4856d9": 1788504935.437389,
     "bf3ea509f5531ba01aab": 1787561740.5645072,
     "bf41ac44bd349b05259d": 1787920543.0180647,
@@ -12531,6 +12551,7 @@
     "d65407222bddb932964c": 1788245332.8137426,
     "d660f10de211ce4d6745": 1787504141.822114,
     "d6620c75e9ee072a4714": 1788270934.1070206,
+    "d669a44f1084750967d6": 1788508564.683392,
     "d672fc2959b60f747557": 1787478458.1032596,
     "d67886a05a73c00e2d02": 1787770542.8082123,
     "d67d766dea5c1e19034a": 1788258937.619235,
@@ -12561,6 +12582,7 @@
     "d6f6a0a65a7d84666c26": 1787417732.754119,
     "d70bbc7ab3f0005d5c79": 1788204052.1366236,
     "d71102956c5355acd8c8": 1788507335.7601042,
+    "d713336127203dcb2d6e": 1788508564.6834095,
     "d72db51dbf92a3fcab49": 1788258937.6192074,
     "d73058050a119329e343": 1787983844.5072072,
     "d73833e749e3a439f1d9": 1787304129.431447,
@@ -12758,6 +12780,7 @@
     "dc5ecf786646de65c20d": 1787545242.013388,
     "dc6a04768227f8e58602": 1787428483.7915885,
     "dc6a7c72256a5d9a91bd": 1787306139.2190835,
+    "dc74d40a58228647224c": 1788508564.683402,
     "dc85e5e81560b1272a0a": 1787715343.6123374,
     "dc8b9db72c18673d115e": 1787907342.4587061,
     "dc9c112007fe81ff75ab": 1788435343.2172773,
@@ -13783,6 +13806,7 @@
     "fc59ee45d0ce22f8e92d": 1788147343.5651276,
     "fc5ba1ad6dd0afea88a0": 1787542537.4376366,
     "fc6a842726bd46f68ec7": 1787715343.6125584,
+    "fc6fb9b42ba3564d454b": 1788508564.6834,
     "fc711115d672f7ddffe3": 1787406942.3488553,
     "fc7ccf88af8906f21338": 1787550254.7624867,
     "fc8ef9d53a4b60fb960a": 1788276944.4443052,
@@ -13799,6 +13823,7 @@
     "fccf5125298b654a4b07": 1787924134.3587687,
     "fcdf56beed21ac5c992d": 1787401242.2581043,
     "fce20b313071b82470aa": 1788068142.105781,
+    "fce44fa5fa5f3c99ba29": 1788508564.6833827,
     "fcf70cc168505116b644": 1788178243.5002549,
     "fcfb5ea15955c9a24a54": 1787554537.4489515,
     "fd01cf64da49a6592634": 1787412042.0796432,
@@ -13896,88 +13921,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1788507335.760064
+      "ts": 1788508564.6833546
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1788507335.7600653
+      "ts": 1788508564.6833558
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1788507335.7600677
+      "ts": 1788508564.6833584
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1788507335.7600725
+      "ts": 1788508564.683363
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1788507335.7600665
+      "ts": 1788508564.6833572
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1788507335.760057
+      "ts": 1788508564.6833475
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1788507335.760062
+      "ts": 1788508564.683353
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1788507335.7600715
+      "ts": 1788508564.683362
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1788507335.760069
+      "ts": 1788508564.68336
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1788507335.76007
+      "ts": 1788508564.683361
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/dalsia-asociacia-ustupuje-fiba-uvolnila-restrikcie-pre-rusko-a-bielorusko-2026090307535119973",
-      "p": "Medzinárodná basketbalová federácia (FIBA) čiastočne uvoľnila obmedzenia pre ruských a bieloruských predstaviteľov a umožnila niektorým jednotlivcom návrat do medzinárodných súťaží pod svojou záštitou.",
-      "s": "Šport.sk",
-      "t": "Ďalšia asociácia ustupuje. FIBA uvoľnila reštrikcie pre Rusko a Bielorusko",
-      "ts": 1788422141.0715895,
-      "u": "feac32d2f5888c30f913"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/shdws-eb-bratislava-a-real-coholics-vstupili-do-sezony-vitazne-2026090307415840794",
-      "p": "Úvodné kolo novej sezóny Niké Superligy prinieslo víťazné vstupy dvoch bratislavských tímov. Nováčik SHDWS EB Bratislava si poradil s minuloročným vicemajstrom MFC Lavore Trenčín 4:1, zatiaľ čo obhajca titulu AK Real Coholics Bratislava zdolal nováčika Kanárikov Šurany 6:3.",
-      "s": "Šport.sk",
-      "t": "SHDWS EB Bratislava a Real Coholics vstúpili do sezóny víťazne",
-      "ts": 1788422141.0715911,
-      "u": "28d4869079e1f4c71360"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONU56M2F4dnp4bmZ5UTd5N0h4enNadWdCNGFlU1BhaWI3VHNGMnE4cXJMdUVXZkc1TEEySHZyTTVFSTFycGQtTEljZTBOck1RR21BT0h4dU03WHdNNl9qbUtoZ1BXdEI0eWFsM3pZRnJTaVJBTEQ3dGdNQVlMQjlZeFF1azdRVzI5YUVYVVFXbXFBOUFNMmdxeWdTejg2LWFna1dWbGJLemliOGxwYkJz?oc=5",
-      "p": "Mladý Slovák sa po novom pripravuje v Amerike. Chce sa vrátiť na úroveň pred zranením SPORTNET",
-      "s": "SPORTNET",
-      "t": "Mladý Slovák sa po novom pripravuje v Amerike. Chce sa vrátiť na úroveň pred zranením",
-      "ts": 1788422141.0715935,
-      "u": "41d307f388968018a611"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/nino-marcelli-slovan-bratislava-prestup-ponuka-2026090308042808406",
       "p": "Záver prestupového obdobia priniesol v zákulisí poriadnu drámu. Podľa informácií portálu Bold sa dánsky klub FC Kodaň v posledných hodinách deadline day intenzívne zaujímal o krídelníka bratislavského Slovana, Nina Marcelliho.",
@@ -15409,6 +15410,46 @@
       "t": "Kyrgios akceptoval mesačný dištanc za pozitívny test na kokaín",
       "ts": 1788507335.7601173,
       "u": "61df3f378c9b9b4fb398"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/hk-nitra-chl-liga-majstrov-domaci-lad-2026090407512909130",
+      "p": "Slovenský hokejový šampión HK Nitra dnes (v piatok 4. septembra 2026 o 18.00 h) otvára svoju púť v 12. edícii hokejovej Ligy majstrov (CHL). Pre „corgoňov“ ide o návrat na európsku scénu po desiatich rokoch, pričom hneď na úvod privítajú na vlastnom ľade jedného z najťažších možných súperov – úraduj",
+      "s": "Šport.sk",
+      "t": "Prvý zápas HK Nitra v hokejovej Lige majstrov na tradičných TV nenájdete. Súboj odvysiela komerčný kanál",
+      "ts": 1788508564.683404,
+      "u": "dc74d40a58228647224c"
+    },
+    {
+      "l": "https://sport.aktuality.sk/mma/clanok/organizacia-oktagon-oznamila-kolko-listkov-este-zostava-do-vypredania-futbaloveho-stadiona-vo-frankfurte-pred-turnajom-oktagon-94-2026090406535534009",
+      "p": "Organizácia OKTAGON pokračuje v prípravách veľkolepého turnaja OKTAGON 94, ktorý sa uskutoční 26. septembra 2026 na futbalovom štadióne Deutsche Bank Park vo Frankfurte. Podľa jej nedávneho oznámenia zostáva do úplného vypredania obrovského štadióna už menej ako 8-tisíc vstupeniek. Organizátori pret",
+      "s": "Šport.sk",
+      "t": "Organizácia OKTAGON oznámila, koľko lístkov ešte zostáva do vypredania futbalového štadióna vo Frankfurte pred turnajom OKTAGON 94",
+      "ts": 1788508564.6834068,
+      "u": "49f55386099aaf7f2a06"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/gael-monfils-us-open-rozlucka-financny-sektor-2026090407401794450",
+      "p": "Francúzsky tenista Gael Monfils sa po prehre v druhom kole turnaja US Open rozlúčil s grandslamovou etapou svojej kariéry. Pre 40-ročného Francúza je aktuálna sezóna posledná na okruhu.",
+      "s": "Šport.sk",
+      "t": "VIDEO Miláčik publika sa lúčil v slzách. Po derniére na US Open bude pracovať na nečakanej pozícii",
+      "ts": 1788508564.6834085,
+      "u": "5e2742cf30f92f65e696"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX09yUFVteDN2bENncENOWm5sd3dJeEQtZE9SMjRKbHNlLThVS3QwMjZKZzR4ZHNuUERQOEZaZ0VETG9UWDJUMFRoWWdrbENId1g3TTJLSGVlU1lXLUUyLU5mczFEODk3bEVzekRvcmNIdXV0Y1QzN2dyTVlhVnlnNHlGelg0Z3Y2UkZfd2Zhb1NIWmJZb01hMFduX2NYN2hTdFVJ?oc=5",
+      "p": "Diskusia: Slovan zverejnil súpisku na Ligu majstrov. Firuguje v nej aj najnovšia posila v obrane SPORTNET",
+      "s": "SPORTNET",
+      "t": "Diskusia: Slovan zverejnil súpisku na Ligu majstrov. Firuguje v nej aj najnovšia posila v obrane",
+      "ts": 1788508564.6834104,
+      "u": "d713336127203dcb2d6e"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/monfils-zakoncil-grandslamovu-karieru/989813-clanok.html",
+      "p": "Od organizátorov US Open si prevzal počas ceremoniálu na kurte zarámovaný obraz a s úsmevom potvrdil, prečo bol medzi fanúšikmi obľúbený.",
+      "s": "TERAZ.SK",
+      "t": "Monfils zakončil grandslamovú kariéru: Vždy som chcel šou",
+      "ts": 1788508564.683412,
+      "u": "4110411882deb3f4ddc8"
     }
   ],
   "sport_source_status": {
@@ -15416,25 +15457,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1788507335.7600749
+      "ts": 1788508564.6833653
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1788507335.760077
+      "ts": 1788508564.6833677
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1788507335.7600799
+      "ts": 1788508564.6833706
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1788507335.7600784
+      "ts": 1788508564.683369
     }
   }
 }
