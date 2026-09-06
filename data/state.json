@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Izraelské nálety v Libanone si vyžiadali obete",
-      "ts": 1788707450.0381887
-    },
-    {
-      "headline": "Tisíce plavcov preplávali Dunaj v Bratislave",
-      "ts": 1788707450.0381887
-    },
-    {
-      "headline": "Grécky premiér ohlásil plán daňových úľav",
-      "ts": 1788707450.0381887
-    },
-    {
-      "headline": "Jaguar Land Rover plánuje masívne prepúšťanie",
-      "ts": 1788707450.0381887
-    },
-    {
-      "headline": "USS Abraham Lincoln opustila thajský prístav",
-      "ts": 1788707450.0381887
-    },
-    {
       "headline": "Danko stupňuje tlak na Tarabu a hrozí blokovaním parlamentu",
       "ts": 1788711062.876484
     },
@@ -162,22 +142,13 @@
     "ts": 1788720948.0960355
   },
   "meta": {
-    "last_collection_ts": 1788720939.9278038,
+    "last_collection_ts": 1788722445.0685968,
     "last_feed_error_ts": 1788708944.61889,
     "last_llm_error_ts": 1788689596.525984,
-    "last_run_ts": 1788720940.598982,
+    "last_run_ts": 1788722446.0889444,
     "last_synthesis_ts": 1788720948.0960305
   },
   "recent": [
-    {
-      "l": "https://www.noviny.sk/zahranicie/1255276-nova-sanca-na-mier-putin-zacal-rokovat-s-trumpovymi-vyslancami-o-ukrajine",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Nová šanca na mier? Putin začal rokovať s Trumpovými vyslancami o Ukrajine",
-      "ts": 1788636044.0872939,
-      "u": "f6000700b09be8d4e754"
-    },
     {
       "l": "https://www.sme.sk/svet/c/iranska-armada-pohrozila-tvrdsou-odvetou-ak-budu-utoky-usa-pokracovat?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Boje medzi USA a Iránom sa obnovili minulú nedeľu.",
@@ -2688,6 +2659,33 @@
       "t": "Návštevníci kŕmia zvieratá hotdogmi, langošmi aj pečivom. V ZOO Bojnice zvyšujú kontroly",
       "ts": 1788720940.5981913,
       "u": "7d45f5b3a8a636022b49"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/netanjahu-nariadil-vystahovanie-niektorych-osad-v-predjordansku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "V Predjordánsku žije vyše 500-tisíc Izraelčanov.",
+      "pub": 1788721572.0,
+      "s": "SME",
+      "t": "Netanjahu nariadil vysťahovanie niektorých osád v Predjordánsku",
+      "ts": 1788722446.0883365,
+      "u": "5f51876cfee35847de70"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2036709-expert-silny-vysledok-afd-odraza-nespokojnost-s-vladou-moze-silno-otriast-aj-merzom?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Za mimoriadne vysokým ziskom Alternatívy pre Nemecko (AfD), ktorý strane v dnešných krajinských voľbách v Sasku-Anhaltsku prisudzujú prvé odhady, stojí najmä veľká nespokojnosť so spolkovou vládou. Výsledok môže mať výrazný vplyv aj na celonemeckú politiku a ďalej otriasť vládou kancelára Friedricha",
+      "pub": 1788722347.0,
+      "s": "Pravda",
+      "t": "Expert: Silný výsledok AfD odráža nespokojnosť s vládou, môže silno otriasť aj Merzom",
+      "ts": 1788722446.0883405,
+      "u": "1c26b09a64bd2ebbdc39"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1255554-lietadlo-boeing-havarovalo-len-kusok-od-letiska-po-naraze-ho-zachvatili-plamene",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Lietadlo Boeing havarovalo len kúsok od letiska. Po náraze ho zachvátili plamene",
+      "ts": 1788722446.0883427,
+      "u": "96f97d63efb2e2010359"
     }
   ],
   "recent_alerts": [
@@ -3355,6 +3353,15 @@
       "reason": "Oficiálne varovanie pred vysokeým rizikom požiarov na väčšine Slovenska, trvalé nebezpečenstvo pre lesy, obce a kritickú infraštruktúru.",
       "title": "Zvýšené riziko vzniku požiarov pretrváva na väčšine územia Slovenska",
       "ts": 1788709064.564468
+    },
+    {
+      "links": [
+        "https://www.noviny.sk/zahranicie/1255554-lietadlo-boeing-havarovalo-len-kusk-od-letiska-po-naraze-ho-zachvatili-plamene"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Ide o závažnú leteckú nehodu s rizikom obetí a ohrozením okolia, ktorá vyžaduje okamžitú pozornosť.",
+      "title": "Lietadlo Boeing havarovalo len kúsok od letiska. Po náraze ho zachvátili plamene",
+      "ts": 1788722448.9260473
     }
   ],
   "seen": {
@@ -4017,6 +4024,7 @@
     "13b991765e28fe25aa53": 1788406542.1126082,
     "13c06c2422d577822ca8": 1788060942.199574,
     "13c75b2a083cfc03c535": 1788431735.6862385,
+    "13cce49c98bde5fd537d": 1788722446.088347,
     "13d3fa30c0853ce9c62c": 1788242146.1119545,
     "13d88b646dcea7ddd0f0": 1788252932.8520129,
     "13dd4d09c9bd075f09ad": 1787914543.876172,
@@ -4186,7 +4194,6 @@
     "1911de18ceefb3be6049": 1787572545.8986378,
     "191c3051213d96783e48": 1788261041.5099843,
     "1927537c7658dad9fad1": 1788703387.999322,
-    "192773654bf3eb68a667": 1787512846.7958014,
     "1928b274edf00f712c23": 1788078041.9947956,
     "192cda57d3edbced08cf": 1787628936.907156,
     "193d7921b32bd94bb65e": 1788492969.8742201,
@@ -4209,7 +4216,6 @@
     "19bb4767e88b8fa44ff5": 1788333049.1231565,
     "19bcaaabaf9784c008e0": 1788446151.084773,
     "19bd03d607d9922f9872": 1788424541.1438367,
-    "19e5ee4c7a62a3a5c661": 1787512846.7957995,
     "19e757e3fb7cbcae541d": 1787658934.2413104,
     "19ed9bb17c47e6e9175d": 1787812535.076996,
     "19f110dbeea5b650f4be": 1788100539.3167026,
@@ -4287,6 +4293,7 @@
     "1c0994b866913208f6c3": 1787844938.5628386,
     "1c0f077bf0b0b5587958": 1787565342.161684,
     "1c1e5c718a474159a15e": 1788470442.546328,
+    "1c26b09a64bd2ebbdc39": 1788722446.088338,
     "1c2a91bcb0b3b2931694": 1787907342.458716,
     "1c2e02dd81704f40c02f": 1788240176.2908561,
     "1c3113e8ac5761ffd864": 1787566241.6430428,
@@ -4565,7 +4572,6 @@
     "23613e1e52a8a274103e": 1787649045.5077765,
     "236834cd7b8a340db2a1": 1787824539.1676242,
     "2383c84f1760aca4a583": 1788458143.204621,
-    "23879935b005ac5e2e0d": 1787512846.7958038,
     "238bcce66b639a2ee4fd": 1787659844.7808752,
     "2392bcf5f1232c8d7d73": 1788431735.686273,
     "23ad0359a2096611a98c": 1788320144.714262,
@@ -4955,7 +4961,6 @@
     "2e5e85ca5619d9b8fc1a": 1788459641.7572377,
     "2e6604462db5c6f07d01": 1787657742.0832043,
     "2e7215ec2c9e629415c3": 1787816137.1917772,
-    "2e78c4b20bd5dd97f133": 1787512846.7958047,
     "2e7b9e73570302ecb4d7": 1788351039.4688354,
     "2e8d2302ac7dc1e830fe": 1788530143.0438206,
     "2ea6c5e9b6e7e9ee0cca": 1787830534.411206,
@@ -6548,6 +6553,7 @@
     "5f41cbafd7c919b56106": 1787759758.8927703,
     "5f448e5ad1edc68ccfc2": 1788269742.610794,
     "5f48dbb852b2e8d89451": 1788683744.1421428,
+    "5f51876cfee35847de70": 1788722446.0883315,
     "5f662ade725aa26a4c79": 1788177335.7394166,
     "5f696b945214091758fe": 1788167450.3647954,
     "5f71e86d06a3ba297409": 1788447344.1338995,
@@ -6791,12 +6797,14 @@
     "6673754cbfab92154e8f": 1787741735.0658705,
     "667658f6a9c58e6fccdf": 1788166543.7469773,
     "6677a1b131c14c14d1b4": 1787761251.3354747,
+    "66793db56dd3bad33c01": 1788722446.0883439,
     "667d1e62be4b84e14047": 1787654133.7301137,
     "668cb04a3e0965276e11": 1787567741.358427,
     "669c70ddeb5f029a4254": 1788012652.6881406,
     "669e4df5148a278cd708": 1788705343.88403,
     "66aeb6f93f08f17925e8": 1788010544.2020676,
     "66b16b03b0e4f7557307": 1788081639.3353462,
+    "66b3645441c03101988f": 1788722446.0883486,
     "66b5a30099dd3577e581": 1788544546.1922452,
     "66c10a692fa71208c707": 1788249336.0161715,
     "66c7ad608732f8bac156": 1788160247.869299,
@@ -7528,7 +7536,6 @@
     "7becee595f14abaf0f2f": 1788683744.1421561,
     "7bf296a06b10822dcfd4": 1788696638.2841425,
     "7bfb8bd42c140ea687c5": 1787728241.5570107,
-    "7bffc6fa3bfbb02f220f": 1787512846.7957976,
     "7c0ae21f968556388460": 1788233743.416317,
     "7c15ddce8e08672942c2": 1787574942.3252695,
     "7c199198b6d2ba35745f": 1788375342.8674119,
@@ -8275,7 +8282,6 @@
     "91190497f9b8e5c581d8": 1788589238.0934882,
     "911f2e80dd28388c24dc": 1787944856.1657438,
     "9123fa443a944eeeab6c": 1787826936.6594305,
-    "9124da70381df3936a36": 1787512846.795796,
     "913b33733f5d8a7404bd": 1788261041.5101776,
     "913b4aac602a30222340": 1788522931.3414385,
     "913f0b8805c9157e2015": 1787663452.9814117,
@@ -8440,6 +8446,7 @@
     "96ca62547c05c05221f4": 1788424541.1438267,
     "96cc724c88dfcaf07917": 1788010544.202066,
     "96e141c78f3d91910d78": 1788330942.6164796,
+    "96f97d63efb2e2010359": 1788722446.0883412,
     "9714e0ccdbf4ab0de1fc": 1787602246.9270802,
     "972a6c72433e7932197b": 1788685846.2696552,
     "972d326a67731a91b000": 1788006946.6744711,
@@ -9515,7 +9522,6 @@
     "b75999402cbdbde3d3bb": 1788690948.040005,
     "b75b8f72133c89082461": 1787735167.4505765,
     "b75eea9e8a610ad51072": 1788276944.444291,
-    "b7656879c60bafc1f550": 1787512846.7958028,
     "b766f0ffabbbdecc52cf": 1787586606.6236267,
     "b77188bdbf790c59cefb": 1787983844.5072281,
     "b779efbcb50e62b557f4": 1787916937.1407344,
@@ -11457,7 +11463,6 @@
     "f0f2b838fb742b414edd": 1788032140.3793678,
     "f0fd685b09ab69b9ccf7": 1788172545.7724204,
     "f1060eed3c0540bf3eef": 1788252932.8520215,
-    "f118f2c3021b89b76034": 1787512846.7957942,
     "f11d7da8ba701af76dc6": 1787741735.065859,
     "f121a7bcaa53726ce3ce": 1788256536.0096273,
     "f12dd233b7cf4c04dcf2": 1787939788.027287,
@@ -11814,7 +11819,6 @@
     "fb44df5135ab943ea1c9": 1788538902.3843486,
     "fb49c501cb139b0083ec": 1787772054.216904,
     "fb519ac5887802fe8b4d": 1788170143.2970347,
-    "fb5522b360b8b4d7f3ff": 1787512846.7957897,
     "fb5da692cefcf4404f0e": 1787589337.3695223,
     "fb5eb56ed04f89bd91f5": 1788585647.731011,
     "fb6078ba255eb502abc7": 1788284140.3810873,
@@ -11971,104 +11975,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1788720940.5981598
+      "ts": 1788722446.0883107
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1788720940.5981617
+      "ts": 1788722446.0883124
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1788720940.5981643
+      "ts": 1788722446.0883148
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1788720940.5981686
+      "ts": 1788722446.0883193
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1788720940.598163
+      "ts": 1788722446.0883136
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1788720940.5981274
+      "ts": 1788722446.088304
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1788720940.5981581
+      "ts": 1788722446.0883088
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1788720940.598168
+      "ts": 1788722446.0883183
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1788720940.5981655
+      "ts": 1788722446.0883162
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1788720940.5981665
+      "ts": 1788722446.0883174
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/extraliga-povazska-bystrica-a-kosice-vitazne-2026090519202967913",
-      "p": "Hádzanári MŠK Považská Bystrica úspešne vstúpili do novej sezóny Handball Extraligy. V sobotňajšom stretnutí 1. kola zdolali HC Záhoráci 37:24, pričom už po prvom polčase viedli 24:13. Po sedem gólov zaznamenali Adam Ďurana a na strane hostí Ilja Soldo.",
-      "s": "Šport.sk",
-      "t": "Extraliga: Považská Bystrica spustila gólovú lavínu, Košice zlomili súpera po prestávke",
-      "ts": 1788636044.0872989,
-      "u": "8bdd1c723c760a1fd7b3"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/skriniar-v-derby-skoroval-takmer-sa-pobil-no-na-body-to-nestacilo-2026090519140337939",
-      "p": "Slovenský futbalista Milan Škriniar v 26. minúte poslal Fenerbahce do vedenia v istanbulskom derby proti Besiktasu na domácom štadióne.",
-      "s": "Šport.sk",
-      "t": "VIDEO Škriniar v derby skóroval, takmer sa pobil, no na body to nestačilo",
-      "ts": 1788636044.0873017,
-      "u": "a56eb09203664411044e"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/zomrel-jaroslav-kravarik-legenda-fc-spartak-trnava-2026090519060192281",
-      "p": "Vo veku nedožitých 85 rokov v noci na sobotu 5. septembra zomrel dvojnásobný majster Československa so Spartakom Trnava Jaroslav Kravárik.",
-      "s": "Šport.sk",
-      "t": "So Spartakom vyhral dva tituly. Zomrela legenda trnavského futbalu",
-      "ts": 1788636044.0873039,
-      "u": "836b11fd3ba6c24608b0"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/skriniar-skoroval-pri-prehre-fenerbahc/990161-clanok.html",
-      "p": "Fenerbahce má po štyroch dueloch na konte šesť bodov a je na štvrtej priečke, zatiaľ čo Besiktas je s deviatimi bodmi druhý o bod za Galatasarayom.",
-      "s": "TERAZ.SK",
-      "t": "Škriniar skóroval pri prehre Fenerbahce 1:2 s Besiktasom",
-      "ts": 1788636044.0873053,
-      "u": "288d6d3fc77c79147419"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/kosice-prehrali-aj-druhy-zapas-na-tur/990160-clanok.html",
-      "p": "Hráči HK Dukla Trenčín prehrali v sobotňajšom prípravnom zápase na ľade tímu Viedeň Capitals 0:3.",
-      "s": "TERAZ.SK",
-      "t": "Košice prehrali aj druhý zápas na turnaji v Taliansku",
-      "ts": 1788636044.0873063,
-      "u": "e70c9ae76516267ab996"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/zostrihy-zapasu-mfk-zemplin-michalovce-as-trencin-2026090519503259574",
       "p": "Futbalisti MFK Zemplín Michalovce vyhrali v rámci 7. kola doma nad AS Trenčín 3:1. V 37. minúte za stavu 1:0 pre východniarov hlavný rozhodca vylúčil Martina Koscelníka, no to domácich nezastavilo a pridali ešte dva góly.",
@@ -13372,6 +13336,30 @@
       "t": "Turkyne obhájili titul z volejbalových ME, vo finále zdolali Talianky",
       "ts": 1788720940.5983875,
       "u": "bfc792976ba9bf4c639a"
+    },
+    {
+      "l": "https://sport.aktuality.sk/motosport/clanok/formula-1-lewis-hamilton-chce-zmeny-vo-ferrari-2026090618313983564",
+      "p": "Sedemnásobný majster sveta Lewis Hamilton vyzval vedenie Ferrari, aby po incidente so svojím tímovým kolegom Charlesom Leclercom na začiatku pretekov zaviedlo interné pravidlá pre súboje na trati.",
+      "s": "Šport.sk",
+      "t": "Hamilton kritizuje Ferrari. Chce rázne zmeny",
+      "ts": 1788722446.088346,
+      "u": "66793db56dd3bad33c01"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/liga-majstrov-jeden-zo-superov-nitry-rozstrielal-supera-dalsi-prehral-2026090619050432113",
+      "p": "Hokejisti Skelleftea AIK zvíťazili aj vo svojom druhom zápase základnej časti Ligy majstrov. Premožitelia HK Nitra z 1. kola triumfovali na ľade nemeckého Adler Mannheim 3:1.",
+      "s": "Šport.sk",
+      "t": "Liga majstrov: Jeden zo súperov Nitry rozstrieľal súpera, ďalší prehral",
+      "ts": 1788722446.088348,
+      "u": "13cce49c98bde5fd537d"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/trnava-remizovala-v-ruzomberku-11-v-z/990292-clanok.html",
+      "p": "Ružomberok je posledný, získal len druhý bod v sezóne.",
+      "s": "TERAZ.SK",
+      "t": "Trnava remizovala v Ružomberku 1:1 v zápase 7. kola Niké ligy",
+      "ts": 1788722446.088349,
+      "u": "66b3645441c03101988f"
     }
   ],
   "sport_source_status": {
@@ -13379,25 +13367,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1788720940.5981705
+      "ts": 1788722446.0883212
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1788720940.5981734
+      "ts": 1788722446.088323
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1788720940.5981758
+      "ts": 1788722446.0883253
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1788720940.5981748
+      "ts": 1788722446.0883243
     }
   }
 }
