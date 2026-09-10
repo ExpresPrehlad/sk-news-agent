@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Prieskum NMS: PS vedie, Republika doťahuje Smer",
-      "ts": 1789030542.3263044
-    },
-    {
-      "headline": "Súd odsúdil ekvádorského exprezidenta Bucarama",
-      "ts": 1789030542.3263044
-    },
-    {
-      "headline": "Hraničný priechod medzi Nemeckom a Švajčiarskom uzavreli",
-      "ts": 1789030542.3263044
-    },
-    {
-      "headline": "Izraelský útok v Pásme Gazy si vyžiadal obete",
-      "ts": 1789030542.3263044
-    },
-    {
-      "headline": "Štát žiada od poisťovne Dôvera 15 miliónov eur",
-      "ts": 1789030542.3263044
-    },
-    {
       "headline": "Prieskum NMS: PS vedie, Republika sa doťahuje na Smer",
       "ts": 1789031449.7016482
     },
@@ -199,227 +179,96 @@
     {
       "headline": "Odborníci varujú pred nárastom samovrážd u mladých",
       "ts": 1789043749.3122563
+    },
+    {
+      "headline": "ECB zvyšuje úrokové sadzby, hypotéky na Slovensku budú ďalej dražieť",
+      "ts": 1789044950.5163834
+    },
+    {
+      "headline": "Požiar nákladnej lode v čínskom prístave si vyžiadal desiatky obetí",
+      "ts": 1789044950.5163834
+    },
+    {
+      "headline": "Štát bude musieť zamestnancom doplácať rozdiel do minimálnej mzdy",
+      "ts": 1789044950.5163834
+    },
+    {
+      "headline": "Súd potvrdil návrat odvolaného funkcionára do vedenia policajnej inšpekcie",
+      "ts": 1789044950.5163834
+    },
+    {
+      "headline": "Progresívne Slovensko chce zamedziť voľbe obvinených poslancov za predsedov výborov",
+      "ts": 1789044950.5163834
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Súdy vracajú do vedenia inšpekcie odvolaného funkcionára",
+        "headline": "ECB zvyšuje úrokové sadzby, hypotéky na Slovensku budú ďalej dražieť",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2039381-hypoteky-zdrazia-europska-centralna-banka-zvysila-urokove-sadzby/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/index/c/ani-prima-banka-neodolala-trendu-zdrazovanie-hypotek-je-potvrdene-a-nezastavi-sa"
+          ]
+        ],
+        "perex": "Európska centrálna banka vo štvrtok pristúpila k zvýšeniu úrokových sadzieb v snahe bojovať s pretrvávajúcou infláciou. K trendu zdražovania hypoték sa už oficiálne pripojila aj Prima banka."
+      },
+      {
+        "headline": "Požiar nákladnej lode v čínskom prístave si vyžiadal desiatky obetí",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/domov/c/sutaj-estok-pohorel-v-dalsom-spore-sudy-mu-vracaju-do-vedenia-inspekcia-odvolaneho-svitka"
-          ],
+            "https://www.sme.sk/svet/c/pri-poziari-nakladnej-lode-vo-vychodocinskom-pristave-zomrelo-dvadsatpat-ludi"
+          ]
+        ],
+        "perex": "Na palube nákladnej lode plávajúcej pod zahraničnou vlajkou v prístave Čching-tao vypukol ničivý požiar. Incident si podľa dostupných informácií vyžiadal 25 obetí."
+      },
+      {
+        "headline": "Štát bude musieť zamestnancom doplácať rozdiel do minimálnej mzdy",
+        "links": [
+          [
+            "Denník N",
+            "https://e.dennikn.sk/5552536/stat-bude-musiet-svojim-zamestnancom-opat-doplacat-rozdiel-do-minimalnej-mzdy/"
+          ]
+        ],
+        "perex": "Od januára sa minimálna mzda zvýši na 972 eur, pričom tabuľkové platy vo verejnej správe sa automaticky neupravia. Zamestnávatelia budú povinní doplácať rozdiel každému zamestnancovi, ktorý nedosiahne stanovenú hranicu."
+      },
+      {
+        "headline": "Súd potvrdil návrat odvolaného funkcionára do vedenia policajnej inšpekcie",
+        "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/tfT0eGr/curillovec-by-sa-mal-vratit-na-vedenia-inspekcie-u-matusa-sutaja-estoka-vyhral-druhy-sud/"
           ]
         ],
-        "perex": "Správny súd rozhodol v prospech Juraja Svítka, ktorého minister vnútra Matúš Šutaj Eštok odvolal z vedenia policajnej inšpekcie. Rozhodnutie súdu je právoplatné a znamená návrat odvolaného funkcionára do funkcie."
+        "perex": "Správny súd rozhodol v prospech Juraja Svítka, ktorého minister vnútra Matúš Šutaj Eštok odvolal z vedenia inšpekcie. Rozhodnutie o jeho návrate do funkcie je už právoplatné."
       },
       {
-        "headline": "Minister Takáč ohlásil výzvy na budovanie závlah",
+        "headline": "Progresívne Slovensko chce zamedziť voľbe obvinených poslancov za predsedov výborov",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/domov/c/rezort-podohospodarstva-vypisal-vyzvy-na-budovanie-zavlah"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2039319-stat-rozda-takmer-35-milionov-eur-kto-moze-dostat-peniaze-a-kolko"
+            "https://www.sme.sk/domov/c/progresivne-slovensko-predlozilo-novelu-rokovacieho-poriadku-riesi-fungovanie-vyborov"
           ]
         ],
-        "perex": "Rezort pôdohospodárstva vyčlenil takmer 35 miliónov eur na štyri projektové výzvy zamerané na rozširovanie a budovanie závlah. Podpora pre poľnohospodárov môže v rámci týchto projektov dosiahnuť až 100 percent."
-      },
-      {
-        "headline": "Scania odmieta pochybenia pri dodávke hasičských vozidiel",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/scania-dodala-hasicom-nove-vozidla-a-deklaruje-spolupracu-pri-vysetrovani"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2039331-policia-zaistila-hasicske-auto-za-miliony-scania-teraz-vysvetluje-co-je-pravda-o-vin-a-veku-vozidiel"
-          ]
-        ],
-        "perex": "Spoločnosť Scania Slovakia reaguje na zaistenie hasičských áut políciou a odmieta akúkoľvek manipuláciu s VIN číslami či rokom výroby. Firma tvrdí, že vozidlá boli dodané v súlade s podmienkami verejného obstarávania."
-      },
-      {
-        "headline": "Apple predstavil skladací iPhone Duo",
-        "links": [
-          [
-            "Denník N",
-            "https://e.dennikn.sk/5549883/apple-predstavil-najocakavanejsi-iphone-dekady-skladaci-duo/"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/tW4tw6B/prve-skusenosti-s-iphonom-duo-8-detailov-ktore-pri-predstaveni-lahko-unikli/"
-          ]
-        ],
-        "perex": "Spoločnosť Apple na svojom septembrovom podujatí uviedla na trh skladací model iPhone Duo, ktorý označuje za svoj najradikálnejší redizajn za posledné dve dekády. Novinka má byť kľúčovým produktom pre ďalšie smerovanie značky."
-      },
-      {
-        "headline": "Odborníci varujú pred nárastom samovrážd u mladých",
-        "links": [
-          [
-            "Denník N",
-            "https://dennikn.sk/5553058/sedem-ludi-na-hrane-zivota-a-smrti-denne-na-ukoncenie-zivota-myslelo-vlani-15-tisic-ludi/"
-          ],
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1257333-smutne-cisla-na-svetovy-den-prevencie-samovrazd-pokusov-pribuda-medzi-mladymi-dievcatami"
-          ]
-        ],
-        "perex": "Pri príležitosti Svetového dňa prevencie samovrážd upozornili odborníci na alarmujúci nárast pokusov o ukončenie života medzi mladými dievčatami. V minulom roku na Slovensku evidovali 509 dokonaných samovrážd."
+        "perex": "Hnutie PS predložilo novelu rokovacieho poriadku, ktorá má znemožniť zvolenie poslanca obžalovaného z korupcie do čela výboru. Návrh rieši aj situácie, keď sa výbor stane uznášanianeschopným."
       }
     ],
-    "ts": 1789043749.3122435
+    "ts": 1789044950.5163746
   },
   "meta": {
-    "last_collection_ts": 1789043736.7873514,
+    "last_collection_ts": 1789044943.023492,
     "last_feed_error_ts": 1789034142.4015675,
     "last_llm_error_ts": 1789025808.5231056,
-    "last_run_ts": 1789043738.3273757,
-    "last_synthesis_ts": 1789043749.312238
+    "last_run_ts": 1789044943.4431527,
+    "last_synthesis_ts": 1789044950.5163693
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/ministerstvo-obrany-vyhlasilo-verejne-obstaravanie-na-novu-nemocnicu-v-bratislavskych-vajnoroch?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Súťaž vyhlásili prostredníctvom Ústrednej vojenskej nemocnice SNP Ružomberok.",
-      "pub": 1788958327.0,
-      "s": "SME",
-      "t": "Ministerstvo obrany vyhlásilo verejné obstarávanie na novú nemocnicu v bratislavských Vajnoroch",
-      "ts": 1788958534.7870014,
-      "u": "d7bb16e8e25416cd072e"
-    },
-    {
-      "l": "https://www.sme.sk/index/c/mesta-v-eu-dostanu-ucinnejsiu-zbran-proti-airbnb?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Krátkodobé prenájmy výrazne zhoršujú dostupnosť bývania.",
-      "pub": 1788958264.0,
-      "s": "SME",
-      "t": "Mestá v EÚ dostanú účinnejšiu zbraň proti Airbnb",
-      "ts": 1788958534.7870054,
-      "u": "7fa169d4ed198a49ea1d"
-    },
-    {
-      "l": "https://www.sme.sk/komentare/c/vzor-pre-afd-meloniova-odhodila-radikalizmus-a-stala-sa-rekorderkou-vo-vladnuti-taliansku-klucova-vec-sa-jej-vsak-nepodarila?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Meloniová ani Le Penová sa k AfD nehlásia. Na rozdiel od Trumpa jej ani negratulovali.",
-      "pub": 1788957381.0,
-      "s": "SME",
-      "t": "Vzor pre AfD? Meloniová odhodila radikalizmus a stala sa rekordérkou vo vládnutí Taliansku. Kľúčová vec sa jej však nepodarila",
-      "ts": 1788958534.787008,
-      "u": "4cfc75774ca52d0f9896"
-    },
-    {
-      "l": "https://www.sme.sk/index/c/zateplovanie-dotacie-obnov-dom-mini-plus-podmienky?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Prihlasovanie do novej výzvy sa zrejme zjednoduší.",
-      "pub": 1788957346.0,
-      "s": "SME",
-      "t": "Prečo narýchlo odsunuli výzvu na obnovu domov? Tarabove vysvetlenie naráža na realitu",
-      "ts": 1788958534.7870092,
-      "u": "610151e4d1dd10d01794"
-    },
-    {
-      "l": "https://www.sme.sk/index/c/elektrarne-planuju-zvysit-vykon-jadrovych-reaktorov-v-mochovciach?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zvýšenie bude možné vďaka využitiu projektových rezerv.",
-      "pub": 1788957793.0,
-      "s": "SME",
-      "t": "Elektrárne plánujú zvýšiť výkon jadrových reaktorov v Mochovciach",
-      "ts": 1788958534.7870114,
-      "u": "85c16e496ec883592904"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVEt4bGQ2S3ZLenZocnZZSG1MMHpLdmRTWlBhbl9kdWd6RXhudW5FOVc5aDNYRXplVGNBZGpsdko0WHJsRFVGWWdGTDR6WG1jTy1FX3QtZ0VSbGtIZUZDeUEwb0FDOUJrY05yalFKaGFvZ3FQZnZaM0ZqSld1Wm5yZQ?oc=5",
-      "p": "Mestá v EÚ dostanú účinnejšiu zbraň proti Airbnb SME.sk",
-      "pub": 1788958311.0,
-      "s": "SME (GNews)",
-      "t": "Mestá v EÚ dostanú účinnejšiu zbraň proti Airbnb - SME.sk",
-      "ts": 1788958534.787013,
-      "u": "1dd5a0ff78a2fde7ae86"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBBTEhndjBiXy05TVh6c1hrNjd6RnFPUi0tX0xUOVUzNVFqMHZmYXZXUXpkRktjdzY3MDhxT3pBR1FUQQ?oc=5",
-      "p": "Najnovšie články na SME.sk SME.sk",
-      "pub": 1466482632.0,
-      "s": "SME (GNews)",
-      "t": "Najnovšie články na SME.sk - SME.sk",
-      "ts": 1788958534.787015,
-      "u": "215c009fe88b88fd389f"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYlU4S1Y5azZEQ0MtcDAxdWdNZURWemk2LWZ5aGZtSjRsYmdlUTZIZnpTN3JRTFhoZ3RvS190ZzE5Z0Vzd1loaDNVSzh3cGtHT3NnUEYtSEc5alRyblQ1NDA5Z1RtTW42QTRlbl9XUzFHMFd2Z0MzUTFsWEQ3RGNwb0w1RQ?oc=5",
-      "p": "Prečo narýchlo odsunuli výzvu na obnovu domov? Tarabove vysvetlenie naráža na realitu SME.sk",
-      "pub": 1788957406.0,
-      "s": "SME (GNews)",
-      "t": "Prečo narýchlo odsunuli výzvu na obnovu domov? Tarabove vysvetlenie naráža na realitu - SME.sk",
-      "ts": 1788958534.7870166,
-      "u": "7f6f8a620195847eeff2"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/lgJXbeR/budvar-ukazuje-ze-tradicia-neznamena-zostat-stat/",
-      "p": "Držať sa vlastných princípov neznamená odmietať zmeny. Menia sa spotrebiteľské návyky, technológie aj príležitosti, pri ktorých ľudia pivo pijú. Aj tradičná značka preto musí vedieť reagovať na to, čo od nej spotrebitelia očakávajú.",
-      "pub": 1788957000.0,
-      "s": "Aktuality",
-      "t": "Budvar ukazuje, že tradícia neznamená zostať stáť",
-      "ts": 1788958534.787018,
-      "u": "53732a32bc13649585cb"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/inzercia/clanok/2038663-tauris-stavia-na-kvalite-potvrdilo-to-aj-vyznamne-ocenenie-ministerstva?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Kvalita, to je jeden zo základných pilierov, na ktorom stojí spoločnosť TAURIS.",
-      "pub": 1788958021.0,
-      "s": "Pravda",
-      "t": "TAURIS stavia na kvalite. Potvrdilo to aj významné ocenenie ministerstva",
-      "ts": 1788958534.7870195,
-      "u": "1e07ef78b6917160dcfd"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regiony/clanok/2038651-policia-obvinenie-muz-tyranie-druzka?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Vyšetrovateľ obvinil 43-ročného muža z okresu Senica z týrania jeho družky, s ktorou býval v spoločnej domácnosti v Bratislave. Informovala o tom bratislavská krajská polícia na sociálnej sieti. Podotkla, že vzhľadom na okolnosti prípadu bol spracovaný podnet na podanie návrhu na väzobné stíhanie ob",
-      "pub": 1788957979.0,
-      "s": "Pravda",
-      "t": "Mal jej odopierať spánok, ničiť veci, nakoniec ju mal napadnúť. Polícia obvinila muža z týrania družky",
-      "ts": 1788958534.7870219,
-      "u": "4e5b633a98b8b964a45e"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2038655-pribeh-pokracuje-11-septembra-2001-ma-z-rozpadavajucej-sa-budovy-vyniesli-dvaja-urasteni-hasici-tvrdi-trump?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Americký prezident Donald Trump opäť rozšíril svoj dlhoročný príbeh o tom, ako sa zapojil do udalostí po teroristických útokoch z 11. septembra 2001, tentoraz tvrdením, že ho dvaja hasiči odniesli do bezpečia od údajne nestabilnej budovy, informoval denník The New York Times.",
-      "pub": 1788957867.0,
-      "s": "Pravda",
-      "t": "Príbeh pokračuje. 11. septembra 2001 ma z rozpadávajúcej sa budovy vyniesli dvaja urastení hasiči, tvrdí Trump",
-      "ts": 1788958534.7870233,
-      "u": "ae87de6e136fd9cc5277"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/otvorena-kultura-s-machalom-mala-byt/991049-clanok.html",
-      "p": "Vláda na stredajšom rokovaní odvolala z funkcie generálneho tajomníka služobného úradu MK SR Lukáša Machalu a zároveň vymenovala jeho nástupcu - Ivana Gašpara.",
-      "pub": 1788957180.0,
-      "s": "Teraz.sk",
-      "t": "Otvorená kultúra: S Machalom mala byť odvolaná i ministerka",
-      "ts": 1788958534.787025,
-      "u": "3647b10f669d2aa05280"
-    },
-    {
-      "l": "https://www.noviny.sk/pr-spravy/1256915-tauris-stavia-na-kvalite-potvrdilo-to-aj-vyznamne-ocenenie-ministerstva",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "TAURIS stavia na kvalite. Potvrdilo to aj významné ocenenie ministerstva",
-      "ts": 1788958534.7870264,
-      "u": "6853e3b89cf592999157"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1256918-ustavny-sud-rozhodol-zmeny-v-disciplinarnych-senatoch-najvyssieho-spravneho-sudu-su-protiustavne",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Ústavný súd rozhodol: Zmeny v disciplinárnych senátoch Najvyššieho správneho súdu sú protiústavné",
-      "ts": 1788958534.7870286,
-      "u": "375ccc1275c168c74b68"
-    },
     {
       "l": "https://www.sme.sk/domov/c/paradajky-uz-dopestujete-aj-na-orave-na-juhozapade-sa-moze-darit-figam-aj-olivam?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Ako zmena klímy mení pestovanie plodín.",
@@ -4964,6 +4813,78 @@
       "t": "Šutaj Eštok prehral ďalší spor: Do vedenia policajnej inšpekcie by sa mal vrátiť odvolaný Juraj Svitok",
       "ts": 1789043738.3265617,
       "u": "dca6ceb4a562077942a5"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/pri-poziari-nakladnej-lode-vo-vychodocinskom-pristave-zomrelo-dvadsatpat-ludi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Celkovo bolo na palube 42 ľudí.",
+      "pub": 1789044481.0,
+      "s": "SME",
+      "t": "Pri požiari nákladnej lode vo východočínskom prístave zomrelo dvadsaťpäť ľudí",
+      "ts": 1789044943.441931,
+      "u": "4c7610ca32170dc6a2f6"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/ani-prima-banka-neodolala-trendu-zdrazovanie-hypotek-je-potvrdene-a-nezastavi-sa?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "ECB zvyšuje kľúčové sadzby.",
+      "pub": 1789043964.0,
+      "s": "SME",
+      "t": "Ani Prima banka neodolala trendu. Zdražovanie hypoték je potvrdené a nezastaví sa",
+      "ts": 1789044943.4421287,
+      "u": "3a7b42085e32835978cf"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/0sQhWiX/nato-odhalilo-ruske-ponorky-pri-svalbarde-mali-cvicit-utok-na-podmorske-kable/",
+      "p": "Británia, Nórsko a USA mali podľa západných predstaviteľov zasiahnuť proti ruským plavidlám pri výcviku tajnej jednotky GUGI. Moskva mala simulovať útok na kritickú infraštruktúru.",
+      "pub": 1789044812.0,
+      "s": "Aktuality",
+      "t": "NATO odhalilo ruské ponorky pri Svalbarde. Mali cvičiť útok na podmorské káble",
+      "ts": 1789044943.4421313,
+      "u": "8219a4b7560f829fc0c4"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/BJCldE4/video-pastny-suboj-priamo-v-premavke-policia-hlada-svedkov-bitky-v-bratislave/",
+      "p": "Na zjazde z bratislavského mosta SNP sa pobili kuriéri dvoch doručovacích služieb priamo medzi autami. Polícia hľadá svedkov na objasnenie priebehu konfliktu.",
+      "pub": 1789044421.0,
+      "s": "Aktuality",
+      "t": "VIDEO: Pästný súboj priamo v premávke. Polícia hľadá svedkov bitky v Bratislave",
+      "ts": 1789044943.442133,
+      "u": "ae0a8ce1ad2b84df833d"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/VkUfgXJ/europska-centralna-banka-zvysila-urokove-sadzby/",
+      "p": "Sadzu zvýšili v snahe bojovať s infláciou, ktorú podporuje aj vojna v Iráne.",
+      "pub": 1789043891.0,
+      "s": "Aktuality",
+      "t": "Európska centrálna banka zvýšila úrokové sadzby",
+      "ts": 1789044943.442134,
+      "u": "5394ba8e131a2409c838"
+    },
+    {
+      "l": "https://dennikn.sk/5550850/vyvoj-bojov-1659-den-rusi-nebrzdia-na-armadu-davaju-tento-rok-o-tretinu-viac-ako-vlani/",
+      "p": "Informácie v tomto texte sú zhrnutím udalostí za stredu 9. septembra. Situácia už môže byť medzičasom iná. Keď nedávno vystúpil Vladimir Putin na ekonomickej konferencii vo Vladivostoku, snažil sa vzbudiť dojem, že ruská ekonomika je v poriadku. „Nič kritické sa nedeje,“ povedal ruský prezident. Nap",
+      "pub": 1789044386.0,
+      "s": "Denník N",
+      "t": "Vývoj bojov (1659. deň): Rusi nebrzdia – na armádu dávajú tento rok o tretinu viac ako vlani",
+      "ts": 1789044943.442136,
+      "u": "f2d1a9c42cb2b22aee8f"
+    },
+    {
+      "l": "https://e.dennikn.sk/5552536/stat-bude-musiet-svojim-zamestnancom-opat-doplacat-rozdiel-do-minimalnej-mzdy/",
+      "p": "Zamestnanci by mali od januára zarábať najmenej 972 eur. Tabuľkové platy vo verejnej a štátnej správe sa na túto sumu automaticky nezvýšia, ale zamestnávatelia budú musieť doplatiť každému zamestnancovi rozdiel do výšky novej minimálnej mzdy, pokiaľ jeho tabuľkový plat nedosiahne túto úroveň. Keď sú",
+      "pub": 1789044310.0,
+      "s": "Denník N",
+      "t": "Štát bude musieť svojim zamestnancom opäť doplácať rozdiel do minimálnej mzdy",
+      "ts": 1789044943.442139,
+      "u": "26d7820a7def871ab5bd"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2039381-hypoteky-zdrazia-europska-centralna-banka-zvysila-urokove-sadzby?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Európska centrálna banka (ECB) vo štvrtok zvýšila svoje úrokové sadzby.",
+      "pub": 1789044584.0,
+      "s": "Pravda",
+      "t": "Hypotéky pôjdu nahor. Európska centrálna banka zvýšila úrokové sadzby",
+      "ts": 1789044943.4421403,
+      "u": "a5f5ace1a3201029c7a7"
     }
   ],
   "recent_alerts": [
@@ -5570,6 +5491,15 @@
       "reason": "Eskalácia konfliktu v strategicky dôležitej oblasti Červeného mora s potenciálnym globálnym dopadom na bezpečnosť námornej dopravy a energetickú stabilitu.",
       "title": "Húsíovia ovládli strategické mesto pri Červenom mori. Postupujú k dôležitému prielivu",
       "ts": 1789042243.9922333
+    },
+    {
+      "links": [
+        "https://www.aktuality.sk/clanok/0sQhWiX/nato-odhalilo-ruske-ponorky-pri-svalbarde-mali-cvicit-utok-na-podmorske-kable/"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Ide o potvrdenú simuláciu útoku na kritickú infraštruktúru zo strany Ruska v blízkosti spojencov NATO, čo predstavuje zásadný bezpečnostný incident s európskym dosahom.",
+      "title": "NATO odhalilo ruské ponorky pri Svalbarde. Mali cvičiť útok na podmorské káble",
+      "ts": 1789044946.4762595
     }
   ],
   "seen": {
@@ -5709,7 +5639,6 @@
     "0442a563a409075fe7fb": 1788784541.7867584,
     "04454810f63115388137": 1788875740.0140808,
     "0448d1a00bc53fbb592e": 1788078041.9947994,
-    "0453e4fc9c4087adfc96": 1787835348.7195008,
     "0457b3b76b52084c2463": 1788323733.8996224,
     "045d8dc0926b846c2f9f": 1788348936.2748163,
     "045e238fa8edca88a174": 1789041346.290123,
@@ -5779,7 +5708,6 @@
     "05bcd09c3c44831dcf00": 1788461751.667782,
     "05bdfa099764303649e8": 1788183334.983394,
     "05d016b4baa6738e06cb": 1788544546.1922402,
-    "05d3f975fbbac874dfbe": 1787835348.7195034,
     "05d8aeaab691251c7a5c": 1788346534.2172797,
     "05d9178d5bccac868764": 1788023496.6183307,
     "05db2db330d5fe79b9ac": 1788253840.679502,
@@ -6054,6 +5982,7 @@
     "0de56a7a7623d9f0329e": 1788936938.526925,
     "0de656b21b3eefc6b4b6": 1788940534.485232,
     "0ded7fe2b7975608da28": 1789036535.5780616,
+    "0dedde96e27c86854ad3": 1789044943.4421415,
     "0df0ea9138650a59baca": 1788109843.0915785,
     "0dffdb95f82e6323a737": 1787974533.3224335,
     "0e013053545a302c5b70": 1788448241.9783034,
@@ -6189,7 +6118,6 @@
     "12522dee5c87d7eb3c13": 1788842152.857488,
     "1253f53a4aefcc8c638f": 1788519341.531134,
     "125accec45d2ca19d182": 1787941250.2564645,
-    "12632adf78e9df54e72b": 1787835348.7195165,
     "126661e86a9625ee97b4": 1788777339.8511846,
     "12666f5a2da6275b1c23": 1788980135.8540802,
     "126ca68679d72041daea": 1788893738.9294205,
@@ -6705,6 +6633,7 @@
     "21e1c645b9ef18ad6ee5": 1788322250.2216713,
     "21e29081a68401119c1c": 1788188151.5732226,
     "21ead2d213cdab49073c": 1787888142.736438,
+    "21ece40a6c3c3a1b0593": 1789044943.4421577,
     "21f4381e92a6b56a5630": 1788436548.0898747,
     "21fa295b80a21dd980cc": 1788690948.0399802,
     "220304ce9cea8a54f50b": 1788195337.223493,
@@ -6856,6 +6785,7 @@
     "26bffa287fae79e468e9": 1788252932.85202,
     "26c5989127eea6892067": 1788271840.877876,
     "26c6cae9be9d5e2bfba1": 1788777339.851194,
+    "26d7820a7def871ab5bd": 1789044943.442137,
     "26e025132791ac153095": 1787999743.397116,
     "26e27704656fe7f638ca": 1788196848.5580678,
     "26e3f70813b5739c16d1": 1788174649.4711041,
@@ -6969,7 +6899,6 @@
     "2993ace7018010c83074": 1787920543.0178967,
     "299f444e68074e72bfe3": 1788808239.7626069,
     "29a5e90d3721c64098c4": 1788345344.308499,
-    "29c4c3dd043bfa5ce244": 1787835348.719507,
     "29c75a4c784dae5a7f5c": 1788863737.1502712,
     "29cbd98443271c1071dd": 1788436548.0898728,
     "29cbfc9aabf4788253af": 1788262540.748332,
@@ -7127,6 +7056,7 @@
     "2e5456c42b249e340333": 1788157248.359421,
     "2e55b035a07d4d290f3e": 1788780934.2220776,
     "2e57569a5e5bbb385e49": 1788360938.7122588,
+    "2e5954a855b801b8cd70": 1789044943.4421456,
     "2e5c37170843198b8d34": 1787856943.3970323,
     "2e5e85ca5619d9b8fc1a": 1788459641.7572377,
     "2e69135090994e77da7d": 1788888049.6257608,
@@ -7358,6 +7288,7 @@
     "34ea722c999a52f810fa": 1788811842.2815242,
     "34f01a4106ee9bf769ff": 1788788142.9383392,
     "34f76d2aeb0bb7dce409": 1788815449.3972986,
+    "34f9906d2671a37b621f": 1789044943.4421535,
     "34ffe7c3b483d7306a39": 1788492969.8742063,
     "3512b5a303ca10239aca": 1788245332.8137648,
     "351e667942b97f2b301c": 1788012652.6881342,
@@ -7547,6 +7478,7 @@
     "3a69fce190f19fc796b2": 1787888142.7364068,
     "3a69fd799ec60b82c8d4": 1788070850.294857,
     "3a6ec0ee04ec026892f5": 1788714011.3370378,
+    "3a7b42085e32835978cf": 1789044943.4421263,
     "3a7e62c15e778f54b50f": 1788255335.3317685,
     "3a7fb72a708818e33cd5": 1787983844.5072153,
     "3a85a9ca103652e95359": 1788932141.489579,
@@ -7981,6 +7913,7 @@
     "470b000e6ad89277e05d": 1788070850.294853,
     "4722a1da3887b747666b": 1789011338.392315,
     "47239422d5783dabeeca": 1788257445.1785698,
+    "47278cc95c72fb918f1e": 1789044943.4421628,
     "47450d5f58fec55b5d1d": 1788527443.6761856,
     "47453e83805484110b77": 1788100539.3166897,
     "4751740f161934653f65": 1788530143.043817,
@@ -8158,6 +8091,7 @@
     "4c659da0d18765220ddd": 1788021339.2488482,
     "4c6d3a5d02c7275ead6f": 1788942943.1287181,
     "4c6ef8a6fba5f07b6f84": 1788609331.640924,
+    "4c7610ca32170dc6a2f6": 1789044943.441927,
     "4c7abbb79f51068e5084": 1789042241.5031624,
     "4c7c5292e2d3bb18e445": 1788950141.1873014,
     "4c7d261113890136f717": 1788610863.178608,
@@ -8199,6 +8133,7 @@
     "4d5250227ab0e8be9482": 1787849759.8519962,
     "4d586d690ec93a18d51e": 1788767733.5711617,
     "4d6244fd16ad3f3a2f7f": 1788161740.2956557,
+    "4d6773ac42f72b5e5935": 1789044943.4421566,
     "4d6e0c3a2aba4a24212f": 1788498652.7723908,
     "4d76685a046a4eb39a51": 1788981649.1430795,
     "4d7a47de1244933f7aa8": 1788944170.0994594,
@@ -8251,6 +8186,7 @@
     "4f2448e384efef0c5551": 1788520250.1493566,
     "4f2f67dd13524a969b88": 1788596445.869146,
     "4f395e3b65c790b4df2a": 1788360938.7122724,
+    "4f3eecce4e6ff212f1d3": 1789044943.4421523,
     "4f40ce04697ef7421a68": 1788074444.6462197,
     "4f4113c5ef9e8f880117": 1788193247.8996255,
     "4f4447cd873560a15b48": 1788974454.0226629,
@@ -8402,6 +8338,7 @@
     "537353027ebc8400628e": 1788536142.1149144,
     "5380f741ee9cc4c13ef9": 1788780934.222086,
     "538c45a54a9fe9639f94": 1788166543.746975,
+    "5394ba8e131a2409c838": 1789044943.4421334,
     "539d1e37201b275b2add": 1788406542.1125453,
     "53b30d0a6cab43727594": 1788102640.9562109,
     "53b3614119b748885a51": 1788980135.8540897,
@@ -8452,6 +8389,7 @@
     "551f8421a43d181bf02d": 1788838537.0134816,
     "55223a660f49c1296261": 1788944170.0994556,
     "55227ce3a72752125f19": 1788273345.1029305,
+    "5522ceb86a773fa6fac2": 1789044943.442164,
     "55233a428bd93f5f9936": 1787991061.3627558,
     "5526a4fe4f32a3343845": 1788696638.284135,
     "55377e96612702a34e8a": 1788346534.2172902,
@@ -8463,7 +8401,6 @@
     "555effef1f61799b7b97": 1788605740.6428623,
     "556482398e01bf734449": 1788442553.1046286,
     "5565b29be572c561c1c9": 1788630938.1992671,
-    "556de74bac4bcb11d50e": 1787835348.719496,
     "557af2444771dc2e52cb": 1788930647.1668472,
     "5581ff651050bfb9b609": 1788233743.4162881,
     "55822eca9769c24214d7": 1788178243.5002446,
@@ -8834,6 +8771,7 @@
     "602ccdc3f2c54aac229b": 1787853338.6358278,
     "602eccd28a4e9c6a52ee": 1788459641.757452,
     "6032e114ae969e31fe32": 1788329458.4662564,
+    "6034de9b816f4130e1e1": 1789044943.4421613,
     "6036d65f99ca843a8bec": 1788448241.9782934,
     "60386dfa3821226051aa": 1788970848.6206093,
     "603e7865ebbd0676a5fd": 1788099045.022979,
@@ -8942,7 +8880,6 @@
     "62ecb6ec0f92deec03ee": 1788671449.1927993,
     "62f503a8c7fe2b4a8f2d": 1788864940.6154068,
     "62f52cad35d951bac9e0": 1788269742.6107874,
-    "63155b9f978aa252c627": 1787835348.719509,
     "631b65b781c825256690": 1788378942.1823742,
     "631b939148b5972f4d97": 1788842152.8574817,
     "6325d0ece9fc7ae16c02": 1788952241.6030777,
@@ -8979,6 +8916,7 @@
     "63f18f989b03092537ca": 1787903739.5506954,
     "63f73c55c1a23efb1cf0": 1787842547.009687,
     "640edf98338deaf381fe": 1788095448.2656896,
+    "6418ed402ba1ec398495": 1789044943.4421601,
     "641d6b18a034e4beafc3": 1788440138.5447867,
     "641d848bec851c083f49": 1788030639.2262256,
     "641e95acee7a6aea8e21": 1787836241.9758854,
@@ -9075,7 +9013,6 @@
     "66c881523996b9fd8a05": 1788069387.7888336,
     "66cc7a4d99fb1ada3286": 1788985240.566126,
     "66de21e98d13003f2c62": 1788470442.5463324,
-    "66f4fabe68266e9481ac": 1787835348.7195017,
     "66f7b8505f17b9bdeb00": 1787974533.322436,
     "66fff22a64b05faf355c": 1787897450.1460643,
     "6709b3961d05f1024849": 1788714011.3370435,
@@ -9095,7 +9032,6 @@
     "676ed5fa30bfe62417fd": 1788446151.0847657,
     "676f8b1bf0fa4b0b110d": 1788638132.7129223,
     "6783ecc878f835c79d10": 1788278142.422435,
-    "6786745c5684ac9a4833": 1787835348.7195125,
     "678b6d59fb7da84c66cf": 1788873052.3168418,
     "6790eff12664c5c06688": 1788851448.12111,
     "679ca0172f81d4b97d7f": 1788336641.9314294,
@@ -9996,6 +9932,7 @@
     "81fd58481261600b97cc": 1788876714.9151099,
     "8203e08671ece35a862f": 1788320144.714253,
     "821532dba8526c6411f9": 1789041346.2901304,
+    "8219a4b7560f829fc0c4": 1789044943.4421299,
     "821c8d84c0e2dedb8e36": 1788874545.5879307,
     "821d906f3883296af1d9": 1787913343.3502612,
     "8225463969402a726b5e": 1788762942.4664428,
@@ -10132,6 +10069,7 @@
     "861b66f47e22d48a0cad": 1788858645.565941,
     "8633aa2653be545a14dc": 1788080142.8363967,
     "8633e3408b208f108b3d": 1788163842.2504206,
+    "863403101a0871b09025": 1789044943.4421508,
     "86458c92275c3a01acf1": 1788465344.8050168,
     "864a8eba4fb05dfd2fce": 1788060942.1997612,
     "864e8374ace8d521f5f7": 1788172545.7724218,
@@ -10512,6 +10450,7 @@
     "90dc6056135589440dc2": 1788685846.269657,
     "90e876dcaabaef465462": 1788924942.4826186,
     "90ea1859bd34edcf8239": 1788378942.1823726,
+    "90f2c0ca1462a7c760df": 1789044943.4421551,
     "90fb584b013e819224ae": 1787837743.925058,
     "90fdd738114fcf421a37": 1788942943.1287196,
     "9106a87f66a2eef39675": 1788450936.537983,
@@ -10575,7 +10514,6 @@
     "932846bf6796e52335bf": 1788356136.8248317,
     "932ea38549b092aa4e8b": 1787911850.6664035,
     "93332dd841631455f96a": 1788347445.3348784,
-    "93341b087da661122c3b": 1787835348.7195184,
     "9338cbefff0cb36176fc": 1788406542.1125298,
     "9342ba109191197b8a96": 1788789342.4139204,
     "934ff606c7207df904bc": 1789040135.015063,
@@ -10990,6 +10928,7 @@
     "a05f266b99e00a438e7d": 1788376844.4756331,
     "a0654d855781bbffb11b": 1787847651.2755978,
     "a06576474fc694133145": 1788237336.858656,
+    "a07440554520f3408251": 1789044943.4421473,
     "a0777d9dbf9694248272": 1789011338.3923242,
     "a08209cf535c1bed2061": 1788665735.5276618,
     "a082d3a47d043d11316d": 1788342945.0246944,
@@ -11170,6 +11109,7 @@
     "a5d5b335f2f67bcd2b12": 1787910939.7779138,
     "a5e38ffdd37390c59f9b": 1788754239.3938506,
     "a5e8dbbbe40ce3678138": 1788752141.9914045,
+    "a5f5ace1a3201029c7a7": 1789044943.4421394,
     "a5f95675346cc75a7429": 1787860538.3877552,
     "a5ffaf5d2702290e94af": 1788255335.3317614,
     "a6121478ce769e44aeb9": 1788960942.335187,
@@ -11436,6 +11376,7 @@
     "adf7a5630897a69bb29e": 1788068142.1057749,
     "ae03b56f21097626c490": 1788466849.1887064,
     "ae06266b0f87327222f5": 1788345344.3084908,
+    "ae0a8ce1ad2b84df833d": 1789044943.442132,
     "ae14592b156ef1f5b44f": 1788609331.6409256,
     "ae1ceec332e10560c67d": 1788380440.7960308,
     "ae1fcc60c10550d63645": 1787901047.1229637,
@@ -12207,6 +12148,7 @@
     "c4623cf40e1b4376fbdc": 1788774939.5966575,
     "c465cb844a16110d6b18": 1788363340.1743255,
     "c467e27b3bbed24bc009": 1788081639.3353386,
+    "c46a59821bf507698bb3": 1789044943.4421492,
     "c46c52f06153aa68d26b": 1788100539.3167078,
     "c477a4b93bca5f6ff81f": 1788600049.8803751,
     "c47baf577ca1c73a4c04": 1788371738.8787348,
@@ -12256,7 +12198,6 @@
     "c5ab3137b89aaec09ef7": 1787924134.3587654,
     "c5af96c95b1000371b95": 1788549645.070895,
     "c5bb356dc18b02d5f4e9": 1788962139.4348538,
-    "c5bf5b19b9cb15247597": 1787835348.7194993,
     "c5c009a53a51fcd4b2b0": 1788104137.2554998,
     "c5c24b55651e30c8d94f": 1788417342.8188727,
     "c5c3200adc4b4f36487a": 1787941250.2564805,
@@ -12470,7 +12411,6 @@
     "cbbcd7e99b2ae21cb1bf": 1788946538.9777992,
     "cbc1db01ad33f94d7ae9": 1788356136.8246455,
     "cbc2c25a3c409d1eae44": 1788406542.1127849,
-    "cbd437ba2ef7c659851e": 1787835348.7194877,
     "cbd69fe59430a1ea9740": 1788351039.468837,
     "cbda5c40b10b888ef414": 1788950141.18723,
     "cbdfefbb7d3e7c68c1c9": 1787847651.27561,
@@ -12614,7 +12554,6 @@
     "cfcca5b1db0245329326": 1788495047.9478877,
     "cfd161f43f27bef8eeaa": 1788287742.598391,
     "cfd2831f0bfc35f9a51c": 1788515748.0125415,
-    "cfd5d634edf5f12f1f71": 1787835348.7194977,
     "cff334aedfc04a10722c": 1787921742.9641879,
     "d0036a0d4c83385df161": 1788406542.1127832,
     "d007184b3781e444c8ba": 1788251740.7609904,
@@ -13295,7 +13234,6 @@
     "e3998acd9a09096ecd95": 1789040135.0150588,
     "e39b36e7b89844771966": 1788171052.268576,
     "e39b4dea04a6e58362c1": 1787925346.1555855,
-    "e39fa551edd6d4547939": 1787835348.7194939,
     "e3c92d9aed9c5020a1d8": 1788625248.239907,
     "e3cdeecbb67463ae94a5": 1788342945.0247085,
     "e3d3128704ebcabe91c0": 1788152393.7171602,
@@ -13453,7 +13391,6 @@
     "e89380f28a2d2471c585": 1788260144.001776,
     "e89f32c3ff17d02f55ab": 1788616536.4092507,
     "e8ab39009957e248f10a": 1788752141.9914222,
-    "e8ae171cc665634dc988": 1787835348.7195146,
     "e8b2df276315bfe15627": 1788815449.3973012,
     "e8b629608d3e1fe5427f": 1788838537.0136907,
     "e8bbf6f49b3f126bc2bb": 1787991061.3627708,
@@ -13572,6 +13509,7 @@
     "ebbd47fa080ab7ae6c18": 1788369646.863424,
     "ebd48a86007c4602bbc9": 1788782146.9930122,
     "ebe6a9ef8e95e6c82c7f": 1788610863.1786048,
+    "ebf0631b3b489437619b": 1789044943.4421592,
     "ebf8aa81672e0bfdfbbc": 1788959441.5144048,
     "ebff1690ad70752e48ed": 1788286254.0011854,
     "ec04ee7d39e811b78b3f": 1789027850.4788058,
@@ -13774,6 +13712,7 @@
     "f2ae6ce9f6e1bfbd4214": 1788516647.3065116,
     "f2b433d7647c6d914ae6": 1787891734.4800982,
     "f2bdc101f88a24e2755d": 1788442553.104649,
+    "f2d1a9c42cb2b22aee8f": 1789044943.4421349,
     "f2d7cb8ae5151c72cdb8": 1788791742.2761,
     "f2e1dea891777cec69c5": 1788693043.877197,
     "f2e78db261ee77a47c56": 1788782827.662588,
@@ -13785,7 +13724,6 @@
     "f30095638750cf1ac687": 1788454544.461682,
     "f3045c64a05a5a58106e": 1788600049.8803668,
     "f30c1fe7457ec800d5dc": 1788579335.321014,
-    "f3199b6fcec6bf0aff1a": 1787835348.719505,
     "f31d7758703fe34fa96d": 1788632452.9654713,
     "f322f8e0631eb511ad71": 1788093335.129109,
     "f331e0d362cfd023da45": 1788941443.7295823,
@@ -14245,128 +14183,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1789043738.3264956
+      "ts": 1789044943.4419029
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1789043738.3264973
+      "ts": 1789044943.4419043
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1789043738.3265004
+      "ts": 1789044943.4419067
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1789043738.326506
+      "ts": 1789044943.4419115
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1789043738.3264985
+      "ts": 1789044943.4419057
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1789043738.3264875
+      "ts": 1789044943.441895
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1789043738.326494
+      "ts": 1789044943.4419005
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1789043738.326505
+      "ts": 1789044943.4419107
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1789043738.3265018
+      "ts": 1789044943.4419081
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1789043738.3265035
+      "ts": 1789044943.4419096
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/manchester-united-specatil-rekordny-kontrakt-na-rukavoch-dresov-2026090909500432532",
-      "p": "Manchester United podpísal novú viacmiliónovú sponzorskú zmluvu so spoločnosťou SumUp, ktorá sa stáva oficiálnym partnerom klubu pre reklamu na rukávoch dresov. Ide o najväčšiu dohodu v histórii „červených diablov“ v rámci tohto reklamného priestoru, pričom presné finančné parametre neboli oficiálne",
-      "s": "Šport.sk",
-      "t": "Historický obchod na Old Trafford. Manchester United spečatil rekordný kontrakt na časti dresov",
-      "ts": 1788958534.7870321,
-      "u": "be8f6329dd3da2889958"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVU5nWDFTR2k2OTB0T0dOWGh0cUd2dTRiaHMwXzU3ZmxGc3Bib0ZwYklaTFFDeERubklfeTJDTGxSQWpWVC1pR3otVjNDby1mcFZzNHBmNDJqekxwV0YzR3dKRXoxM000b0pTb2xhb3YyNVdfMFNORGVQTTRjUEs1aTFlX0hWMjZmLUNFU182MkRTaTJfZnNPeEVDR3ZnbXdBNzdYT052QnJsZGlvZFAtdHYzVl9pMjBHdnhjR2pn?oc=5",
-      "p": "Rekordný dážď prinútil stovky športovcov opustiť ubytovanie. Voda prenikla aj do športovísk SPORTNET",
-      "s": "SPORTNET",
-      "t": "Rekordný dážď prinútil stovky športovcov opustiť ubytovanie. Voda prenikla aj do športovísk",
-      "ts": 1788958534.787035,
-      "u": "7f05203431b2e178ae1d"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSG4yeGMxQ2pUY2gxOHR0MS11b2tKaWtrUHhOR0ZrRnlMSE1EdklEOXlqWHpOamIyOW5wcWRycEczNkRkVzNxUmdzbnV5S2xjRnR5dFllWHVCa2Y0a2J0STItZGlUYkQ1Z080UUJaSU5Ua0prYTM2VW1XWnFQWExZZ3V0eW1sYmx5ZDF5RnJsTjRoQkxMRVR6bVNWMUozam1fQjRqMWNlT01EejNHSnNjRjFHSGNnS05oT2ZpMWJad3Q2alBvbGlrZnVTM1pUZkJjTDJ2ei1rRmtiZw?oc=5",
-      "p": "Slovan má tajnú zbraň, šéf ho vyzval: Idú vážne veci. Ako to urobíme? SPORTNET",
-      "s": "SPORTNET",
-      "t": "Slovan má tajnú zbraň, šéf ho vyzval: Idú vážne veci. Ako to urobíme?",
-      "ts": 1788958534.7870364,
-      "u": "7f1803c1a65cba206f1d"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb3VwX1VlRkJLQl9aNGtPMHBKaXc5WV8tSGxsdzhTTGFuNWJYS2xXazFwR0E0VXgwZHMzX0ozVFoxUnJRYm9WUmo0T1lVd2RrUDZMTEJCN0ZEUWF6ZFpUV1pwdWUxY25yUWo4VUdPaE52ODlsVVhIYVhXSHhNT2tvU0RiMTBJeURCbzhSWmJEeFZxbExfRlpHZHRqUGd2VTZ3eGk0MTFwTVZGcXFndEVEVEt4d18wVWVkYkd3?oc=5",
-      "p": "Haaland vyrovnal strelecký rekord Manchesteru City. Podľa Carraghera strelí 1000 gólov SPORTNET",
-      "s": "SPORTNET",
-      "t": "Haaland vyrovnal strelecký rekord Manchesteru City. Podľa Carraghera strelí 1000 gólov",
-      "ts": 1788958534.7870383,
-      "u": "3203e702826d73cbb623"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaDBrQ3BOeHVYRzhidFlxWEVsTnFPUkwxeE1RTFdBTFd4MTVtVldXRWxPNmpRN3BqajdaejU2MzZ2SG01MDM2TUxoa3RPMmthbkxkZkliQ1l6dno0c3c5clQwRnpCd2FDV1d6UTJnTklzQTVBSm54bnhJMUdfZU5jajI3REU3UFU?oc=5",
-      "p": "VIDEO: Kozák rozstrieľal súpera a získal zmluvu s UFC. Slovensko má novú tvár medzi elitou SPORTNET",
-      "s": "SPORTNET",
-      "t": "VIDEO: Kozák rozstrieľal súpera a získal zmluvu s UFC. Slovensko má novú tvár medzi elitou",
-      "ts": 1788958534.7870395,
-      "u": "3ec422261104e4dd9101"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS1lKNnRLLTNFdjR0Z19zZ2RDNW5SNzg2WEMxdXFNM0d6bGpZcm8xNXZrblZLQ09nVnhVY3BZbEl1SmtmRUVXdm0zUnZzMmUyd3V2UUw0V2xZejMwX1FUXzZJYUVXOVlfTFhSOHNpWHBkSEtOeGYyRldJUFVaUVZmd0gtamctcjRmSnU1UVJDZlFhYlZUSVNfWmw2SmF2YS1VTDZDVEQ0SlFrS29ic0dlLTR5RQ?oc=5",
-      "p": "Bitku miliardárok zvládla a je v semifinále. Bojovala som so svojimi démonmi, uviedla Pegulová SPORTNET",
-      "s": "SPORTNET",
-      "t": "Bitku miliardárok zvládla a je v semifinále. Bojovala som so svojimi démonmi, uviedla Pegulová",
-      "ts": 1788958534.787041,
-      "u": "ffda976ae713d09a3c58"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/syn-kimiho-raikkonena-bude-sucastou/991047-clanok.html",
-      "p": "Kimi Räikkönen vyhral titul v roku 2007 ako jazdec Ferrari. Víťaz 21 pretekov ukončil kariéru v roku 2021.",
-      "s": "TERAZ.SK",
-      "t": "Syn Kimiho Räikkönena bude súčasťou jazdeckej akadémie Red Bullu",
-      "ts": 1788958534.7870426,
-      "u": "e49830478a31aba41f59"
-    },
-    {
-      "l": "https://sport.aktuality.sk/motosport/clanok/syn-legendy-robin-raikkonen-podpisal-zmluvu-s-red-bullom-f1-2026090912572188485",
-      "p": "Robin Räikkönen, jedenásťročný syn bývalého majstra sveta seriálu F1 Kimiho Räikkönena, podpísal zmluvu s jazdeckou akadémiou Red Bullu. Program v minulosti pomohol pripraviť na štart v F1 okrem iných jazdcov aj štvornásobných majstrov sveta Maxa Verstappena a Sebastiana Vetella.",
-      "s": "Šport.sk",
-      "t": "Zvučná posila pre Red Bull. Meno Räikkönen sa vracia do Formuly 1, syn slávneho pilota podpísal zmluvu",
-      "ts": 1788959441.514422,
-      "u": "54c575e651c15d6e15c3"
-    },
     {
       "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYTQzaF96Q1BTZzZTRTV6VE1kT1NURERSRzdILW9TMXpBeWpiYW5jZDJxNTBPV2ZjZUZjS05MaXlCYWZrN2JMRjBnaWNOQzJtQ1Jfbk9abkhKSWkyNkd0ZFBiUGU1bmQ0TE5lYUZnYXJSV0dUdHhLb2F5YTVqdlc2QnY2aTQtVVRWS3lGbnoxcmJLQQ?oc=5",
       "p": "Na Slovensko príde šprintérske eso aj bývalí víťazi. Kubiš prekvapivo vynechá MS SPORTNET",
@@ -16246,6 +16120,126 @@
       "t": "NHL smúti. Zomrel Kanaďan, ktorý s Montrealom štyrikrát vyhral Stanley Cup - sportnet.sme.sk",
       "ts": 1789043738.3265748,
       "u": "b58be0bd6a55941135bc"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/james-rodriguez-prestup-us-avellino-serie-b-2026091011072605413",
+      "p": "Bývalá hviezda Bayernu Mníchov či Realu Madrid sa môže nečakane vrátiť do európskeho klubového futbalu. James Rodríguez je momentálne bez angažmánu po tom, čo ukončil zmluvu s Minnesotou United. Podľa informácií denníka Marca je však blízko k dohode s talianskym druholigovým klubom US Avellino.",
+      "s": "Šport.sk",
+      "t": "James Rodríguez sa vracia do Európy. Jeho novým klubom má byť taliansky druholigista",
+      "ts": 1789044943.4421442,
+      "u": "0dedde96e27c86854ad3"
+    },
+    {
+      "l": "https://sport.aktuality.sk/motosport/clanok/mercedes-toto-wolff-kroti-euforiu-pred-madridom-ocakava-vyssiu-konkurenciu-f1-2026091010471190459",
+      "p": "Šéf tímu Mercedes vo Formule 1 Toto Wolff trvá na tom, že tím by po úspechu na Monze nemal očakávať rovnakú mieru konkurencieschopnosti aj počas nadchádzajúceho víkendu v Madride.",
+      "s": "Šport.sk",
+      "t": "Šéf Mercedesu krotí eufóriu pred novinkou v kalendári F1, očakáva vyššiu konkurenciu",
+      "ts": 1789044943.4421465,
+      "u": "2e5954a855b801b8cd70"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUTh0a3pFQ3ZoR3ktNTFRN0VkNVZ0SFR3d0dSZXRFX2JsZDRJVzdLWGdwdnVFb2wtaGNpNUgxWTVBcmpIaGxncml0SHZwYWdUQk93d3lIRmJvNjg4U2NBM002Mzh2UVpKcmZFNlBZdU0tVzBsaGdZN0tqcXhOYzR0N21rdXlEVFhTcXhpX2V3X3ZKVFVyZkNQTG9xdnpWTUtROHIwcV9B?oc=5",
+      "p": "Slovák je majstrom sveta, vylepšil rekord a získal miestenku do LA: Psychicky som ustál záver SPORTNET",
+      "s": "SPORTNET",
+      "t": "Slovák je majstrom sveta, vylepšil rekord a získal miestenku do LA: Psychicky som ustál záver",
+      "ts": 1789044943.4421484,
+      "u": "a07440554520f3408251"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYmViRGJpMG5wdzc1d19wMVhWZnM0Z0FVblZXMk95WlAtR0J1dmp2aXNkcnJXN1ZNQ3dhYVhvWENveFJmU1ZaeEUtSEM4VjJUMHFwa2dael9LMjR3aWdnd3haZlVDVWM1MVY4bm9Kak1rTjVJQVVpaGdRY3VMUXo0cEp4UzdFMVlrTWJ6QVFHaWtfczly?oc=5",
+      "p": "Stal sa legendou. Jeho víťazstvu sa prizeral chorý otec, ako tréner neposlúchol príkaz SPORTNET",
+      "s": "SPORTNET",
+      "t": "Stal sa legendou. Jeho víťazstvu sa prizeral chorý otec, ako tréner neposlúchol príkaz",
+      "ts": 1789044943.4421504,
+      "u": "c46a59821bf507698bb3"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQczdaWnRZTlBfVEoyMnRqNWg5bktwdFV1VEFXZVExNklCVE1QdGVJUVd5MURvN3pWTi1vVU1iLWxTaWJJbGpjYU5OLUdYd0ZtUk5JZngzcEdnTlZsQW9yWi1SOG51MnZPWXI3NG5GZkcwWWFBeHdwVGY0QWI5VlUzWm1sMy1aZGwxZE5Mb0VHNEZVZUhtb3BjQzFPLWZpdXc?oc=5",
+      "p": "Liga majstrov: Lobotkov Neapol dlho odolával. Triumf anglického majstra zariadil kapitán mužstva SPORTNET",
+      "s": "SPORTNET",
+      "t": "Liga majstrov: Lobotkov Neapol dlho odolával. Triumf anglického majstra zariadil kapitán mužstva",
+      "ts": 1789044943.4421513,
+      "u": "863403101a0871b09025"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWDM4cWszanlOZE9mMEY2R09xZGVLY1pwMFJ4eXRPLVBldjVycTZ6RE1LZ3h1SzlSNU85eDJMazN0TXdEeWRKNlZ2UVdUazYxZTNwcGIyMndtV3RkZDJ1TS1kYnFCMzNmd3BWRFd1Mzh1YzJoeDhuZ3AzN2JJUnh4cW5xQkV0N21YZjZSZnczN1VPTGlUWnVzOERvTW42Nk1ROUVZaWNTTE1rOVdObkE?oc=5",
+      "p": "Liga majstrov: Liverpool otočil duel proti Atléticu Madrid. Hancko odohral celý duel SPORTNET",
+      "s": "SPORTNET",
+      "t": "Liga majstrov: Liverpool otočil duel proti Atléticu Madrid. Hancko odohral celý duel",
+      "ts": 1789044943.4421527,
+      "u": "4f3eecce4e6ff212f1d3"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc1RLYWVFVGZxU09rRWNUT1doUTQwM1BnVEUyZERYbGVjUW05aWZOck9TcUFwZEhaRVZUTC1QaWx3dHMxNnR5Ukk3RGZBWWl1aGhNNWhRQ01zejBYRFdqVmtnbXhMWXJUTGJyRGlLYWRaY0duTmFrSU0waTFXZHJoZ0hCZk5MZWlSVFotZHYwVnRwRy1PZkpZNUJEbDdZQQ?oc=5",
+      "p": "VIDEO: Hollý sa podieľal na hladkej výhre Jablonca, Vavra v Plzni vylúčili SPORTNET",
+      "s": "SPORTNET",
+      "t": "VIDEO: Hollý sa podieľal na hladkej výhre Jablonca, Vavra v Plzni vylúčili",
+      "ts": 1789044943.4421544,
+      "u": "34f9906d2671a37b621f"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSHN5Ukk0QzVmc1NsdjNNY0tOV3NKLUlzRU5MQmlfRW43aS05UXkxX2hfamFFcElUcDRYM2Y4cVVLbHVMQmV6LU1TM0NaSk1JMWc0ZWF0MGRGbUVXRV96UTQ1Z25sTUplR3VKaEZhbld1cFRWTVFoQkd0TDI0Ukt1UkNNc1E0WV9pTUMzMHVIWUh5SlhiQ1REdUVGYzlISFZyaGtn?oc=5",
+      "p": "Žilina v pohári nemala problém so šiestoligistom z Oravy, Zlaté Moravce sa trápili SPORTNET",
+      "s": "SPORTNET",
+      "t": "Žilina v pohári nemala problém so šiestoligistom z Oravy, Zlaté Moravce sa trápili",
+      "ts": 1789044943.4421558,
+      "u": "90f2c0ca1462a7c760df"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxONDdUVXF6NGhGbHFESkxWMXBjdXozX1RzVkZhUlJVS1psZVRxa0YzVENwaHdydGk1QXB0eXpfWkJvbnlzV25XMGtacW80SU5iamVKZDhGU3V1UXFjeHFHOTM5U2FJcDB5ZzhlelhwSXRBYS1URFdhSHM4b0R6VjVRbFhPUkVDUUlpYnZqZUVsdHVZTmd6blVrRldqbDVPUQ?oc=5",
+      "p": "Môžu hrať aj proti Slovákom. Rusi sa vrátia na medzinárodný ľad, v Česku to vyvoláva diskusie SPORTNET",
+      "s": "SPORTNET",
+      "t": "Môžu hrať aj proti Slovákom. Rusi sa vrátia na medzinárodný ľad, v Česku to vyvoláva diskusie",
+      "ts": 1789044943.4421573,
+      "u": "4d6773ac42f72b5e5935"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVy10ZV9jZWY3bUR4MFN0UF9pTXFYTEVsTlhJWDB4TFRXS0QxVXRkSmkzbkJuTVV6WFZ5ZHJ4RmN3NlFwQU9qd3hnUGxWRmxPVnpjOXJMRDg2MUFQMzFfVzRyT3pqb3ByVDNIcG41cFJTTEx2QkVfQlJWZUJDcnpIUFoxN0ZHWXNzeEJuLWZ0NFNrbDctNjNLc1d3elZ0Z0FfdmtCT1V3?oc=5",
+      "p": "Prešov posilnil brankár, ktorý bol aj v olympijskom tíme USA. Má skúsenosti z Česka i Nemecka SPORTNET",
+      "s": "SPORTNET",
+      "t": "Prešov posilnil brankár, ktorý bol aj v olympijskom tíme USA. Má skúsenosti z Česka i Nemecka",
+      "ts": 1789044943.4421587,
+      "u": "21ece40a6c3c3a1b0593"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ21NV3FIQ0M0ZFlRVkFhRFNGUWxHVWtLMS1QcGFDTDNLVXlPQkJvX1ZtYUUxVWpJaTV5cjJOdXlFczEzRHp3YmZxaUxmMFZLcjRLUEtJR1NCVjUydm9sYV85b3dGYy1LSkgzVThPMFJxR19vemM1NFVDVmFTRDNudGptbWlnNFdoNGd3ajlKVFVuNFhQU0tjSGY0ZFdsdUd4TnRVNTZocTdLQTc4ODZ6djAyaw?oc=5",
+      "p": "Američanky pokračujú v útoku na piaty titul v rade. Maďarsku nastrieľali viac ako 100 bodov SPORTNET",
+      "s": "SPORTNET",
+      "t": "Američanky pokračujú v útoku na piaty titul v rade. Maďarsku nastrieľali viac ako 100 bodov",
+      "ts": 1789044943.4421597,
+      "u": "ebf0631b3b489437619b"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTzUyelA5WEdBb0lyZXZrMkhUUm1BUHlkRmtvcUNjYkNIeTltWmxzWmVndUVuTEdsTC0zTHl1cUdFLTkwTEstN3RENm5pVmN4RzRMVTdiSkZSZzJtTks4LS1DbnY3SkVDNFU1TnFKOHpiNmxjZm9fczNwSm1BNHhjVHczQXN2bWxfX205S1VLQkRHSDFXSnNpV2RhLUZTTDdw?oc=5",
+      "p": "Český tenis prechádza zmenou. Šéf zväzu sa rozhodol podať rezignáciu SPORTNET",
+      "s": "SPORTNET",
+      "t": "Český tenis prechádza zmenou. Šéf zväzu sa rozhodol podať rezignáciu",
+      "ts": 1789044943.4421608,
+      "u": "6418ed402ba1ec398495"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdU92NnVwbloyRzk5NmlFZUVvSUtzNnQwV3ZQTnUwcjd0bmJkVUNVbFI0MlNVeGRsR2hLVFdKek5lT0lPdjVQX1YxZmZaREF5ZHJBOGFEc3RkejVPVDhZQm1HUnI1MUZQTXRRUjdFMU1GNVdIbHBPZnUwSmM5cGQtXzYwWS1jTDRVWHZXbEJneUFwMG5SOWhnTDNYZDN4TDgzNklCOTZiMkUxdG5VeE5xNE45dw?oc=5",
+      "p": "Ani druhé preverovanie nepomohlo. Ruská krasokorčuliarka status neutrálnej športovkyne nezískala SPORTNET",
+      "s": "SPORTNET",
+      "t": "Ani druhé preverovanie nepomohlo. Ruská krasokorčuliarka status neutrálnej športovkyne nezískala",
+      "ts": 1789044943.442162,
+      "u": "6034de9b816f4130e1e1"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTlCZThlRDVncC1qMnVmbnNtZ29LNDNlb1Y2UXZJYW45WEdNRnZ6M0hEbmJrZ2NQRi1SM2kwV3Z1Ykx2R0VCTXN0ZHZyYUdhRDZDazkyUVhBcUJWcUUtRHd4eExLTzBhMkZPNWRmUUs0NVdZNlFGR2tmX1dRd1JFX0p6SGxBbjExYUNzaWVCU3pZc2VTc2RRcTBBa3M2UmJXaEhpVFBSUXBpcG05QmtybjBnNUwyQVZFREMxRVBCTTF0UzlT?oc=5",
+      "p": "Slovanisti nechceli v Paríži provokovať. Camara ich potešil gólovým sólom SPORTNET",
+      "s": "SPORTNET",
+      "t": "Slovanisti nechceli v Paríži provokovať. Camara ich potešil gólovým sólom",
+      "ts": 1789044943.4421632,
+      "u": "47278cc95c72fb918f1e"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcnpHeEw3NDJ5RXhqbEN0bU9kaVpscnppUndWbzlfSmhVcW9vUlpqd01LbVUzRDZHWS12UjhxMVN4MkRSOFRGLXBsM1R2a0pTRk5aZklLU3FtSXZyMXNBQnM5V3NwTmZ5WkxFOC1WQ19JeEkwSWVpS1g1T0JGbWlCYTdoU3FYQ1E4ZVIzYmplLUxYVWRSbmVkcnpjXzluY2l6dUhMLTZGZ3NwdDBrQ0F2eXd3?oc=5",
+      "p": "Lajdácky Blackman, behavý a bojovný Camara. V čom zlyhal Slovan proti PSG? SPORTNET",
+      "s": "SPORTNET",
+      "t": "Lajdácky Blackman, behavý a bojovný Camara. V čom zlyhal Slovan proti PSG?",
+      "ts": 1789044943.4421644,
+      "u": "5522ceb86a773fa6fac2"
     }
   ],
   "sport_source_status": {
@@ -16253,25 +16247,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1789043738.3265092
+      "ts": 1789044943.4419143
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1789043738.3265119
+      "ts": 1789044943.4419162
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1789043738.326515
+      "ts": 1789044943.4419196
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1789043738.3265138
+      "ts": 1789044943.4419177
     }
   }
 }
