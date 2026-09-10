@@ -170,31 +170,13 @@
     "ts": 1789074657.5769563
   },
   "meta": {
-    "last_collection_ts": 1789074646.3959043,
+    "last_collection_ts": 1789076138.9785597,
     "last_feed_error_ts": 1789057247.7212086,
     "last_llm_error_ts": 1789048574.1240222,
-    "last_run_ts": 1789074647.0958521,
+    "last_run_ts": 1789076138.9796581,
     "last_synthesis_ts": 1789074657.5769513
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/podcasty/c/o-tyranii-meritokracie-preco-je-dnes-tolko-deti-pod-tlakom-ambicioznych-rodicov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Rodičia odovzdávajú deťom svoje privilégiá, ale aj svoju chudobu.",
-      "pub": 1788987900.0,
-      "s": "SME",
-      "t": "O tyranii meritokracie: Prečo je dnes toľko detí pod tlakom ambicióznych rodičov?",
-      "ts": 1788988851.7164605,
-      "u": "9233ecb14c37a0c2b2a2"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1257107-trump-po-telefonate-s-putinom-rusky-prezident-chce-dohode-o-ukonceni-vojny",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Trump po telefonáte s Putinom: Ruský prezident chce dohodu o ukončení vojny",
-      "ts": 1788988851.7164648,
-      "u": "db37dc3bc1bbf97548c8"
-    },
     {
       "l": "https://www.sme.sk/podcasty/c/robert-fico-maros-zilinka-dobre-rano-podcast?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Premiér chce, aby generálny prokurátor odstúpil.",
@@ -4699,15 +4681,6 @@
   "recent_alerts": [
     {
       "links": [
-        "https://www.pravda.sk/spravy/svet/clanok/2035507-krvavy-utok-na-svadbu-v-irane-teheran-obvinuje-spojene-staty-washington-pripad-vysetruje?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o závažný medzinárodný incident s potenciálom eskalácie napätia medzi Iránom a USA, ktorý má priamy bezpečnostný význam pre európsky a globálny kontext.",
-      "title": "Krvavý útok na svadbu v Iráne: Teherán obviňuje Spojené štáty, Washington prípad vyšetruje",
-      "ts": 1788470445.8540332
-    },
-    {
-      "links": [
         "https://tnlive.sk/domace/clanok/1049235-slovensko-vyschlo-a-staci-mala-iskra-hasici-bojuju-s-poziarmi-na-viacerych-miestach"
       ],
       "model": "gemini/gemini-3.1-flash-lite",
@@ -5364,7 +5337,6 @@
     "00f1566e3fd8e77a5167": 1788947734.8101954,
     "00f3f5a6120122712992": 1788934245.783022,
     "00fc1114ba86bd647c5b": 1788147343.565134,
-    "0103a0d90a2525535f1c": 1787865648.7362888,
     "0108518dc82a5473b0c7": 1788514539.8842802,
     "011d13b74bda78e0066b": 1788356136.8246367,
     "011fe96b808bf78bd190": 1788687340.4674773,
@@ -5817,6 +5789,7 @@
     "0dd0f81a1e1fbd026b0d": 1788789342.413919,
     "0dd0ffb62cb99ee4b4a0": 1789025742.009776,
     "0ddf1038cf86395b2523": 1788012652.6881146,
+    "0ddfb1797f45699657c4": 1789076138.979344,
     "0de56a7a7623d9f0329e": 1788936938.526925,
     "0de656b21b3eefc6b4b6": 1788940534.485232,
     "0ded7fe2b7975608da28": 1789036535.5780616,
@@ -13242,7 +13215,6 @@
     "e70976d27dc29a1702a8": 1788838537.0136924,
     "e70a69ae189ef25a9daf": 1789023343.3569381,
     "e70c9ae76516267ab996": 1788636044.0873058,
-    "e70cfff9c644ca4a2b1c": 1787865648.7362785,
     "e71611e3edfa34569a5d": 1788452449.4631705,
     "e71e6fd6c733c3710c96": 1788870942.5987446,
     "e72b928342192a90af84": 1788957341.1856954,
@@ -13720,7 +13692,6 @@
     "f59f15d906a1499c18c8": 1788960942.3351986,
     "f5af2ce2dbc05e09d7d9": 1789017040.3341084,
     "f5bfd6f33f45dbacbebf": 1788024935.7907822,
-    "f5c323faaa012786b915": 1787865648.7362847,
     "f5ca5d7cad21ef1b7666": 1788431735.6862824,
     "f5cab8efb45ae4266939": 1788183334.9833786,
     "f5da565811d3020355b2": 1787976645.8079298,
@@ -14078,72 +14049,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1789074647.095034
+      "ts": 1789076138.9793212
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1789074647.0950353
+      "ts": 1789076138.9793227
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1789074647.0950377
+      "ts": 1789076138.9793246
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1789074647.0950427
+      "ts": 1789076138.9793272
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1789074647.0950365
+      "ts": 1789076138.9793236
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1789074647.0950274
+      "ts": 1789076138.979317
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1789074647.0950317
+      "ts": 1789076138.97932
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1789074647.0950418
+      "ts": 1789076138.979327
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1789074647.0950391
+      "ts": 1789076138.9793255
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1789074647.0950406
+      "ts": 1789076138.979326
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/liga-majstrov-psg-slovan-luis-enrique-o-slovane-2026090923172865286",
-      "p": "Napriek tomu, že jeho tím prevalcoval slovenského majstra vysoko 6:1, španielsky tréner Luis Enrique dokázal vyzdvihnúť ŠK Slovan Bratislava po stretnutí, v ktorom si na parížskom štadióne Park princov odniesli belasí až poltucet. Slávny tréner takisto vyzdvihol prácu svojho kolegu z fachu Yayu Tour",
-      "s": "Šport.sk",
-      "t": "VIDEO Yaya Touré má všetky predpoklady na úspech. Luis Enrique po výprasku hodnotil výkon Slovana",
-      "ts": 1789017040.3341136,
-      "u": "9f07cc82e0d40a86c07e"
-    },
     {
       "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb1NidWpJVi1mMmk5azF4SlN5T2t0MHU0WDQyM0xDdlg4dk9zZ19pYlJ6OGFQNW9GRUh2Q0lvb05PbE5adGhDZDQ4alIzVGtZazRseEQwcjA2UDJLQXllN3lCSWlvUUJqN2lHTXJmYjR0d2FNTTdtbWpFTVVoMF9Qd3AtT2pTY2lTV0piUGxfb0NlTG5xbHRjLU0zVTdvN2FIQUFCRkdkaWl3Yy1MS3V0RjR3SGh2dmY1cmRV?oc=5",
       "p": "VIDEO: Z ihriska ho odniesli na nosidlách. Talent Dortmundu mal problémy s krvným obehom sportnet.sme.sk",
@@ -16135,6 +16098,14 @@
       "t": "Diskusia: Mal ponuky zo zahraničia, no zostáva v Slovane. Dominik Takáč podpisom ukončil špekulácie",
       "ts": 1789074647.0950766,
       "u": "06cb18c322ca660efa64"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdURCcDU2VER5SnkyVFF1SUVSRzV6aU5UV1hzNXktQ2V4RTBYQXJBUllTTVhYSUNKTzlQYmh5UWtVMmkyeDAxZWlCS1liNU00VTJpMDFCVEs2MkRzM0JXTmxDX2R0dmZkbnBqYmJOdVVVcHUxSzZVdDYteVR1dzRHNWJBY0hFb1pXcXdHY2xUT3A?oc=5",
+      "p": "AS Rím - Sporting Lisabon, prehľad zápasu 6. kola Ligy majstrov 2026/2027 SPORTNET",
+      "s": "SPORTNET",
+      "t": "AS Rím - Sporting Lisabon, prehľad zápasu 6. kola Ligy majstrov 2026/2027",
+      "ts": 1789076138.979348,
+      "u": "0ddfb1797f45699657c4"
     }
   ],
   "sport_source_status": {
@@ -16142,25 +16113,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1789074647.0950449
+      "ts": 1789076138.979329
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1789074647.0950463
+      "ts": 1789076138.9793313
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1789074647.095049
+      "ts": 1789076138.9793372
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1789074647.0950477
+      "ts": 1789076138.9793358
     }
   }
 }
