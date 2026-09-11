@@ -2,26 +2,6 @@
   "digest_topic_history": [
     {
       "headline": "Vlak pri Trenčíne narazil do stromu a vykoľajil sa",
-      "ts": 1789126552.0329766
-    },
-    {
-      "headline": "Šutaj Eštok čelí kritike za výdavky na eventy",
-      "ts": 1789126552.0329766
-    },
-    {
-      "headline": "Opozícia podozrieva agroministerstvo z podvodov",
-      "ts": 1789126552.0329766
-    },
-    {
-      "headline": "Napätie v koalícii pre Žilinku a Tarabu",
-      "ts": 1789126552.0329766
-    },
-    {
-      "headline": "Poisťovňa začala vyplácať klientov CK Solvex",
-      "ts": 1789126552.0329766
-    },
-    {
-      "headline": "Vlak pri Trenčíne narazil do stromu a vykoľajil sa",
       "ts": 1789127750.6498787
     },
     {
@@ -199,74 +179,98 @@
     {
       "headline": "Srbský prezident Vučič chce odstúpiť a viesť kampaň ako občan",
       "ts": 1789139476.7750075
+    },
+    {
+      "headline": "Húsíovia ovládli strategický ostrov v Červenom mori",
+      "ts": 1789140955.531211
+    },
+    {
+      "headline": "Ruské drony zasiahli civilné ciele v Kyjeve",
+      "ts": 1789140955.531211
+    },
+    {
+      "headline": "Železnice SR čelia kritike za používanie ruského antivírusu",
+      "ts": 1789140955.531211
+    },
+    {
+      "headline": "Požiar na palube lietadla smerujúceho do Prahy",
+      "ts": 1789140955.531211
+    },
+    {
+      "headline": "Srbský prezident Vučič ohlásil odchod z funkcie",
+      "ts": 1789140955.531211
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Železnice Slovenskej republiky používajú ruský antivírus Kaspersky",
+        "headline": "Húsíovia ovládli strategický ostrov v Červenom mori",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/G9EYV3S/husiovia-ziskali-kontrolu-nad-strategickym-ostrovom-v-cervenom-mori/"
+          ],
+          [
+            "TN Live",
+            "https://tnlive.sk/zahranicne/clanok/1050601-jemenski-povstalci-ovladli-uzinu-klucovu-pre-svetovy-obchod-obsadili-ostrov-uprostred-brany-narekov"
+          ]
+        ],
+        "perex": "Povstalci obsadili ostrov Majún, čím získali kontrolu nad južným vstupom do Červeného mora a kľúčovou ropnou trasou. Napriek obavám z narušenia globálneho obchodu hnutie tvrdí, že námorná doprava zostáva bezpečná."
+      },
+      {
+        "headline": "Ruské drony zasiahli civilné ciele v Kyjeve",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/6WqUTGZ/ruske-drony-zasiahli-cerpaciu-stanicu-v-kyjeve-dvaja-civilisti-zahynuli-viaceri-su-zraneni/"
+          ]
+        ],
+        "perex": "Ruský dronový útok na čerpaciu stanicu v Kyjeve si vyžiadal dvoch mŕtvych a niekoľko zranených. Úrady označili tento zásah za úmyselný útok na civilnú infraštruktúru."
+      },
+      {
+        "headline": "Železnice SR čelia kritike za používanie ruského antivírusu",
         "links": [
           [
             "Denník N",
             "https://e.dennikn.sk/5555923/slovenske-zeleznice-pouzivaju-rusky-antivirus-kaspersky-inde-pred-nim-varuju-v-usa-ho-zakazali/"
           ]
         ],
-        "perex": "Železnice Slovenskej republiky pri aktualizácii systému Windows opätovne inštalujú ruský antivírusový softvér Kaspersky. V zahraničí pritom pred týmto produktom varujú a v USA je jeho používanie zakázané."
+        "perex": "Železnice Slovenskej republiky pri aktualizácii systémov opätovne inštalujú ruský antivírus Kaspersky. V zahraničí pritom pred týmto softvérom varujú a v USA je jeho používanie zakázané."
       },
       {
-        "headline": "Obvinený z útoku na fabriku pri Prešove prehovoril o objednávateľoch",
+        "headline": "Požiar na palube lietadla smerujúceho do Prahy",
         "links": [
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2040111-mal-podpalit-fabriku-na-drony-v-haniske-a-vsetko-natocit-obvineny-prehovoril-o-ludoch-za-utokom"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/sabotaz-pri-presove-poukazuje-na-rusku-stopu-aj-nedoveru-zahranicnych-tajnych"
+            "TN Live",
+            "https://tnlive.sk/zahranicne/clanok/1050564-poziar-lietadla-smerujuceho-do-prahy-ochromil-cele-letisko-cestujucich-evakuovali-po-smyklavkach"
           ]
         ],
-        "perex": "Hlavný obvinený v prípade zmareného podpaľačského útoku na výrobcu dronov v Haniske pri výsluchu uviedol, že pokyny dostával od viacerých osôb. Vyšetrovanie sabotáže naďalej poukazuje na možnú ruskú stopu."
+        "perex": "Cestujúci na palube lietadla smerujúceho do Prahy museli byť evakuovaní pomocou núdzových šmykľaviek. Incident spôsobil požiar na palube, ktorý na čas ochromil prevádzku letiska."
       },
       {
-        "headline": "Minister Taraba avizuje návrat do parlamentu v prípade odvolania",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2040113-taraba-pritvrdil-ak-ma-odvolaju-vratim-sa-do-politiky-a-potom-sa-vraj-zacnu-diat-veci"
-          ]
-        ],
-        "perex": "Minister životného prostredia Tomáš Taraba odmieta, že by po prípadnom odchode z vlády prijal inú funkciu. V prípade svojho odvolania avizuje návrat do parlamentu ako autonómny poslanec."
-      },
-      {
-        "headline": "Progresívne Slovensko navrhuje zmeny v právomociach prokurátora",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/fMkjuKI/opozicne-progresivne-slovensko-ziada-zasadne-zmeny-v-pravomociach-generalneho-prokuratora/"
-          ]
-        ],
-        "perex": "Opozičné hnutie predložilo novelu Trestného poriadku, ktorá má obmedziť právomoci generálneho prokurátora pri zásahoch do vyšetrovania. Rozhodnutia o udelení paragrafu 363 by po novom mohol preskúmavať súd."
-      },
-      {
-        "headline": "Srbský prezident Vučič chce odstúpiť a viesť kampaň ako občan",
+        "headline": "Srbský prezident Vučič ohlásil odchod z funkcie",
         "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/Ol7R7kg/vucic-chce-odstupit-z-postu-prezidenta-a-viest-volebnu-kampan-ako-obycajny-obcan/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2040151-vucic-odstupi-koncom-septembra-kandidovat-chce-ako-bezny-obcan-potvrdil-ze-cielom-je-post-premiera"
           ]
         ],
-        "perex": "Prezident Aleksandar Vučič plánuje rezignovať na svoj post, aby mohol viesť volebnú kampaň ako bežný občan. Rozhodnutie prichádza po mesiacoch protivládnych protestov a politickej kríze."
+        "perex": "Prezident Aleksandar Vučič plánuje koncom septembra odstúpiť z postu hlavy štátu. Svoj krok zdôvodnil snahou viesť volebnú kampaň ako bežný občan a následne sa uchádzať o post premiéra."
       }
     ],
-    "ts": 1789139476.7749994
+    "ts": 1789140955.5312028
   },
   "meta": {
-    "last_collection_ts": 1789139463.2879176,
+    "last_collection_ts": 1789140938.7794535,
     "last_feed_error_ts": 1789120548.54195,
     "last_llm_error_ts": 1789132334.2369812,
-    "last_run_ts": 1789139465.0490184,
-    "last_synthesis_ts": 1789139476.7749941
+    "last_run_ts": 1789140939.4729116,
+    "last_synthesis_ts": 1789140955.5311975
   },
   "recent": [
     {
@@ -4021,18 +4025,99 @@
       "t": "Po štyroch rokoch sa v Česku opäť objavil tetanus. Nakazený muž nemá ani obvodného lekára",
       "ts": 1789139465.0482376,
       "u": "d59586d939f0290ccbe0"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/fico-zriadil-po-babisovi-komisiu-pre-sucho-a-vodu-sam-je-jej-predsedom-s-kopou-rozhodujucich-funkcii?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Milióny na závlahy nestačia. Slovensko musí zmeniť spôsob hospodárenia s krajinou, hovoria odborníci.",
+      "pub": 1789140064.0,
+      "s": "SME",
+      "t": "Fico zriadil po Babišovi komisiu pre sucho a vodu. Sám je jej predsedom s kopou rozhodujúcich funkcii",
+      "ts": 1789140939.4722033,
+      "u": "450acf5b154bf1e7c5c3"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/americky-ekonomicky-tlak-dosiahol-nebezpecnu-uroven-vyhlasil-lider-iranu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Pezeškiján sa nachádza v indickom Naí Dillí, kde sa uskutoční samit krajín BRICS.",
+      "pub": 1789139938.0,
+      "s": "SME",
+      "t": "Americký ekonomický tlak dosiahol nebezpečnú úroveň, vyhlásil líder Iránu",
+      "ts": 1789140939.4722073,
+      "u": "283150798ca5d56fa616"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRnZfNVFJc2w1VDNuWGY0aFRYU0xFRzBUX3ZjZFVHMjhaYm5jZHd6VlNiblRyc3Jja3dOV3BXR255WVIwQmh0ZXdVdnhRaXFnZmlOYll1VTFRTFVfWVpQNHRITWVUcUJlTnA2Vmhzd3ZpYkFDZEJKclNsREhkUjlBTUpTU2VNX2xpTFJtRm1lbw?oc=5",
+      "p": "Najlepší vrchár sa osamostatnil, no nestačilo mu to. V záverečných metroch ho prekvapil Ír sportnet.sme.sk",
+      "pub": 1789139678.0,
+      "s": "SME (GNews)",
+      "t": "Najlepší vrchár sa osamostatnil, no nestačilo mu to. V záverečných metroch ho prekvapil Ír - sportnet.sme.sk",
+      "ts": 1789140939.4722092,
+      "u": "6749643b94ffca1df993"
+    },
+    {
+      "l": "https://dennikn.sk/5555817/po-zilinkovi-asi-fico-vyzve-na-odstupenie-papeza-leva-xiv-udalosti-tyzdna/",
+      "p": "Petková, Štrasser, Šáteková, Hudák a Čikovský vyberajú udalosť, prešľap a podcenený moment týždňa.",
+      "pub": 1789139867.0,
+      "s": "Denník N",
+      "t": "Po Žilinkovi asi Fico vyzve na odstúpenie pápeža Leva XIV. (udalosti týždňa)",
+      "ts": 1789140939.472211,
+      "u": "0b2780f13abc752e1088"
+    },
+    {
+      "l": "https://dennikn.sk/5555495/messier-v-prilbe-hasica-nadhod-busha-v-nepriestrelnej-veste-aj-plateny-patriotizmus-ako-sa-sport-v-usa-vyrovnaval-s-11-septembrom/",
+      "p": "Legendárny bejzbalista Mike Piazza chvíľu sleduje loptičku, ktorú práve poslal ponad plot Shea Stadium. Odhadzuje pálku a rozbieha sa k prvej méte. Bejzbalový klub New York Mets práve prehrával s Atlantou Braves 1:2, ale jeho dvojbodový homerun v ôsmej zmene otočil zápas. Domáci vyhrali 3:2. Za inýc",
+      "pub": 1789139840.0,
+      "s": "Denník N",
+      "t": "Messier v prilbe hasiča, nadhod Busha v nepriestrelnej veste aj platený patriotizmus. Ako sa šport v USA vyrovnával s 11. septembrom",
+      "ts": 1789140939.4722128,
+      "u": "917409051a72ccc9b609"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2040157-koniec-problemom-so-splaskami-dve-obce-na-liptove-ziskali-miliony-na-kanalizaciu-a-cisticku?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Liptovské obce Ľubeľa a Liptovské Kľačany začínajú budovať kanalizáciu a spoločnú čistiareň odpadových vôd. Podpredseda vlády a minister životného prostredia SR Tomáš Taraba (nominant SNS) spoločne s poslancom Národnej rady SR Petrom Slyškom (Hlas-SD) a predstaviteľmi liptovských samospráv v piatok ",
+      "pub": 1789140035.0,
+      "s": "Pravda",
+      "t": "Koniec problémom so splaškami: Dve obce na Liptove získali milióny na kanalizáciu a čističku",
+      "ts": 1789140939.4722147,
+      "u": "3b0c668070c99e1816a9"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2040151-vucic-odstupi-koncom-septembra-kandidovat-chce-ako-bezny-obcan-potvrdil-ze-cielom-je-post-premiera?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Srbský prezident Aleksandar Vučič v piatok oznámil, že zo svojej funkcie plánuje odstúpiť 25. alebo 26. septembra po návrate z New Yorku. Zároveň vtedy spustí svoju kampaň pred nadchádzajúcimi parlamentnými voľbami, píše TASR na základe správy agentúry Tanjug.",
+      "pub": 1789139601.0,
+      "s": "Pravda",
+      "t": "Vučič odstúpi koncom septembra, kandidovať chce ako „bežný občan“. Potvrdil, že cieľom je post premiéra",
+      "ts": 1789140939.472216,
+      "u": "ce467dd2345de08e7623"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/hostia-vikendovych-diskusnych-relaci/991665-clanok.html",
+      "p": "TASR prináša prehľad hostí vo víkendových diskusných reláciách.",
+      "pub": 1789138980.0,
+      "s": "Teraz.sk",
+      "t": "PREHĽAD: Hostia víkendových diskusných relácií",
+      "ts": 1789140939.472217,
+      "u": "ae672b8f8b1ae9624176"
+    },
+    {
+      "l": "https://www.noviny.sk/krimi/1257826-mnicha-zatkli-z-klastora-mal-odviest-viac-ako-2-5-miliona-eur-pomahat-mu-mala-milenka",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Mnícha zatkli: Z kláštora mal odviesť viac ako 2,5 milióna eur, pomáhať mu mala milenka",
+      "ts": 1789140939.472219,
+      "u": "76107629ea714cb21b8c"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1257972-split-zasiahli-silne-povodne-zaplavene-su-ulice-aj-cast-nemocnice",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Split zasiahli silné povodne, zaplavené sú ulice aj časť nemocnice",
+      "ts": 1789140939.47222,
+      "u": "2b606dc7ebb5445feaf9"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.noviny.sk/zahranicie/1254797-jedlom-zadarmo-v-ramci-vladneho-programu-sa-v-indonezii-otravilo-2000-ludi"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o masovú otravu veľkého rozsahu v rámci vládneho programu, čo predstavuje mimoriadnu udalosť s vysokým počtom postihnutých.",
-      "title": "Jedlom zadarmo v rámci vládneho programu sa v Indonézii otrávilo 2000 ľudí",
-      "ts": 1788536145.6364322
-    },
     {
       "links": [
         "https://www.aktuality.sk/clanok/00Zj4TM/minister-blanar-si-predvola-ruskeho-velvyslanca-na-slovensku/"
@@ -4680,6 +4765,15 @@
       "reason": "Ide o priamy útok na civilnú infraštruktúru s potvrdenými obeťami na životoch v prebiehajúcom vojnovom konflikte, ktorý má zásadný bezpečnostný význam pre európsky priestor.",
       "title": "Ruské drony zasiahli čerpaciu stanicu v Kyjeve. Dvaja civilisti zahynuli, viacerí sú zranení",
       "ts": 1789126547.2248921
+    },
+    {
+      "links": [
+        "https://www.noviny.sk/zahranicie/1257972-split-zasiahli-silne-povodne-zaplavene-su-ulice-aj-cast-nemocnice"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Ide o rozsiahlu prírodnú katastrofu s priamym ohrozením kritickej infraštruktúry (nemocnica) v obľúbenej dovolenkovej destinácii Slovákov.",
+      "title": "Split zasiahli silné povodne, zaplavené sú ulice aj časť nemocnice",
+      "ts": 1789140942.2563224
     }
   ],
   "seen": {
@@ -4814,7 +4908,6 @@
     "0457b3b76b52084c2463": 1788323733.8996224,
     "045d8dc0926b846c2f9f": 1788348936.2748163,
     "045e238fa8edca88a174": 1789041346.290123,
-    "0460cb6ac2d8fd1ddf91": 1787931345.616377,
     "0469e44845ef363b9721": 1788510940.0921278,
     "0473bd097739683c298e": 1788261041.5101693,
     "047c83721bac54964a34": 1788934245.7830281,
@@ -5005,7 +5098,6 @@
     "09cafe2ea7ceb9d7c752": 1788525343.0087736,
     "09d8d52d17cdfb944f47": 1788444647.6349754,
     "09df0a0fd689667feda9": 1788959441.5144286,
-    "09f7c703072699b37bfc": 1787931345.61642,
     "09fbb8b94a44ca68c4a5": 1787987446.816672,
     "09fec98ad007f4bfaa23": 1788881784.9721541,
     "0a0abd69dccfda29de1c": 1788424541.1438282,
@@ -5043,6 +5135,7 @@
     "0b0ab53bf6c79b70f21a": 1788945058.780873,
     "0b0dfa6b682dbc0b5c91": 1788589238.0934794,
     "0b11795f2e04d06e980d": 1788927043.6866739,
+    "0b2780f13abc752e1088": 1789140939.47221,
     "0b29d39ecff05ce9390f": 1788940534.48523,
     "0b29dfc507b74178b580": 1788772247.2511597,
     "0b42a329b47f7c523057": 1788237336.8586423,
@@ -6023,6 +6116,7 @@
     "281ac03f14280010bc2c": 1788258937.6192415,
     "281e0e198100e96a463e": 1788147343.5649173,
     "28218fb12ebcdc20574f": 1788268251.3066127,
+    "283150798ca5d56fa616": 1789140939.4722056,
     "2832d5cc31fbaeadcae3": 1788504935.4375703,
     "2850a9afbace9852379b": 1788406542.1125278,
     "2852b8089717f3b8caf9": 1788424541.1438444,
@@ -6146,6 +6240,7 @@
     "2b4fd47cfaf8df223a1e": 1788345344.3084881,
     "2b516fda0d12c06fb2ca": 1788257445.1785665,
     "2b533a385dfcd0e07b03": 1788770135.0426,
+    "2b606dc7ebb5445feaf9": 1789140939.4722195,
     "2b63b2cc594b26b7029f": 1788233743.4162347,
     "2b7086cc3e90c8b8eace": 1788851448.121109,
     "2b70ab3a2a90ea73ad7b": 1789036535.5780935,
@@ -6205,7 +6300,6 @@
     "2d6104e9c5ba40ee8b69": 1788536142.1149116,
     "2d68266afb28b3af3ffd": 1788188151.5732071,
     "2d70a648f22bfbe8f1c3": 1788452449.46318,
-    "2d73aed7d2282524f80f": 1787931345.6164122,
     "2d7b8f10ad04b6c5bbdd": 1788420940.982077,
     "2d8336dbe7bee8b7895a": 1788281127.1735919,
     "2d871f84f83b07ec942c": 1788897337.720136,
@@ -6672,6 +6766,7 @@
     "3aed3fc509c86a348da1": 1787983844.5072181,
     "3b086c726be1714c1ac5": 1788962139.4348626,
     "3b0a4faec6f97e395e68": 1788158161.2343304,
+    "3b0c668070c99e1816a9": 1789140939.4722135,
     "3b143d24c602cf8ff138": 1788352543.0432725,
     "3b1ed4e55944cf7da8f6": 1788345344.3084977,
     "3b260067be00572bc6b7": 1788700240.513216,
@@ -7008,6 +7103,7 @@
     "44e33e8f0d54b802aaa6": 1788534649.9656146,
     "44e9ef8c3925fdad59c2": 1788178243.5002472,
     "44ff538fda73b351e516": 1788257445.1787465,
+    "450acf5b154bf1e7c5c3": 1789140939.4721992,
     "4546ab7b07858e0b41e1": 1788252932.8520043,
     "4550121b2c1e93a8cbf2": 1789030535.1677392,
     "455b084d5d79479cf8ad": 1789027850.4788117,
@@ -7156,7 +7252,6 @@
     "490b104dfce05a66d269": 1789074647.095067,
     "49214fa85a8302d6bb21": 1788235842.3789744,
     "493e44eb57cb09f2b273": 1788242146.111966,
-    "493ff0507f1def56d2f0": 1787931345.6164227,
     "49450c7840d854582663": 1788468934.2569997,
     "494cae14a7a05aacb2f3": 1788551741.9000323,
     "494d4a4c11afa6f32373": 1789034142.401591,
@@ -7668,6 +7763,7 @@
     "5843ba0d4c534fd8271e": 1788206146.7979028,
     "5847ef5ff6ca0024f4dd": 1788788142.938361,
     "584ce58c480101cfcd2e": 1789032934.153107,
+    "5854ad0798137c7d9195": 1789140939.4722214,
     "5859b5293cde4721a245": 1788360938.7122645,
     "585d54566a0c37b59400": 1788284140.3808737,
     "585d622c975cedc99c67": 1788579335.321022,
@@ -8078,7 +8174,6 @@
     "63c95b0594fafcf3442a": 1788878137.4628615,
     "63cf5057c0eb5853fb5d": 1788854139.6134925,
     "63d6a72fba792715407d": 1789032934.153119,
-    "63ebd00863ed0dced7e0": 1787931345.616422,
     "63eeadc64dfa19edd44c": 1788900954.9604664,
     "63f0be01e6d429c051f2": 1788492969.8742213,
     "640edf98338deaf381fe": 1788095448.2656896,
@@ -8173,6 +8268,7 @@
     "66793db56dd3bad33c01": 1788722446.0883439,
     "667bb6f759ef358d677d": 1788959441.5144148,
     "6682c4220a99f5e65ac3": 1789050964.4241695,
+    "6694f84d2c4155bc44af": 1789140939.4722266,
     "6697c415802f341060a1": 1788978049.23056,
     "669c70ddeb5f029a4254": 1788012652.6881406,
     "669e4df5148a278cd708": 1788705343.88403,
@@ -8199,6 +8295,7 @@
     "672d33cede0802dd6830": 1788690948.0399892,
     "673e261bc2a19a128c10": 1788518133.9844751,
     "673e960eed817770fa71": 1788792947.1380134,
+    "6749643b94ffca1df993": 1789140939.472208,
     "675078da766f01f448ae": 1788950141.187287,
     "67508cf2b548af2f86cc": 1788700240.5132375,
     "675140484d79a00dde1b": 1789027850.4787858,
@@ -8507,7 +8604,6 @@
     "6fdb456ddf16a2ad7825": 1788845737.0684497,
     "6fdd2498c61f6964b1a5": 1788188151.5732057,
     "6fe395105125920f3a30": 1788294938.2687342,
-    "6fe42c74919b22bd3c76": 1787931345.6164107,
     "6ff0e9c254994f3e1f8e": 1788785735.593919,
     "6ff7ec0cb98a1f858387": 1788689445.175611,
     "6ffb6fd711012a2f6740": 1789119334.4951086,
@@ -8729,6 +8825,7 @@
     "75ef3436dda78ea20c70": 1788798046.9045813,
     "7607f9bff8d425b8ecd9": 1787999743.3971283,
     "760c9e17fcea235d54af": 1789042241.503177,
+    "76107629ea714cb21b8c": 1789140939.4722176,
     "76145b4ac767b4bde225": 1788021339.248871,
     "761ba16347ca687331c3": 1788801647.0833185,
     "7622131165203c778c40": 1788934245.7830296,
@@ -9128,7 +9225,6 @@
     "8230fcea935a09dd40f6": 1788579335.3210385,
     "8257fc1d4a465aa58182": 1788528937.2829843,
     "8258c3f76021221769ca": 1789045847.379183,
-    "8259badbaf3697528dc3": 1787931345.6164136,
     "825c2c23477390df23b0": 1788801647.0833216,
     "8266308c6550e8dd24cd": 1788935777.556643,
     "82742f8831be141ee69a": 1788085245.0494618,
@@ -9383,6 +9479,7 @@
     "89ec13596c4d6936960f": 1788698135.3143158,
     "89f1f13d5d1f199f5ec6": 1788498652.7723706,
     "89f31fed5853be0463e9": 1788107738.6367502,
+    "89f66d967411fb749f96": 1789140939.4722245,
     "89f9063b04f1710e99de": 1789097743.6349978,
     "89f983167a5e41f4f8e9": 1788275459.7535589,
     "8a091957867cb7571d73": 1788468934.2569776,
@@ -9644,6 +9741,7 @@
     "913b65ceb58b406174e5": 1789048546.2457762,
     "91402bdc0a5e24f36f56": 1788757848.052708,
     "915701ac38fa023dadda": 1788628847.1097567,
+    "917409051a72ccc9b609": 1789140939.4722114,
     "9174fa0ce20e0636598a": 1787994646.3077376,
     "917588fa6eb2fd87ded6": 1788432976.6559594,
     "917d02a757a55630cf92": 1788950141.1872733,
@@ -9777,7 +9875,6 @@
     "95db7d117aedee5fc7a2": 1788162941.5717525,
     "95dbe913220616f30a15": 1788950141.1872373,
     "95e2497b32a7f962c725": 1788890141.6281495,
-    "95eb4498f4f240a65b6b": 1787931345.616416,
     "95fc6b9aa6ec7bcc7e1a": 1788690948.0399988,
     "9619b122703e77b14ad0": 1788850532.8628411,
     "9623909507b967fcd1bc": 1789025742.009777,
@@ -9992,7 +10089,6 @@
     "9ce80c54dfbf85d4d50f": 1788579335.3210487,
     "9ced996675ab3462427c": 1789054557.0425913,
     "9cfbce9baf31fcaa451a": 1788246648.1494064,
-    "9cfd1e1307cd2c6cad86": 1787931345.616409,
     "9cfd5a279302a520a739": 1787952048.8326526,
     "9d0354528bc5075209c8": 1788001849.2932909,
     "9d1542c92b2919e691db": 1788339340.7263293,
@@ -10570,6 +10666,7 @@
     "ae5f358a58a4eff16600": 1789032934.1531208,
     "ae61d01c9efb06175c07": 1788458143.20463,
     "ae632a655efb8799f5a2": 1788785735.593896,
+    "ae672b8f8b1ae9624176": 1789140939.4722164,
     "ae6b3d4c880429d4167a": 1788605740.6428492,
     "ae6b5813e8d5ac44df7b": 1787981734.6103187,
     "ae849531f9f3e6f55282": 1789026941.3908708,
@@ -11460,7 +11557,6 @@
     "c796a278ea7c524efd2d": 1788431735.6862764,
     "c79b47978ec502594b16": 1788795344.836504,
     "c7a16696810a438e4152": 1789041346.2901201,
-    "c7a385dca2b6d9b11e16": 1787931345.6164074,
     "c7a6ca2348a4eb4e3532": 1788804649.5031407,
     "c7ae2c83ca0a53c1e6c7": 1788778533.7278829,
     "c7b4db4696cf91c6bdf7": 1788106240.4256923,
@@ -11694,6 +11790,7 @@
     "ce3533979898ed559eda": 1788233743.4162893,
     "ce38e94bc9f38ea29a7a": 1788261041.5101633,
     "ce3f2333a74a691301e4": 1788790248.1667082,
+    "ce467dd2345de08e7623": 1789140939.4722154,
     "ce472067057f08f01e18": 1788724542.2039244,
     "ce4a2ca0f5400f01cb4d": 1788620144.0874946,
     "ce54866394d3771cdc17": 1788838537.0136662,
@@ -12713,7 +12810,6 @@
     "ecd55476cba404094d1d": 1788320144.7140436,
     "ecd9939b6d6a4851c58f": 1788840680.4318728,
     "ecd9bdeee5f30141dc56": 1787941250.25625,
-    "ecda2519a12757f621a5": 1787931345.616382,
     "ecdd3d2e7e43f7952697": 1788095448.2656927,
     "ecf4a2c8c9bf327e7c2a": 1788078041.9947906,
     "ecf5b5316c3e618bc2a7": 1788579335.3210347,
@@ -13369,61 +13465,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1789139465.0481935
+      "ts": 1789140939.4721742
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1789139465.048195
+      "ts": 1789140939.4721754
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1789139465.0481973
+      "ts": 1789140939.4721785
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1789139465.048202
+      "ts": 1789140939.4721832
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1789139465.048196
+      "ts": 1789140939.4721768
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1789139465.048186
+      "ts": 1789140939.4721663
     },
     "sme_gnews": {
-      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:sme.sk&hl=sk&gl=SK&ceid=SK:sk",
+      "error": null,
       "name": "SME (GNews)",
-      "ok": false,
-      "ts": 1789139465.0481918
+      "ok": true,
+      "ts": 1789140939.4721718
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1789139465.0482013
+      "ts": 1789140939.4721825
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1789139465.0481985
+      "ts": 1789140939.47218
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1789139465.0482001
+      "ts": 1789140939.4721813
     }
   },
   "sport_recent": [
@@ -15042,6 +15138,30 @@
       "t": "Inthraphuvasak spôsobil prvú vážnu haváriu na Madringu, voz vzplanul",
       "ts": 1789139465.0484447,
       "u": "63750f6cb271a82e0ff0"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/dylan-larkin-detroit-red-wings-kapitan-2026091115351731138",
+      "p": "Americký hokejový útočník Dylan Larkin sa po neúspešnom pokuse o výmenu z Detroitu Red Wings do iného klubu NHL plánuje zúčastniť prípravného kempu „červených krídel“. Tridsaťročný center však už nebude nosiť na drese kapitánske „céčko“, pričom jeho budúcnosť v Michigane zostáva nejasná.",
+      "s": "Šport.sk",
+      "t": "Chcel odísť z Detroitu, trejd však nevyšiel. Teraz prišiel aj o kapitánske céčko",
+      "ts": 1789140939.4722233,
+      "u": "5854ad0798137c7d9195"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNX2F2TThlT2tBaW1GSWd5WHdMc1NNRUxnNl80U3FhMG5VOThocU4wUGc0cmpoVDQzNVNaM3FNY2NVNmpENFE0MUJWVWZWM1ktMXFLdVFueFZjanNobU93S0pXR1NOWTd3Q2ZSZnQ5NzJPQWNENnB1eUJxbEhvX211bVNhMWt0NFZ3bjh3UFYxLWpMaWhZaF9sZl91VjhBeFZQcnVkQ1JKSS0wRlMxRXpHTjk0dVRJTkplUVNWVEJNSzZGSDU0ZjlF?oc=5",
+      "p": "Slovan dostal za zápas v Dunajskej Strede pokutu. Oproti domácim zaplatí dvojnásobok sportnet.sme.sk",
+      "s": "SPORTNET",
+      "t": "Slovan dostal za zápas v Dunajskej Strede pokutu. Oproti domácim zaplatí dvojnásobok - sportnet.sme.sk",
+      "ts": 1789140939.472226,
+      "u": "89f66d967411fb749f96"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/larkin-sa-zucastni-kempu-detroitu-red/991671-clanok.html",
+      "p": "Larkin po skončení uplynulého ročníka požiadal o výmenu do inej organizácie profiligy.",
+      "s": "TERAZ.SK",
+      "t": "Larkin sa zúčastní kempu Detroitu Red Wings bez kapitánskeho céčka",
+      "ts": 1789140939.4722276,
+      "u": "6694f84d2c4155bc44af"
     }
   ],
   "sport_source_status": {
@@ -15049,25 +15169,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1789139465.0482047
+      "ts": 1789140939.4721859
     },
     "sportnet_gnews": {
-      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Asportnet.sme.sk&hl=sk&gl=SK&ceid=SK%3Ask",
+      "error": null,
       "name": "SPORTNET",
-      "ok": false,
-      "ts": 1789139465.0482066
+      "ok": true,
+      "ts": 1789140939.4721885
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1789139465.0482097
+      "ts": 1789140939.472192
     },
     "tvnoviny_sport_gnews": {
-      "error": "HTTP: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Atvnoviny.sk%2Fsport&hl=sk&gl=SK&ceid=SK%3Ask",
+      "error": null,
       "name": "TVNOVINY.sk",
-      "ok": false,
-      "ts": 1789139465.0482085
+      "ok": true,
+      "ts": 1789140939.4721904
     }
   }
 }
