@@ -179,20 +179,58 @@
     {
       "headline": "Zomrela talianska politička a feministka Emma Boninová",
       "ts": 1789127750.6498787
+    },
+    {
+      "headline": "Vlak pri Trenčíne narazil do spadnutého stromu a vykoľajil sa",
+      "ts": 1789128657.549836
+    },
+    {
+      "headline": "Cestovná kancelária Solvex začala vyplácať klientov po krachu",
+      "ts": 1789128657.549836
+    },
+    {
+      "headline": "Demokrati posilnili protikorupčný tím o Galka a Rajtára",
+      "ts": 1789128657.549836
+    },
+    {
+      "headline": "AfD podala trestné oznámenie na lídra CDU Friedricha Merza",
+      "ts": 1789128657.549836
+    },
+    {
+      "headline": "Zomrela talianska politička a feministka Emma Boninová",
+      "ts": 1789128657.549836
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Vlak pri Trenčíne narazil do stromu a vykoľajil sa",
+        "headline": "Vlak pri Trenčíne narazil do spadnutého stromu a vykoľajil sa",
         "links": [
           [
             "SME",
             "https://www.sme.sk/domov/c/pri-trencine-sa-po-naraze-do-stromu-vykolajil-osobny-vlak"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/SQeG1CV/pri-trencine-sa-po-naraze-do-stromu-vykolajil-osobny-vlak/"
           ]
         ],
-        "perex": "Na železničnej trati medzi Trenčínom a Chynoranmi narazil osobný vlak do spadnutého stromu, čo spôsobilo jeho vykoľajenie. Pri nehode sa nikto nezranil, no doprava na úseku zostala ochromená."
+        "perex": "Osobný vlak na trati Trenčín – Chynorany narazil v piatok dopoludnia do spadnutého stromu, čo spôsobilo jeho vykoľajenie. Pri nehode sa nikto nezranil, no železničná doprava na úseku zostala paralyzovaná."
+      },
+      {
+        "headline": "Cestovná kancelária Solvex začala vyplácať klientov po krachu",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/po-krachu-ck-solvex-zacala-poistovna-colonnade-insurance-vyplacat-klientov"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/slovensko/1257824-cestovka-solvex-skrachovala-vyse-tisic-ludi-nevycestovalo-poistovna-uz-vyplaca-peniaze"
+          ]
+        ],
+        "perex": "Po vyhlásení platobnej neschopnosti cestovnej kancelárie Solvex začala poisťovňa Colonnade Insurance proces odškodňovania dotknutých klientov. Krach kancelárie zasiahol vyše tisíc ľudí, ktorí v dôsledku situácie nemohli vycestovať na dovolenky."
       },
       {
         "headline": "Demokrati posilnili protikorupčný tím o Galka a Rajtára",
@@ -200,29 +238,27 @@
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/aFWSabC/demokrati-posilnuju-protikorupcny-tim-do-strany-vstupili-lubomir-galko-a-jozef-rajtar/"
-          ]
-        ],
-        "perex": "Mimoparlamentná strana Demokrati oznámila vstup dvoch nových členov, Ľubomíra Galka a Jozefa Rajtára. Obaja politici sa v strane zamerajú na posilnenie protikorupčnej agendy a ekonomické témy."
-      },
-      {
-        "headline": "Cestovná kancelária Solvex začala vyplácať klientov",
-        "links": [
+          ],
           [
-            "SME",
-            "https://www.sme.sk/index/c/po-krachu-ck-solvex-zacala-poistovna-colonnade-insurance-vyplacat-klientov"
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/demokrati-maju-novych-clenov-do-stra/991559-clanok.html"
           ]
         ],
-        "perex": "Po vyhlásení platobnej neschopnosti cestovnej kancelárie Solvex začala poisťovňa Colonnade Insurance proces vyplácania odškodnení. O svoje peniaze prišlo viac ako tisíc klientov, ktorí pre krach kancelárie nevycestovali."
+        "perex": "Mimoparlamentná strana Demokrati oficiálne prijala do svojich radov poslanca Ľubomíra Galka a bývalého zákonodarcu Jozefa Rajtára. Noví členovia majú v strane posilniť najmä protikorupčnú agendu a ekonomické témy."
       },
       {
-        "headline": "AfD podala trestné oznámenie na lídra CDU Merza",
+        "headline": "AfD podala trestné oznámenie na lídra CDU Friedricha Merza",
         "links": [
           [
             "SME",
             "https://www.sme.sk/svet/c/afd-podala-trestne-oznamenie-na-merza-pre-vyjadrenie-o-etnickych-cistkach"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2039973-afd-podala-trestne-oznamenie-na-merza-pre-vyjadrenie-o-etnickych-cistkach-neprijatelne-co-si-dovolil/"
           ]
         ],
-        "perex": "Nemecká strana Alternatíva pre Nemecko sa rozhodla podať trestné oznámenie na kancelára Friedricha Merza. Dôvodom sú jeho vyjadrenia, v ktorých označil migračnú politiku AfD za etnické čistky."
+        "perex": "Nemecká strana Alternatíva pre Nemecko (AfD) sa rozhodla právne brániť po tom, čo kancelársky kandidát Friedrich Merz označil ich migračnú politiku za etnické čistky. AfD považuje toto vyjadrenie za neprijateľné a podala na politika trestné oznámenie."
       },
       {
         "headline": "Zomrela talianska politička a feministka Emma Boninová",
@@ -232,172 +268,19 @@
             "https://www.sme.sk/svet/c/zomrela-politicka-a-feministka-emma-boninova-mala-78-rokov"
           ]
         ],
-        "perex": "Vo veku 78 rokov zomrela významná talianska politička a bojovníčka za práva žien Emma Boninová. Počas svojej kariéry sa preslávila otvoreným prístupom k politickým témam a využívaním vlastného tela ako politického nástroja."
+        "perex": "Vo veku 78 rokov zomrela významná talianska politička a bojovníčka za práva žien Emma Boninová. Počas svojej kariéry sa preslávila radikálnymi postojmi, pričom v rozhovoroch uvádzala, že svoje telo využívala ako politickú zbraň."
       }
     ],
-    "ts": 1789127750.6498706
+    "ts": 1789128657.5498278
   },
   "meta": {
-    "last_collection_ts": 1789127740.1516297,
+    "last_collection_ts": 1789128649.2972405,
     "last_feed_error_ts": 1789120548.54195,
     "last_llm_error_ts": 1789048574.1240222,
-    "last_run_ts": 1789127741.0694032,
-    "last_synthesis_ts": 1789127750.6498659
+    "last_run_ts": 1789128649.6935549,
+    "last_synthesis_ts": 1789128657.549823
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/auto/c/renault-twingo-sa-vratil-na-slovensko-patri-k-najdostupnejsim-elektromobilom?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Základná výbava je bohatšia ako vo Francúzsku.",
-      "pub": 1789042089.0,
-      "s": "SME",
-      "t": "Renault Twingo sa vrátil na Slovensko, patrí k najdostupnejším elektromobilom",
-      "ts": 1789042241.5029626,
-      "u": "61c1d08bab2732370602"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/som-rad-ze-v4-opat-vystupuje-jednotne-vyhlasil-magyar-pred-cestou-do-bratislavy?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Európa dosiahla podľa maďarského premiéra bod zlomu.",
-      "pub": 1789042052.0,
-      "s": "SME",
-      "t": "Som rád, že V4 opäť vystupuje jednotne, vyhlásil Magyar pred cestou do Bratislavy",
-      "ts": 1789042241.5031447,
-      "u": "0634ba4a82557c06685c"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/islandska-vlada-buduci-rok-navrhne-zakaz-lovu-velryb?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Komerčný lov by bol v takom prípade možný už len v Japonsku a Nórsku.",
-      "pub": 1789041441.0,
-      "s": "SME",
-      "t": "Islandská vláda budúci rok navrhne zákaz lovu veľrýb",
-      "ts": 1789042241.5031466,
-      "u": "cc52ab7a5a6168627de6"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/dalsi-problem-na-blizkom-vychode-husiovia-spustili-novu-ofenzivu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Hrozí aj zapojenie Pakistanu a Turecka.",
-      "pub": 1789041410.0,
-      "s": "SME",
-      "t": "Ďalší problém na Blízkom východe. Húsíovia spustili novú ofenzívu",
-      "ts": 1789042241.5031488,
-      "u": "e38a9cc33824c527066a"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/tfT0eGr/curillovec-by-sa-mal-vratit-na-vedenia-inspekcie-u-matusa-sutaja-estoka-vyhral-druhy-sud/",
-      "p": "Juraj Svítok uspel už na dvoch súdoch.",
-      "pub": 1789041820.0,
-      "s": "Aktuality",
-      "t": "Čurillovec by sa mal vrátiť na vedenie Inšpekcie u Matúša Šutaja Eštoka. Vyhral druhý súd",
-      "ts": 1789042241.503151,
-      "u": "08d18aebd6929947ef4f"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/z3D1CIZ/husiovia-ovladli-strategicke-mesto-pri-cervenom-mori-postupuju-k-dolezitemu-prielivu/",
-      "p": "Iránom podporované hnutie tvrdí, že prevzalo kontrolu nad prístavným mestom Mokka po ofenzíve proti vládnym silám podporovaným Rijádom. Saudská Arábia čelí obvineniam z desiatok úderov.",
-      "pub": 1789041547.0,
-      "s": "Aktuality",
-      "t": "Húsíovia ovládli strategické mesto pri Červenom mori. Postupujú k dôležitému prielivu",
-      "ts": 1789042241.5031521,
-      "u": "0ed45fb9f7cced05192d"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/a0EiaZi/deutsche-bahn-priznava-velke-meskanie-modernizacie-uplne-vyluky-trati-potrvaju-dlhsie-a-skomplikuju-dopravu-v-nemecku/",
-      "p": "Namiesto štyroch veľkých modernizácií železníc ročne zvládne Deutsche Bahn len dve. Firma upravuje harmonogram a dlhý zoznam prác posúva hlboko za rok 2030.",
-      "pub": 1789041455.0,
-      "s": "Aktuality",
-      "t": "Deutsche Bahn priznáva veľké meškanie modernizácie. Úplné výluky tratí potrvajú dlhšie a skomplikujú dopravu v Nemecku",
-      "ts": 1789042241.5031543,
-      "u": "f72c9ba25d946bbe1a75"
-    },
-    {
-      "l": "https://www.pravda.sk/vat/clovek/clanok/2037891-nku-ministerstvo-skolstva-veda-a-vyskum-cerpanie-nku?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "NKÚ ministerstvo školstva upozorňuje, že z takmer 390 miliónov eur určených na vedu, výskum a inovácie sa vyčerpalo len 7,5 percenta. V inom prípade však podpísalo v posledné dni čerpania dve rámcové zmluvy na vzdelávacie kurzy pre učiteľov za milióny eur.",
-      "pub": 1789041918.0,
-      "s": "Pravda",
-      "t": "NKÚ varuje pred pomalým čerpaním na vedu. Kurzy pre učiteľov za milióny však vyriešil Drucker rýchlo",
-      "ts": 1789042241.5031557,
-      "u": "bebbc863eb24fd7e47ca"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2039331-policia-zaistila-hasicske-auto-za-miliony-scania-teraz-vysvetluje-co-je-pravda-o-vin-a-veku-vozidiel?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Spoločnosť Scania Slovakia tvrdí, že vozidlá pre Hasičský a záchranný zbor (HaZZ) boli vyrobené a dodané s novými podvozkami a v súlade s podmienkami verejného obstarávania. Firma tiež odmieta tvrdenia o akejkoľvek manipulácii s VIN číslami vozidiel dodaných zo strany spoločnosti. V reakcii na nákup",
-      "pub": 1789041900.0,
-      "s": "Pravda",
-      "t": "Polícia zaistila hasičské auto za milióny. Scania teraz vysvetľuje, čo je pravda o VIN a veku vozidiel",
-      "ts": 1789042241.5031571,
-      "u": "faf9b9645841a6105c67"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2039327-putinova-ropna-obchadzka-pod-utokom-americania-zasiahli-tankery-napojene-na-moskvu?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Tri z piatich tankerov, ktoré 8. septembra zasiahli americké sily v blízkosti Hormuzského prielivu, mali priame väzby na ruskú tieňovú flotilu, povedal vo štvrtok pre ukrajinský denník Glavcom Vladyslav Vlasjuk, poradca prezidenta Volodymyra Zelenského pre sankčnú politiku.",
-      "pub": 1789041600.0,
-      "s": "Pravda",
-      "t": "Putinova ropná obchádzka pod útokom: Američania zasiahli tankery napojené na Moskvu",
-      "ts": 1789042241.5031588,
-      "u": "ac07b3b2285b25373dc4"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2039283-vyzera-to-na-vojnu-medzi-dvomi-prokuraturami-na-ukrajine-a-kam-sa-az-rozrastli-chapadla-korupcnej-chobotnice?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Niektorí vplyvní funkcionári na Ukrajine sa nedokážu správať čestne ani v období, keď ich štátu ide o prežitie zoči-voči ruskej invázii. Od jej začiatku vo februári 2022 sa vyskytlo viacero veľkých korupčných škandálov, pričom ten najnovší je naozaj zarážajúci.",
-      "pub": 1789041600.0,
-      "s": "Pravda",
-      "t": "Vyzerá to na vojnu medzi dvomi prokuratúrami na Ukrajine. A kam sa až rozrástli chápadlá korupčnej chobotnice?",
-      "ts": 1789042241.5031602,
-      "u": "13102f070c3dcd6eb78c"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2039319-stat-rozda-takmer-35-milionov-eur-kto-moze-dostat-peniaze-a-kolko?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Na investície do rozširovania a budovania závlah pôjde v štyroch projektových výzvach 34,8 milióna eur. Oznámil to vo štvrtok na tlačovej konferencii minister pôdohospodárstva a rozvoja vidieka SR Richard Takáč (Smer-SD).",
-      "pub": 1789041300.0,
-      "s": "Pravda",
-      "t": "Štát otvára kohútiky s miliónmi. Na závlahy rozdá takmer 35 miliónov eur, podpora môže byť až 100 %",
-      "ts": 1789042241.5031617,
-      "u": "2dc4e0a369caeda46800"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/policia-eviduje-za-minuly-tyzden-23/991315-clanok.html",
-      "p": "Osobitná pozornosť bude venovaná vodičom motocyklov v súvislosti s blížiacim sa záverom letného obdobia.",
-      "pub": 1789040940.0,
-      "s": "Teraz.sk",
-      "t": "Polícia eviduje za minulý týždeň 231 dopravných nehôd",
-      "ts": 1789042241.5031636,
-      "u": "4c7abbb79f51068e5084"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1257230-miliony-ludi-dojala-starenka-ktora-sa-musela-rozlucit-so-psikom-ide-o-podvod",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Milióny ľudí dojala starenka, ktorá sa musela rozlúčiť so psíkom. Ide o podvod",
-      "ts": 1789042241.5031655,
-      "u": "82d809dfe523e2ea78ba"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1257386-vreckarky-si-v-prahe-natacali-ako-okradaju-seniorku-video-pomohlo-policii",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Vreckárky si v Prahe natáčali, ako okrádajú seniorku. Video pomohlo polícii",
-      "ts": 1789042241.5031667,
-      "u": "7072315350e5cf4ff18f"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1257333-smutne-cisla-na-svetovy-den-prevencie-samovrazd-pokusov-pribuda-medzi-mladymi-dievcatami",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Smutné čísla na Svetový deň prevencie samovrážd: Pokusov pribúda medzi mladými dievčatami",
-      "ts": 1789042241.503168,
-      "u": "d2655711925d48c83d31"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1257221-skryta-kamera-zachytila-predstavitelov-reform-uk-hovorili-o-dare-vo-vyske-500-tisic-libier",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Skrytá kamera zachytila predstaviteľov Reform UK. Hovorili o dare vo výške 500-tisíc libier",
-      "ts": 1789042241.5031695,
-      "u": "66b0ca864d7870e2537b"
-    },
     {
       "l": "https://www.sme.sk/domov/c/ps-sa-v-suvislosti-s-obstaranim-sbs-envirorezortom-obrati-na-urad-pre-verejne-obstaravanie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Hnutie tvrdí, že Taraba obišiel zákon o verejnom obstarávaní.",
@@ -4303,6 +4186,42 @@
       "t": "Auto dostalo pri Revúcej šmyk a narazilo do autobusu. Vodiča previezli do nemocnice",
       "ts": 1789127741.0689063,
       "u": "d3928fa0482d7e3dcbf2"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/sabotaz-pri-presove-poukazuje-na-rusku-stopu-aj-nedoveru-zahranicnych-tajnych?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Vyšetrovanie objednávateľa pokračuje, odborníci sa nezdráhajú hovoriť o Rusku.",
+      "pub": 1789128317.0,
+      "s": "SME",
+      "t": "Sabotáž pri Prešove poukazuje na ruskú stopu aj nedôveru zahraničných tajných",
+      "ts": 1789128649.692803,
+      "u": "baefc1a11030258bae8e"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/bLUPDfF/svedsko-rozhodne-o-smerovani-krajiny-vo-volbach-moze-pokracovat-pravicovy-blok-s-krajnou-pravicou/",
+      "p": "Posledné predvolebné debaty ovládli témy bývania, školstva či životných nákladov, no výraznou témou zostáva aj migrácia a budúca úloha krajne pravicových Švédskych demokratov.",
+      "pub": 1789128547.0,
+      "s": "Aktuality",
+      "t": "Švédsko rozhodne o smerovaní krajiny. Vo voľbách môže pokračovať pravicový blok s krajnou pravicou",
+      "ts": 1789128649.692806,
+      "u": "5411f8e2797f8d012fb9"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/Tg4Nl8t/svedsko-rozhodne-o-smerovani-krajiny-vo-volbach-moze-pokracovat-pravicovy-blok-s-krajnou-pravicou/",
+      "p": "Posledné predvolebné debaty ovládli témy každodenného života, no do hlasovania výrazne vstupuje aj migrácia a budúca úloha krajne pravicových Švédskych demokratov.",
+      "pub": 1789128011.0,
+      "s": "Aktuality",
+      "t": "Švédsko rozhodne o smerovaní krajiny. Vo voľbách môže pokračovať pravicový blok s krajnou pravicou",
+      "ts": 1789128649.692808,
+      "u": "099469afb6ceadd62461"
+    },
+    {
+      "l": "https://dennikn.sk/5555267/idyla-v-suwalskom-koridore/",
+      "p": "Ale práve existenciálna skúsenosť pobytu na periférii vás núti byť neustále v strehu, núti vás uvedomovať si význam pojmov sloboda a pravda ako niečo hmatateľné",
+      "pub": 1789128075.0,
+      "s": "Denník N",
+      "t": "Idyla v Suwalskom koridore",
+      "ts": 1789128649.6928089,
+      "u": "ba5a715acecf83309423"
     }
   ],
   "recent_alerts": [
@@ -5040,7 +4959,6 @@
     "026376aa3f243c0b63b8": 1788950141.187276,
     "02703438820dc9eed931": 1788842152.85749,
     "02823eb12825d6187ca4": 1788330942.616477,
-    "0282ed4ef9c3785429cf": 1787919047.3710556,
     "02888668d72c8be49944": 1788530143.0438085,
     "028999cede6294402686": 1788289854.067752,
     "0289b5fac159dcce1c65": 1788068142.1057956,
@@ -5285,6 +5203,7 @@
     "097e691d5a55ab939550": 1788793848.8103466,
     "098b858edeedd8022957": 1787927735.2369819,
     "09909ddb4aa8b234a34c": 1788345344.3084865,
+    "099469afb6ceadd62461": 1789128649.6928065,
     "09949159471cbbaadcd8": 1788260144.0017807,
     "0997412e1f7c3dcc30b1": 1788014140.1615057,
     "0998a620c692eb65ecc5": 1787943333.1759405,
@@ -5343,7 +5262,6 @@
     "0b4befeb110532736ccf": 1788348936.27481,
     "0b4f2803ce79bf22a937": 1788981649.143074,
     "0b61ea4849db466269f7": 1788258937.6192384,
-    "0b6a47ebb9d270efc19f": 1787919047.3710546,
     "0b74db7c625a9caa525c": 1788417342.8188744,
     "0b7545eaeb3ace8adf81": 1788080142.836395,
     "0b7cd5540f7b84d26c56": 1788932141.489565,
@@ -5835,6 +5753,7 @@
     "1a33d9da84e5d53043a2": 1788680141.3390026,
     "1a415a71519cb69b16cd": 1788150940.5899527,
     "1a486acac2923b4e3343": 1788063040.6923282,
+    "1a62361c0d59326633e2": 1789128649.6928103,
     "1a6868c96c1fbf8b3299": 1789018541.7221832,
     "1a68aa7b4c410b8d12f0": 1788772247.2511644,
     "1a78779969973f51e8e6": 1789068043.3629186,
@@ -6041,6 +5960,7 @@
     "20743830da1a66426eaf": 1789097743.6348305,
     "2088e23627ae2b2fb642": 1789060844.8465538,
     "20892fc1ff3900e37291": 1788167450.3647935,
+    "208ae6c7fbea4b9a3c78": 1789128649.6928153,
     "2090c73baed376fe8463": 1788237336.8586512,
     "2093e22b6f27797e31b9": 1788598566.800969,
     "209697ee18684565dbfa": 1788072941.3856854,
@@ -6440,7 +6360,6 @@
     "2b516fda0d12c06fb2ca": 1788257445.1785665,
     "2b533a385dfcd0e07b03": 1788770135.0426,
     "2b63b2cc594b26b7029f": 1788233743.4162347,
-    "2b6c7c528027fb73c374": 1787919047.371051,
     "2b7086cc3e90c8b8eace": 1788851448.121109,
     "2b70ab3a2a90ea73ad7b": 1789036535.5780935,
     "2b8f1287e83875e0ef82": 1787994646.3077438,
@@ -7070,7 +6989,6 @@
     "3dc9f599ea6e26be817e": 1788320144.714252,
     "3dd7bcc53f37c3d8b13e": 1789104934.2932577,
     "3dda87afa51b589e7adf": 1789026941.3908536,
-    "3de1d29f9c93b58bdee7": 1787919047.3712432,
     "3de8843f7a730b4b7402": 1788425739.2132316,
     "3dea5ebe770de3c6bf62": 1789037735.3364544,
     "3df17db4f0a559d6a3b2": 1788974454.022657,
@@ -7435,7 +7353,6 @@
     "48fd76a0a45607ecab08": 1788070850.2948475,
     "48fe25c3ad4fdeae8303": 1788177335.739415,
     "4902716dcbd3035eb2d8": 1788196848.558076,
-    "490763626e0a5876f974": 1787919047.3712373,
     "490b104dfce05a66d269": 1789074647.095067,
     "49214fa85a8302d6bb21": 1788235842.3789744,
     "493e44eb57cb09f2b273": 1788242146.111966,
@@ -7461,7 +7378,6 @@
     "4a164da532cf7641d4d4": 1789011338.3920803,
     "4a17945000edad53e705": 1788505843.9673176,
     "4a228692c9e1c07e4ca2": 1788759362.156859,
-    "4a2b3e10b01e5c84a27a": 1787919047.3712413,
     "4a31a527a187fd8fefb7": 1789124134.1871688,
     "4a3393ecae0f1bcfd9d4": 1788452449.4629915,
     "4a386eb638e3fb948c62": 1788942943.1287158,
@@ -7806,11 +7722,11 @@
     "53f91be229535569684b": 1788540934.5157588,
     "5406809b82310dd37445": 1788001849.2935011,
     "540ed0276302c6f4c58e": 1788955847.7578373,
+    "5411f8e2797f8d012fb9": 1789128649.6928043,
     "54142b401127b0103a70": 1788172545.7724106,
     "541d23a487e6550266bc": 1788320144.7142627,
     "5426227b93ba90bdd593": 1788005446.0633347,
     "542b2c1e36e588c1c8fb": 1787925346.1555834,
-    "5439b52eae1be4ea1c6f": 1787919047.371234,
     "543ffeebaaeef885ce8f": 1788431735.6862648,
     "544e651b12379f2831fe": 1788754239.393843,
     "545374aa6915d84897e8": 1788440138.5447798,
@@ -8239,7 +8155,6 @@
     "607248351997c9e2878a": 1788081639.3353553,
     "608784869706aef5d76d": 1789048546.2455196,
     "608e63db5d7e179b0439": 1788006946.6744802,
-    "608fae095afe4bd64640": 1787919047.3710482,
     "608fe8ec3f6751524126": 1789045847.3789275,
     "60981f4e90ff1d9e45de": 1788555041.8636582,
     "609a2b539bd799dd9aab": 1788924942.4826174,
@@ -9324,6 +9239,7 @@
     "7fe1cd7861b3bf02d57a": 1788518133.9844728,
     "7fe64dffe26a85041096": 1788790248.166691,
     "7fedb967d9983c60ec4b": 1788492969.874224,
+    "7fee658ff7b22c1e5040": 1789128649.6928182,
     "7fee6f69741b05d132b4": 1788603650.8790658,
     "7ff3e33554cb86f3dab1": 1788190544.0862615,
     "7ff5e7f4f796167f4be0": 1789054557.0426042,
@@ -9552,7 +9468,6 @@
     "86baf188e6b690b7c37d": 1788249336.0161772,
     "86c5050fb1c1c37aca34": 1788461751.667773,
     "86ca29b56cf5a20c921a": 1788875740.0140786,
-    "86d9b2d230430e11f12d": 1787919047.371046,
     "86e265cbce3f30ed8650": 1788771339.1834633,
     "86edb7ec0d39017e42cd": 1788808239.7626014,
     "86f874af76d7025173ac": 1788186943.2806716,
@@ -9715,7 +9630,6 @@
     "8b6ce25df42e2a221414": 1788513040.0325646,
     "8b7d81823fcac49cf7d3": 1788012652.6881287,
     "8b7fa450c2f3380d53cb": 1788544546.192227,
-    "8b8a43df9367321c49fa": 1787919047.371057,
     "8b8b59252bcaacbb0981": 1788088841.350537,
     "8baf3ea765f9ef8b5db7": 1788432976.6559474,
     "8baf5572c308845a4197": 1788876714.9150984,
@@ -10424,6 +10338,7 @@
     "a13a550e65c3604bb876": 1788838537.0134988,
     "a16066bcd81bde51e518": 1788193247.8994823,
     "a1687aaed4d90654448b": 1788352543.0432734,
+    "a16d3b982393a6dc09e7": 1789128649.6928194,
     "a17022b3551a7590f8be": 1788076540.1828706,
     "a171cab88bf4313fb42c": 1788518133.9842649,
     "a172f989878820a6e882": 1788492969.8742225,
@@ -11282,6 +11197,7 @@
     "ba53a5852d27829a0578": 1788183334.9833825,
     "ba54fed026a549a4be7b": 1788510940.0921211,
     "ba586a0a141619a83740": 1788872138.8729162,
+    "ba5a715acecf83309423": 1789128649.6928084,
     "ba5fe40480695a74ee6b": 1788720940.5981822,
     "ba607ebbb050b9cb211a": 1788791742.276081,
     "ba696d01df17a21bf850": 1788289854.067763,
@@ -11293,6 +11209,7 @@
     "ba93224b7a29890ef88f": 1788287742.598387,
     "ba97b30f48e7e15ab41d": 1789112139.3665648,
     "ba9bf426207c5b804e44": 1788865742.2628012,
+    "ba9c6d531afc2059a7e9": 1789128649.6928136,
     "ba9d312c3ce991f80df7": 1788690948.0399933,
     "baa209ba37004509f408": 1788880029.1460614,
     "baca697194e58175a7d8": 1788443745.7749345,
@@ -11303,6 +11220,7 @@
     "bad9ba4dc93769f59d4d": 1788149451.6143682,
     "bae4ce66597b1788188b": 1788149451.6143637,
     "baea6b1cfd0477ce2835": 1788468934.2569885,
+    "baefc1a11030258bae8e": 1789128649.692799,
     "bb01bb09497961451023": 1788712535.929322,
     "bb044e103a399ed103c3": 1788253840.6794899,
     "bb06eaf6664c7c5a66d3": 1788150940.5899472,
@@ -12641,7 +12559,6 @@
     "e1846e5416be16943846": 1788628847.1097367,
     "e185086bc161ae3a2428": 1788762942.466424,
     "e189ed5ed49ad53bb521": 1788687340.4674888,
-    "e18aac8360aee0610a97": 1787919047.3710496,
     "e197660572bc14389068": 1788012652.6881413,
     "e199799d08db531d5fb1": 1788718839.234984,
     "e19a0ddb9c49a437a9c9": 1788155744.0635047,
@@ -12909,7 +12826,6 @@
     "e9cd10cf93b433adf8fe": 1788774939.59667,
     "e9d41eab094745e450fd": 1788927043.6866727,
     "e9d63f77ee8045f78e18": 1788284140.3808753,
-    "e9d7791bfb6813ce5f2b": 1787919047.37104,
     "e9d99c5c4e75324ac961": 1788406542.112515,
     "e9da845e227ad612868a": 1788551741.899824,
     "e9ef54b84a1cd9ed6c3d": 1788669341.7991855,
@@ -13525,7 +13441,6 @@
     "fc1077cb9ee368112c9f": 1789050964.4241824,
     "fc1c600a071d127814a8": 1788711055.5252798,
     "fc21da71d32632ba41af": 1788412267.3016074,
-    "fc2d9fadeb8f0baab4a4": 1787919047.371053,
     "fc30c535b1f4fe72563d": 1788972938.2132885,
     "fc3344316d76dacb7661": 1787992538.325702,
     "fc44bbfedbc595249b03": 1789122938.8820734,
@@ -13653,6 +13568,7 @@
     "ffbd7f12aa77846e815e": 1788665735.5276277,
     "ffbe39288b75a25364ba": 1788181858.4385304,
     "ffc599bf7470022a5c46": 1789112139.366562,
+    "ffcaf541f2c9f476a897": 1789128649.6928167,
     "ffceee8b94ce38134dbe": 1788279642.924951,
     "ffd3fd69ad3d4a7476af": 1788345344.3084702,
     "ffda976ae713d09a3c58": 1788958534.7870402,
@@ -13667,128 +13583,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1789127741.0686836
+      "ts": 1789128649.6927772
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1789127741.0686848
+      "ts": 1789128649.6927783
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1789127741.0686872
+      "ts": 1789128649.6927807
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1789127741.0686915
+      "ts": 1789128649.6927853
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1789127741.0686858
+      "ts": 1789128649.6927795
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1789127741.0686767
+      "ts": 1789128649.6927702
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1789127741.068682
+      "ts": 1789128649.6927752
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1789127741.068691
+      "ts": 1789128649.692784
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1789127741.0686886
+      "ts": 1789128649.6927822
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1789127741.0686893
+      "ts": 1789128649.692783
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/zapalenie-olympijskeho-ohna-dakar-afrika-2026091012063424681",
-      "p": "Olympijský oheň pre Olympijské hry mládeže v Dakare vo štvrtok zapálili v Aténach. Pôjde o vôbec prvú olympijskú súťaž, ktorá sa uskutoční na africkom kontinente.",
-      "s": "Šport.sk",
-      "t": "V Aténach zapálili olympijský oheň. Afrika sa chystá na historickú premiéru",
-      "ts": 1789042241.5031736,
-      "u": "314ae6ffebd04e9fb30a"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/nemecku-hrozi-strata-velkeho-talentu-klenot-bayernu-mnichov-moze-zmenit-reprezentaciu-2026091009533872789",
-      "p": "Kuriózny prípad Erblina Osmaniho môže pre Nemecký futbalový zväz (DFB) znamenať vážny problém. Kosovský veľvyslanec zverejnil na sociálnej sieti fotografiu, ako 17-ročnému stredopoliarovi Bayernu Mníchov odovzdáva pas svojej krajiny.",
-      "s": "Šport.sk",
-      "t": "Nemecku hrozí strata veľkého talentu. Klenot Bayernu Mníchov môže zmeniť reprezentáciu",
-      "ts": 1789042241.5031757,
-      "u": "4a9d356b054cd2d8252b"
-    },
-    {
-      "l": "https://sport.aktuality.sk/hokej/clanok/dubnica-slovensko-18-70-shl-vysledok-ziaril-reway-2026091012014446482",
-      "p": "Hokejisti Spartaku Dubnica a slovenskej „osemnástky“ otvorili vo štvrtok novú sezónu druhej najvyššej slovenskej súťaže Tipos SHL.",
-      "s": "Šport.sk",
-      "t": "Krutá lekcia pre mladíkov na úvod. Dubnica zničila slovenskú osemnástku, zažiaril trojbodový Réway",
-      "ts": 1789042241.5031774,
-      "u": "760c9e17fcea235d54af"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/neapol-nestacil-tempu-arsenalu-allegri-hodnotenie-2026090922281287360",
-      "p": "Neapol so slovenským reprezentačným stredopoliarom Stanislavom Lobotkom vstúpil do Ligy majstrov prehrou 0:1 s Arsenalom. Tréner Massimiliano Allegri po stretnutí ocenil organizáciu svojho mužstva bez lopty, zároveň však priznal, že po zmene strán už domáci nedokázali reagovať na vyššie tempo „kanon",
-      "s": "Šport.sk",
-      "t": "Lobotkov Neapol po prestávke nestačil tempu Arsenalu. Allegri priznal, čo rozhodlo",
-      "ts": 1789042241.5031798,
-      "u": "27bd19c0025e722333e8"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWDRCYlNXZFlEWEZiaFdya3hIaTNMdWxqTGpiZjJVb3pzbW1FdHVNbHB5TzUzZkExS05WOU9OYWMxa0ZGWEVJamJqcHdqQVlEenJwUFJvY2VWNnpMM1V6N0VoaWZHcTVjeW1yNkVqRWdObGhwNkNMdmJ1SU1uUUVmT19JRmFHb1l5Njg4NzhTRzd5MzYyMlF0NkxPTTQ1VlBiX2lYNy1Kc3BqMjQ?oc=5",
-      "p": "Diskusia: Sauerov spoluhráč dosiahol prvý hetrik v novej edícii. Mohli sme hrať lepšie, priznal útočník sportnet.sme.sk",
-      "s": "SPORTNET",
-      "t": "Diskusia: Sauerov spoluhráč dosiahol prvý hetrik v novej edícii. Mohli sme hrať lepšie, priznal útočník - sportnet.sme.sk",
-      "ts": 1789042241.503182,
-      "u": "b3471203cec3de828d1c"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYnNVbE1fWjl1U1pXZmRTaU5TMzRFSUhaUlRsaDY5WThUZGtlbkd3dkNselF5N2NWdzFfUTlTSlJCVGlvQ09zYXp2VDBoX01XcnplMFVjQzBxOF8tSVYwWFNNeUFIcEZpN1VrNVk2aVU2aVVtRUNENWZwODdpWE5FOGR6WHJGaGFOMnZsYWtUQXhfc1Nic25j?oc=5",
-      "p": "SFZ – Ondrej Krištofík sa stal členom klubu 60 sportnet.sme.sk",
-      "s": "SPORTNET",
-      "t": "SFZ – Ondrej Krištofík sa stal členom klubu 60 - sportnet.sme.sk",
-      "ts": 1789042241.5031834,
-      "u": "4b9361dc758bf8ed1f7f"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORUF0TC1mRlRGbVg0Y3AtUXdnaFYxUy00eDd1c2pXcXZ4NmZ1OEhWSzc3Y0ptTmdycTg0a0RvaWNKc3NyQW5RYmxpMERqUUpHbUhoc0JfQWYyNmNGRjhrR2dzd3JudXljcEJ4WTk1ZmxuV0JJYUZ0YTdlcjc3bjRQUXUxbHhIX3RTTVlOaTFPUjFCam84dExIZDc4WTZINzE4YWxxbw?oc=5",
-      "p": "Zverev prekonal rekord Beckera a úspešný rok môže zakončiť ďalším titulom: Chcem íst ešte ďalej sportnet.sme.sk",
-      "s": "SPORTNET",
-      "t": "Zverev prekonal rekord Beckera a úspešný rok môže zakončiť ďalším titulom: Chcem íst ešte ďalej - sportnet.sme.sk",
-      "ts": 1789042241.503185,
-      "u": "4682b4d6353525b8126a"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/v-atenach-zapalili-ohen-pre-prve-oly/991323-clanok.html",
-      "p": "Prezidentka Medzinárodného olympijského výboru (MOV) Kirsty Coventryová, prvá Afričanka a zároveň prvá žena na čele tejto organizácie, uviedla, že tento okamih má pre ňu hlboký osobný význam.",
-      "s": "TERAZ.SK",
-      "t": "V Aténach zapálili oheň pre prvé olympijské podujatie v Afrike",
-      "ts": 1789042241.5031865,
-      "u": "f990a3f348af51db6de1"
-    },
     {
       "l": "https://sport.aktuality.sk/motosport/clanok/co-verstappena-presvedcilo-aby-pokracoval-v-f1-vysvetluje-nenavist-k-zmenam-2026091010355323918",
       "p": "Max Verstappen si myslí, že nové pohonné jednotky vo Formule 1 ubrali pilotom toľko z jazdeckej výzvy, že dosiahnutie vysokej úrovne výkonu sa stalo takmer bezproblémovým.",
@@ -15428,6 +15280,54 @@
       "t": "Zvolen angažoval na skúšku fínskeho veterána. Na konte má striebro z MS v hokeji",
       "ts": 1789127741.0689378,
       "u": "dfe6132dff675481400e"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/nike-liga-fc-spartak-trnava-posilnil-lukas-fabis-2026091112102605339",
+      "p": "Účastník Niké ligy FC Spartak Trnava reaguje na dlhodobé zranenie krajného obrancu a klubovej legendy Martina Mikoviča, ktorý je mimo hry od pohárového stretnutia v Púchove. Ako voľný hráč do Spartaka prichádza 28-ročný Lukáš Fabiš, ktorý doplní káder „bílych andelov”.",
+      "s": "Šport.sk",
+      "t": "Mikovič bude mimo do konca roka. Trnava urýchlene reaguje náhradou",
+      "ts": 1789128649.6928124,
+      "u": "1a62361c0d59326633e2"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/slovan-v-nedelu-doma-so-zilinou-fanusikovia-sa-maju-na-co-tesit-2026091107401601852",
+      "p": "Belasí sa po dvoch týždňoch vracajú domov na Tehelné pole. Už v nedeľu 13. septembra o 19:00 vyzvú MŠK Žilina, aktuálne druhý tím neúplnej tabuľky Niké ligy. Ešte pred výkopom sa môžete tešiť na fanzónu, zaujímavý program je pripravený aj priamo na štadióne.",
+      "s": "Šport.sk",
+      "t": "Slovan v nedeľu doma so Žilinou, fanúšikovia sa majú na čo tešiť",
+      "ts": 1789128649.6928148,
+      "u": "ba9c6d531afc2059a7e9"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/svetovy-pohar-vsetky-tri-slovenky-postupili-do-semifinale-k1-2026091111594408091",
+      "p": "Slovenské reprezentantky vo vodnom slalome Soňa Stanovská, Zuzana Paňková a Eliška Mintálová sa v piatok na finálovom podujatí Svetového pohára prebojovali do semifinále disciplíny K1. Ženské semifinále je na programe od 14.56 h a do podvečerného finále postúpi dvanásť najrýchlejších.",
+      "s": "Šport.sk",
+      "t": "Svetový pohár: Všetky tri Slovenky postúpili do semifinále K1",
+      "ts": 1789128649.6928158,
+      "u": "208ae6c7fbea4b9a3c78"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2E2ajd6cENLSkdvZ0E0RzFxbU1zaW5ncjNfX1F3bjA1clljZWkwNDdSRnhQU1RONWNvbGtfQ0k4UWdKRTlqTm1WRFdBZHN5NWdJNUhnY3oxc1dHTHlkVlR1dWkzcmpYMlhjX2pKZDBaNW5NdGJ6cEhtTktMMkRxWWFpNnBidnlTU3JDbmNUeUlCdw?oc=5",
+      "p": "Úradná správa č.10 z 09.09.2026 SPORTNET",
+      "s": "SPORTNET",
+      "t": "Úradná správa č.10 z 09.09.2026",
+      "ts": 1789128649.6928177,
+      "u": "ffcaf541f2c9f476a897"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/lindsey-vonnova-varuje-pred-podvodnikm/991599-clanok.html",
+      "p": "Štyridsaťjedenročná trojnásobná olympijská medailistky vyzýva k opatrnosti, nakoľko podľa nej sa snažia podvodníci získať od ľudí peniaze.",
+      "s": "TERAZ.SK",
+      "t": "Lindsey Vonnová varuje pred podvodníkmi: Nežiadala by som peniaze",
+      "ts": 1789128649.6928189,
+      "u": "7fee658ff7b22c1e5040"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/gjorgievski-ide-na-hostovanie-do-banske/991597-clanok.html",
+      "p": "Nováčik Niké ligy sa so štyrmi bodmi nachádza na predposlednej priečke priebežnej tabuľky a ďalší zápas odohrá v sobotu v domácom prostredí proti Skalici.",
+      "s": "TERAZ.SK",
+      "t": "Gjorgievski ide na hosťovanie do Banskej Bystrice: Som veľmi nadšený",
+      "ts": 1789128649.69282,
+      "u": "a16d3b982393a6dc09e7"
     }
   ],
   "sport_source_status": {
@@ -15435,25 +15335,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1789127741.0686939
+      "ts": 1789128649.6927876
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1789127741.0686955
+      "ts": 1789128649.6927898
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1789127741.0686982
+      "ts": 1789128649.692793
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1789127741.0686967
+      "ts": 1789128649.6927912
     }
   }
 }
