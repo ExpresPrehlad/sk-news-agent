@@ -146,10 +146,10 @@
     "ts": 1789502157.8486567
   },
   "meta": {
-    "last_collection_ts": 1789502147.9327326,
+    "last_collection_ts": 1789503641.0406475,
     "last_feed_error_ts": 1789487743.081786,
     "last_llm_error_ts": 1789479533.975615,
-    "last_run_ts": 1789502148.3050296,
+    "last_run_ts": 1789503641.5313156,
     "last_synthesis_ts": 1789502157.848651
   },
   "recent": [
@@ -4256,18 +4256,45 @@
       "t": "Pri nemeckej základni Bundeswehru našli trosky dronu. Polícia vyšetruje, odkiaľ pochádzal",
       "ts": 1789502148.3045151,
       "u": "4189236a048ad197992e"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/spojene-staty-podla-zdroja-the-washington-post-planuju-dodat-izraelu-municiu-za-2-8-miliardy-dolarov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Dohoda zahŕňa dodanie desiatok tisíc bômb.",
+      "pub": 1789503453.0,
+      "s": "SME",
+      "t": "Spojené štáty podľa zdroja The Washington Post plánujú dodať Izraelu muníciu za 2,8 miliardy dolárov",
+      "ts": 1789503641.5303273,
+      "u": "5373d029335faca3c354"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/syn-rezisera-roba-reinera-sa-vyhne-trestu-smrti-za-vrazdu-svojich-rodicov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Reiner a jeho manželka Michele Singerová zomreli pri útoku nožom.",
+      "pub": 1789502235.0,
+      "s": "SME",
+      "t": "Syn režiséra Roba Reinera sa vyhne trestu smrti za vraždu svojich rodičov",
+      "ts": 1789503641.5305707,
+      "u": "8a80d39e891170fea552"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2041931-ikonicke-kennedyho-centrum-konci-prevadzku-v-pozadi-je-ostry-spor-o-trumpovo-meno?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Správna rada Kennedyho centra hlasovala za okamžité zatvorenie kultúrnej inštitúcie vo Washingtone. Oznámil to v utorok podľa agentúry AFP americký prezident Donald Trump, ktorý je zároveň predsedom správnej rady. Rozhodnutie prišlo v čase, keď centrum zápasí s finančnými problémami a spormi o umies",
+      "pub": 1789503107.0,
+      "s": "Pravda",
+      "t": "Ikonické Kennedyho centrum končí prevádzku. V pozadí je ostrý spor o Trumpovo meno",
+      "ts": 1789503641.5305736,
+      "u": "fe79301b231ab94fba1b"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1259523-slovensko-pride-o-cast-vojenskej-pomoci-z-usa-miliony-presuvaju-do-latinskej-ameriky",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Slovensko príde o časť vojenskej pomoci z USA. Milióny presúvajú do Latinskej Ameriky",
+      "ts": 1789503641.530575,
+      "u": "123c5a89ae3670bb16af"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.noviny.sk/zahranicie/1256572-na-sever-moldavska-dopadol-dron-sposobil-poziar-na-poli"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Ide o bezpečnostný incident v blízkosti hraníc EÚ a NATO, ktorý signalizuje možnú eskaláciu konfliktu v regióne s priamym dosahom na európsku bezpečnosť.",
-      "title": "Na sever Moldavska dopadol dron: Spôsobil požiar na poli",
-      "ts": 1788898843.9155867
-    },
     {
       "links": [
         "https://www.pravda.sk/spravy/svet/clanok/2038211-iran-necakal-s-odvetou-za-znicene-tankery-zautocil-na-americku-zakladnu?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
@@ -4985,6 +5012,15 @@
       "reason": "Incident v blízkosti strategickej vojenskej infraštruktúry členského štátu NATO predstavuje bezpečnostné riziko s možným širším geopolitickým dosahom.",
       "title": "Pri základni nemeckého vojenského letectva dopadol neidentifikovaný dron",
       "ts": 1789500056.2693472
+    },
+    {
+      "links": [
+        "https://www.noviny.sk/zahranicie/1259523-slovensko-pride-o-cast-vojenskej-pomoci-z-usa-miliony-presuvaju-do-latinskej-ameriky"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Ide o priamy zásah do bezpečnostných a finančných záujmov Slovenska v oblasti obrannej spolupráce s kľúčovým spojencom.",
+      "title": "Slovensko príde o časť vojenskej pomoci z USA. Milióny presúvajú do Latinskej Ameriky",
+      "ts": 1789503648.4312694
     }
   ],
   "seen": {
@@ -5090,7 +5126,6 @@
     "0322b00805f2e0eb9f26": 1789395048.4082832,
     "03241bbe04bb24644dee": 1788323733.899631,
     "0325cf8262ce3511e3ec": 1789328134.0068412,
-    "034e60945605e5ffc9c1": 1788293440.6459122,
     "0350f44243c50eb98fdd": 1788717334.1959891,
     "0352734175b84c7828cf": 1789472140.5135162,
     "035898e8381382b4bbb1": 1789047288.7298393,
@@ -5130,7 +5165,6 @@
     "0469e44845ef363b9721": 1788510940.0921278,
     "047c83721bac54964a34": 1788934245.7830281,
     "04805ca4e456ded22c41": 1788320144.7142673,
-    "048e208d4c487444da32": 1788293440.6459267,
     "04915d63cd592fa7ea86": 1788796542.838868,
     "049d0b6bc49b928b0c8f": 1788771339.183477,
     "049f0e61b922e3c82b7a": 1788525343.0087755,
@@ -5439,7 +5473,6 @@
     "0da373c80c9d6334cfd7": 1789059338.9972873,
     "0da9342ad7aa6e7856ea": 1789062943.4857616,
     "0db092e9777411114295": 1788632452.9654684,
-    "0db5a9b59c5f6e94818a": 1788293440.6459367,
     "0db886f0caee98f21c76": 1788363340.1743119,
     "0dc86d88a5c3a0ff5014": 1789036535.5780683,
     "0dcbe9ff4f7c033183a4": 1788752141.9914386,
@@ -5595,6 +5628,7 @@
     "122711cd527b210ef575": 1789047288.7298212,
     "122f3e2af3f55bdacfe9": 1788452449.4629815,
     "12336270cd24cb1bdba4": 1789479339.826395,
+    "123c5a89ae3670bb16af": 1789503641.5305743,
     "12467d48da11fb076c2d": 1789380646.583023,
     "124cfd95885a086b2723": 1788755743.1015658,
     "12512feac049b5591cd2": 1789391627.0431461,
@@ -5903,6 +5937,7 @@
     "1b55d494074b00424069": 1788507335.7600865,
     "1b5881b1d1775b742937": 1789463468.3642235,
     "1b5af210edd1b9458508": 1789356945.231848,
+    "1b6e4b4e79a14a4b73e1": 1789503641.5305884,
     "1b6e5ee04f491b208458": 1789470640.1266255,
     "1b6ec7f0ddae7c83c1fb": 1789446940.5228777,
     "1b6fdf9cdc281001ebd9": 1789369847.2234697,
@@ -7304,7 +7339,6 @@
     "4521a014ca1edac82eae": 1789312846.2840264,
     "4550121b2c1e93a8cbf2": 1789030535.1677392,
     "455b084d5d79479cf8ad": 1789027850.4788117,
-    "455bb67c9b78800eb7dc": 1788293440.6459386,
     "455d8aff469bbf14b557": 1789130145.0840063,
     "456227dfc57c11abeedd": 1789066544.0799317,
     "456a3a31c19c5a4d3963": 1788924942.4823828,
@@ -7442,6 +7476,7 @@
     "4952951b2728e2a8ebc9": 1788602134.796877,
     "4953ea35571f57bfd65a": 1788600049.880381,
     "495f5f1ea69921d850da": 1789219246.0866838,
+    "49627f8f0c411f57988a": 1789503641.5305853,
     "4962e89ab0c43e8da4fc": 1789011338.392051,
     "496782895030618c549b": 1788924942.482599,
     "497408477339fe4b7549": 1789366246.2842913,
@@ -7617,7 +7652,6 @@
     "4e76462802eef0a8f894": 1789486538.8996582,
     "4e771a48aad730b9d93c": 1789446940.522879,
     "4e7c902ac19402d55245": 1788585647.7309973,
-    "4e85c2d1a14c412f634a": 1788293440.6459377,
     "4e8be3a7115e5f5e59ed": 1788848438.869214,
     "4e8ecfe19b22a96578b7": 1788406542.112588,
     "4ea0014e1ceb974d467f": 1788808239.7626228,
@@ -7787,6 +7821,7 @@
     "5367ef5462d49ac5b440": 1788437448.8819647,
     "53732a32bc13649585cb": 1788958534.7870176,
     "537353027ebc8400628e": 1788536142.1149144,
+    "5373d029335faca3c354": 1789503641.5303228,
     "5380f741ee9cc4c13ef9": 1788780934.222086,
     "53853463a5bd4f9db817": 1789074647.0950644,
     "5394ba8e131a2409c838": 1789044943.4421334,
@@ -8290,6 +8325,7 @@
     "61be476dd3f7204d3d14": 1788425739.2132027,
     "61bfb83d6abb381cdcc7": 1788424541.143817,
     "61c1d08bab2732370602": 1789042241.5029576,
+    "61c727741977c321d154": 1789503641.5305798,
     "61c9b52892c2a37861fd": 1789032934.1531148,
     "61ca382397c11f1171ea": 1789321464.9520125,
     "61cab0ce65c743e0a43f": 1788878137.4628332,
@@ -9150,6 +9186,7 @@
     "7a1fb0d8576cb2732794": 1788870942.598752,
     "7a25f159ca87b84b8751": 1788844247.8621564,
     "7a27c3f855d1310b2337": 1789119334.4950948,
+    "7a2d091a51e41445e578": 1789503641.5305822,
     "7a451e770df07f6490c2": 1789023343.356924,
     "7a4a50a8db48a556004a": 1788369646.8634143,
     "7a4b906b17d9a109e2b9": 1789062943.4857726,
@@ -9256,7 +9293,6 @@
     "7d008b5c06abc851dee8": 1789149346.4294052,
     "7d0b4cb3af8808c6c7c6": 1788893738.9294012,
     "7d1081a0b4b409e7f199": 1789390540.5816839,
-    "7d17b3693efd350298df": 1788293440.645921,
     "7d45f5b3a8a636022b49": 1788720940.5981898,
     "7d60b43084f9d51185df": 1789413646.0862274,
     "7d6664df0829a4b5c63b": 1788348936.2748337,
@@ -9395,6 +9431,7 @@
     "813ac164300fd15c053b": 1789475736.5256183,
     "813c7c54bc25e9ce8316": 1789452647.7512417,
     "8145f1a60d8b40c1a948": 1788438937.1869621,
+    "814996302f48429fcdfc": 1789503641.5305867,
     "815c5071ad88d57c9daf": 1789270542.4292955,
     "816226f17c53635b5407": 1788924942.4826372,
     "8162f2135d0b58e563be": 1788360938.7122629,
@@ -9703,6 +9740,7 @@
     "8a7bc0bc86f05761cba6": 1789117804.754813,
     "8a7be2c203c727b43fe9": 1788465344.805016,
     "8a7d6f175b900c9e1879": 1789045847.378925,
+    "8a80d39e891170fea552": 1789503641.5305676,
     "8a81cd7fc97aaa0a6ac3": 1789468540.6600678,
     "8a96d0645efe161e6c57": 1789293345.2718081,
     "8a970fc5d386d7d2b63c": 1789224942.1308308,
@@ -10300,6 +10338,7 @@
     "9caf3c3cbe704456b05f": 1789270542.429245,
     "9cb58433af8ce51cb317": 1789382141.6611853,
     "9cb740608c593f448120": 1789384243.5173135,
+    "9cbc16f9c084e2539d1d": 1789503641.5305915,
     "9cbc6032f64749b3bc68": 1788465344.805032,
     "9cbd4b08dc957d8d1e33": 1789395048.4082901,
     "9cbe3d61dd0c8246fb65": 1788712535.9293318,
@@ -10373,6 +10412,7 @@
     "9eedc7d84dbf4b1620ec": 1788348936.274804,
     "9ef3b49a90ec9bf69e11": 1788553250.3296013,
     "9ef8c96947a0abe6aef8": 1788579335.3210227,
+    "9f052f7ab23f4ac4ef0b": 1789503641.5305843,
     "9f07cc82e0d40a86c07e": 1789017040.334113,
     "9f08145163d4a8acd45e": 1789296939.0111096,
     "9f124ed34a15ee7cbcbc": 1789475736.5257928,
@@ -10538,7 +10578,6 @@
     "a3d8f40fca65fba7d54f": 1788584344.5276303,
     "a3e1568c5143206a016b": 1788420940.9820817,
     "a3e6ff8b99e5816b706b": 1789152936.8090312,
-    "a3ea5790bfef4b061216": 1788293440.6459198,
     "a3f9b5beafd06a2e19b8": 1788320144.7142603,
     "a3fe094e5986bfb94e44": 1789413646.0862103,
     "a40d8109040423be51d6": 1788954937.7229283,
@@ -10596,7 +10635,6 @@
     "a5982df806d273baad96": 1789184133.9136,
     "a59c3833ce6ee5832d6a": 1788891643.545824,
     "a59cbcf4df1f7174ee47": 1788589238.0935018,
-    "a5a8de7b0f59b7ce5c6c": 1788293440.6459246,
     "a5b173a118c5545fed66": 1788436548.0898802,
     "a5b2e4a723ab85d4819c": 1788878137.462868,
     "a5c25edf06ea3fb1dc75": 1789036535.5780826,
@@ -10648,7 +10686,6 @@
     "a77fc66b58f6dc0d922b": 1788384040.877266,
     "a791af316c51b68faf1b": 1788435343.2172725,
     "a7a342b75b8ddda42e40": 1789491343.1434577,
-    "a7ac7a316f403e322034": 1788293440.6459298,
     "a7b31d1ace973d8ae738": 1789134941.004666,
     "a7be9ba54098dc2fcd69": 1788718839.234969,
     "a7bf316f7baba6a7b3c2": 1788346534.2172837,
@@ -10974,7 +11011,6 @@
     "b0ca009af1ffaa216a7c": 1789356945.232071,
     "b0d736b972866cd73c95": 1788634544.058553,
     "b0d9e9191c01eeabdd94": 1789145735.7446442,
-    "b0e8876035b4bc5c8e50": 1788293440.6459332,
     "b0ebc6775e7a301b3ad3": 1789156234.3777509,
     "b0fa948f57b4de89cb58": 1788969354.5159802,
     "b0fad37414525738f607": 1789473342.3795927,
@@ -11250,6 +11286,7 @@
     "b9289ce0046b70e55a8a": 1788556848.4451442,
     "b933a56fa558ddeb4173": 1789455334.591264,
     "b9365dba4caa99c7cb3f": 1789496454.5274441,
+    "b93c04a726bbd5f44b54": 1789503641.5305896,
     "b93f7b55a7851e1b1320": 1788786646.5052197,
     "b9434e8673f6e8a566af": 1788341738.556312,
     "b9512f78858b0a9f31d7": 1789475736.5257938,
@@ -11411,6 +11448,7 @@
     "bd9cf58d0a7387f90eae": 1788983742.7144783,
     "bda27e62dbf43a48e159": 1788893738.9293983,
     "bdad620bb3e269eb9634": 1789097743.6350045,
+    "bdb1199ef9828bffb9a1": 1789503641.5305767,
     "bdbc7cbb4857df998793": 1789022144.8526225,
     "bdbcf208a2f02124044d": 1788518133.9842467,
     "bdbdc7582ea8858149c1": 1789022144.852627,
@@ -12119,7 +12157,6 @@
     "d261a2e519e60ffe100c": 1789270542.4292948,
     "d2655711925d48c83d31": 1789042241.5031674,
     "d26d5528f218176e000f": 1788621646.9452174,
-    "d279d32aa9f8d929c399": 1788293440.6459174,
     "d285c5e45604619c70f7": 1789045847.3789318,
     "d28760bc2ee49f309481": 1788880845.1836288,
     "d29b9d77c0692b7537de": 1789486538.899671,
@@ -12501,7 +12538,6 @@
     "ddedda9125064b861d44": 1788864940.615402,
     "ddf4cc918b6b4b4b829c": 1788969354.515968,
     "ddf67aae47e9d6018407": 1789472140.513553,
-    "ddf8eeed1dc94a34e704": 1788293440.6459343,
     "ddfc8e4ada6c64643331": 1788693043.8772063,
     "de0ed1cf28e55edbe84e": 1789382141.6611116,
     "de150425a45dd4b07821": 1788556848.4451349,
@@ -12895,7 +12931,6 @@
     "e8d98c581238783cedc3": 1788325847.3476303,
     "e8da6501e6db2a0585f0": 1789360543.121043,
     "e8e05f28de74df3d81f0": 1788533673.6543899,
-    "e8e56c9d95aee35d1a4a": 1788293440.645923,
     "e8e63c0cd3c5024c1d6b": 1788452449.4629827,
     "e8e8352227cd7c69c351": 1789191333.5758755,
     "e8fa5ccb03af0d70e969": 1789143643.2064445,
@@ -13648,6 +13683,7 @@
     "fe544c9ddecf69eda3a2": 1788495047.947894,
     "fe6f9f6d15be918e3f64": 1789467047.2270784,
     "fe73bfed69648cba5986": 1789475736.5256116,
+    "fe79301b231ab94fba1b": 1789503641.5305717,
     "fe79fac9a9826ec8f8d6": 1788553250.3296056,
     "fe7d1deba3fdf3e37e5b": 1788872138.8728926,
     "fe8047212c5866820ed6": 1788715247.4875383,
@@ -13707,61 +13743,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1789502148.3044803
+      "ts": 1789503641.5302997
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1789502148.3044817
+      "ts": 1789503641.5303013
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1789502148.3044844
+      "ts": 1789503641.5303042
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1789502148.3044884
+      "ts": 1789503641.5303087
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1789502148.3044834
+      "ts": 1789503641.5303028
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1789502148.3044736
+      "ts": 1789503641.530293
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1789502148.3044782
+      "ts": 1789503641.5302978
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1789502148.3044877
+      "ts": 1789503641.5303078
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1789502148.3044853
+      "ts": 1789503641.5303056
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1789502148.3044868
+      "ts": 1789503641.5303068
     }
   },
   "sport_recent": [
@@ -15284,6 +15320,78 @@
       "t": "Rybakinová je prvýkrát svetovou jednotkou. Sabalenkovú vystriedala po dlhej dobe",
       "ts": 1789502148.3045235,
       "u": "70713250faf4721f675b"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/pozrite-si-highlighty-zo-zapasu-hk-nitra-hc-slovan-bratislava-2026091520192523946",
+      "p": "Hokejisti HC Slovan Bratislava triumfovali v prvom kole základnej časti Tipsport ligy 2026/2027 na ľade HK Nitra 4:2. Reprízu finále z predchádzajúceho súťažného ročníka sledovalo v TIPOSBET aréne 3600 divákov.",
+      "s": "Šport.sk",
+      "t": "VIDEO Pozrite si highlighty zo zápasu HK Nitra - HC Slovan Bratislava",
+      "ts": 1789503641.5305786,
+      "u": "bdb1199ef9828bffb9a1"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/pozrite-si-highlighty-zo-zapasu-vlci-zilina-hk-dukla-trencin-2026091520134591451",
+      "p": "Vlci Žilina zvíťazili v 1. kole hokejovej Tipsport ligy nad Duklou Trenčín 5:2. Dvoma gólmi prispeli k výhre domácich Matúš Holenda a Šimon Petráš.",
+      "s": "Šport.sk",
+      "t": "VIDEO Pozrite si highlighty zo zápasu Vlci Žilina - HK Dukla Trenčín",
+      "ts": 1789503641.5305815,
+      "u": "61c727741977c321d154"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/pozrite-si-highlighty-zo-zapasu-hc-kosice-hc-presov-2026091520100559320",
+      "p": "Hokejisti HC Košice vstúpili do nového ročníka Tipsport ligy úspešne. V derby zápase 1. kola zdolali pred vyše 3000 divákmi v Steel Aréne HC Prešov 4:1. Debut v najvyššej slovenskej súťaži má za sebou Tomáš Jurčo, ktorý si v drese úradujúcich bronzových medailistov pripísal gól aj asistenciu.",
+      "s": "Šport.sk",
+      "t": "VIDEO Pozrite si highlighty zo zápasu HC Košice - HC Prešov",
+      "ts": 1789503641.5305836,
+      "u": "7a2d091a51e41445e578"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/pozrite-si-highlighty-zo-zapasu-hk-poprad-hk-spisska-nova-ves-2026091520053543580",
+      "p": "Hokejisti HK Spišská Nová Ves zvíťazili v úvodnom kole nového ročníka Tipsport ligy na ľade HK Poprad 4:3 po predĺžení. O triumfe hostí rozhodol v 62. minúte Simon Mack.",
+      "s": "Šport.sk",
+      "t": "VIDEO Pozrite si highlighty zo zápasu HK Poprad - HK Spišská Nová Ves",
+      "ts": 1789503641.5305848,
+      "u": "9f052f7ab23f4ac4ef0b"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/pozrite-si-highlighty-zo-zapasu-hc-banska-bystrica-hkm-zvolen-2026091520010537702",
+      "p": "Hokejisti Banskej Bystrice podľahli v prvom kole Tipsport ligy v derby na domácom ľade Zvolenu 3:5. Súboj trénerov Vlastimila Wojnara s Marekom Zadinom, ktorí vlani strávili bok po boku pod Urpínom, tak vyšiel lepšie pre hlavného kouča hostí.",
+      "s": "Šport.sk",
+      "t": "VIDEO Pozrite si highlighty zo zápasu HC Banská Bystrica - HKM Zvolen",
+      "ts": 1789503641.5305858,
+      "u": "49627f8f0c411f57988a"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/futbal-messi-bude-mat-noveho-trenera-v-inter-miami-2026091518255930532",
+      "p": "Argentínsky špecialista Cristian González oficiálne preberá kormidlo Interu Miami po tom, čo podpísal zmluvu s klubom Major League Soccer do júna 2028.",
+      "s": "Šport.sk",
+      "t": "Messi bude mať nového trénera. Trápiaci sa Inter Miami preberá bývalý argentínsky reprezentant",
+      "ts": 1789503641.5305877,
+      "u": "814996302f48429fcdfc"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTno3ZHk3a1c3SDZJcXFacmcwVE5JY1loaFIycWFfTEl4TUF3NlRvbGZWYlRjSC1yOFh5RU1Tem5vT244c1NLa3k5VFRFOC0zeVh0V1NmS1V5OWZsaXRuMnZVSllsTFpyTnFDc0tzczNtVjUzRHZZbUZvVUlEbVBTNDU1Z3JTSS1KZkYyc0FFOEJneWpfdENvNWxHUzg3WEZpdEtF?oc=5",
+      "p": "Ambiciózna Žilina ukázala svoju silu. Trenčínu nepomohol ani úvodný gól duelu SPORTNET",
+      "s": "SPORTNET",
+      "t": "Ambiciózna Žilina ukázala svoju silu. Trenčínu nepomohol ani úvodný gól duelu",
+      "ts": 1789503641.5305889,
+      "u": "1b6e4b4e79a14a4b73e1"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNGZwTDdBN3dWTlNib0lIY1N0TWdXZ2ljRDU0S1hROEVtVUl6RzBycy1JeFpMME0ydFNMSVVBMDN4SW5tZEtRTm51WmNnajF0ZkMwTUhaTkIyU3NIWFBzQklwS2ZyQWZBZkZFemUzb3ZvbjVqNElMN0NlejlhdUIxaTQ5N1EtY0pERU5PVWh6MFlGcC13SUtEcmdVNnM2Y1E4VWQzNllwQQ?oc=5",
+      "p": "Zvolen sa naladil do novej sezóny výborne. V pohronskom derby uspel na ľade Banskej Bystrice SPORTNET",
+      "s": "SPORTNET",
+      "t": "Zvolen sa naladil do novej sezóny výborne. V pohronskom derby uspel na ľade Banskej Bystrice",
+      "ts": 1789503641.5305908,
+      "u": "b93c04a726bbd5f44b54"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/lens-odvolal-trenera-toppmollera-uz-p/992481-clanok.html",
+      "p": "Lens je po druhom mieste v uplynulej sezóne momentálne na desiatej priečke Ligue 1.",
+      "s": "TERAZ.SK",
+      "t": "Lens odvolal trénera Toppmöllera už po šiestich zápasoch vo funkcii",
+      "ts": 1789503641.5305922,
+      "u": "9cbc16f9c084e2539d1d"
     }
   ],
   "sport_source_status": {
@@ -15291,25 +15399,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1789502148.3044903
+      "ts": 1789503641.5303106
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1789502148.3044925
+      "ts": 1789503641.5303128
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1789502148.3044949
+      "ts": 1789503641.5303156
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1789502148.304494
+      "ts": 1789503641.5303142
     }
   }
 }
