@@ -203,13 +203,47 @@
     {
       "headline": "Španielsko zasiahli ničivé povodne, hlásia prvú obeť",
       "ts": 1789644949.012825
+    },
+    {
+      "headline": "Opozícia neuspela s odvolávaním ministrov, parlament nebol uznášaniaschopný",
+      "ts": 1789646144.592521
+    },
+    {
+      "headline": "Tragédia v Ružomberku: Polícia vyšetruje úmrtia dvoch mužov po otrave metanolom",
+      "ts": 1789646144.592521
+    },
+    {
+      "headline": "Študenti zo Šiah uviazli vo Francúzsku po školskom výlete",
+      "ts": 1789646144.592521
+    },
+    {
+      "headline": "Bratislava obmedzí otváracie hodiny záložní pre nárast kriminality",
+      "ts": 1789646144.592521
+    },
+    {
+      "headline": "Ochranári kritizujú odstrel vlkov, žiadajú prehodnotenie kvót",
+      "ts": 1789646144.592521
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Tragédia v Ružomberku: Polícia potvrdila úmrtia po otrave metanolom",
+        "headline": "Opozícia neuspela s odvolávaním ministrov, parlament nebol uznášaniaschopný",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/4bKX9o7/opozicia-opat-neuspela-s-odvolavanim-matusa-sutaja-estoka-parlament-nebol-vo-stvrtok-uznasaniaschopny/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/koalicia-neumoznila-opozicii-rokovat-o-odvolavani-sakovej-a-sutaja-estoka"
+          ]
+        ],
+        "perex": "Koalícia vo štvrtok znemožnila otvorenie mimoriadnych schôdzí k odvolávaniu ministra vnútra Matúša Šutaja Eštoka a ministerky hospodárstva Denisy Sakovej. Plénum Národnej rady SR nebolo pre nízky počet prítomných poslancov uznášaniaschopné."
+      },
+      {
+        "headline": "Tragédia v Ružomberku: Polícia vyšetruje úmrtia dvoch mužov po otrave metanolom",
         "links": [
           [
             "Aktuality",
@@ -217,10 +251,20 @@
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2042981-v-ruzomberku-v-jeden-den-zomreli-dvaja-muzi-udajne-sa-otravili-alkoholom/"
+            "https://www.pravda.sk/spravy/domace/clanok/2042981-v-ruzomberku-v-jeden-den-zomreli-dvaja-muzi-udajne-sa-otravili-alkoholom"
           ]
         ],
-        "perex": "V Ružomberku vyšetrujú úmrtie dvoch mužov, ktorí zomreli v priebehu jedného dňa. Predbežné výsledky pitvy a toxikologických testov potvrdili, že príčinou smrti bola otrava metanolom."
+        "perex": "V Ružomberku zomreli v priebehu jedného dňa dvaja muži, pričom predbežné výsledky pitvy naznačujú otravu metanolom. Polícia v súvislosti s prípadom začala vyšetrovanie a preveruje okolnosti tragédie."
+      },
+      {
+        "headline": "Študenti zo Šiah uviazli vo Francúzsku po školskom výlete",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2042965-autobus-odisiel-bez-nich-osem-slovenskych-studentov-zostalo-vo-francuzsku-rodicia-hovoria-o-soku"
+          ]
+        ],
+        "perex": "Skupina ôsmich tínedžerov zo Šiah zostala po školskom výlete v Anglicku uviaznutá na francúzsko-nemeckom pohraničí. Rodičia študentov hovoria o šoku po tom, čo autobus odišiel bez nich pre údajné porušenie disciplíny."
       },
       {
         "headline": "Bratislava obmedzí otváracie hodiny záložní pre nárast kriminality",
@@ -231,13 +275,13 @@
           ],
           [
             "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1260425-bratislava-vyrazne-obmedzi-prevadzku-zalozni"
+            "https://www.noviny.sk/slovensko/1260425-bratislava-vyrazne-obmedzi-prevadzku-zalozni-reaguje-na-kriminalitu"
           ]
         ],
-        "perex": "Mesto Bratislava pristúpi k regulácii otváracích hodín záložní na svojom území. Primátor Matúš Vallo označil tento krok za nevyhnutný z dôvodu negatívneho vplyvu týchto prevádzok na kvalitu života a bezpečnosť."
+        "perex": "Hlavné mesto pristúpi k regulácii prevádzkových hodín záložní, ktoré podľa vedenia mesta priťahujú kriminalitu a zhoršujú kvalitu života obyvateľov. Primátor Matúš Vallo označil toto rozhodnutie za dôležitý krok pre bezpečnosť v uliciach."
       },
       {
-        "headline": "Ochranári varujú pred odstrelom vlkov, žiadajú prehodnotenie kvót",
+        "headline": "Ochranári kritizujú odstrel vlkov, žiadajú prehodnotenie kvót",
         "links": [
           [
             "Aktuality",
@@ -248,115 +292,19 @@
             "https://www.teraz.sk/slovensko/wwf-slovensko-od-zaciatku-polovnej-se/992939-clanok.html"
           ]
         ],
-        "perex": "Od začiatku poľovnej sezóny bolo na Slovensku zastrelených už 12 vlkov dravých. Ochranárske organizácie vyzývajú rezort životného prostredia k zastaveniu lovu, keďže podľa nich neznižuje škody na hospodárskych zvieratách."
-      },
-      {
-        "headline": "Zmeny v legislatíve: Úrady už neoveria diplomy ani vysvedčenia",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/vrgrqsj/ake-dokumenty-uz-na-mestskom-urade-neoverite-legislativna-novinka-prinasa-sprisnenie-pravidiel/"
-          ],
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1260324-osvedcovanie-listin-sa-zmenilo-urady-uz-neoveria-diplomy-kompetencia-prechadza-na-notarmi"
-          ]
-        ],
-        "perex": "Občania už na mestských a obecných úradoch nebudú môcť osvedčovať diplomy, vysvedčenia či certifikáty. Táto kompetencia po novom legislatívnom sprísnení prechádza výhradne na notárov."
-      },
-      {
-        "headline": "Španielsko zasiahli ničivé povodne, hlásia prvú obeť",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1260370-spanielsko-zasiahli-privalove-povodne-v-okoli-barcelony-hlasia-prvu-obet"
-          ]
-        ],
-        "perex": "Oblasť v okolí Barcelony postihli prudké prívalové dažde, ktoré spôsobili rozsiahle záplavy. Úrady v regióne potvrdili prvú obeť tragických udalostí."
+        "perex": "Od začiatku aktuálnej poľovnej sezóny bolo na Slovensku zastrelených už 12 vlkov dravých. Organizácie WWF Slovensko a My sme les vyzývajú rezort životného prostredia na prehodnotenie kvót a upozorňujú, že lov šelmy nezníži škody na hospodárskych zvieratách."
       }
     ],
-    "ts": 1789644949.012816
+    "ts": 1789646144.5925112
   },
   "meta": {
-    "last_collection_ts": 1789644937.7032871,
+    "last_collection_ts": 1789646136.7321208,
     "last_feed_error_ts": 1789637746.8837292,
     "last_llm_error_ts": 1789563399.500163,
-    "last_run_ts": 1789644938.3176787,
-    "last_synthesis_ts": 1789644949.012811
+    "last_run_ts": 1789646137.2828953,
+    "last_synthesis_ts": 1789646144.592506
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/cinsky-minister-zahranicia-vyhlasil-ze-bude-chranit-prava-a-zaujmy-iranu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Peking patrí k hlavným ekonomickým partnerom Iránu.",
-      "pub": 1789559619.0,
-      "s": "SME",
-      "t": "Čínsky minister zahraničia vyhlásil, že bude chrániť práva a záujmy Iránu",
-      "ts": 1789559740.7443192,
-      "u": "230b69329d46af3e67d5"
-    },
-    {
-      "l": "https://www.sme.sk/index/c/po-zavedeni-cla-nakupuju-slovaci-na-cinskych-online-obchodoch-menej?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Online nákupy však celkovo rastú.",
-      "pub": 1789559591.0,
-      "s": "SME",
-      "t": "Po zavedení cla nakupujú Slováci na čínskych online obchodoch menej",
-      "ts": 1789559740.7443223,
-      "u": "c3222f69f5407bc0c273"
-    },
-    {
-      "l": "https://www.sme.sk/index/c/nova-atomka-bude-strategicky-projekt-vystavbu-bude-riadit-ficov-clovek?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Náklady na novú elektráreň v Jaslovských Bohuniciach sa odhadujú na 15 miliárd eur.",
-      "pub": 1789558574.0,
-      "s": "SME",
-      "t": "Nová atómka bude strategický projekt. Výstavbu bude riadiť Ficov človek",
-      "ts": 1789559740.7443235,
-      "u": "dd250fcccaf44d4bb22d"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/oR0Xzf7/video-turecke-urady-poslali-desiatky-lgbtq-aktivistov-do-vazby/",
-      "p": "Razie sa týkali desiatok osôb, organizácií aj podnikov v 15 provinciách. Kritici hovoria o rastúcom tlaku na občiansku spoločnosť, Ankara zásah obhajuje v rámci svojich politík ochrany tradičných hodnôt.",
-      "pub": 1789558763.0,
-      "s": "Aktuality",
-      "t": "VIDEO: Turecké úrady poslali desiatky LGBTQ+ aktivistov do väzby",
-      "ts": 1789559740.7443256,
-      "u": "73b9167a23c34bf3a2b6"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2042333-slovaci-tankuju-najdrahsie-za-takmer-styri-roky-trh-je-v-panike-zo-dna-na-den-zmizli-miliony-barelov-ropy?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Cena za barel ropy sa blíži k 140 dolárom. Môže za to vojna na Blízkom východe a útok na kľúčový saudský ropovod. Ropa Brent sa ešte v stredu ráno pohybovala tesne nad 108 dolármi za barel (takmer 94 eur), deň potom, čo obe hlavné svetové ropy vyskočili o vyše tri doláre na najvyššie hodnoty od druh",
-      "pub": 1789559679.0,
-      "s": "Pravda",
-      "t": "Slováci tankujú najdrahšie za takmer štyri roky. Trh je v panike, zo dňa na deň zmizli milióny barelov ropy",
-      "ts": 1789559740.7443278,
-      "u": "57d45d6b239509ce1059"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/vznika-strana-ludskost-a-prosperita/992653-clanok.html",
-      "p": "Rabina vysvetlil, že prosperita pre nich nie je iba hrubým domácim produktom, ale dobrá a férová mzda za poctivo odvedenú prácu.",
-      "pub": 1789558920.0,
-      "s": "Teraz.sk",
-      "t": "Vzniká nová politická strana Ľudskosť a Prosperita",
-      "ts": 1789559740.7443292,
-      "u": "2338fc1b7d32bf146bfd"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/vlada-vzn-ma-mat-prisnejsie-pravid/992644-clanok.html",
-      "p": "Novela zákona o obecnom zriadení má taktiež obsahovať podmienku písomne odôvodniť zastavenie výkonu uznesenia obecného zastupiteľstva.",
-      "pub": 1789558080.0,
-      "s": "Teraz.sk",
-      "t": "Vláda: VZN má mať prísnejšie pravidlá, vznikne zoznam starostov",
-      "ts": 1789559740.7443304,
-      "u": "7fa0b02422084374e66c"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/vlada-priclenenie-nefunkcnej-obce-sa/992642-clanok.html",
-      "p": "Nová legislatíva má platiť od marca 2027, ustanovenie zákonov o majetku obcí a majetku vyšších územných celkov od septembra 2027.",
-      "pub": 1789557720.0,
-      "s": "Teraz.sk",
-      "t": "Vláda: Pričlenenie nefunkčnej obce sa má stať obligatórnym",
-      "ts": 1789559740.744332,
-      "u": "4c8fc6d17b0d943d0290"
-    },
     {
       "l": "https://www.sme.sk/komentare/c/fico-bol-s-pellegrinim-spokojny-kritika-vlady-velmi-nebolela?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Pellegrini volá po zmierení. Lenže s kým sa má zmieriť Fico?",
@@ -5252,6 +5200,51 @@
       "t": "Bratislava výrazne obmedzí prevádzku záložní, reaguje na kriminalitu",
       "ts": 1789644938.3169181,
       "u": "64e354c48f42e8e062a8"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/koalicia-neumoznila-opozicii-rokovat-o-odvolavani-sakovej-a-sutaja-estoka?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Mimoriadne schôdze sa neotvorili, parlament nebol uznášaniaschopný.",
+      "pub": 1789645233.0,
+      "s": "SME",
+      "t": "Koalícia neumožnila opozícii rokovať o odvolávaní Sakovej a Šutaja Eštoka",
+      "ts": 1789646137.2822473,
+      "u": "a572ed5626af96888f5f"
+    },
+    {
+      "l": "https://www.sme.sk/kultura/c/do-patrania-vezmu-aj-autistickeho-chlapca-v-kinach-je-detska-detektivka-ktora-pripomina-andersonove-filmy?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Spolupracovali na nej aj slovenskí herci a tvorcovia.",
+      "pub": 1789645225.0,
+      "s": "SME",
+      "t": "Do pátrania vezmú aj autistického chlapca. V kinách je detská detektívka, ktorá pripomína Andersonove filmy",
+      "ts": 1789646137.2822506,
+      "u": "edd04e802869c0fa32ce"
+    },
+    {
+      "l": "https://dennikn.sk/5566651/je-ukricany-hovori-ukrajinska-novinarka-o-ruskom-dabingu-troch-orieskov-pre-popolusku/",
+      "p": "Československá rozprávka Tri oriešky pre Popolušku patrí medzi najobľúbenejšie rozprávky ukrajinských divákov. U ženskej polovice publika – určite. Tvorcovia tejto rozprávky pravdepodobne netušili, že aj v 21. storočí na Ukrajine, ktorá bola rovnako ako Československo súčasťou komunistického bloku a",
+      "pub": 1789645117.0,
+      "s": "Denník N",
+      "t": "Je ukričaný, hovorí ukrajinská novinárka o ruskom dabingu Troch orieškov pre Popolušku",
+      "ts": 1789646137.282253,
+      "u": "376ea46ff96a645edb89"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2043065-co-sa-zmenilo-majersky-vytiahol-na-smer-ficove-slova-z-pumpy-gluck-priznal-ze-lacnejsie-tankovanie-ma-hacik?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Neotvorené schôdze k odvolávaniu ministrov, prejav prezidenta Petra Pellegriniho, napätie vo vládnej koalícii aj rastúce ceny pohonných látok. O týchto témach diskutovali priamo v budove Národnej rady poslanec Smeru-SD Richard Glück a poslanec KDH František Majerský. Kým Glück kritizoval opozíciu za",
+      "pub": 1789645500.0,
+      "s": "Pravda",
+      "t": "„Čo sa zmenilo?“ Majerský vytiahol na Smer Ficove slová z pumpy. Glück priznal, že lacnejšie tankovanie má háčik",
+      "ts": 1789646137.2822552,
+      "u": "99af306626625edb7515"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/policia-pocas-stredy-odhalila-viac-ako/992967-clanok.html",
+      "p": "Najviac porušení sa týkalo rýchlosti jazdy, pri ktorej zaznamenali 734 prípadov.",
+      "pub": 1789645260.0,
+      "s": "Teraz.sk",
+      "t": "Polícia počas stredy odhalila viac ako 1500 priestupkov na cestách",
+      "ts": 1789646137.2822561,
+      "u": "6ecdb49266b897bcdc84"
     }
   ],
   "recent_alerts": [
@@ -7802,6 +7795,7 @@
     "374e1f7fbdc0212907e6": 1789130145.0840006,
     "375ccc1275c168c74b68": 1788958534.7870274,
     "37631841949950b32814": 1789304137.837366,
+    "376ea46ff96a645edb89": 1789646137.2822516,
     "377f1d809e3d3b4fd81d": 1788579335.3208163,
     "37868eadae3020bf2afc": 1789529743.2608628,
     "37902d5b93fe05dcbefb": 1788960942.3352022,
@@ -9708,6 +9702,7 @@
     "6eb24921cc6341f565d2": 1789569343.3259852,
     "6ec57b3fc9855cfd4918": 1788865742.2627828,
     "6ecb6eb0780d2dd9ff33": 1789197082.4203806,
+    "6ecdb49266b897bcdc84": 1789646137.2822556,
     "6ed175a0e66a12472ed0": 1789135847.633026,
     "6ed3baa3cc80d93649ff": 1789104934.2932444,
     "6eebdc7ed521018e5d91": 1789040135.014875,
@@ -10357,6 +10352,7 @@
     "80a2da6f073a7bb2dc6d": 1788947734.8102043,
     "80b992fae49d355739c7": 1789036535.578084,
     "80c9ab33ea22674628c0": 1789193453.9366965,
+    "80ca7e9030679e04caab": 1789646137.2824552,
     "80d18e57726407314b59": 1788947734.8102229,
     "80da6a25e5382b1c59ed": 1788498652.7723734,
     "80debae2570c30847ff6": 1789110642.3931947,
@@ -11186,6 +11182,7 @@
     "99a29190d04c70021d44": 1789554945.2505183,
     "99a44d38d99993e29ed0": 1788927043.6866763,
     "99a551e070b3874390a1": 1789017040.3341143,
+    "99af306626625edb7515": 1789646137.2822535,
     "99b1ef9382689259acac": 1788757848.0526996,
     "99b82d1d7b5dd8fe4bb3": 1789045847.3789158,
     "99b9a88058c16c3ee83c": 1788621646.9452205,
@@ -11587,6 +11584,7 @@
     "a54b1ef419dc81e5b971": 1788665735.5276299,
     "a565b6a81314a797aec5": 1789551339.8357413,
     "a56eb09203664411044e": 1788636044.0873,
+    "a572ed5626af96888f5f": 1789646137.2822428,
     "a5765551fdbda5805aa8": 1789464949.0208566,
     "a5874b7fa5af8de27cf9": 1789307735.2745261,
     "a58aa24455696a272f1b": 1789531851.1486657,
@@ -12129,6 +12127,7 @@
     "b51cb5e3499d449b6ba4": 1788436548.089883,
     "b5267a31f87c3bf38ce2": 1789480541.6171722,
     "b52c2854f508e28e791b": 1789270542.4292874,
+    "b52cdf7e9500ce4ca8db": 1789646137.282257,
     "b53b801ac9e56103e267": 1788897337.7201245,
     "b53bda152743c5a97f75": 1788952241.6030548,
     "b53fbca3ac5e993b3a26": 1788932141.4895568,
@@ -14101,6 +14100,7 @@
     "edc101c83ac0f246b895": 1788690948.0399778,
     "edc265f3748b6fa86b20": 1789320047.155368,
     "edc29c4f577632348f0e": 1789200646.7870626,
+    "edd04e802869c0fa32ce": 1789646137.282249,
     "edd57842617ee554d6f1": 1789545340.6466303,
     "eded34c8cb1d83804328": 1789616140.05583,
     "edf4514e4ba05f45fb9e": 1788720940.598383,
@@ -14386,6 +14386,7 @@
     "f5f2a24c74ebff0675da": 1789496454.5274503,
     "f6000700b09be8d4e754": 1788636044.0872903,
     "f601a112a20b83d5084c": 1789125049.0250962,
+    "f60718aeede9917e6cb8": 1789646137.2822602,
     "f6076dabe0c1a355599a": 1789055735.8455577,
     "f60b6df65545b2fd1539": 1789037735.3364613,
     "f60d3aec1f6876ff3145": 1788950141.1872313,
@@ -14759,88 +14760,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1789644938.3168795
+      "ts": 1789646137.282221
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1789644938.3168812
+      "ts": 1789646137.2822223
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1789644938.3168836
+      "ts": 1789646137.2822247
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1789644938.316887
+      "ts": 1789646137.2822294
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1789644938.3168821
+      "ts": 1789646137.2822235
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1789644938.316874
+      "ts": 1789646137.2822144
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1789644938.3168786
+      "ts": 1789646137.2822192
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1789644938.316886
+      "ts": 1789646137.2822282
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1789644938.3168845
+      "ts": 1789646137.2822258
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1789644938.3168852
+      "ts": 1789646137.282227
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/gornik-zabrze-podolski-reakcia-privatizacia-2026091609423025077",
-      "p": "Górnik Zabrze vedený slovenským trénerom Michalom Gašparíkom cez víkend zdolal Lech Poznaň 2:1 a dostal sa na čelo tabuľky poľskej Ekstraklasy. Tam sa drží aj po utorkovom víťazstve nad Koronou Kielce 2:0. Športové úspechy však neutíšili diskusie o situácii v klube, práve naopak.",
-      "s": "Šport.sk",
-      "t": "Politik sa pustil do Gašparíkovho Górnika Zabrze. Podolski prišiel s tvrdou odpoveďou",
-      "ts": 1789559740.7443347,
-      "u": "f7c19b452afe5edaff6c"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/rakusky-lyziarsky-zvaz-sa-otvorene-postavil-voci-navrhu-noveho-prezidenta-fis-2026091611190446910",
-      "p": "Rakúsky lyžiarsky zväz (ÖSV) sa otvorene postavil voči návrhu nového prezidenta Medzinárodnej lyžiarskej federácie (FIS) Alexandra Ospelta, aby sa majstrovstvá sveta vo všetkých odvetviach lyžovania konali trikrát v priebehu štyroch rokov. Kritický postoj deklaroval aj Nemecký lyžiarsky zväz (DSV).",
-      "s": "Šport.sk",
-      "t": "Rakúsky lyžiarsky zväz sa otvorene postavil voči návrhu nového prezidenta FIS",
-      "ts": 1789559740.7443364,
-      "u": "05372dbf1661842500a2"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdmJKSkw2cUt0MkRTM1BfRmpZc3dxYU1iSk5ocHBDMWYySXdiRlNkdlRlbTc1Sm8xRVRfTXV4NGVCVFd3Ukh1LWVvRExvdUNkM3VjakxOVzBqeVBGUVUxUkNFV0tBS09HVXN3UjdfekpmLURmWHdIU1E1UF8yYkw3WFdkY21LWTBVaEk5bHVVb3VNQzFnV1haREN2WmNrUFM0cmxnWWJzRG0?oc=5",
-      "p": "Skutočný hrdina derby vyzdvihol pekelnú kulisu. Banská Bystrica si musela vstúpiť do svedomia SPORTNET",
-      "s": "SPORTNET",
-      "t": "Skutočný hrdina derby vyzdvihol pekelnú kulisu. Banská Bystrica si musela vstúpiť do svedomia",
-      "ts": 1789559740.7443376,
-      "u": "334b31454da13ee389b6"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/kelvin-ofori-skoncil-v-sk-slovan-bratislava-2026091612051462340",
       "p": "ŠK Slovan Bratislava ukončil spoluprácu s ghanským krídelníkom Kelvinom Oforim. Ide o definitívnu bodku za pôsobením hráča, ktorého príchod pred vyše rokom sprevádzali veľké očakávania, no v drese „belasých\" sa napokon nepresadil.",
@@ -16408,6 +16385,30 @@
       "t": "Hamburg predĺži zmluvu s Polzinom napriek zlému štartu do sezóny",
       "ts": 1789644938.3170824,
       "u": "8d6bf64772a9485d3300"
+    },
+    {
+      "l": "https://sport.aktuality.sk/tenis/clanok/do-nominacie-slovenska-pribudol-dalsi-hrac-v-kosiciach-sa-predstavi-aj-tsitsipas-2026091711270428312",
+      "p": "Slovenskí tenisti nastúpia na stretnutie I. svetovej skupiny Davisovho pohára proti Grécku aj s Andrejom Martinom. Pridal sa k Alexovi Molčanovi, Norbertovi Gombosovi, Milošovi Karolovi a Lukášovi Pokornému, ktorí figurovali už v pôvodnej nominácii. Kapitán Tibor Tóth sa teší na atmosféru v košickom",
+      "s": "Šport.sk",
+      "t": "Do nominácie Slovenska pribudol ďalší hráč. V Košiciach sa predstaví aj Tsitsipas",
+      "ts": 1789646137.2822592,
+      "u": "b52cdf7e9500ce4ca8db"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/do-timu-sr-pribudol-a-martin-toth-a/992964-clanok.html",
+      "p": "Víťaz súboja postúpi do budúcoročného 1. kvalifikačného kola DC, zdolaný tím bude bojovať o udržanie sa v I. svetovej skupine.",
+      "s": "TERAZ.SK",
+      "t": "Do tímu SR pribudol A. Martin, Tóth: Antuka by nám mohla vyhovovať",
+      "ts": 1789646137.2822611,
+      "u": "f60718aeede9917e6cb8"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/schranz-v-zostave-s-mladikmi-prispel-he/992963-clanok.html",
+      "p": "Do siete účastníka tretej najvyššej súťaže sa presadil trikrát už v prvom polčase.",
+      "s": "TERAZ.SK",
+      "t": "Schranz v zostave s mladíkmi prispel hetrikom k postupu: Som za to rád",
+      "ts": 1789646137.2824564,
+      "u": "80ca7e9030679e04caab"
     }
   ],
   "sport_source_status": {
@@ -16415,25 +16416,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1789644938.3168883
+      "ts": 1789646137.2822313
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1789644938.31689
+      "ts": 1789646137.2822332
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1789644938.316892
+      "ts": 1789646137.2822363
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1789644938.3168914
+      "ts": 1789646137.282235
     }
   }
 }
