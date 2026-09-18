@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Fico zrušil cestu na Ukrajinu, zastúpi ho Šutaj Eštok",
-      "ts": 1789728945.373343
-    },
-    {
-      "headline": "Vážna nehoda v Bratislave: Vlak sa zrazil s autobusom MHD",
-      "ts": 1789728945.373343
-    },
-    {
-      "headline": "Pakistan sľubuje podporu Saudskej Arábii po útokoch",
-      "ts": 1789728945.373343
-    },
-    {
-      "headline": "Maďarsko preverí majetky politikov za posledných 20 rokov",
-      "ts": 1789728945.373343
-    },
-    {
-      "headline": "Požiare v Quite si vyžiadali evakuácie obyvateľov",
-      "ts": 1789728945.373343
-    },
-    {
       "headline": "Vážna nehoda v Bratislave: Vlak sa zrazil s autobusom MHD",
       "ts": 1789731343.212431
     },
@@ -167,23 +147,65 @@
     {
       "headline": "Orbán vyhlásil národný odpor proti novej maďarskej vláde",
       "ts": 1789742162.9559233
+    },
+    {
+      "headline": "Minister Taraba definitívne zrušil projekt spaľovne pri Dudinciach",
+      "ts": 1789743350.9872024
+    },
+    {
+      "headline": "Ukrajina a Poľsko budujú protiraketový štít s účasťou NATO",
+      "ts": 1789743350.9872024
+    },
+    {
+      "headline": "Požiar v areáli bývalých kasární v Nitre",
+      "ts": 1789743350.9872024
+    },
+    {
+      "headline": "Talianska stíhačka poškodená pri útoku húsíov v Saudskej Arábii",
+      "ts": 1789743350.9872024
+    },
+    {
+      "headline": "Nezamestnanosť na Slovensku v auguste mierne klesla",
+      "ts": 1789743350.9872024
+    },
+    {
+      "headline": "Orbán vyhlásil národný odpor proti novej maďarskej vláde",
+      "ts": 1789743350.9872024
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Zelenskyj a Tusk ohlásili koalíciu na obranu pred balistickými raketami",
+        "headline": "Minister Taraba definitívne zrušil projekt spaľovne pri Dudinciach",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/taraba-definitivne-zrusil-vybudovanie-spalovne-pri-dudinciach?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/EhplX6y/spalovna-pri-dudinciach-nebude-ministerstvo-zivotneho-prostredia-projekt-definitivne-stoplo/"
+          ]
+        ],
+        "perex": "Minister životného prostredia Tomáš Taraba v rozkladovom konaní zastavil výstavbu kontroverznej spaľovne odpadu. Projekt mal ročne zhodnocovať 130-tisíc ton odpadu, no podľa rezortu nebol vhodný pre blízkosť kúpeľov."
+      },
+      {
+        "headline": "Ukrajina a Poľsko budujú protiraketový štít s účasťou NATO",
         "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/UzyVnkK/ukrajina-a-polsko-vytvoria-koaliciu-na-obranu-pred-balistickymi-raketami-oznamil-zelenskyj/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2043899-ukrajina-buduje-europsky-protiraketovy-stit-do-koalicie-vstupuje-krajina-nato"
           ]
         ],
-        "perex": "Ukrajinský prezident Volodymyr Zelenskyj oznámil vytvorenie spoločnej koalície s Poľskom na ochranu európskeho priestoru pred raketovými útokmi. Kyjev zároveň ponúkol Varšave vlastné technológie vyvinuté počas vojnového konfliktu."
+        "perex": "Kyjev a Varšava vytvoria spoločnú koalíciu zameranú na ochranu európskeho priestoru pred balistickými raketami. Ukrajinský prezident Volodymyr Zelenskyj zároveň ponúkol poľským partnerom vlastné vojenské technológie."
       },
       {
-        "headline": "V Nitre vypukol rozsiahly požiar v areáli bývalých kasární",
+        "headline": "Požiar v areáli bývalých kasární v Nitre",
         "links": [
           [
             "Aktuality",
@@ -194,10 +216,10 @@
             "https://www.pravda.sk/spravy/domace/clanok/2043885-v-nitre-vypukol-poziar-horia-stare-drevené-budovy"
           ]
         ],
-        "perex": "Na Martinskom vrchu v Nitre zasahujú desiatky hasičov pri požiari starých drevených budov v areáli bývalých kasární. Príčina vzniku požiaru, ktorý vypukol v piatok popoludní, zatiaľ nie je známa."
+        "perex": "V areáli na Martinskom vrchu v Nitre vypukol v piatok popoludní rozsiahly požiar. Na mieste zasahovali desiatky hasičov, ktorí bojovali s plameňmi v starých drevených budovách."
       },
       {
-        "headline": "Húsíovia zasiahli základňu v Saudskej Arábii, poškodili taliansku stíhačku",
+        "headline": "Talianska stíhačka poškodená pri útoku húsíov v Saudskej Arábii",
         "links": [
           [
             "Aktuality",
@@ -208,147 +230,39 @@
             "https://www.sme.sk/svet/c/v-saudskej-arabii-poskodili-taliansku-stihacku-utok-je-pripisovany-husiom"
           ]
         ],
-        "perex": "Pri útokoch na vojenské objekty v Saudskej Arábii utrpela vážne škody talianska stíhačka Eurofighter. K útoku sa prihlásili húsíjskí povstalci, pričom talianske ministerstvo obrany potvrdilo, že nikto z personálu neutrpel zranenia."
+        "perex": "Počas útoku jemenských povstalcov na vojenskú základňu v Saudskej Arábii utrpela talianska stíhačka Eurofighter vážne škody. Ministerstvo obrany v Ríme potvrdilo incident, pri ktorom však nikto z personálu neutrpel zranenia."
       },
       {
         "headline": "Nezamestnanosť na Slovensku v auguste mierne klesla",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2043893-nezamestnanost-v-auguste-oproti-julu-klesla-medzirocne-vsak-pribudli-tisice-ludi-bez-prace/"
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2043893-nezamestnanost-v-auguste-oproti-julu-klesla-medzirocne-vsak-pribudli-tisice-ludi-bez-prace"
           ]
         ],
-        "perex": "Podiel disponibilných uchádzačov o zamestnanie v produktívnom veku dosiahol v auguste 4,04 percenta. Oproti júlu ide o pokles o tri stotiny percentuálneho bodu, hoci medziročne počet ľudí bez práce vzrástol."
+        "perex": "Podiel disponibilných uchádzačov o zamestnanie v produktívnom veku dosiahol v auguste 4,04 percenta. Oproti júlu ide o pokles o tri stotiny percentuálneho bodu, hoci medziročne počet ľudí bez práce stúpol."
       },
       {
         "headline": "Orbán vyhlásil národný odpor proti novej maďarskej vláde",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/06qODJp/orban-vyhlasil-narodny-odpor-fidesz-sa-podla-neho-musi-postavit-proti-novej-vlade/"
+            "https://www.aktuality.sk/clanok/06qODJp/orban-vyhlásil-narodny-odpor-fidesz-sa-podla-neho-musi-postavit-proti-novej-vlade/"
           ]
         ],
-        "perex": "Bývalý maďarský premiér Viktor Orbán vyzval pravicu na väčšiu jednotu a vyhlásil začiatok národného odporu. Kritizoval doterajšiu kampaň svojej strany a jej slabšiu pozíciu v digitálnom priestore."
+        "perex": "Bývalý maďarský premiér Viktor Orbán vyzval pravicu na väčšiu jednotu a vyhlásil národný odpor proti súčasnému kabinetu. Kritizoval pritom doterajšiu kampaň svojej strany Fidesz aj jej slabšiu pozíciu v digitálnom priestore."
       }
     ],
-    "ts": 1789742162.9559126
+    "ts": 1789743350.9871936
   },
   "meta": {
-    "last_collection_ts": 1789742135.4680865,
+    "last_collection_ts": 1789743337.770548,
     "last_feed_error_ts": 1789725345.0795064,
     "last_llm_error_ts": 1789711148.4779098,
-    "last_run_ts": 1789742135.9599695,
-    "last_synthesis_ts": 1789742162.9559078
+    "last_run_ts": 1789743338.2961082,
+    "last_synthesis_ts": 1789743350.9871888
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/komentare/c/ako-zabranit-datovym-centram-aby-zhltli-privela-energie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Náš návrh zavádza normy energetickej a vodnej efektívnosti.",
-      "pub": 1789656337.0,
-      "s": "SME",
-      "t": "Ako zabrániť dátovým centrám, aby zhltli priveľa energie",
-      "ts": 1789656941.2413483,
-      "u": "21052bfd093b4df637d4"
-    },
-    {
-      "l": "https://dennikn.sk/5566764/aj-v-krehkosti-je-sila-moja-tvorba-je-sposob-ako-sa-vyrovnavam-s-realitou-hovori-umelkyna-lucia-tallova/",
-      "p": "„Umelci a umelkyne pred nami to mali ešte oveľa ťažšie a napriek tomu vznikli diela, ktoré vyčnievajú. Teraz je to na nás,“ hovorí umelkyňa Lucia Tallová. Počas uplynulého roka zažívala súbežne dva svety. V Berlíne pripravovala s celým tímom svoju sólovú výstavu, na ktorej sa predstavila ako laureát",
-      "pub": 1789656404.0,
-      "s": "Denník N",
-      "t": "Aj v krehkosti je sila. Moja tvorba je spôsob, ako sa vyrovnávam s realitou, hovorí umelkyňa Lucia Tallová",
-      "ts": 1789656941.241352,
-      "u": "0c599143657c461f54fe"
-    },
-    {
-      "l": "https://dennikn.sk/5568078/fico-stvrtykrat-cestuje-na-ukrajinu-stretne-sa-tam-aj-s-donaldom-tuskom/",
-      "p": "Odkedy sa Robert Fico (Smer) v októbri 2023 vrátil k moci, na Ukrajine bol trikrát. Na rozdiel od iných európskych lídrov ani raz necestoval do Kyjiva, trikrát však navštívil Užhorod. Vo štvrtok pri otvorení akademického roka v Prešova na konci svojho príhovoru vyhlásil, že sa na Ukrajinu chystá aj ",
-      "pub": 1789656212.0,
-      "s": "Denník N",
-      "t": "Fico štvrtýkrát cestuje na Ukrajinu. Stretne sa tam aj s Donaldom Tuskom",
-      "ts": 1789656941.2413542,
-      "u": "e602555f11defdc858f9"
-    },
-    {
-      "l": "https://dennikn.sk/5567117/tomas-taraba-koalicia-bude-mat-menej-ako-77-poslancov-ustupovanie-vydieraniu-narazilo-na-strop/",
-      "p": "Tomáš Taraba (46) je zatiaľ ešte ministrom životného prostredia a vicepremiérom vlády, premiér Robert Fico teraz navrhol jeho odvolanie. Do parlamentu kandidoval za SNS. V rozhovore hovorí: Pred voľbami v roku 2023 ste nakrúcali videá a chodili na rozhovory do médií v tričku Slovenskej národnej stra",
-      "pub": 1789656121.0,
-      "s": "Denník N",
-      "t": "Tomáš Taraba: Koalícia bude mať menej ako 77 poslancov, ustupovanie vydieraniu narazilo na strop",
-      "ts": 1789656941.2413557,
-      "u": "299493654237116b8702"
-    },
-    {
-      "l": "https://dennikn.sk/5566766/jedni-hovoria-o-mrazivom-varovani-ini-by-spavali-pokojne-ako-vedci-hodnotia-spravu-anthropicu-o-ai-a-biologickych-zbraniach/",
-      "p": "Spoločnosť Anthropic zverejnila správu, podľa ktorej existuje možnosť, že niektorí vedci použili jej model umelej inteligencie Claude na výrobu potenciálne smrteľných biologických zbraní. Niektorí odborníci teraz hovoria o závažnej hrozbe, iní možné riziko zmierňujú. „Spával by som dobre,“ vraví pre",
-      "pub": 1789655376.0,
-      "s": "Denník N",
-      "t": "Jedni hovoria o mrazivom varovaní, iní by spávali pokojne. Ako vedci hodnotia správu Anthropicu o AI a biologických zbraniach?",
-      "ts": 1789656941.2413576,
-      "u": "ea536afb54fb295a24a1"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2043231-babis-otvorene-varuje-pred-tretou-svetovou-vojnou-europa-podla-neho-kraca-k-branam-pekla?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Cesta, po ktorej dnes kráča svet, podľa českého premiéra Andreja Babiša nevedie k bezpečnosti, ale k „bránam pekla“ a tretej svetovej vojne, informoval portál Novinky.cz.",
-      "pub": 1789656216.0,
-      "s": "Pravda",
-      "t": "Babiš otvorene varuje pred treťou svetovou vojnou: Európa podľa neho kráča k „bránam pekla“",
-      "ts": 1789656941.2413585,
-      "u": "17e88e426ea904726fa7"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2043059-fico-tichy-potok-priehrada?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Vláda otvára tému vodnej nádrže Tichý Potok, ktorá má byť zdrojom pitnej vody pre východné Slovensko. Premiér Robert Fico počas návštevy lokality vyhlásil, že o tom rozhodnú odborníci. Proti priehrade sa však dlhodobo stavajú miestni obyvatelia aj ochranári.",
-      "pub": 1789655687.0,
-      "s": "Pravda",
-      "t": "Fico pri Tichom Potoku: Ak odborníci povedia áno, priehrada bude",
-      "ts": 1789656941.2413602,
-      "u": "4b8110eddb7711aee666"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2043221-pellegrini-vymenoval-21-novych-sudcov-pripomenul-im-ze-nerozhoduju-o-spisoch-ale-o-ludoch?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Prezident SR Peter Pellegrini vo štvrtok vymenoval 19 sudcov všeobecných súdov a dve sudkyne Správneho súdu v Bratislave bez časového obmedzenia. Z jeho rúk si v Prezidentskom paláci prevzali vymenovacie dekréty.",
-      "pub": 1789655286.0,
-      "s": "Pravda",
-      "t": "Pellegrini vymenoval 21 nových sudcov. Pripomenul im, že nerozhodujú o spisoch, ale o ľuďoch",
-      "ts": 1789656941.2413619,
-      "u": "129c13f1c1c4bc155eb1"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/premier-o-vodarenskej-nadrzi-tichy/993061-clanok.html",
-      "p": "Východné Slovensko podľa Fica potrebuje ďalší zdroj pitnej vody a vláda preto musí prehodnotiť vodohospodárske projekty pripravované v minulých desaťročiach.",
-      "pub": 1789656300.0,
-      "s": "Teraz.sk",
-      "t": "Premiér: O vodárenskej nádrži Tichý Potok rozhodnú experti",
-      "ts": 1789656941.241363,
-      "u": "f4a8e5510f9f809f05b3"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/taraba-straty-pitnej-vody-na-vychode-d/993057-clanok.html",
-      "p": "Taraba priblížil, že v roku 2025 dosiahli v Košickom a Prešovskom kraji straty v potrubí takmer 14,3 milióna kubických metrov pitnej vody za rok.",
-      "pub": 1789655760.0,
-      "s": "Teraz.sk",
-      "t": "Taraba: Straty pitnej vody na východe dosiahli v minulom roku 20,6 %",
-      "ts": 1789656941.241364,
-      "u": "391c39ebbff12a7db508"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1260456-bmw-vraj-driftovalo-samo-vodic-mercedesu-si-udajne-dal-len-jedno-pivo-nafukal-vsak-1-73-promile",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "BMW vraj driftovalo samo. Vodič Mercedesu si údajne dal len jedno pivo, nafúkal však 1,73 promile",
-      "ts": 1789656941.2413652,
-      "u": "8a3f05ad88e50966462a"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1260480-tragedia-v-hoteli-otriasla-mestom-matka-zastrelila-11-rocnu-roztlieskavacku",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Tragédia v hoteli otriasla mestom: Matka zastrelila 11-ročnú roztlieskavačku",
-      "ts": 1789656941.2413664,
-      "u": "16e6c10c3dd15b33d02f"
-    },
     {
       "l": "https://www.sme.sk/svet/c/saudska-arabia-hlasi-prvu-obet-od-eskalacie-bojov-s-jemenskymi-povstalcami?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Šrapnel zo zostreleného dronu zabil človeka.",
@@ -4668,6 +4582,78 @@
       "t": "Rozsiahly požiar v Nitre: Horí bývalý exekučný sklad na Martinskom vrchu",
       "ts": 1789742135.9591513,
       "u": "b0200ddfd42e0bf16a3c"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/premier-podla-kdh-svojimi-vyhlaseniami-o-clanku-5-nato-oslabuje-doveryhodnost-slovenska?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Hnutie poukazuje na dôležitosť článku z pohľadu bezpečnosti.",
+      "pub": 1789742864.0,
+      "s": "SME",
+      "t": "Premiér podľa KDH vyhláseniami o článku 5 NATO oslabuje dôveryhodnosť Slovenska",
+      "ts": 1789743338.2954803,
+      "u": "c382a9cc4d1ee8b71911"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/dane-platia-len-mali-ludia-magnatku-polozili-remeselnici-pre-trumpa-bola-odpornou-ludskou-bytostou?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Kráľovná zla Leona Hemsleyová vyvolala škandál aj po smrti.",
+      "pub": 1789742370.0,
+      "s": "SME",
+      "t": "Dane platia len malí ľudia? Magnátku položili remeselníci, pre Trumpa bola „odpornou ľudskou bytosťou“",
+      "ts": 1789743338.295483,
+      "u": "56275d05f7b306a23b8c"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/sadzby-europskej-centralnej-banky-sa-podla-jej-sefky-nepohybuju-automaticky-s-cenami-ropy-a-plynu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Lagardová tiež zmiernila obavy z rastúcich nákladov vlád na financovanie.",
+      "pub": 1789742316.0,
+      "s": "SME",
+      "t": "Sadzby Európskej centrálnej banky sa podľa jej šéfky nepohybujú automaticky s cenami ropy a plynu",
+      "ts": 1789743338.2954848,
+      "u": "2e7928c690807ca6c4d1"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/EhplX6y/spalovna-pri-dudinciach-nebude-ministerstvo-zivotneho-prostredia-projekt-definitivne-stoplo/",
+      "p": "Zariadenia na energetické využívanie odpadu podľa šéfa envirorezortu na Slovensku potrebujeme, no musia stáť v priemyselných zónach, a nie v blízkosti kúpeľov.",
+      "pub": 1789742528.0,
+      "s": "Aktuality",
+      "t": "Spaľovňa pri Dudinciach nebude: Ministerstvo životného prostredia projekt definitívne stoplo",
+      "ts": 1789743338.2954862,
+      "u": "79e6f1df69de2f995357"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2043903-spalovna-pri-kupeloch-nebude-taraba-definitivne-zrusil-kontroverzny-projekt?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Minister životného prostredia Tomáš Taraba (nominant SNS) v rozkladovom konaní definitívne zrušil vybudovanie spaľovne pri kúpeľnom meste Dudince, ktorá mala zhodnocovať 130 000 ton odpadu ročne. Informoval o tom odbor komunikácie Ministerstva životného prostredia (MŽP) SR.",
+      "pub": 1789742732.0,
+      "s": "Pravda",
+      "t": "Spaľovňa pri kúpeľoch nebude. Taraba definitívne zrušil kontroverzný projekt",
+      "ts": 1789743338.295487,
+      "u": "8a0e4c566cb24051d5c4"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2043899-ukrajina-buduje-europsky-protiraketovy-stit-do-koalicie-vstupuje-krajina-nato?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Ukrajina a Poľsko budú partnermi v rámci tzv. protibalistickej koalície zameranej na budovanie nových kapacít na obranu pred balistickými raketami. V piatok to na spoločnej tlačovej konferencii s poľským premiérom Donaldom Tuskom oznámil ukrajinský prezident Volodymyr Zelenskyj. Informuje o tom varš",
+      "pub": 1789742155.0,
+      "s": "Pravda",
+      "t": "Ukrajina buduje európsky protiraketový štít. Do koalície vstupuje krajina NATO",
+      "ts": 1789743338.2954888,
+      "u": "23d7e62315388b98253a"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/estok-pre-slovensko-je-integracia-kar/993321-clanok.html",
+      "p": "Na summite Karpatskej osmičky, ktorý potrvá do nedele, mal SR pôvodne zastupovať premiér Robert Fico.",
+      "pub": 1789742040.0,
+      "s": "Teraz.sk",
+      "t": "Eštok: Pre Slovensko je integrácia karpatského regiónu príležitosťou",
+      "ts": 1789743338.295491,
+      "u": "ce0b1e0b3500de40c49d"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1261093-spalovna-pri-dudinciach-nebude-taraba-definitivne-stopol-projekt-za-120-milionov-eur",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Spaľovňa pri Dudinciach nebude. Taraba definitívne stopol projekt za 120 miliónov eur",
+      "ts": 1789743338.2954924,
+      "u": "570617bbc57263bc1ef0"
     }
   ],
   "recent_alerts": [
@@ -5717,6 +5703,7 @@
     "0a4dbb6df444287f00e8": 1789145735.744628,
     "0a51f2d2d5c104e1beff": 1788782827.662583,
     "0a5832497c80eb118d5b": 1789296939.011091,
+    "0a612a32ff1d63e2a07f": 1789743338.2954981,
     "0a6744d429386cc4f857": 1788714011.3370702,
     "0a6a9332a7634ff025ee": 1788888049.6257548,
     "0a7458a4bb39d7e30d1d": 1789715446.8256652,
@@ -6566,6 +6553,7 @@
     "22ffca20aad3997720a7": 1789057247.721248,
     "23069a7e9b1ca50c7482": 1789401345.0284605,
     "230b69329d46af3e67d5": 1789559740.7443156,
+    "231167a1aa8b078c6cb9": 1789743338.2954965,
     "2317732c0a545bfd0b16": 1789505737.5357325,
     "231961e544c2d0c0eeee": 1789575647.8189414,
     "231e48f4904d08876ff2": 1788671449.1928077,
@@ -6599,6 +6587,7 @@
     "23cc4c09a5b3c590e5d5": 1789222844.0416827,
     "23d124bca80211a1c2f2": 1788579335.321037,
     "23d14974e77e8cef10db": 1789288541.7677424,
+    "23d7e62315388b98253a": 1789743338.2954874,
     "23d886923b984ff480c2": 1789041346.2901316,
     "23efda75ed9ae9fa364d": 1789544139.1130764,
     "23ff84aeca8701a85cd6": 1789420853.312754,
@@ -6956,6 +6945,7 @@
     "2e5662712c4e3dc9c767": 1789702537.0689814,
     "2e5954a855b801b8cd70": 1789044943.4421456,
     "2e69135090994e77da7d": 1788888049.6257608,
+    "2e7928c690807ca6c4d1": 1789743338.2954836,
     "2e81b58ea89c2b3fcd34": 1789184133.9133475,
     "2e8acb4cba6d66742da3": 1789029344.4017797,
     "2ea60712bad2cc085812": 1788782827.662568,
@@ -6987,7 +6977,6 @@
     "2f74f90058f5d75cdca0": 1788618048.7920432,
     "2f79d2a386cf371e4369": 1788811842.281523,
     "2f88d911f1622d91e55d": 1788930647.1668363,
-    "2f8e7eae28bfbc6074ec": 1788533673.6543841,
     "2f98f3d0dd7865d19838": 1788589238.093507,
     "2f99a4e7e580eb2b224b": 1788579335.3210294,
     "2fa3c3bc6ecf61399758": 1788942943.1289136,
@@ -7207,6 +7196,7 @@
     "36247610a6498e994d51": 1788865742.2627907,
     "3624def15eb1f4340d6e": 1788946538.977804,
     "362b28939a28f7480efc": 1789475736.5256135,
+    "36348428bdd39f73fa4a": 1789743338.2955012,
     "36351f5e7be30cc26906": 1789552543.462648,
     "3638e73f1a47c7d065bd": 1788600049.8803573,
     "363caffe0ed0403d39f8": 1788693043.8771822,
@@ -8273,7 +8263,6 @@
     "557af2444771dc2e52cb": 1788930647.1668472,
     "5585404960834aff5212": 1789038652.164412,
     "558d5508d32aad6d1a8e": 1789476789.746373,
-    "55905b177b192efb0859": 1788533673.6543643,
     "5596cde675332aa57acb": 1789142135.2997756,
     "559bc9f313cd096f2d0e": 1789468540.6600568,
     "55ad7814d8d6dab55ab7": 1789383342.2788856,
@@ -8294,10 +8283,10 @@
     "561adcbbab26081b0631": 1789300538.703805,
     "561f3001c984cef0deb8": 1789049447.8892035,
     "5624e561e612b3899a05": 1789468540.660073,
+    "56275d05f7b306a23b8c": 1789743338.2954817,
     "562a4728271b922d05c2": 1789653346.2676926,
     "562b287ed72a65efb43f": 1789311340.9901345,
     "562e2248571c73519ead": 1789374940.612186,
-    "562e9998234d2d9e62d2": 1788533673.6543684,
     "56337f4284e709dbb7ca": 1789281335.373824,
     "563e68733403e1797a88": 1789025742.0097566,
     "56514d90c6a1ec2d5dcf": 1789708849.003504,
@@ -8336,6 +8325,7 @@
     "56f2c7e7056caf55414a": 1789117804.7548034,
     "56f48cecfe4bc959016a": 1788862253.3569624,
     "570273501dd22d709eca": 1789546246.7418818,
+    "570617bbc57263bc1ef0": 1789743338.2954917,
     "570c8ddb9b695446a9f6": 1789492846.0530896,
     "570e78e050803513c928": 1788856534.078019,
     "5716391a0ceb00ce0edd": 1789589440.6801245,
@@ -9079,6 +9069,7 @@
     "6c0cd98bf73ccf997545": 1789279856.3594012,
     "6c0d87816ae8c232ba36": 1788874545.5879357,
     "6c103d69a2b5da39028b": 1789293345.27162,
+    "6c12f1d636a0d4ce55f8": 1789743338.2955024,
     "6c132bbdc43907ed4801": 1789242945.606026,
     "6c138c0b172ecf4d5dd7": 1788752141.9914544,
     "6c1bce795b092609ae00": 1788867340.1694741,
@@ -9194,7 +9185,6 @@
     "6f3f1d5aa0193d8a6959": 1789642535.018685,
     "6f40027ee61d18ca7f2e": 1788847157.3965538,
     "6f4218e3e1737f86d904": 1789400142.8961039,
-    "6f443d8c7e65716ca46b": 1788533673.6543667,
     "6f44f0f793642e2ba9f2": 1788612941.6448064,
     "6f4794542f3666969eb0": 1789276240.5758066,
     "6f509e486cce66c4f25e": 1789635341.6077125,
@@ -9484,7 +9474,6 @@
     "7787e8bbb6eaddf37602": 1788759362.1568637,
     "778811bcf8f26a1e2510": 1788876714.9151068,
     "77976f147f67b244fe34": 1788546053.969081,
-    "779b429997602d88b1a2": 1788533673.6543527,
     "77a31dad6147b1cd4263": 1789373454.0530198,
     "77a5b3e773600eec51dd": 1789564248.7386186,
     "77aadf66a0bc64e1feff": 1789230044.9958138,
@@ -9560,6 +9549,7 @@
     "79e195126c3305544716": 1789621848.5064964,
     "79e391bcfcd3cd0a29f5": 1788952241.6030586,
     "79e6c3f42c1094213afd": 1788786646.505058,
+    "79e6f1df69de2f995357": 1789743338.2954853,
     "7a0ed2ea72de9153c1d1": 1789562141.9633641,
     "7a1b99829c2527a4fe70": 1789293345.2716255,
     "7a1e2041dd89c188a2c4": 1789500044.6719046,
@@ -9787,7 +9777,6 @@
     "8084283c0a70437d9a38": 1788757848.052697,
     "8087188bc54f806ddbf5": 1788863737.1500764,
     "80894034f3c8d4980144": 1788602134.7968752,
-    "808f2529bb7a1453aef7": 1788533673.6543732,
     "809d9f9606c4881dd0ac": 1788842152.857497,
     "80a2da6f073a7bb2dc6d": 1788947734.8102043,
     "80aa3f9901adce65cae1": 1789721741.711636,
@@ -10028,7 +10017,6 @@
     "882206bd55a568ba1abb": 1789298444.149695,
     "8829a9b8e38eb857946d": 1789676440.2956219,
     "882ed560e43ca3cbcce5": 1789022144.8526285,
-    "8832e466a36cae3167bb": 1788533673.6543787,
     "8833e0c9c19b4339d748": 1789191333.5758812,
     "883bcfcab257a5cb5d6a": 1789389335.39756,
     "8854769abe209a312a0c": 1788630938.1990972,
@@ -10110,6 +10098,7 @@
     "89f66d967411fb749f96": 1789140939.4722245,
     "89f9063b04f1710e99de": 1789097743.6349978,
     "89fe15796ce32415382f": 1789283471.5703347,
+    "8a0e4c566cb24051d5c4": 1789743338.2954865,
     "8a0ee24f90f07b0e7d1a": 1789038652.1644185,
     "8a177171ff565f3fece3": 1789217775.9645698,
     "8a2b43300a34bd4fbcad": 1788806145.8833141,
@@ -10559,6 +10548,7 @@
     "975f1746fefb4690af76": 1789321464.9518344,
     "976ba74ae35f96007276": 1789398641.4003901,
     "97736e044cd26be163cc": 1788927043.6866777,
+    "9788d0dd40ce1a768164": 1789743338.2955,
     "978d1e02cbd7c18649af": 1788589238.093508,
     "9792f35855808ffc5c13": 1789323039.7194717,
     "979d9fc43d1c0e8548e6": 1789653346.2676764,
@@ -11535,6 +11525,7 @@
     "b4846394b96785eee0dc": 1789587342.8025362,
     "b497e20603677d882f62": 1788625248.23991,
     "b4a46ea5d41af9c54f8f": 1789369847.2234726,
+    "b4b6a11909512cb6f5a2": 1789743338.2954934,
     "b4b7f7a297a45f8f7505": 1789112139.3665748,
     "b4b863d704131be26370": 1789738541.4688053,
     "b4b96f7c0ade0ce2abd9": 1789037735.336434,
@@ -12068,6 +12059,7 @@
     "c36275b1ede9b6d93f58": 1789184133.913573,
     "c36a535d502bcbb74963": 1789103440.1452584,
     "c37cf38ef745889b8173": 1789714541.0340025,
+    "c382a9cc4d1ee8b71911": 1789743338.2954767,
     "c3861fad48cfd5c813e5": 1789731335.396317,
     "c38d215b2946daed7159": 1788875740.0140772,
     "c38e94055060ca362f26": 1789124134.1873581,
@@ -12333,7 +12325,6 @@
     "cac2198ca19fbcdacc98": 1789648533.7910535,
     "cac584e57f20286904c9": 1789541744.8912868,
     "cad83b0a8c6cde7ff601": 1788623735.5857384,
-    "cae185a4db8fa6351eff": 1788533673.654388,
     "caf1db05e882371b9cca": 1788540934.515747,
     "caf99768007f09c22baf": 1789011338.3920646,
     "cb07bc0d967c543e7617": 1788790248.1667054,
@@ -12435,6 +12426,7 @@
     "cdf9500c76eccd6f7c11": 1789449044.5866082,
     "cdf9833d0af2ece96b86": 1788598566.80095,
     "ce0aed6b2ab51dc50e6b": 1789397736.3012462,
+    "ce0b1e0b3500de40c49d": 1789743338.2954893,
     "ce13fb1e6cdf6bbdadc4": 1788623735.5857058,
     "ce14ec55fabd1e920598": 1788592843.159638,
     "ce2754e2092fd999ebb0": 1789721741.7116513,
@@ -12654,7 +12646,6 @@
     "d46e8f50238a37435852": 1788890141.6281378,
     "d488bc67bd74d6d4236e": 1788603650.879082,
     "d48c3cd776e38ad668a9": 1789652152.7011955,
-    "d49933f9021cfa102ed7": 1788533673.654376,
     "d4b5c3cb39adcf988dc3": 1788795344.836202,
     "d4b7d7d2e16af1e01873": 1789529743.260839,
     "d4b981a1934d6989d6d0": 1789270542.4292483,
@@ -13034,7 +13025,6 @@
     "dfdddf1a835080f1bd94": 1789557043.8218915,
     "dfe28bcf87df47ed3dff": 1789630541.7566955,
     "dfe2a155e3a5987b0ce4": 1789108544.577649,
-    "dfe3b12b3ad46429753e": 1788533673.6543713,
     "dfe6132dff675481400e": 1789127741.0689373,
     "dfee7a391c7de7987828": 1789272648.1110675,
     "dfeee704f8f9821c1edd": 1789720536.5001092,
@@ -13189,7 +13179,6 @@
     "e42d187575465eb065cc": 1789240849.1662645,
     "e42e8e9c364e86a3cd5d": 1789197082.4203928,
     "e4328b0a6d61d940714b": 1789470640.1266327,
-    "e43b619b9943bab77617": 1788533673.6543603,
     "e444ae4bf10d0df6c87c": 1789055735.8455522,
     "e445ac135f43546d5db7": 1789032934.1530874,
     "e460e9191b7ad6070f00": 1789449044.5866027,
@@ -13358,7 +13347,6 @@
     "e8c715ee5ea8541a39ae": 1788752141.9914162,
     "e8cacc984e5fcff8bee8": 1789362478.6084197,
     "e8da6501e6db2a0585f0": 1789360543.121043,
-    "e8e05f28de74df3d81f0": 1788533673.6543899,
     "e8e8352227cd7c69c351": 1789191333.5758755,
     "e8eb412d70a228c2471b": 1789647049.175518,
     "e8fa5ccb03af0d70e969": 1789143643.2064445,
@@ -14202,96 +14190,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1789742135.9591093
+      "ts": 1789743338.295456
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1789742135.9591105
+      "ts": 1789743338.2954574
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1789742135.9591138
+      "ts": 1789743338.2954595
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1789742135.9591184
+      "ts": 1789743338.2954643
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1789742135.959112
+      "ts": 1789743338.2954586
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1789742135.9591022
+      "ts": 1789743338.29545
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1789742135.9591076
+      "ts": 1789743338.2954545
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1789742135.9591174
+      "ts": 1789743338.2954633
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1789742135.9591153
+      "ts": 1789743338.2954607
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1789742135.9591162
+      "ts": 1789743338.2954621
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/tenis/clanok/boris-becker-kritizuje-zvyk-alexandra-zvereva-2026091709002978797",
-      "p": "Hoci Boris Becker patrí medzi veľkých fanúšikov Alexandra Zvereva, po jeho triumfe na US Open upozornil na zlozvyk svojho krajana, ktorý mu počas zápasov poriadne prekáža. Bývalý tenista dokonca vyzval na zmenu pravidiel.",
-      "s": "Šport.sk",
-      "t": "Boris Becker: Zvereva kritizujem len v jednej veci, zaskočilo ma to. Toto pravidlo sa musí zmeniť",
-      "ts": 1789656941.2413685,
-      "u": "089a16344906871ecb3b"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/futbal-kylian-mbappe-prehovoril-o-zlatej-lopte-pochvalil-aj-hviezdu-barcelony-lamina-yamala-2026091713581760393",
-      "p": "Španielsky denník „AS“ postupne zverejňuje ďalšie časti rozsiahleho rozhovoru s Kylianom Mbappém. Francúzsky útočník Realu Madrid v ňom hovorí aj o svojich ambíciách spojených so Zlatou loptou, o ktorú chce v tejto sezóne zabojovať.",
-      "s": "Šport.sk",
-      "t": "Zlatá lopta podľa neho patrí na Bernabéu. Mbappé ukázal veľkosť a zložil poklonu úhlavnému rivalovi",
-      "ts": 1789656941.2413702,
-      "u": "bf57d0d18c0637a21c92"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbFJSY3VNNnlhcTFBenRHakxlSG8xMG9nZ0FvNUVxZHFBYngxWG5uNlBzbTJRMDg4MUl6SHR3c0FGYnZyTmJBRFViZl81UW9ocE9Hbk9JLVhIVHMxdVpuY0VXaF9pZW9JNnVLVENJVWlJNFpjV2dPdTUyenF2MWVpNUZnSEtxOWRhM3Vwd291ZWhwREhDdzhGeEJPT0dDYzEzU3c?oc=5",
-      "p": "Obavy z násilia. Fanúšikovia PSG nesmú vycestovať na derby v Marseille SPORTNET",
-      "s": "SPORTNET",
-      "t": "Obavy z násilia. Fanúšikovia PSG nesmú vycestovať na derby v Marseille",
-      "ts": 1789656941.2413716,
-      "u": "d6f4f51a5efc4824c270"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/urady-zakazali-fanusikom-psg-vycesto/993050-clanok.html",
-      "p": "Podľa miestnych úradov existuje vysoké riziko násilných stretov medzi priaznivcami oboch tímov.",
-      "s": "TERAZ.SK",
-      "t": "Úrady zakázali fanúšikom PSG vycestovať na nedeľný šláger do Marseille",
-      "ts": 1789656941.2413726,
-      "u": "653c1b08c5cf997ecfa2"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/kayla-saager-zemrela-tehotna-futbalistka-2026091715035661624",
       "p": "Bývalá americká futbalistka Kayla Saagerová-Beckleyová nečakane zomrela vo veku 30 rokov.",
@@ -15595,6 +15551,54 @@
       "t": "Tréner Portugalska Jesus zaradil do svojej prvej nominácie aj Ronalda",
       "ts": 1789742135.9591644,
       "u": "228f0f96582f45791872"
+    },
+    {
+      "l": "https://sport.aktuality.sk/mma/clanok/veronika-zajicova-v-oktagone-ondrej-novotny-odhalil-karty-2026091810210367884",
+      "p": "Veronika Zajícová novou posilou organizácie Oktagon? Šéf žlto-čiernej stajne Ondřej Novotný odhalil karty! Veronika Zajícová má sľubne naštartovanú kariéru v MMA. Má len 22 rokov a na konte 10 zápasov v profi MMA, pričom má skvelú bilanciu 7-3. Aktuálne sa vezie na zaujímavej päťzápasovej víťaznej v",
+      "s": "Šport.sk",
+      "t": "Veronika Zajícová v Oktagone? Ondřej Novotný odhalil karty",
+      "ts": 1789743338.2954957,
+      "u": "b4b6a11909512cb6f5a2"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/gattuso-tituly-ac-milano-neapol-2026091220425649102",
+      "p": "Tréner Lazia Gennaro Gattuso po minulotýždňovej remíze 2:2 s AC Miláno vyhlásil, že jeho tím je na správnej ceste.",
+      "s": "Šport.sk",
+      "t": "Sebavedomý Gennaro Gattuso si pripísal zásluhy za tituly svojich bývalých klubov: To nie je náhoda",
+      "ts": 1789743338.2954977,
+      "u": "231167a1aa8b078c6cb9"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/online-presov-poprad-tipsport-liga-live-2026091814373333637",
+      "p": "Prešov sa trápi v defenzíve, pričom v posledných štyroch zápasoch inkasoval až 17 gólov. Poprad disponuje skvelou ofenzívou. V príprave aj v 1. kole skóroval trikrát, ťahajú ho Tyler Coulter, Adam Cracknell či Adam Dvořák (10 gólov v príprave) a v auguste už vyhral v Prešove 5:2.",
+      "s": "Šport.sk",
+      "t": "ONLINE HC Prešov - HK Poprad / Tipsport liga",
+      "ts": 1789743338.2954993,
+      "u": "0a612a32ff1d63e2a07f"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/honzek-je-pripraveny-bojovat-o-miesto/993324-clanok.html",
+      "p": "Honzeka si vybralo Calgary v 1. kole draftu 2023 zo 16. miesta.",
+      "s": "TERAZ.SK",
+      "t": "Honzek je pripravený bojovať o miesto v Calgary: Nemám čo stratiť",
+      "ts": 1789743338.2955005,
+      "u": "9788d0dd40ce1a768164"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/ruska-blinkovova-bude-po-novom-reprezen/993320-clanok.html",
+      "p": "Na konte má dva tituly z turnajov kategórie WTA 250, a to na harde v čínskom Ťiou-ťiang a Kluži.",
+      "s": "TERAZ.SK",
+      "t": "Ruska Blinkovová bude po novom reprezentovať Francúzsko",
+      "ts": 1789743338.2955017,
+      "u": "36348428bdd39f73fa4a"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/trener-holandska-xavi-vynechal-z-prvej/993319-clanok.html",
+      "p": "Tridsaťdvaročného Depaya trápi v národných farbách už takmer ročné čakanie na presný zásah, aktuálne má na konte 55 gólov.",
+      "s": "TERAZ.SK",
+      "t": "Tréner Holandska Xavi vynechal z prvej nominácie Depaya",
+      "ts": 1789743338.295503,
+      "u": "6c12f1d636a0d4ce55f8"
     }
   ],
   "sport_source_status": {
@@ -15602,25 +15606,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1789742135.9591208
+      "ts": 1789743338.2954662
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1789742135.9591231
+      "ts": 1789743338.2954683
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1789742135.9591255
+      "ts": 1789743338.295471
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1789742135.9591243
+      "ts": 1789743338.2954695
     }
   }
 }
