@@ -1,30 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Polícia v akcii Giezi obvinila dve osoby z podvodu za 31 miliónov eur",
-      "ts": 1789733500.4873443
-    },
-    {
-      "headline": "Vážna nehoda v Bratislave: Vlak sa zrazil s autobusom MHD",
-      "ts": 1789733500.4873443
-    },
-    {
-      "headline": "Estónsky slackliner sa v Bratislave pokúša o svetový rekord",
-      "ts": 1789733500.4873443
-    },
-    {
-      "headline": "NKÚ varuje pred rastúcim dlhom Slovenska napriek konsolidácii",
-      "ts": 1789733500.4873443
-    },
-    {
-      "headline": "Slovenský startup Sutro kupuje švédska spoločnosť Lovable",
-      "ts": 1789733500.4873443
-    },
-    {
-      "headline": "Český súd potvrdil päťročný trest pre psychiatra Cimického",
-      "ts": 1789733500.4873443
-    },
-    {
       "headline": "Polícia rozbila rozsiahlu Ponziho schému AGF",
       "ts": 1789735009.5808003
     },
@@ -171,164 +147,104 @@
     {
       "headline": "Arménsko začalo proces s hlavou cirkvi",
       "ts": 1789745766.3668177
+    },
+    {
+      "headline": "Fico zrušil cestu na Ukrajinu, KDH ho kritizuje za postoj k NATO",
+      "ts": 1789748461.6146863
+    },
+    {
+      "headline": "Rusko varuje Japonsko pred americkými raketami",
+      "ts": 1789748461.6146863
+    },
+    {
+      "headline": "Raiffeisen čelí obvineniam z pomoci Rusku",
+      "ts": 1789748461.6146863
+    },
+    {
+      "headline": "Vážny pád dieťaťa z nadjazdu pri diaľnici D1",
+      "ts": 1789748461.6146863
+    },
+    {
+      "headline": "Politik AfD spájaný s oslavou nacistického pohlavára",
+      "ts": 1789748461.6146863
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Premiér Fico zrušil cestu na Ukrajinu pre chorobu",
+        "headline": "Fico zrušil cestu na Ukrajinu, KDH ho kritizuje za postoj k NATO",
         "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/vnyiWTk/robert-fico-zrusil-cestu-na-ukrajinu-pre-chorobu/"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2043677-premier-fico-zrusil-planovanu-cestu-na-ukrajinu-ako-nahradu-posiela-ministra"
-          ]
-        ],
-        "perex": "Premiér Robert Fico zo zdravotných dôvodov zrušil plánovanú účasť na summite Karpatskej osmičky na Ukrajine. Na podujatí ho zastúpi minister vnútra Matúš Šutaj Eštok."
-      },
-      {
-        "headline": "KDH kritizuje Fica za spochybnenie článku 5 NATO",
-        "links": [
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/kdh-premier-vyhlaseniami-o-clanku-5/993308-clanok/"
-          ],
           [
             "SME",
-            "https://www.sme.sk/domov/c/premier-podla-kdh-svojimi-vyhlaseniami-o-clanku-5-nato-oslabuje-doveryhodnosť-slovenska"
+            "https://www.sme.sk/domov/c/fico-zrusil-pre-chorobu-planovanu-cestu-na-ukrajinu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/kdh-premier-vyhlaseniami-o-clanku-5/993308-clanok.html"
           ]
         ],
-        "perex": "Hnutie KDH upozornilo, že premiérove vyjadrenia o článku 5 Severoatlantickej aliancie oslabujú dôveryhodnosť Slovenska. Politici zdôrazňujú kľúčový význam tohto článku pre národnú bezpečnosť."
+        "perex": "Premiér Robert Fico pre náhlu chorobu zrušil plánovanú cestu na Ukrajinu, kde mal rokovať s prezidentom Volodymyrom Zelenským. Hnutie KDH následne premiéra skritizovalo za jeho vyjadrenia k článku 5 Severoatlantickej aliancie, ktoré podľa nich oslabujú dôveryhodnosť Slovenska."
       },
       {
-        "headline": "Polícia vyšetruje pád dievčaťa z nadjazdu na D1",
+        "headline": "Rusko varuje Japonsko pred americkými raketami",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2043919-moskva-posiela-tokiu-ostry-odkaz-americke-rakety-na-japonskom-uzemi-su-neprijatelne?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/f1Z63vU/rusko-varuje-japonsko-pre-americke-rakety-moskva-ziada-stiahnutie-systemu-typhon/"
+          ]
+        ],
+        "perex": "Moskva vyzvala Tokio na stiahnutie amerických raketových systémov Typhon, ktoré boli v Japonsku nasadené počas spoločného vojenského cvičenia. Rusko označilo prítomnosť týchto zbraní schopných odpaľovať rakety Tomahawk za neprijateľnú."
+      },
+      {
+        "headline": "Raiffeisen čelí obvineniam z pomoci Rusku",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/raiffeisen-celi-novym-obvineniam-ze-vyrazne-pomaha-putinovi-s-vojnou-matka-tatra-banky-hrozi-sudmi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Materská spoločnosť Tatra banky, banková skupina Raiffeisen, čelí novým obvineniam z napomáhania ruskej ekonomike počas vojny na Ukrajine. Podľa zverejneného reportu mala banka spolupracovať s desiatkami firiem, na ktoré sa vzťahujú sankcie."
+      },
+      {
+        "headline": "Vážny pád dieťaťa z nadjazdu pri diaľnici D1",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2043923-pad-z-osmich-metrov-pri-dialnici-d1-maloletu-s-viacerymi-zraneniami-prevazal-vrtulnik-do-bratislavy?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/y6b8DlK/pad-z-osemmetrovej-vysky-pri-d1-dieta-prevazal-vrtulnik-do-bratislavy/"
+          ]
+        ],
+        "perex": "Maloletá osoba utrpela v piatok pri Novom Meste nad Váhom vážne zranenia po páde z výšky približne ôsmich metrov na diaľnicu D1. Na mieste zasahovali leteckí záchranári, ktorí dieťa transportovali do nemocnice v Bratislave."
+      },
+      {
+        "headline": "Politik AfD spájaný s oslavou nacistického pohlavára",
         "links": [
           [
             "Noviny.sk",
-            "https://www.noviny.sk/krimi/1261058-pad-tinedzerky-z-nadjazdu-na-d1"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2043923-pad-z-osmich-metrov-pri-dialnici-d1-maloletu-s-viacerymi-zraneniami-prevazal-vrtulnik-do-bratislavy"
+            "https://www.noviny.sk/zahranicie/1261115-politik-afd-sa-zapojil-do-spomienky-na-hitlerovho-zastupcu-strana-nevylucuje-preverovanie"
           ]
         ],
-        "perex": "Maloletá osoba utrpela vážne zranenia po páde z výšky približne ôsmich metrov pri diaľnici D1 v blízkosti Nového Mesta nad Váhom. Na mieste zasahoval záchranársky vrtuľník, ktorý dievča transportoval do nemocnice."
-      },
-      {
-        "headline": "Švédska opozícia dostala poverenie zostaviť vládu",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/UyH19Mh/svedsko-smeruje-k-zmene-vlady-sefka-opozicie-anderssonova-dostala-ulohu-zostavit-kabinet/"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/liderka-svedskej-opozicie-anderssonova-dostala-poverenie-zostavit-vladu"
-          ]
-        ],
-        "perex": "Líderka švédskej opozície Magdalena Anderssonová bola poverená zostavením nového vládneho kabinetu. Pokúsi sa spojiť štyri strany ľavicového spektra, ktoré majú rozdiely v otázke vládnej spolupráce."
-      },
-      {
-        "headline": "Arménsko začalo proces s hlavou cirkvi",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/v-armensku-sa-zacal-sud-s-patriarchom-gareginom-ii-a-siestimi-biskupmi"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/2TRbmM9/v-armensku-sa-zacal-proces-s-hlavou-cirkvi-pasinjanov-spor-s-duchovnymi-sa-vyostruje/"
-          ]
-        ],
-        "perex": "V Arménsku sa začal súdny proces s patriarchom Gareginom II. a šiestimi biskupmi. Ide o vyvrcholenie napätého sporu medzi vplyvnou cirkvou a vládou premiéra Nikola Pašinjana."
+        "perex": "Nemecká strana AfD čelí otázkam po tom, čo sa jeden z jej politikov zapojil do spomienkovej akcie na zástupcu Adolfa Hitlera. Vedenie strany nevylúčilo, že celú záležitosť podrobí internému preverovaniu."
       }
     ],
-    "ts": 1789745766.3668082
+    "ts": 1789748461.614676
   },
   "meta": {
-    "last_collection_ts": 1789746938.9546208,
-    "last_feed_error_ts": 1789725345.0795064,
+    "last_collection_ts": 1789748447.5058992,
+    "last_feed_error_ts": 1789748448.093121,
     "last_llm_error_ts": 1789744308.4320576,
-    "last_run_ts": 1789746939.578181,
-    "last_synthesis_ts": 1789745766.366803
+    "last_run_ts": 1789748448.0937798,
+    "last_synthesis_ts": 1789748461.6146705
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/vasecka-taraba-najlepsie-splna-obraz-nastupcu-fica-v-smere-je-sokujuce-ze-hlas-este-nevymenil-predsedu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Opozícia by s Matovičom mala viac komunikovať.",
-      "pub": 1789661876.0,
-      "s": "SME",
-      "t": "Vašečka: Taraba najlepšie spĺňa obraz nástupcu Fica v Smere. Je šokujúce, že Hlas ešte nevymenil predsedu",
-      "ts": 1789662047.0187867,
-      "u": "2d10abea8f7f70a1eacd"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/na-synagogu-v-nemeckom-meste-wuppertale-zautocil-podpalac?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Útočník hodil niekoľko vreciek s horľavou tekutinou.",
-      "pub": 1789661533.0,
-      "s": "SME",
-      "t": "Na synagógu v nemeckom meste Wuppertale zaútočil podpaľač",
-      "ts": 1789662047.0187895,
-      "u": "9f25ce9a70676eeef13d"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/preco-neoddelime-siamske-dvojicky-u-nas-ako-v-minulosti-lebo-sme-dostali-ponuku-z-rijadu-odpoveda-nemocnica?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Na Slovensku sme už trikrát oddeľovali siamské dvojičky.",
-      "pub": 1789661376.0,
-      "s": "SME",
-      "t": "Prečo neoddelíme siamské dvojičky u nás ako v minulosti? Lebo sme dostali ponuku z Rijádu, odpovedá nemocnica",
-      "ts": 1789662047.018791,
-      "u": "f6b31ae77f51a5cce227"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/xjD7MTr/nova-publikacia-mmb-priblizuje-ranu-tvorbu-svetoznameho-sochara-arthura-fleischmanna/",
-      "p": "Z Bratislavy cez Viedeň, Bali či Austráliu až do Londýna. Arthur Fleischmann (1896 – 1990), bratislavský rodák a medzinárodne uznávaný sochár, počas svojej viac ako 60-ročnej kariéry pôsobil na štyroch kontinentoch a preslávil sa aj ako priekopník umeleckého využitia plexiskla. Jeho život a najmä ra",
-      "pub": 1789661251.0,
-      "s": "Aktuality",
-      "t": "Nová publikácia MMB približuje ranú tvorbu svetoznámeho sochára Arthura Fleischmanna",
-      "ts": 1789662047.0187929,
-      "u": "1bcb2cf868e980df3f56"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/HAutcW8/kurier-je-len-zaciatok-platformy-mozu-byt-jednou-z-odpovedi-na-starnutie-europy-nazor-alesa-roda/",
-      "p": "Platformová ekonomika môže byť v budúcnosti spôsob, ako využiť obmedzenú pracovnú silu efektívnejšie. Dnešná legislatíva by jej nemala zatvárať dvere.",
-      "pub": 1789660800.0,
-      "s": "Aktuality",
-      "t": "Kuriér je len začiatok. Platformy môžu byť jednou z odpovedí na starnutie Európy (názor Aleša Roda)",
-      "ts": 1789662047.0187943,
-      "u": "92a98f747ced37626283"
-    },
-    {
-      "l": "https://dennikn.sk/5567609/principy-hospodarskej-sutaze-komplikuju-nemocniciam-riadenie-personalu/",
-      "p": "Negatívom práce lekára pre viacerých zamestnávateľov naraz môže byť i zneužívanie jeho pozície na vyberanie si hrozienok.",
-      "pub": 1789661416.0,
-      "s": "Denník N",
-      "t": "Princípy hospodárskej súťaže komplikujú nemocniciam riadenie personálu",
-      "ts": 1789662047.0187957,
-      "u": "20903aa1d99d8bf21c3d"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2043139-tri-rany-a-moze-byt-koniec-merzovi-hrozi-politicky-otras-ktory-moze-zmenit-nemecko?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Dvojica nedeľných krajinských volieb v Nemecku otrasie pozíciou kancelára Friedricha Merza. Ak v Meklenbursku-Predpomoransku vyhrá Alternatíva pre Nemecko (AfD) a v Berlíne strana Ľavica, diskusia o jeho budúcnosti bude ešte ostrejšia než doteraz a udržať sa vo funkcii bude pre Merza ťažké.",
-      "pub": 1789660800.0,
-      "s": "Pravda",
-      "t": "Merz dostáva úder za úderom. Nedeľné voľby môžu rozhodnúť o jeho budúcnosti",
-      "ts": 1789662047.0187976,
-      "u": "900778ad10e04ba21d7d"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1260573-video-vodic-jej-nechcel-zastavit-mimo-zastavky-cestujuca-ho-udrela-flasou-a-utiekla-oknom",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "VIDEO: Vodič jej nechcel zastaviť mimo zastávky. Cestujúca ho udrela fľašou a utiekla oknom",
-      "ts": 1789662047.0187993,
-      "u": "db9fcbf77a504725bbf9"
-    },
     {
       "l": "https://www.sme.sk/svet/c/vojaci-s-urnami-zakazane-strany-a-oveckin-exilova-politicka-vysvetluje-ci-mozu-volby-v-rusku-nieco-zmenit?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Všetci sú za vojnu. Bojkot však nemá zmysel, vraví bývalá Navaľného spolupracovníčka",
@@ -4639,6 +4555,33 @@
       "t": "Pomáhal mu lekár aj zdravotné sestry. Cestujúci počas letu napriek resuscitácii zomrel",
       "ts": 1789746939.5777044,
       "u": "dabdd129f2d46ec1c8a6"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/europska-namorna-misia-v-cervenom-mori-zvysila-pre-povstalecke-utoky-uroven-pohotovosti?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Húsíovia ovládli celé jemenské pobrežie pri Červenom mori.",
+      "pub": 1789748070.0,
+      "s": "SME",
+      "t": "Európska námorná misia v Červenom mori zvýšila pre povstalecké útoky úroveň pohotovosti",
+      "ts": 1789748448.0931306,
+      "u": "32a43fdf55dd4a58ccf5"
+    },
+    {
+      "l": "https://dennikn.sk/5566250/spravate-sa-na-verejnosti-ako-dospeli-alebo-si-dovolite-aj-trocha-kreativity-vikend-bez-politiky/",
+      "p": "Tu nájdete dobré víkendové čítanie. Bez politiky.",
+      "pub": 1789746699.0,
+      "s": "Denník N",
+      "t": "Správate sa na verejnosti „ako dospelí“ alebo si dovolíte aj trocha kreativity? (Víkend bez politiky)",
+      "ts": 1789748448.0931346,
+      "u": "055dee69102854dfc72a"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/m-estokpre-slovensko-je-integracia-k/993339-clanok.html",
+      "p": "Okrem prehĺbenia regionálnej spolupráce vo viacerých oblastiach vrátane bezpečnosti a hospodárstva sa bude Karpatská osmička zaoberať aj obnovou vojnou zasiahnutej Ukrajiny.",
+      "pub": 1789747140.0,
+      "s": "Teraz.sk",
+      "t": "M. Eštok:Pre Slovensko je integrácia karpatského regiónu príležitosťou",
+      "ts": 1789748448.0931363,
+      "u": "5bab4d813133e01df4a4"
     }
   ],
   "recent_alerts": [
@@ -5512,6 +5455,7 @@
     "0551df4994b702328686": 1788947734.8102112,
     "0559ec9fc4103c52de17": 1789274137.4431067,
     "055b697ad276eeb72420": 1789242945.6060326,
+    "055dee69102854dfc72a": 1789748448.0931323,
     "056e5776c753826239a4": 1788895248.1071937,
     "0575d861587ac20d046c": 1789270542.4292805,
     "0579c9ab73a36f213be9": 1788724542.2039127,
@@ -7047,6 +6991,7 @@
     "32777a6decfa2bbbf199": 1789104934.293263,
     "328cfd8b563bac25f566": 1789653346.2676718,
     "328d3cd77d543c7c34ba": 1789655746.3045173,
+    "32a43fdf55dd4a58ccf5": 1789748448.0931256,
     "32b8ca638f3a1d6e5d87": 1789119334.4951115,
     "32bad19ac71b65194e2c": 1789404937.7483845,
     "32bde4b9afa9461354d4": 1789200646.787064,
@@ -8464,6 +8409,7 @@
     "5b9cfe14c188de418110": 1788770135.0426068,
     "5ba242e8fed403f6d2ed": 1789401345.0282154,
     "5ba3376370d6779cbd10": 1788952241.6030746,
+    "5bab4d813133e01df4a4": 1789748448.0931356,
     "5bad3d259e43f8eb33b1": 1789143643.206433,
     "5bb5b325107be785a865": 1789726246.2243547,
     "5bb63e308ee0f14930cd": 1789702537.0690334,
@@ -8762,6 +8708,7 @@
     "63c95b0594fafcf3442a": 1788878137.4628615,
     "63cf5057c0eb5853fb5d": 1788854139.6134925,
     "63d6a72fba792715407d": 1789032934.153119,
+    "63d6de05373f8e69daad": 1789748448.0931427,
     "63df448bd0ab62d4c78b": 1789145735.7446597,
     "63e969c52944159323b5": 1789556141.535882,
     "63eeadc64dfa19edd44c": 1788900954.9604664,
@@ -10220,6 +10167,7 @@
     "8e3aec8a1c16731d8840": 1788792947.1380107,
     "8e4fa89933529d594fa4": 1788602134.7968822,
     "8e50c1a858e59eae6b57": 1789482951.1356306,
+    "8e5b8ae2392b4c40d19c": 1789748448.0931404,
     "8e6265b98276424cda15": 1789356945.2318304,
     "8e6b9c953178f3cb3c94": 1788712535.9293368,
     "8e6e0b052be58006c9cd": 1788757848.0527055,
@@ -12636,6 +12584,7 @@
     "d5024746fe5781e2e1db": 1788874545.5879397,
     "d504c4fe70ff12efcc56": 1788634544.0585585,
     "d505037aa66b2ee4fa97": 1788582940.4590669,
+    "d5077cc47455c80af94b": 1789748448.0931375,
     "d50ceb936393e083df4f": 1788941443.7295842,
     "d51d3cd36f184fe52782": 1789529743.2608438,
     "d524f6ecc9fa3d6e89d7": 1789017040.3340912,
@@ -14165,112 +14114,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1789746939.5776625
+      "ts": 1789748447.8734133
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1789746939.5776646
+      "ts": 1789748447.8734145
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1789746939.577667
+      "ts": 1789748447.873417
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1789746939.5776718
+      "ts": 1789748447.873421
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1789746939.5776658
+      "ts": 1789748447.873416
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1789746939.5776556
+      "ts": 1789748447.8734064
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1789746939.5776606
+      "ts": 1789748447.8734114
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1789746939.5776703
+      "ts": 1789748447.87342
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1789746939.5776684
+      "ts": 1789748447.873418
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1789746939.5776696
+      "ts": 1789748447.8734193
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/slovensko-grecko-13-me-vo-volejbale-2026091716084403884",
-      "p": "Slovenskí volejbaloví reprezentanti neuspeli ani vo svojom záverečnom vystúpení na 34. majstrovstvách Európy. Vo štvrtkovom dueli v talianskej Modene podľahli Grécku 1:3 a v piatich zápasoch v A-skupine tak nezískali ani bod.",
-      "s": "Šport.sk",
-      "t": "ME: Slováci neuspeli ani v záverečnom zápase. Na turnaji skončili bez bodu",
-      "ts": 1789662047.0188022,
-      "u": "9dbedcad96dfd38879c2"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/na-duplantisa-cakala-necakana-vyzva-taky-nervozny-este-nebol-2026091619013239949",
-      "p": "Armand Duplantis má za sebou ďalší úspech v atletike, no tentoraz ho nečakala výzva v skoku o žrdi. Švédska superhviezda sa musela postaviť pred obrovské publikum a predviesť niečo, na čo rozhodne nie je zvyknutá.",
-      "s": "Šport.sk",
-      "t": "VIDEO Nečakaná výzva pre Duplantisa v Budapešti pred 20-tisíc divákmi: Neviem, či som už bol taký nervózny",
-      "ts": 1789662047.0188048,
-      "u": "6d389ed1a2526d80f654"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/vrakunsky-beh-sa-presuva-nova-sanca-zabehat-si-uz-tuto-nedelu-2026091715165863186",
-      "p": "Milovníci behu, pozor: Vrakunský beh sme z organizačných dôvodov presunuli o týždeň, takže 14. ročník obľúbeného podujatia na nábreží Malého Dunaja vo Vrakuni sa uskutoční už túto nedeľu, 20. septembra 2026. Ak ste si dátum označili v kalendári, prepíšte si ho – a ak ste ešte váhali, práve ste dosta",
-      "s": "Šport.sk",
-      "t": "Vrakunský beh sa presúva - nová šanca zabehať si už túto nedeľu!",
-      "ts": 1789662047.0188062,
-      "u": "7f9b30da026e91fbc2d1"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/futbal-barcelona-bude-priblizne-tri-tyzdne-bez-joana-garciu-2026091715212251922",
-      "p": "Barcelona bude približne tri týždne bez Joana Garcíu. Španielsky reprezentant si zranenie privodil v stredajšom zápase proti Racingu Santander a cez polčas ho musel vystriedať Wojciech Szczesny.",
-      "s": "Šport.sk",
-      "t": "Záchrana v podobe reprezentačnej prestávky. Brankár Barcelony spoznal rozsah nepríjemného zranenia",
-      "ts": 1789662047.0188076,
-      "u": "5b8726719121b5ae416a"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaFBSOVl5RmFkbE5venJLamYyaVJaWERlXzNyYUl4ZXNkZWt2bE1jb3lYLUpZQzZxNE0zVmhLMktHRUpZUmlXM1ExTEw4WlA4WE13R2x4SjE2N0VJcjlUR24wcXE4TnJkbFBGSnViWENJRGw4M3ZsTDQyRExFMFJJd2JsNlNyLTIyWkYzdEVhZHRMUWlGUzdJTXU4dmhiTHJPeXRUeg?oc=5",
-      "p": "Bývalá americká futbalistka zomrela počas tehotenstva, pôsobila aj v Česku SPORTNET",
-      "s": "SPORTNET",
-      "t": "Bývalá americká futbalistka zomrela počas tehotenstva, pôsobila aj v Česku",
-      "ts": 1789662047.0188088,
-      "u": "a7c4423638e04da0c483"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/volejbalisti-sa-rozlucili-so-sampion/993087-clanok.html",
-      "p": "Už pred stretnutím bolo isté, že zverenci trénera Michala Masného skončia v tabuľke na poslednom 6. mieste a nepostúpia do osemfinále.",
-      "s": "TERAZ.SK",
-      "t": "Volejbalisti sa rozlúčili so šampionátom prehrou 1:3 s Gréckom",
-      "ts": 1789662047.01881,
-      "u": "c1d541929871a2228942"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/eike-immel-podvod-trest-podmienka-2026091713295204131",
       "p": "Eike Immel sa na súde priznal k spáchaniu množstva podvodov. Dôvodom konania bývalého nemeckého brankára bola závislosť od kokaínu, ktorá viedla k finančným problémom. Napriek požiadavke prokuratúry však nemusí ísť do väzenia – súd mu udelil dvojročnú podmienku s odkladom na štyri roky.",
@@ -15550,6 +15451,30 @@
       "t": "Pád, prevoz do nemocnice aj odchod z územia Slovenska. Tretia etapa priniesla strhujúce divadlo",
       "ts": 1789746939.5777075,
       "u": "b7c01e5c41ed32f88eb9"
+    },
+    {
+      "l": "https://sport.aktuality.sk/sport-extra/clanok/z-elitnej-formacie-s-jagrom-do-love-islandu-hokej-vymenil-za-reality-sou-2026091617360504655",
+      "p": "Na hokejových klziskách sa pohyboval medzi veľkými talentmi svojej generácie, teraz však bojuje o pozornosť úplne iným spôsobom. Dvadsaťsedemročný Ondřej Machala sa po konci angažmánu v Tábore objavil v reality šou Love Island, kde sa pokúsi nájsť partnerku aj zabojovať o finančnú výhru.",
+      "s": "Šport.sk",
+      "t": "Z elitnej formácie s Jágrom do Love Islandu. Bývalý český talent vymenil hokej za reality šou",
+      "ts": 1789748448.0931394,
+      "u": "d5077cc47455c80af94b"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/tupta-pomohol-golom-k-triumfu-neftci-b/993337-clanok.html",
+      "p": "Neftči vedie tabuľku so ziskom 15 bodov, ale viacerí konkurenti majú ešte dva zápasy k dobru.",
+      "s": "TERAZ.SK",
+      "t": "Tupta pomohol gólom k triumfu Neftči Baku nad Gabalou",
+      "ts": 1789748448.093142,
+      "u": "8e5b8ae2392b4c40d19c"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/van-eetvelt-vyhral-3-etapu-okolo-sloven/993335-clanok.html",
+      "p": "Cyklisti prešli v piatok 195,1 kilometra po zvlnenej etape z Tvrdošína do Dohňan.",
+      "s": "TERAZ.SK",
+      "t": "Van Eetvelt vyhral 3. etapu Okolo Slovenska a je celkovým lídrom",
+      "ts": 1789748448.0931432,
+      "u": "63d6de05373f8e69daad"
     }
   ],
   "sport_source_status": {
@@ -15557,25 +15482,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1789746939.577674
+      "ts": 1789748447.873423
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1789746939.5776763
+      "ts": 1789748447.8734252
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1789746939.577679
+      "ts": 1789748447.873428
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1789746939.5776775
+      "ts": 1789748447.8734267
     }
   }
 }
