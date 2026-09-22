@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Trump spustil vlastnú televíziu",
-      "ts": 1790067357.8235748
-    },
-    {
-      "headline": "Finančná správa hlási úspech kontrol",
-      "ts": 1790067357.8235748
-    },
-    {
-      "headline": "Nemecko zníži daň z pohonných hmôt",
-      "ts": 1790067357.8235748
-    },
-    {
-      "headline": "Via Iuris žiada odklad Občianskeho zákonníka",
-      "ts": 1790067357.8235748
-    },
-    {
-      "headline": "Sociálna poisťovňa zvýši maximálne dávky",
-      "ts": 1790067357.8235748
-    },
-    {
       "headline": "Vláda hľadá riešenia pre rekordné ceny palív",
       "ts": 1790069742.850192
     },
@@ -167,86 +147,128 @@
     {
       "headline": "Trenčianska nemocnica čelí ďalšej poruche potrubia",
       "ts": 1790081743.35105
+    },
+    {
+      "headline": "Streľba v tureckej škole: Zranených je 11 študentov",
+      "ts": 1790082650.9814186
+    },
+    {
+      "headline": "Maďarsko odmietlo účasť v Zelenského Karpatskej osmičke",
+      "ts": 1790082650.9814186
+    },
+    {
+      "headline": "Sociálna poisťovňa od januára zvýši maximálne dávky",
+      "ts": 1790082650.9814186
+    },
+    {
+      "headline": "SPP garantuje rekordné zásoby plynu na zimu",
+      "ts": 1790082650.9814186
+    },
+    {
+      "headline": "Irán podmienil otvorenie Hormuzského prielivu",
+      "ts": 1790082650.9814186
+    },
+    {
+      "headline": "Demokrati kritizujú zákazku vojenskej nemocnice",
+      "ts": 1790082650.9814186
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Najvyšší súd rozhodol v dlhoročnom spore o Pečniansky les",
+        "headline": "Streľba v tureckej škole: Zranených je 11 študentov",
         "links": [
           [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2045877-video-zobral-pusku-a-postrelil-11-spoluziakov-mladeho?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ],
+          [
             "SME",
-            "https://www.sme.sk/domov/c/ns-zamietol-dovolanie-v-dlhorocnom-spore-o-pozemkoch-pecnianskeho-lesa"
+            "https://www.sme.sk/svet/c/strelba-pred-skolou-v-turecku-si-vyziadala-niekolko-zranenych-studentov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Turecká polícia zadržala študenta, ktorý v utorok ráno spustil streľbu pred strednou školou na západe krajiny. Pri útoku utrpelo zranenia 11 spolužiakov, pričom úrady v súvislosti s prípadom zaistili aj rodinných príslušníkov podozrivého."
+      },
+      {
+        "headline": "Maďarsko odmietlo účasť v Zelenského Karpatskej osmičke",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2045559-kyjev-chcel-jednotny-region-budapest-povedala-nie-madarsko-odmietlo-iniciativu-ukrajiny?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/arfqchq/najvyssi-sud-zamietol-dovolanie-v-dlhorocnom-spore-o-pozemkoch-pecnianskeho-lesa/"
+            "https://www.aktuality.sk/clanok/GbQAYeP/madarsko-sa-nepridalo-ku-karpatskej-osmicke-magyar-odmietol-ucast-v-zelenskeho-novom-formate/"
           ]
         ],
-        "perex": "Najvyšší súd SR zamietol dovolanie štátneho podniku Lesy SR a Generálnej prokuratúry v prípade zámeny pozemkov. Rozhodnutie uzatvára dlhoročný spor o lukratívne územie v Bratislave."
+        "perex": "Ukrajinský prezident Volodymyr Zelenskyj predstavil nový regionálny formát spolupráce zameraný na bezpečnosť a energetiku. Maďarský premiér však účasť svojej krajiny na iniciatíve výslovne odmietol."
       },
       {
-        "headline": "Litva posilňuje obranu, prijíma novú rotáciu amerických vojakov",
+        "headline": "Sociálna poisťovňa od januára zvýši maximálne dávky",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/eY5Mhpw/nova-rotacia-americkych-vojakov-mieri-do-litvy-gitanas-nauseda-hovori-o-posilneni-bezpecnosti-regionu/"
+            "https://www.aktuality.sk/clanok/EE1W7Ob/socialna-poistovna-od-januara-zvysi-maximalne-davky-nemocenskeho-materskeho-aj-osetrovneho/"
+          ],
+          [
+            "zdroj",
+            "https://tnlive.ekonomika/clanok/1052415-materske-takmer-2-500-eur-nemocenske-vyse-1-800-eur-od-januara-sa-zvysia-maximalne-davky"
+          ]
+        ],
+        "perex": "Od začiatku roka 2027 si polepšia mamičky aj práceneschopní občania vďaka rastu všeobecného vymeriavacieho základu. Maximálne sumy nemocenského, materského či ošetrovného vzrastú o stovky eur."
+      },
+      {
+        "headline": "SPP garantuje rekordné zásoby plynu na zimu",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/7D59wGQ/spp-hlasi-rekordne-zasoby-plynu-na-zimu-20262027-slovenskym-domacnostiam-garantuje-plynule-dodavky/"
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2045867-litva-usa-armada-vojaci"
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2045775-slovensko-sa-zasobuje-pred-zimou-spp-bude-mat-rekordne-mnozstvo-plynu-ciel-stihne-vyrazne-skor?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ]
         ],
-        "perex": "Litovský prezident Gitanas Nauséda potvrdil príchod ďalšej rotácie amerických jednotiek do krajiny. Krok má posilniť kolektívnu bezpečnosť regiónu v čase zvýšeného napätia."
+        "perex": "Slovenský plynárenský priemysel naplnil zásobníky na rekordnú úroveň 17,5 TWh s výrazným predstihom. Domácnostiam tak dodávateľ garantuje plynulé dodávky počas celej zimnej sezóny 2026/2027."
       },
       {
-        "headline": "Taxikári žiadajú zrušenie zmlúv s Boltom na bratislavskom letisku",
+        "headline": "Irán podmienil otvorenie Hormuzského prielivu",
         "links": [
-          [
-            "SME",
-            "https://www.sme.sk/index/c/taxikari-ziadaju-ukoncit-netransparentne-zmluvy-bratislavskeho-letiska"
-          ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/WhUfaZo/taxi-asociacia-ziada-zrusit-exkluzivne-zmluvy-s-boltom-na-bratislavskom-letisku/"
-          ]
-        ],
-        "perex": "Asociácia Taxi SR kritizuje vedenie letiska za netransparentné zmluvy s firmou Bolt Services SK. Žiadajú okamžité ukončenie spolupráce a zásah ministra dopravy."
-      },
-      {
-        "headline": "Extrémne horúčavy si na Slovensku vyžiadali 12 obetí",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/domov/c/na-slovensku-zomrelo-od-zaciatku-roka-v-dosledku-nadmerneho-tepla-12-ludi"
+            "https://www.aktuality.sk/clanok/5X4NHXA/iran-ponuka-otvorenie-hormuzskeho-prielivu-do-siedmich-dni-podmienuje-to-zmiernenim-tlaku-a-koncom-blokady-usa/"
           ],
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/cwf3S9m/v-dosledku-horucav-zomrelo-na-slovensku-12-osob/"
+            "SME",
+            "https://www.sme.sk/svet/c/iran-otvori-hormuzsky-prieliv-ak-usa-zmiernia-tlak-a-zrusia-namornu-blokadu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "Štatistický úrad potvrdil, že v dôsledku nadmerných teplôt zomrelo od začiatku roka 12 ľudí. Ide o desaťnásobok priemerného počtu úmrtí z minulých rokov."
+        "perex": "Teherán vyhlásil, že je ochotný otvoriť Hormuzský prieliv do siedmich dní, ak USA zmiernia vojenský tlak. Podmienkou je ukončenie blokády iránskych prístavov a zníženie prítomnosti amerických síl."
       },
       {
-        "headline": "Trenčianska nemocnica čelí ďalšej poruche potrubia",
+        "headline": "Demokrati kritizujú zákazku vojenskej nemocnice",
         "links": [
           [
-            "Denník N",
-            "https://dennikn.sk/5576693/nemocnica-zo-skandalu-s-vymenou-potrubia-zaziva-druhu-poruchu-za-mesiac/"
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/8UZ9cV1/milionovu-zakazku-pre-vojensku-nemocnicu-ziskala-firma-bez-webu-a-s-jednym-zamestnancom/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/demokrati-kritizuju-zmluvu-na-rekonstrukciu-riaditelstva-ruzomberskej-nemocnice?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "V priestoroch chirurgie trenčianskej nemocnice došlo k opätovnému prasknutiu potrubia. Ide o druhú haváriu v priebehu mesiaca v zariadení, ktoré už čelí škandálu s rekonštrukciou."
+        "perex": "Mimoparlamentná strana upozorňuje na obstarávanie rekonštrukcie riaditeľstva v Ružomberku za 5,5 milióna eur. Zákazku podľa nich získala firma bez webovej stránky a s jediným zamestnancom."
       }
     ],
-    "ts": 1790081743.3510416
+    "ts": 1790082650.9814076
   },
   "meta": {
-    "last_collection_ts": 1790081736.047569,
+    "last_collection_ts": 1790082644.0057323,
     "last_feed_error_ts": 1790070936.6076777,
     "last_llm_error_ts": 1790076969.7273228,
-    "last_run_ts": 1790081736.432175,
-    "last_synthesis_ts": 1790081743.351037
+    "last_run_ts": 1790082644.5534232,
+    "last_synthesis_ts": 1790082650.9814022
   },
   "recent": [
     {
@@ -4865,6 +4887,51 @@
       "t": "Úrad verejného zdravotníctva: Vírus Usutu potvrdili v troch vzorkách",
       "ts": 1790081736.4318242,
       "u": "a70b01244e644bf88657"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/novy-kongres-europy-musi-prekrocit-politicke-tabu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Stretnutie musí priniesť dôveryhodnú cestu od odporúčaní k politickým rozhodnutiam a ich uskutočneniu.",
+      "pub": 1790082326.0,
+      "s": "SME",
+      "t": "Nový Kongres Európy musí prekročiť politické tabu",
+      "ts": 1790082644.5528376,
+      "u": "98bec068cb6397744191"
+    },
+    {
+      "l": "https://www.sme.sk/kultura/c/vezmite-si-kyanid-a-dajte-ho-aj-detom-ked-bol-mier-blizko-nemeckom-presla-vlna-samovrazd?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "O dôsledkoch propagandy je film Krux.",
+      "pub": 1790082146.0,
+      "s": "SME",
+      "t": "Vezmite si kyanid a dajte ho aj deťom. Keď bol mier blízko, Nemeckom prešla vlna samovrážd",
+      "ts": 1790082644.5528407,
+      "u": "2ea9bcd672af702a24a8"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/regiony/clanok/2045767-rybky-a-lekno-v-mestskom-jazierku-dlho-nevydrzali-po-troch-dnoch-su-fuc-zrejme-ich-niekto-ukradol?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Malebné jazierko pribudlo v kúpeľnom mestečku začiatkom mája. Po pár mesiacoch doň pribudli okrasné ryby a lekná, no dlho tam neplávali. Niekto ich „potiahol“.",
+      "pub": 1790082334.0,
+      "s": "Pravda",
+      "t": "Rybky a lekno v mestskom jazierku dlho nevydržali. Po troch dňoch sú fuč, zrejme ich niekto ukradol",
+      "ts": 1790082644.5528436,
+      "u": "d683b338c9ea91603c92"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2045877-video-zobral-pusku-a-postrelil-11-spoluziakov-mladeho?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Najmenej 11 študentov utrpelo zranenia pri streľbe, ktorú v utorok ráno pri strednej škole na západe ázijskej časti Turecka rozpútal iný študent. Uviedol to na sieti X turecký minister spravodlivosti Akin Gürlek. Potvrdil tiež predchádzajúce informácie médií, že stav dvoch ranených je kritický.",
+      "pub": 1790081973.0,
+      "s": "Pravda",
+      "t": "VIDEO: Zobral pušku a postrelil 11 spolužiakov. Tínedžera zadržali, aj s matkou, otcom a dedkom",
+      "ts": 1790082644.552845,
+      "u": "6ebb7fc01f242aae26ed"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1262557-slovensko-hlasi-rekord-za-posledne-desatrocie-horucavy-si-tento-rok-vyziadali-12-obeti",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Slovensko hlási rekord za posledné desaťročie. Horúčavy si tento rok vyžiadali 12 obetí",
+      "ts": 1790082644.5528467,
+      "u": "b9b4990cf629421d222d"
     }
   ],
   "recent_alerts": [
@@ -6463,6 +6530,7 @@
     "19dc19870410c9cb3e58": 1789139465.0482268,
     "19dfce2373c8b1c2b8d1": 1789474252.833739,
     "19f2245fd7cc5d2dd060": 1790071847.36077,
+    "19f33d7d5cedc179f761": 1790082644.5528512,
     "19f3718bfaaa7aaaddf6": 1789979735.8228757,
     "19f4160cacc655b0dbe5": 1789356945.2318265,
     "19fe469be6008cbfc356": 1789764938.5894272,
@@ -7176,6 +7244,7 @@
     "2e7928c690807ca6c4d1": 1789743338.2954836,
     "2e81b58ea89c2b3fcd34": 1789184133.9133475,
     "2e8acb4cba6d66742da3": 1789029344.4017797,
+    "2ea9bcd672af702a24a8": 1790082644.5528393,
     "2ec7e2851195217f8bd8": 1788959441.5143995,
     "2ed02555f1322930b3bf": 1789632641.6726143,
     "2edaa733384e7f9fa4a4": 1789788942.2717474,
@@ -9387,6 +9456,7 @@
     "6ea5e3b2929b989406ce": 1789482951.1356575,
     "6eaf6409ca6b90e84881": 1789069786.7178426,
     "6eb24921cc6341f565d2": 1789569343.3259852,
+    "6ebb7fc01f242aae26ed": 1790082644.5528445,
     "6ec45325c7a7baef87a7": 1790006146.9201324,
     "6ec5520cf0e175ef0856": 1789901735.1703844,
     "6ecb6eb0780d2dd9ff33": 1789197082.4203806,
@@ -10841,6 +10911,7 @@
     "98b8e218bd795bfc55a3": 1789049447.8891988,
     "98b945e1c97ccaab93c5": 1789578645.1712368,
     "98badf0475cb9d58798d": 1789563340.8521981,
+    "98bec068cb6397744191": 1790082644.5528333,
     "98ca669e66278cfdde05": 1789727736.0954795,
     "98de416abe6b2be280d5": 1789647049.1755311,
     "98eeb25985d9f7b7b053": 1788950141.1873093,
@@ -11961,6 +12032,7 @@
     "b9a731a4feb9510323ca": 1789903246.060292,
     "b9ac15c00c07290bfc86": 1789898134.4582348,
     "b9b1b3f534387521f35b": 1789644938.3169188,
+    "b9b4990cf629421d222d": 1790082644.5528457,
     "b9b68c4a4925a33c6095": 1789648533.7910647,
     "b9bbbd2ba13785f59620": 1788974454.0226696,
     "b9c16c3fa72e369ce1d9": 1789718135.4713697,
@@ -12988,6 +13060,7 @@
     "d663bdf5899715536982": 1789901735.170387,
     "d66adb80b9357792b2dc": 1789914039.2520938,
     "d66f2899fdfa3335ac89": 1789979735.8228607,
+    "d683b338c9ea91603c92": 1790082644.5528417,
     "d6883ac5186fc687041a": 1789805443.0153174,
     "d6893895c7dc9465e454": 1789990541.3429215,
     "d69860b4406dc5170e10": 1789678536.24194,
@@ -12999,6 +13072,7 @@
     "d6c2a34ed3ed68f111ab": 1789721741.711628,
     "d6c680c544f2d35d31cd": 1789320047.1553767,
     "d6d48c6e29abc5cdab7f": 1788890141.628146,
+    "d6dbb7ba0c83783ae85e": 1790082644.552848,
     "d6e6c5e3204e49536a76": 1789284940.959991,
     "d6eea92dc28d477adc3e": 1789125049.0252736,
     "d6f4f51a5efc4824c270": 1789656941.2413707,
@@ -14512,61 +14586,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1790081736.431613
+      "ts": 1790082644.5528095
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1790081736.4316142
+      "ts": 1790082644.552811
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1790081736.431617
+      "ts": 1790082644.552814
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1790081736.4316225
+      "ts": 1790082644.5528195
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1790081736.4316156
+      "ts": 1790082644.5528128
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1790081736.431606
+      "ts": 1790082644.5528023
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1790081736.4316106
+      "ts": 1790082644.5528076
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1790081736.431621
+      "ts": 1790082644.552818
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1790081736.4316182
+      "ts": 1790082644.5528154
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1790081736.4316196
+      "ts": 1790082644.5528169
     }
   },
   "sport_recent": [
@@ -16121,6 +16195,22 @@
       "t": "Valverde utrpel zranenie členka, Realu Madrid bude chýbať týždne",
       "ts": 1790081736.4318287,
       "u": "d728773f837559b567bb"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/hedegart-navrat-biatlon-katastrofa-2026092211492534533",
+      "p": "Chvíle obrovskej eufórie vystriedalo hlboké sklamanie. Nór Einar Hedegart len pred pár mesiacmi žiaril na ZOH 2026 v Miláne a Cortine, odkiaľ si ako bežec na lyžiach odniesol tri cenné kovy – dve zlaté a jednu bronzovú medailu.",
+      "s": "Šport.sk",
+      "t": "Návrat k biatlonu je zatiaľ katastrofa. Mohol by som rovno skončiť, tvrdí olympijský víťaz",
+      "ts": 1790082644.55285,
+      "u": "d6dbb7ba0c83783ae85e"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU2tSZWNSeUhVYnFlN04xMHlLSTdISlB1UEtCdzZsNl81OXh6U3NOMU1iTXJwY1ZuZndrcFJTNjVSMmtYUGJDSF8zQmZLbFBUVVBLdVNMZHdfQWdlemp3dGkxanN6WDMtd3dnOG1CbG5icjd2M2c2VEw1SHpvM2RFbVoxSV9NR0o5WllzbkpmMHBheE1ZOUNmcXQ2ZHhHMWZiWkE?oc=5",
+      "p": "Slovenský tím rieši problém na MS. Musí si splniť povinnosť, straty by boli obrovské SPORTNET",
+      "s": "SPORTNET",
+      "t": "Slovenský tím rieši problém na MS. Musí si splniť povinnosť, straty by boli obrovské",
+      "ts": 1790082644.5528524,
+      "u": "19f33d7d5cedc179f761"
     }
   ],
   "sport_source_status": {
@@ -16128,25 +16218,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1790081736.4316242
+      "ts": 1790082644.552822
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1790081736.4316263
+      "ts": 1790082644.5528245
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1790081736.4316287
+      "ts": 1790082644.5528271
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1790081736.4316275
+      "ts": 1790082644.5528262
     }
   }
 }
