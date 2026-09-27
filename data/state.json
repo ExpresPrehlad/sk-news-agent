@@ -67,70 +67,106 @@
     {
       "headline": "Podozrivá zákazka na Dunaji za 85 miliónov eur",
       "ts": 1790485852.1659653
+    },
+    {
+      "headline": "Masaker v Juhoafrickej republike: Ozbrojenci v bare zabili 17 ľudí",
+      "ts": 1790490938.613167
+    },
+    {
+      "headline": "USA stupňujú tlak na Irán, cieľom je úplná ekonomická izolácia",
+      "ts": 1790490938.613167
+    },
+    {
+      "headline": "Tragická nehoda vrtuľníka v Québecu si vyžiadala štyri obete",
+      "ts": 1790490938.613167
+    },
+    {
+      "headline": "Lavínové nebezpečenstvo v Tatrách pretrváva aj napriek otepleniu",
+      "ts": 1790490938.613167
+    },
+    {
+      "headline": "Slovenský útočník Pavol Regenda zažiaril hetrikom vo Švédsku",
+      "ts": 1790490938.613167
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Rusko zintenzívnilo útoky na sklady v Kyjevskej oblasti",
+        "headline": "Masaker v Juhoafrickej republike: Ozbrojenci v bare zabili 17 ľudí",
+        "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1264628-masova-strelba-v-bare-najmenej-17-mrtvych-a-15-zranenych-ozbrojenci-mali-mat-pusky"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2048581-masaker-v-restauracii-v-juhoafrickej-republike-ozbrojenci-postrielali-17-ludi-policia-patra-po-utocnikoch"
+          ]
+        ],
+        "perex": "Najmenej 17 obetí a 15 zranených si vyžiadala streľba v reštauračnom zariadení v meste Wedela. Polícia po ozbrojených útočníkoch, ktorí mali použiť pušky, intenzívne pátra."
+      },
+      {
+        "headline": "USA stupňujú tlak na Irán, cieľom je úplná ekonomická izolácia",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2048547-vojna-na-ukrajine-rusko-moskva-armada-front-kyjev-zelenskyj-putin?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "https://www.pravda.sk/spravy/svet/clanok/2048565-usa-spustili-globalnu-kampan-proti-iranu-cielom-je-uplna-izolacia-teheranu-bessent-hlasi-uspech"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/americky-minister-financii-hlasi-uspech-v-suvislosti-s-ekonomickou-izolaciou-iranu"
           ]
         ],
-        "perex": "Intenzita ruských útokov na sklady v hlavnom meste Ukrajiny a jeho okolí dosiahla najvyššiu úroveň od začiatku vojny. Terčom sa stali najmä logistické kapacity a supermarkety."
+        "perex": "Americký minister financií Scott Bessent oznámil globálnu kampaň zameranú na ekonomické odrezanie Teheránu. K iniciatíve sa pridali aj Spojené arabské emiráty, ktoré pozastavili lety iránskych aerolínií."
       },
       {
-        "headline": "Dunaj klesol na historické minimum",
+        "headline": "Tragická nehoda vrtuľníka v Québecu si vyžiadala štyri obete",
         "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/nehoda-vrtulnika-v-quebecu-si-vyziadala-styroch-mrtvych"
+          ],
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1264619-pri-nehode-vrtulnika-zahynuli-styria-ludia"
+          ]
+        ],
+        "perex": "Pri havárii vrtuľníka v kanadskej provincii Québec zahynuli štyria ľudia. Bližšie podrobnosti o príčinách nešťastia zatiaľ nie sú známe."
+      },
+      {
+        "headline": "Lavínové nebezpečenstvo v Tatrách pretrváva aj napriek otepleniu",
+        "links": [
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/vo-vysokych-polohach-tatier-trva-mal/995279-clanok.html"
+          ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/LFOqLcO/slnecna-nedela-s-prijemnymi-teplotami-nezakryje-krizu-vysychaju-nam-rieky-dunaj-klesol-na-historicke-minimum/"
+            "https://www.aktuality.sk/clanok/vGum12X/tatry-hlasia-male-lavinove-nebezpecenstvo-zachranari-varuju-pred-mokrym-snehom-a-zradnymi-horskymi-svahmi/"
           ]
         ],
-        "perex": "Hladina rieky Dunaj na Slovensku dosiahla historicky najnižšie hodnoty. Situácia podľa odborníkov poukazuje na pretrvávajúcu environmentálnu krízu."
+        "perex": "Horskí záchranári varujú pred rizikom samovoľných lavín z mokrého snehu vo vysokohorských polohách. V Tatrách naďalej platí najnižší stupeň lavínového nebezpečenstva."
       },
       {
-        "headline": "Venezuela prepustila ďalších politických väzňov",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/venezuela-prepustila-dalsich-politickych-vaznov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "K prepusteniu došlo po ďalšom kole rokovaní medzi venezuelskou dočasnou vládou a opozíciou. Bližšie podmienky dohody zatiaľ neboli zverejnené."
-      },
-      {
-        "headline": "Letecká havária v Konžskej demokratickej republike",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/letecka-havaria-v-konzskej-demokratickej-republike-si-vyziadala-17-obeti?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "Pri páde lietadla zahynulo 17 ľudí vrátane dvoch vysokopostavených predstaviteľov vojenskej justície. Príčiny nešťastia sú predmetom vyšetrovania."
-      },
-      {
-        "headline": "Podozrivá zákazka na Dunaji za 85 miliónov eur",
+        "headline": "Slovenský útočník Pavol Regenda zažiaril hetrikom vo Švédsku",
         "links": [
           [
             "TN Live",
-            "https://tnlive.sk/domace/clanok/1053373-taliani-dostali-zakazku-na-dunaji-za-takmer-85-milionov-pozornost-putaju-aj-vaezby-okolo-firmy"
+            "https://tnlive.sk/sport/clanok/1053393-fantasticky-vykon-pavla-regendu-na-vyhru-nestacil-slovensky-utocnik-sa-vo-svedsku-blysol-hetrikom"
           ]
         ],
-        "perex": "Talianska firma získala štátnu zákazku na práce na Dunaji v hodnote takmer 85 miliónov eur. Verejnosť a médiá upozorňujú na nejasné väzby okolo tejto spoločnosti."
+        "perex": "Slovenský hokejista Pavol Regenda predviedol v drese svojho tímu vo Švédsku fantastický výkon. Napriek trom streleným gólom však jeho mužstvo napokon tesne prehralo."
       }
     ],
-    "ts": 1790485852.1659582
+    "ts": 1790490938.6131597
   },
   "meta": {
-    "last_collection_ts": 1790489436.8866925,
+    "last_collection_ts": 1790490931.625131,
     "last_feed_error_ts": 1790480135.5709603,
     "last_llm_error_ts": 1790489501.4157805,
-    "last_run_ts": 1790489437.2031596,
-    "last_synthesis_ts": 1790485852.1659536
+    "last_run_ts": 1790490932.0383205,
+    "last_synthesis_ts": 1790490938.613155
   },
   "recent": [
     {
@@ -2598,6 +2634,60 @@
       "t": "Pri nehode vrtuľníka zahynuli štyria ľudia",
       "ts": 1790489437.202268,
       "u": "bd19178824e4255df4e9"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/vGum12X/tatry-hlasia-male-lavinove-nebezpecenstvo-zachranari-varuju-pred-mokrym-snehom-a-zradnymi-horskymi-svahmi/",
+      "p": "Lavínové nebezpečenstvo v Tatrách ostáva na najnižšom stupni, no podmienky nie sú bez rizika. Oteplenie zvyšuje možnosť menších samovoľných lavín z mokrého snehu.",
+      "pub": 1790490806.0,
+      "s": "Aktuality",
+      "t": "Tatry hlásia malé lavínové nebezpečenstvo. Záchranári varujú pred mokrým snehom a zradnými horskými svahmi",
+      "ts": 1790490932.037799,
+      "u": "6557624a094971ed0e0f"
+    },
+    {
+      "l": "https://dennikn.sk/5583363/pocet-zastrelenych-medvedov-sa-zvysil-o-1-500-percent-pocet-utokov-stupol-o-40-percent-co-s-tym/",
+      "p": "Ľudia a medvede môžu spolunažívať bezpečne, ak konečne siahneme po riešeniach, ktoré sa osvedčili.",
+      "pub": 1790489771.0,
+      "s": "Denník N",
+      "t": "Počet zastrelených medveďov sa zvýšil o 1 500 percent, počet útokov stúpol o 40 percent. Čo s tým?",
+      "ts": 1790490932.0378022,
+      "u": "1239b8095f670283dc91"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2045991-snehuliak-v-septembri-ziaden-vymysel-ale-realita-vianoce-sa-zacali-tento-rok-skor?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Santovia na padákoch, lampášiky so snehom, ale aj ligotavé reťaze na stromček. Zdá sa vám príliš skoro na takýto vianočný sortiment? Niektoré predajne ho už naskladnili.",
+      "pub": 1790490605.0,
+      "s": "Pravda",
+      "t": "Snehuliak v septembri? Žiaden výmysel, ale realita. Vianoce sa začali tento rok skôr",
+      "ts": 1790490932.0378046,
+      "u": "5789ccc7123085423bea"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2048581-masaker-v-restauracii-v-juhoafrickej-republike-ozbrojenci-postrielali-17-ludi-policia-patra-po-utocnikoch?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Najmenej 17 mŕtvych si vyžiadala streľba v reštauračnom zariadení v meste Wedela v Juhoafrickej republike, ďalších 15 ľudí utrpelo zranenia, oznámila dnes polícia. Po páchateľoch sa stále pátra. Motív sobotňajšej večernej streľby zatiaľ nie je známy, uviedla agentúra Reuters. Wedela v provincii Gaut",
+      "pub": 1790490333.0,
+      "s": "Pravda",
+      "t": "Masaker v reštaurácii v Juhoafrickej republike: Ozbrojenci zabili 17 ľudí, polícia pátra po útočníkoch",
+      "ts": 1790490932.0378065,
+      "u": "62b50e17a2b9f4dad549"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/slova-zvonkaslovo-kolaboracia-si-zvyk/995287-clanok.html",
+      "p": "V minulosti slová kolaborovať či kolaborácia označovali ústretovú spoluprácu s nedemokratickým vládnym režimom.",
+      "pub": 1790489220.0,
+      "s": "Teraz.sk",
+      "t": "Slová zvonka:Slovo kolaborácia si zvykneme spájať s nemorálnym konaním",
+      "ts": 1790490932.0378077,
+      "u": "1033dfb26e11c0098260"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1264628-masova-strelba-v-bare-najmenej-17-mrtvych-a-15-zranenych-ozbrojenci-mali-mat-pusky",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Masová streľba v bare: Najmenej 17 mŕtvych a 15 zranených, ozbrojenci mali mať pušky",
+      "ts": 1790490932.037809,
+      "u": "a5cca2b588baf4f399bf"
     }
   ],
   "recent_alerts": [
@@ -3045,6 +3135,16 @@
       "reason": "Prvé stretnutie kľúčových diplomatov Nemecka a Ruska od začiatku vojny v Ukrajine má zásadný európsky bezpečnostný význam a priamy vplyv na politiku EÚ a Slovenska.",
       "title": "Nemecký minister zahraničia Wadephul sa stretol s Lavrovom – prvé také rokovanie od januára 2022",
       "ts": 1790437011.8837016
+    },
+    {
+      "links": [
+        "https://www.pravda.sk/spravy/svet/clanok/2048581-masaker-v-restauracii-v-juhoafrickej-republike-ozbrojenci-postrielali-17-ludi-policia-patra-po-utocnikoch?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+        "https://www.noviny.sk/zahranicie/1264628-masova-strelba-v-bare-najmenej-17-mrtvych-a-15-zranených-ozbrojenci-mali-mat-pusky"
+      ],
+      "model": "gemini/gemini-3.1-flash-lite",
+      "reason": "Ide o masový útok s vysokým počtom obetí, ktorý vyžaduje medzinárodnú pozornosť z hľadiska bezpečnosti.",
+      "title": "Masaker v reštaurácii v Juhoafrickej republike: Ozbrojenci zabili 17 ľudí",
+      "ts": 1790490933.6990886
     }
   ],
   "seen": {
@@ -3613,6 +3713,7 @@
     "1030e2bbe901906ebea3": 1789642535.0186808,
     "103193aef9c2eeb399e8": 1789535450.396201,
     "1031c3aa760dae870127": 1789498535.1087155,
+    "1033dfb26e11c0098260": 1790490932.037807,
     "103574163c604e165fcd": 1789739373.9662902,
     "103f192ea684a25f9fc9": 1789376143.9180954,
     "103f8f3163b79f4db210": 1790165319.1223853,
@@ -3694,6 +3795,7 @@
     "1234592a839f1ff06e13": 1789535450.3962219,
     "12387f3fcb06f843f40c": 1790073333.1603339,
     "1238d8487e5c368d0e79": 1789638934.1396344,
+    "1239b8095f670283dc91": 1790490932.0378006,
     "123c5a89ae3670bb16af": 1789503641.5305743,
     "123f00902148e98d1a1f": 1789728937.0972428,
     "12467d48da11fb076c2d": 1789380646.583023,
@@ -4086,6 +4188,7 @@
     "1d55b5321d8b6463ee10": 1790442643.4430594,
     "1d57c294981f454ff0fb": 1789402844.8350735,
     "1d5c78c1b321c907647c": 1789554945.2505298,
+    "1d5f912c3af552d88bb6": 1790490932.0378096,
     "1d6025ba43097a70539c": 1789379738.0188484,
     "1d68bfc4f5d49e8c9bbd": 1789553449.9249656,
     "1d74aeda2f9824da5a2c": 1790435446.0286252,
@@ -5069,7 +5172,6 @@
     "39d22279157fd2a5f1c9": 1789443341.382713,
     "39d4b3780902a9ff93cf": 1789585848.0874686,
     "39d7023697c1432dcfb3": 1789655746.3045154,
-    "39d73f623872666008dd": 1789281335.3738365,
     "39da8493e528b7983634": 1790157343.1744199,
     "39dd63b3706ac7550f59": 1790148935.2498138,
     "39f2819c424f2e9916f7": 1790341842.6684778,
@@ -6020,7 +6122,6 @@
     "562a4728271b922d05c2": 1789653346.2676926,
     "562b287ed72a65efb43f": 1789311340.9901345,
     "562e2248571c73519ead": 1789374940.612186,
-    "56337f4284e709dbb7ca": 1789281335.373824,
     "5641d0a1a8eba8d6d9ff": 1790168141.1105459,
     "5645ba010b7d26c98777": 1790310938.5953093,
     "56514d90c6a1ec2d5dcf": 1789708849.003504,
@@ -6072,6 +6173,7 @@
     "57832dbe1c8b69852df4": 1789470640.126631,
     "578553a49e4abdf2de51": 1789541744.8912878,
     "5786dd9f543387693701": 1790332538.9132638,
+    "5789ccc7123085423bea": 1790490932.037803,
     "578ed2638c38fe3c00a7": 1789644938.3169158,
     "57932d41af1ff35ed5e2": 1790164535.0751739,
     "57935493739be24bfd9e": 1790068242.8444037,
@@ -6497,6 +6599,7 @@
     "62a5e7a85b151ccab07c": 1789702537.069028,
     "62aa057f402d64707637": 1789647049.1755219,
     "62af32509d1af2f52dd8": 1789551339.8357615,
+    "62b50e17a2b9f4dad549": 1790490932.0378053,
     "62beca57aaf3dd8c9676": 1789742135.9591386,
     "62c005147b2fb4f06540": 1789642535.0187156,
     "62d106a3ac537b007ac0": 1789989042.9919796,
@@ -6592,6 +6695,7 @@
     "6549c58c38c58c6f9a22": 1789284940.9599898,
     "654eec3a985c54eb186f": 1790060140.2059777,
     "65515a48c2df6766a312": 1789830646.1894753,
+    "6557624a094971ed0e0f": 1790490932.0377953,
     "656d30fc32b721a364ea": 1789566942.6862333,
     "65770e24c23fb0a6f82b": 1789296939.0109434,
     "657a31a5504f0c38423c": 1790331047.871595,
@@ -6971,7 +7075,6 @@
     "70660e870cf321dc1b08": 1789796139.511099,
     "706dc7233ce400d671f5": 1789635341.6077535,
     "70713250faf4721f675b": 1789502148.3045225,
-    "707ad37ef07ff23195d5": 1789281335.3738317,
     "7081ca388072259af07f": 1789729847.0850756,
     "708700d5d086d2f9079a": 1790440538.5777793,
     "708750de6010d65fea7e": 1790058971.9931877,
@@ -7520,7 +7623,6 @@
     "7fc64e654b858256c25e": 1789796139.5110805,
     "7fc96023a5c3d182e9be": 1789455334.591272,
     "7fd30c9e39ae3d385577": 1790189738.228817,
-    "7feebddf231df77cc8a4": 1789281335.3738184,
     "7ff6b7a87f5b897b3513": 1789710939.8549998,
     "7ffdb4cd7bf0dbc4c80b": 1789498535.1087317,
     "8000a008dd09b91daaee": 1789985447.3495114,
@@ -8179,7 +8281,6 @@
     "925a4481c598e41a9814": 1789384243.5173182,
     "9260ccdc3afb1c391e3e": 1790360445.2639396,
     "9260d941cf202a280a6d": 1789560644.040232,
-    "9268c70d4140b21b580c": 1789281335.3738418,
     "926cb7aada099376620b": 1789458940.1344798,
     "9273d062646424e6d13a": 1789961738.3527083,
     "9278e60c8644caa28374": 1789635341.6077242,
@@ -8587,6 +8688,7 @@
     "9f38b16a0e6688e2df99": 1789402844.8350542,
     "9f3f09f218d0230216d9": 1789762845.4463437,
     "9f4a8dd40c706c889492": 1790172644.7639213,
+    "9f53eb38365521507fa6": 1790490932.0378127,
     "9f59a8fd44681d1bb95b": 1790429733.7962735,
     "9f6abab22e155e73b59f": 1789556141.53589,
     "9f7093303463a17c24e3": 1789727736.0954936,
@@ -8780,6 +8882,7 @@
     "a59484dc5256be830454": 1789988143.4169521,
     "a5bf33ff3f2d6ae2ad9a": 1789589440.6801271,
     "a5c6d330d557d6b3e770": 1790281239.7642071,
+    "a5cca2b588baf4f399bf": 1790490932.0378082,
     "a5d2d15e5dd1c8fbf7e4": 1789549839.4120712,
     "a5d625dccfda46935018": 1789757741.9933455,
     "a5d81605e724d6222d6e": 1789580135.2880635,
@@ -9681,7 +9784,6 @@
     "bf1443bfbe8ff57674c0": 1789529743.260857,
     "bf4244b6489ad4711921": 1789642535.0187109,
     "bf487e33cd0f964d7ba8": 1789823450.9843116,
-    "bf4a6bc03f5416c688da": 1789281335.3738394,
     "bf4c53502351fc4509ff": 1789544139.1130912,
     "bf506e419421d94cbb53": 1790480135.571206,
     "bf57d0d18c0637a21c92": 1789656941.2413695,
@@ -9878,7 +9980,6 @@
     "c4a77b05831c4b5b68f3": 1789652152.7012188,
     "c4ac8fa3897473aab08d": 1789678536.2419455,
     "c4ad2931350a1821fe25": 1790256939.215764,
-    "c4b9c3726e0adc2e68f5": 1789281335.3738282,
     "c4c28fb1c22499d1babb": 1789373454.0530233,
     "c4ca7a75ea97dae2f98b": 1790088941.8139908,
     "c4ced4604d52e3b352a8": 1789702537.0690448,
@@ -10262,7 +10363,6 @@
     "cf8af0760b643f259094": 1789746939.5776932,
     "cf8ccd717fea0d0c6e63": 1789570543.6484547,
     "cf95d1bdeab254d67546": 1790176242.1326995,
-    "cfa4aee53d5559e81340": 1789281335.373833,
     "cfae1a6356a933dc500f": 1790307335.2149224,
     "cfb6d65ee7a781577c84": 1789875337.6500561,
     "cfbb6cd3d82b2ab92dc8": 1790307335.2151392,
@@ -10550,7 +10650,6 @@
     "d75db9f6b17f9051393a": 1789492846.0530775,
     "d763bc2d5bb04abbbc40": 1790189738.2288325,
     "d767ec40229c1da2e9b2": 1789481458.774924,
-    "d7680b61c18e9b02e627": 1789281335.3738348,
     "d76820e5edbc44cfebe9": 1790343334.8792827,
     "d77771492be6643ea502": 1790266841.3937764,
     "d77deaebb9a23ad3bc40": 1789642535.0184817,
@@ -10766,7 +10865,6 @@
     "dd29525b491423343dbf": 1790134543.8765156,
     "dd2a8b6e6416a9365323": 1789616140.0558255,
     "dd3b2e9d5c2bfa4f45e8": 1789316445.318527,
-    "dd419c5938fc7b19e484": 1789281335.3738265,
     "dd426ca3d1e7ea2b1211": 1790228138.0556734,
     "dd4e208e748518931e3c": 1790421066.9063401,
     "dd5a5b13307a03dddc25": 1789367753.4196937,
@@ -11021,7 +11119,6 @@
     "e54beb88367dd45a88a1": 1790418937.039055,
     "e552d6d83c6c01b86dc9": 1790152563.4713655,
     "e556b97530302f545f09": 1789754136.8964324,
-    "e56fe490427b79ec5ec3": 1789281335.3738296,
     "e56feb97a57e34a30e52": 1789830646.1894784,
     "e57de51d8946e0d6eecd": 1790411735.9557385,
     "e580249c80e9bd4c9d60": 1789713334.0812612,
@@ -11285,7 +11382,6 @@
     "ecd3bc4f5be07861d227": 1789834248.8839562,
     "ecd55476cba404094d1d": 1789536941.3135002,
     "ecd872f35b2c31e721a2": 1790006146.9201424,
-    "ece350b7b92b91d3e4f7": 1789281335.373845,
     "ecf096fde2a3b8387ce6": 1789383342.278895,
     "ecf1c6843d5db8685545": 1789812642.1410348,
     "ecf1d962135b255d8bd9": 1790053845.957403,
@@ -11865,7 +11961,6 @@
     "fc77fb2492c77a2e4f1e": 1789464949.0208335,
     "fc7ac9761f8adaf42fa5": 1789659334.9740028,
     "fc87294ac676ccadf1e3": 1790092544.2297556,
-    "fc89afba3854c8d454cc": 1789281335.3738437,
     "fc961a89c478dff0accf": 1790068242.8443983,
     "fc97599d74c6ae78c519": 1790399438.8452296,
     "fc98837fb38ca47de255": 1789722651.5511432,
@@ -12002,61 +12097,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1790489437.2022328
+      "ts": 1790490932.0377748
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1790489437.2022345
+      "ts": 1790490932.0377762
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1790489437.2022371
+      "ts": 1790490932.0377789
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1790489437.202241
+      "ts": 1790490932.0377834
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1790489437.2022357
+      "ts": 1790490932.0377777
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1790489437.2022262
+      "ts": 1790490932.0377684
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1790489437.2022314
+      "ts": 1790490932.0377731
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1790489437.2022402
+      "ts": 1790490932.0377817
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1790489437.2022383
+      "ts": 1790490932.0377798
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1790489437.2022393
+      "ts": 1790490932.0377808
     }
   },
   "sport_recent": [
@@ -13755,6 +13850,22 @@
       "t": "Rusnák prihral na gól, Seattle zvíťazil nad Minnesotou",
       "ts": 1790489437.2022812,
       "u": "fe0815be615c10260977"
+    },
+    {
+      "l": "https://sport.aktuality.sk/motosport/clanok/formula-1-isack-hadjar-si-po-rozhodnuti-stewardov-udrzal-podium-v-baku-2026092706065432406",
+      "p": "Isack Hadjar si udržal tretie miesto vo Veľkej cene Azerbajdžanu. Komisári po pretekoch rozhodli, že za porušenie pokynov riaditeľa pretekov dostane iba varovanie.",
+      "s": "Šport.sk",
+      "t": "Úľava pre Red Bull. Hadjar po skvelom výkone tŕpol, komisári ho však prísneho trestu ušetrili",
+      "ts": 1790490932.037812,
+      "u": "1d5f912c3af552d88bb6"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/sportovci-ci-verejnost-mozu-byt-oc/995288-clanok.html",
+      "p": "Kartu fair play nemusí získať iba samotný športovec.",
+      "s": "TERAZ.SK",
+      "t": "Športovci či verejnosť môžu byť ocenení kartou fair play za správanie",
+      "ts": 1790490932.0378144,
+      "u": "9f53eb38365521507fa6"
     }
   ],
   "sport_source_status": {
@@ -13762,25 +13873,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1790489437.202243
+      "ts": 1790490932.0377853
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1790489437.2022448
+      "ts": 1790490932.0377872
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1790489437.2022471
+      "ts": 1790490932.0377893
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1790489437.2022462
+      "ts": 1790490932.0377882
     }
   }
 }
