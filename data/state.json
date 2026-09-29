@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Rusko podľa Zelenského začalo novú vlnu mobilizácie",
-      "ts": 1790658694.0831127
-    },
-    {
-      "headline": "Kyjev čelil ďalšiemu ruskému vzdušnému útoku",
-      "ts": 1790658694.0831127
-    },
-    {
-      "headline": "Francúzske protesty študentov vyústili do zatýkania",
-      "ts": 1790658694.0831127
-    },
-    {
-      "headline": "Maďarská prokuratúra zadržala exministra Balázsa Hankóa",
-      "ts": 1790658694.0831127
-    },
-    {
-      "headline": "Zomrel škótsky spisovateľ Peter May",
-      "ts": 1790658694.0831127
-    },
-    {
       "headline": "Nemecká diplomacia prichádza na Slovensko riešiť záväzky v EÚ a NATO",
       "ts": 1790663756.204546
     },
@@ -123,27 +103,37 @@
     {
       "headline": "Poslanci rokujú o vízii Slovensko 2040",
       "ts": 1790672183.4490366
+    },
+    {
+      "headline": "Tragédia v Staškove: Útok žiaka na škole si vyžiadal obeť",
+      "ts": 1790673139.704128
+    },
+    {
+      "headline": "Koaličná kríza: SNS obviňuje Fica z porušenia zmluvy",
+      "ts": 1790673139.704128
+    },
+    {
+      "headline": "NBS zlepšila výhľad ekonomiky, inflácia má klesnúť",
+      "ts": 1790673139.704128
+    },
+    {
+      "headline": "Štát zastropuje marže na čerpacích staniciach",
+      "ts": 1790673139.704128
+    },
+    {
+      "headline": "Slovensko získa z EÚ vyše 100 miliónov eur za pomoc Ukrajine",
+      "ts": 1790673139.704128
+    },
+    {
+      "headline": "Prezident vymenoval 11 nových generálov",
+      "ts": 1790673139.704128
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "SNS obviňuje Fica z porušenia koaličnej zmluvy",
-        "links": [
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/sns-spatvzatie-navrhu-na-odvolanie-t/995763-clanok.html"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/DRGQRbt/traja-poslanci-strany-vidieka-nezahlasuju-za-odvolanie-tomasa-tarabu/"
-          ]
-        ],
-        "perex": "Koaličná SNS označila stiahnutie návrhu na odvolanie ministra životného prostredia Tomáša Tarabu premiérom Robertom Ficom za bezprecedentné porušenie dohody. Strana vidieka zároveň deklarovala, že za odvolanie ministra hlasovať nebude a naďalej rešpektuje koaličnú zmluvu."
-      },
-      {
-        "headline": "Tragický útok na základnej škole v Staškove",
+        "headline": "Tragédia v Staškove: Útok žiaka na škole si vyžiadal obeť",
         "links": [
           [
             "Aktuality",
@@ -151,20 +141,34 @@
           ],
           [
             "Teraz.sk",
-            "https://www.teraz.sk/slovensko/m-zilinka-utok-v-staskove-je-vystr/995766-clanok.html"
+            "https://www.teraz.sk/slovensko/prezident-utok-na-zs-v-staskove-je-v/995783-clanok.html"
           ]
         ],
-        "perex": "Žiak základnej školy v Staškove napadol počas vyučovania ostrým predmetom spolužiaka a pedagóga. Generálny prokurátor Maroš Žilinka označil tento incident za vážnu výstrahu pred eskaláciou napätia v spoločnosti."
+        "perex": "Pri útoku žiaka s ostrým predmetom na základnej škole v Staškove zahynula 61-ročná žena. Incident, pri ktorom utrpeli zranenia aj ďalšie dve osoby, vyvolal vlnu reakcií najvyšších ústavných činiteľov."
       },
       {
-        "headline": "NBS zlepšila výhľad slovenskej ekonomiky",
+        "headline": "Koaličná kríza: SNS obviňuje Fica z porušenia zmluvy",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2049681-danko-fico-porusil-koalicnu-zmluvu-toto-nema-v-historii-demokracie-obdobu/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/koalicia-taraba-odvolavanie-fico-danko-taraba-smer-sns-minuta-po-minute-29-9-2026?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Slovenská národná strana považuje stiahnutie návrhu na odvolanie ministra Tomáša Tarabu premiérom Robertom Ficom za bezprecedentné porušenie koaličnej zmluvy. Opozícia sa napriek tomu pokúša o Tarabovo odvolanie v parlamente."
+      },
+      {
+        "headline": "NBS zlepšila výhľad ekonomiky, inflácia má klesnúť",
         "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/0ptRQUF/narodna-banka-slovenska-zlepsila-vyhlad-rastu-slovenskej-ekonomiky-inflacia-ma-dosiahnut-36-percent/"
           ]
         ],
-        "perex": "Národná banka Slovenska vo svojej jesennej predikcii upravila odhad rastu ekonomiky smerom nahor. Inflácia by mala v tomto roku dosiahnuť úroveň 3,6 percenta."
+        "perex": "Národná banka Slovenska v novej jesennej predikcii upravila odhad rastu ekonomiky smerom nahor. Zároveň očakáva priaznivejší vývoj inflácie, ktorá by mala dosiahnuť úroveň 3,6 percenta."
       },
       {
         "headline": "Štát zastropuje marže na čerpacích staniciach",
@@ -172,121 +176,41 @@
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/E7IAAtd/ministerstvo-financii-stanovilo-pravidla-regulacie-marzi-cerpacich-stanic-platit-zacnu-vo-stvrtok/"
-          ],
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/ekonomika/1265436-menia-sa-pravidla-na-cerpacich-staniciach-marze-budu-zastropovane-na-10-centov-za-liter"
           ]
         ],
-        "perex": "Ministerstvo financií zverejnilo vyhlášku, ktorá od 1. októbra stanovuje maximálnu maloobchodnú maržu pri predaji palív na desať centov za liter. Cieľom opatrenia je spomaliť zdražovanie a udržať ceny pohonných látok na Slovensku medzi najnižšími v EÚ."
+        "perex": "Ministerstvo financií zverejnilo vyhlášku, ktorou od 1. októbra stanovuje maximálnu maloobchodnú maržu pri predaji pohonných látok na 10 centov za liter. Cieľom opatrenia je udržať ceny palív na Slovensku medzi najnižšími v rámci EÚ."
       },
       {
-        "headline": "Slovensko získa z EÚ vyše 100 miliónov eur",
+        "headline": "Slovensko získa z EÚ vyše 100 miliónov eur za pomoc Ukrajine",
         "links": [
           [
             "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1265419-sto-milionov-z-eu-za-vojensku-pomoc-slovensko-ziska-balik-za-techniku-dodanu-ukrajine"
+            "https://www.noviny.sk/zahranicie/1265419-stovky-milionov-z-eu-za-vojensku-pomoc-slovensko-ziska-balik-za-techniku-dodanu-ukrajine"
           ]
         ],
-        "perex": "Európska únia vyplatí Slovensku finančný balík ako kompenzáciu za vojenskú techniku dodanú Ukrajine. Celková suma presahuje 100 miliónov eur."
+        "perex": "Slovensko dostane z európskych fondov finančnú kompenzáciu za vojenskú techniku dodanú Ukrajine. Balík v hodnote viac ako 100 miliónov eur má pokryť náklady spojené s touto pomocou."
       },
       {
-        "headline": "Poslanci rokujú o vízii Slovensko 2040",
+        "headline": "Prezident vymenoval 11 nových generálov",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/QEnmOBN/poslanci-zacali-utorkovu-schodzu-diskusiou-o-vizii-slovensko-2040/"
-          ],
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/poslanci-odstartovali-rokovanie-debatou/995750-clanok.html"
+            "https://www.aktuality.sk/clanok/I0hqhIQ/prezident-peter-pellegrini-povysil-a-vymenoval-11-generálov-ozbrojenych-sil-sr/"
           ]
         ],
-        "perex": "Parlament otvoril diskusiu o strategickom dokumente, ktorý vypracovala Slovenská akadémia vied spolu s odborníkmi. Cieľom vízie je nastaviť cestu ku kvalitnejšiemu životu v krajine do roku 2040."
+        "perex": "Prezident Peter Pellegrini v Prezidentskom paláci povýšil päť brigádnych generálov na generálmajorov a vymenoval šesť nových brigádnych generálov. Podľa hlavy štátu ide o začiatok náročnejšej etapy ich služby vlasti."
       }
     ],
-    "ts": 1790672183.449028
+    "ts": 1790673139.7041204
   },
   "meta": {
-    "last_collection_ts": 1790672136.3402867,
+    "last_collection_ts": 1790673050.5574467,
     "last_feed_error_ts": 1790652934.1250248,
     "last_llm_error_ts": 1790662462.4098098,
-    "last_run_ts": 1790672136.7938433,
-    "last_synthesis_ts": 1790672183.4490228
+    "last_run_ts": 1790673050.8751698,
+    "last_synthesis_ts": 1790673139.7041168
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/zomrel-zakladatel-slovenskej-pedologie-a-byvaly-minister-juraj-hrasko?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Hraško bol laureátom mnohých významných ocenení.",
-      "pub": 1790585950.0,
-      "s": "SME",
-      "t": "Zomrel zakladateľ slovenskej pedológie a bývalý minister Juraj Hraško",
-      "ts": 1790586644.154831,
-      "u": "11178f44280e06285701"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/papez-lev-xiv-vystupi-v-metach?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Hovoriť bude o mieri aj hrozbe extrémneho nacionalizmu.",
-      "pub": 1790585693.0,
-      "s": "SME",
-      "t": "Pápež Lev XIV. vystúpi v Metách",
-      "ts": 1790586644.154834,
-      "u": "bb636971f8703497cafb"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/vU63E4q/novy-icaur-v27-spaja-charakter-klasickych-off-roadov-s-technikou-moderneho-suv/",
-      "p": "Hranatá silueta, robustné proporcie a jasný odkaz na svet klasických terénnych vozidiel. Nový iCAUR V27 sa nesnaží splynúť s davom súčasných SUV. Tradičný off-roadový charakter prenáša do modernej podoby a kombinuje ho s elektrifikovaným pohonom, pohonom všetkých kolies a technológiami, ktoré zodpov",
-      "pub": 1790586022.0,
-      "s": "Aktuality",
-      "t": "Nový iCAUR V27 spája charakter klasických off-roadov s technikou moderného SUV",
-      "ts": 1790586644.1548362,
-      "u": "951078d9dd043b107edc"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/hvHWDYO/hollande-nevylucuje-navrat-do-elyzejskeho-palaca-o-jeho-kandidature-rozhodne-sanca-na-uspech/",
-      "p": "Bývalý francúzsky prezident François Hollande nevylúčil návrat do prezidentských volieb v roku 2027. Kandidovať by však podľa neho malo zmysel iba pri šanci na úspech.",
-      "pub": 1790586000.0,
-      "s": "Aktuality",
-      "t": "Hollande nevylučuje návrat do Elyzejského paláca. O jeho kandidatúre rozhodne šanca na úspech",
-      "ts": 1790586644.1548376,
-      "u": "004c6f3edc75b62a199b"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2049053-sng-hasi-problem-s-navstevnostou-a-ponuka-vstupy-zadarmo-pre-vsetkych?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Slovenská národná galéria (SNG) ponúkne návštevníkom raz v mesiaci bezplatný vstup. Určený je pre všetkých, počnúc deťmi a študentstvom, cez dospelých až po seniorov. Tešiť sa naň môžu vždy prvú nedeľu v mesiaci.",
-      "pub": 1790586369.0,
-      "s": "Pravda",
-      "t": "SNG hasí problém s návštevnosťou a ponúka vstupy zadarmo pre všetkých",
-      "ts": 1790586644.1548386,
-      "u": "677561e84bd3a68c9148"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2049045-pismena-a-cisla-ustupia-moralke-rusko-meni-skolky-deti-maju-ucit-aj-o-kryme?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Ruské ministerstvo školstva aktualizuje štátny vzdelávací štandard a program pre predškolákov. V rozhovore pre RIA Novosti to oznámil minister Sergej Kravcov. Deti v ruských materských školách sa budú vzdelávať viac „v morálnych hodnotách“ ako v matematike a písaní a čítaní, píše Novaja Gazeta Europ",
-      "pub": 1790585700.0,
-      "s": "Pravda",
-      "t": "Písmená a čísla ustúpia „morálke“. Rusko mení škôlky, deti majú učiť aj o Kryme",
-      "ts": 1790586644.1548398,
-      "u": "8e685ee90cc9f86b4089"
-    },
-    {
-      "l": "https://www.noviny.sk/politika/1264939-francuzi-jej-davaju-coraz-vaecsiu-podporu-le-penova-vystrelila-v-prieskumoch-na-historicke-maximum",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Francúzi jej dávajú čoraz väčšiu podporu. Le Penová vystrelila v prieskumoch na historické maximum",
-      "ts": 1790586644.1548417,
-      "u": "11d0223d81dc95123f0d"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1265003-sukl-stiahol-devaet-liekov-z-trhu-a-spracoval-vyse-2700-hlaseni-o-dodavkach",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "ŠÚKL stiahol deväť liekov z trhu a spracoval vyše 2700 hlásení o dodávkach",
-      "ts": 1790586644.154843,
-      "u": "356e0b855e27ba557b87"
-    },
     {
       "l": "https://www.sme.sk/domov/c/statna-inspekcia-reaguje-na-nedostatky-v-skolach-81-zriadovatelom-zaslala-upozornenia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "V najzávažnejších prípadoch navrhla odvolanie riaditeľov.",
@@ -5020,18 +4944,99 @@
       "t": "Poslanci zo Strany vidieka nebude hlasovať za odvolanie T. Tarabu",
       "ts": 1790672136.793079,
       "u": "e96c5baf0ff683843a0d"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/prezident-povysil-a-vymenoval-11-generalov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Ide o začiatok novej, náročnejšej etapy služby vlasti, uviedol brigádny generál Výrostek.",
+      "pub": 1790672814.0,
+      "s": "SME",
+      "t": "Prezident povýšil a vymenoval 11 generálov",
+      "ts": 1790673050.8748527,
+      "u": "65876f53fd4bc3275433"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/aEnr2Fm/online-tomasa-tarabu-sa-pokusia-odvolat-z-ministerskej-funkcie/",
+      "p": "Bod o odvolávaní Tomáša Tarabu chcú opoziční politici dostať na program schôdze čím skôr.",
+      "pub": 1790672498.0,
+      "s": "Aktuality",
+      "t": "ONLINE: Tomáša Tarabu sa pokúsia odvolať z ministerskej funkcie",
+      "ts": 1790673050.8748546,
+      "u": "655df8408e1650a6eddb"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/I0hqhIQ/prezident-peter-pellegrini-povysil-a-vymenoval-11-generalov-ozbrojenych-sil-sr/",
+      "p": "Prezident Peter Pellegrini povýšil v Prezidentskom paláci päť brigádnych generálov na generálmajorov a vymenoval šesť nových brigádnych generálov Ozbrojených síl SR.",
+      "pub": 1790672160.0,
+      "s": "Aktuality",
+      "t": "Prezident Peter Pellegrini povýšil a vymenoval 11 generálov Ozbrojených síl SR",
+      "ts": 1790673050.8748558,
+      "u": "3c9a1445a0e1f384736f"
+    },
+    {
+      "l": "https://dennikn.sk/5586618/nutene-sterilizacie-su-historicka-hanba-dnesna-ignoracia-obeti-ju-znasobuje-pod-slnkom-jany-shemesh/",
+      "p": "Vážené čitateľky, vážení čitatelia, v Téme týždňa píšem o tom, ako sa opäť nepodarilo schváliť zákon na odškodnenie hlavne rómskych žien, ktorým vykonali sterilizáciu v rozpore s právom. Profil je venovaný bývalej afganskej političke Fawzii Koofi, ktorá chodí po svete a lobuje za svoje krajanky. Píš",
+      "pub": 1790672400.0,
+      "s": "Denník N",
+      "t": "Nútené sterilizácie sú historická hanba, dnešná ignorácia obetí ju znásobuje (Pod slnkom Jany Shemesh)",
+      "ts": 1790673050.874857,
+      "u": "fd398c8ca71383816948"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2049725-ako-hovorit-s-detmi-po-nasilnom-incidente-v-skole-psychologicka-radi-rodicom-aj-ucitelom?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Útok žiaka na základnej škole v Staškove v utorok ráno neprežila 61-ročná žena. Zranené je aj jedno dieťa a 44-ročná žena. Po útoku žiaka je podľa školskej psychologičky Lucie Košťálovej jednou z najdôležitejších úloh dospelých zachovať pokoj, zabrániť šíreniu nepotvrdených informácií a vytvoriť deť",
+      "pub": 1790672400.0,
+      "s": "Pravda",
+      "t": "Ako hovoriť s deťmi po násilnom incidente v škole? Psychologička radí rodičom aj učiteľom",
+      "ts": 1790673050.8748577,
+      "u": "c01140622b73fd7e5525"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/prezident-utok-na-zs-v-staskove-je-v/995783-clanok.html",
+      "p": "Správu aktualizujeme.",
+      "pub": 1790672820.0,
+      "s": "Teraz.sk",
+      "t": "VIDEO: Prezident: Útok na ZŠ v Staškove je varovaním pre spoločnosť",
+      "ts": 1790673050.874858,
+      "u": "b1a8fb414c5917173c55"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/sutaj-estok-nasilie-na-skolach-je/995782-clanok.html",
+      "p": "Na základnej škole v Staškove v okrese Čadca v utorok ráno útočil žiak.",
+      "pub": 1790672760.0,
+      "s": "Teraz.sk",
+      "t": "Šutaj Eštok: Násilie na školách je absolútne neprijateľné",
+      "ts": 1790673050.8748584,
+      "u": "c068d406b9b66c2f5c05"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/premier-skoly-musia-byt-bezpecnym/995776-clanok.html",
+      "p": "Premiér zároveň vyjadril úprimnú sústrasť pozostalým a zraneným zaželal skoré uzdravenie.",
+      "pub": 1790672700.0,
+      "s": "Teraz.sk",
+      "t": "Premiér: Školy musia byť bezpečným miestom",
+      "ts": 1790673050.874859,
+      "u": "a4b067a4a13d098a46f4"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/poslanci-rokuju-o-vizii-slovensko-2040/995780-clanok.html",
+      "p": "Dokument s názvom Vízia Slovensko 2040: Cesta ku kvalitnejšiemu životu vypracovala SAV spolu s ďalšími odborníkmi. Diskusia k materiálu v parlamente bude skrátená na 12,5 hodiny.",
+      "pub": 1790672640.0,
+      "s": "Teraz.sk",
+      "t": "Poslanci rokujú o Vízii Slovensko 2040, vystúpil aj šéf SAV M. Venhart",
+      "ts": 1790673050.8748598,
+      "u": "6c56e488eb5383221535"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/prezident-povysil-a-vymenoval-11-gener/995775-clanok.html",
+      "p": "Novým generálom sa podľa prezidenta týmto dňom otvára možnosť rozvíjať ďalej svoje schopnosti a vykonávať pre Slovensko veľa prospešného.",
+      "pub": 1790672040.0,
+      "s": "Teraz.sk",
+      "t": "Prezident povýšil a vymenoval 11 generálov Ozbrojených síl SR",
+      "ts": 1790673050.87486,
+      "u": "05dcea725b2dfa7b3687"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/ddFs2AC/polska-tajna-sluzba-zadrzala-17-rocneho-tinedzera-mal-pripravovat-teroristicky-utok/"
-      ],
-      "model": "gemini/gemini-3.1-flash-lite",
-      "reason": "Zadržanie osoby pripravujúcej teroristický útok v susednej krajine predstavuje priame bezpečnostné riziko pre región.",
-      "title": "Poľská tajná služba zadržala 17-ročného tínedžera. Mal pripravovať teroristický útok",
-      "ts": 1790068246.7903097
-    },
     {
       "links": [
         "https://www.aktuality.sk/clanok/3wamUim/litva-ma-pripravene-evakua-plany-pre-pripad-utoku-premier-vsak-tvrdi-ze-krajina-sa-nevzda/"
@@ -5679,6 +5684,7 @@
     "05c06f0bb3513fa9d455": 1789910441.2031636,
     "05d47c59aeee1e9cb4f0": 1790140248.4966009,
     "05d4dfe27cb9e1f84f6c": 1790328944.2312403,
+    "05dcea725b2dfa7b3687": 1790673050.8748598,
     "05e10b84612aeb545b67": 1790483734.2138789,
     "05e2879a83fd29d2f02a": 1790362537.1488857,
     "05ee8bea46bc8f7dc1ad": 1789757741.9933279,
@@ -5956,6 +5962,7 @@
     "0de995cba7efb926ceb4": 1789636245.6684334,
     "0dea82f8db660c020641": 1790002543.966496,
     "0df04faa106a9f216579": 1789745740.8646395,
+    "0df65d91ad3c42d12903": 1790673050.8748622,
     "0dfb69f4d3093581a4d4": 1790088941.814013,
     "0dfd0001f3bc332b8071": 1790140248.4967942,
     "0dfdf3a3eb5d67f86441": 1790316646.9543824,
@@ -6376,7 +6383,6 @@
     "183ec7d66da026b5d3db": 1790182798.6580749,
     "183f5cda8efefa664a46": 1790580932.6601617,
     "18433a29fcccc677b617": 1790579445.6348429,
-    "184e27743cac2b4933f2": 1789463468.3642173,
     "185b64327201d00d6b9b": 1789472140.5135264,
     "186a17dcba3c692dccb5": 1789674941.0699449,
     "18762e50bd3905e8090b": 1789710939.8550053,
@@ -6468,7 +6474,6 @@
     "1b4cd8f95b5f2ba5ea94": 1789985447.3495102,
     "1b4f5a1a325c7b4d3890": 1789529743.2608583,
     "1b577493fa630004704f": 1790350540.5825567,
-    "1b5881b1d1775b742937": 1789463468.3642235,
     "1b636dc10331f4f42d9c": 1789923342.2349374,
     "1b64816d4ae67bf92e45": 1789727736.0954814,
     "1b6648866b0b6b7f7518": 1790177736.9438355,
@@ -6619,6 +6624,7 @@
     "2079440651f139264ab1": 1789905333.5994933,
     "207b1c5ee4b037f98274": 1790614536.619031,
     "20903aa1d99d8bf21c3d": 1789662047.018795,
+    "2095fb52de64ea54051b": 1790673050.8748605,
     "20966dc5a3bd5d9be991": 1790243742.5273008,
     "209e277723174cbaaeba": 1789563340.8520308,
     "209f18d993dfa140345e": 1790400937.5673354,
@@ -7426,7 +7432,6 @@
     "365a200fbb578eb79a62": 1789821337.5074112,
     "36628bf61b98cfc23abc": 1789649738.8612647,
     "3670f116f00e4226ca4f": 1790087750.6386232,
-    "36768c36839ad078c76f": 1789463468.3642256,
     "36794b8f7074ea1314b2": 1789894534.7887936,
     "368091ace3b422c8fb07": 1790505336.061115,
     "368860730c3923423415": 1789961738.352739,
@@ -7506,7 +7511,6 @@
     "38762d1ea33ac0c07118": 1789827041.379843,
     "388938e7755480625f88": 1790150134.919095,
     "3891b28f5e45e69788aa": 1789738541.468995,
-    "3893473fe58d2b89fa75": 1789463468.3642242,
     "389c99b8b831909607a5": 1789970143.6995597,
     "38ae3d780b5fb12bec13": 1789970143.6995573,
     "38bd63336db360ab133f": 1790138138.0192676,
@@ -7515,7 +7519,6 @@
     "38e2640d2840d216c222": 1789628134.0731356,
     "38e9b1b300b2e6828c30": 1789566942.6862354,
     "38eaba8bbe7b13d3cc28": 1789994140.7697666,
-    "38eb8b519b0eb5a4b265": 1789463468.3642294,
     "38ee7b264a88781d5891": 1790583046.2177715,
     "38f277c1cd46c4c25e67": 1789702537.0690234,
     "38f9551aa84089e96654": 1789642535.0186832,
@@ -7651,6 +7654,7 @@
     "3c866cf616a4c19bdd46": 1790672136.7930636,
     "3c95f3e1c489933fbceb": 1790506635.523278,
     "3c993416fea64209e40a": 1790652934.125284,
+    "3c9a1445a0e1f384736f": 1790673050.8748553,
     "3c9d7e6da6447ad80e5a": 1789803338.4911573,
     "3c9efaed6d9d9c4ac03f": 1789482951.1356356,
     "3c9f0de5ea47d56e3556": 1789732537.7649581,
@@ -8414,7 +8418,6 @@
     "51c6162b2b9f699184b3": 1790614536.6190464,
     "51d319dde3d46c2ce481": 1790356842.898509,
     "51dcdb171ec2a3832198": 1790151058.9895415,
-    "51dee3d6e8d6d42a0409": 1789463468.364222,
     "51f62a9f8e7da1d08821": 1789557043.8218775,
     "51f7c3824a8daf5adcc6": 1790593851.848167,
     "51fa5b7813032a0f29d7": 1789484155.9805799,
@@ -8732,7 +8735,6 @@
     "5adbca0e87cc8a91f832": 1790652934.125241,
     "5ae90c464ad315193aa9": 1789805443.0153136,
     "5afb83f99fd221cdee2a": 1789816239.3193471,
-    "5b0e06029ca703901e08": 1789463468.3642275,
     "5b1f398265d0eb92bd2d": 1790001342.721732,
     "5b241c42e622ebcaefff": 1790322934.7623663,
     "5b26ed3460a2964bdb07": 1790505336.061119,
@@ -8765,7 +8767,6 @@
     "5bb81c99fc5933a8aa20": 1790048145.976378,
     "5bbafe8e0c81ac1164b0": 1790595340.0335112,
     "5bc0e8c6ce515d0bc530": 1790332538.9132981,
-    "5bd62a25e7dabc5ce1d1": 1789463468.3642204,
     "5bd92eb1023ad31a6a7c": 1790341842.6684763,
     "5bda69c0ff9b9066e0a0": 1789474252.8337247,
     "5bdcf776d7a299695bac": 1789535450.3961885,
@@ -9131,12 +9132,14 @@
     "65515a48c2df6766a312": 1789830646.1894753,
     "655571f896c615299ad8": 1790609736.5104525,
     "6557624a094971ed0e0f": 1790490932.0377953,
+    "655df8408e1650a6eddb": 1790673050.8748538,
     "656d30fc32b721a364ea": 1789566942.6862333,
     "657a31a5504f0c38423c": 1790331047.871595,
     "657b50ad47c3adc05255": 1789546246.7418828,
     "657b8378972fa464b1b6": 1790087750.6386175,
     "65807788cd0213f17360": 1790060140.205974,
     "65857c505a629d92a912": 1790256939.2157736,
+    "65876f53fd4bc3275433": 1790673050.8748507,
     "6591b37a47e079ef4e00": 1790276137.1243763,
     "6591b5b8d17ac94b9c25": 1789740648.4243915,
     "65aba039b6141ed222b2": 1789621848.5065014,
@@ -9369,6 +9372,7 @@
     "6c31b84591e42729ce8f": 1789467047.227069,
     "6c43a86716916af54224": 1790220945.163953,
     "6c50be850333da947c52": 1790411735.9557471,
+    "6c56e488eb5383221535": 1790673050.8748593,
     "6c5b33c9b301efec5d72": 1790449845.9811091,
     "6c5e81517c8948474316": 1790572247.188387,
     "6c701c15b94344292939": 1789710939.8550017,
@@ -9699,7 +9703,6 @@
     "75c821ec0db8cd0c2386": 1790161848.939995,
     "75c9492fc0b6cd847e6e": 1790350540.5825362,
     "75ca11a5bfc619cdd076": 1790667347.691057,
-    "75cd32367e5ec075f4a5": 1789463468.3642123,
     "75d3c81e1c7e990d9af0": 1790272541.1501398,
     "75d7adac5abf3d3a26d0": 1790343334.879274,
     "75d9b2d4b96cb2a50bab": 1790016941.3353996,
@@ -10952,7 +10955,6 @@
     "9a48bf1f1b5bd10095f8": 1789979735.8228636,
     "9a4ce21158b88cb8c66f": 1789468540.6602762,
     "9a66b493d02ee53af37f": 1790670942.0462613,
-    "9a68db6de4bfab79706d": 1789463468.3642268,
     "9a6f8b52fa9eb4b6644b": 1790164535.0751808,
     "9a71615ec364ed50f6e9": 1789702537.0690486,
     "9a774c2806c64b71f30b": 1789637746.8837337,
@@ -11282,6 +11284,7 @@
     "a49594b9e3008857c3c3": 1790424640.0620363,
     "a49774349b715eb09779": 1789986946.029588,
     "a4a756a5878b860542bd": 1790048145.9764028,
+    "a4b067a4a13d098a46f4": 1790673050.8748589,
     "a4b5f937ee27904fcbf5": 1789571448.9519105,
     "a4d7d5b7238d6c429470": 1790050242.9194608,
     "a4e80a730172a8ff97df": 1790014851.918488,
@@ -11714,6 +11717,7 @@
     "b193a57c1b7ce3c31c88": 1790193337.95026,
     "b19f03e241f45649ed18": 1790068242.8443837,
     "b19fe546f5e8d71b96b5": 1790444135.4814134,
+    "b1a8fb414c5917173c55": 1790673050.8748577,
     "b1abdecbf6927cbfde02": 1789575647.818931,
     "b1b1390b6a18289a3369": 1789616140.055794,
     "b1bf6f1bbbbc5b3bcb88": 1789565741.3376687,
@@ -12231,6 +12235,7 @@
     "bff11a09a79a7ce7d13d": 1790268939.9049928,
     "bffc97b3cc6608d8605a": 1790566541.6462994,
     "c001937039ed68c80c83": 1789505737.5359614,
+    "c01140622b73fd7e5525": 1790673050.8748572,
     "c01d99d86578a1857ce3": 1790181361.4358327,
     "c020b28fde89396238a8": 1789720536.5001106,
     "c0253fbabe6deb606fb3": 1789999847.7274194,
@@ -12243,6 +12248,7 @@
     "c0559928715a61144eda": 1790597440.1142063,
     "c05acf5a6d6c8fa6e6d7": 1789618247.4531636,
     "c06455d05766bd40d758": 1790330141.3511527,
+    "c068d406b9b66c2f5c05": 1790673050.8748581,
     "c069ce24ce361b92c996": 1789847736.1289802,
     "c0732259440a1363faa5": 1789917651.945312,
     "c07c64811273d1f58d29": 1789761245.5736818,
@@ -14402,6 +14408,7 @@
     "fd21698ff58825c92025": 1790170539.2132106,
     "fd2d1287ae624f9027d7": 1790614536.619062,
     "fd32184f0044eba602f7": 1790399438.845217,
+    "fd398c8ca71383816948": 1790673050.874856,
     "fd39a0f7a48aaf900937": 1790265341.001135,
     "fd3d3ebf209e7788acb8": 1789616140.0555687,
     "fd4b204c46b790558608": 1790518845.5010147,
@@ -14521,88 +14528,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1790672136.7930245
+      "ts": 1790673050.8748379
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1790672136.793026
+      "ts": 1790673050.8748384
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1790672136.7930286
+      "ts": 1790673050.8748398
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1790672136.7930331
+      "ts": 1790673050.8748422
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1790672136.7930272
+      "ts": 1790673050.874839
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1790672136.793017
+      "ts": 1790673050.8748338
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1790672136.7930224
+      "ts": 1790673050.8748367
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1790672136.7930322
+      "ts": 1790673050.874842
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1790672136.7930303
+      "ts": 1790673050.8748403
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1790672136.7930312
+      "ts": 1790673050.874841
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/bejzbalisti-apolla-bratislava-doma-nedavaju-nikomu-sancu-a-chcu-vyhrat-aj-chorvatsku-ligu-2026092809092592194",
-      "p": "Bejzbalisti Apolla Bratislava pokračujú v dominancii v rámci najvyššej slovenskej súťaže. Tím z hlavného mesta si počas víkendu zabezpečil už 13. majstrovský titul za sebou.",
-      "s": "Šport.sk",
-      "t": "Bejzbalisti Apolla Bratislava doma nedávajú nikomu šancu a chcú vyhrať aj chorvátsku ligu",
-      "ts": 1790586644.154846,
-      "u": "23e28a35b038e8d2ed11"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/roberto-mancini-prehovoril-o-obvineniach-manchestru-city-2026092808152668577",
-      "p": "Tréner talianskej reprezentácie Roberto Mancini bol počas tlačovej konferencie pred zápasom v Lige národov s Tureckom nútený komentovať aj kauzu jedného zo svojich bývalých klubov – Manchester City.",
-      "s": "Šport.sk",
-      "t": "Dvojitá zmluva a peniaze mimo oficiálneho účtovníctva? Mancini: To je problém Manchestru City",
-      "ts": 1790586644.154848,
-      "u": "7afb2f3badab4e954667"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ1FfcDR5OHFqeU54TDMydlVPb0J2ZFB3NWYxVHc4UnlPZXFxZGNPdFZudmVFUWU3a05haUd4Nnh0UEd1OThWNWpBajBiU0ZJY0Y0YU9JR2Riek9saEVtWEFZY3g2SWlfdVBISkJaVFl3SzRMRjdnMUlmMVBCcjVSMDFDLWYwdm5XT1RqY0pZV0FTTHBBR0FpOTRYOEVVTk1ySmFTYUUtQTIwWUN6?oc=5",
-      "p": "Ronaldo sledoval duel z lavičky. Jeho náhradník rozhodol: Bola to ukážka mojej práce Sportnet",
-      "s": "SPORTNET",
-      "t": "Ronaldo sledoval duel z lavičky. Jeho náhradník rozhodol: Bola to ukážka mojej práce",
-      "ts": 1790586644.1548507,
-      "u": "e31ef81024a335397727"
-    },
     {
       "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/wrestling-prisiel-o-velke-meno-vo-veku-40-rokov-zomrel-pac-2026092809043683282",
       "p": "Svet profesionálneho wrestlingu zasiahla nečakaná tragédia. V 40 rokov zomrel britský zápasník Benjamin Satterley, ktorého fanúšikovia poznali najmä pod menom Pac. Úmrtie rodáka z Newcastlu potvrdila organizácia All Elite Wrestling (AEW), príčina smrti zatiaľ nie je známa.",
@@ -16138,6 +16121,22 @@
       "t": "Klopp môže byť prvým koučom Nemecka bez výhry v úvodných 3 dueloch",
       "ts": 1790672136.7930884,
       "u": "218a883a7f9fcee0b748"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/calgary-odstartuje-sezonu-s-tromi-slovakmi-honzek-s-pospisilom-hlasia-ze-su-pripraveni-2026092908573807871",
+      "p": "Hokejisti Calgary Flames vstúpia do novej sezóny NHL 2026/2027 s trojicou Slovákov v prvom tíme. Kanadský klub zaradil na definitívnu 23-člennú otváraciu súpisku obrancu Šimona Nemca a útočníkov Martina Pospíšila so Samuelom Honzekom.",
+      "s": "Šport.sk",
+      "t": "Calgary odštartuje sezónu s tromi Slovákmi. Honzek s Pospíšilom hlásia, že sú pripravení",
+      "ts": 1790673050.8748615,
+      "u": "2095fb52de64ea54051b"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV1d4RVBLbnY0amFISUhMRFpWcFZvejZWVHc0X0N3cFNmUV9idWJrdl9Ybkc0YnBBSjlXaGJVX0dZWUY2QmVVQ2lPYlpfU09BUFFBcmItN1JGQVNFQ3dkM3VlXzNTSnNidjB5a1pncXhlWlQ2eHkyem9NY3JaTUN2cWc1c2p4TnZ3T1h3NHVuWlBUaVoyZUkzTWdYODZTQjVkcUFR?oc=5",
+      "p": "Diskusia: Dramatické finále rozhodol rozstrel. Mladé Španielky sa stali majsterkami sveta Sportnet",
+      "s": "SPORTNET",
+      "t": "Diskusia: Dramatické finále rozhodol rozstrel. Mladé Španielky sa stali majsterkami sveta",
+      "ts": 1790673050.8748627,
+      "u": "0df65d91ad3c42d12903"
     }
   ],
   "sport_source_status": {
@@ -16145,25 +16144,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1790672136.7930355
+      "ts": 1790673050.8748434
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1790672136.793038
+      "ts": 1790673050.8748448
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1790672136.7930403
+      "ts": 1790673050.874846
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1790672136.793039
+      "ts": 1790673050.8748457
     }
   }
 }
