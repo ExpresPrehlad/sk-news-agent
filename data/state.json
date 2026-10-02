@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Obrovský podvod s kryptomenami pripravil ľudí o 4,5 miliardy",
-      "ts": 1790914242.6861434
-    },
-    {
-      "headline": "Firmy odchádzajú zo Slovenska pre vysoké odvodové zaťaženie",
-      "ts": 1790914242.6861434
-    },
-    {
-      "headline": "Šesť strán spojilo sily v novej aliancii Krajina",
-      "ts": 1790914242.6861434
-    },
-    {
-      "headline": "Slovensko čaká nezvyčajne teplý október",
-      "ts": 1790914242.6861434
-    },
-    {
-      "headline": "Nová legislatíva prinesie zmeny v dedení aj nájmoch",
-      "ts": 1790914242.6861434
-    },
-    {
       "headline": "Eskalácia násilia vo Francúzsku: Tisíce zadržaných študentov",
       "ts": 1790919379.5475516
     },
@@ -159,260 +139,108 @@
     {
       "headline": "Nafta na Slovensku ďalej zdražuje",
       "ts": 1790927745.1558797
+    },
+    {
+      "headline": "Zomrela 13-ročná žiačka Nela, ktorú zranil útočník v Staškove",
+      "ts": 1790928688.323951
+    },
+    {
+      "headline": "Pellegrini zverejnil fotografiu s Trumpom z New Yorku",
+      "ts": 1790928688.323951
+    },
+    {
+      "headline": "Obrovský podvod s ťažbou kryptomien za 4,5 miliardy",
+      "ts": 1790928688.323951
+    },
+    {
+      "headline": "Samosprávy žiadajú vládu o pomoc s energetikou",
+      "ts": 1790928688.323951
+    },
+    {
+      "headline": "Polícia posilňuje kontroly na cestách pri výročí tragédie na Zochovej",
+      "ts": 1790928688.323951
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Pellegrini sa stretol s Trumpom",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/RObNJTN/peter-pellegrini-zverejnil-fotografiu-s-donaldom-trumpom-rozhovor-bol-vraj-priamy-a-otvorený/"
-          ]
-        ],
-        "perex": "Prezident Peter Pellegrini zverejnil fotografiu zo stretnutia s Donaldom Trumpom v New Yorku. Podľa jeho slov spolu diskutovali o energetike, obrane a ekonomických príležitostiach pre Slovensko."
-      },
-      {
-        "headline": "Tragédia v Staškove má obeť",
+        "headline": "Zomrela 13-ročná žiačka Nela, ktorú zranil útočník v Staškove",
         "links": [
           [
             "TN Live",
-            "https://tnlive.sk/domace/clanok/1054660-tragicka-správa-zo-staskova-ziacka-nela-ktoru-zranil-utocnik-zomrela"
+            "https://tnlive.sk/domace/clanok/1054660-tragicka-sprava-zo-staskova-ziacka-nela-ktoru-zranil-utocnik-zomrela"
           ],
           [
             "TN Live",
             "https://tnlive.sk/domace/clanok/1054775-policia-pokracuje-vo-vysetrovani-utoku-v-staskove-zameriava-sa-aj-na-motiv"
           ]
         ],
-        "perex": "Žiačka Nela, ktorú v škole zranil útočník, svoj boj o život prehrala. Polícia v súvislosti s tragédiou naďalej pokračuje vo vyšetrovaní a zameriava sa na motív činu."
+        "perex": "Dievča podľahlo zraneniam, ktoré utrpelo pri útoku na základnej škole v obci Staškov. Polícia naďalej pokračuje vo vyšetrovaní prípadu a zameriava sa najmä na motív konania útočníka."
       },
       {
-        "headline": "Samosprávy žiadajú pomoc s energiami",
+        "headline": "Pellegrini zverejnil fotografiu s Trumpom z New Yorku",
         "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/pellegrini-zverejnil-fotografiu-s-trumpom-podla-neho-mali-priamy-a-otvoreny-rozhovor"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/RObNJTN/peter-pellegrini-zverejnil-fotografiu-s-donaldom-trumpom-rozhovor-bol-vraj-priamy-a-otvoren%C3%BD/"
+          ]
+        ],
+        "perex": "Prezident Peter Pellegrini sa pochválil záberom z rozhovoru s Donaldom Trumpom, ktorý absolvovali počas Valného zhromaždenia OSN. Podľa hlavy štátu diskutovali o energetike, obrane a ekonomických príležitostiach."
+      },
+      {
+        "headline": "Obrovský podvod s ťažbou kryptomien za 4,5 miliardy",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/nGL4zcM/ferrari-vily-v-karibiku-a-znicene-rodiny-ako-sa-zrutil-rozpravkovy-sen-o-tazbe-kryptomien-za-45-miliardy/"
+          ]
+        ],
+        "perex": "Trojica organizátorov čelí obvineniu z podvodu, pri ktorom sľubovali investorom rozprávkové zhodnotenie úspor. Tisíce ľudí prišli o peniaze, zatiaľ čo páchatelia si mali užívať luxus v podobe víl a športových áut."
+      },
+      {
+        "headline": "Samosprávy žiadajú vládu o pomoc s energetikou",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/index/c/samospravne-kraje-ziadaju-dofinancovanie-energetickeho-manazmentu"
+          ],
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/EbAZUQL/samospravy-tlacia-na-vladu-v-energetike-rezort-hospodarstva-vyzyva-na-rychle-uvolnenie-eurofondov/"
           ]
         ],
-        "perex": "Samosprávne kraje vyzvali rezort hospodárstva na urýchlené spustenie dotačných výziev z eurofondov. Dôvodom je potreba dofinancovania energetického manažmentu v stovkách verejných budov."
+        "perex": "Samosprávne kraje vyzvali rezort hospodárstva na urýchlené zvolanie pracovného stretnutia a uvoľnenie eurofondov. Župy musia do roku 2027 povinne sledovať spotrebu energií vo svojich budovách."
       },
       {
-        "headline": "Polícia si pripomína tragédiu na Zochovej",
+        "headline": "Polícia posilňuje kontroly na cestách pri výročí tragédie na Zochovej",
         "links": [
           [
-            "Noviny.sk",
-            "https://www.noviny.sk/slovensko/974564-pripominame-si-4-roky-od-hrozivej-tragedie-na-zochovej-pri-ktorej-vodic-pripravil-o-zivot-5-ludi"
+            "SME",
+            "https://www.sme.sk/domov/c/policia-posilni-kontroly-po-celom-slovensku-pripomina-si-nehodu-na-zochovej"
           ],
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/D719224/slovensko-si-pripomina-nehodu-na-zochovej-policia-posilni-kontroly/"
           ]
         ],
-        "perex": "Pri príležitosti štvrtého výročia tragickej nehody na Zochovej ulici polícia posilňuje kontroly na cestách. Zameriava sa najmä na alkohol, rýchlosť a dodržiavanie pravidiel cestnej premávky."
-      },
-      {
-        "headline": "Nafta na Slovensku ďalej zdražuje",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2051619-zdrazovanie-benzinu-95-sa-zastavilo-nafta-stale-stupala/"
-          ]
-        ],
-        "perex": "Ceny nafty na slovenských čerpacích staniciach pokračujú v raste a blížia sa k hranici dvoch eur za liter. Benzín sa po predchádzajúcom zdražovaní v závere septembra ustálil."
+        "perex": "Policajný zbor v piatok od poludnia nasadí zvýšený počet hliadok na celom území Slovenska. Kontroly sa zamerajú najmä na alkohol, rýchlosť a dodržiavanie pravidiel cestnej premávky."
       }
     ],
-    "ts": 1790927745.1558707
+    "ts": 1790928688.3239408
   },
   "meta": {
-    "last_collection_ts": 1790927736.2655628,
+    "last_collection_ts": 1790928676.2634232,
     "last_feed_error_ts": 1790912135.5364187,
     "last_llm_error_ts": 1790918002.3346121,
-    "last_run_ts": 1790927736.7096264,
-    "last_synthesis_ts": 1790927745.1558654
+    "last_run_ts": 1790928676.56435,
+    "last_synthesis_ts": 1790928688.3239346
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/novinky/c/ani-jedno-cislo-na-zaciatku-viete-vyriesit-killer-sudoku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Pre tých, ktorým klasické sudoku už nestačí",
-      "pub": 1790840771.0,
-      "s": "SME",
-      "t": "Ani jedno číslo na začiatku. Viete vyriešiť Killer Sudoku?",
-      "ts": 1790841345.3953223,
-      "u": "41ff37be0ae65d31baac"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/poslanci-pokracuju-v-debate-o-navrhu-k-ochrane-mladeze?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Debatu o zákone začali už v stredu popoludní.",
-      "pub": 1790840516.0,
-      "s": "SME",
-      "t": "Poslanci pokračujú v debate o návrhu k ochrane mládeže",
-      "ts": 1790841345.3953254,
-      "u": "27d64a72e6092e69dcc1"
-    },
-    {
-      "l": "https://www.sme.sk/komentare/c/cynicka-obluda-historky-z-podsvetia-koalicna-kriza?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Filmová sonda do hlavy poníženého Roberta Fica.",
-      "pub": 1790840213.0,
-      "s": "SME",
-      "t": "Cynická obluda: Historky z podsvetia: Koaličná kríza",
-      "ts": 1790841345.3955362,
-      "u": "e882d2ed1139f96e7cc8"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/premier-navstivil-ministerstvo-zivotneho-prostredia-ktore-je-povereny-riadit?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Pellegrini od premiéra zatiaľ nedostal návrh na vymenovanie nového ministra.",
-      "pub": 1790840040.0,
-      "s": "SME",
-      "t": "Premiér navštívil ministerstvo životného prostredia, ktoré je poverený riadiť",
-      "ts": 1790841345.3955376,
-      "u": "6789e996c6768008d181"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/oVhyeFq/rusky-opozicnik-a-sachovy-velmajster-garry-kasparov-tvrdi-ze-ho-zahranicne-bezpecnostne-sluzby-varovali-pred-ohrozenim-zivota/",
-      "p": "„Boli sme na zozname cieľov vraždy,“ priznal kritik Kremľa Garry Kasparov. Odhalenie tajnej siete napojenej na ruské služby údajne ukázalo, že Moskva plánovala likvidáciu kľúčových predstaviteľov Fóra slobodného Ruska aj ďalších exilových politikov.",
-      "pub": 1790841236.0,
-      "s": "Aktuality",
-      "t": "Ruský opozičník a šachový veľmajster Garry Kasparov tvrdí, že ho zahraničné bezpečnostné služby varovali pred ohrozením života",
-      "ts": 1790841345.3955393,
-      "u": "4ab45a2849acd88a8bee"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/KKZ6WCH/dramaticke-zlyhanie-pri-poprave-v-tennessee-guverner-pozastavil-tresty-smrti-a-nariadil-vysetrovanie/",
-      "p": "Guvernér amerického štátu Tennessee Bill Lee v stredu večer nariadil nezávislé vyšetrovanie neúspešného pokusu o popravu 50-ročnej Christy Gail Pikeovej a do konca roka pozastavil vykonávanie trestov smrti.",
-      "pub": 1790840923.0,
-      "s": "Aktuality",
-      "t": "Dramatické zlyhanie pri poprave v Tennessee: Guvernér pozastavil tresty smrti a nariadil vyšetrovanie",
-      "ts": 1790841345.3955412,
-      "u": "ce4ba342134ecccb8465"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/bU6pMqe/zdravotny-stav-manzelky-nicolasa-madura-sa-podla-jej-pravnikov-zhorsuje-cilie-floresova-ziada-o-prepustenie-na-kauciu/",
-      "p": "Právnici Cillie Floresovej, manželky zadržaného venezuelského prezidenta Nicolása Madura, opätovne požiadali o jej prepustenie z amerického väzenia na kauciu. Obhajoba poukazuje na výrazné zhoršenie jej zdravotného stavu.",
-      "pub": 1790840372.0,
-      "s": "Aktuality",
-      "t": "Zdravotný stav manželky Nicolasa Madura sa podľa jej právnikov zhoršuje: Cilie Floresová žiada o prepustenie na kauciu",
-      "ts": 1790841345.3955424,
-      "u": "698749b5c8ddddf34203"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2050973-slovenski-mlynari-maju-historicky-najvyssie-zasoby-psenice-prekvapila-ich-vsak-velkost-zrn?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Slovenské mlyny združené v Slovenskej spoločnosti mlynárov (SSM) disponujú historicky najvyššími zásobami pšenice. Dôvodom sú riziká vyplývajúce z geopolitickej situácie v oblasti logistiky aj palív. Na zabezpečenie plného pokrytia domáceho dopytu potrebujú dokúpiť už len minimálne množstvá. Uviedol",
-      "pub": 1790840177.0,
-      "s": "Pravda",
-      "t": "Slovenskí mlynári majú historicky najvyššie zásoby pšenice, prekvapila ich však veľkosť zŕn",
-      "ts": 1790841345.3955443,
-      "u": "88436b583c7b322c1603"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1266579-koniec-priemyslu-so-psim-maesom-z-poslednej-farmy-zachranili-viac-ako-70-psov",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Koniec priemyslu so psím mäsom: Z poslednej farmy zachránili viac ako 70 psov",
-      "ts": 1790841345.3955462,
-      "u": "92fb7a49fdc6777b041b"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1266559-guverner-tennessee-pozastavil-popravy-po-zlyhani-pri-poprave-christy-pikeovej",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Guvernér Tennessee pozastavil popravy po zlyhaní v prípade Christy Pikeovej",
-      "ts": 1790841345.3955476,
-      "u": "53cd7b3df08f344fdef6"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1266569-slovenski-mlynari-maju-historicky-najvyssie-zasoby-psenice",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Slovenskí mlynári majú historicky najvyššie zásoby pšenice",
-      "ts": 1790841345.3955495,
-      "u": "a372c29d6b9f6cf1b590"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/moskva-hrozi-jadrovymi-zbranami-neprovokujte-lebo-pridete-o-kaliningrad-zneju-varovania-z-medii?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Využite zraniteľnosť Kaliningradu ako páku na Moskvu, radí Aliancii britský publicista Edward Lucas.",
-      "pub": 1790841702.0,
-      "s": "SME",
-      "t": "Moskva hrozí jadrovými zbraňami. Neprovokujte, lebo prídete o Kaliningrad, znejú varovania z médií",
-      "ts": 1790842236.6844559,
-      "u": "bd5f6e404028cee69652"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/policia-realizuje-viacero-preventivnych-programov-zameranych-na-seniorov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Podvodníci sa vydávajú sa za príbuzných, policajtov, lekárov či pracovníkov bánk.",
-      "pub": 1790841456.0,
-      "s": "SME",
-      "t": "Polícia realizuje viacero preventívnych programov zameraných na seniorov",
-      "ts": 1790842236.684459,
-      "u": "5e50c79263d8c67015fd"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/OSogpQo/indonezska-policia-zadrzala-kapitana-trajektu-ktory-sa-potopil-13-septembra-v-javskom-mori/",
-      "p": "Indonézska polícia zadržala kapitána trajektu Virgo Transport 8, ktorý sa 13. septembra potopil v Jávskom mori. Tragický incident si podľa najnovších údajov záchranárov vyžiadal najmenej 78 obetí a ďalších 57 ľudí zostáva nezvestných.",
-      "pub": 1790841803.0,
-      "s": "Aktuality",
-      "t": "Indonézska polícia zadržala kapitána trajektu, ktorý sa potopil 13. septembra v Jávskom mori",
-      "ts": 1790842236.6844616,
-      "u": "85d354dae81b28a0f2c4"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/h4LKcSn/kotolne-bez-dlhodobych-zmluv-celia-problemu-plyn-je-prilis-drahy/",
-      "p": "Pri aktuálnom vývoji cien na burzách môžu mať niektorí výrobcovia tepla problém zmestiť sa do ceny stanovenej regulátorom.",
-      "pub": 1790841600.0,
-      "s": "Aktuality",
-      "t": "Kotolne bez dlhodobých zmlúv čelia problému. Plyn je príliš drahý",
-      "ts": 1790842236.6844635,
-      "u": "486b67367140a0bbf09c"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2050989-trump-juzna-korea-aljaska-miliardy-usa-lng-plynovod-jadrove-reaktory?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Južná Kórea plánuje investovať v Spojených štátoch 200 miliárd dolárov (176,13 miliardy eur), z toho 54 miliárd dolárov (47,56 miliardy eur) do dlhodobo diskutovaného projektu so skvapalneným zemným plynom (LNG) na Aljaške. Oznámil to v stredu vo Washingtone americký prezident Donald Trump, informuj",
-      "pub": 1790841993.0,
-      "s": "Pravda",
-      "t": "Južná Kórea investuje v USA 200 miliárd dolárov, tvrdí Trump. Peniaze pre Aljašku sú však zatiaľ neisté",
-      "ts": 1790842236.684466,
-      "u": "82adb39baf8cda8e2346"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2051001-fico-si-prevzal-rezort-zivotneho-prostredia-mediam-sa-vyhol?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Predseda vlády SR Robert Fico (Smer) navštívil vo štvrtok ráno Ministerstvo životného prostredia, ktoré je od stredy poverený riadiť. Médiám vyjadrenie napriek pôvodnému avízu neposkytol.",
-      "pub": 1790841654.0,
-      "s": "Pravda",
-      "t": "Fico si prevzal rezort životného prostredia, médiám sa vyhol",
-      "ts": 1790842236.6844923,
-      "u": "12cd4741a0e142bab53f"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2050997-vrazda-93-rocneho-seniora-otvorila-v-nemecku-citlivu-otazku-dvaja-podozrivi-mali-krajinu-opustit?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Keď 60-ročná žena a jej 65-ročný brat prišli v nedeľu 3. mája za svojím otcom do pokojnej štvrte Neubrück na východe Kolína nad Rýnom, 93-ročný muž im neotváral. Neozýval sa ani na telefón. Po vstupe do jeho rodinného domu na ulici Böhmweg našli otca mŕtveho. Polícia následne oznámila, že telo niesl",
-      "pub": 1790841600.0,
-      "s": "Pravda",
-      "t": "Vražda 93-ročného seniora otvorila v Nemecku citlivú otázku. Dvaja podozriví mali krajinu opustiť",
-      "ts": 1790842236.6844935,
-      "u": "86bf2eb4d15da6dae437"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/tasr-bude-pokryvat-pracovnu-cestu-min/996395-clanok.html",
-      "p": "Na zahraničnej ceste sa zúčastní spolu s ministerkou zahraničných vecí Rakúska Beate Meinl-Reisingerovou a šéfom českej diplomacie Petrom Macinkom.",
-      "pub": 1790841300.0,
-      "s": "Teraz.sk",
-      "t": "TASR bude pokrývať pracovnú cestu ministra Blanára v Čiernej Hore",
-      "ts": 1790842236.6844947,
-      "u": "d7166120920c66072aac"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1266544-pobodany-pilot-je-hrdinom-zachranil-174-ludi",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Pobodaný pilot je hrdinom. Zachránil 174 ľudí",
-      "ts": 1790842236.6844962,
-      "u": "f7a4e23d58257b3929e8"
-    },
     {
       "l": "https://www.sme.sk/closer/c/slovensky-par-sezonna-praca-usetrili-peniaze-island?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Dušana a Nicolas pracujú sezónne už od roku 2022.",
@@ -5434,18 +5262,72 @@
       "t": "Pripomíname si 4 roky od hrozivej tragédie na Zochovej, pri ktorej vodič pripravil o život 5 ľudí",
       "ts": 1790927736.7089632,
       "u": "907212aa0609778d9390"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/trump-hrozi-iranu-odvetou-ak-stal-za-incidentom-lietadla-smerujuceho-do-izraela?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Kopilot mal napadnúť kapitána a cestujúci pomohli zabrániť pádu lietadla.",
+      "pub": 1790928297.0,
+      "s": "SME",
+      "t": "Trump hrozí Iránu odvetou, ak stál za incidentom lietadla smerujúceho do Izraela",
+      "ts": 1790928676.5636039,
+      "u": "74802f1e3d7034be15f3"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/minister-sasko-predstavil-poslancom-novelu-o-psychotropnych-latkach?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Lieková reforma je v druhom čítaní.",
+      "pub": 1790928086.0,
+      "s": "SME",
+      "t": "Minister Šaško predstavil poslancom novelu o psychotropných látkach",
+      "ts": 1790928676.5636072,
+      "u": "1defecf51fdfe3ae05e4"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/9lgH6DO/utok-dronov-na-kyjev-si-vyziadal-obete-zasiahnuty-bytovy-dom-aj-klucovy-most-s-metrom-a-cestnou-dopravou/",
+      "p": "Nočný útok ruských dronov zasiahol obytný dom a strategické mosty v Kyjeve. Hlásia najmenej jednu obeť, zranených a rozsiahle dopravné obmedzenia.",
+      "pub": 1790928190.0,
+      "s": "Aktuality",
+      "t": "Útok dronov na Kyjev si vyžiadal obete. Zasiahnutý bytový dom aj kľúčový most s metrom a cestnou dopravou",
+      "ts": 1790928676.5636091,
+      "u": "81914a8782b82f9de5ef"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/xQyShuQ/na-bratislavskom-letisku-obnovili-linku-do-dakaru-afrika-nahradza-blizky-vychod/",
+      "p": "Konflikt na Blízkom východe mení trasy dovolenkárov. Africké destinácie ovládnu zimný letový poriadok z Bratislavy",
+      "pub": 1790928102.0,
+      "s": "Aktuality",
+      "t": "Na bratislavskom letisku obnovili linku do Dakaru, Afrika nahrádza Blízky východ",
+      "ts": 1790928676.5636108,
+      "u": "b4eab3f93c3c78bdc2e4"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/w0euMgl/spor-o-cestne-obcianstvo-v-kezmarku-knazi-bojkotuju-slavnost-pre-minulost-kandidata-v-stb/",
+      "p": "Udelenie ocenenie pre Františka Chmelára otvára otázku transparentnosti pri hlasovaniach v mestskom zastupiteľstve.",
+      "pub": 1790928000.0,
+      "s": "Aktuality",
+      "t": "Spor o čestné občianstvo v Kežmarku: Kňazi bojkotujú slávnosť pre minulosť kandidáta v ŠtB",
+      "ts": 1790928676.5636127,
+      "u": "cbf97e717e7fe9957faf"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2051633-japonsko-pritvrdzuje-voci-cudzincom-za-trvaly-pobyt-zaplatia-20-krat-viac-pribudne-aj-japoncina?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Japonsko zvýšilo poplatok za žiadosť o trvalý pobyt pre cudzincov, a to dvadsaťnásobne na 200.000 jenov (zhruba 27.500 Sk). Žiadatelia musia nanovo splniť aj ďalšie podmienky týkajúce sa príjmu, dôchodkového zabezpečenia a od budúceho roka aj znalosti japončiny.",
+      "pub": 1790928029.0,
+      "s": "Pravda",
+      "t": "Japonsko pritvrdzuje voči cudzincom: Za trvalý pobyt zaplatia 20-krát viac, pribudne aj japončina",
+      "ts": 1790928676.5636144,
+      "u": "8e4d30959fc33b8e7497"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1267088-pellegrini-zdielal-fotografiu-s-trupom-hovorili-o-tom-na-com-skutocne-zalezi",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Pellegrini zdieľal fotografiu s Trupom. Hovorili „o tom, na čom skutočne záleží“",
+      "ts": 1790928676.5636837,
+      "u": "ffbf0a65f4c2457d9f48"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/bb34IXZ/video-vybuch-otriasol-turistickou-stvrtou-v-atenach-budova-pri-akropole-sa-zrutila/"
-      ],
-      "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
-      "reason": "Silný výbuch v historickej turistickej zóne EÚ s čiastočným zrútením budovy, evakuáciou a hľadaním obetí – mimoriadna udalosť s potenciálom hromadných obetí a nejasnou príčinou.",
-      "title": "Výbuch v centre Atén: zrútila sa budova pri Akropole, záchranná akcia prebieha",
-      "ts": 1790322972.3281052
-    },
     {
       "links": [
         "https://www.pravda.sk/spravy/svet/clanok/2047725-ukrajina-ziskala-tajne-ruske-plany-zimnych-utokov-specialne-scenare-pripravili-pre-kyjev-odesu-aj-charkov?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
@@ -6955,6 +6837,7 @@
     "1ddc52186a24e6d3a9e3": 1790796045.2752857,
     "1de5e75e4733683fc2a1": 1790853048.985542,
     "1de705cdc2f376eef967": 1790314535.4304614,
+    "1defecf51fdfe3ae05e4": 1790928676.5636055,
     "1df2494013c2d47ee78b": 1790070936.607699,
     "1dff3d99fd12b4c0f74b": 1790759446.5553417,
     "1e0bfd5b013389d0ea76": 1790764536.5378873,
@@ -7001,13 +6884,11 @@
     "1fc4440b0b05628363f1": 1790095783.3913124,
     "1fc7642f26779ba90c41": 1789903246.060306,
     "1fc8f817abad45136f7e": 1790251844.0831392,
-    "1fcebe1f85073c672b77": 1789719048.7930644,
     "1fe99bdd14521716c203": 1790710539.4549305,
     "2000448338b6af60b874": 1790849446.698766,
     "2001f7073f85d676a94f": 1790510140.1971457,
     "200824881b50ff1cc4c8": 1790742047.0881443,
     "200e366717e06d1826b2": 1789830646.189304,
-    "201009a356965ef552a1": 1789719048.7932644,
     "2016e1291faf5bbb2160": 1790758536.3169038,
     "201e7c3af00149171dd0": 1790861737.4493818,
     "2027478cac48fe984f0b": 1790858143.3338175,
@@ -8013,7 +7894,6 @@
     "3b08cfbe98a6e8cb9930": 1790535334.3847678,
     "3b0bfd68eb42fea71e71": 1790582143.4673576,
     "3b1a44f6a3f3d69c40ad": 1790242535.958554,
-    "3b2b635de2d8bd003e86": 1789719048.793263,
     "3b2b8e189516bc639808": 1790431839.9839556,
     "3b2d9661b2f5fd9e359d": 1790591735.3255515,
     "3b3072af2eff7a0a4e40": 1789963885.0811822,
@@ -8990,7 +8870,6 @@
     "54e771e39b5496e7fbb7": 1790783738.7885396,
     "54f2e446c6f6ac7db375": 1790494541.5476115,
     "551c3d3279c911a1e472": 1790792444.6875744,
-    "551e7a15674ee580f070": 1789719048.793059,
     "551eb4de95a3bbeefc89": 1790915734.9345658,
     "552da3f0ceec4e907bb0": 1790166944.7357671,
     "552e175b30244b4caf14": 1790366138.4828966,
@@ -10172,6 +10051,7 @@
     "7473f8c8fff1f7d981e0": 1790079049.866385,
     "74754e28b3a06528ba7a": 1789965342.2937853,
     "747d7a70fdc51d3ca1bd": 1790927736.708956,
+    "74802f1e3d7034be15f3": 1790928676.5636003,
     "7489065e0d504643ff45": 1790679335.7848582,
     "7493019f348e64bc6bef": 1790198443.4370599,
     "74a2b71fd95a3c362e99": 1790861737.449396,
@@ -10658,6 +10538,7 @@
     "818acd3465f4a9880374": 1790667347.6912131,
     "818c63defeeb894d69d4": 1790066142.839515,
     "81908eddc79d2941a2be": 1790186148.6258802,
+    "81914a8782b82f9de5ef": 1790928676.5636084,
     "8195974b42009e4f1649": 1790332538.9132826,
     "81994b96e0accf4306ce": 1790848538.9459856,
     "81a54968eaec0fbd9890": 1790825745.7244916,
@@ -11044,7 +10925,6 @@
     "8c793c7fe8bb41db97e2": 1790073333.1603587,
     "8c7fd30c65d9e7b0f429": 1790011247.8309853,
     "8c818f9b34cce4c06db5": 1790524538.4129848,
-    "8c83df44ab05c63bbe20": 1789719048.79326,
     "8c8782bf90b3a4710cf1": 1789834248.8839624,
     "8c93ca39cea5580c8c59": 1790007648.450801,
     "8caa83c3d03dcd3b734c": 1790350540.5825393,
@@ -11108,6 +10988,7 @@
     "8e42ae940d428fb5cfd1": 1789884644.7681472,
     "8e44d205dc24da812e05": 1790772936.4539206,
     "8e4cbecad56bf26969cc": 1790235347.92883,
+    "8e4d30959fc33b8e7497": 1790928676.5636134,
     "8e4d73f2d7415818b163": 1790865337.2571356,
     "8e4d91c958b5530f16d8": 1790866549.9150722,
     "8e57a7dce96e300a7c9f": 1790744136.5683644,
@@ -11267,7 +11148,6 @@
     "92511e4b57b36b27e413": 1789932039.784694,
     "9251c4b673512be00af1": 1789901735.1703434,
     "92523bc31a64632100a7": 1790764536.5381389,
-    "9254b4aea6805fe9540c": 1789719048.793053,
     "9260ccdc3afb1c391e3e": 1790360445.2639396,
     "9262ca9a5b3a7962eb72": 1790568644.3700771,
     "926ab387e050024e2b2c": 1790856638.6040547,
@@ -12442,6 +12322,7 @@
     "b4e22fc075dfd65c230e": 1790238935.5672505,
     "b4e24348376dda03033e": 1789732537.7647538,
     "b4e395c63bf546b78d94": 1790694642.1884575,
+    "b4eab3f93c3c78bdc2e4": 1790928676.5636096,
     "b4ed954bfb87d53dc35a": 1790825745.7244973,
     "b4f99fd63fc1512dadbe": 1790838646.423594,
     "b4fc30e5a810199dd9cb": 1790011247.8309963,
@@ -12613,6 +12494,7 @@
     "b928039d2c43f2b9c894": 1790351743.0983355,
     "b93131d71363e358e933": 1790768135.6274087,
     "b942764e6d3285f50891": 1790595340.0336418,
+    "b9482a1a07a0b4deccf1": 1790928676.563686,
     "b95a40035fada1ce289b": 1789906840.0309744,
     "b9800a10d0fce02342b6": 1789759248.5038574,
     "b9817ba2450ef0841b65": 1790003455.222496,
@@ -12663,7 +12545,6 @@
     "badb8c033318c13cf602": 1789998938.266575,
     "badd62f598fd67752395": 1790134543.8764677,
     "bae2335d100aab48ab2b": 1789996862.6235116,
-    "bae293ad6cf81128da18": 1789719048.793069,
     "bae8fea3ad8596903170": 1790078142.5491753,
     "baea8dae9afd45dd0fb3": 1789810543.2157555,
     "bb059481c4f6c56989e7": 1790080546.1007173,
@@ -13282,6 +13163,7 @@
     "cbbb2ba42dc8e4fd3652": 1790570136.363358,
     "cbc9fc1a3d3bfc9ff6af": 1789917651.9453135,
     "cbecbc6b497474a0a556": 1790496641.5768747,
+    "cbf97e717e7fe9957faf": 1790928676.5636115,
     "cc03aeaaa56964c4f401": 1790858143.33382,
     "cc05c1d83b97fa37c48b": 1790152563.4713802,
     "cc0923c3e8082a20b715": 1790518845.5010264,
@@ -13312,6 +13194,7 @@
     "ccc1303d7ca36cc68965": 1790678138.8639588,
     "ccc305f717eae9643858": 1790168141.1107259,
     "ccc699241f272da1c38c": 1789766443.1341622,
+    "ccca02697043be3bbad4": 1790928676.563691,
     "cccd1dc6865ed38e8300": 1790760939.4237714,
     "ccdad37a18dfa799ab25": 1790260544.2994835,
     "cce18459c2d043c5eaba": 1790322934.7623625,
@@ -13393,6 +13276,7 @@
     "ceccb553edb70c96c977": 1790778950.7564483,
     "ced07823899b298c3cc1": 1790236548.068637,
     "ced1e00ae9376337e75f": 1789739373.9662852,
+    "ced7c84f45c2b7abf9d6": 1790928676.5636988,
     "cedc1982c38056816ff8": 1789999847.7274346,
     "cee1e3660e6ec1a9a277": 1790413838.0958743,
     "cee592c9fa95ed97f62c": 1789919737.0589957,
@@ -13591,7 +13475,6 @@
     "d4499b210a146689c4c7": 1790314535.4304786,
     "d449d3d5067ef211b99e": 1789726246.224342,
     "d4501a7511690572e932": 1790088941.8140152,
-    "d45520b80056ce0d2fb2": 1789719048.7930663,
     "d45fc05c4861f120c1e2": 1790073333.1603594,
     "d466dd4dae0b55c9a58f": 1790698842.9960556,
     "d4677ac6e59251c5aded": 1790790936.8340845,
@@ -15115,7 +14998,6 @@
     "fe0c969e90c63f3bae81": 1790489437.2022748,
     "fe112159b0e4c9fdbb89": 1790825745.7244697,
     "fe154bba338ba3f55c8b": 1790251844.0831363,
-    "fe28f24def8c0b433e5f": 1789719048.7930622,
     "fe31a74ea16fd7376fbf": 1790500243.5433273,
     "fe3bc878b54af57afae3": 1790568644.3700647,
     "fe3f7f4ffbf66e4c2f94": 1790716245.5227005,
@@ -15183,6 +15065,7 @@
     "ffa8808f6f11b218cdb0": 1789832140.5441155,
     "ffb182cad598436bc011": 1790134543.876466,
     "ffb7c57abebf05fb0f2b": 1789985447.3495054,
+    "ffbf0a65f4c2457d9f48": 1790928676.5636816,
     "ffbf60919fcd10fba45f": 1790848538.9461777,
     "ffc01fc305798da15e87": 1790024137.5138636,
     "ffca83cd1f6f0d969120": 1789928446.025101,
@@ -15202,112 +15085,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1790927736.7089195
+      "ts": 1790928676.5635774
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1790927736.7089212
+      "ts": 1790928676.5635786
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1790927736.7089238
+      "ts": 1790928676.5635817
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1790927736.7089288
+      "ts": 1790928676.563586
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1790927736.7089224
+      "ts": 1790928676.5635798
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1790927736.7089126
+      "ts": 1790928676.56357
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1790927736.7089179
+      "ts": 1790928676.5635755
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1790927736.7089276
+      "ts": 1790928676.5635855
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1790927736.708925
+      "ts": 1790928676.5635831
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1790927736.7089262
+      "ts": 1790928676.5635843
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/motosport/clanok/formula-1-mercedes-predstavi-specialne-farby-v-sepangu-2026093011153998788",
-      "p": "Tím Mercedes predvedie špeciálnu farebnú schému počas nadchádzajúcej Veľkej ceny Bahrajnu, ktorá sa tento víkend uskutoční na okruhu Sepang v Malajzii.",
-      "s": "Šport.sk",
-      "t": "FOTO Kde je strieborná? Mercedes predstaví špeciálne farby pre svoje „domáce“ preteky",
-      "ts": 1790841345.3955524,
-      "u": "56039156ecf1290bee2d"
-    },
-    {
-      "l": "https://sport.aktuality.sk/hokej/clanok/skuseny-utocnik-sa-golden-knights-dohodol-na-predĺzeni-zmluvy-vo-vegas-je-od-zaciatku-2026100107190419178",
-      "p": "Švédsky hokejový útočník William Karlsson podpísal s klubom NHL Vegas Golden Knights nový dvojročný kontrakt v celkovej hodnote 13,5 milióna dolárov. Tridsaťtriročný center si tak za sezónu v priemere zarobí 6,75 milióna USD a zmluva mu bude platiť do konca ročníka 2028/2029.",
-      "s": "Šport.sk",
-      "t": "Skúsený útočník sa Golden Knights dohodol na predĺžení zmluvy. Vo Vegas je od začiatku",
-      "ts": 1790841345.3955555,
-      "u": "e2741801b47d1a752aaf"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/sved-karlsson-predlzil-s-vegas-o-dva/996382-clanok.html",
-      "p": "Karlsson patrí spoločne s obrancami Braydenom McNabbom a Sheaom Theodorom k posledným trom hráčom z pôvodného kádra Golden Knights, ktorí sú v organizácii počas celej jej desaťročnej existencie.",
-      "s": "TERAZ.SK",
-      "t": "Švéd Karlsson predĺžil s Vegas o dva roky, zarobí 13,5 milióna dolárov",
-      "ts": 1790841345.3955572,
-      "u": "f6230e55e7e09891da5f"
-    },
-    {
-      "l": "https://sport.aktuality.sk/hokej/clanok/platy-slovakov-v-nhl-kolko-zarobia-slafkovsky-nemec-2026100108020223698",
-      "p": "Slovenskí hokejisti, ktorí hrajú za kluby najprestížnejšej ligy sveta kanadsko-americkej NHL, si prídu na krásne peniaze za to, čomu sa venujú, a zároveň aj milujú.",
-      "s": "Šport.sk",
-      "t": "Koľko zarábajú Slováci v novej sezóne NHL? Niektorí za jediný deň viac ako bežní zamestnanci za rok",
-      "ts": 1790842236.6844997,
-      "u": "cb7726f0f894a13040c9"
-    },
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/takto-zhodnotil-jiri-prochazka-svojho-dalsieho-ufc-supera-poukazal-na-to-v-com-bude-neporazeny-stirling-neprijemny-2026100108055287042",
-      "p": "Len včera bolo oficiálne potvrdené, že ďalším UFC súperom Jiřího Procházku bude Navajo Stirling. Stretnú sa proti sebe v hlavnom zápase UFC podujatia v Katare, ktoré prebehne 21. novembra.",
-      "s": "Šport.sk",
-      "t": "Takto zhodnotil Jiří Procházka svojho ďalšieho UFC súpera! Poukázal na to, v čom bude neporazený Stirling nepríjemný",
-      "ts": 1790842236.6845014,
-      "u": "9ddb0e1e14436dfe846b"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/mackinnon-dal-dva-goly-a-po-styroch-ro/996392-clanok.html",
-      "p": "Úradujúci držiteľ Maurice Richard Trophy pre top strelca za 53 gólov v minulej sezóne sa dvakrát presadil v štvorgólovej druhej tretine Avalanche.",
-      "s": "TERAZ.SK",
-      "t": "MacKinnon dal dva góly a po štyroch rokoch sa pobil",
-      "ts": 1790842236.684503,
-      "u": "8b9d4699ac9a3ff34671"
-    },
     {
       "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/juliette-willmannova-zahynula-pad-laviny-2026100108060215489",
       "p": "Svet extrémneho lyžovania zasiahla smutná správa. Vo veku 29 rokov prišla o život francúzska freeriderka Juliette Willmannová. K nešťastiu došlo v argentínskych horách, keď ju na svahu Cerro Crestón zasypala lavína.",
@@ -16915,6 +16750,30 @@
       "t": "Šesťorkin dal gól ako 1. brankár v histórii Rangers:Mal som to v hlave",
       "ts": 1790927736.708971,
       "u": "a472b896f5a2dcf4de12"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/lyzovanie-listok-na-petru-vlhovu-za-200-eur-ceny-vstupeniek-na-ms-2027-2026100205574711048",
+      "p": "Ceny vstupeniek na majstrovstvá sveta v alpskom lyžovaní, ktoré sa budú konať od 1. do 14. februára 2027 vo švajčiarskom stredisku Crans-Montana, vyvolali medzi fanúšikmi rozruch. Ten sa snažila upokojiť legenda lyžovania a organizátori následne vysvetľovali, prečo suma vlastne nie je až taká vysoká",
+      "s": "Šport.sk",
+      "t": "Lístok na Petru Vlhovú za 200 eur? Hviezda lyžovania obhajuje ceny na šampionáte",
+      "ts": 1790928676.5636897,
+      "u": "b9482a1a07a0b4deccf1"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSmY0cjloT1BxWEFmN0k4U3g5NkVCMmVrLVcyRkFVNUduOEtycThhenZ6T1VmOEszNzFrcHlIOGVEYXFoYXZ2aVJfcTRRd3lYeDM0bW83RkRnT3JsZnlfeEh1UHlEdUlLdDhIZzBKVUpwdlNtYnNrZWZYekVMUkhUUGx6dGhpWGlhWTZSRU03bE5CeWJPa1N5OQ?oc=5",
+      "p": "Diskusia: FIFA ho absolútne nezaujíma. Infantina vo voľbách nevyzve ani prezident PSG Sportnet",
+      "s": "SPORTNET",
+      "t": "Diskusia: FIFA ho absolútne nezaujíma. Infantina vo voľbách nevyzve ani prezident PSG",
+      "ts": 1790928676.5636969,
+      "u": "ccca02697043be3bbad4"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/portugalsko-excelovalo-aj-bez-ronalda-n/996690-clanok.html",
+      "p": "Štyridsaťjedenročný Ronaldo bol v prvom stretnutí proti Walesu v základnej zostave, avšak proti Nórom už sledoval celý duel z lavičky.",
+      "s": "TERAZ.SK",
+      "t": "Portugalsko excelovalo aj bez Ronalda, Nóri prehrali vo Walese",
+      "ts": 1790928676.5637004,
+      "u": "ced7c84f45c2b7abf9d6"
     }
   ],
   "sport_source_status": {
@@ -16922,25 +16781,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1790927736.7089307
+      "ts": 1790928676.563588
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1790927736.7089329
+      "ts": 1790928676.5635903
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1790927736.7089357
+      "ts": 1790928676.5635934
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1790927736.7089345
+      "ts": 1790928676.563592
     }
   }
 }
