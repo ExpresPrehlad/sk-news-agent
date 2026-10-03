@@ -144,10 +144,10 @@
     "ts": 1791004251.2103436
   },
   "meta": {
-    "last_collection_ts": 1791004241.0713654,
+    "last_collection_ts": 1791005732.1304002,
     "last_feed_error_ts": 1790998537.1823123,
     "last_llm_error_ts": 1790944699.8246872,
-    "last_run_ts": 1791004241.3950799,
+    "last_run_ts": 1791005732.3979354,
     "last_synthesis_ts": 1791004251.2103376
   },
   "recent": [
@@ -4461,6 +4461,15 @@
       "t": "V sobotu má byť jasno a veľmi teplo",
       "ts": 1791004241.3939776,
       "u": "7dfc5631d917e8bb7c25"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1267518-elektricka-cislo-1-sa-vracia-na-namestie-snp-dpb-upravuje-aj-dalsie-linky",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Električka číslo 1 sa vracia na Námestie SNP. DPB upravuje aj ďalšie linky",
+      "ts": 1791005732.397334,
+      "u": "52b7f8d440ea53ac25ee"
     }
   ],
   "recent_alerts": [
@@ -7447,6 +7456,7 @@
     "44d86ae1b0e50b7a3307": 1790664938.1663468,
     "44d8bc917f4a3efd2f07": 1790436932.93997,
     "44e01fc4132aee8306df": 1790494541.5475905,
+    "44e840b19e7004c1fcc6": 1791005732.397342,
     "44eca58192f0352ba9ac": 1789986946.0295627,
     "450b8ccb5a181eb3addd": 1790566541.6460714,
     "450c03f08c8b95990da1": 1790603744.1625247,
@@ -7980,10 +7990,12 @@
     "52ab2fa2183722775c58": 1790912135.5366814,
     "52b20e3901387ff0a79f": 1790584546.2250977,
     "52b412b68e7e70033347": 1790652934.125295,
+    "52b7f8d440ea53ac25ee": 1791005732.3973305,
     "52bad3b7cb5957d1c54f": 1789981855.1461244,
     "52c3e810846673fbf225": 1789814134.1250126,
     "52c58bafa573e31c02fe": 1790321739.4797084,
     "52cac26905b0699cf7ea": 1790485842.7221274,
+    "52cb6fd3a309135233d6": 1791005732.3973432,
     "52cb89c391709c958bef": 1790998537.1825054,
     "52d424f4fc513d499d29": 1790480135.5712326,
     "52db99b69a7354be6429": 1790136644.025485,
@@ -12788,6 +12800,7 @@
     "d5da01ac767f6688bc85": 1790882447.322722,
     "d5db63493b1d215fe6cd": 1790825745.7244484,
     "d5dc45ef13e9b39260ef": 1789991743.9071202,
+    "d5df6aff872b73632f0c": 1791005732.3973396,
     "d5e030ef8743aa59545c": 1790268939.9049957,
     "d5e3d155028070cdef28": 1790764536.5379188,
     "d5e5fd0c94053e1fed52": 1790307335.215141,
@@ -13839,6 +13852,7 @@
     "f2a383de0949c2c8b016": 1790268939.9048045,
     "f2a939b4ff32e5993bef": 1790108443.353419,
     "f2b9885e435a6bebeca1": 1790663743.9947782,
+    "f2bca127d91f282b7019": 1791005732.3973448,
     "f2c242732888309932e6": 1790932248.378755,
     "f2ccc809edd489056182": 1790367644.5450287,
     "f2d3d0baaefe769b3c54": 1789961738.352725,
@@ -13940,6 +13954,7 @@
     "f557f9dc30cf0336ea52": 1790912135.536432,
     "f55af1066f56dc08f344": 1790230246.622988,
     "f55c139ff006d2f6b4c4": 1790493042.2834697,
+    "f569765e2449dce8c54d": 1791005732.397336,
     "f5709651702808f27f48": 1790421066.9063432,
     "f57ace123beb79403735": 1790068242.844375,
     "f59a19212826c4e1b8e1": 1790765739.9374912,
@@ -14348,104 +14363,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1791004241.393924
+      "ts": 1791005732.3973095
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1791004241.393926
+      "ts": 1791005732.3973107
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1791004241.393929
+      "ts": 1791005732.3973136
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1791004241.3939354
+      "ts": 1791005732.3973176
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1791004241.3939273
+      "ts": 1791005732.397312
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1791004241.3939054
+      "ts": 1791005732.3973029
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1791004241.3939216
+      "ts": 1791005732.3973074
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1791004241.3939338
+      "ts": 1791005732.397317
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1791004241.3939307
+      "ts": 1791005732.3973145
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1791004241.393932
+      "ts": 1791005732.3973155
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/alex-pereira-pozna-meno-nasledujuceho-supera-keby-som-vo-vsetkych-svojich-zapasoch-neriskoval-nebol-by-som-tym-kym-som-dnes-2026100203044419842",
-      "p": "Brazílčan Alex Pereira už pozná meno svojho nasledujúceho súpera. Alex Pereira sa mohol stať prvým MMA bojovníkom v histórii, ktorý by získal opasok šampióna v troch rôznych váhových divíziách. Po tom, ako v UFC získal korunu v strednej aj poloťažkej váhe, vydal sa na misiu do ťažkej váhy. V premiér",
-      "s": "Šport.sk",
-      "t": "Alex Pereira pozná meno nasledujúceho súpera: Keby som vo všetkých svojich zápasoch neriskoval, nebol by som tým, kým som dnes",
-      "ts": 1790921449.3011591,
-      "u": "084dba7b7288ef79d5e4"
-    },
-    {
-      "l": "https://sport.aktuality.sk/tenis/clanok/tenistky-v-buducom-roku-mozu-odohrat-menej-turnajov-a-zarobit-viac-penazi-2026100205290694796",
-      "p": "Ženská tenisová asociácia (WTA) v roku 2027 zníži počet turnajov, ktoré musia absolvovať hráčky z elitnej svetovej päťdesiatky. Reagovala tak na dlhodobú kritiku preplneného súťažného kalendára.",
-      "s": "Šport.sk",
-      "t": "Tenistky v budúcom roku môžu odohrať menej turnajov a zarobiť viac peňazí",
-      "ts": 1790921449.3011603,
-      "u": "bcd41b6d9bd65307b472"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY2xQWjZrNTY1eTZUdmxQenVhZm95M1pXQlNSZmp5QTBLanp3ZVNZZ0F4enp4VnRpU0JaLW5YalU0OURjTlp5eFJXa3FJZUF0dG1oRDhBQ0Q1R1l2M3RHVUpMQjJYdWtGTktBb3JnQTNLS2FydEpLcTJVZWZIWXpSMDFuWW9wM2R2YXNaXzFKQU5nWG1GaGFnLWVFcFRDMGp1aTVkS0hwdEVmdlNfRVdydTRLQTlVWFZSLUtTcg?oc=5",
-      "p": "Bál sa, že bude pred svetom vyzerať ako šašo. Brankár v čiapke s brmbolcom sa stal legendou Sportnet",
-      "s": "SPORTNET",
-      "t": "Bál sa, že bude pred svetom vyzerať ako šašo. Brankár v čiapke s brmbolcom sa stal legendou",
-      "ts": 1790921449.3011615,
-      "u": "588654778d26e511891b"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdFN1OEFROWQ4SEFfeE9QQlNtdE4zZzhXN21SMmdINTdNVjZ3RmZNaEdMMU1WUmRYS1VCdTR2LVhxR3Y2QllGWC1Hc0FCdm9aa0NadktKdHhjM0YxREJOTm5iM29Remw2VUNZUzlHZWpfZ0dWbEF6ajRFeThSMDEwazNJdkJRSV9RTldobmxHX29uWHB5aHZWbTUwV0pOX3JfdTZWTUE5SFc?oc=5",
-      "p": "Maličký tím si trúfa na Slovákov ako nikdy. Atrakcia je preč, má unikátne zbrane Sportnet",
-      "s": "SPORTNET",
-      "t": "Maličký tím si trúfa na Slovákov ako nikdy. Atrakcia je preč, má unikátne zbrane",
-      "ts": 1790921449.3011632,
-      "u": "bfe08933326821b11386"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/wta-znizila-pocet-povinnych-turnajov/996660-clanok.html",
-      "p": "Asociácia tiež oznámila zjednotenie odmien na turnajoch WTA 1000 a príslušných podujatiach ATP.",
-      "s": "TERAZ.SK",
-      "t": "WTA znížila počet povinných turnajov pre elitnú 50-ku v roku 2027",
-      "ts": 1790921449.301165,
-      "u": "377c1d6bffbdb91e950d"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/renato-veiga-dostal-instrukcie-cristiano-ronaldo-je-tabu-2026100122112766010",
       "p": "Renato Veiga, ktorý nastúpil v základnej zostave a odohral plnú minutáž vo všetkých troch zápasoch Portugalska pod vedením trénera Jorgeho Jesusa, zhodnotil ďalšie víťazstvo národného tímu, tentoraz v Dánsku 4:2.",
@@ -16405,6 +16380,46 @@
       "t": "VIDEO: Prvý slovenský gól v sezóne. Dvorský prispel k víťazstvu St. Louis",
       "ts": 1791004241.3939934,
       "u": "6062f65d9cb9c9a856b1"
+    },
+    {
+      "l": "https://sport.aktuality.sk/motosport/clanok/red-bull-strategia-na-treningu-a-prepad-verstappena-f1-2026100301282121439",
+      "p": "Max Verstappen bol najrýchlejší v prvom piatkovom tréningu pred Veľkou cenou Bahrajnu v Malajzii, no v druhej hodine prípravy na okruhu Sepang klesol na štvrtú priečku.",
+      "s": "Šport.sk",
+      "t": "Prečo dali v Red Bulle počas tréningu prednosť dlhým jazdám? Dôvod prepadu vysvetlil aj Max Verstappen",
+      "ts": 1791005732.3973386,
+      "u": "f569765e2449dce8c54d"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/liga-narodov-zapas-faerske-ostrovy-slovensko-hodnotia-experti-stvr-2026100223113571197",
+      "p": "„Bolo by ľahké teraz spustiť lavínu kritiky,“ hovoril po remíze Slovenska na Faerských ostrovoch Ladislav Borbély. Čo odznelo na výkon mužstva a aké sú jeho ďalšie vyhliadky? Rezonovalo aj účinkovanie výberu do 21 rokov na pôde Anglicka.",
+      "s": "Šport.sk",
+      "t": "Zápas, z ktorého boleli oči? Experti nechrlili síru. Padla aj zmienka o tom, ktorí hráči sklamali",
+      "ts": 1791005732.3973413,
+      "u": "d5df6aff872b73632f0c"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeWVJR2l5RVhCM0JObmJDbWF5YndEUEUwdkdNNUwwTWU2NkFyR3dwVldfNnUyTXkzUE11cVNtUUNLVTF3Y0pMeThXLVNuZ0Q0bkFTWm5vUjc5SlFPTl80TnBFaFJPZzlTcGRuMEVuanpCOU54RUN5alY5WHF4eVZHNVp1VkY4ODFFa2ROSmlxcGlwRTdHYThGSzhlWV8tYnA3ODV5THcwX3hWbzJwZk0zVHNXb190U0p2RGNoT1NR?oc=5",
+      "p": "Slovákov zachránil a pobavil: Som svetový brankár. To bol umelý betón, tvrdil Sportnet",
+      "s": "SPORTNET",
+      "t": "Slovákov zachránil a pobavil: Som svetový brankár. To bol umelý betón, tvrdil",
+      "ts": 1791005732.3973427,
+      "u": "44e840b19e7004c1fcc6"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/greif-podrzal-slovakov-mrzel-ho-gol/996934-clanok.html",
+      "p": "Po strele Sörensena v druhom polčase, a dopade z väčšej výšky, zostal Greif nachvíľu ležať na umelom trávniku.",
+      "s": "TERAZ.SK",
+      "t": "Greif podržal Slovákov, mrzel ho gól na 1:1: „Lacná situácia“",
+      "ts": 1791005732.3973444,
+      "u": "52cb6fd3a309135233d6"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/dvorsky-strelil-gol-washington-s-fehe/996929-clanok.html",
+      "p": "Jeho St. Louis Blues aj vďaka tomu zvíťazilo na ľade Dallasu 4:0.",
+      "s": "TERAZ.SK",
+      "t": "Dvorský strelil gól, Washington s Fehervárym uspel v Caroline 5:2",
+      "ts": 1791005732.3973453,
+      "u": "f2bca127d91f282b7019"
     }
   ],
   "sport_source_status": {
@@ -16412,25 +16427,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1791004241.3939407
+      "ts": 1791005732.39732
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1791004241.3939433
+      "ts": 1791005732.3973217
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1791004241.3939462
+      "ts": 1791005732.3973248
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1791004241.3939447
+      "ts": 1791005732.3973234
     }
   }
 }
