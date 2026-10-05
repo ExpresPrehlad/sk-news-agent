@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Výročie narodenia Václava Havla",
-      "ts": 1791173446.3062227
-    },
-    {
-      "headline": "Otázky okolo financií Ivana Korčoka",
-      "ts": 1791173446.3062227
-    },
-    {
-      "headline": "Masívny ruský útok dronmi na ukrajinské mestá",
-      "ts": 1791173446.3062227
-    },
-    {
-      "headline": "Tragická dopravná nehoda v réžii mladistvého",
-      "ts": 1791173446.3062227
-    },
-    {
-      "headline": "Problémy v slovenskom zdravotníctve a doprave",
-      "ts": 1791173446.3062227
-    },
-    {
       "headline": "Rakúsky vicekancelár Babler končí vo funkciách",
       "ts": 1791177145.0357192
     },
@@ -119,78 +99,94 @@
     {
       "headline": "Zrážka s medveďom pri Ružomberku",
       "ts": 1791185747.9983678
+    },
+    {
+      "headline": "Na Slovensku potvrdili prvé prípady katarálnej horúčky oviec",
+      "ts": 1791187881.1869462
+    },
+    {
+      "headline": "FBI zadržala Číňanku pre špionáž v prospech Pekingu",
+      "ts": 1791187881.1869462
+    },
+    {
+      "headline": "Oslavy 90. narodenín Václava Havla",
+      "ts": 1791187881.1869462
+    },
+    {
+      "headline": "Podozrenie z nelegálneho zamestnávania u Korčokovcov",
+      "ts": 1791187881.1869462
+    },
+    {
+      "headline": "Estónsko posilňuje obranu pri ruských hraniciach",
+      "ts": 1791187881.1869462
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.1-flash-lite",
     "topics": [
       {
-        "headline": "Španielsko čakajú predčasné voľby",
+        "headline": "Na Slovensku potvrdili prvé prípady katarálnej horúčky oviec",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/JZtCI5F/na-slovensku-potvrdili-prve-pripady-kataralnej-horucky-oviec-nakazil-sa-dobytok-na-severe-a-juhu/"
+          ]
+        ],
+        "perex": "Štátna veterinárna a potravinová správa potvrdila výskyt nákazy u hovädzieho dobytka na severe a juhu krajiny. Pre zasiahnuté chovy už platia obmedzenia, no zvieratá podľa úradov zatiaľ utrácať nemusia."
+      },
+      {
+        "headline": "FBI zadržala Číňanku pre špionáž v prospech Pekingu",
         "links": [
           [
             "SME",
-            "https://www.sme.sk/svet/c/byvaly-britsky-princ-andrew-zazaloval-policiu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+            "https://www.sme.sk/svet/c/v-usa-zadrzali-cinanku-pre-spionaz-bola-nasadena-na-syna-prezidenta-taiwanu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Americké úrady obvinili ženu z tajného zhromažďovania informácií o rodine taiwanského prezidenta. Prípad podľa Taiwanu poukazuje na pokračujúci cezhraničný nátlak zo strany Číny."
+      },
+      {
+        "headline": "Oslavy 90. narodenín Václava Havla",
+        "links": [
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/pred-90-rokmi-sa-narodil-vaclav-havel/997147-clanok.html"
           ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/OyxeWw9/vaclav-havel-by-sa-dozil-90-rokov-najviac-ho-trapil-rozpad-ceskoslovenska/"
+          ]
+        ],
+        "perex": "Slovenské a české médiá si pripomínajú nedožité 90. narodeniny posledného česko-slovenského prezidenta. Spomienky sa zameriavajú na jeho politický odkaz, boj za federáciu aj umeleckú tvorbu."
+      },
+      {
+        "headline": "Podozrenie z nelegálneho zamestnávania u Korčokovcov",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/xnQWeyi/sona-korcokova-si-az-teraz-vyplatila-dividendy-59-tisic-eur-ivan-korcok-zil-rok-a-pol-bez-vyplaty/"
+          ]
+        ],
+        "perex": "Progresívne Slovensko čelí otázkam ohľadom platieb firme manželky Ivana Korčoka za prácu, ktorú mal vykonávať exminister. Strana tvrdí, že išlo o odmenu za jeho činnosť, pričom on sám mal byť rok a pol bez výplaty."
+      },
+      {
+        "headline": "Estónsko posilňuje obranu pri ruských hraniciach",
+        "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2052801-spanielsko-cakaju-predcasne-volby-sanchez-oznamil-termin-aj-svoj-plan?utm_source=rss&utm_medium=feed&utm_campaign=rss"
+            "https://www.pravda.sk/spravy/svet/clanok/2052825-estonsko-presuva-armadu-k-ruskym-hraniciam-buduje-zakladne-a-pripravuje-udery-do-hlbky/"
           ]
         ],
-        "perex": "Premiér Pedro Sánchez vyhlásil predčasné parlamentné voľby, ktoré sa uskutočnia 29. novembra. Dôvodom sú pretrvávajúce protivládne protesty a neúspech kabinetu pri riešení bytovej krízy."
-      },
-      {
-        "headline": "Princ Andrew žaluje políciu",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/byvaly-britsky-princ-andrew-zazaloval-policiu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/xcAjWQy/byvaly-princ-andrew-podnikol-pravne-kroky-protipolicii-ide-o-vysetrovanie-pre-epsteina/"
-          ]
-        ],
-        "perex": "Brat britského kráľa podal žalobu na políciu v súvislosti s vyšetrovaním jeho kontaktov s Jeffreym Epsteinom. Princ dlhodobo odmieta akékoľvek pochybenie pri výkone svojich niekdajších diplomatických funkcií."
-      },
-      {
-        "headline": "Rusko plánuje rekordné zbrojenie",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/o1mjSqM/putin-opat-zvysuje-pocet-vojakov-rusko-planuje-rekordny-obranny-rozpocet-aj-nove-dane/"
-          ]
-        ],
-        "perex": "Kremeľ pripravuje na rok 2027 rekordný obranný rozpočet a zároveň opäť zvyšuje počet vojakov v ozbrojených silách. Ruská ekonomika sa tak čoraz viac orientuje na financovanie vojnového konfliktu."
-      },
-      {
-        "headline": "Tragická prestrelka v USA",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/krimi/1268148-hadka-o-parkovacie-miesto-skoncila-prestrelkou-zomrelo-12-rocne-dievcatko"
-          ]
-        ],
-        "perex": "Hádka o parkovacie miesto v americkom štáte Georgia vyústila do streľby, pri ktorej zahynulo 12-ročné dievča. Incident je ďalším zo série násilných činov, ktoré v posledných dňoch zasiahli tento región."
-      },
-      {
-        "headline": "Zrážka s medveďom pri Ružomberku",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/krimi/1268149-ranna-zrazka-na-ceste-z-ruzomberka-dodavka-zrazila-medvieda-zviera-neprezilo"
-          ]
-        ],
-        "perex": "Na ceste pri Ružomberku došlo k tragickej dopravnej nehode, pri ktorej dodávka zrazila medveďa. Zviera náraz neprežilo, pričom ide o ďalší incident na cestách v tomto regióne."
+        "perex": "Estónska armáda presúva svoju hlavnú bojovú brigádu do blízkosti hraníc s Ruskom. Krajina zároveň buduje nové základne a zvyšuje svoje kapacity na zasiahnutie cieľov hlboko na ruskom území."
       }
     ],
-    "ts": 1791185747.998359
+    "ts": 1791187881.186938
   },
   "meta": {
-    "last_collection_ts": 1791186938.0725987,
+    "last_collection_ts": 1791187845.6908848,
     "last_feed_error_ts": 1791171337.1572242,
     "last_llm_error_ts": 1791182175.4891908,
-    "last_run_ts": 1791186939.1973462,
-    "last_synthesis_ts": 1791185747.9983542
+    "last_run_ts": 1791187846.122889,
+    "last_synthesis_ts": 1791187881.186934
   },
   "recent": [
     {
@@ -3423,6 +3419,51 @@
       "t": "Riaditeľ domova pre ľudí s mentálnym postihnutím sexuálne zneužíval svoje zverenkyne",
       "ts": 1791186939.196689,
       "u": "aa4f077e260207d7c80f"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/separatisti-v-quebecu-lakaju-volicov-na-dalsie-referendum-o-odtrhnuti-sa-od-kanady?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Québec už hlasoval dvakrát.",
+      "pub": 1791187284.0,
+      "s": "SME",
+      "t": "Separatisti v Québecu lákajú voličov na ďalšie referendum o odtrhnutí sa od Kanady",
+      "ts": 1791187846.122364,
+      "u": "00dcd70c12c8c08068cd"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/JZtCI5F/na-slovensku-potvrdili-prve-pripady-kataralnej-horucky-oviec-nakazil-sa-dobytok-na-severe-a-juhu/",
+      "p": "Úrady už pre zasiahnuté chovy vydali prvé obmedzenia, no farmárov ubezpečujú, že zvieratá sa utrácať nemusia.",
+      "pub": 1791187259.0,
+      "s": "Aktuality",
+      "t": "Na Slovensku potvrdili prvé prípady katarálnej horúčky oviec. Nakazil sa dobytok na severe a juhu",
+      "ts": 1791187846.122368,
+      "u": "628914733986034adee6"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/et1iE0b/fbi-zadrzala-cinanku-pre-podozrenie-zo-spionaze-mala-sledovat-syna-prezidenta-taiwanu/",
+      "p": "Prípad podľa Taiwanu ukazuje na cezhraničný nátlak Pekingu. Obvinená žena mala od roku 2025 v USA tajne zhromažďovať informácie o prezidentovej rodine.",
+      "pub": 1791187200.0,
+      "s": "Aktuality",
+      "t": "FBI zadržala Číňanku pre podozrenie zo špionáže. Mala sledovať syna prezidenta Taiwanu",
+      "ts": 1791187846.1223698,
+      "u": "ec18792f35d3225c459e"
+    },
+    {
+      "l": "https://dennikn.sk/5545427/hrdinka-kristina-makova-mlade-romky-uz-maju-aj-ine-sny-ako-velku-rodinu-chcu-nieco-dokazat-a-prejavit-sa/",
+      "p": "Rómska aktivistka a organizátorka pripomienky rómskeho holokaustu v Banskej Bystrici Kristína Maková si sama prešla obdobím, keď hľadala svoju identitu. „Na jednej strane som chcela byť len s Rómami, potom som chcela byť úplne len s majoritou, ale po čase som pochopila, že sme v tom všetci spoločne,",
+      "pub": 1791187189.0,
+      "s": "Denník N",
+      "t": "Hrdinka Kristína Maková: Mladé Rómky už majú aj iné sny ako veľkú rodinu. Chcú niečo dokázať a prejaviť sa",
+      "ts": 1791187846.1223717,
+      "u": "06f27fff6e6a588ad2b9"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2052851-nova-hrozba-pre-slovensky-dobytok-veterinari-potvrdili-dva-pripady-nakazy?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Štátna veterinárna a potravinová správa SR informovala o výskyte dvoch prípadov katarálnej horúčky oviec u hovädzieho dobytka na Slovensku. Ako v pondelok uviedla na sociálnej sieti, jeden sa vyskytol v okrese Čadca a druhý v okrese Žarnovica.",
+      "pub": 1791187104.0,
+      "s": "Pravda",
+      "t": "Nová hrozba pre slovenský dobytok? Veterinári potvrdili dva prípady nákazy",
+      "ts": 1791187846.1223733,
+      "u": "6bcc6cc505b4a59227e9"
     }
   ],
   "recent_alerts": [
@@ -3956,6 +3997,7 @@
     "00d76b544e724e6877c5": 1790079049.8663595,
     "00dadcdc8d3b2b007282": 1790232938.2656918,
     "00db60983b3062daf8b1": 1790250937.3868022,
+    "00dcd70c12c8c08068cd": 1791187846.1223598,
     "00e197e69e0c9dc42f20": 1790157343.174372,
     "00e4c6fc55a394b5b965": 1790950249.67335,
     "00ef8333e2a5964004c5": 1790931337.40619,
@@ -4178,6 +4220,7 @@
     "06d24e79f3d0a2d93d3e": 1791018644.7856207,
     "06e1716787aa26b07f09": 1790589342.0900486,
     "06eb8cf96fa1fc423f24": 1790350540.5825217,
+    "06f27fff6e6a588ad2b9": 1791187846.1223705,
     "06fb1c64781c7a2bb0b0": 1790949340.5553346,
     "06ffba2392504cad73da": 1790087750.6386328,
     "07044d7aab2330c62560": 1790692541.7324855,
@@ -4540,7 +4583,6 @@
     "10891437b362363802fc": 1790664938.1662564,
     "108939959a0fe1a34757": 1790344541.7992527,
     "108ba26b2ea6b1cd57fb": 1790339739.5177274,
-    "10988b6387eac77c3cfc": 1789978239.9000819,
     "109a8b17f46440cb7b5d": 1790739343.61819,
     "10a74c714ec4c9931a3a": 1790849446.6987774,
     "10adc82c2e9d52996ea2": 1790170539.213178,
@@ -4776,7 +4818,6 @@
     "16a9145ed8380f26203a": 1791084933.6441453,
     "16b537647b0525db8368": 1790844934.7555833,
     "16b62f52f438baac920c": 1790393735.3907852,
-    "16b7351e4c282675c1df": 1789978239.900095,
     "16be099619169737313a": 1790146537.3854768,
     "16be8c5f7768bb677928": 1789986946.029561,
     "16c3d596595e0941ce56": 1790652934.12525,
@@ -4969,6 +5010,7 @@
     "1c57934e2fb3f4fcfb9b": 1790309444.4162452,
     "1c599551f2414802ddd4": 1790079049.8663833,
     "1c5e7a0db83c0acdeca4": 1790745649.464101,
+    "1c60dd6b8ea0b1e7650a": 1791187846.122379,
     "1c637bf1f0ec29808a95": 1790253338.0681033,
     "1c63ccc1f449b49bf27e": 1790433339.526541,
     "1c6581c01b11375ffc59": 1790340941.1610973,
@@ -4996,6 +5038,7 @@
     "1cee4e07a97226621615": 1790960140.5098097,
     "1cf08e012ea07cb23eb6": 1790526045.8379242,
     "1d113442711512653e4b": 1790591735.3255591,
+    "1d1293d8f87382d80a2e": 1791187846.1223772,
     "1d1b0e31c539f60f2457": 1790942142.5306964,
     "1d286b8296c61ad759a6": 1790578180.8741312,
     "1d34aaf0eb785eb8d92c": 1789988143.4169586,
@@ -5810,7 +5853,6 @@
     "33c6f7012d3132f7c62f": 1790867465.4252734,
     "33d1f2d6a4d595e582b5": 1790865337.2571309,
     "33d6218ec68737ce4b90": 1790829332.9477992,
-    "33de6fc3b1c339b53024": 1789978239.9000928,
     "33e4f32e3d61db4e5229": 1790589342.0900598,
     "33ec1379ce4f5c99625f": 1791138037.8403125,
     "33ed9cc3ebe91d3033c9": 1790355341.070261,
@@ -7012,7 +7054,6 @@
     "5307d9a36e1e3f1e9f6e": 1790739343.6181931,
     "5312993942d3d62f1513": 1790792444.6875718,
     "53185db3326a37f63cd1": 1790831442.0460615,
-    "532578bd99bfa5095b47": 1789978239.900079,
     "532842e1dd27b4b4bfff": 1791023734.5725358,
     "532af9eda9547399752e": 1791023734.572537,
     "533895dc0791ea9d4c7b": 1790100646.1746151,
@@ -7296,7 +7337,6 @@
     "5a264281233b528b63f9": 1790360445.2639194,
     "5a32cd9b5213d089b306": 1791084933.644154,
     "5a3596d92789c6f6d511": 1791182156.4129367,
-    "5a36e518ca05d0c381b4": 1789978239.9000747,
     "5a392f06e72829d65123": 1790258140.0634973,
     "5a4dd841f170e6003f23": 1790850943.222693,
     "5a4e00f84bc6132d5aa7": 1790943041.7232413,
@@ -7416,7 +7456,6 @@
     "5d0f6d31e266f5783503": 1791118538.0958984,
     "5d21ca2e5f300a6cec23": 1791027338.4693604,
     "5d2f534ea69842a2a3c6": 1790079049.866364,
-    "5d38b11ca7b61ccc3e53": 1789978239.900089,
     "5d39e58aa66a90b3088d": 1790778950.7564697,
     "5d4462c3a70e7fa1ae4b": 1790951738.3998542,
     "5d473bd304da45802730": 1790073333.1603446,
@@ -7629,6 +7668,7 @@
     "627481e154f148807c7f": 1790595340.0335057,
     "62790cf069d1ee460dea": 1790002543.9667356,
     "627f0e7251270213e30e": 1790780135.7614365,
+    "628914733986034adee6": 1791187846.1223657,
     "629519310e7808ff1336": 1790393735.3908134,
     "6297748f7ef4f363df2b": 1790948140.710599,
     "629a74f05216b7c38fcc": 1791171337.1573026,
@@ -7964,6 +8004,7 @@
     "6bba181e3621b8260e59": 1790164535.074977,
     "6bc3e86137b610d7ddee": 1790672136.7930539,
     "6bcb3d87532714a74e58": 1791084933.6441765,
+    "6bcc6cc505b4a59227e9": 1791187846.1223722,
     "6bcd58eda8477775673e": 1790069737.5933404,
     "6bd866d44921a921dec1": 1790327442.3633401,
     "6be05d401cb57860746f": 1790480135.5712824,
@@ -8451,7 +8492,6 @@
     "78e79b88f0679809c405": 1790739343.6179247,
     "78e7b1d03cedc971c808": 1790482240.1960766,
     "78e7d7b9425eed2ed162": 1790061046.8873682,
-    "78eb76da888731045af8": 1789978239.9000835,
     "78ed6f03d4738fc32d55": 1790307335.2151303,
     "78f31847610f12a648d5": 1791043845.0119743,
     "78fa7fb9d0bd1185ceb4": 1790009739.3538182,
@@ -9155,7 +9195,6 @@
     "8b79411552c96972bc60": 1790343334.8792672,
     "8b86dc0ad211d7941d65": 1790152563.4713686,
     "8b8be5bfb321e871d964": 1790790936.8340976,
-    "8b922098a61aab8b6ec9": 1789978239.900094,
     "8b9d4699ac9a3ff34671": 1790842236.6845024,
     "8ba5b1fc6220400a8499": 1790136644.0255008,
     "8bbb26f60ad829f5e8cd": 1790616042.6702318,
@@ -9199,7 +9238,6 @@
     "8d1883d7db6442c20257": 1790674543.1710906,
     "8d1979f10b6852d6d03a": 1790480135.571253,
     "8d28f28f3cb086bd911e": 1789999847.7274518,
-    "8d3270016ce665758914": 1789978239.9000857,
     "8d4819a281503a39f5c8": 1790868934.1340444,
     "8d48c503badb0b24ca4c": 1790829332.9477966,
     "8d53185574eabcad8949": 1790505336.0610826,
@@ -9215,7 +9253,6 @@
     "8d76c08d3e8aaf5c3e04": 1790048145.9764,
     "8d863dd7afcf9f994bc0": 1791171337.157506,
     "8da1ab93764a68f847bf": 1790764536.5378675,
-    "8dafe3af33c395d09d77": 1789978239.9000683,
     "8db300da80c7d21d7b44": 1790912135.5367029,
     "8db7b1d8cb284462cfbc": 1790943041.7232382,
     "8db7bffb16eecfdce316": 1790785275.640702,
@@ -10654,6 +10691,7 @@
     "b57ff2469eebc61349fe": 1790146537.3854733,
     "b58599ee1f0acd44b465": 1790258140.0634904,
     "b588d4385059d7e56e09": 1790220945.163872,
+    "b58d5a52803b904d78e3": 1791187846.122374,
     "b58dfa6a13e887b4035b": 1790660140.2171028,
     "b59b96b65f3756b14676": 1790105745.753828,
     "b5a6c7bfd4b90727f494": 1790147443.2510488,
@@ -11484,7 +11522,6 @@
     "cc47317d617c11ffba61": 1790606139.6430101,
     "cc51882c22b2b8e006e0": 1790688934.8906922,
     "cc5dba8d99bff499f8d5": 1790691055.510256,
-    "cc7367daee56261ce0c6": 1789978239.9000776,
     "cc796f1a918a4da7e35a": 1790854541.4407308,
     "cc7c731fbf5f3a9f3b40": 1790850943.2224944,
     "cc824d96d7c515d55960": 1790662238.775607,
@@ -12671,6 +12708,7 @@
     "ec062b6449ee95351d3d": 1791002135.914094,
     "ec089caaf343baf2a485": 1790856638.604063,
     "ec0c0a8ed6461e27070f": 1790865337.2572815,
+    "ec18792f35d3225c459e": 1791187846.1223688,
     "ec23865b3235c08f0645": 1790685338.776661,
     "ec2d1b05186e6e412c6b": 1790408131.4512057,
     "ec2e6870b14be87899fb": 1790926540.622007,
@@ -12922,7 +12960,6 @@
     "f3299b62eacc94872a2a": 1791134440.093294,
     "f3333accfb00f9491f81": 1790157343.1744163,
     "f3426a8ae7ccbb0d726c": 1790753738.956432,
-    "f3447538a05070f1c80f": 1789978239.9000914,
     "f34b30b9e3c29e846c9a": 1790307335.2151434,
     "f34fedc6d8b31e35671a": 1791101784.3059163,
     "f35c0e50f532937b191f": 1791107732.6386197,
@@ -13026,7 +13063,6 @@
     "f5b6940899e0509a4139": 1790325370.8192286,
     "f5ba195d44dae1241928": 1790696147.2224827,
     "f5be99d10cb9e598c561": 1790446242.2736247,
-    "f5cf74856997dfc777e5": 1789978239.9000802,
     "f5d632a288daff2e200e": 1790336141.1106343,
     "f5fd5255344494b02ca2": 1790417437.2167718,
     "f601a5d2476d9fcfc3cd": 1790084139.9884462,
@@ -13412,61 +13448,61 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1791186939.1966288
+      "ts": 1791187846.1223397
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1791186939.19663
+      "ts": 1791187846.1223412
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1791186939.1966326
+      "ts": 1791187846.122343
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1791186939.1966374
+      "ts": 1791187846.1223474
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1791186939.1966312
+      "ts": 1791187846.122342
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1791186939.196621
+      "ts": 1791187846.1223333
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1791186939.1966264
+      "ts": 1791187846.1223378
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1791186939.1966362
+      "ts": 1791187846.1223462
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1791186939.1966338
+      "ts": 1791187846.1223445
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1791186939.1966348
+      "ts": 1791187846.1223452
     }
   },
   "sport_recent": [
@@ -15037,6 +15073,30 @@
       "t": "Hrdá dedina sa vyhrieva na bedni s bývalými ligistami Nitrou a Púchovom. Tréner si dáva iba jeden cieľ",
       "ts": 1791186939.196858,
       "u": "c2d357c5d78d0dee9300"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/medzinarodny-maraton-mieru-je-aj-o-nevsednych-pribehoch-jeden-napisal-77-rocny-peter-polak-2026100507500338059",
+      "p": "Medzinárodný maratón mieru v Košiciach je nielen o výkonoch špičkových vytrvalcov, ale aj o nevšedných príbehoch účastníkov.",
+      "s": "Šport.sk",
+      "t": "Medzinárodný maratón mieru je aj o nevšedných príbehoch. Jeden napísal 77-ročný Peter Polák",
+      "ts": 1791187846.1223764,
+      "u": "b58d5a52803b904d78e3"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUEF3c0xOQVlDcTZVWVBFZTZSa0ZIazFqY0VMbHdjWDlCdjV1SFV5aElBX1YtSXNiQXhUak9LRmxock84bkdwcUJuakllTGZRNTg3d2NNMnRpbF9fcWk4YlFWQ0xoOEo5c21aV1NUYkJBV09iaXN3UmJocjdKSk1QY1hSdzJ5dFdvbEFXUg?oc=5",
+      "p": "VIDEO: Suchoty Slovákov aj trápenie na úvod. Calgary stále čaká na prvé víťazstvo sportnet.sme.sk",
+      "s": "SPORTNET",
+      "t": "VIDEO: Suchoty Slovákov aj trápenie na úvod. Calgary stále čaká na prvé víťazstvo - sportnet.sme.sk",
+      "ts": 1791187846.1223786,
+      "u": "1d1293d8f87382d80a2e"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/polak-ako-prvy-absolvoval-50-kosicky/997262-clanok.html",
+      "p": "Projekt Diamantový klub MMM eviduje všetkých, ktorí aspoň 25-krát dokončili kráľovskú trať košického maratónu.",
+      "s": "TERAZ.SK",
+      "t": "Polák ako prvý absolvoval 50 košických maratónov: Bola to rehoľa",
+      "ts": 1791187846.1223795,
+      "u": "1c60dd6b8ea0b1e7650a"
     }
   ],
   "sport_source_status": {
@@ -15044,25 +15104,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1791186939.1966395
+      "ts": 1791187846.1223493
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1791186939.1966414
+      "ts": 1791187846.1223514
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1791186939.1966448
+      "ts": 1791187846.122354
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1791186939.1966434
+      "ts": 1791187846.1223526
     }
   }
 }
