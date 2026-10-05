@@ -1,22 +1,7 @@
-import sys
-import types
 import unittest
+from unittest.mock import patch
 
-
-fake_router = types.ModuleType("src.llm.router")
-
-
-class FakeAllModelsFailed(RuntimeError):
-    pass
-
-
-fake_router.AllModelsFailed = FakeAllModelsFailed
-fake_llm = types.ModuleType("src.llm")
-fake_llm.router = fake_router
-sys.modules.setdefault("src.llm", fake_llm)
-sys.modules.setdefault("src.llm.router", fake_router)
-
-from src import digest  # noqa: E402
+from src import digest
 
 
 class TriagePolicyTests(unittest.TestCase):
@@ -28,7 +13,7 @@ class TriagePolicyTests(unittest.TestCase):
         self.assertIn("KRIMI nie je zakázané", digest._TRIAGE_SYSTEM)
 
     def test_triage_parses_and_normalizes_decision_signals(self):
-        fake_router.generate = lambda *args, **kwargs: (
+        response = (
             """
             {"alerts":[{
               "title":"Nehoda v chemickom závode",
@@ -47,6 +32,9 @@ class TriagePolicyTests(unittest.TestCase):
             """,
             "test-model",
         )
+        mock_router = patch.object(digest.router, "generate", return_value=response)
+        mock_router.start()
+        self.addCleanup(mock_router.stop)
         alerts, model, valid = digest.triage(
             [
                 {

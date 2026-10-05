@@ -20,6 +20,7 @@ from dataclasses import dataclass
 
 from .llm import router
 from .llm.router import AllModelsFailed
+from .llm.contracts import resolve_source_link, selection_schema, validate_selection
 
 log = logging.getLogger(__name__)
 
@@ -267,14 +268,21 @@ def triage(
     if known_context:
         user += "\n\nUž pokryté témy za posledné hodiny (kontext, neposudzuj tieto):\n"
         user += _fmt_context_titles(known_context)
-    text, model = router.generate(_TRIAGE_SYSTEM, user, max_tokens=2048)
+    allowed_links = {a["l"] for a in new_articles}
+    text, model = router.generate(
+        _TRIAGE_SYSTEM, user, max_tokens=2048, task="triage",
+        response_schema=selection_schema("triage"),
+        validator=lambda result: validate_selection(
+            result, "triage", allowed_links,
+        ),
+    )
     try:
         data = _parse_llm_json(text, "alerts")
         alerts = [
             Alert(
                 title=str(a.get("title", ""))[:250],
                 reason=str(a.get("reason", ""))[:400],
-                links=[str(x) for x in (a.get("links") or [])][:3],
+                links=[resolve_source_link(x, allowed_links) for x in a["links"]][:3],
                 signals=_clean_triage_signals(a.get("signals")),
             )
             for a in data.get("alerts", [])
@@ -335,7 +343,14 @@ def synthesize(
         user += "\n\nUž zobrazené témy za posledné hodiny (nevracaj ich znova, "
         user += "ibaže by prinášali zásadne nový vývoj):\n"
         user += "\n".join(f"- {h}" for h in already_featured)
-    text, model = router.generate(_SYNTHESIS_SYSTEM, user, max_tokens=4096)
+    allowed_links = {a["l"] for a in articles}
+    text, model = router.generate(
+        _SYNTHESIS_SYSTEM, user, max_tokens=4096, task="synthesis",
+        response_schema=selection_schema("synthesis"),
+        validator=lambda result: validate_selection(
+            result, "synthesis", allowed_links,
+        ),
+    )
     # Spätné priradenie link → názov zdroja z pôvodných vstupných článkov —
     # spoľahlivejšie než nechať model vracať/hádať mená zdrojov.
     link_to_source = {a["l"]: a["s"] for a in articles}
@@ -345,7 +360,7 @@ def synthesize(
         for t in data.get("topics", []):
             if not (t.get("headline") and t.get("perex")):
                 continue
-            raw_links = [str(x) for x in (t.get("links") or [])][:3]
+            raw_links = [resolve_source_link(x, allowed_links) for x in t["links"]][:3]
             links = [
                 (link_to_source.get(link) or _domain_label(link), link)
                 for link in raw_links

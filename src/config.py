@@ -160,26 +160,33 @@ class DiscordConfig:
 GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
 OPENROUTER_API_KEY: str = os.environ.get("OPENROUTER_API_KEY", "")
 
-# Eskalačná reťaz: skúša sa zhora nadol, prvý úspech vyhráva.
-# Gemini modely majú najvyššie free RPD, preto sú prvé. OpenRouter free
-# modely rotujú takmer bez varovania — preto zoznam + auto-router na konci.
-GEMINI_MODELS: list[str] = [
+# Ponuka free tier overená 2026-10-05. Gemini musí používať projekt vo FREE
+# režime v AI Studio: samotné model ID neblokuje účtovanie v platenom projekte.
+# Kvóty závisia od projektu; pri nedostupnosti zostávajú aj pôvodné modely.
+GEMINI_TRIAGE_MODELS: list[str] = [
+    "gemini-3.5-flash-lite",
     "gemini-3.1-flash-lite",
     "gemini-3.5-flash",
 ]
+GEMINI_SYNTHESIS_MODELS: list[str] = [
+    "gemini-3.8-flash",
+    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite",
+]
+# Spätná kompatibilita pre volania bez určenia úlohy.
+GEMINI_MODELS: list[str] = GEMINI_TRIAGE_MODELS
 OPENROUTER_MODELS: list[str] = [
-    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
     "google/gemma-4-31b-it:free",
-    "openai/gpt-oss-20b:free",
-    # auto-router — posledná záchrana. Pozor: vie vybrať aj nevhodný
-    # špecializovaný model (napr. Nemotron 3.5 Content Safety, ktorý
-    # vracia len bezpečnostný verdikt, nie voľný JSON) — preto je až
-    # na konci, nikdy nie ako prvá voľba.
-    "openrouter/free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
 ]
 
 # Timeout pre LLM volania (sekundy) — syntéza s väčším vstupom potrebuje čas.
 LLM_TIMEOUT: float = 60.0
+# Rozpočet reťaze na jednu úlohu; dva dopyty musia nechať čas na zber
+# a uloženie v 10-minútovom workflow. Bez slepých retry či čakania.
+LLM_CHAIN_TIMEOUT: float = 180.0
 
 # Syntéza TOP tém: interval sa berie z aktuálneho SCHEDULE_BANDS pásma
 # (rôzny cez deň/víkend) — pozri nižšie. Triáž beží pri každom reálnom

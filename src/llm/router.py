@@ -1,24 +1,22 @@
-"""
-LLM router — eskalačná reťaz.
-
-Poradie: Gemini modely (najvyšší free RPD) → OpenRouter free zoznam →
-openrouter/free auto-router. Prvý úspech vyhráva; každé zlyhanie sa
-zaloguje a pokračuje sa ďalej. Ak padne všetko, vyhodí AllModelsFailed —
-volajúci rozhodne, či to je dôvod na Discord error alert.
-
-Vracia (text, model_id), aby výstup mohol niesť indikátor modelu —
-redakcia má vedieť, kedy číta výstup zo slabšieho fallback modelu.
-"""
+"""Task-specific, free-model fallback with validation before acceptance."""
 
 from __future__ import annotations
 
 import logging
+import time
+from collections.abc import Callable
 
-from ..config import GEMINI_MODELS, OPENROUTER_MODELS
+from ..config import (
+    GEMINI_MODELS, GEMINI_TRIAGE_MODELS, GEMINI_SYNTHESIS_MODELS,
+    OPENROUTER_MODELS, LLM_TIMEOUT, LLM_CHAIN_TIMEOUT,
+)
 from . import gemini, openrouter
-from .gemini import LLMError
+from .gemini import LLMError, RateLimited
 
 log = logging.getLogger(__name__)
+
+# Process-local only: no new writes to generated state or selection logs.
+_cooldowns: dict[str, float] = {}
 
 
 class AllModelsFailed(Exception):
@@ -27,23 +25,62 @@ class AllModelsFailed(Exception):
         self.errors = errors
 
 
-def generate(system: str, user: str, max_tokens: int = 2048) -> tuple[str, str]:
+def generate(
+    system: str, user: str, max_tokens: int = 2048, *,
+    task: str = "generic", response_schema: dict | None = None,
+    validator: Callable[[str], None] | None = None,
+) -> tuple[str, str]:
     errors: list[str] = []
-
-    for model in GEMINI_MODELS:
-        try:
-            text = gemini.generate(model, system, user, max_tokens)
-            return text, f"gemini/{model}"
-        except LLMError as exc:
-            log.warning("Model gemini/%s zlyhal: %s", model, exc)
-            errors.append(f"gemini/{model}: {exc}")
-
-    for model in OPENROUTER_MODELS:
-        try:
-            text = openrouter.generate(model, system, user, max_tokens)
-            return text, f"openrouter/{model}"
-        except LLMError as exc:
-            log.warning("Model openrouter/%s zlyhal: %s", model, exc)
-            errors.append(f"openrouter/{model}: {exc}")
-
+    models = {
+        "triage": GEMINI_TRIAGE_MODELS,
+        "synthesis": GEMINI_SYNTHESIS_MODELS,
+    }.get(task, GEMINI_MODELS)
+    deadline = time.monotonic() + LLM_CHAIN_TIMEOUT
+    for provider, client, chain in (
+        ("gemini", gemini, models), ("openrouter", openrouter, OPENROUTER_MODELS),
+    ):
+        # Reserve at least one normal request for the independent fallback.
+        provider_deadline = deadline - min(LLM_TIMEOUT, LLM_CHAIN_TIMEOUT / 3) \
+            if provider == "gemini" else deadline
+        for model in chain:
+            model_id = f"{provider}/{model}"
+            now = time.monotonic()
+            if now >= deadline:
+                raise AllModelsFailed([*errors, "LLM chain time budget exhausted"])
+            if now >= provider_deadline:
+                errors.append(f"{provider}: time reserved for fallback provider")
+                break
+            if _cooldowns.get(provider, 0) > now:
+                errors.append(f"{provider}: shared quota cooldown")
+                break
+            if _cooldowns.get(model_id, 0) > now:
+                errors.append(f"{model_id}: endpoint cooldown")
+                continue
+            started = time.monotonic()
+            try:
+                text = client.generate(
+                    model, system, user, max_tokens,
+                    response_schema=response_schema,
+                    timeout=min(LLM_TIMEOUT, provider_deadline - now),
+                )
+                if validator is not None:
+                    try:
+                        validator(text)
+                    except (ValueError, TypeError, KeyError, AttributeError) as exc:
+                        # Never log article text or arbitrary provider output.
+                        raise LLMError(f"invalid {task} output ({type(exc).__name__})") from exc
+                log.info("LLM task=%s model=%s valid=true seconds=%.2f",
+                         task, model_id, time.monotonic() - started)
+                return text, model_id
+            except LLMError as exc:
+                log.warning("LLM task=%s model=%s seconds=%.2f failed: %s",
+                            task, model_id, time.monotonic() - started, exc)
+                errors.append(f"{model_id}: {exc}")
+                if isinstance(exc, RateLimited):
+                    scope = provider if exc.provider_wide else model_id
+                    _cooldowns[scope] = time.monotonic() + exc.cooldown_seconds
+                if not exc.retryable_next or (
+                    isinstance(exc, RateLimited) and exc.provider_wide
+                ):
+                    break  # Other provider may work; never escalate to paid.
     raise AllModelsFailed(errors)
