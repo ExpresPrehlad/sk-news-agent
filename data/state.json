@@ -1,34 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Policajtom a hasičom vzrastú platy v priemere o 350 eur, opozícia hovorí o rozdávačke",
-      "ts": 1791473788.208331
-    },
-    {
-      "headline": "Fico ostro kritizuje sochu nahého Trumpa v Európskom parlamente a žiada jej odstránenie",
-      "ts": 1791473788.208331
-    },
-    {
-      "headline": "Výstavba novej nemocnice v Martine bude stáť 403 miliónov eur",
-      "ts": 1791473788.208331
-    },
-    {
-      "headline": "Siamské dvojčatá Lucku a Aničku presunuli z Bratislavy do nemocnice v Poprade",
-      "ts": 1791473788.208331
-    },
-    {
-      "headline": "Ruský útok na ukrajinský Kramatorsk si vyžiadal už viac ako 30 obetí",
-      "ts": 1791473788.208331
-    },
-    {
-      "headline": "Pri Krompachoch vypukol rozsiahly požiar lesa, šíri sa k obciam",
-      "ts": 1791473788.208331
-    },
-    {
-      "headline": "Húsíovia opäť zaútočili raketami na medzinárodné letisko v Rijáde",
-      "ts": 1791473788.208331
-    },
-    {
       "headline": "Nobelovu cenu za literatúru získala kanadská poetka Anne Carsonová",
       "ts": 1791475028.0402513
     },
@@ -103,179 +75,130 @@
     {
       "headline": "V Británii zadržali dvoch Lotyšov po vniknutí na vojenskú základňu NATO",
       "ts": 1791485767.9483442
+    },
+    {
+      "headline": "Nová martinská nemocnica bude stáť 403 miliónov eur, Fico garantuje dofinancovanie",
+      "ts": 1791489381.5935924
+    },
+    {
+      "headline": "Minister vnútra avizuje zvyšovanie platov, opozícia hovorí o predvolebnej rozdávačke",
+      "ts": 1791489381.5935924
+    },
+    {
+      "headline": "Húsíovia opäť zaútočili na letisko v Rijáde, saudská koalícia zostrelila tri rakety",
+      "ts": 1791489381.5935924
+    },
+    {
+      "headline": "Ocenenie CE ZA AR 2026 spoznalo svojich laureátov",
+      "ts": 1791489381.5935924
+    },
+    {
+      "headline": "Ruské úrady popierajú správy o šírení moru po úmrtí laborantky na Sibíri",
+      "ts": 1791489381.5935924
+    },
+    {
+      "headline": "Súťaž Maľba 2026 vyhrala Laura Zvěřina",
+      "ts": 1791489381.5935924
     }
   ],
   "last_digest": {
     "model": "gemini/gemini-3.5-flash",
     "topics": [
       {
-        "headline": "Bratislava pred voľbami: Vallo a Ráž sa stretli v prvom ostrom dueli",
+        "headline": "Nová martinská nemocnica bude stáť 403 miliónov eur, Fico garantuje dofinancovanie",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/stavba-novej-martinskej-nemocnice-bude-stat-403-milionov-eur-hovori-fico?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2055535-nemocnica-v-martine-bude-stat-403-milionov-eur-fico-garantuje-dofinancovanie-zo-statneho-rozpoctu?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Výstavba novej Univerzitnej nemocnice svätého Martina v Martine bude financovaná zo štátneho rozpočtu po vyčerpaní peňazí z plánu obnovy. Podľa premiéra Roberta Fica by mala byť plne vybavená a v prevádzke na konci roka 2028."
+      },
+      {
+        "headline": "Minister vnútra avizuje zvyšovanie platov, opozícia hovorí o predvolebnej rozdávačke",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/trkfbgl/minister-vnutra-avizoval-zvysovanie-platov-sas-to-oznacuje-za-predvolebnu-rozdavacku/"
+          ],
+          [
+            "Denník N",
+            "https://e.dennikn.sk/5611883/platy-statnych-a-verejnych-zamestnancov-sa-zvysia-pred-volbami-je-to-korupcia-volicov-kritizuje-opozicia/"
+          ]
+        ],
+        "perex": "Strana SaS kritizuje plánované zvyšovanie platov policajtov a hasičov, ktoré označuje za korupciu voličov tesne pred voľbami. Odborový zväz polície krok víta, no naďalej trvá na realizácii systémových zmien v odmeňovaní."
+      },
+      {
+        "headline": "Húsíovia opäť zaútočili na letisko v Rijáde, saudská koalícia zostrelila tri rakety",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/qBKWHcf/husiovia-opat-zautocili-na-letisko-v-rijade-saudska-koalicia-zostrelila-tri-rakety/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/husiovia-opat-zautocili-na-letisko-v-rijade?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Jemenskí povstalci zaútočili na medzinárodné letisko v Saudskej Arábii a varovali aerolínie pred využívaním tamojšieho vzdušného priestoru. Úlomky rakiet poškodili škôlku a zdravotnícke stredisko v Rijáde."
+      },
+      {
+        "headline": "Ocenenie CE ZA AR 2026 spoznalo svojich laureátov",
         "links": [
           [
             "Denník N",
-            "https://dennikn.sk/5612261/prvy-duel-raz-vallo-ulice-su-menej-bezpecne-lebo-ste-znizili-tresty-za-kradeze-povedal-primator-ministrovi/"
+            "https://dennikn.sk/5611034/hladanie-harmonie-v-case-krizy-pozrite-si-najlepsiu-slovensku-architekturu/"
           ],
           [
-            "SME",
-            "https://www.sme.sk/bratislava/c/zachody-nestacia-vycita-razovi-vallo-minister-mu-pripomina-videa-s-kvetmi-a-billboardmi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/ce-ez-ar-priniesol-i-diskusiu-o-vystavb/998357-clanok.html"
           ]
         ],
-        "perex": "Kandidáti na primátora hlavného mesta sa v diskusii sporili o bezpečnosti, parkovaní či stave hlavnej stanice. Matúš Vallo vyčítal ministrovi dopravy Jozefovi Rážovi nedostatok toaliet, zatiaľ čo minister mu pripomenul videá s kvetmi a billboardmi."
+        "perex": "Jubilejný 25. ročník architektonickej súťaže predstavil najlepšie diela slovenskej architektúry vrátane minimalistického rodinného domu či nového námestia. Laureáti ocenenia sa opäť predstavia verejnosti v mestskom priestore TU-BA."
       },
       {
-        "headline": "Zelenskyj ostro skritizoval USA za neochotu pomôcť a rokovania s Ruskom",
+        "headline": "Ruské úrady popierajú správy o šírení moru po úmrtí laborantky na Sibíri",
         "links": [
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/vfQVxTd/zelenskyj-obvinil-usa-z-neochoty-pomoct-ukrajine-kritizuje-aj-rokovania-s-ruskom/"
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2055607-rusko-odmieta-spravy-o-dalsom-pripade-moru-po-umrti-laborantky-ukoncilo-preventivne-opatrenia?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ],
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2055443-vojna-na-ukrajine-zelenskyj-putin-moskva-kyjev-armada-vojaci-front-rokovania-usa?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/heYWIq7/bitky-v-lekarnach-o-antibiotika-na-uliciach-opat-ruska-zabil-mladu-rusku-laborantku-mor/"
           ]
         ],
-        "perex": "Ukrajinský prezident odmietol tvrdenia amerického ministra zahraničných vecí Marca Rubia o patovej situácii na fronte. Podľa Volodymyra Zelenského nemôže Washington hovoriť o bezvýchodiskovom stave a zároveň viesť diskusie s Moskvou."
+        "perex": "Úrady v Irkutskej oblasti odmietli informácie o druhom prípade pľúcneho moru a ukončili preventívne opatrenia. Reagovali tak na paniku a medializované správy o úmrtí mladé laborantky."
       },
       {
-        "headline": "Štátna IT agentúra NASES podpísala s GlobalTelom zmluvu za 90 miliónov eur",
+        "headline": "Súťaž Maľba 2026 vyhrala Laura Zvěřina",
         "links": [
           [
             "Denník N",
-            "https://e.dennikn.sk/5612501/migalovi-podriadena-agentura-podpisala-s-dodavatelom-slovensko-sk-zmluvu-za-90-milionov/"
-          ]
-        ],
-        "perex": "Zmluva sa týka dodávky softvéru a prevádzky ústredného portálu verejnej správy Slovensko.sk. Kontrakt bol zverejnený v centrálnom registri zmlúv."
-      },
-      {
-        "headline": "Južná Kórea úspešne otestovala svoj prvý hypersonický klzák",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/FEgKg67/juzna-korea-uspesne-otestovala-prvy-hypersonicky-klzak-vlastnej-vyroby/"
+            "https://dennikn.sk/5612198/pozrite-si-najlepsie-malby-roka-vtiahnu-vas-do-svojho-sveta/"
           ],
           [
             "SME",
-            "https://www.sme.sk/svet/c/juzna-korea-uspesne-otestovala-prvy-hypersonicky-klzak?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+            "https://www.sme.sk/kultura/c/spochybnuju-stereotypy-navracaju-sa-ku-kazdodennosti-toto-su-najlepsie-malby-roka?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "Nová zbraň domácej výroby má v budúcnosti umožniť zasiahnuť kľúčové ciele na celom Kórejskom polostrove. Na úspešnej skúške technológií sa osobne zúčastnil aj prezident I Če-mjong."
-      },
-      {
-        "headline": "NBÚ varuje pred podvodnými správami na WhatsAppe, ktoré lákajú na súťaž",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2055409-hlasujte-za-moju-dceru-whatsappom-sa-siri-podvod-ktory-ma-obet-nachytat?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/iCHBanX/narodny-bezpecnostny-urad-varuje-pred-podvodnymi-sutazami-na-whatsappe/"
-          ]
-        ],
-        "perex": "Útočníci sa snažia obete nachytať na fiktívne hlasovanie za dcéru v talentovej súťaži. Bezpečnostný úrad odporúča nikomu neposkytovať verifikačné kódy a nezadávať ich mimo oficiálnej aplikácie."
-      },
-      {
-        "headline": "USA obžalovali bývalého venezuelského prezidenta Madura z mučenia oponentov",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/WKxXk3t/usa-rozsirili-obvinenia-voci-madurovi-vinia-ho-aj-z-mucenia-politickych-odporcov/"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2055575-mucenim-si-mali-udrziavat-moc-maduro-a-jeho-manzelka-celia-novej-obzalobe-v-usa?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Nová obžaloba podaná v New Yorku viní Nicolása Madura a jeho manželku Ciliu Floresovú z osobného schvaľovania brutálnych represií. Podľa prokurátorov malo mučenie vrátane elektrických šokov pomáhať režimu udržať sa pri moci."
-      },
-      {
-        "headline": "V Británii zadržali dvoch Lotyšov po vniknutí na vojenskú základňu NATO",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/t7j6JNq/dvaja-lotysi-prenikli-na-britsku-vojensku-zakladnu-pripad-riesi-protiteroristicka-policia/"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/v-britanii-zadrzali-dvoch-lotysov-za-vniknutie-na-vojensku-zakladnu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "Incident na základni RAF Molesworth, ktorú využívajú americké vzdušné sily, vyšetruje britská protiteroristická polícia. Zadržaní muži vo veku 32 a 36 rokov majú trvalé bydlisko v Spojenom kráľovstve."
+        "perex": "Medzinárodná porota vyhlásila laureátov prestížneho výtvarného ocenenia. Výstavu najlepších malieb roka si môže verejnosť pozrieť v bratislavskej galérii Nedbalka do 8. novembra."
       }
     ],
-    "ts": 1791485767.9483263
+    "ts": 1791489381.5935807
   },
   "meta": {
-    "last_collection_ts": 1791487249.093015,
+    "last_collection_ts": 1791489340.602201,
     "last_feed_error_ts": 1791476446.722952,
     "last_llm_error_ts": 1791470339.5325189,
-    "last_run_ts": 1791487249.4066305,
-    "last_synthesis_ts": 1791485767.948319
+    "last_run_ts": 1791489341.0519395,
+    "last_synthesis_ts": 1791489381.5935752
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/rubio-vydvihol-silu-spojenych-statov-a-vyzval-europu-aby-prestala-driemat?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Postavenie západnej civilizácie je ohrozené, tvrdí.",
-      "pub": 1791401449.0,
-      "s": "SME",
-      "t": "Rubio vydvihol silu Spojených štátov a vyzval Európu, aby sa prebrala z dlhých driemot",
-      "ts": 1791402955.9457953,
-      "u": "7468e8100472cba9c3d8"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/rusky-mor-podla-trumpa-nesuvisi-s-pripadnou-biologickou-zbranou?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Rusko trvá na tom, že má situáciu pod kontrolou.",
-      "pub": 1791401130.0,
-      "s": "SME",
-      "t": "Ruský mor podľa Trumpa nesúvisí s prípadnou biologickou zbraňou",
-      "ts": 1791402955.9457994,
-      "u": "c13fabf19502d3a8ecc5"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/zomrela-87-rocna-zena-ktorej-vystahovanie-vyvolalo-protesty-v-spanielsku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Maricarmen Abascalová sa 23. septembra stala symbolom španielskej bytovej krízy.",
-      "pub": 1791400959.0,
-      "s": "SME",
-      "t": "Zomrela 87-ročná žena, ktorej vysťahovanie vyvolalo protesty v Španielsku",
-      "ts": 1791402955.9458017,
-      "u": "ab4666ad6e2fc4e2ff08"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdDltX2xuTFl4aHgwRl9VZmlGam5KdXFLMU5sTEttVHpRWGpsejV1ZU13WUhUNTlJbzNHeXVsQTU0bUVXLXRxSkJsekNMb2hMVzJuRnBjeHh2QmctMHNIQVlLRWREWU9TSFUxOVFCMzVmNmM4bzgtZ0lIdDR1UlVaYm1zazltTFdVSjRpUjlBdWp6QzAyNFktZGdRT0JrSVE?oc=5",
-      "p": "Diskusia: Edmonton reaguje na zranenia útočníkov, s Pittsburghom zrealizoval výmenu Sportnet",
-      "pub": 1791397378.0,
-      "s": "SME (GNews)",
-      "t": "Diskusia: Edmonton reaguje na zranenia útočníkov, s Pittsburghom zrealizoval výmenu - Sportnet",
-      "ts": 1791402955.945803,
-      "u": "cfce18c592a7bdee70ba"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/dXjo36u/tragicky-koniec-pripadu-ktory-otriasol-spanielskom-dochodkyna-z-madridu-ktorej-vystahovanie-vyvolalo-protesty-zomrela/",
-      "p": "V Madride v stredu zomrela 87-ročná Maricarmen Abascalová, ktorej dramatické vysťahovanie z bytu po vyše 70 rokoch vyvolalo masívne celoštátne protesty proti bytovej kríze v Španielsku. Seniorku vyniesli z domova na nosidlách po tom, čo realitná spoločnosť neúmerne zvýšila nájomné.",
-      "pub": 1791401870.0,
-      "s": "Aktuality",
-      "t": "Tragický koniec prípadu, ktorý otriasol Španielskom: Dôchodkyňa z Madridu, ktorej vysťahovanie vyvolalo protesty, zomrela",
-      "ts": 1791402955.9458046,
-      "u": "b77b6cdf3cd7a04d3d86"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2054829-umrtie-zena-madrid-vystahovanie-spanielsko?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Dva týždne po vysťahovaní z bytu, v ktorom prežila väčšinu života, zomrela 87-ročná Maricarmen Abascalová. Jej prípad vyvolal v Španielsku rozsiahle protesty proti bytovej kríze a z madridskej dôchodkyne urobil symbol boja nájomníkov za dostupné bývanie.",
-      "pub": 1791402114.0,
-      "s": "Pravda",
-      "t": "Pred dvoma týždňami ju z bytu vyniesli na nosidlách. Maricarmen, symbol španielskej bytovej krízy, zomrela",
-      "ts": 1791402955.9458055,
-      "u": "38778a8cabd03b22b5be"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1269707-smutna-sprava-z-madridu-zomrela-87-rocna-zena-ktorej-vystahovanie-vyvolalo-protesty",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Smutná správa z Madridu: Zomrela 87-ročná žena, ktorej vysťahovanie vyvolalo protesty",
-      "ts": 1791402955.9458065,
-      "u": "20b448b593e7c0517ec9"
-    },
     {
       "l": "https://www.sme.sk/svet/c/slovensko-a-kuvajt-otvaraju-novu-etapu-vztahov-zalozenu-na-pravidelnom-dialogu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Minister Blanár je na návšteve Kuvajtu.",
@@ -4874,6 +4797,60 @@
       "t": "Hľadanie harmónie v čase krízy. Pozrite si najlepšiu slovenskú architektúru",
       "ts": 1791487249.4060175,
       "u": "de83d47a6b692b8456cf"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/spojene-staty-uvalili-nove-sankcie-zamerane-na-prepravcov-iranskej-ropy?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Sankcie sú súčasťou „Operácie ekonomický vyvrheľ“.",
+      "pub": 1791489055.0,
+      "s": "SME",
+      "t": "Spojené štáty uvalili nové sankcie zamerané na prepravcov iránskej ropy",
+      "ts": 1791489341.051276,
+      "u": "23c6157cb504b9854e61"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVWRYcC01T0E4VEdPUzFNbGU4WlpfN1RrdC1UR00xTEZWWkpVcC1vOVFWOEQ5RkxkbkRxWEZ5UUZrMzM3SmxpaHdGMjA4Z0JkQnVrUDM1QUdGc3RzWVdDQXdfeV82S2lMVHZpTlB1MXpXSUhlZXA0OFZzTVV1SDkwc2YxbG5OOC1TeEpYeTNneDZhT25Ic3AwTmR4S0JYclMzNnVhREctWDhhZ0lud1JFaE5lVkdFRVg3cVRv?oc=5",
+      "p": "VIDEO: Mourinho si vystrelil z kauzy Manchestru City: Kým príde verdikt, budem mať 80 rokov Sportnet",
+      "pub": 1791476412.0,
+      "s": "SME (GNews)",
+      "t": "VIDEO: Mourinho si vystrelil z kauzy Manchestru City: Kým príde verdikt, budem mať 80 rokov - Sportnet",
+      "ts": 1791489341.0512795,
+      "u": "8dc0f67bb21d52f06b40"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2055607-rusko-odmieta-spravy-o-dalsom-pripade-moru-po-umrti-laborantky-ukoncilo-preventivne-opatrenia?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Ruské úrady vo štvrtok popreli medializované informácie o údajnom druhom prípade pľúcneho moru v Irkutskej oblasti na Sibíri. Oznámili tiež ukončenie preventívnych opatrení prijatých po úmrtí laborantky tamojšieho ústavu na výskum moru. Európska komisia však uviedla, že zatiaľ nemá dostatok informác",
+      "pub": 1791487223.0,
+      "s": "Pravda",
+      "t": "Rusko odmieta správy o ďalšom prípade moru. Po úmrtí laborantky ukončilo preventívne opatrenia",
+      "ts": 1791489341.051282,
+      "u": "2f54191c30a0d6593c4c"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/ce-ez-ar-priniesol-i-diskusiu-o-vystavb/998357-clanok.html",
+      "p": "Aj tohto roka sa laureáti CE ZA AR opäť predstavia verejnosti v mestskom priestore TU-BA.",
+      "pub": 1791487080.0,
+      "s": "Teraz.sk",
+      "t": "CE EZ AR priniesol i diskusiu o výstavbe či prestavbe",
+      "ts": 1791489341.051501,
+      "u": "15cf8746fd2bcbdacc74"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1270188-ukrajinska-delegacia-v-usa-rokovania-s-trumpovymi-vyslancami",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Ukrajinská delegácia v USA: Rokovania s Trumpovými vyslancami",
+      "ts": 1791489341.051504,
+      "u": "19ed50961c23aed9ca40"
+    },
+    {
+      "l": "https://www.noviny.sk/politika/1270151-doba-je-zla-a-my-na-slovensku-mame-luxus-povedala-v-analyzach-24-marcinkova",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Doba je zlá a my na Slovensku máme luxus, povedala v Analýzach 24 Marcinková",
+      "ts": 1791489341.0515063,
+      "u": "26594b5cdb0b98724359"
     }
   ],
   "recent_alerts": [
@@ -6418,6 +6395,7 @@
     "15b59afc0cbf439617ba": 1791104133.3025532,
     "15b915e025bc1d0007e2": 1790777449.05771,
     "15c5e7bed0b6d0dfba4b": 1790798142.0049484,
+    "15cf8746fd2bcbdacc74": 1791489341.0514996,
     "15cfa8ffd4befafa6ac6": 1791384939.433941,
     "15d5a9b73e606f8abed2": 1790566541.6460752,
     "15d83a1d5e55ddf6dfb1": 1790704546.778516,
@@ -6573,6 +6551,7 @@
     "19da481936d2263f6f2b": 1790747735.409598,
     "19de319ef4bbe2724836": 1791025840.140009,
     "19e83b539560d7611e6c": 1790393735.3908005,
+    "19ed50961c23aed9ca40": 1791489341.0515018,
     "19f4160cacc655b0dbe5": 1790625339.598575,
     "19f73b791f68d584841c": 1790764536.5379007,
     "1a03a2dcde44acd1f6d9": 1791447044.6564023,
@@ -6953,6 +6932,7 @@
     "23ba56c44253678c0ffd": 1791390149.7168036,
     "23baba3320bcca236c1c": 1791186939.1966515,
     "23bb78a6bf1c64c0f56c": 1790955343.2103944,
+    "23c6157cb504b9854e61": 1791489341.0512722,
     "23cb7d569f41c53ebfb5": 1791455743.382587,
     "23d45ce8254a9b4e1bf0": 1791353439.0310812,
     "23d59e699aa6337972c1": 1790526045.8379257,
@@ -7056,6 +7036,7 @@
     "26473d2877f1d3f7a5df": 1791093374.3024106,
     "264ab80914096b0d8634": 1791205845.1212862,
     "264c79039d631d19818c": 1790762140.7711256,
+    "26594b5cdb0b98724359": 1791489341.0515049,
     "265f3bcf572da0fedb41": 1790785275.6406963,
     "266086d3cb75cf3752d8": 1790281239.7642035,
     "266d2a5e97540af363ec": 1791442537.1374068,
@@ -7247,6 +7228,7 @@
     "2b640779c11af97078f4": 1791284137.1336546,
     "2b69a18b18891f814e0d": 1790590246.1772697,
     "2b6d61b5e628bc130ff5": 1791369342.3648303,
+    "2b7bd990cf2bad6b77df": 1791489341.0515144,
     "2b894de5d8b36daeefd4": 1790652934.1252391,
     "2b89ee7a0ba6df270217": 1791300935.6253092,
     "2b8bd738e966ac82ff97": 1790976942.1790059,
@@ -7380,6 +7362,7 @@
     "2f33b8d7c0e820558939": 1790753738.9564438,
     "2f4281019b744b799bea": 1790449845.9811168,
     "2f4935009ed407037757": 1790431839.9839613,
+    "2f54191c30a0d6593c4c": 1791489341.0512807,
     "2f64af8f8a620826a374": 1790505336.061069,
     "2f68952b7bc3ba2b2322": 1790942142.530681,
     "2f696645422be76b3fc5": 1791174937.154615,
@@ -8083,7 +8066,6 @@
     "41a285c66289583af253": 1791093374.3024087,
     "41b196b3f6b2f5dce6a0": 1790406639.925511,
     "41bbe1af5cfa47a83f77": 1790422541.4099362,
-    "41bf3f5cbdfea92e2653": 1790279746.791477,
     "41c4a2777dd36fc24002": 1790882447.3227174,
     "41c7bb1d89dafbdce039": 1790397335.3440893,
     "41c9d4828ec12c07b5ef": 1791190533.2724872,
@@ -8809,7 +8791,6 @@
     "53d07dc707c7d74888f3": 1790480135.5712297,
     "53d4d23e134e44abccce": 1790337339.4154267,
     "53d626f18062d4517eff": 1790652934.125051,
-    "53de39f643e5de2d01b6": 1790279746.7914617,
     "53e215282faa34b82423": 1790505336.0610871,
     "53e83ad35a05ee743043": 1791177048.4996006,
     "53e9daadbacf2f6b0dea": 1791378642.1048992,
@@ -9056,6 +9037,7 @@
     "59ac18bf755d155775b8": 1790787342.3263125,
     "59bc25272ddcae15cc26": 1790912135.5366738,
     "59be808d8b7a15c0ae1d": 1790321739.4796891,
+    "59c880a4eab8c270d3b5": 1791489341.0515134,
     "59d6ac1e46568501c01d": 1791141642.5228639,
     "59ded07ecd057ce3e821": 1791357044.1389897,
     "59e2348c9bd747ee8386": 1791084933.6441596,
@@ -9676,7 +9658,6 @@
     "6aa904756da0b9642550": 1791111333.6011765,
     "6aa9a3b97e2ce25cde1e": 1791351337.4599457,
     "6ab002476101765b52f6": 1791381335.4112494,
-    "6acac595d71971e4c46c": 1790279746.7914755,
     "6ad4447ed3d1eac29bac": 1791351337.4599254,
     "6ad63fbcbea15571b01c": 1790500243.543343,
     "6ae41ebb0f2b89a5a699": 1791293743.9637773,
@@ -9700,6 +9681,7 @@
     "6b929b37f2d6ff0a82dd": 1791043845.0119846,
     "6b9940ac5e15b7ac0618": 1790418937.0392008,
     "6b9dd773cd6da3bf1865": 1790429733.7962842,
+    "6ba4c061e06f71087839": 1791489341.0515113,
     "6ba5d454e5c59907ffa3": 1790865337.2572803,
     "6ba8bcc5de9821d599f7": 1790614536.6190727,
     "6bab207de54e60be9784": 1790848538.9459748,
@@ -10110,7 +10092,6 @@
     "76b34a59545651624b80": 1790332538.9132922,
     "76b65f79072791eb7e3d": 1791480052.7815645,
     "76c13b0f868e72a589ed": 1790590246.177272,
-    "76c49a7c304ee88b4bd7": 1790279746.7914696,
     "76cd371dbf56bb1d33cc": 1791482134.1187522,
     "76cf54dd123e378b0a30": 1791295849.696464,
     "76cffee0cc4f3ee555ea": 1790606139.642818,
@@ -10334,7 +10315,6 @@
     "7c9264553b2dc39aef77": 1790368971.5898895,
     "7c93080b6fe2319e5f74": 1790582143.4673746,
     "7c958bc2f03477947adc": 1791122140.5964296,
-    "7ca1d1a555cb35164520": 1790279746.7914677,
     "7cb373b1fa039a3c3ae0": 1790320247.1740236,
     "7cc0de50a469aae11a31": 1790325370.8192222,
     "7cc17c9d7cfd26f50fa8": 1791116443.1802716,
@@ -10942,6 +10922,7 @@
     "8db7b1d8cb284462cfbc": 1790943041.7232382,
     "8db7bffb16eecfdce316": 1790785275.640702,
     "8dbbe541f004313d6782": 1791312940.2542117,
+    "8dc0f67bb21d52f06b40": 1791489341.0512776,
     "8dc1839a3268447b1292": 1791084933.6441815,
     "8dd43e01ac2afbb726ae": 1791190533.2724879,
     "8ddcbafa32a745277b16": 1790362537.148904,
@@ -11116,7 +11097,6 @@
     "92168567d30f7e05c64a": 1790963744.268495,
     "9218dae64f91a45ea3e8": 1791430540.0848293,
     "921b544adc388bd12bdb": 1790411735.955733,
-    "921d0a7fd592cb2eeb48": 1790279746.7914662,
     "92224c15002982ba544d": 1791360649.9174485,
     "92250c271e8c81ba5a3f": 1790764536.5381212,
     "9225be9679b8de2452c1": 1791349841.0010245,
@@ -12111,7 +12091,6 @@
     "ad3e5a40626aad749d8c": 1791100540.479837,
     "ad42c5edc85e8411bd12": 1791318048.07933,
     "ad47896659a14b4bada0": 1791282941.1626303,
-    "ad573af9f316cca35c17": 1790279746.7914739,
     "ad753560a57f5ed0e8a6": 1790610936.414335,
     "ad80953135722f12ff14": 1790652934.1252704,
     "ad9caf9a64cb0cd0c602": 1790591735.3253472,
@@ -12241,7 +12220,6 @@
     "b1157af1c576e06db54f": 1790825745.7243886,
     "b11af956f032dc25c978": 1791482134.118751,
     "b1235dc76738fe533325": 1791105637.834146,
-    "b128c05838b4f17e6f2d": 1790279746.7914567,
     "b12af489053a3235b94d": 1790480135.5712686,
     "b12ea1757c91243f4ebf": 1790848538.9459903,
     "b12eb43fa0654350315d": 1790652934.1252453,
@@ -12321,6 +12299,7 @@
     "b33027d5999750e19ab5": 1790621736.610647,
     "b330e5a3e19d67081d1c": 1790332538.9132683,
     "b34a0ed0343faa73f0cc": 1791194139.6061816,
+    "b34f2c88454cffab0694": 1791489341.0515075,
     "b34fed15a2cdb6d59399": 1791141642.522853,
     "b351750dc08ce51c3db7": 1791180645.897806,
     "b35656d4bd09fa06a653": 1790945738.284809,
@@ -13557,7 +13536,6 @@
     "d3e92754bf44feed7772": 1791295849.6962821,
     "d3ed84570ed2e88cbdc8": 1790591735.3253329,
     "d3f080e399ea1c450cfd": 1790360445.263935,
-    "d4005389c8d6479375f7": 1790279746.7914646,
     "d405ace0cf53500f0969": 1790580932.6601858,
     "d40ec70018cda8e2e65b": 1791476446.722987,
     "d422b4894c37f690bc91": 1791048939.6715958,
@@ -14075,7 +14053,6 @@
     "e16c2609933f4c5a2c8d": 1790508041.2713232,
     "e16d37fb4d78a9944af7": 1791294937.9894023,
     "e1748adfe3b9a48d77e6": 1790442643.4430625,
-    "e175722d1319326a528f": 1790279746.7914727,
     "e1799957935b9d96f6f2": 1791448535.5335722,
     "e185b47b2f9b54f361e7": 1791132939.350564,
     "e19003e8bd9ae8979067": 1790759446.5553608,
@@ -15248,144 +15225,64 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1791487249.4059858
+      "ts": 1791489341.0512502
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1791487249.405987
+      "ts": 1791489341.0512514
     },
     "hn": {
       "error": "403 Client Error: Forbidden for url: https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
       "name": "HN",
       "ok": false,
-      "ts": 1791487249.4059896
+      "ts": 1791489341.051254
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1791487249.4059937
+      "ts": 1791489341.0512586
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1791487249.4059885
+      "ts": 1791489341.0512524
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1791487249.4059799
+      "ts": 1791489341.051244
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1791487249.4059844
+      "ts": 1791489341.051248
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1791487249.405993
+      "ts": 1791489341.0512578
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1791487249.4059908
+      "ts": 1791489341.0512555
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1791487249.4059918
+      "ts": 1791489341.0512567
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/me-tvrda-facka-na-uvod-kvalifikacie-slovenske-futsalistky-s-debaklom-proti-svedkam-2026100719413957848",
-      "p": "Slovenské futsalistky prehrali vo svojom prvom zápase elitného kola kvalifikácie ME v Humennom so Švédskom vysoko 1:7. Jediný gól domácich strelila kapitánka Nikola Rybanská.",
-      "s": "Šport.sk",
-      "t": "ME: Tvrdá facka na úvod kvalifikácie. Slovenské futsalistky s debaklom proti Švédkam",
-      "ts": 1791402955.9458098,
-      "u": "de4daa51f07e89d001bf"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/lindsey-vonnova-v-nominacii-usa-narocna-rehabilitacia-2026100719345226441",
-      "p": "Americká lyžiarska hviezda Lindsey Vonnová sa prekvapujúco dostala do A-tímu reprezentácie USA na nadchádzajúcu sezónu. Americký tím oznámil, že ju zaradil medzi 17 nominovaných lyžiarok a lyžiarov. Sezóna Svetového pohára sa začne tradične koncom októbra na ľadovci v rakúskom Söldene.",
-      "s": "Šport.sk",
-      "t": "Veľké prekvapenie v nominácii. Lindsey Vonnová sa ocitla v tíme USA, hoci mohla prísť o nohu",
-      "ts": 1791402955.945812,
-      "u": "387ae186d2ae9bd66bc8"
-    },
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/influenceri-aj-profesionali-na-kartu-turnaja-fight-night-challenge-12-pribudli-dalsie-dva-paradne-zapasy-2026100717345529241",
-      "p": "Fight Night Challenge 12 rozširuje svoju kartu o ďalšie dva zaujímavé zápasy, ktoré kombinujú profesionálny bojový šport aj známe mená zo sveta sociálnych sietí. Galavečer sa uskutoční 12. decembra 2026 v TIPOS Aréne v Bratislave a organizácia postupne skladá pestrý program zložený z profesionálnych",
-      "s": "Šport.sk",
-      "t": "Influenceri aj profesionáli. Na kartu turnaja Fight Night Challenge 12 pribudli ďalšie dva parádne zápasy",
-      "ts": 1791402955.9458146,
-      "u": "5411de953f49a5f62b7d"
-    },
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/ep-fiba-premiera-neuspesna-nitra-nevstupila-do-pohara-vitazne-2026100719294732685",
-      "p": "Basketbalisti Nitra Blue Wings prehrali vo svojom premiérovom zápase v Európskom pohári FIBA (EP FIBA) na palubovke poľského tímu King Štetín 81:88.",
-      "s": "Šport.sk",
-      "t": "EP FIBA: Premiéra neúspešná. Nitra nevstúpila do pohára víťazne",
-      "ts": 1791402955.9458163,
-      "u": "2611920d18714aea156f"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/messi-ukoncil-reprezentacnu-karieru-ronaldo-odkaz-2026100719061563138",
-      "p": "Emotívna rozlúčka Lionela Messiho s argentínskou reprezentáciou vyvolala obrovskú vlnu reakcií. Svoj odkaz poslal aj jeho veľký rival Cristiano Ronaldo.",
-      "s": "Šport.sk",
-      "t": "Lionel Messi pridal príspevok, ktorý zbúral internet. Cristiano Ronaldo mu poslal dojemný odkaz",
-      "ts": 1791402955.945818,
-      "u": "171d54b5f0af02c5ca65"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWnpOWHpjcXFMNXBJS3ZRQlRaY1B5dUlRX29VeWhCbE00UVdBYTBWSEVwWFh0OXNodko4eWYtd251TnZ4S0MwVU85dXBsQWpVbml5ZGF6b2NoX3VuZ0hJaXgydXYtSjhzcVVRYkl2RE96RnVmbG1hMks5TW5KdlpOWjN0emlxWHNwYjdaMm9FUVFYU09USU9V?oc=5",
-      "p": "Diskusia: Zlé správy z tímu Islanders. Dôležitý obranca sa vážne zranil a čaká ho operácia Sportnet",
-      "s": "SPORTNET",
-      "t": "Diskusia: Zlé správy z tímu Islanders. Dôležitý obranca sa vážne zranil a čaká ho operácia",
-      "ts": 1791402955.9458194,
-      "u": "a2840b57480c9eb56519"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMjMyNHpXQllUWUtEdlBfZXhjN0JSbEpkOFBhSzV2dzBnSExzTUxDR2twQ2FxM09rbkQxOW02N0w1cHUtOW53QTNGaHozOS02dWxLTG10WW9hRjA4R0ZqR1lkT1BONUh3QzYzVWM2dTMxbGltcDA2TW91SFZtYUZmYVFwZHdEYU9CeV9taVpTcFVtVkFja3I2RTY2VTY?oc=5",
-      "p": "Diskusia: Na Svetových zimných univerzitných hrách môže štartovať až 60 Slovákov Sportnet",
-      "s": "SPORTNET",
-      "t": "Diskusia: Na Svetových zimných univerzitných hrách môže štartovať až 60 Slovákov",
-      "ts": 1791402955.9458203,
-      "u": "b3642c25df9ad926ce5f"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/vonnova-je-v-time-usa-pre-nadchadzaj/998079-clanok.html",
-      "p": "Skorý návrat Vonnovej na súťažné svahy je však takmer vylúčený, keďže 41-ročná Američanka sa stále zotavuje z následkov pádu vo februárovom olympijskom zjazde.",
-      "s": "TERAZ.SK",
-      "t": "Vonnová je v tíme USA pre nadchádzajúcu sezónu",
-      "ts": 1791402955.9458218,
-      "u": "e77f50a6db20b1f6bea7"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/nove-zamky-nestacili-na-humenne-v-7/998078-clanok.html",
-      "p": "Nezdolaný zostáva líder z Humenného, ktorý zvíťazil v Nových Zámkoch 4:3 po samostatných nájazdoch.",
-      "s": "TERAZ.SK",
-      "t": "Nové Zámky nestačili na Humenné v 7. kole",
-      "ts": 1791402955.9458232,
-      "u": "f940ddbfdd550e7f2ca1"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/nitra-si-na-uvod-pripisala-prehru-818/998077-clanok.html",
-      "p": "Zverenci trénera Martina Blaha sa najbližšie v rámci D-skupiny predstavia v stredu 14. októbra o 18.00 h v domácom zápase proti tímu Keravnos Nikózia.",
-      "s": "TERAZ.SK",
-      "t": "Nitra si na úvod pripísala prehru 81:88 na palubovke Štetína",
-      "ts": 1791402955.9458241,
-      "u": "8805ef095bc3b88e87c3"
-    },
     {
       "l": "https://sport.aktuality.sk/hokej/clanok/potreboval-impulz-teraz-taha-cierneho-kona-na-liptove-nasiel-novu-mladost-2026100714203811054",
       "p": "Liptovský Mikuláš je zatiaľ najpríjemnejším prekvapením hokejovej Tipsport ligy. Pod taktovkou tvrdých tréningov šliape ako hodinky a veľkú zásluhu na tom má aj nová ofenzívna akvizícia. Michal Chovan po rokoch opustil Košice, našiel potrebný reštart a stihol osláviť aj úctyhodné jubileum.",
@@ -16681,6 +16578,38 @@
       "t": "Arsenal si chce poistil svoje kľúčové eso. Hviezdny záložník mieri medzi najlepšie platených hráčov",
       "ts": 1791487249.4060268,
       "u": "ed49c08edc11a10d396c"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/pavol-regenda-dve-asistencie-hv71-rogle-2026100819345190933",
+      "p": "Slovenský hokejista Marián Studenič prispel vo štvrtok vo švédskej lige tromi asistenciami k triumfu Färjestadu 5:1 na ľade úradujúceho majstra Skellefteå AIK.",
+      "s": "Šport.sk",
+      "t": "Marián Studenič si výrazne vylepšil bodový účet. Pavol Regenda sa nenechal zahanbiť",
+      "ts": 1791489341.0515096,
+      "u": "b34f2c88454cffab0694"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/studenic-prispel-k-triumfu-farjestadu/998358-clanok.html",
+      "p": "HV71 napriek dvom asistenciám Pavla Regendu prehral na klzisku Rögle Ängelholm 3:4.",
+      "s": "TERAZ.SK",
+      "t": "Studenič prispel k triumfu Färjestadu tromi asistenciami",
+      "ts": 1791489341.0515125,
+      "u": "6ba4c061e06f71087839"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/futbal-nl-kosice-angazovali-brankara/998356-clanok.html",
+      "p": "Wollacott sa narodil v Anglicku, no má aj ghanské občianstvo.",
+      "s": "TERAZ.SK",
+      "t": "Košice angažovali brankára Wollacotta",
+      "ts": 1791489341.051514,
+      "u": "59c880a4eab8c270d3b5"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/basketbalistky-wbc-slovan-bratislava-pre/998355-clanok.html",
+      "p": "Najlepšou strelkyňou hostiek bola s 20 bodmi Kelsey Ransomová.",
+      "s": "TERAZ.SK",
+      "t": "Basketbalistky WBC Slovan Bratislava prehrali s Young Angels Košice",
+      "ts": 1791489341.0515158,
+      "u": "2b7bd990cf2bad6b77df"
     }
   ],
   "sport_source_status": {
@@ -16688,25 +16617,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1791487249.4059958
+      "ts": 1791489341.0512612
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1791487249.4059973
+      "ts": 1791489341.0512633
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1791487249.4060001
+      "ts": 1791489341.0512655
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1791487249.405999
+      "ts": 1791489341.0512645
     }
   }
 }
