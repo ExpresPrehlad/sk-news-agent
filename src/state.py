@@ -186,13 +186,19 @@ class State:
         return [a for a in self.recent_alerts if float(a.get("ts", 0)) >= cutoff]
 
     def set_source_status(self, results) -> None:
-        for r in results:
-            self.source_status[r.source.id] = {
+        # Úplná snímka aktuálne zbieraných zdrojov, nie nekonečne rastúci
+        # zoznam. Odstránený/vypnutý zdroj nesmie zostať ako trvalá chyba
+        # na webe. Články, výberová história a športový stav sa nemenia.
+        now = time.time()
+        self.source_status = {
+            r.source.id: {
                 "name": r.source.name,
                 "ok": r.ok,
                 "error": r.error,
-                "ts": time.time(),
+                "ts": now,
             }
+            for r in results
+        }
 
     def set_sport_source_status(self, results) -> None:
         for r in results:

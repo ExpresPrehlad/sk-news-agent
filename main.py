@@ -244,7 +244,7 @@ def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
             if state.is_new(a.uid):
                 new_sport_articles.append(a)
 
-    # Obohatenie titulkov pre sitemap/homepage zdroje (ta3, hn, noviny):
+    # Obohatenie titulkov pre sitemap/homepage zdroje (ta3, noviny):
     # slug-titulky nahradíme skutočnými z og:title. Len pre NOVÉ články
     # (dedup už prebehol), s limitom fetchov na beh — neúspech necháva
     # slug verziu, nikdy nezhadzuje beh.

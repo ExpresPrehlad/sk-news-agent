@@ -48,17 +48,12 @@ SOURCES: list[Source] = [
     Source("aktuality", "Aktuality",  "https://www.aktuality.sk/rss/"),
     Source("dennikn",   "Denník N",   "https://dennikn.sk/feed/"),
     Source("pravda",    "Pravda",     "https://spravy.pravda.sk/rss/xml/"),
-    # HN: /feed je IP-blokovaný z GitHub Actions (Cloudflare reputácia
-    # cloudových rozsahov), ale robots.txt uvádza .xml.gz sitemap index,
-    # ktorý má inú WAF politiku — testujeme túto cestu. Titulky nie sú
-    # v sitemape, doplní ich enrichment. Konzultácia 21.7.2026.
-    Source("hn",        "HN",
-           "https://hnonline.sk/sitemap-index-hnonline-sk.xml.gz",
-           kind="sitemap"),
     Source("teraz",     "Teraz.sk",   "https://www.teraz.sk/rss/slovensko.rss"),
     # tnlive.sk (bývalé tvnoviny.sk — rebrand, stará doména presmerúva).
-    # Google News sitemap: titulok + link + čas priamo v XML, bez CF bloku.
-    Source("tnlive",    "TN Live",    "https://tnlive.sk/api/v2/sitemap-news",
+    # Nový web od októbra 2026: news sitemap z indexu uvedeného v robots.txt.
+    # /api/v2/sitemap-news už vracia 404. Zachovávame ID a článkové URL
+    # kvôli deduplikácii; titulok aj skutočný čas publikovania sú v XML.
+    Source("tnlive",    "TN Live",    "https://tnlive.sk/xml/sitemap-news.xml",
            kind="news_sitemap"),
     # ta3.com: klasický sitemap index s per-článkovým lastmod, bez CF.
     # Titulky nie sú v XML — odvodia sa zo slugu a pre nové články sa
@@ -112,7 +107,7 @@ TRIAGE_MAX_ARTICLE_AGE_HOURS: int = 12
 # Timeout pre HTTP požiadavky na feedy (sekundy).
 HTTP_TIMEOUT: float = 15.0
 
-# User-Agent — niektoré portály (napr. sme.sk, hnonline.sk) majú WAF, ktorý
+# User-Agent — niektoré portály (napr. sme.sk) majú WAF, ktorý
 # blokuje očividné boty (403 Forbidden). Vlastný identifikátor typu
 # "sk-news-agent/1.0" je ľahko rozpoznateľný a blokovaný, preto sa
 # vydávame za bežný prehliadač — legitímna a bežná obrana, keďže RSS feed

@@ -51,7 +51,6 @@ _DOMAIN_LABELS: dict[str, str] = {
     "aktuality.sk": "Aktuality",
     "dennikn.sk": "Denník N",
     "pravda.sk": "Pravda",
-    "hnonline.sk": "HN",
     "teraz.sk": "Teraz.sk",
     "tnlive.sk": "TN Live",
     "ta3.com": "TA3",

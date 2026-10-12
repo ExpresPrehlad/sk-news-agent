@@ -4,7 +4,7 @@ serverovo renderujú titulnú stránku s odkazmi na články (napr. noviny.sk).
 
 Princíp: stiahni homepage HTML, regexom vyber článkové URL podľa vzoru
 zdroja, titulky nechaj na enrichment (og:title fetch v main.py — rovnaká
-cesta ako ta3/hn sitemap zdroje). Žiadna enumerácia ID — berú sa výhradne
+cesta ako ta3 sitemap zdroj). Žiadna enumerácia ID — berú sa výhradne
 odkazy, ktoré stránka sama zverejnila.
 
 Čas publikácie pri prvom objavení nie je známy (published_ts=None) —

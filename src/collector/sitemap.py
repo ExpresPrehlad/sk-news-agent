@@ -3,7 +3,7 @@ Sitemap kolektor — pre weby bez RSS, ktoré ponúkajú sitemap.
 
 Dva režimy (Source.kind):
 - "news_sitemap": Google News sitemap — titulok, link aj čas publikovania
-  priamo v XML (napr. tnlive.sk/api/v2/sitemap-news). Ideálny prípad.
+  priamo v XML (napr. tnlive.sk/xml/sitemap-news.xml). Ideálny prípad.
 - "sitemap": klasický sitemap index → pod-sitemapy s <loc> + <lastmod>,
   ale BEZ titulkov (napr. ta3.com). Titulok sa odvodí zo slugu ako fallback
   a pre čerstvé URL sa dá obohatiť fetchom článku (viď enrich_titles —
@@ -51,7 +51,7 @@ def _get(url: str) -> bytes:
     resp = requests.get(url, timeout=HTTP_TIMEOUT, headers=_HEADERS)
     resp.raise_for_status()
     content = resp.content
-    # .xml.gz sitemapy (napr. hnonline.sk) prichádzajú ako gzip payload
+    # .xml.gz sitemapy môžu prichádzať ako gzip payload
     # s Content-Type application/gzip — requests ich automaticky NErozbalí
     # (transparentne rozbaľuje len Content-Encoding). Magické bajty 1f 8b.
     if content[:2] == b"\x1f\x8b":
@@ -102,6 +102,12 @@ def fetch_news_sitemap(source: Source) -> FetchResult:
         log.warning("News sitemap %s zlyhal: %s", source.id, exc)
         return FetchResult(source=source, articles=[], error=str(exc))
 
+    if root.tag != f"{{{_NS['sm']}}}urlset":
+        return FetchResult(
+            source=source, articles=[],
+            error="odpoveď nie je news sitemap urlset (zmena adresy alebo formátu?)",
+        )
+
     cutoff = time.time() - _FRESH_WINDOW_HOURS * 3600
     articles: list[Article] = []
     for url_el in root.findall("sm:url", _NS):
@@ -140,7 +146,7 @@ def fetch_plain_sitemap(source: Source) -> FetchResult:
     cutoff = time.time() - _FRESH_WINDOW_HOURS * 3600
 
     # Ak je to index, vyber pod-sitemapy s najnovším lastmod. Ak index
-    # lastmod neuvádza (napr. hnonline.sk shardy), použije sa heuristika:
+    # lastmod neuvádza, použije sa heuristika:
     # zoradenie podľa URL zostupne — číslované shardy (...-01 až ...-21)
     # majú najnovší obsah typicky v najvyššom čísle.
     subsitemaps: list[tuple[float, str]] = []
@@ -196,13 +202,13 @@ _TITLE_RE = re.compile(
 )
 
 # Poistka: max fetchov článkov na jeden beh (nech beh netrvá minúty).
-# Zdieľané naprieč všetkými zdrojmi, ktoré enrichment používajú (ta3, hn,
+# Zdieľané naprieč všetkými zdrojmi, ktoré enrichment používajú (ta3,
 # noviny) — pri väčšom návale sa zvyšok dorovná v ďalších behoch.
 MAX_TITLE_FETCHES_PER_RUN = 18
 
 # Prípony názvov webov, ktoré sa odrezávajú z og:title/<title>.
 _SITE_SUFFIX_RE = re.compile(
-    r"\s+[|\-–—]\s+(ta3(\.com)?|TA3|HNonline(\.sk)?|Hospodárske noviny"
+    r"\s+[|\-–—]\s+(ta3(\.com)?|TA3"
     r"|Noviny(\.sk)?|noviny\.sk|TV JOJ)\s*$",
     re.IGNORECASE,
 )
