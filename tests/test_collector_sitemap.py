@@ -3,11 +3,12 @@ import hashlib
 import unittest
 from datetime import datetime, timezone
 from unittest.mock import Mock, patch
+from urllib.parse import parse_qs, urlsplit
 
 import requests
 
 from src.collector.sitemap import _get, fetch_news_sitemap
-from src.config import SOURCES, SPORT_SOURCES
+from src.config import SOURCES, SPORT_SOURCES, Source
 
 
 class SourceConfigurationTests(unittest.TestCase):
@@ -16,18 +17,21 @@ class SourceConfigurationTests(unittest.TestCase):
             self.assertNotEqual(source.id, "hn")
             self.assertNotIn("hnonline.sk", source.feed_url)
 
-    def test_tnlive_uses_the_new_news_sitemap_with_existing_identity(self):
+    def test_tnlive_uses_google_news_rss_with_existing_source_identity(self):
         source = next(source for source in SOURCES if source.id == "tnlive")
         self.assertEqual(source.name, "TN Live")
-        self.assertEqual(source.kind, "news_sitemap")
-        self.assertEqual(source.feed_url, "https://tnlive.sk/xml/sitemap-news.xml")
+        self.assertEqual(source.kind, "rss")
+        self.assertEqual(urlsplit(source.feed_url).hostname, "news.google.com")
+        self.assertEqual(parse_qs(urlsplit(source.feed_url).query)["q"], ["site:tnlive.sk when:2d"])
 
 
 class NewsSitemapTests(unittest.TestCase):
     NOW = datetime(2026, 10, 12, 12, tzinfo=timezone.utc).timestamp()
 
     def setUp(self):
-        self.source = next(source for source in SOURCES if source.id == "tnlive")
+        # The generic sitemap parser remains supported, but TN Live's
+        # active production source no longer calls its blocked sitemap.
+        self.source = Source("tnlive", "TN Live", "https://tnlive.sk/xml/sitemap-news.xml", kind="news_sitemap")
 
     def fetch_xml(self, xml):
         with patch("src.collector.sitemap._get", return_value=xml.encode("utf-8")), \

@@ -11,11 +11,12 @@ Princípy:
 
 from __future__ import annotations
 
+import calendar
 import hashlib
 import logging
-import time
 from dataclasses import dataclass
 from html import unescape
+from urllib.parse import urlsplit
 
 import feedparser
 import requests
@@ -61,7 +62,9 @@ def _entry_timestamp(entry) -> float | None:
         parsed = entry.get(key)
         if parsed:
             try:
-                return time.mktime(parsed)
+                # feedparser returns UTC tuples; mktime would incorrectly
+                # interpret them in the machine's local timezone.
+                return calendar.timegm(parsed)
             except (ValueError, OverflowError):
                 continue
     return None
@@ -80,13 +83,17 @@ def _clean(text: str | None) -> str:
     return " ".join(text.split()).strip()
 
 
-def _clean_google_news_title(title: str, source: Source) -> str:
+def _clean_google_news_title(title: str, source: Source, publisher: str = "") -> str:
     """Odstráni zdrojovú príponu, ktorú Google News vkladá do titulku."""
-    if not source.id.endswith("_gnews"):
+    if not (source.id.endswith("_gnews") or urlsplit(source.feed_url).hostname == "news.google.com"):
         return title
     import re
+    labels = [source.name]
+    if publisher:
+        labels.append(publisher)
+    suffix = "|".join(re.escape(label) for label in labels)
     return re.sub(
-        rf"\s*[-–—]\s*{re.escape(source.name)}\s*$", "", title,
+        rf"\s*[-–—]\s*(?:{suffix})\s*$", "", title,
         flags=re.IGNORECASE,
     ).strip()
 
@@ -128,7 +135,9 @@ def fetch_source(source: Source) -> FetchResult:
 
     articles: list[Article] = []
     for entry in parsed.entries:
-        title = _clean_google_news_title(_clean(entry.get("title")), source)
+        publisher_info = entry.get("source") or {}
+        publisher = _clean(publisher_info.get("title")) if isinstance(publisher_info, dict) else ""
+        title = _clean_google_news_title(_clean(entry.get("title")), source, publisher)
         link = (entry.get("link") or "").strip()
         if not title or not link:
             continue  # bez titulku alebo linku je položka pre redakciu bezcenná

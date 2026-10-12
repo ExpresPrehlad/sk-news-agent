@@ -49,12 +49,15 @@ SOURCES: list[Source] = [
     Source("dennikn",   "Denník N",   "https://dennikn.sk/feed/"),
     Source("pravda",    "Pravda",     "https://spravy.pravda.sk/rss/xml/"),
     Source("teraz",     "Teraz.sk",   "https://www.teraz.sk/rss/slovensko.rss"),
-    # tnlive.sk (bývalé tvnoviny.sk — rebrand, stará doména presmerúva).
-    # Nový web od októbra 2026: news sitemap z indexu uvedeného v robots.txt.
-    # /api/v2/sitemap-news už vracia 404. Zachovávame ID a článkové URL
-    # kvôli deduplikácii; titulok aj skutočný čas publikovania sú v XML.
-    Source("tnlive",    "TN Live",    "https://tnlive.sk/xml/sitemap-news.xml",
-           kind="news_sitemap"),
+    # tnlive.sk: nové sitemapy sú z GitHub Actions blokované Cloudflare.
+    # Verejný Google News RSS nahrádza priamy zber. Pokrytie nie je úplné
+    # a môže mať oneskorenie; odkazy sú Google redirecty. Dvojdňový dopyt
+    # obmedzuje dobiehanie archívu, tvrdé vekové filtre zostávajú v platnosti.
+    # Zachovávame ID zdroja a meno v Media Radare/histórii, nie sitemap UID.
+    Source("tnlive", "TN Live", (
+        "https://news.google.com/rss/search?q=site%3Atnlive.sk%20when%3A2d"
+        "&hl=sk&gl=SK&ceid=SK%3Ask"
+    )),
     # ta3.com: klasický sitemap index s per-článkovým lastmod, bez CF.
     # Titulky nie sú v XML — odvodia sa zo slugu a pre nové články sa
     # obohacujú fetchom stránky (viď sitemap.enrich_titles).
