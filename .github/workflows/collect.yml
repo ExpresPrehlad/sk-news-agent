@@ -23,7 +23,7 @@ on:
         default: false
 
 concurrency:
-  group: collect
+  group: ${{ github.ref == 'refs/heads/codex/tnlive-sitemap-check' && 'tnlive-sitemap-check' || 'collect' }}
   cancel-in-progress: false
 
 permissions:
@@ -31,6 +31,8 @@ permissions:
 
 jobs:
   collect:
+    # Diagnostická vetva nesmie spustiť AI, Discord ani uloženie stavu.
+    if: github.ref != 'refs/heads/codex/tnlive-sitemap-check'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -80,3 +82,21 @@ jobs:
           else
             echo "Stav sa nezmenil, nič sa necommituje."
           fi
+
+  sitemap-check:
+    if: github.ref == 'refs/heads/codex/tnlive-sitemap-check'
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install HTTP client
+        run: pip install 'requests>=2.32.0'
+      - name: Probe public TN Live sitemaps (no AI, Discord or state writes)
+        run: python -m tools.check_tnlive_sitemaps
