@@ -91,96 +91,128 @@
     {
       "headline": "Slovensko kleslo v medzinárodnom indexe právneho štátu WJP na 38. miesto",
       "ts": 1792591891.0841289
+    },
+    {
+      "headline": "Prezident Pellegrini nevymenoval Kuffu za ministra, žiada nového kandidáta",
+      "ts": 1792598163.4141605
+    },
+    {
+      "headline": "Vážna bezpečnostná hrozba v PHP: Ministerstvo vnútra odstavilo web",
+      "ts": 1792598163.4141605
+    },
+    {
+      "headline": "Nový prieskum ukázal tesný súboj medzi PS a Smerom",
+      "ts": 1792598163.4141605
+    },
+    {
+      "headline": "Súd vzal do väzby 19-ročnýého študenta pre vyhrážky v Žiline",
+      "ts": 1792598163.4141605
+    },
+    {
+      "headline": "Európska prokuratúra urobila razie v kanceláriách Patriotov pre Európu",
+      "ts": 1792598163.4141605
+    },
+    {
+      "headline": "Šimkovičová sa stala podpredsedníčkou vlády po súhlase prezidenta",
+      "ts": 1792598163.4141605
     }
   ],
   "last_digest": {
-    "model": "gemini/gemini-3.8-flash",
+    "model": "gemini/gemini-3.5-flash-lite",
     "topics": [
       {
-        "headline": "Na operácie čaká takmer 88-tisíc Slovákov, tisíce ľudí prekročili lehotu",
+        "headline": "Prezident Pellegrini nevymenoval Kuffu za ministra, žiada nového kandidáta",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/prezident-kuffu-nevymenuje-poziadal-premiera-o-novy-navrh?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/E4b4CzQ/peter-pellegrini-nechce-vymenovat-stefana-kuffu-sis-mala-prezidentovi-dodat-znepokojive-informacie/"
+          ]
+        ],
+        "perex": "Prezident Peter Pellegrini zatiaľ nevymenoval Filipa Kuffu za ministra životného prostredia a požiadal premiéra Roberta Fica o nový návrh. SNS na čele s Andrejom Dankom však na nominácii trvá a tvrdí, že prezident musí návrh rešpektovať."
+      },
+      {
+        "headline": "Vážna bezpečnostná hrozba v PHP: Ministerstvo vnútra odstavilo web",
         "links": [
           [
             "Teraz.sk",
-            "https://www.teraz.sk/slovensko/udzs-na-planovane-zakroky-cakalo-k/1001580-clanok.html"
+            "https://www.teraz.sk/slovensko/nbu-upozornuje-na-bezpecnostne-rizik/1001487-clanok.html"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/A5Omfbx/kyberneticke-riziko-zasiahlo-rezort-vnutra-stat-vypina-webove-sidlo-a-sprisnuje-bezpecnostne-opatrenia/"
+          ]
+        ],
+        "perex": "Národný bezpečnostný úrad varoval pred novými zraniteľnosťami v technológii PHP, ktoré umožňujú útočníkom spúšťať ľubovoľný kód na serveroch. Pre preventívne opatrenia dočasne odstavilo svoje webové sídlo aj slovenské ministerstvo vnútra."
+      },
+      {
+        "headline": "Nový prieskum ukázal tesný súboj medzi PS a Smerom",
+        "links": [
+          [
+            "Denník N",
+            "https://dennikn.sk/5637240/prieskum-ipsosu-smer-dobieha-ps-hlas-je-stale-na-historickych-minimach/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/prieskum-ipsos-tesny-suboj-o-prvenstvo-potvrdilo-dalsie-meranie-do-parlamentu-by-sa-dostalo-osem-stran?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Najnovší prieskum agentúry Ipsos ukazuje, že Smer dobieha Progresívne Slovensko v tesnom súboji o prvenstvo vo voľbách. Do parlamentu by sa podľa výsledkov prepašovalo osem politických strán."
+      },
+      {
+        "headline": "Súd vzal do väzby 19-ročnýého študenta pre vyhrážky v Žiline",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/VzssXtx/sud-vzal-do-vazby-mladika-ktory-sa-mal-v-ziline-vyhrazat-spoluziakom-dobodanim/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2063521-19-rocny-mladik-sa-mal-v-skole-v-ziline-vyhrazat-dobodanim-spoluziakov-sudkyna-ho-poslala-do-vazby?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Sudkyňa pre prípravné konanie Okresného súdu Žilina rozhodla o vzatí do väzby 19-ročného mladíka. Ten sa mal počas vyučovania na strednej škole vyhrážať spolužiakom dobodaním."
+      },
+      {
+        "headline": "Európska prokuratúra urobila razie v kanceláriách Patriotov pre Európu",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/y7CLJqd/europska-prokuratura-prehladavala-kancelarie-patriotov-pre-europu/"
           ],
           [
             "Noviny.sk",
-            "https://www.noviny.sk/slovensko/1275942-na-operacie-caka-takmer-88-tisic-slovakov-najdlhsie-cakaju-deti"
+            "https://www.noviny.sk/zahranicie/1275999-razie-v-kancelariach-patriotov-v-europskom-parlamente-vysetruju-sa-podozrenia-zo-sprenevery-milionov"
           ]
         ],
-        "perex": "Podľa údajov Úradu pre dohľad nad zdravotnou starostlivosťou čakalo v septembri na plánované zákroky približne 87 500 pacientov. Pri takmer 12-tisíc prípadoch bola dokonca prekročená zákonom stanovená lehota časovej dostupnosti ústavnej starostlivosti."
+        "perex": "Európska prokuratúra vykonala razie v kanceláriách europoslancov skupiny Patrioti pre Európu v Bruseli a Štrasburgu. Zásah súvisí s podozreniami zo zneužitia prostriedkov Európskej únie bývalou frakciou Identita a demokracia."
       },
       {
-        "headline": "Europarlament požaduje na rok 2027 rozpočet vo výške 203 miliárd eur",
+        "headline": "Šimkovičová sa stala podpredsedníčkou vlády po súhlase prezidenta",
         "links": [
-          [
-            "SME",
-            "https://www.sme.sk/index/c/europarlament-chce-na-rok-2027-rozpocet-eu-vo-vyske-203-miliard-eur?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/ZZyFpU7/europarlament-chce-vyssi-rozpocet-eu-na-rok-2027-viac-penazi-ma-ist-na-vyskum-erasmus-aj-obranu/"
-          ]
-        ],
-        "perex": "Europoslanci navrhujú stanoviť úroveň rozpočtových záväzkov Európskej únie na 194 miliárd eur a celkový rozpočet vo výške 203 miliárd eur. Zvýšené financie žiadajú nasmerovať najmä do programu Horizont Európa, iniciatívy Erasmus+, zdravotníctva a na ochranu hraníc."
-      },
-      {
-        "headline": "Ruská stíhačka Su-30SM sa zrútila v Kaliningradskej oblasti",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2063393-ruska-stihacka-su-30sm-kaliningrad-zrutenie-pad-lietadla-letectvo-armada-vojaci?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "V ruskej enkláve Kaliningrad došlo k havárii vojenského stíhacieho lietadla Su-30SM v blízkosti hraníc Severoatlantickej aliancie. Incident v stredu potvrdili miestne ruské médiá."
-      },
-      {
-        "headline": "Maďarsko by mohlo zaviesť spoločnú menu euro v roku 2032",
-        "links": [
+            "https://www.aktuality.sk/clanok/pv2glyS/martina-simkovicova-sa-stala-podpredsednickou-vlady-peter-pellegrini-vyhovel-navrhu-premiera/"
+          ],
           [
             "SME",
-            "https://www.sme.sk/svet/c/madarsko-by-mohlo-prijat-euro-v-roku-2032-oznamil-minister-financii?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/BXxlzJs/madarsko-by-mohlo-prijat-euro-v-roku-2032-naznacil-minister-financii/"
+            "https://www.sme.sk/domov/c/prezident-vyhovel-ziadosti-o-vymenovanie-simkovicovej-za-vicepremierku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "Minister financií András Kármán uviedol, že Maďarsko by mohlo prijať jednotnú európsku menu v roku 2032 namiesto pôvodne plánovaného roku 2030. Základným predpokladom na tento krok má byť postupné ozdravenie verejných financií a zníženie vysokého deficitu."
-      },
-      {
-        "headline": "Najvyšší súd potvrdil podmienečný trest pre šéfa Slovenskej pospolitosti",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2063201-zvrat-v-kauze-sefa-slovenskej-pospolitosti-skrabaka-najvyssi-sud-rozhodol-o-jeho-treste-za-extremizmus?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ],
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/najvyssi-sud-znizil-skrabakovi-t/1001542-clanok.html"
-          ]
-        ],
-        "perex": "Najvyšší súd SR právoplatne rozhodol v kauze Jakuba Škrabáka, stíhaného za extrémistické materiály z rokov 2015 až 2018. Senát potvrdil vinu, no oproti pôvodnému verdiktu prvostupňového súdu mu podmienečný trest zmiernil."
-      },
-      {
-        "headline": "Slovensko kleslo v medzinárodnom indexe právneho štátu WJP na 38. miesto",
-        "links": [
-          [
-            "Teraz.sk",
-            "https://www.teraz.sk/slovensko/wjp-sr-klesla-v-najnovsom-indexe-prav/1001587-clanok.html"
-          ]
-        ],
-        "perex": "V najnovšom celosvetovom rebríčku Rule of Law Index, ktorý zostavuje organizácia World Justice Project, si Slovensko pohoršilo o dve priečky. V porovnaní s predchádzajúcim hodnotením zaznamenala krajina pokles z 36. na 38. pozíciu."
+        "perex": "Ministerka kultúry Martina Šimkovičová sa stala novou podpredsedníčkou vlády. Prezident Peter Pellegrini vyhovel návrhu premiéra Roberta Fica a doručil jej menovací dekrét."
       }
     ],
-    "ts": 1792591891.0841193
+    "ts": 1792598163.4141486
   },
   "meta": {
-    "last_collection_ts": 1792596936.1229608,
+    "last_collection_ts": 1792598148.1386085,
     "last_feed_error_ts": 1792401075.2797177,
     "last_llm_error_ts": 1792583859.277691,
-    "last_run_ts": 1792596936.5909355,
-    "last_synthesis_ts": 1792591891.0841138
+    "last_run_ts": 1792598148.681515,
+    "last_synthesis_ts": 1792598163.4141438
   },
   "recent": [
     {
@@ -5483,6 +5515,69 @@
       "t": "Zelenskyj navrhuje zmrazenie frontovej línie: Ukrajina je pripravená rokovať o ukončení vojny",
       "ts": 1792596936.5902135,
       "u": "b568e3a95a717a21ad59"
+    },
+    {
+      "l": "https://www.sme.sk/zena/c/tamara-simoncikova-heribanova-niekedy-cloveku-nechyba-iba-miesto-ale-aj-to-kym-na-tom-mieste-je?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "O pocite „homesick“, ktorý ju sprevádza od detstva, o slove „hrdoba“, ktoré má vygravírované na obrúčke, aj o tom, prečo by hrdosť mala vychádzať z poznania, nie z povinnosti.",
+      "pub": 1792597697,
+      "s": "SME",
+      "t": "Tamara Šimončíková Heribanová: Niekedy človeku nechýba iba miesto, ale aj to, kým na tom mieste je",
+      "ts": 1792598148.680764,
+      "u": "e073acde9c7b7e88a9a5"
+    },
+    {
+      "l": "https://dennikn.sk/5638600/suboj-o-zilinsky-kraj-vlada-pred-moratoriom-vyzdvihla-chomu-jurinova-musela-vysvetlovat-matovica/",
+      "p": "Vláda Roberta Fica (Smer) prišla tesne pred začiatkom moratória pred regionálnymi voľbami podporiť Žilinský kraj. Zasadala v obci Dubové na Turci a rozdala viac než 2,3 milióna eur na rôzne projekty a ďalších 7 miliónov pre MH Invest na kúpu priestorov od Matice slovenskej. Vo veľkom sa riešila dopr",
+      "pub": 1792597525,
+      "s": "Denník N",
+      "t": "Súboj o Žilinský kraj: Vláda pred moratóriom vyzdvihla Chomu. Jurinová musela vysvetľovať Matoviča",
+      "ts": 1792598148.680768,
+      "u": "7df2c91f849174ba7c51"
+    },
+    {
+      "l": "https://e.dennikn.sk/5634978/je-to-rozpocet-premrhanych-prilezitosti-a-ide-na-ucet-nasich-deti-hovori-sef-nku-andrassy/",
+      "p": "Schvaľovanie rozpočtu bez odbornej oponentúry a v časovom tlaku je ukážkou arogancie moci a ignorovaním pravidiel, hovorí šéf Najvyššieho kontrolného úradu (NKÚ) Ľubomír Andrassy. Upozorňuje, že namiesto systémových reforiem a investícií do budúcej generácie štát nekontrolovane zadlžuje krajinu a ne",
+      "pub": 1792596928,
+      "s": "Denník N",
+      "t": "Je to rozpočet premrhaných príležitostí a ide na účet našich detí, hovorí šéf NKÚ Andrassy",
+      "ts": 1792598148.6807704,
+      "u": "502baccc53faa3b1289c"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2063591-magyar-zvazuje-ze-elektraren-paks-nedostavaju-rusi-orban-ich-vybral-bez-sutaze?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Maďarsko zvažuje, že by hlavným dodávateľom pre rozšírenie jadrovej elektrárne Paks nebol ruský Rosatom. Vláda vec preskúmava a sonduje záujem iných firiem, uvádzajú dva zdroje agentúry Reuters.",
+      "pub": 1792597888,
+      "s": "Pravda",
+      "t": "Magyar zvažuje, že elektráreň Paks nedostavajú Rusi. Orbán ich vybral bez súťaže",
+      "ts": 1792598148.6807718,
+      "u": "5dd345e603e1a6a0a6cd"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/slovak-pro-na-summite-oslavi-25-rokov/1001615-clanok.html",
+      "p": "Slovak PRO je globálna komunita slovenských profesionálov a priateľov Slovenska pôsobiacich v biznise, technológiách, vede, kultúre, diplomacii a ďalších oblastiach.",
+      "pub": 1792596840,
+      "s": "Teraz.sk",
+      "t": "Slovak PRO na summite oslávi 25 rokov",
+      "ts": 1792598148.6809626,
+      "u": "58351721f331c06d637d"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNlVwTnJRTF9ZSFZtTkhIZ2l5X1B6RGtGdFR6ZXB3ZVowc3lsRWhDYmFxWEgwUXBjUEdGZDJqcWF0dmJmeldDUWtoUHRuWDlrVmstellESmVuZWxWU0hkaUdxcjFmaVdkekJIa0xPQVJrZnNlSDI1cGJtam9WbWtFZjdmbmhLWEhSUTgwU3dTOHpUTFg3WmpIbzBMbmVJM2taU3NF?oc=5",
+      "p": "Vláda zasadá v Dubovom. Rieši rozvoj regiónov a pomoc miestnym tnlive.sk",
+      "pub": 1792579380,
+      "s": "TN Live",
+      "t": "Vláda zasadá v Dubovom. Rieši rozvoj regiónov a pomoc miestnym",
+      "ts": 1792598148.680964,
+      "u": "766b8982b435afe41afa"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1276001-bezpecnostna-chyba-ohrozuje-webove-stranky-po-celom-svete-web-odstavilo-aj-slovenske-ministerstvo-vnutra",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Bezpečnostná chyba ohrozuje webové stránky po celom svete. Web odstavilo aj slovenské ministerstvo vnútra",
+      "ts": 1792598148.6809661,
+      "u": "adb8685816da8d78d8c6"
     }
   ],
   "recent_alerts": [
@@ -7871,7 +7966,6 @@
     "2cca57c446bc7fb847d4": 1792305337.666777,
     "2cdae1442bddd8345247": 1791979844.334105,
     "2cde193d8d5526df6c4e": 1791910543.0785193,
-    "2cdfd74a56f791aebaab": 1791388542.1457274,
     "2ce4727e3ced969e74c6": 1792072539.9078221,
     "2cebd22a46d4993844e3": 1791526245.9456325,
     "2cebf3559b570bfe9395": 1792509276.9904454,
@@ -7939,7 +8033,6 @@
     "2eae672946d9d05322d1": 1792589736.0815508,
     "2eb0776ca95a538bb746": 1792043741.0220652,
     "2eb7501c423eb4459e98": 1792037440.290304,
-    "2ebf4aabb7d34a559b4f": 1791388542.1457248,
     "2ec25b2ed6bd32a332ba": 1791948933.860159,
     "2ec3a679dd3c21c05d69": 1792162536.724966,
     "2ece11dcd2db9865e6bf": 1791743742.309942,
@@ -8261,7 +8354,6 @@
     "36e74c337578aec9dc45": 1791984936.0700426,
     "36e7b08f07730f5a3e7a": 1791988541.1793947,
     "36e922a287c3e4f8f851": 1791524138.0138237,
-    "36ec3efffee656c54d18": 1791388542.1457205,
     "36f7f3f1e156b1dc69be": 1791480052.7817087,
     "3706e985fb0e86fc4d94": 1792396540.8887627,
     "371634cf685b4f211c4e": 1791881741.3076913,
@@ -8271,6 +8363,7 @@
     "371b52126d3733c349a1": 1791689738.2104893,
     "3723d309638f2de8b7f5": 1792155342.9502413,
     "372ab5c5bab2a1375b0f": 1792420538.9367716,
+    "372f03540a64b07b1012": 1792598148.6809728,
     "374c5b89b08d2463ad17": 1791815742.4531822,
     "37586907f751ff45fcd8": 1791864646.3964152,
     "376212544cfa33c05baf": 1792393849.9090214,
@@ -8487,6 +8580,7 @@
     "3cf19de38e0ac3ef4a3b": 1791729334.9892552,
     "3cfcb8027e8556b39280": 1792524190.6214066,
     "3d0204b32dbb5e2bd955": 1792467344.1528594,
+    "3d03a2c4b49695196953": 1792598148.6809673,
     "3d2936121aa8442d501b": 1792424143.1323707,
     "3d30b3e05c806fb42f4d": 1791609040.2210953,
     "3d34d5479f80c88c3e56": 1791885335.2268872,
@@ -9199,6 +9293,7 @@
     "501e25abf6a3e4c80292": 1791954640.0214174,
     "5020e24535d9e3c8b6dd": 1792161340.4589899,
     "50228f5568b04c0531c9": 1791862540.7772794,
+    "502baccc53faa3b1289c": 1792598148.6807687,
     "502d77a2529cb13ca062": 1792066239.781993,
     "503076c52b733af1f255": 1792418139.7952702,
     "50383ad3084d8ef61e33": 1791516933.2864041,
@@ -9264,7 +9359,6 @@
     "51f1c8e4d2bc5134ebde": 1791889847.0478597,
     "51fd8437cd25c2726a38": 1792064139.1023824,
     "51ff4cbe37747f727bbd": 1791516933.2864444,
-    "520186ae486b8fb56391": 1791388542.1457295,
     "52092d30ac615fba8d48": 1792257646.261346,
     "52145a1386bcc6baf1fb": 1791714938.9959111,
     "52262280f9cba18ad165": 1792318243.859754,
@@ -9313,7 +9407,6 @@
     "53207bf19c10d4148c3e": 1791447044.6563838,
     "5327a9429fc078e2f97e": 1791776137.5491188,
     "532c2a0002dac751fb89": 1791706247.1726007,
-    "533689c83bacf478bcbb": 1791388542.1457226,
     "5336b78419a912eab775": 1792572806.7962923,
     "534d945ef9c060d1114b": 1791724238.5841563,
     "53538df809935f852470": 1792414540.479822,
@@ -9496,6 +9589,7 @@
     "5821ba64d21bdb34ef92": 1791951040.53636,
     "5829f03348aa3294b381": 1791970534.8043692,
     "582e47c7dc38489c4e22": 1791459339.9237595,
+    "58351721f331c06d637d": 1792598148.680962,
     "583981ebaad673d28981": 1792524190.6213517,
     "584145114615754a3b78": 1792146949.217534,
     "584a14635af336f6fdc5": 1791516933.2864256,
@@ -9703,6 +9797,7 @@
     "5dc1a47c42d8e81a6e3f": 1792321841.7048502,
     "5dc95b581ce4c702b260": 1791998446.4346197,
     "5dd0dbe804d512b888fc": 1792386642.282586,
+    "5dd345e603e1a6a0a6cd": 1792598148.680771,
     "5dd9c10200e423327108": 1792142444.0028918,
     "5dda012b1672cd33cba6": 1792235449.0636675,
     "5de077c76392e93a8601": 1791891336.4880488,
@@ -9956,7 +10051,6 @@
     "63d0a22862e100e66662": 1792318243.8597727,
     "63d307258df6b697cd27": 1791948933.8601646,
     "63d78f43ff40d1602064": 1791735050.1182683,
-    "63deab27e2c555e5afe6": 1791388542.1457179,
     "63df89aff8725aa39fb5": 1792211741.376884,
     "63e37ccf321babc62db8": 1792562010.3319654,
     "63e60637c50d235f173f": 1792421743.2122357,
@@ -10401,6 +10495,7 @@
     "7027cfd63ebdfa4378e3": 1791812153.2044137,
     "70317413a14ce4a58a10": 1791547842.79999,
     "704829339ba7835c011c": 1792171243.8135962,
+    "704d80f4432fccb1d723": 1792598148.6809707,
     "704e9a6ba8c2d37df2d4": 1792208142.138891,
     "705d02571ee318878bc0": 1791914135.2816644,
     "70647f2815422c0732b0": 1792583744.882165,
@@ -10611,6 +10706,7 @@
     "765196d8108aff909d3a": 1791802552.5616758,
     "765dc45719cfb6918b42": 1792582271.0908046,
     "766a1c41f6ad12d1c3a1": 1792073442.9275804,
+    "766b8982b435afe41afa": 1792598148.6809633,
     "76790a92ef25137adf6a": 1791545739.880554,
     "7683911f3c6d18bcbf1b": 1792154141.8278162,
     "768f5632717b6dc15faf": 1791645636.2670228,
@@ -10852,6 +10948,7 @@
     "7dd8ad9355527e595ec9": 1792090539.5488296,
     "7de4a03a1320a986e8c4": 1791881741.30768,
     "7deadd7454f0295b0e2c": 1792491610.8404605,
+    "7df2c91f849174ba7c51": 1792598148.6807652,
     "7df39d6f7f54f6064bfb": 1791430540.085001,
     "7df88a8e91709c73fba7": 1792390243.9808877,
     "7dfd5df19c28ccbf1b9b": 1792138279.0916286,
@@ -12534,6 +12631,7 @@
     "ad9ce84b1d551ef4de74": 1792509276.9903278,
     "ada188b15b2a81b137a2": 1791921342.135531,
     "ada6c2920b797738602a": 1792430450.9214866,
+    "adb8685816da8d78d8c6": 1792598148.6809647,
     "adcaeb1a6d7d51362269": 1791795333.7604232,
     "add70b4f548115165e56": 1792509276.9904783,
     "add9b080d393b0b7a13c": 1792294535.0746944,
@@ -12557,6 +12655,7 @@
     "ae4b1a1584aa4b82cca3": 1791616840.1807833,
     "ae5c2a1ab32898f047d4": 1791779739.6407156,
     "ae64348c00cf886c323c": 1791824140.5353403,
+    "ae6b5813e8d5ac44df7b": 1792598148.6809766,
     "ae6db1aa5ec3c49b97af": 1792509276.9903123,
     "ae75240d0e37d0101896": 1792005649.8374937,
     "ae765423a781431c8af1": 1792294535.074732,
@@ -13870,7 +13969,6 @@
     "d157dead3290d04d06c0": 1792035343.876418,
     "d15e979cc756c46747ee": 1792407365.9567103,
     "d166e8a83123e736c90e": 1791624040.4737701,
-    "d17dddd457a5c23083bb": 1791388542.145711,
     "d18645879d9aa6c6fcbd": 1792244136.3419056,
     "d18c2d0b0271846545ea": 1791820538.5347233,
     "d18dcb5f76da4905b4d7": 1791534944.838142,
@@ -14432,6 +14530,7 @@
     "e0626e752b3484b7651d": 1791430540.0848,
     "e06488b26dde6120093f": 1791624040.473769,
     "e0691a4777a9a8f676fc": 1792148139.270744,
+    "e073acde9c7b7e88a9a5": 1792598148.6807604,
     "e07c7732e1fcba2a4815": 1791994878.6486397,
     "e08cd6562345add5f9e2": 1792066239.7819855,
     "e0a0f6511d6214439f2e": 1792406138.1631567,
@@ -14756,6 +14855,7 @@
     "e9c958260b1443a7f15b": 1791441336.163705,
     "e9cfaa520595226d7024": 1791992147.2509828,
     "e9db6e04b88ccbca71fb": 1791406539.855453,
+    "e9e33f5b44db92c17aa5": 1792598148.6809742,
     "e9e9894f7c784f0e86ad": 1791880537.1043243,
     "e9ee8d78d695dec51aea": 1791531338.953835,
     "e9f5a1eec7a598de1e8b": 1792072539.9078453,
@@ -15183,7 +15283,6 @@
     "f61df7056fc03198578c": 1791696932.628479,
     "f62a9460c09c6aacc5eb": 1792084843.1068573,
     "f635dd21dc9762b336fc": 1792264843.7870688,
-    "f63c1cd5701311f80c4c": 1791388542.1457307,
     "f641f4a7147115345e9e": 1791538359.9308996,
     "f647d7076d6b8be363ba": 1792073442.927579,
     "f64ed88671673bbf16e7": 1791462941.0634983,
@@ -15552,55 +15651,55 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1792596936.590165
+      "ts": 1792598148.680734
     }
   },
   "sport_recent": [
@@ -17171,6 +17270,46 @@
       "t": "Bývalá hviezda Barcelony sa stala pastorom: Moje duo s Messim? Spojenie s Kristom je lepšie",
       "ts": 1792596936.5902221,
       "u": "83f6db5c1d00603881c9"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/la-liga-mourinho-real-madrid-el-clasico-zmena-rozhodcu-2026102115440869962",
+      "p": "Sťažnosti Josého Mourinha priniesli výsledok. V Španielsku informujú, že Comité Técnico de Árbitros (CTA) na ich základe zmenil výber hlavného rozhodcu pre nedeľňajšie El Clásico medzi Barcelonou a Realom Madrid.",
+      "s": "Šport.sk",
+      "t": "La Liga vyhovela Mourinhovi a Realu Madrid. El Clasico čaká bezprecedentná zmena",
+      "ts": 1792598148.6809697,
+      "u": "3d03a2c4b49695196953"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/vojnova-hrozba-meni-dejisko-prestizny-turnaj-s-rekordnou-dotaciou-uteka-zo-saudskej-arabie-do-europy-2026102115482942992",
+      "p": "Vzhľadom na neustále útoky húsíjských povstalcov bolo finále Global Champions Tour v Rijáde zrušené. Jazdecký turnaj s rekordnou celkovou dotáciou 11,25 milióna eur sa namiesto toho presunie do Verony, ako vyplýva z nového rozpisu schváleného svetovou federáciou.",
+      "s": "Šport.sk",
+      "t": "Vojnová hrozba mení dejisko. Prestížny turnaj s rekordnou dotáciou uteká zo Saudskej Arábie do Európy",
+      "ts": 1792598148.680972,
+      "u": "704d80f4432fccb1d723"
+    },
+    {
+      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/petra-vlhova-navrat-kto-su-jej-nove-superky-2026102114241295414",
+      "p": "Slovenská lyžiarka Petra Vlhová sa po vážnom zranení kolena a dlhých mesiacoch pauzy vracia do kolotoča Svetového pohára. Hierarchia zjazdového lyžovania sa však počas jej absencie zmenila. V slalome aj v obrovskom slalome vyrástli nové líderky, konkurencia sa zahustila a boj o stupne víťazov je dne",
+      "s": "Šport.sk",
+      "t": "Petra Vlhová má nové súperky. Ktorá vyťažila z jej zranenia najviac?",
+      "ts": 1792598148.6809735,
+      "u": "372f03540a64b07b1012"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPei1FeXhHcE5mdEZKelgwbDROejJYU0xhRU5NbDhiTHVCaWw2TzNiY0Z2dUVCaDVHam5UNDdaTFBYTG5YVW45bXNJZl9udUYtS1kxNHBXSGhTdEd5aEhrYlhDSVlrMUVvYzc1NFQ4N1pzazVhQnNwcnhOejVGbmFyVWhB?oc=5",
+      "p": "Dvaja nováčikovia i dva veľké návraty. Aká je nominácia Slovenska pre Nemecký pohár? Sportnet",
+      "s": "SPORTNET",
+      "t": "Dvaja nováčikovia i dva veľké návraty. Aká je nominácia Slovenska pre Nemecký pohár?",
+      "ts": 1792598148.680976,
+      "u": "e9e33f5b44db92c17aa5"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNMU00VmdEQkdCdnl5Zy15RjduY3BBcHIyY1RaZUk1X0JwSERDcDUyUkdMemVSYndFLVhZN2kwaTlMOWFDYjVCY1RfNnZ5djVUYlRoZUpEYlQ2TDVRSFVReTNXbFppYnlhSjFhZGNYSjI1RVVKRnJrY3lFZ3VNNFUxRG9mYndtUFVBcndxODRlYkJUNEctRWRHM2lZUkR6Q0dEX0hCZVNxWlEwQ2VWMnF5eFo2bkVnTUFjQUpyZG5aOS1tNm5qVGdpYkJzTFBTZEVFZDl1ZjlRR3lvd2Q2MDNPYjQyWVJkLWFsUW16SmlUT3pNcVR5RFpHbXFjYURMVTRkdUNzSDlFb3JJTkVqZ2dpUGdjdlB5OXBtMFcyN0Z4TVpLV2tjaWY4cVVZRnNydl9Qd0oxdnVRZmFtczRfRUZ0VUx3MWJuSXp4OVVOTWhaZ0loVG9BelFEYVBkX2kyS2IwblNrTy1ZeldmSWd2czNxRW5yNkJHVDc4c3h5UHhyZnNIdw?oc=5",
+      "p": "Hokejisti Liptovského Mikuláša sa dočkali. Nový štadión pokrstia zápasom proti Detve tnlive.sk",
+      "s": "TVNOVINY.sk",
+      "t": "Hokejisti Liptovského Mikuláša sa dočkali. Nový štadión pokrstia zápasom proti Detve",
+      "ts": 1792598148.6809773,
+      "u": "ae6b5813e8d5ac44df7b"
     }
   ],
   "sport_source_status": {
@@ -17178,25 +17317,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1792596936.5901833
+      "ts": 1792598148.6807523
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1792596936.5901859
+      "ts": 1792598148.6807547
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1792596936.590189
+      "ts": 1792598148.6807578
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1792596936.5901878
+      "ts": 1792598148.6807568
     }
   }
 }
