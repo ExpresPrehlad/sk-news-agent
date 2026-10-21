@@ -14,6 +14,17 @@ BOOL_SIGNALS = (
 )
 
 
+class SelectionValidationError(ValueError):
+    """Fixed diagnostic codes only: never include model text or source URLs."""
+
+    def __init__(self, code: str, *, item_index: int | None = None,
+                 field: str | None = None):
+        super().__init__(code)
+        self.code = code
+        self.item_index = item_index
+        self.field = field
+
+
 def _without_tracking(url: str) -> str:
     parts = urlsplit(url)
     query = [(key, value) for key, value in parse_qsl(parts.query, keep_blank_values=True)
@@ -27,11 +38,14 @@ def resolve_source_link(link: str, allowed_links: set[str]) -> str:
     """Return an INPUT URL, tolerating only differences in tracking parameters."""
     if link in allowed_links:
         return link
-    canonical = _without_tracking(link)
-    for original in sorted(allowed_links):
-        if _without_tracking(original) == canonical:
-            return original
-    raise ValueError("source link is not present in input articles")
+    try:
+        canonical = _without_tracking(link)
+        for original in sorted(allowed_links):
+            if _without_tracking(original) == canonical:
+                return original
+    except ValueError:
+        raise SelectionValidationError("invalid_source_url") from None
+    raise SelectionValidationError("unknown_source_link")
 
 
 def selection_schema(task: str) -> dict:
@@ -79,31 +93,38 @@ def validate_selection(text: str, task: str, allowed_links: set[str]) -> None:
     cleaned = re.sub(r"```(?:json)?", "", text).strip()
     start, end = cleaned.find("{"), cleaned.rfind("}")
     if start < 0 or end <= start:
-        raise ValueError("missing JSON object")
-    data = json.loads(cleaned[start:end + 1])
+        raise SelectionValidationError("missing_json_object")
+    try:
+        data = json.loads(cleaned[start:end + 1])
+    except json.JSONDecodeError:
+        raise SelectionValidationError("invalid_json") from None
     key = "alerts" if task == "triage" else "topics"
     if not isinstance(data, dict) or set(data) != {key}:
-        raise ValueError("wrong selection task or root fields")
+        raise SelectionValidationError("wrong_root_fields")
     items = data[key]
     if not isinstance(items, list):
-        raise ValueError("selection must be an array")
+        raise SelectionValidationError("selection_not_array")
     if task == "synthesis" and not items:
-        raise ValueError("empty topics are not a usable digest")
+        raise SelectionValidationError("empty_topics")
     if len(items) > (5 if task == "triage" else 10):
-        raise ValueError("too many selections")
+        raise SelectionValidationError("too_many_selections")
     fields = ("title", "reason") if task == "triage" else ("headline", "perex")
-    for item in items:
+    for index, item in enumerate(items):
         if not isinstance(item, dict):
-            raise ValueError("selection item must be an object")
+            raise SelectionValidationError("item_not_object", item_index=index)
         for field in fields:
             if not isinstance(item.get(field), str) or not item[field].strip():
-                raise ValueError(f"missing selection field: {field}")
+                raise SelectionValidationError("missing_selection_field", item_index=index,
+                                               field=field)
         links = item.get("links")
         if not isinstance(links, list) or not 1 <= len(links) <= 3:
-            raise ValueError("missing or invalid source links")
+            raise SelectionValidationError("invalid_links", item_index=index)
         for link in links:
             if not isinstance(link, str):
-                raise ValueError("source link must be a string")
-            resolve_source_link(link, allowed_links)
+                raise SelectionValidationError("link_not_string", item_index=index)
+            try:
+                resolve_source_link(link, allowed_links)
+            except SelectionValidationError as exc:
+                raise SelectionValidationError(exc.code, item_index=index) from None
         if task == "triage" and "signals" in item and not isinstance(item["signals"], dict):
-            raise ValueError("invalid decision signals")
+            raise SelectionValidationError("invalid_signals", item_index=index)

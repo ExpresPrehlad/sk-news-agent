@@ -13,6 +13,8 @@ import math
 
 import requests
 
+from . import diagnostics
+
 from ..config import GEMINI_API_KEY, LLM_TIMEOUT
 
 log = logging.getLogger(__name__)
@@ -27,18 +29,19 @@ _FREE_MODELS = frozenset({
 class LLMError(Exception):
     """Základná chyba LLM volania."""
 
-    def __init__(self, message: str, retryable_next: bool = True):
+    def __init__(self, message: str, retryable_next: bool = True, *, code: str = "llm_error"):
         super().__init__(message)
         # retryable_next=True → router má skúsiť ďalší model v reťazi.
         self.retryable_next = retryable_next
+        self.code = diagnostics.safe_code(code)
 
 
 class RateLimited(LLMError):
     """Quota/backpressure, optionally shared across all provider models."""
 
     def __init__(self, message: str, *, provider_wide: bool = False,
-                 cooldown_seconds: float = 60.0):
-        super().__init__(message)
+                 cooldown_seconds: float = 60.0, code: str = "rate_limit"):
+        super().__init__(message, code=code)
         self.provider_wide = provider_wide
         self.cooldown_seconds = max(1.0, min(86400.0, cooldown_seconds)) \
             if math.isfinite(cooldown_seconds) else 60.0
@@ -64,6 +67,7 @@ def _rate_error(resp, model: str) -> RateLimited:
     return RateLimited(
         f"Gemini {model}: {'daily quota' if daily else 'rate limit'} (429)",
         cooldown_seconds=86400.0 if daily else seconds,
+        code="daily_quota" if daily else "rate_limit",
     )
 
 
@@ -72,9 +76,9 @@ def generate(
     response_schema: dict | None = None, timeout: float | None = None,
 ) -> str:
     if model not in _FREE_MODELS:
-        raise LLMError("Gemini: model nie je v overenom free-tier zozname")
+        raise LLMError("Gemini: model nie je v overenom free-tier zozname", code="model_not_allowed")
     if not GEMINI_API_KEY:
-        raise LLMError("GEMINI_API_KEY nie je nastavený", retryable_next=False)
+        raise LLMError("GEMINI_API_KEY nie je nastavený", retryable_next=False, code="missing_api_key")
 
     payload = {
         "systemInstruction": {"parts": [{"text": system}]},
@@ -93,6 +97,7 @@ def generate(
             "responseJsonSchema": response_schema,
         })
     try:
+        diagnostics.note_request()
         resp = requests.post(
             _ENDPOINT.format(model=model),
             headers={"x-goog-api-key": GEMINI_API_KEY},
@@ -101,29 +106,40 @@ def generate(
         )
     except requests.RequestException as exc:
         # Request exceptions can contain a URL/API key. Do not log their text.
-        raise LLMError(f"Gemini sieťová chyba ({type(exc).__name__})") from exc
+        raise LLMError(f"Gemini sieťová chyba ({type(exc).__name__})",
+                       code="request_timeout" if isinstance(exc, requests.Timeout)
+                       else "network_error") from exc
 
+    diagnostics.note_response(status=resp.status_code)
     if resp.status_code == 429:
         raise _rate_error(resp, model)
     if resp.status_code != 200:
         raise LLMError(f"Gemini {model}: HTTP {resp.status_code}",
-                       retryable_next=resp.status_code != 401)
+                       retryable_next=resp.status_code != 401, code="http_error")
 
     try:
         data = resp.json()
         candidate = data["candidates"][0]
         finish = candidate.get("finishReason")
+        usage = data.get("usageMetadata")
+        usage = usage if isinstance(usage, dict) else {}
+        diagnostics.note_response(
+            status=200, input_tokens=usage.get("promptTokenCount"),
+            output_tokens=usage.get("candidatesTokenCount"),
+            reasoning_tokens=usage.get("thoughtsTokenCount"), finish=finish,
+        )
         if finish not in (None, "STOP"):
-            raise LLMError(f"Gemini {model}: nedokončený/blokovaný výstup ({finish})")
+            raise LLMError(f"Gemini {model}: nedokončený/blokovaný výstup",
+                           code="incomplete_output")
         parts = candidate["content"]["parts"]
         text = "".join(p.get("text", "") for p in parts if not p.get("thought")).strip()
-        usage = data.get("usageMetadata") or {}
         log.info("LLM usage model=gemini/%s input=%s output=%s thoughts=%s",
-                 model, usage.get("promptTokenCount"), usage.get("candidatesTokenCount"),
-                 usage.get("thoughtsTokenCount"))
+                 model, diagnostics.token_count(usage.get("promptTokenCount")),
+                 diagnostics.token_count(usage.get("candidatesTokenCount")),
+                 diagnostics.token_count(usage.get("thoughtsTokenCount")))
     except (KeyError, IndexError, ValueError, TypeError, AttributeError) as exc:
-        raise LLMError(f"Gemini {model}: nečakaný formát odpovede") from exc
+        raise LLMError(f"Gemini {model}: nečakaný formát odpovede", code="unexpected_response") from exc
 
     if not text:
-        raise LLMError(f"Gemini {model}: prázdna odpoveď (safety block?)")
+        raise LLMError(f"Gemini {model}: prázdna odpoveď (safety block?)", code="empty_response")
     return text

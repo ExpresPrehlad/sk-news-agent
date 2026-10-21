@@ -42,6 +42,7 @@ from src.config import (
 from src.digest import TRIAGE_POLICY_VERSION, synthesize, triage
 from src.freshness import fresh_synthesis_articles, fresh_triage_articles
 from src.llm.router import AllModelsFailed
+from src.llm import diagnostics as llm_diagnostics
 from src.notify.discord import (
     send_alerts,
     send_digest,
@@ -174,6 +175,11 @@ def _run_synthesis(
         topics, model = synthesize(window, already_featured)
     except AllModelsFailed as exc:
         log.error("Syntéza: celá LLM reťaz zlyhala: %s", exc)
+        selection_log.record_synthesis(
+            articles=window, already_featured_count=len(already_featured),
+            topics=[], model="all-models-failed", published=False, forced=force,
+            decision_valid=False,
+        )
         _report_llm_outage(state, discord, "syntéza", str(exc))
         return "❌ LLM reťaz zlyhala (všetky modely)"
     published = send_digest(discord.digest_url, topics, model)
@@ -206,6 +212,7 @@ def _report_llm_outage(state: State, discord: DiscordConfig, what: str, detail: 
 
 
 def run(dry_run: bool = False, force_synthesis: bool = False) -> int:
+    llm_diagnostics.reset()
     discord = DiscordConfig()
     state = State(STATE_PATH)
     selection_log = SelectionLog(SELECTION_LOG_DIR)
@@ -391,4 +398,10 @@ if __name__ == "__main__":
 
     if args.check_feeds:
         sys.exit(check_feeds())
-    sys.exit(run(dry_run=args.dry_run, force_synthesis=args.force_synthesis))
+    try:
+        exit_code = run(dry_run=args.dry_run, force_synthesis=args.force_synthesis)
+    finally:
+        # Kept separate from generated state; also runs after an unexpected error.
+        llm_diagnostics.write_report()
+        gha_summary.write(llm_diagnostics.summary_lines())
+    sys.exit(exit_code)

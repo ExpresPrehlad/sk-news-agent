@@ -16,6 +16,7 @@ import requests
 
 from ..config import LLM_TIMEOUT, OPENROUTER_API_KEY
 from .gemini import LLMError, RateLimited
+from . import diagnostics
 
 log = logging.getLogger(__name__)
 
@@ -48,6 +49,7 @@ def _quota_error(resp) -> RateLimited:
         f"OpenRouter: HTTP {resp.status_code} (shared quota)" if provider_wide else
         f"OpenRouter: HTTP {resp.status_code} (provider limit/unavailable)",
         provider_wide=provider_wide, cooldown_seconds=seconds,
+        code="shared_quota" if provider_wide else "provider_unavailable",
     )
 
 
@@ -56,9 +58,9 @@ def generate(
     response_schema: dict | None = None, timeout: float | None = None,
 ) -> str:
     if model not in _FREE_MODELS:
-        raise LLMError("OpenRouter: model nie je v povolenom bezplatnom zozname")
+        raise LLMError("OpenRouter: model nie je v povolenom bezplatnom zozname", code="model_not_allowed")
     if not OPENROUTER_API_KEY:
-        raise LLMError("OPENROUTER_API_KEY nie je nastavený", retryable_next=False)
+        raise LLMError("OPENROUTER_API_KEY nie je nastavený", retryable_next=False, code="missing_api_key")
 
     payload = {
         "model": model,
@@ -87,6 +89,7 @@ def generate(
         # Ultra currently has no native response_format support. Its output
         # must still pass the same local validator before router acceptance.
     try:
+        diagnostics.note_request()
         resp = requests.post(
             _ENDPOINT,
             headers={
@@ -99,36 +102,49 @@ def generate(
             timeout=LLM_TIMEOUT if timeout is None else timeout,
         )
     except requests.RequestException as exc:
-        raise LLMError(f"OpenRouter sieťová chyba ({type(exc).__name__})") from exc
+        raise LLMError(f"OpenRouter sieťová chyba ({type(exc).__name__})",
+                       code="request_timeout" if isinstance(exc, requests.Timeout)
+                       else "network_error") from exc
 
+    diagnostics.note_response(status=resp.status_code)
     if resp.status_code in (429, 503):
         raise _quota_error(resp)
     if resp.status_code != 200:
         raise LLMError(f"OpenRouter {model}: HTTP {resp.status_code}",
-                       retryable_next=resp.status_code not in (401, 402))
+                       retryable_next=resp.status_code not in (401, 402), code="http_error")
 
     try:
         data = resp.json()
         if data.get("error"):
-            raise LLMError(f"OpenRouter {model}: error v úspešnej HTTP odpovedi")
+            raise LLMError(f"OpenRouter {model}: error v úspešnej HTTP odpovedi", code="provider_error")
         served_model = data.get("model", model)
         # Some providers report the canonical model without the :free suffix.
         # Free pricing is enforced in the request, not inferred from this label.
         if not isinstance(served_model, str) or (
             served_model.removesuffix(":free") != model.removesuffix(":free")
         ):
-            raise LLMError(f"OpenRouter {model}: neočakávaná zmena modelu")
+            raise LLMError(f"OpenRouter {model}: neočakávaná zmena modelu", code="unexpected_model")
         choice = data["choices"][0]
         finish = choice.get("finish_reason")
+        usage = data.get("usage")
+        usage = usage if isinstance(usage, dict) else {}
+        details = usage.get("completion_tokens_details")
+        details = details if isinstance(details, dict) else {}
+        diagnostics.note_response(
+            status=200, input_tokens=usage.get("prompt_tokens"),
+            output_tokens=usage.get("completion_tokens"),
+            reasoning_tokens=details.get("reasoning_tokens"), finish=finish,
+        )
         if finish not in (None, "stop"):
-            raise LLMError(f"OpenRouter {model}: nedokončený/blokovaný výstup ({finish})")
+            raise LLMError(f"OpenRouter {model}: nedokončený/blokovaný výstup",
+                           code="incomplete_output")
         text = (choice["message"]["content"] or "").strip()
-        usage = data.get("usage") or {}
         log.info("LLM usage model=openrouter/%s input=%s output=%s",
-                 served_model, usage.get("prompt_tokens"), usage.get("completion_tokens"))
+                 served_model, diagnostics.token_count(usage.get("prompt_tokens")),
+                 diagnostics.token_count(usage.get("completion_tokens")))
     except (KeyError, IndexError, ValueError, TypeError, AttributeError) as exc:
-        raise LLMError(f"OpenRouter {model}: nečakaný formát odpovede") from exc
+        raise LLMError(f"OpenRouter {model}: nečakaný formát odpovede", code="unexpected_response") from exc
 
     if not text:
-        raise LLMError(f"OpenRouter {model}: prázdna odpoveď")
+        raise LLMError(f"OpenRouter {model}: prázdna odpoveď", code="empty_response")
     return text

@@ -85,6 +85,7 @@ class SelectionLog:
         model: str,
         published: bool,
         forced: bool,
+        decision_valid: bool = True,
     ) -> bool:
         selected = [
             {
@@ -107,7 +108,7 @@ class SelectionLog:
             },
             selected=selected,
             published=published,
-            decision_valid=True,
+            decision_valid=decision_valid,
         )
 
     def _append(

@@ -9,6 +9,20 @@ from src.selection_log import SelectionLog, read_recent_events
 
 
 class SelectionLogTests(unittest.TestCase):
+    def test_failed_synthesis_is_recorded_without_fake_topics_or_archive_rows(self):
+        with tempfile.TemporaryDirectory() as directory:
+            audit = SelectionLog(directory)
+            self.assertTrue(audit.record_synthesis(
+                articles=[{"t": "Input"}], already_featured_count=0, topics=[],
+                model="all-models-failed", published=False, forced=False, decision_valid=False,
+            ))
+            event = read_recent_events(directory)[0]
+            self.assertEqual(event["event_type"], "synthesis")
+            self.assertEqual(event["selection_count"], 0)
+            self.assertFalse(event["decision_valid"])
+            self.assertFalse(event["published"])
+            self.assertNotIn('class="archive-row', build_audit_html([event]))
+
     def test_records_triage_and_synthesis_in_order(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as directory:
             audit = SelectionLog(directory)

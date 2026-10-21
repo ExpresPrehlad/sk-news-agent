@@ -53,12 +53,23 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           BACKUP_TRIGGER: ${{ inputs.backup_trigger }}
+          LLM_DIAGNOSTICS_PATH: ${{ runner.temp }}/llm-diagnostics.json
         run: |
           if [ "${{ inputs.force_synthesis }}" = "true" ]; then
             python main.py --force-synthesis
           else
             python main.py
           fi
+
+      - name: Upload LLM diagnostics
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: llm-diagnostics-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/llm-diagnostics.json
+          if-no-files-found: ignore
+          retention-days: 7
 
       - name: Commit state
         run: |

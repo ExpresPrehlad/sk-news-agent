@@ -330,14 +330,18 @@ class FailureIsolationTests(unittest.TestCase):
         state.get_meta.return_value = 0
         state.recent_window.return_value = [ARTICLE.copy() for _ in range(5)]
         state.recent_digest_headlines.return_value = ["Predošlý prehľad"]
+        selection_log = Mock()
         with patch.object(main, "synthesize", side_effect=router.AllModelsFailed(["outage"])), \
              patch.object(main, "send_digest") as publish, \
              patch.object(main, "_report_llm_outage"):
-            status = main._run_synthesis(state, Mock(), Mock(), False, 15)
+            status = main._run_synthesis(state, Mock(), selection_log, False, 15)
         self.assertIn("zlyhala", status)
         publish.assert_not_called()
         state.set_last_digest.assert_not_called()
         state.set_meta.assert_not_called()
+        self.assertFalse(selection_log.record_synthesis.call_args.kwargs["decision_valid"])
+        self.assertFalse(selection_log.record_synthesis.call_args.kwargs["published"])
+        self.assertEqual(selection_log.record_synthesis.call_args.kwargs["topics"], [])
 
     def test_failed_triage_is_logged_as_failure_not_no_breaking_news(self):
         import main

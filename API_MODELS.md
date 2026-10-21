@@ -1,5 +1,46 @@
 # Bezpečná aktualizácia API modelov — 5. 10. 2026
 
+## Diagnostika a overenie fallbacku — 21. 10. 2026
+
+Redakčné pravidlá, poradie modelov, časové filtre a nulové cenové stropy sa nemenia.
+Pri zlyhaní Gemini sa už používa reťaz OpenRouter; nové meranie tento prechod
+výslovne potvrdzuje a rozlišuje ho od skutočne odoslaných HTTP požiadaviek.
+
+- V logu hľadať `provider_transition=gemini->openrouter` a výsledný riadok
+  `openrouter_http_requests=N`. Vstup do vetvy ešte neznamená HTTP dopyt:
+  chýbajúci kľúč, cooldown alebo vyčerpaný čas ho môžu zastaviť.
+- GitHub Actions Summary obsahuje sekciu **Diagnostika LLM / OpenRouter fallback**:
+  prítomnosť kľúčov (iba áno/nie), výsledok úlohy, prijatý model a tabuľku pokusov
+  s HTTP stavom, trvaním a bezpečným kódom chyby.
+- Artefakt `llm-diagnostics-<run_id>-<run_attempt>` obsahuje `llm-diagnostics.json`,
+  dostupný 7 dní. Má aj počty tokenov, finish reason, dĺžku odpovede a index/typ
+  chybného poľa, ak ich odpoveď umožňuje zistiť. Index položky sa počíta od nuly.
+- Príklady dôvodov: `unknown_source_link`, `missing_selection_field`,
+  `empty_topics`, `invalid_json`, `daily_quota`, `http_error`, `incomplete_output`.
+  Všeobecná výnimka validátora bez známeho typu zostáva `validation_error`.
+- Report neobsahuje API kľúče, prompty, články, zdrojové URL, surové odpovede
+  ani text uvažovania. HTTP 200 nie je automaticky platný redakčný výber.
+- Neúspešná syntéza sa zapisuje aj do existujúceho mesačného auditného JSONL
+  ako `decision_valid=false`, `published=false`, bez vybraných tém. Nevytvára
+  falošné riadky v Excel exporte; posledný platný digest sa zachová.
+- Súbor diagnostiky je iba v dočasnom adresári runnera, necommituje sa do
+  `data/` ani `docs/`. Zlyhanie uloženia alebo uploadu diagnostiky nesmie
+  blokovať zber alebo commit stavu. Report vznikne aj pri preskočenom behu,
+  vtedy obsahuje nula LLM úloh; nevytvárajú sa dodatočné testovacie dopyty.
+
+Po pushi overiť najbližší reálny zber v Actions. Keď Gemini uspeje, OpenRouter
+sa správne vôbec nevolá. Pri zlyhaní Gemini overiť prechod, nenulový počet
+HTTP požiadaviek a výsledok každého OpenRouter modelu. Prítomnosť secretu
+ani samotné prepnutie negarantujú dostupnú kvótu alebo platnú odpoveď.
+
+Offline pokrytie zahŕňa skutočnú klientsku cestu s mockovanou HTTP vrstvou:
+503 na Gemini → prijatie OpenRouter odpovede; úspech Gemini bez fallbacku;
+zlyhanie všetkých modelov; chýbajúce kľúče; cooldown; vyčerpanie rozpočtu;
+neplatné odkazy/JSON; useknutý výstup s reasoning počtami; ochranu tajomstiev
+a vytvorenie reportu pri preskočenom CLI behu.
+
+---
+
 Aktualizácia nemení redakčné prompty, pravidlá Mimoriadne, časové filtre,
 RSS zdroje, športovú prioritizáciu ani spôsob publikovania.
 
