@@ -103,86 +103,122 @@
     {
       "headline": "Policajt podal trestné oznámenie na ministra vnútra Šutaj Eštoka",
       "ts": 1792738608.0660794
+    },
+    {
+      "headline": "Agresívny pacient v bratislavskej nemocnici napadol zdravotníkov",
+      "ts": 1792740402.8368158
+    },
+    {
+      "headline": "Trojica obvinených z drogovej akcie FINISHER 2 putuje do väzby",
+      "ts": 1792740402.8368158
+    },
+    {
+      "headline": "Streľba na Západnom brehu si vyžiadala dvoch mŕtvych a zranených",
+      "ts": 1792740402.8368158
+    },
+    {
+      "headline": "Administratíva Donalda Trumpa vyhostila z USA takmer milión ľudí",
+      "ts": 1792740402.8368158
+    },
+    {
+      "headline": "Krvavé vzbury vo väzniciach v Ekvádore si vyžiadali osem obetí",
+      "ts": 1792740402.8368158
+    },
+    {
+      "headline": "Šéf novozélandskej armády Tony Davies náhle odstúpil z funkcie",
+      "ts": 1792740402.8368158
     }
   ],
   "last_digest": {
-    "model": "gemini/gemini-3.5-flash-lite",
+    "model": "gemini/gemini-3.8-flash",
     "topics": [
       {
-        "headline": "Policajt podal trestné oznámenie na ministra vnútra Šutaj Eštoka",
+        "headline": "Agresívny pacient v bratislavskej nemocnici napadol zdravotníkov",
+        "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/krimi/1276603-pacient-v-bratislavskej-nemocnici-zlomil-zdravotnikovi-nos"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2064561-nasilie-v-bratislavskej-nemocnici-sa-opakuje-pacient-zautocil-na-dvoch-zdravotnikov-zasahovala-policia?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "V nemocnici v bratislavskom Ružinove došlo k ďalšiemu fyzickému útoku na personál, pri ktorom pacient zlomil zdravotníkovi nos. Agresívneho muža spacifikovali a zadržali policajné hliadky priamo na chodbe zariadenia."
+      },
+      {
+        "headline": "Trojica obvinených z drogovej akcie FINISHER 2 putuje do väzby",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/MsR6qoD/znamy-policajt-podal-trestne-oznamenie-na-ministra-sutaj-estoka/"
+            "https://www.aktuality.sk/clanok/pSFfepV/vsetci-traja-obvineni-z-drogovej-akcie-finisher-2-idu-do-vazby-sud-vyhovel-navrhu-prokuratora/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2064551-v-hre-bol-aj-kokain-sud-rozhodol-o-vazbe-vsetkych-troch-muzov-z-pripadu-finisher-2?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ]
         ],
-        "perex": "Bývalý elitný vyšetrovateľ podal trestné oznámenie na ministra vnútra. Tvrdí, že minister úmyselne poškodil Pavla Ďurku."
+        "perex": "Súd vyhovel návrhu prokurátora a poslal všetkých troch obvinených mužov z drogovej akcie FINISHER 2 do väzby. Dôvodom rozhodnutia je obava z pokračovania v páchaní drogovej trestnej činnosti, pričom vyšetrovanie naďalej prebieha."
+      },
+      {
+        "headline": "Streľba na Západnom brehu si vyžiadala dvoch mŕtvych a zranených",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/bK9TsaJ/izraelska-armada-na-okupovanom-zapadnom-brehu-jordanu-zastrelila-dvoch-palestinskych-ozbrojencov/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2064555-strelba-na-zapadnom-brehu-pat-ludi-skoncilo-so-zraneniami-izraelska-armada-zastrelila-dvoch-utocnikov?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Izraelská armáda zastrelila na okupovanom Západnom brehu Jordánu dvoch palestínskych útočníkov po streľbe neďaleko mesta Hebron. Incident si vyžiadal najmenej päť zranených osôb, pričom dvaja z nich zostávajú v kritickom stave."
+      },
+      {
+        "headline": "Administratíva Donalda Trumpa vyhostila z USA takmer milión ľudí",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/usa-deportovali-za-trumpa-za-18-mesiacov-takmer-milion-ludi-vacsina-nemala-zaznam-o-odsudeni?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/gIwvmlX/administrativa-donalda-trumpa-vyhostila-za-18-mesiacov-takmer-milion-ludi-vacsina-nemala-trestny-zaznam/"
+          ]
+        ],
+        "perex": "Americké úrady dohliadali počas 18 mesiacov druhého mandátu prezidenta Donalda Trumpa na deportáciu takmer 980-tisíc osôb. Väčšina vyhostených ľudí nemala podľa zverejnenej správy záznam v registri trestov."
+      },
+      {
+        "headline": "Krvavé vzbury vo väzniciach v Ekvádore si vyžiadali osem obetí",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/R0PvFXc/krvave-nepokoje-v-ekvadorskych-vazniciach-si-vyziadali-osem-mrtvych-a-desiatku-zranenych/"
+          ]
+        ],
+        "perex": "Násilné nepokoje vo dvoch väzenských zariadeniach Cotopaxi a Pichincha v okolí hlavného mesta Quito neprežilo osem ľudí a desiatka ďalších utrpela zranenia. Ekvádorské úrady už identifikovali strojcov vzbury a plánujú ich prevoz do prísne stráženej väznice."
+      },
+      {
+        "headline": "Šéf novozélandskej armády Tony Davies náhle odstúpil z funkcie",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/q1cdOgF/sef-novozelandskych-ozbrojenych-sil-tony-davies-nahle-odstupil-kvoli-tajnemu-nevhodnemu-vztahu-z-minulosti/"
+          ]
+        ],
+        "perex": "Generálporučík Tony Davies nečakane abdikoval z čela novozélandských ozbrojených síl po odhalení utajovaného nevhodného pomeru z minulosti. Oceňovaný vojenský veterán tým po škandále ukončil svoju 42-ročnú vojenskú kariéru."
       }
     ],
-    "ts": 1792738608.066073
+    "ts": 1792740402.8368118
   },
   "meta": {
-    "last_collection_ts": 1792739442.65529,
+    "last_collection_ts": 1792740377.836675,
     "last_feed_error_ts": 1792650971.8746667,
     "last_llm_error_ts": 1792695522.3606155,
-    "last_run_ts": 1792739443.1558928,
-    "last_synthesis_ts": 1792738608.0660677
+    "last_run_ts": 1792740378.2220378,
+    "last_synthesis_ts": 1792740402.836807
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/pocas-jesene-stupa-zaujem-o-psychiatricku-starostlivost?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Výrazný medziročný nárast je zaznamenaný u detí a mladistvých.",
-      "pub": 1792652796,
-      "s": "SME",
-      "t": "Počas jesene stúpa záujem o psychiatrickú starostlivosť",
-      "ts": 1792653047.6652117,
-      "u": "c7d4bfb01e68b46ec555"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaEZVOFBMRzZ0S1V6bjVZU3BRTkp5d1d0U1ktOTJwSTNPYWR6U2NjNGZrQ0dDN3hhWmhJbElhOGctUDlXanVCMEZJUTFIck5wZ29OaFFWTkZPOGsyZzRzT0RCOXl0bEl6cllKc2l3U2J5eEMzWWhsdzU5bkduaDFsRWhJSQ?oc=5",
-      "p": "Voľby 2026: Priebežné poradie primátorov zverejnia len v Bratislave a Košiciach SME.sk",
-      "pub": 1792647677,
-      "s": "SME (GNews)",
-      "t": "Voľby 2026: Priebežné poradie primátorov zverejnia len v Bratislave a Košiciach",
-      "ts": 1792653047.6654017,
-      "u": "e6700a0b9c9d96a99a75"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVHlwV0Q4YzZySm9DckFxWkVMOUtYalBuX3RsQmx1em1HdE1nOWJNZmtBUFJpbm9DNmQyU1JkZDhScmxsallHMnhZU1FtTDVmQ0RTaVhCcVRjOEVTdEQ5NmFfTnhaUzg2Z2c5WFFKLW9RdS1jTVdHVmxqbUFBakI4SlNRYVBTWEdSRUpjYWpTSFAwekNvVGc?oc=5",
-      "p": "Pred srbskými voľbami dopochodovali do Belehradu stovky študentov SME.sk",
-      "pub": 1792642633,
-      "s": "SME (GNews)",
-      "t": "Pred srbskými voľbami dopochodovali do Belehradu stovky študentov",
-      "ts": 1792653047.6654043,
-      "u": "0d87432981f23c9b1a70"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/OkK5jja/usa-nariadili-casti-personalu-ambasady-v-saudskej-arabii-odchod-z-krajiny/",
-      "p": "Spojené štáty nariadili časti zamestnancov svojho veľvyslanectva v Saudskej Arábii a ich rodinám odchod z krajiny. Dôvodom je zhoršujúca sa bezpečnostná situácia a pokračujúce útoky húsíov.",
-      "pub": 1792652580,
-      "s": "Aktuality",
-      "t": "USA nariadili časti personálu ambasády v Saudskej Arábii odchod z krajiny",
-      "ts": 1792653047.6654058,
-      "u": "ee0bd6c01d011be495b7"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/KSOW5DE/dva-litre-cistej-vody-denne-su-mytus-hydratovat-sa-mozete-aj-jedlom-kavou-ci-polievkou/",
-      "p": "Prečítajte si, ako správne zavodniť organizmus pomocou ovocia, iných nápojov či jednoduchých trikov bez toho, aby ste sa museli do pitia nútiť.",
-      "pub": 1792652400,
-      "s": "Aktuality",
-      "t": "Dva litre čistej vody denne sú mýtus. Hydratovať sa môžete aj jedlom, kávou či polievkou",
-      "ts": 1792653047.6654072,
-      "u": "b25555839184fe179501"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2063789-dve-europanky-prezili-vyse-18-mesiacov-v-zajati-ich-cesta-na-slobodu-sa-blizi-ku-koncu?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Rakúšanka a Švajčiarka, ktoré prežili viac než 18 mesiacov v zajatí v Nigeri, úspešne dorazili do mesta Benghází na východe Líbye. Pod podmienkou anonymity to v stredu uviedli dvaja úradníci, informuje TASR podľa správy agentúry Reuters.",
-      "pub": 1792651991,
-      "s": "Pravda",
-      "t": "Dve Európanky prežili vyše 18 mesiacov v zajatí. Ich cesta na slobodu sa blíži ku koncu",
-      "ts": 1792653047.6654084,
-      "u": "322bcb87b8ba435a1acc"
-    },
     {
       "l": "https://www.sme.sk/komentare/c/cynicka-obluda-dilema-ktora-realne-neexistuje?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Máme hypotézy a máme fakty. A ak sa držíme faktov, tak vieme, že vláda s Matovičom vedie ku vláde Smeru v silnejšom vydaní.",
@@ -5069,18 +5105,135 @@
       "t": "Pacient v bratislavskej ružinovskej nemocnici zlomil zdravotníkovi nos",
       "ts": 1792739443.155152,
       "u": "c01b21d6ee691ae451c0"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/q1cdOgF/sef-novozelandskych-ozbrojenych-sil-tony-davies-nahle-odstupil-kvoli-tajnemu-nevhodnemu-vztahu-z-minulosti/",
+      "p": "Novozélandskou armádou otriasa škandál na najvyšších miestach. Generálporučík Tony Davies, oceňovaný veterán s 42-ročnou kariérou, odstúpil z čela ozbrojených síl po odhalení minulého pomeru.",
+      "pub": 1792740334,
+      "s": "Aktuality",
+      "t": "Šéf novozélandských ozbrojených síl Tony Davies náhle odstúpil kvôli tajnému nevhodnému vzťahu z minulosti",
+      "ts": 1792740378.2215056,
+      "u": "5152a1fdd35372c0b622"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/2nMrOzv/spojene-kralovstvo-po-dvoch-desatrociach-obnovilo-vyrobu-velkokalibrovych-zbrani/",
+      "p": "V podniku v meste Telford začala britská pobočka nemeckého koncernu Rheinmetall vyrábať hlavne a závery pre delostrelectvo kalibru 120 a 155 milimetrov. Londýn týmto krokom reaguje na rastúce bezpečnostné hrozby zo strany Ruska a plní dohodu o obrannej spolupráci s Nemeckom.",
+      "pub": 1792740021,
+      "s": "Aktuality",
+      "t": "Spojené kráľovstvo po dvoch desaťročiach obnovilo výrobu veľkokalibrových zbraní",
+      "ts": 1792740378.2215085,
+      "u": "701d9d0cfe51e18a9fd9"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/A0x0UbF/dalsi-incident-v-bratislavskej-nemocnici-pacient-napadol-personal/",
+      "p": "Na miesto okamžite dorazili policajné hliadky, ktorým sa agresívneho muža podarilo spacifikovať a zadržať priamo na chodbe nemocničného zariadenia.",
+      "pub": 1792739833,
+      "s": "Aktuality",
+      "t": "Ďalší incident v bratislavskej nemocnici, pacient napadol zdravotníka",
+      "ts": 1792740378.2215104,
+      "u": "0465462861c775aac309"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/R0PvFXc/krvave-nepokoje-v-ekvadorskych-vazniciach-si-vyziadali-osem-mrtvych-a-desiatku-zranenych/",
+      "p": "Nepokoje sa odohrali v zariadeniach Cotopaxi a Pichincha v okolí hlavného mesta Quito. Úrady už identifikovali strojcov nepokojov a chystajú ich prevoz do obávanej väznice s najprísnejším režimom El Encuentro.",
+      "pub": 1792739819,
+      "s": "Aktuality",
+      "t": "Krvavé nepokoje v ekvádorských väzniciach si vyžiadali osem mŕtvych a desiatku zranených",
+      "ts": 1792740378.2215118,
+      "u": "88932a4a2dbd2143c63a"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/bK9TsaJ/izraelska-armada-na-okupovanom-zapadnom-brehu-jordanu-zastrelila-dvoch-palestinskych-ozbrojencov/",
+      "p": "Streľba na okupovanom Západnom brehu Jordánu skončila smrťou dvoch útočníkov a zranením najmenej piatich osôb, z ktorých dve zostávajú v kritickom stave.",
+      "pub": 1792739687,
+      "s": "Aktuality",
+      "t": "Izraelská armáda na okupovanom Západnom brehu Jordánu zastrelila dvoch palestínskych ozbrojencov",
+      "ts": 1792740378.2215133,
+      "u": "a14b9d73d03383c9276f"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/YaIpdVm/juzna-korea-navrhuje-kldr-vojenske-rozhovory-chce-zabranit-nahodnemu-konfliktu-na-hraniciach/",
+      "p": "Cieľom Soulu je presne vymedziť spoločnú pozemnú hranicu a sprevádzkovať priame komunikačné kanály, aby sa predišlo náhodným ozbrojeným stretom. Návrh prichádza v čase prudkého nárastu napätia po výbuchu mín v demilitarizovanom pásme a vyhrážkach Pchjongjangu psychologickou vojnou.",
+      "pub": 1792739511,
+      "s": "Aktuality",
+      "t": "Južná Kórea navrhuje KĽDR vojenské rozhovory, chce zabrániť náhodnému konfliktu na hraniciach",
+      "ts": 1792740378.2215142,
+      "u": "b2fa0c80141507993ce0"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/pSFfepV/vsetci-traja-obvineni-z-drogovej-akcie-finisher-2-idu-do-vazby-sud-vyhovel-navrhu-prokuratora/",
+      "p": "Vyšetrovanie naďalej pokračuje.",
+      "pub": 1792739449,
+      "s": "Aktuality",
+      "t": "Všetci traja obvinení z drogovej akcie FINISHER 2 idú do väzby: Súd vyhovel návrhu prokurátora",
+      "ts": 1792740378.221516,
+      "u": "d9d6e981a85f054c6b65"
+    },
+    {
+      "l": "https://dennikn.sk/5640609/bojim-sa-umierania-odkedy-mi-v-detstve-zomrela-mama-dnes-uz-viem-ze-existuje-aj-dobra-smrt-hovori-zakladatelka-hospicu/",
+      "p": "Mala štyri roky, keď jej zomrela mama. Najskôr pocítila intenzívny smútok, potom sa k nemu pridal aj takmer bytostný strach z okamihu, keď sa skončí aj jej vlastný život. „V momentoch, keď ma premáhali obavy zo smrti, som si vravela, že sa zo mňa raz určite stane princezná, ktorá bude žiť večne a sm",
+      "pub": 1792739927,
+      "s": "Denník N",
+      "t": "Bojím sa umierania, odkedy mi v detstve zomrela mama. Dnes už viem, že existuje aj dobrá smrť, hovorí zakladateľka hospicu",
+      "ts": 1792740378.2215176,
+      "u": "681d363b1e6e84e30878"
+    },
+    {
+      "l": "https://dennikn.sk/5640439/svetovy-newsfilter-je-trump-definitivne-na-putinovej-strane-tri-vyroky-ukazuju-ako-usa-nadbiehaju-rusku/",
+      "p": "Správy spracovali Tomáš Čorej a Rastislav Kačmár Dobrý deň, už v minulotýždňovom Svetovom newsfiltri sme písali, že spor medzi Donaldom Trumpom a Volodymyrom Zelenským je najvážnejší od minuloročnej hádky v Bielom dome. V posledných dňoch ďalej eskaloval. Diplomatický konflikt rozpútal americký prez",
+      "pub": 1792739552,
+      "s": "Denník N",
+      "t": "Svetový newsfilter: Je Trump definitívne na Putinovej strane? Tri výroky ukazujú, ako USA nadbiehajú Rusku",
+      "ts": 1792740378.2215185,
+      "u": "cc1b739b085a2a5dff80"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2064555-strelba-na-zapadnom-brehu-pat-ludi-skoncilo-so-zraneniami-izraelska-armada-zastrelila-dvoch-utocnikov?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Streľba pri Hebrone na Izraelom okupovanom Západnom brehu Jordánu si dnes vyžiadala päť zranených, informuje portál The Times of Israel (ToI) s odvolaním sa na izraelských záchranárov. Izraelská armáda uviedla, že zabila dvoch palestínskych strelcov.",
+      "pub": 1792739747,
+      "s": "Pravda",
+      "t": "Streľba na Západnom brehu. Päť ľudí skončilo so zraneniami, izraelská armáda zastrelila dvoch útočníkov",
+      "ts": 1792740378.2215197,
+      "u": "6342fab6c97a59d25a88"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2064561-nasilie-v-bratislavskej-nemocnici-sa-opakuje-pacient-zautocil-na-dvoch-zdravotnikov-zasahovala-policia?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Bratislavské nemocnice čelia ďalšiemu prípadu násilia voči zdravotníckemu personálu.",
+      "pub": 1792739700,
+      "s": "Pravda",
+      "t": "Násilie v bratislavskej nemocnici sa opakuje. Pacient zaútočil na dvoch zdravotníkov, zasahovala polícia",
+      "ts": 1792740378.2215211,
+      "u": "f43019355c06610f6079"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2064551-v-hre-bol-aj-kokain-sud-rozhodol-o-vazbe-vsetkych-troch-muzov-z-pripadu-finisher-2?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Všetkých troch mužov obvinených v prípade drogovej trestnej činnosti s krycím názvom FINISHER 2 vzal súd do väzby. Dôvodom sú obavy, že by mohli pokračovať v páchaní trestnej činnosti. Informovala o tom polícia na sociálnej sieti.",
+      "pub": 1792739206,
+      "s": "Pravda",
+      "t": "V hre bol aj kokaín. Súd rozhodol o väzbe všetkých troch mužov z prípadu FINISHER 2",
+      "ts": 1792740378.2215226,
+      "u": "10f8cfa051caf3d4c200"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/protidrogova-akcia-finisher-2obvineny/1001951-clanok.html",
+      "p": "Vyšetrovateľ Národnej protidrogovej jednotky vzniesol obvinenie dvom mužom vo veku 34 a 25 rokov pre obzvlášť závažný zločin nedovolenej výroby a obchodovania s omamnou a psychotropnou látkou.",
+      "pub": 1792739700,
+      "s": "Teraz.sk",
+      "t": "Protidrogová akcia Finisher 2: Obvinených vzal sudca do väzby",
+      "ts": 1792740378.2215238,
+      "u": "4b5dec34cccb6d76740f"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/novinkou-78-koncertnej-sezony-slovensk/1001949-clanok.html",
+      "p": "Peter Lipa s kapelou prinesie do bratislavskej Reduty prierez svojou tvorbou a nezameniteľný hudobný prejav, ktorý desaťročia formuje domácu jazzovú scénu.",
+      "pub": 1792739280,
+      "s": "Teraz.sk",
+      "t": "Novinkou 78. koncertnej sezóny Slovenská filharmónie je Jazz v Redute",
+      "ts": 1792740378.2215252,
+      "u": "3e28a9c7d1164916a1b7"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/f6JK5Rs/tragicky-nalez-horiaceho-auta-s-telom-pri-myjave-si-prevzal-urad-boja-proti-organizovanej-kriminalite/"
-      ],
-      "model": "gemini/gemini-3.5-flash-lite",
-      "reason": "Závažný kriminálny čin s obete a preberaním prípadu ÚBOK-om v utajenom režime na slovenskom území.",
-      "title": "Tragický nález horiaceho auta s telom pri Myjave si prevzal Úrad boja proti organizovanej kriminalite",
-      "ts": 1792134657.8729923
-    },
     {
       "links": [
         "https://www.aktuality.sk/clanok/yO9ulgO/ruske-dronove-utoky-zasiahli-volynsku-oblast-a-kyjev-statisice-ludi-su-bez-elektriny/"
@@ -5762,6 +5915,15 @@
       "reason": "Silné zemetrasenie v Tibete si vyžiadalo najmenej 16 obetí a desiatky zranených, avšak správa je už duplicitná vzhľadom na skoršie pokrytie v iných médiách.",
       "title": "Tibet zasiahla katastrofa. Zem sa otriasla silou, akú roky nezažili. Záchranári pátrajú, obetí je najmenej 16",
       "ts": 1792739445.0282423
+    },
+    {
+      "links": [
+        "https://www.aktuality.sk/clanok/A0x0UbF/dalsi-incident-v-bratislavskej-nemocnici-pacient-napadol-personal/"
+      ],
+      "model": "gemini/gemini-3.5-flash-lite",
+      "reason": "Fyzický útok pacienta na personál v bratislavskej nemocnici predstavuje bezpečnostné riziko priamo na Slovensku.",
+      "title": "Ďalší incident v bratislavskej nemocnici, pacient napadol zdravotníka",
+      "ts": 1792740380.5021844
     }
   ],
   "seen": {
@@ -5931,6 +6093,7 @@
     "04568329499393dc7a98": 1791971739.0933802,
     "045ed06b27d213da1bbf": 1791965448.2433922,
     "045f76388fccd84070af": 1792185640.5113404,
+    "0465462861c775aac309": 1792740378.2215095,
     "046b0dc1b64a8e5fa884": 1792182047.8669076,
     "04776be2fe6722202b47": 1792263340.453211,
     "048076a8411526691b49": 1792662938.4947464,
@@ -6195,6 +6358,7 @@
     "0b42d9fd2092996e4f06": 1791924935.8402743,
     "0b44d46181715910a93e": 1792254047.5351298,
     "0b496befee05cec92a86": 1792642242.509683,
+    "0b4fe6dc6c105ed54010": 1792740378.2215264,
     "0b598672245e9ba59d5a": 1791689738.2105203,
     "0b63ef0bd0ae8b83d87f": 1791689738.210514,
     "0b6632362cf1a97e1c39": 1792396540.888787,
@@ -6410,6 +6574,7 @@
     "10e011878efe8968e6cf": 1792432541.8558884,
     "10f3e347db8e8a3bacce": 1791899769.3382273,
     "10f6515f339461979ac6": 1791722135.5587854,
+    "10f8cfa051caf3d4c200": 1792740378.2215216,
     "111bec681e69ce081b95": 1791837336.4683256,
     "1125bda1fa8fcb421917": 1791926451.0304236,
     "11292ab337b695bc8075": 1792061749.7830422,
@@ -6892,7 +7057,6 @@
     "1daeef7a3c7257dd684b": 1792406138.1631894,
     "1db9fe5021277cc93929": 1792301735.6880584,
     "1dc30f148cfebdc539cf": 1791820538.5347276,
-    "1dc46cbaa97a84d3e4fb": 1791529852.5306587,
     "1dd0ad667e238f0fdf48": 1792583744.8821528,
     "1dd21c1c143e60098dad": 1792589736.08157,
     "1ddcb474c5be4bd8b242": 1792250446.6108031,
@@ -7101,7 +7265,6 @@
     "2366bf3f88bc70c216d7": 1791815742.4533017,
     "237e6a4a358b831e36f8": 1791552947.4167023,
     "237f50f2af8bdc085c7b": 1791982535.6086287,
-    "2382ab242beb00f0252e": 1791529852.5306494,
     "2385eb95228e4c0b8228": 1792662938.4947395,
     "23962453df46544a211c": 1792166140.4563696,
     "239c5f01852050ff4055": 1792575340.6964264,
@@ -8120,6 +8283,7 @@
     "3e0882c0aa5c33e10e28": 1791815742.4533951,
     "3e0ebdc242e09dc947f9": 1791948933.8601766,
     "3e1998bfbfb6d6697315": 1792393849.909037,
+    "3e28a9c7d1164916a1b7": 1792740378.2215245,
     "3e311f6c3941bff378a4": 1791872448.4908323,
     "3e31af7db506093ea6d9": 1792562010.331968,
     "3e3d047b2e22051c3161": 1791543335.9910724,
@@ -8621,6 +8785,7 @@
     "4b467191145abc62fd85": 1792307442.3101683,
     "4b46e3dd9fba39d9520e": 1791992147.2512338,
     "4b4df6440cece39bf353": 1792599650.515274,
+    "4b5dec34cccb6d76740f": 1792740378.2215233,
     "4b6075da59e12fdb5909": 1792732247.5921645,
     "4b662b6f5e524c872637": 1791640534.6525154,
     "4b6715365f3e8f1c81f5": 1791609040.2210913,
@@ -8818,6 +8983,7 @@
     "5132ad42c2463b615a6c": 1792151734.3087304,
     "513363ca07a53e1156ab": 1792695341.2232428,
     "514370b77de458b57d05": 1791960935.515267,
+    "5152a1fdd35372c0b622": 1792740378.221501,
     "5154b562816086c7281c": 1792380940.4314964,
     "5154e7a7033a52d2a8a1": 1791555046.5495877,
     "517147a1f404ceda1582": 1791990644.9040003,
@@ -9507,6 +9673,7 @@
     "634219120817228f3592": 1792308940.1547072,
     "63424ad3b0306c16f1a4": 1792308940.1547306,
     "6342b7e893ca19805ad4": 1792402540.4034326,
+    "6342fab6c97a59d25a88": 1792740378.221519,
     "6358c145e4369b135ef5": 1792436135.7816837,
     "636ccb1bc6b4de49fdf6": 1792401075.2797427,
     "636d3b25237f65cf8d20": 1792307442.3101442,
@@ -9703,6 +9870,7 @@
     "67e678de1473e5c0a9ec": 1792671914.0911593,
     "67efe690e42bf0108248": 1792311048.0662024,
     "680e13b611d66cdc9a5e": 1792652139.666112,
+    "681d363b1e6e84e30878": 1792740378.2215164,
     "681d742afbd77e8c76a7": 1791987045.3308916,
     "681fa83e9671cb8a9df6": 1792141586.1730533,
     "68216059baa8446e7fda": 1792095644.911877,
@@ -9971,7 +10139,6 @@
     "6fcae3a8a25796511981": 1792314645.1851842,
     "6fd261de2b293d8fe8e3": 1792424143.1323774,
     "6fd98b8bbb297629e3ad": 1792728647.2890668,
-    "6fd9c455773bcf87f796": 1791529852.5306196,
     "6fddac13ddb145f74c85": 1792411848.3478255,
     "6fdfb54510519b2f4f28": 1792140945.4956937,
     "6fe29b0dfb54e2214567": 1791645636.267029,
@@ -9980,6 +10147,7 @@
     "7003da35a66d14b55e7c": 1792090539.54882,
     "7009cc02ae2030b4a265": 1792061749.7830195,
     "701052775bbd3679ec52": 1791880537.1043217,
+    "701d9d0cfe51e18a9fd9": 1792740378.2215073,
     "701e2f0d3280a5ee2284": 1791629734.5713048,
     "70224c9d9f120a11f235": 1792213845.5102243,
     "7027cfd63ebdfa4378e3": 1791812153.2044137,
@@ -10823,6 +10991,7 @@
     "886e0b964fdb8904f7ef": 1792658137.5558867,
     "8881b76eb91c5d60180e": 1792739443.1551447,
     "8887171c90dc681af7f8": 1791862540.7772765,
+    "88932a4a2dbd2143c63a": 1792740378.221511,
     "8895a007186f8e69e079": 1791972640.5037663,
     "889a1bb31d7c53397128": 1791998446.4346461,
     "88a0233e4e9819e760cf": 1792294535.0747035,
@@ -11706,6 +11875,7 @@
     "a13e3a0874da9831d2e7": 1791779739.6407106,
     "a13f0cc82ff377e2d284": 1792339844.2651954,
     "a14a0f4b36e5e7be3c22": 1791814247.539806,
+    "a14b9d73d03383c9276f": 1792740378.221512,
     "a1571dfa2e410f7fed82": 1792074941.4563792,
     "a15fd67b6ae37c9b280b": 1791965448.2434015,
     "a1669c2c4afb9a643dd7": 1792058135.191278,
@@ -12145,7 +12315,6 @@
     "ad811b20b07ec2592620": 1792400142.5898523,
     "ad833e06effe3818ec9a": 1791837336.4683037,
     "ad83cd41f6585324c4e5": 1791948933.8602228,
-    "ad866aeb0702da36ee07": 1791529852.5306559,
     "ad894c3417e1246b7eb0": 1792159852.9054098,
     "ad8e7b4d8dd9918edd18": 1791887738.9173672,
     "ad947f7f2180e53cbaa3": 1792735848.3885438,
@@ -12351,6 +12520,7 @@
     "b2f253c00a84df7ed59b": 1792053334.1532094,
     "b2f7463ea77faf2e0493": 1792612569.4436555,
     "b2f929d1725521d55af4": 1792321841.704833,
+    "b2fa0c80141507993ce0": 1792740378.2215137,
     "b2fed1f84b1cd5fac082": 1792300245.1092772,
     "b303a1b67e2fa38049cf": 1792208142.1387005,
     "b3065e8fdb4c4041332d": 1792673745.3117814,
@@ -12827,6 +12997,7 @@
     "bfbde220d79edb7254c6": 1792166140.456374,
     "bfbe7a5d2db6debe548b": 1792524190.6213043,
     "bfc01913190208ef681f": 1792169740.60121,
+    "bfc1527d46682405dfbe": 1792740378.22153,
     "bfc269e02e00a260eab0": 1792726549.497672,
     "bfc3522613187167005d": 1791689738.2104914,
     "bfc92872b868d2f0663c": 1791534944.8381522,
@@ -13269,6 +13440,7 @@
     "cc0d241c73c3d65a9e98": 1792480245.5744307,
     "cc11ecc0abe3a1fd9a30": 1791564941.2988648,
     "cc122f5991beeb72ab5b": 1792152642.3993154,
+    "cc1b739b085a2a5dff80": 1792740378.221518,
     "cc1dd541d97a2a37cf80": 1791966938.8962114,
     "cc2322ae958a52ab18b9": 1792509276.9901533,
     "cc34bf38bbb9c5c83f20": 1791718534.402289,
@@ -13622,7 +13794,6 @@
     "d508b0255d2a0e525297": 1791689738.2104974,
     "d509c305599da95b9065": 1791888938.620867,
     "d50bbc39eef707728edb": 1792040138.3974645,
-    "d50cbcc734286f12848c": 1791529852.5306537,
     "d50d209c26acda025aa1": 1792686054.1536474,
     "d5149e092d240a1e758f": 1791549340.1167054,
     "d5187151506e7f17771b": 1791954640.0214286,
@@ -13800,6 +13971,7 @@
     "d9ca61c1e2650cc41ac7": 1791566442.4113574,
     "d9cd54dffee2ea321887": 1791903366.3102589,
     "d9d4e3b231eab7b4b8c7": 1792065336.6090853,
+    "d9d6e981a85f054c6b65": 1792740378.2215147,
     "d9dd3e90bc6818ec0570": 1792239046.6610065,
     "d9dd64f30339c08f203e": 1792491610.8402553,
     "d9df9af4f438d1e88dec": 1792679737.279642,
@@ -14758,6 +14930,7 @@
     "f4246bd4d2b02ed0e633": 1792131047.1589856,
     "f42f689e5b77f21317ab": 1791622541.2069604,
     "f42fb343543a663e17cd": 1792678248.5586994,
+    "f43019355c06610f6079": 1792740378.2215202,
     "f437ef260fcee4139191": 1791644137.0053449,
     "f43d3000176daf62eb5e": 1792218935.0440514,
     "f43f824b49e30f67de79": 1791560132.3788595,
@@ -15192,82 +15365,58 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1792739443.1551113
+      "ts": 1792740378.2214746
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/muradov-pri-kotlarovcoch-dlho-nevydrzal-netradicny-staredown-mal-necakany-priebeh-2026102207072214337",
-      "p": "Pred zápasom Makhmuda Muradova so šiestimi Kotlárovcami v G MMA prišlo aj na tradičné pohľady zblízka. Tentoraz však staredown nepriniesol iba snahu zastrašiť súpera. Keď sa jeden z Kotlárovcov priblížil k Muradovovi, skúsený bojovník pri ňom dlho nezostal. Dôvodom mal byť nepríjemný zápach z úst je",
-      "s": "Šport.sk",
-      "t": "VIDEO Muradov pri Kotlárovcoch dlho nevydržal! Netradičný staredown mal nečakaný priebeh",
-      "ts": 1792653047.6654124,
-      "u": "6c5bec28d5dcb1c238b9"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/pedro-porro-tottenham-barcelona-real-madrid-2026101307311876906",
-      "p": "Reprezentant Španielska Pedro Porro chce opustiť Tottenham a vrátiť sa do najvyššej španielskej súťaže. O pravého obrancu už prejavili záujem Barcelona aj Real Madrid. Podľa informácií španielskych médií je futbalista naklonený možnosti vrátiť sa do vlasti už počas zimného prestupového obdobia, hoci",
-      "s": "Šport.sk",
-      "t": "Španielsky reprezentant chce opustiť tím Premier League, situáciu monitorujú Barcelona aj Real Madrid",
-      "ts": 1792653047.6654148,
-      "u": "bad750bf95710310c5a1"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/uefa-potrestala-hajduk-proti-st-truide/1001684-clanok.html",
-      "p": "Disciplinárne sankcie súvisia s incidentmi v druhom polčase zápasu proti Ajaxu, keď priaznivci domáceho mužstva narušili priebeh stretnutia použitím veľkého množstva pyrotechniky a delobuchov.",
-      "s": "TERAZ.SK",
-      "t": "UEFA potrestala Hajduk, proti St. Truidenu bude hrať bez divákov",
-      "ts": 1792653047.665417,
-      "u": "6f70429eb835281d289b"
-    },
     {
       "l": "https://sport.aktuality.sk/futbal/clanok/bruno-fernandes-kritizuje-michaela-carricka-como-manchester-united-2026102206464238687",
       "p": "Kapitán Manchestru United Bruno Fernandes adresoval ostré slová manažérovi Michaelovi Carrickovi po jednom z najponižujúcejších večerov v európskej histórii klubu. Debakel 1:4 na pôde Coma v Lige majstrov vážne spochybnil budúcnosť kormidelníka na lavičke tímu.",
@@ -16939,6 +17088,22 @@
       "t": "Gašparík sa spája s pozíciou reprezentačného trénera. Nie však na Slovensku",
       "ts": 1792739443.1551633,
       "u": "968b377dc2f26c4fb3db"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/mcdavid-rekord-gretzky-nhl-215-bodov-2026102306071200460",
+      "p": "Connor McDavid píše históriu svetového hokeja, pričom začína útočiť na rekordy Wayna Gretzkého, ktoré sa zdali nezdolateľné. Útočník Edmontonu Oilers si v piatkovom zápase proti Caroline pripísal dva góly a tri asistencie, na konte tak má už neuveriteľných 31 bodov v iba 10 dueloch. Ak by si aktuáln",
+      "s": "Šport.sk",
+      "t": "Neprekonateľný bodový rekord Wayna Gretzkého v ohrození! Connor McDavid ho môže zdolať v suchom tričku",
+      "ts": 1792740378.2215288,
+      "u": "0b4fe6dc6c105ed54010"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMkhGRlgzUmh0M1ZsY1pUdnU5MEY4MWkwN0VwSGhVSndIb0tBeFlGQmcySml0a01iMzM5ZnA4cG04QzdEX2h5SFNPcGpvWlN4aDNSWXBTX29Yd2RRWWR1bm94YlQtTjNPeHkwR25VUFlYeHgtc2ZfRDhHS292aTlEMVVZNmNFY1ZEdGJtSjhaenZScXl1aEZRZ2Z2RnhWbS1OUXlBUURkajVQU1MtYUpJOUZyS0c?oc=5",
+      "p": "Expert z Montrealu: So Slafkovským nikdy nestrácate čas. Je vždy úprimný a nám sa to páči Sportnet",
+      "s": "SPORTNET",
+      "t": "Expert z Montrealu: So Slafkovským nikdy nestrácate čas. Je vždy úprimný a nám sa to páči",
+      "ts": 1792740378.2215314,
+      "u": "bfc1527d46682405dfbe"
     }
   ],
   "sport_source_status": {
@@ -16946,25 +17111,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1792739443.1551287
+      "ts": 1792740378.2214928
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1792739443.1551318
+      "ts": 1792740378.2214954
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1792739443.1551347
+      "ts": 1792740378.221498
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1792739443.1551332
+      "ts": 1792740378.2214968
     }
   }
 }
