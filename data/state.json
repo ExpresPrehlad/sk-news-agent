@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Donald Trump chce presadiť Viktora Orbána na čelo OSN",
-      "ts": 1793035283.8366063
-    },
-    {
-      "headline": "V centre Bratislavy uzavreli Kúpeľnú ulicu kvôli hrozbe pádu steny",
-      "ts": 1793035283.8366063
-    },
-    {
-      "headline": "Donald Trump opäť kritizoval Nórsko pre neudelenie Nobelovej ceny",
-      "ts": 1793035283.8366063
-    },
-    {
-      "headline": "Zomrel dlhoročný predseda Únie autodopravcov Slovenska Stanislav Skala",
-      "ts": 1793035283.8366063
-    },
-    {
-      "headline": "Zamestnávatelia kritizujú vládu, drvivú väčšinu návrhov zmietla zo stola",
-      "ts": 1793035283.8366063
-    },
-    {
       "headline": "Opozícia ostrí kritiku Blanára, jeho cestu do Moskvy označuje za zradu",
       "ts": 1793040956.7156887
     },
@@ -87,100 +67,98 @@
     {
       "headline": "Vo veku 90 rokov zomrel herci Walter Koenig zo Star Treku",
       "ts": 1793049668.9567304
+    },
+    {
+      "headline": "Trump vulgárne zaútočil na Nórsko a urazil laureátku",
+      "ts": 1793051758.0408318
+    },
+    {
+      "headline": "Zomrel dlhoročný šéf slovenských autodopravcov Stanislav Skala",
+      "ts": 1793051758.0408318
+    },
+    {
+      "headline": "Huliak upozornil na problémy so zásobovaním vodou na juhu Slovenska",
+      "ts": 1793051758.0408318
+    },
+    {
+      "headline": "Chorobnosť na akútne respiračné ochorenia a chrípku na Slovensku stúpla",
+      "ts": 1793051758.0408318
+    },
+    {
+      "headline": "Ruské rakety zasiahli obytné domy v Charkove a si vyžiadali obete",
+      "ts": 1793051758.0408318
     }
   ],
   "last_digest": {
-    "model": "gemini/gemini-3.5-flash",
+    "model": "gemini/gemini-3.5-flash-lite",
     "topics": [
       {
-        "headline": "Návrh na obžalobu pre 18 osôb v miliónovej ekonomickej kauze",
+        "headline": "Trump vulgárne zaútočil na Nórsko a urazil laureátku",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/svet/clanok/2067005-nobelova-cena-mu-stale-neda-spavat-trump-vulgarne-zautocil-na-norsko-a-urazil-laureatku?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/05hGFam/trump-opat-utoci-na-norsko-a-nobelovu-cenu-pristahovalcov-z-tejto-krajiny-v-usa-vraj-nechce/"
+          ]
+        ],
+        "perex": "Americký prezident Donald Trump ostro kritizoval Nórsko a označil ho za štát, ktorý upadá. Na predvolebnom zhromaždení tiež vyhlásil, že v USA nechce prisťahovalcov z tejto severskej krajiny."
+      },
+      {
+        "headline": "Zomrel dlhoročný šéf slovenských autodopravcov Stanislav Skala",
+        "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/slovensko/1278379-bojoval-za-lepsie-podmienky-pre-vodicov-zomrel-predseda-unas-stanislav-skala"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2067017-zomrel-stanislav-skala-dlhorocny-sef-slovenskych-autodopravcov-kolegovia-sa-lucia-s-vyraznou-osobnostou?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Slovenských autodopravcov zasiahla smutná správa o úmrtí predsedu Únie autodopravcov Slovenska Stanislava Skalu. Dlhé roky patril k výrazným predstaviteľom dopravcov a bojoval za ich lepšie podmienky."
+      },
+      {
+        "headline": "Huliak upozornil na problémy so zásobovaním vodou na juhu Slovenska",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2066983-ludia-su-odkazani-na-vodu-z-cisterien-huliak-sa-pustil-do-exministrov-hanba-odkazal-im-z-juhu-slovenska?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Minister cestovného ruchu a športu Rudolf Huliak upozornil na vážne problémy so zásobovaním pitnou vodou na juhu Slovenska. Obyvatelia sú podľa jeho vyjadrení odkázaní na cisterny."
+      },
+      {
+        "headline": "Chorobnosť na akútne respiračné ochorenia a chrípku na Slovensku stúpla",
+        "links": [
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/uvz-chorobnost-na-akutne-respiracn/1002986-clanok.html"
+          ]
+        ],
+        "perex": "Epidemiológovia zaznamenali počas uplynulého týždňa celkovo 41 421 prípadov akútnych respiračných ochorení. Najvyššiu chorobnosť hlási Prešovský a najnižšiu Trnavský kraj."
+      },
+      {
+        "headline": "Ruské rakety zasiahli obytné domy v Charkove a si vyžiadali obete",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/427vg3z/ubok-pre-rozsiahlu-ekonomicku-trestnu-cinnost-je-obzalovanych-18-osob/"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/domace/clanok/2066949-stat-mali-obrat-o-miliony-cez-falosne-faktury-vysetrovatel-navrhuje-obzalovat-18-ludi?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "https://www.aktuality.sk/clanok/VusxfyD/ruske-rakety-zasiahli-obytne-domy-v-charkove-utoky-si-vyziadali-najmenej-troch-mrtvych-a-14-zranenych/"
           ]
         ],
-        "perex": "Vyšetrovateľ podal návrh na obžalobu 18 osôb v súvislosti s rozsiahlou ekonomickou trestnou činnosťou. Škoda mala presiahnuť 3,4 milióna eur a väčšina obvinených čelí aj stíhaniu za zosnovanie zločineckej skupiny."
-      },
-      {
-        "headline": "OSN varuje pred eskaláciou a hrozbou etnických čistiek v Hebrone",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/ILUUkrR/napatie-na-blizkom-vychode-vrie-lider-osn-ziada-stop-eskalacii-hrozi-konflikt-s-nepredstavitelnymi-nasledkami/"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/vojenska-operacia-izraela-v-hebrone-vyvolava-podla-osn-obavy-z-etnickych-cistiek?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "Šéf OSN António Guterres vyzval na zastavenie napätia na Blízkom východe a varoval pred masívnym konfliktom s nepredstaviteľnými následkami. Zároveň upozornil na zásah izraelskej armády v Hebrone, ktorý vyvoláva obavy z etnických čistiek."
-      },
-      {
-        "headline": "Energetická chudoba ohrozuje každú ôsmu slovenskú domácnosť",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/index/c/energeticka-chudoba-ohrozuje-12-percent-slovenskych-domacnosti?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2067115-slovenske-domacnosti-celia-vaznemu-problemu-energeticka-chudoba-ohrozuje-kazdu-osmu-situacia-sa-moze-zhorsit?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Podľa aktuálnych údajov čelí energetickej chudobe približne 12 percent domácností na Slovensku. Situáciu pritom nevyriešilo ani dlhodobé plošné dotovanie cien energií."
-      },
-      {
-        "headline": "Francúzsky minister predstavil reformy po protestoch študentov",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/SdzOVO7/miliardy-na-obnovu-skol-a-mensie-triedy-francuzska-vlada-reaguje-na-tlak-studentov-a-kritiku-systemu/"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/francuzski-stredoskolaci-napriek-vladnym-ustupkom-pokracuju-v-mobilizacii?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "Francúzska vláda zareagovala na tlak študentov a oznámila plán investícií do obnovy škôl spolu s obmedzením počtu žiakov v triedach. Stredoškoláci však napriek ústupkom pokračujú v mobilizácii."
-      },
-      {
-        "headline": "Falošný lekár dostal v Nemecku trest za aplikáciu botoxu",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/nemec-sa-vydaval-za-lekara-za-stovky-aplikacii-botoxu-dostal-vyse-tri-roky-vazenia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2067023-falosny-lekar-aplikoval-botox-stovkam-klientov-diplom-si-kupil-na-internete-sud-ho-poslal-do-vazenia?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Nemecký súd poslal do väzenia na viac ako tri roky muža, ktorý sa vydával za lekára a vykonával estetické zákroky. Falošné doklady si zaobstaral cez čínsky internet."
-      },
-      {
-        "headline": "Vo veku 90 rokov zomrel herci Walter Koenig zo Star Treku",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/kultura/clanok/2067031-zomrel-walter-koenig-90-hviezda-legendarneho-star-treku-ako-navigator-cechov-sa-zapisal-do-televiznej-historie?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Zomrel americký herec Walter Koenig, ktorý sa preslávil ako navigátor Pavel Čechov v seriáli Star Trek. Do televíznej histórie sa zapísal svojou ikonickou postavou v pôvodnej sci-fi sérii."
+        "perex": "Päť úderov na obytné štvrte Charkova a masívny dronový nálet spôsobili rozsiahle škody. Ruské útoky si vyžiadali najmenej troch mŕtvych a štrnásť zranených."
       }
     ],
-    "ts": 1793049668.9567187
+    "ts": 1793051758.0408216
   },
   "meta": {
-    "last_collection_ts": 1793049643.4524367,
+    "last_collection_ts": 1793051743.4902344,
     "last_feed_error_ts": 1793037347.3813553,
     "last_llm_error_ts": 1793029160.386283,
-    "last_run_ts": 1793049644.0055814,
-    "last_synthesis_ts": 1793049668.956714
+    "last_run_ts": 1793051743.97852,
+    "last_synthesis_ts": 1793051758.0408173
   },
   "recent": [
     {
@@ -5150,6 +5128,42 @@
       "t": "Obyvatelia Jarovníc oslavovali pred obecným úradom zvolenie nového starostu",
       "ts": 1793049644.0049949,
       "u": "627790ce477c98ef89f2"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2067125-bol-to-len-zart-tvrdia-surodenci-mladika-poleptali-zieravinou-cele-hodiny-trpel-surodenci-sa-navzajom-obvinuju?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Mal to byť nevinný žart, skončil sa však tragédiou, ktorá otriasla aj skúsenými kriminalistami. Dvadsaťjedenročný mladík z českej Karvinej zomrel po tom, ako mu podľa obžaloby dvojica súrodencov spôsobila rozsiahle poleptania agresívnym čističom odpadov. Kým v bolestiach zápasil o život, fotografova",
+      "pub": 1793050800,
+      "s": "Pravda",
+      "t": "„Bol to len žart,“ tvrdia. Mladíka poleptali žieravinou, celé hodiny trpel. Súrodenci sa navzájom obviňujú",
+      "ts": 1793051743.9779518,
+      "u": "f047ce0a609bfb58dc66"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY2tBNFVMVGJEU05zbzMwVVlBczRnS1BON1BoS0dtcmpCUmlRZElDZ1ljTGlRU3A2VC1iYk5zbHFrVS15YXN0WFV3TmxKakNTYVMyR3A5VGNiSnAxNnp2clZ4Z0lVQjVmNHpNb2RZWWhZUW4wRUZFYnFJZGlXeklEeE9yY2MxSk00SERfOFhfR1VVSEpkOUJkZUxEcGZ6QjQ2TzdqaTB6ak9fZ2pjWlBtOXVmQQ?oc=5",
+      "p": "FOTO: Perinbaba potešila Slovensko. Prvý sneh pokryl známe horské lokality tnlive.sk",
+      "pub": 1793014860,
+      "s": "TN Live",
+      "t": "FOTO: Perinbaba potešila Slovensko. Prvý sneh pokryl známe horské lokality",
+      "ts": 1793051743.9779549,
+      "u": "829512b29d202c8ee62a"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeDk5Z29hb3pFSVJ6dXpSTDA0My15ZUZZd2ptVXoxaFZMUDBRNE5EUExCbE9FMTlGVzBKNDZhdmcwUldENkE1T1l1TUxRLXZqRGMyNHJhTE9ZY3NERjN0THRicVNTbmdGdUVncU1kMDhRVE5zSXQ5TkhUMEE5UTQ4WU1udHV2Y3U4S2RUN2pDODh4UTB2YmdrT2NSNlNnSlQwaFVB?oc=5",
+      "p": "FOTO: Hromadná dopravná nehoda na R7. Zrazilo sa až 10 vozidiel, doprava je odklonená tnlive.sk",
+      "pub": 1792999740,
+      "s": "TN Live",
+      "t": "FOTO: Hromadná dopravná nehoda na R7. Zrazilo sa až 10 vozidiel, doprava je odklonená",
+      "ts": 1793051743.9779563,
+      "u": "7971972746d73e9c8afd"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLTlsNHZtbTdYYjdVZkUzYWtCazhhWDN5dDdlaWQ3X1dUOWlYOXpoWWpEYXdmcFRuME1iVl9zdGdtVWxZclR0SHY3VHB5NUpEaVpFZzFSa04zZktwZUhVT0Nmd1I0LUFDbktIcmtTRXNDREg5OVBzSW9QUkh5SlFfSTlJYzhQYWJCU1NER0lMUGRVRFgzbENVTEV3?oc=5",
+      "p": "Nemecký súd odsúdil 28-ročného muža, ktorý sa vydával za lekára tnlive.sk",
+      "pub": 1793033174,
+      "s": "TN Live",
+      "t": "Nemecký súd odsúdil 28-ročného muža, ktorý sa vydával za lekára",
+      "ts": 1793051743.977958,
+      "u": "d5f5b338e9326e049c07"
     }
   ],
   "recent_alerts": [
@@ -7740,7 +7754,6 @@
     "2fe826cdcc2b4d5c5a81": 1792752943.1822894,
     "2ff3ab1793f0e6cb0dff": 1791969046.4915013,
     "30031b647b5dab47f89a": 1792617647.7563465,
-    "300643558b41be6db8ac": 1791840936.920959,
     "3006e69f826b15e92000": 1792509276.9903617,
     "30218d084492396ea921": 1792228246.7911758,
     "3023ed77520dc7a6953a": 1792146949.2175372,
@@ -8281,6 +8294,7 @@
     "3d897cee180df71d32bc": 1792467344.152853,
     "3d8fb8b81bb23fdbb306": 1792235449.0636728,
     "3d968373e814f1145a21": 1792570117.8893204,
+    "3d9bfebea1708f1ac595": 1793051743.9779587,
     "3d9ec91bd7e7159235f1": 1793000137.1534295,
     "3da9332b233dddb52b33": 1792303839.696597,
     "3da96914d9dee01decb3": 1792180545.6928723,
@@ -9714,6 +9728,7 @@
     "629b58b85a76aa32eda0": 1792491610.8401732,
     "62a94d35ffe603f7d0bc": 1792002046.058479,
     "62ab537d4d36114f2e3c": 1791959741.3634439,
+    "62b6363b74f09baf3198": 1793051743.977964,
     "62b7ee26e9b8567c64bb": 1792252539.2723532,
     "62bdcdddd10edacd04bf": 1792923044.0755613,
     "62c1b260bb64d7a64a1b": 1792603273.3600225,
@@ -10496,7 +10511,6 @@
     "7793b568143f1a0fc119": 1792343446.3616412,
     "779bf23322b8eed7d6e9": 1792865442.7379837,
     "779d046e1cdc6adea441": 1792601768.2841847,
-    "77ad39eba77e0f35ad2c": 1791840936.9209676,
     "77b04dceffdc8b1a0af8": 1792679737.2796683,
     "77b4d7cff80ebf6bd74a": 1792691743.5277328,
     "77c3af239407bb6e76b5": 1792590943.2305021,
@@ -10551,6 +10565,7 @@
     "794ab7fb68f462dbaf62": 1792402540.4034252,
     "794e339e2a035bf1943c": 1792176934.547158,
     "797172cfd3c0d09fb5e3": 1792062643.0897734,
+    "7971972746d73e9c8afd": 1793051743.9779556,
     "7975b48a55b1c4ae32e3": 1792946138.8678892,
     "7981253b7346ef82de18": 1792422643.094534,
     "7986a36be4cec406149a": 1792048246.6216254,
@@ -10865,6 +10880,7 @@
     "8286ecf3bac2ed9aec6a": 1792667441.7773654,
     "828a666840628fb7c7e5": 1791888938.6208816,
     "828e22c04ba6c910c3a6": 1792823736.447913,
+    "829512b29d202c8ee62a": 1793051743.9779532,
     "8298ffb62395cca2062c": 1792415441.7336552,
     "82a351975e16b8f49136": 1791966938.8962047,
     "82a37756899820a15a6f": 1792007742.7901525,
@@ -11564,6 +11580,7 @@
     "95aba4dbafd73c614d77": 1793018143.1999428,
     "95ae46b4097b69588b82": 1792133736.7090976,
     "95b4253f1f043b5b27a2": 1791976246.2006924,
+    "95b65bdd7a7227c33cb9": 1793051743.9779654,
     "95bdf5b055aae8992618": 1792068940.3374784,
     "95c8f863c6d184e8ef21": 1793032545.1801631,
     "95dbe913220616f30a15": 1792582271.090809,
@@ -11791,6 +11808,7 @@
     "9bed460a76c447822985": 1792590943.2305229,
     "9bef33a6876979b74b6d": 1791881741.3076675,
     "9bf869ef5b742a485087": 1792307442.3101544,
+    "9bfadb0ae9f5d9161fb8": 1793051743.9779618,
     "9bff88199d0323d574d3": 1792318243.8597383,
     "9c0290ef47ecffeabb3c": 1792902945.3486018,
     "9c0fa9633c96b40ba3cf": 1792163447.3198755,
@@ -13079,7 +13097,6 @@
     "bd72bdaef3277fcf5fbe": 1792748140.973565,
     "bd752dc4fa61cdd450ac": 1792779645.5713956,
     "bd7e699904c82ff89671": 1792343446.361635,
-    "bd8a0d5556a589ccc00f": 1791840936.9209638,
     "bd8aae8a6174a2f14ed3": 1792946138.867867,
     "bd8efe3b7bf7ec02c43d": 1792961736.8641262,
     "bd94cf886af490c2ee6d": 1792069849.7700095,
@@ -14030,6 +14047,7 @@
     "d5e12fe827ef31fe53d7": 1791948933.860167,
     "d5e6b00f66ffc41431c0": 1791989737.7904058,
     "d5eab78d58acafa17a42": 1792491610.8401685,
+    "d5f5b338e9326e049c07": 1793051743.9779568,
     "d60a404ea166b0e78d6a": 1792221043.4762983,
     "d61fd91bdf6baf9bdf23": 1793032545.1801727,
     "d6236ebc1da4f4e9b5a5": 1792491610.8403952,
@@ -14773,7 +14791,6 @@
     "e96fe51542bf3c6bcb6e": 1792616142.7577374,
     "e97360cd4daa7d463a5f": 1791862540.777274,
     "e985695f141a3a5d1fc3": 1792645845.542769,
-    "e986d5375d8fa72b9493": 1791840936.9209664,
     "e987fb40c3d038958783": 1792144556.0974686,
     "e98e2d0987b85550e127": 1792562010.3316705,
     "e993e5af255a2806bd68": 1793025352.5815952,
@@ -15020,6 +15037,7 @@
     "f043b60e0d8d889f9b4d": 1792524190.6213973,
     "f04446e2d871e226790a": 1792923044.075709,
     "f04469136a8e5fa97b40": 1792995047.2772722,
+    "f047ce0a609bfb58dc66": 1793051743.9779472,
     "f04850584e998c4e5700": 1791970534.8041465,
     "f05253046e6681f1d507": 1791912044.5463603,
     "f055576b91ce24bc3c81": 1792233335.9844797,
@@ -15641,55 +15659,55 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1793049644.0049496
+      "ts": 1793051743.9779212
     }
   },
   "sport_recent": [
@@ -17340,6 +17358,38 @@
       "t": "Benátky budú mať nový štadión s kapacitou 18.500 divákov",
       "ts": 1793049644.0050025,
       "u": "abd2da6cc8b37ead5fb2"
+    },
+    {
+      "l": "https://sport.aktuality.sk/mma/clanok/premozitel-buchingera-tvrdo-padol-nemecky-sampion-prisiel-o-titul-fnc-uz-v-uvodnej-minute-2026102621531881882",
+      "p": "Lom-Ali Eskiev zažil na turnaji FNC 34 v severomacedónskom Skopje tvrdý koniec svojej titulovej vlády. Bývalý bojovník OKTAGONu nastúpil v sobotu 24. októbra proti Markovi Bojkovićovi, ktorý mu nedovolil rozvinúť svoj zápasový plán. Srbský vyzývateľ rozhodol už v úvodnej minúte prvého kola a stal sa",
+      "s": "Šport.sk",
+      "t": "VIDEO Premožiteľ Buchingera tvrdo padol! Nemecký šampión prišiel o titul FNC už v úvodnej minúte!",
+      "ts": 1793051743.977961,
+      "u": "3d9bfebea1708f1ac595"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/dominik-greif-psg-vykon-brankar-2026102621290400244",
+      "p": "Futbalisti Olympique Lyon so slovenským reprezentačným brankárom Dominikom Greifom prehrali v šlágri 8. kola francúzskej Ligue 1 na pôde Paríža St. Germain 0:2. Triumf úradujúceho majstra zariadili striedajúci Senny Mayulu a Mika Godts.",
+      "s": "Šport.sk",
+      "t": "Dominik Greif čelil PSG. Víťaz Ligy majstrov ho dlho nevedel prekonať",
+      "ts": 1793051743.9779632,
+      "u": "9bfadb0ae9f5d9161fb8"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM1Q1YzBrUmE0ZFhMeTRaUFZaZDg1ZURJMndHeUpWU3JESThnWmhaSGMxVUdYTjZDYzd6TzJ0Y0pPVEF1OUp1eGs1bDVCTDFMcUNJWV9nNkpneXkydkNraDlZS2l6VWpiT2tqRjNQelNuV0tTOW9ERFdMRkZXaXYyemZRaDlXZkNBOFVoSXZoRDhRSWpRdlJGWXlvMWVSLThtSVpoNS1PVGZXQVh0RmRxblNEenNWWngzTEtHUldJSUdFUGh2T1dvcjc2V1FaRnln?oc=5",
+      "p": "Vlhová spoznala svoje štartové číslo pred veľkým návratom tnlive.sk",
+      "s": "TVNOVINY.sk",
+      "t": "Vlhová spoznala svoje štartové číslo pred veľkým návratom",
+      "ts": 1793051743.9779649,
+      "u": "62b6363b74f09baf3198"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUlNxeUk5NHpXaEZRejlSQWxSYmQ2d21HeHpzakhvRnI5eXczd2UtRlpHOThuaFNUdWpHQkNqTmo2NkdPN1hVNDUtcUxpWWZ5anlnSjJCT0pTQklIV0pzXzliQ1BPRGp6MUtQcXhycmduRUdGSm5WSVJWVmpRSFVnSUpOemVjWHE3M2NkT3hzNFdhc2ttRERzS0k1WDV0enJVTjlmZmlOUzVlTEpXeWhVZjdZV2JnbEVSeEhCMFJfNDM4aTlsa1BtbS14OV80My0zWnA4bFBhaDNKOGxUd0Z0aGNn?oc=5",
+      "p": "Paulína Fialková počas prvej streľby ležmo. tnlive.sk",
+      "s": "TVNOVINY.sk",
+      "t": "Paulína Fialková počas prvej streľby ležmo.",
+      "ts": 1793051743.9779665,
+      "u": "95b65bdd7a7227c33cb9"
     }
   ],
   "sport_source_status": {
@@ -17347,25 +17397,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1793049644.004967
+      "ts": 1793051743.9779396
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1793049644.0049698
+      "ts": 1793051743.9779422
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1793049644.0049727
+      "ts": 1793051743.9779449
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1793049644.0049715
+      "ts": 1793051743.977944
     }
   }
 }
