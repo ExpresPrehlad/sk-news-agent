@@ -127,13 +127,33 @@
     {
       "headline": "Slovensko by mohlo o pár rokov získavať plyn z rumunského ložiska",
       "ts": 1793697731.068082
+    },
+    {
+      "headline": "Vládna koalícia stratila väčšinu v parlamente",
+      "ts": 1793699749.3396153
+    },
+    {
+      "headline": "Najvyšší súd definitívne oslobodil Davida Lindtnera",
+      "ts": 1793699749.3396153
+    },
+    {
+      "headline": "Polícia obvinila hokejistu zo športovej korupcie",
+      "ts": 1793699749.3396153
+    },
+    {
+      "headline": "Španielske úrady identifikovali obete vlakovej nehody",
+      "ts": 1793699749.3396153
+    },
+    {
+      "headline": "Automobilový subdodávateľ Schaeffler ruší pracovné miesta",
+      "ts": 1793699749.3396153
     }
   ],
   "last_digest": {
-    "model": "gemini/gemini-3.5-flash",
+    "model": "gemini/gemini-3.5-flash-lite",
     "topics": [
       {
-        "headline": "Koalícia stráca väčšinu v parlamente po odchode posla Malatinca",
+        "headline": "Vládna koalícia stratila väčšinu v parlamente",
         "links": [
           [
             "SME",
@@ -144,301 +164,75 @@
             "https://www.aktuality.sk/clanok/kJ8t8c1/koalicia-straca-v-parlamente-klucovu-vacsinu-po-prestupe-malatinca-k-tarabovi/"
           ]
         ],
-        "perex": "Vládna koalícia čelí vážnej parlamentnej kríze a v pléne Národnej rady nateraz nedisponuje potrebnou väčšinou 76 zákonodarcov. Stalo sa tak po kroku poslanca Romana Malatinca, ktorý opúšťa tábor okolo Rudolfa Huliaka a pridal sa k Tomášovi Tarabovi."
+        "perex": "Poslanec Roman Malatinec opustil tábor okolo Rudolfa Huliaka a pridal sa k politickému projektu Tomáša Tarabu. Vládna koalícia tak v parlamente nateraz nedisponuje potrebnou väčšinom 76 zákonodarcov."
       },
       {
-        "headline": "Predraženie energopomoci pripraví štát o ďalšie stovky miliónov",
+        "headline": "Najvyšší súd definitívne oslobodil Davida Lindtnera",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/premierovho-poradcu-lindtnera-definitivne-oslobodili-obzalovany-bol-v-kauze-vichrica?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2071457-ficov-poradca-lindtner-definitivne-uspel-na-sude-najvyssi-sud-rozhodol-o-jeho-oslobodeni?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Najvyšší súd potvrdil závery špecializovaného súdu a definitívne oslobodil exsudcu a poradcu predsedu vlády spod obžaloby. Súd na utorkovom verejnom zasadnutí zamietol odvolanie."
+      },
+      {
+        "headline": "Polícia obvinila hokejistu zo športovej korupcie",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/oSBi1yh/uplatky-v-sporte-ubok-obvinil-hokejistu/"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/policia-obvinila-hokejistu-zo-sportovej-korupcie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "ÚBOK obvinil profesionálneho hokejistu zo športovej korupcie v súvislosti s podozreniami z ovplyvňovania zápasov. Hráč mal pred stretnutím druhej najvyššej slovenskej súťaže ponúkať súperom úplatky."
+      },
+      {
+        "headline": "Španielske úrady identifikovali obete vlakovej nehody",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/spanielske-urady-identifikovali-vsetkych-69-obeti-vlakovej-nehody-pri-urde?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "SME (GNews)",
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0txZENmUVBsLVM5TERScm9MYVIxWG1Qb2pvVEcxUndTT2FQUzZtUTB4OE9zdFJvT29xanhoYmNYLUZYNzVwZ3NoY3NpaDJ4Ql85Q0Z4NzRWZUxPNkV1OUlyaWY1Zmp0NTRVY2dhYU5EbThTb0FMa2JqSDl3ZVgtYUdFWTJQUHY5NjZfLWZKQk9idHhOcFJIYUxIc1BCSklKNkE?oc=5"
+          ]
+        ],
+        "perex": "Španielske úrady úspešne identifikovali všetkých 69 obetí tragickej vlakovej nehody pri Urde. Medzi mŕtvymi je 54 občanov Španielska a 15 cudzincov."
+      },
+      {
+        "headline": "Automobilový subdodávateľ Schaeffler ruší pracovné miesta",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2071063-peniaze-za-stavbu-osmich-nemocnic-vyleteli-hore-kominom-stat-na-energopomoc-prihadzuje-dalsiu-stvrt-miliardu-bude-to-stacit?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Slovensko minulo za posledné roky na energopomoc vyše štyri miliardy eur a na budúci rok pridá ďalšiu štvrť miliardu. Financovanie pomoci prichádza v čase, keď sa ceny plynu menia a štátne výdavky vyvolávajú otázky o efektívnosti."
-      },
-      {
-        "headline": "Trhy na Wall Street zaznamenali najväčší prepad za posledné mesiace",
-        "links": [
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2071399-schaeffler-skrta-3-460-pracovnych-miest-v-europe-opatrenia-zasiahnu-aj-700-zamestnancov-na-slovensku?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ],
           [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2071091-desivy-halloween-v-spojenych-statoch-na-wall-street-doslo-k-najvacsim-prepadom-za-posledne-mesiace?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/t3ARQri/automobilova-kriza-udrela-aj-u-nas-schaeffler-na-slovensku-zrusi-stovky-pracovnych-miest-centrala-spusta-radikalne-skrty/"
           ]
         ],
-        "perex": "Akcie technologických gigantov v posledných dňoch zaznamenali výrazné straty. Hlavným dôvodom prepadu je rastúca nedôvera investorov voči sľubom veľkých spoločností."
-      },
-      {
-        "headline": "Slovensko by mohlo o pár rokov získavať plyn z rumunského ložiska",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2071435-slovensko-by-mohlo-ziskavat-plyn-z-cierneho-mora-rumunsko-spusti-obrovske-lozisko-uz-v-roku-2027?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Slovensko by mohlo v nasledujúcich rokoch získať prístup k novému zdroju zemného plynu. Rumunsko plánuje v roku 2027 spustiť ťažbu na obrovskom ložisku Neptun Deep v Čiernom mori."
+        "perex": "Nemecký priemyselný koncern Schaeffler plánuje v Európe zrušiť takmer 3500 pracovných miest v rámci radikálnych škrtov. Úsporné opatrenia zasiahnu stovky zamestnancov aj na Slovensku v závodoch v Kysuckom Novom Meste a Skalici."
       }
     ],
-    "ts": 1793697731.068073
+    "ts": 1793699749.3396072
   },
   "meta": {
-    "last_collection_ts": 1793698538.4949307,
+    "last_collection_ts": 1793699738.284423,
     "last_feed_error_ts": 1793601389.6508327,
     "last_llm_error_ts": 1793692689.1513,
-    "last_run_ts": 1793698538.9926925,
-    "last_synthesis_ts": 1793697731.0680678
+    "last_run_ts": 1793699739.9245048,
+    "last_synthesis_ts": 1793699749.339602
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/domov/c/rezort-zahranicia-eviduje-umrtie-slovaka-v-indii-je-v-kontakte-s-uradmi-aj-pozostalymi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "V hoteli v Indii prišli o život dvaja zahraniční hostia.",
-      "pub": 1793611845,
-      "s": "SME",
-      "t": "Rezort zahraničia eviduje úmrtie Slováka v Indii, je v kontakte s úradmi aj pozostalými",
-      "ts": 1793612145.539126,
-      "u": "e44ac436e704fb534d32"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/bombovy-utok-pri-vojenskej-zakladni-v-kolumbii-ma-styri-obete?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "K útoku došlo v blízkosti vojenskej základne v obci Planadas.",
-      "pub": 1793611438,
-      "s": "SME",
-      "t": "Bombový útok pri vojenskej základni v Kolumbii má štyri obete",
-      "ts": 1793612145.5391293,
-      "u": "f7a66e66acde0dc79a79"
-    },
-    {
-      "l": "https://www.sme.sk/closer/c/v-bratislavskej-predajni-zamestnali-ludi-v-nudzi-robime-rozky-za-1-90-eura-s-chutou-nasho-detstva?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Nie všetci máme rovnakú štartovaciu čiaru, hovorí František Smolík z Rožku.",
-      "pub": 1793610946,
-      "s": "SME",
-      "t": "V bratislavskej predajni zamestnali ľudí v núdzi: Robíme rožky za 1,90 eura s chuťou nášho detstva",
-      "ts": 1793612145.5391307,
-      "u": "433083b72abc4a954fcd"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/pri-izraelskych-utokoch-v-pasme-gazy-zahynuli-najmenej-traja-ludia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Armáda tvrdí, že údery boli zamerané na militantov.",
-      "pub": 1793610900,
-      "s": "SME",
-      "t": "Pri izraelských útokoch v Pásme Gazy zahynuli najmenej traja ľudia",
-      "ts": 1793612145.5391326,
-      "u": "345065f70a6bf2147374"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc2pPNW5vZ1dwRG5nYXlMRFdHLS1CcXhTakw3aEkySV9IWFloWGRzN0FTVjdBdy1jeGhReUdKNURCenUyWXVjenMtcTdlMUlCemFIZnhreFpVempPZHliNEp2SUoyMWZKLV95eHBtSFJaSlQzaDhaS0ZNbnVOdGo5SHFMYk5EV2o1d1BfdUhHcVhiUQ?oc=5",
-      "p": "Švajčiarska vláda obnovuje priame rozhovory so Severnou Kóreou SME.sk",
-      "pub": 1793609587,
-      "s": "SME (GNews)",
-      "t": "Švajčiarska vláda obnovuje priame rozhovory so Severnou Kóreou",
-      "ts": 1793612145.5391338,
-      "u": "7837d972d13f38f191eb"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0xvc3Y2SDhYaWQ3NndYZlZTdlRTaW1paHZ0YVF2X3UzQWZvN0VvZlpDQXBXMWg3V00wZDJqUG4xc2JPbHJkTXIwNEJYb2hQeXNoaHhZNmhWdnRqRWhMM19DTXlyRXFQMlh4QkVHNWZhbDRPNFplc0FZdUN3cTBKR0phWFA3VzFMcUp0TFpZZzRZVExiOWxtdl9R?oc=5",
-      "p": "Španielske úrady po železničnej nehode identifikovali 66 zo 69 obetí SME.sk",
-      "pub": 1793597446,
-      "s": "SME (GNews)",
-      "t": "Španielske úrady po železničnej nehode identifikovali 66 zo 69 obetí",
-      "ts": 1793612145.5391347,
-      "u": "fc41b8a5630171dee624"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/hzs0Opo/tragedia-slovenskeho-turistu-v-indii-otrasie-verejnostou-ministerstvo-uz-riesi-umrtie-v-hotelovom-bazene/",
-      "p": "V indickom meste Bengalúru zomrel za nejasných okolností občan SR. Rezort diplomacie s políciou preveruje možný zásah elektrickým prúdom a podporuje rodinu.",
-      "pub": 1793611859,
-      "s": "Aktuality",
-      "t": "Tragédia slovenského turistu v Indii otrasie verejnosťou. Ministerstvo už rieši úmrtie v hotelovom bazéne",
-      "ts": 1793612145.5391374,
-      "u": "47e91fabd36f4f63cc9e"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/NfKkAQo/rodinny-konflikt-skoncil-vystrelom-na-chate-v-novej-bani-obvinili-75-rocneho-muza-z-vrazdy/",
-      "p": "Nočná hádka na chate pri Novej Bani sa skončila smrteľným výstrelom. Polícia obvinila 75 ročného muža z vraždy a navrhuje jeho vzatie do väzby.",
-      "pub": 1793611500,
-      "s": "Aktuality",
-      "t": "Rodinný konflikt skončil výstrelom na chate. V Novej Bani obvinili 75-ročného muža z vraždy",
-      "ts": 1793612145.5391386,
-      "u": "8a1f673b2ac792f4637a"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/VmD4GRY/indiu-zasiahne-novy-cyklon-murasu-urady-evakuuju-desattisice-ludi-hrozia-nicive-vetry-a-lejaky/",
-      "p": "Tropický cyklón Murasu má priniesť prudké dažde a vietor k indickému pobrežiu. Po nedávnych škodách po cyklóne Arnab sa začína rozsiahla evakuácia obyvateľov.",
-      "pub": 1793610832,
-      "s": "Aktuality",
-      "t": "Indiu zasiahne nový cyklón Murasu. Úrady evakuujú desaťtisíce ľudí, hrozia ničivé vetry a lejaky",
-      "ts": 1793612145.53914,
-      "u": "8a5a230404224239f5ec"
-    },
-    {
-      "l": "https://dennikn.sk/5663349/putin-urobil-zo-zimy-zbran-dokazu-europania-povedat-dost/",
-      "p": "Dnes nejde iba o otázku, či Ukrajina vydrží ďalšiu zimu. Otázkou je, či Európska únia obstojí v skúške vlastných hodnôt, píše ukrajinský spisovateľ Andrij Ľubka.",
-      "pub": 1793611073,
-      "s": "Denník N",
-      "t": "Putin urobil zo zimy zbraň. Dokážu Európania povedať „dosť“?",
-      "ts": 1793612145.539142,
-      "u": "c0dd5ddb9a720eb3713c"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2070731-zilinka-ostro-odmietol-ficove-slova-ziadna-vymena-nazorov-nebola-s-premierom-som-mesiace-nehovoril?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Generálny prokurátor Maroš Žilinka odmieta tvrdenia premiéra Roberta Fica (Smer), podľa ktorého zmenil názor na vyšetrovanie darovania vojenskej techniky Ukrajine.",
-      "pub": 1793611800,
-      "s": "Pravda",
-      "t": "Žilinka ostro odmietol Ficove slová: Žiadna výmena názorov nebola. S premiérom som mesiace nehovoril",
-      "ts": 1793612145.5391436,
-      "u": "6941484d108a2e537a2d"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2070713-ferencak-napadol-vysledky-volieb-v-kezmarku-o-novom-primatorovi-bude-rozhodovat-sud?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Výsledky komunálnych volieb v Kežmarku budú mať dohru na súde. Doterajší primátor Ján Ferenčák, ktorý v októbrovom hlasovaní tesne prehral s Marekom Hovaňákom, podal žalobu na Najvyšší správny súd SR. Tvrdí, že podnety od obyvateľov mesta vyvolávajú dôvodné pochybnosti o priebehu a výsledku volieb.",
-      "pub": 1793611200,
-      "s": "Pravda",
-      "t": "Ferenčák napadol výsledky volieb v Kežmarku. O novom primátorovi bude rozhodovať súd",
-      "ts": 1793612145.5391455,
-      "u": "623a145f6aec34c0d9a8"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2070697-slovensko-sa-zapojilo-do-navratu-ukrajinskych-deti-z-ruska-fico-poveril-blanara-koalicia-ma-uz-53-clenov?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Slovensko sa oficiálne stalo členom Medzinárodnej koalície za návrat ukrajinských detí, ktoré boli počas vojny nezákonne deportované do Ruska alebo násilne premiestnené na okupované územia. Do iniciatívy vedenej Kanadou a Ukrajinou sa zapojilo na základe októbrových záverov Európskej rady. Koalícia ",
-      "pub": 1793610600,
-      "s": "Pravda",
-      "t": "Nečakaný krok Slovenska voči Ukrajine. Fico ním poveril Blanára",
-      "ts": 1793612145.539148,
-      "u": "b78509f33c6c47ac4f67"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/mzvez-eviduje-umrtie-obcana-sr-v-indii/1004469-clanok.html",
-      "p": "V hoteli v Indii v meste Bengalúru mali prísť o život dvaja zahraniční hostia.",
-      "pub": 1793610420,
-      "s": "Teraz.sk",
-      "t": "MZVEZ eviduje úmrtie občana SR v Indii, je v kontakte aj s pozostalými",
-      "ts": 1793612145.5391493,
-      "u": "f0257060c899ebf8292a"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1280992-kyberneticky-utok-zasiahol-ukrajinsku-aplikaciu-pre-varovanie-pred-naletmi-sirila-falosne-poplachy",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Kybernetický útok zasiahol ukrajinskú aplikáciu pre varovanie pred náletmi, šírila falošné poplachy",
-      "ts": 1793612145.5391514,
-      "u": "f335b8cccca37e4c3258"
-    },
-    {
-      "l": "https://www.noviny.sk/krimi/1281070-policia-po-strelbe-v-novej-bani-obvinila-75-rocneho-otca-z-vrazdy-svojho-syna",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Polícia po streľbe v Novej Bani obvinila 75-ročného otca z vraždy svojho syna",
-      "ts": 1793612145.5391529,
-      "u": "dfcef0c5c9eff582c3cc"
-    },
-    {
-      "l": "https://www.noviny.sk/slovensko/1281060-ministerstvo-po-umrti-slovaka-v-indii-je-v-kontakte-s-uradmi-aj-pozostalymi",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Ministerstvo po úmrtí Slováka v Indii je v kontakte s úradmi aj pozostalými",
-      "ts": 1793612145.5391538,
-      "u": "7472ad9adb2caa3dc19b"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/polsky-policajny-odborovy-zvaz-varuje-pred-poklesom-moralky-sef-policie-upokojuje?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Rozruch vyvolali udalosti pred Ústavným súdom.",
-      "pub": 1793613041,
-      "s": "SME",
-      "t": "Poľský policajný odborový zväz varuje pred poklesom morálky, šéf polície upokojuje",
-      "ts": 1793613339.2012928,
-      "u": "fd6b4703904492bdd868"
-    },
-    {
-      "l": "https://www.sme.sk/historicka-revue/c/midterm-volby-v-usa-limity-prezidentskej-moci-a-historia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Volia celú Snemovňu aj časť Senátu. Midterm elections sú tvrdým referendom o vláde v USA a z prezidentov často robia bezmocné figúry.",
-      "pub": 1793612718,
-      "s": "SME",
-      "t": "Prečo sa americkí prezidenti obávajú polčasu svojho vládnutia",
-      "ts": 1793613339.2012966,
-      "u": "5bd079064418ff0b73d4"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3V1hjcUhfSTFkQjBGLVdhay1fUTM1aV8tOEY4Ym54VTBVUmhhRElKYkxVQVFnRW9leUJ6LVJPZW54VG9hZExpWURtdnJRZw?oc=5",
-      "p": "Kedy používame slová mojim, svojim, tvoj... SME.sk",
-      "pub": 1239001200,
-      "s": "SME (GNews)",
-      "t": "Kedy používame slová mojim, svojim, tvoj...",
-      "ts": 1793613339.2012992,
-      "u": "7dac4833ee240c82458e"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/FeVQA0j/mladistva-nutila-len-15-rocne-dievca-k-sexu-s-cudzimi-muzmi-a-dopovala-ju-drogami/",
-      "p": "Trenčianski policajti odhalili mimoriadne citlivý prípad vykorisťovania, pri ktorom mala sedemnásťročná mladistvá zneužiť dôveru mladšieho dievčaťa a urobiť z neho rukojemníčku.",
-      "pub": 1793612700,
-      "s": "Aktuality",
-      "t": "Mladistvá nútila len 15-ročné dievča k sexu s cudzími mužmi a dopovala ju drogami",
-      "ts": 1793613339.2013004,
-      "u": "a71f1fb45bf13ceecb09"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/vUVsMnm/zilinka-razne-odmieta-ficove-tvrdenia-o-stihackach-pre-ukrajinu-sa-vraj-vobec-nehadali/",
-      "p": "Predseda vlády cez víkend vyhlásil, že k opätovnému otvoreniu vyšetrovania kauzy darovania stíhačiek MiG-29 a systému protivzdušnej obrany došlo práve po ich vzájomnom konflikte, pre ktorý mal šéf prokuratúry zmeniť názor.",
-      "pub": 1793612566,
-      "s": "Aktuality",
-      "t": "Maroš Žilinka rázne odmieta Ficove tvrdenia. O stíhačkách pre Ukrajinu sa vraj vôbec nehádali",
-      "ts": 1793613339.2013016,
-      "u": "d5d6d9e9edd408ac5cbf"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/regiony/clanok/2070751-rodinna-tragedia-v-novej-bani-byvaly-sefpilot-vladnej-letky-celi-obvineniu-z-vrazdy-syna?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Nočná hádka medzi rodinnými príslušníkmi sa skončila smrťou 51-ročného muža. Tragédia, ku ktorej došlo na chate v Novej Bani, má ďalší posun. Polícia obvinila 75-ročného muža z obzvlášť závažného zločinu vraždy a navrhla jeho vzatie do vyšetrovacej väzby. Podľa medializovaných informácií mal otec za",
-      "pub": 1793613000,
-      "s": "Pravda",
-      "t": "Rodinná tragédia v Novej Bani: Bývalý šéfpilot vládnej letky čelí obvineniu z vraždy syna",
-      "ts": 1793613339.201303,
-      "u": "1e35384df8843102252a"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2070737-teheran-ponuka-rychle-riesenie-krizy-hormuzsky-prieliv-moze-byt-otvoreny-do-dvoch-dni?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Iránske ministerstvo zahraničných vecí zvažuje dvojdňový plán na opätovné otvorenie Hormuzského prielivu, ak Spojené štáty pristúpia na podmienky Teheránu, informoval v pondelok hovorca iránskeho rezortu diplomacie.",
-      "pub": 1793612109,
-      "s": "Pravda",
-      "t": "Teherán ponúka rýchle riešenie krízy: Hormuzský prieliv môže byť otvorený do dvoch dní",
-      "ts": 1793613339.2013056,
-      "u": "78eecf7bbd0593a7ea95"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/rezort-skolstva-skoly-dostanu-navod/1004489-clanok.html",
-      "p": "Komplexný prehľad právnej úpravy a postupov k bezpečnosti na školách zhromažďuje na jednom mieste právomoci riaditeľov a povinnosti škôl a rodičov.",
-      "pub": 1793613240,
-      "s": "Teraz.sk",
-      "t": "Rezort školstva: Školy dostanú návody na riešenie rizikových situácií",
-      "ts": 1793613339.2013068,
-      "u": "633b9a4c39b5c5b831e5"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/soza-a-unia-miest-uzavreli-zmluvu-o-spo/1004483-clanok.html",
-      "p": "SOZA zároveň upozornila na to, že zmluve predchádzal viacmesačný dialóg.",
-      "pub": 1793612040,
-      "s": "Teraz.sk",
-      "t": "SOZA a Únia miest uzavreli zmluvu o spolupráci",
-      "ts": 1793613339.2013075,
-      "u": "0876ea11bfc0d769df19"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNVotMmFIald5Si1lQ2t4MFNYREtaSG9mYjk4OEVYeTg3amNoRU5rUERwNVBlM0JQdzFRWllkalQ2bVFJV2piQ1VGWGsyWVJQbnRkNUl3VWlLSmtGamxFR0lDd2RJMFFXN2JNR1hoWjc5d3NPbXlMQ2FwWFRLUGRkZ3RlZzlyNWJJbTdVTzJnVEZGNmYxeEx5YUg0bFprdWNqa2h0M19pcDRIcnl4VEpIMVNCYWt6dzQ4NW1ZdGVyVXRVWTlDQ2x4bEs4Y2lrVHlma0lDemg4Zms?oc=5",
-      "p": "Muž šiel do banky po 12-tisíc eur, omylom mu vyplatili 120-tisíc. Neuveríte, čo za túto chybu dostal tnlive.sk",
-      "pub": 1793611080,
-      "s": "TN Live",
-      "t": "Muž šiel do banky po 12-tisíc eur, omylom mu vyplatili 120-tisíc. Neuveríte, čo za túto chybu dostal",
-      "ts": 1793613339.2013094,
-      "u": "b6b5675ae27927655428"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1280930-bulharsko-rozhodlo-o-prezidentovi-zvitazila-jotovova",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Bulharsko rozhodlo o prezidentovi. Zvíťazila Jotovová",
-      "ts": 1793613339.2013116,
-      "u": "d65a3bc9ec3996e80130"
-    },
     {
       "l": "https://www.sme.sk/domov/c/nazor-na-vysetrovanie-darovania-vojenskej-techniky-som-nezmenil-reaguje-zilinka-na-ficove-tvrdenie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Žilinka tvrdí, že s premiérom o téme nemali žiadnu diskusiu.",
@@ -4920,27 +4714,144 @@
       "t": "Bývalý tajomník americkej armády nastupuje do spoločnosti OpenAI. Čo bude jeho náplň práce?",
       "ts": 1793698538.9923947,
       "u": "b11d62ed33fa714599e8"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/parlament-zatial-pre-technicky-problem-nerokuje?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Poslanci majú od utorka po prestávke pokračovať v 61. parlamentnej schôdzi.",
+      "pub": 1793698978,
+      "s": "SME",
+      "t": "Parlament zatiaľ pre technický problém nerokuje",
+      "ts": 1793699739.923849,
+      "u": "cb2e2babc750e1d543f8"
+    },
+    {
+      "l": "https://www.sme.sk/closer/c/vianocne-trhy-2026-bratislava-trencin-banska-bystrica-kosice-trnava-zilina-kedy-datum?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Kapustnice a lokše si môžeš dať už koncom novembra.",
+      "pub": 1793698663,
+      "s": "SME",
+      "t": "Vianoce 2026: Kedy sa začínajú vianočné trhy v jednotlivých mestách na Slovensku?",
+      "ts": 1793699739.9238522,
+      "u": "b99497599081028530ed"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/juzna-korea-vysetruje-unik-udajov-z-pasov-prezidenta-a-dalsich-predstavitelov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Incident považujú za únik údajov a nie za hackerský útok.",
+      "pub": 1793698570,
+      "s": "SME",
+      "t": "Južná Kórea vyšetruje únik údajov z pasov prezidenta a ďalších predstaviteľov",
+      "ts": 1793699739.923854,
+      "u": "8b23301c5c4a20233fb2"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/malatinec-taraba-koalicia-vacsina-ficova-vlada?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Ficova vláda sa opiera o 75 hlasov.",
+      "pub": 1793696616,
+      "s": "SME",
+      "t": "Má ešte koalícia väčšinu? Malatinec prešiel k Tarabovi, exminister to potvrdil",
+      "ts": 1793699739.9238558,
+      "u": "4d1dad168a3154915ff0"
+    },
+    {
+      "l": "https://dennikn.sk/5664543/premierov-poradca-lindtner-sa-dockal-expresneho-rozsudku-najvyssi-sud-potvrdil-ze-je-nevinny/",
+      "p": "„Aké dôkazy, taká je aj spravodlivosť,“ konštatoval v apríli sudca Špecializovaného trestného súdu Roman Púchovský po tom, ako oslobodil premiérovho poradcu Davida Lindtnera. Obžalovaný bol z nepriamej korupcie a zo zasahovania do nezávislosti súdu. Púchovského verdikt teraz potvrdil Najvyšší súd. S",
+      "pub": 1793699119,
+      "s": "Denník N",
+      "t": "Premiérov poradca Lindtner sa dočkal expresného rozsudku. Najvyšší súd potvrdil, že je nevinný",
+      "ts": 1793699739.923858,
+      "u": "a7c127d53d744709d1be"
+    },
+    {
+      "l": "https://dennikn.sk/5666666/koalicia-nema-vacsinu-malatinec-presiel-od-huliaka-k-tarabovi/",
+      "p": "Po dvojtýždňovej prestávke sa poslanci vrátili do budovy Národnej rady, aby pokračovali v jesennej schôdzi parlamentu. Rokovanie sa malo začať o deviatej ráno, no vedenie parlamentu ohlásilo technické problémy a pokračovanie schôdze sa odložilo na jedenástu. Medzitým portál Topky priniesol správu, k",
+      "pub": 1793698865,
+      "s": "Denník N",
+      "t": "Koalícia nemá väčšinu. Malatinec prešiel od Huliaka k Tarabovi",
+      "ts": 1793699739.9238603,
+      "u": "f3f52c58d0817502e9f5"
+    },
+    {
+      "l": "https://dennikn.sk/5666489/ked-sa-politika-meni-na-manazment-dojmov/",
+      "p": "Úspech v politike závisí od schopnosti „predať“ vlastnú interpretáciu reality.",
+      "pub": 1793698656,
+      "s": "Denník N",
+      "t": "Keď sa politika mení na manažment dojmov",
+      "ts": 1793699739.9238622,
+      "u": "81124f2cf21abf5a90ed"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2071471-koalicia-stratila-vacsinu-parlament-odklada-rokovanie-taraba-ziskal-huliakovho-poslanca-ficovi-chyba-jeden-hlas?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Vládna koalícia Roberta Fica sa ocitla v ďalšej komplikovanej situácii. Po prestupe poslanca Romana Malatinca zo Strany vidieka Rudolfa Huliaka k Tomášovi Tarabovi prišla o parlamentnú väčšinu. Podľa aktuálnych prepočtov jej zostáva len 75 hlasov. Napätie sprevádza aj utorkové rokovanie Národnej rad",
+      "pub": 1793698500,
+      "s": "Pravda",
+      "t": "Koalícia stratila väčšinu, parlament odkladá rokovanie. Taraba získal Huliakovho poslanca, Ficovi chýba jeden hlas",
+      "ts": 1793699739.9238641,
+      "u": "2f0a5db34541bc08494b"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/ns-sr-potvrdil-oslobodenie-premierovho/1004769-clanok.html",
+      "p": "Lindtner opakovane tvrdil, že je nevinný a skutky, z ktorých ho vinia, sa nestali a objektívne sa stať ani nemohli.",
+      "pub": 1793698740,
+      "s": "Teraz.sk",
+      "t": "NS SR potvrdil oslobodenie premiérovho poradcu Lindtnera spod obžaloby",
+      "ts": 1793699739.9238653,
+      "u": "9cd6fce5a675363ac8d2"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQamRhQ2JHWkx3b2pCbl94SHUxRlUzZmwwRkJFTXNpaDh6Vk9ISnhsanBqTERoTjhORkpfYnpqNk1kZ2pjWm1oUEV1NlRObllYenN2S29TUW10Zi1jeEtrQTUxaXZMT2ZQRURyRTY0QzBtX1RxMTE5WTh6akJNcFZBMm81SlZNVlhxNVVnem1JU01MMG92ZDN3WUVwR0p6ZjM4aHFkcVV5aXdFMTFTNTFLZg?oc=5",
+      "p": "Obmedzenie na trati. Vlak na frekventovanom úseku strhol trakčné vedenie tnlive.sk",
+      "pub": 1793695740,
+      "s": "TN Live",
+      "t": "Obmedzenie na trati. Vlak na frekventovanom úseku strhol trakčné vedenie",
+      "ts": 1793699739.9238665,
+      "u": "6acd7b802a1553519aed"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSUZsNG9xazF4akk1YkhRZHV4b1dzdFFfUEVuUVpzUmlIajVCSTc3TEhoZ05VYnI4M1ROOHFjOERhRk1KYU9xQlFTYV9DUnM0emZ0ZlIyNXpSNzFjQmR5QVVSWXQ4ckRyM01wSy1NdmVsQlhPcExUNUlQUWlGenBWTU9LTkVaUGJ1bFJZSnBVZ1ZOaWhld1hOeXlTWWgyLW9RS0tJaDFBcVF4WEFualFuVS12Wjh2bFdIOWdPRHhIeFQ2b0hVZmlIV1NoR0RSME5zS3lV?oc=5",
+      "p": "Zdanlivo neškodný nápoj vám môže narobiť problémy. Urológovia upozorňujú na riziko pre obličky tnlive.sk",
+      "pub": 1793696400,
+      "s": "TN Live",
+      "t": "Zdanlivo neškodný nápoj vám môže narobiť problémy. Urológovia upozorňujú na riziko pre obličky",
+      "ts": 1793699739.9238677,
+      "u": "33485d7a1124ba8b8162"
+    },
+    {
+      "l": "https://www.noviny.sk/politika/1281560-nezaradeny-poslanec-roman-malatinec-sa-pridava-k-politickemu-projektu-tomasa-tarabu",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Nezaradený poslanec Roman Malatinec sa pridáva k politickému projektu Tomáša Tarabu",
+      "ts": 1793699739.9238694,
+      "u": "191dc8ab25a4d77ba6b4"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1281553-na-oblubenej-plazi-objavili-smrtelne-jedovatu-rybu-jej-toxin-je-az-tisickrat-silnejsi-nez-kyanid",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Na obľúbenej pláži objavili smrteľne jedovatú rybu. Jej toxín je až tisíckrát silnejší než kyanid",
+      "ts": 1793699739.9238715,
+      "u": "f40977d8df0a0d84aa53"
+    },
+    {
+      "l": "https://www.noviny.sk/ranne-noviny/1281554-na-juhu-slovenska-uz-niekolko-hodin-prsi-zrazky-sa-zacinaju-rozsirovat",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Na juhu Slovenska už niekoľko hodín prší, zrážky sa začínajú rozširovať",
+      "ts": 1793699739.9238725,
+      "u": "148634944706db795b56"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1281545-podozrenia-okolo-pellegriniho-kampane-policia-nenasla-dovod-na-trestne-stihanie",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Podozrenia okolo Pellegriniho kampane: Polícia nenašla dôvod na trestné stíhanie",
+      "ts": 1793699739.9238746,
+      "u": "8503bb61974514c8ec08"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.aktuality.sk/clanok/F1Lu2JJ/vazna-nehoda-pred-tunelom-horelica-usek-cesty-i11-v-cadci-je-uplne-neprejazdny/"
-      ],
-      "model": "gemini/gemini-3.5-flash-lite",
-      "reason": "Závažná dopravná nehoda úplne ochromila dopravu na dôležitom cestnom ťahu I/11.",
-      "title": "Vážna nehoda pred tunelom Horelica: Úsek cesty I/11 v Čadci je úplne neprejazdný",
-      "ts": 1793093748.6069384
-    },
-    {
-      "links": [
-        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNHM0LUg3NmhNV3ZKMjNydlhVeVZ5OFJjOEloYS1wWDNwVktsZUJETmlwdTl2YkxsOWJKNlItbnRWd2N4dWo5S0RzSHFxd0VMOE1GNWF6RnpxYkVXNkNrcFgtVTZ6R0ZZYUFHNEdkYW5MRVEzdE5YWFpiZENkTk5DbjlXdjhtYXY5d3N3OWZ5WUF1eGxCdFk5WGVpRG9xWk40aFdsRUdVWV8wdlZSR3BCUjdPVTZYSC1LdmpHWjRRVQ?oc=5"
-      ],
-      "model": "gemini/gemini-3.5-flash-lite",
-      "reason": "Lavína vo Vysokých Tatrách si vyžiadala zásah záchranárov a zranenie osemnásťročného muža.",
-      "title": "FOTO: Vo Vysokých Tatrách sa odtrhla lavína. Záchranári pomáhali zranenému mužovi (18)",
-      "ts": 1793094942.343498
-    },
     {
       "links": [
         "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY3ZabTQwbDZIeE5pWEZ2X2hjZThBUEJBX0JaLXhLZ3pER3F0Zkx0NVdNZXNNNWdxSVJpYWowakNXTm5hZ19oUlZIM3RMZk0ybkFvWXlKVlJadENZQ3E2RF9XZGh2S2JMMG5kdi00aEtDN3dCdEVtandMRk1iN2VWOWdodGVTdGhPTlJxckM0dEZGR2RZQVhnNE85T3lMQjZ3VlE?oc=5"
@@ -6078,6 +5989,7 @@
     "06d48f429ffcdbea7b7f": 1792584645.9527304,
     "06dc9e696da9c988c942": 1793520650.7024527,
     "06e2e83fd804bd12eace": 1792680948.9113736,
+    "06e310857dd0226dffae": 1793699739.9238756,
     "06ee7066dd83bef3b4f2": 1793075744.329442,
     "06f31f0313d524676ab5": 1792944643.9015927,
     "06f90b55965179532ce2": 1792726549.4976454,
@@ -6600,6 +6512,7 @@
     "14768522262a4b8ace6d": 1793540144.8283582,
     "147a882791776a769389": 1793182254.6547768,
     "148538af2fd2b898744f": 1793203851.3125105,
+    "148634944706db795b56": 1793699739.923872,
     "148a2188f6b04f75b863": 1792785346.045117,
     "1497aaae810bcaeb19b4": 1793193050.2406952,
     "14982d787a26c049c236": 1793021741.6957524,
@@ -6773,6 +6686,7 @@
     "190ffb3558ad50154358": 1793266544.9207847,
     "19127f1ba85e488611c7": 1793507740.4638565,
     "1915bd190f897441631c": 1793545846.3218849,
+    "191dc8ab25a4d77ba6b4": 1793699739.9238684,
     "1920d12f364308e01eb8": 1792924540.3113413,
     "193eed4071cabe48f831": 1793640055.6312053,
     "194142179e9e0ce4a180": 1792753847.883065,
@@ -7567,6 +7481,7 @@
     "2ef98031f5e845e17c6f": 1793474453.848064,
     "2efd9bda63a92676f2ec": 1793338540.9452434,
     "2f01a5de1b6ea5f40746": 1793447738.7467794,
+    "2f0a5db34541bc08494b": 1793699739.9238627,
     "2f0d3bfe29753fce66a8": 1792902945.3486798,
     "2f0f4f2791d72d932d55": 1792944643.9015958,
     "2f18e0b1becd13249b38": 1793556646.2284515,
@@ -7719,6 +7634,7 @@
     "3332831b5fee111fc801": 1792509276.9903495,
     "334479d47a19f0e4ec0e": 1793363745.7736425,
     "3346b98be763346670bf": 1792944643.9016016,
+    "33485d7a1124ba8b8162": 1793699739.9238675,
     "334b75ae417deaae68d5": 1793531448.3742723,
     "3350717c98f3022bd973": 1793081447.1367145,
     "3359b22418f160d6cd48": 1793215249.261813,
@@ -8702,6 +8618,7 @@
     "4d1141d63787115350f5": 1793334945.7070687,
     "4d1abc6ddce0e65fe56d": 1793000137.1534216,
     "4d1d955513d6b9ad98c4": 1793176543.4820933,
+    "4d1dad168a3154915ff0": 1793699739.9238546,
     "4d238097244831535c6c": 1792562010.3320296,
     "4d3bff6da9adaa0e7e3f": 1793296541.196072,
     "4d4cb727647b9e066a59": 1793545846.3218834,
@@ -8983,6 +8900,7 @@
     "54e29657a7f71864e7e1": 1793206543.2651837,
     "54e53a790178a4a396fa": 1792833046.7886255,
     "54f270d8189f0eb5e21f": 1792686054.1537166,
+    "54fa06bd091381423189": 1793699739.9238791,
     "54fb87f22c17e89da77f": 1792752943.182279,
     "550082646226310cc50d": 1792617647.7563508,
     "55092137696c4d2418fa": 1793384447.3046384,
@@ -9839,6 +9757,7 @@
     "6aaf4c014adf9a53d1c0": 1793351447.2801018,
     "6ab0b9317256f7624f7f": 1793176543.4821079,
     "6ac823120e19c28096a1": 1793111752.3692403,
+    "6acd7b802a1553519aed": 1793699739.923866,
     "6ae06a183c4586d1db19": 1793656545.2544744,
     "6af4e7f97243f0ebbfb6": 1793543738.6968772,
     "6afa7cd5152acd2d870a": 1793026541.1211438,
@@ -10603,6 +10522,7 @@
     "80e4463f9d406cd00abf": 1792645845.5427709,
     "80e9e30a8730737233b6": 1793609751.1974068,
     "810f16bf5522d17496e6": 1793277340.7850847,
+    "81124f2cf21abf5a90ed": 1793699739.9238613,
     "8117fda45f072ecfd0a8": 1793001339.3374355,
     "81202277afb394e6f266": 1793182254.6547892,
     "81283a00e89c817a7b8b": 1792689646.8208764,
@@ -10733,6 +10653,7 @@
     "84e2169f0bbf2f5c4495": 1792905051.8247192,
     "84fbe54c1ca0d3c25796": 1793601389.6508663,
     "8503b6ad943a3ff55c58": 1793594140.785459,
+    "8503bb61974514c8ec08": 1793699739.9238732,
     "8504dc094ac21618392c": 1793513450.7605388,
     "8506642f114efa0616e4": 1793022942.066877,
     "8512d0cb905e2d790187": 1792654538.3100817,
@@ -10740,6 +10661,7 @@
     "851ebf156e9cc4d7f1f6": 1793524248.1560123,
     "852b4e5016a844d5ed14": 1792581048.9161787,
     "852cb94dbdc4898684d3": 1793373056.71389,
+    "852e923a97eebad2d041": 1793699739.923881,
     "852ef210fd9c6a241fb5": 1792989345.2657428,
     "85330fb012bef14e7a8a": 1793298048.0096223,
     "853f70f1299ac3f20eed": 1793130105.034961,
@@ -10970,6 +10892,7 @@
     "8b08fed47507f16527f8": 1793007345.024019,
     "8b172dacaca139bd8a7f": 1793520650.7024727,
     "8b19ba7cfd9049cb3040": 1792643742.3161683,
+    "8b23301c5c4a20233fb2": 1793699739.9238534,
     "8b265eb247fddfe6ad98": 1793210145.8772204,
     "8b31d7ff9a784a71d140": 1793540144.8283617,
     "8b3248b3726f25aefd3e": 1793550945.0124085,
@@ -11640,6 +11563,7 @@
     "9cbfbf5a3176a1ddee4c": 1792573848.957161,
     "9cc0ffed5b52a3c6f8a6": 1793284544.8767269,
     "9cce8e526c4468c1783d": 1792645845.542776,
+    "9cd6fce5a675363ac8d2": 1793699739.9238646,
     "9cd75034e12addbd9082": 1793021741.695744,
     "9cd7846922744ae99c28": 1793378141.3294544,
     "9cddce5cc4139f11f4f8": 1792645845.5427768,
@@ -12054,6 +11978,7 @@
     "a7a7cada6737de535068": 1792491610.8401754,
     "a7ac25938dd11a1a74bb": 1792902945.3486323,
     "a7b0ecb07ed20a1d9862": 1793194545.5613775,
+    "a7c127d53d744709d1be": 1793699739.9238567,
     "a7d8e39dcc37baed6e91": 1792596936.5902083,
     "a7db706c1e84ec62624e": 1793111752.3692703,
     "a7dcca263198a3d80045": 1793213747.289963,
@@ -12153,6 +12078,7 @@
     "aa7d51a2d6d98bfd35fb": 1793032545.1800418,
     "aa960197740c349e7ff1": 1792991447.8895144,
     "aa96f66025511c0de051": 1792562010.332034,
+    "aa9c08bec79128db92c6": 1793699739.9238822,
     "aa9cf488688f7816fcbf": 1792843459.7125034,
     "aa9ec60be36e3408d114": 1792655738.3769317,
     "aaa2a2b416e78b2e2f98": 1792732247.5921762,
@@ -12694,6 +12620,7 @@
     "b98ae1d14c0ad6084ad2": 1793178645.392552,
     "b98d9208d64ab4176e95": 1792570117.8892186,
     "b9935d89a420a0fe3fa8": 1792679737.2796519,
+    "b99497599081028530ed": 1793699739.9238508,
     "b9960204912b53c60c3f": 1792726549.4976559,
     "b9981e65d17c0ab31504": 1793357741.8635252,
     "b9a3c3e90aa3ff1c6e46": 1792580147.969359,
@@ -13341,6 +13268,7 @@
     "cb1ec3d6b43a5dcca0d3": 1792923044.0755541,
     "cb21d005e4ddf093dad6": 1792737341.0923479,
     "cb26fe68115dcd6cf47b": 1793018143.1999269,
+    "cb2e2babc750e1d543f8": 1793699739.923845,
     "cb2f98fb56ddc028e4dd": 1793048138.731331,
     "cb479a0bbfbbe8ee0bb9": 1793294448.2132504,
     "cb4f53b1255bf88fa451": 1793180143.9993682,
@@ -14902,9 +14830,11 @@
     "f3dcc1bfe653a87045b0": 1793301460.6467443,
     "f3df40c5841e28ecb05f": 1792570117.8893225,
     "f3e18e820995c70032d9": 1792743051.2887866,
+    "f3f52c58d0817502e9f5": 1793699739.9238584,
     "f3f59740141ca8614c56": 1793104540.9514682,
     "f3f6d20f0b75e420ae76": 1792902945.3487022,
     "f404583f936ca2ad756a": 1793266544.9207962,
+    "f40977d8df0a0d84aa53": 1793699739.9238703,
     "f40c0466edea4091126d": 1792491610.840423,
     "f418a6fb7568683f4b4a": 1793273742.4453793,
     "f41d6dfae76009cc82f1": 1792700447.4081619,
@@ -15381,114 +15311,58 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1793698538.9921238
+      "ts": 1793699739.9238183
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/hokej/clanok/nemecky-pohar-orszagh-zmeny-nominacia-2026110209135192308",
-      "p": "Pôvodné plány trénerského štábu slovenskej hokejovej reprezentácie pred štartom Nemeckého pohára 2026 nabúrala rozsiahla séria zdravotných komplikácií.",
-      "s": "Šport.sk",
-      "t": "Masívna maródka pred štartom Nemeckého pohára. Vladimír Országh musel urobiť až sedem zmien",
-      "ts": 1793612145.5391572,
-      "u": "fb2b9823f20552a36059"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNFJLYXBxVnpheFpaWkFmeG9oZlljZU9MYUh1Uy1MSU1rak96QzRySWpXU1ZFZnlBaDd5VmFDekYxWVdUeGlaRk9GTTBYMUE4LVlSTEhJZ3JFMldnekUzZkpOZ3JuWjJGWmF3bmFqampGWWhaelVBak5za1dKaENkYU5wV2xEcENpYXJWUlMzai1MZ0RyV1N3MHptc1R4NHoxSHY3cmJfeFRHOXFDdUtSdA?oc=5",
-      "p": "Trnava má šťastie, že skončiť v spodnej šestke je tento rok umenie (tréneroviny) Sportnet",
-      "s": "SPORTNET",
-      "t": "Trnava má šťastie, že skončiť v spodnej šestke je tento rok umenie (tréneroviny)",
-      "ts": 1793612145.5391603,
-      "u": "2607af79896eb47630e1"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/slovan-caka-suboj-v-linzi-lask-uz-z/1004472-clanok.html",
-      "p": "Slovan v úvodných troch kolách podľahol Parížu Saint-Germain 1:6, doma Stuttgartu 0:3 a pred dvoma týždňami prehral v Ríme s AS 0:4.",
-      "s": "TERAZ.SK",
-      "t": "Slovan čaká súboj v Linzi, LASK už zdolal Sporting",
-      "ts": 1793612145.539162,
-      "u": "a38b6cc0e42ad35928e2"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/kai-havertz-rekorder-premier-league-gundogan-2026110209192371707",
-      "p": "Kai Havertz zariadil Arsenalu prvé víťazstvo na trávniku Anfieldu po 14 rokoch a posunul svoj tím na čelo Premier League. Jeho presný zásah zo 16. minúty derby proti Liverpoolu bol už jeho 46. gólom v 172 stretnutiach v najvyššej anglickej súťaži.",
-      "s": "Šport.sk",
-      "t": "Kai Havertz sa stal rekordérom Premier League a zosadil ikonu Manchestru City",
-      "ts": 1793613339.2013152,
-      "u": "4098b80e78f2d372693f"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdVE3UVJGLTF0ak1fZGV3UXI1c2NXeG5XcG9TRWdaOGZCWlVpMGY4dXJNVTN0VWxETVVvREJBcG5JaDNIX0RkX1pQYnJXSmxsWWFCMkNBdVh6VjRhUGRraHJLQTNHOE5yTWFlQ1dURXVmbDdvU1JrU05aaDhxV0RFcnVZVW5QdFVWMDY2T2JxZ280ZzRCVV9DSW5YTQ?oc=5",
-      "p": "Diskusia: Košice mali šance, ale sklamali. Dunajská Streda dala gól z najväčšej hlúposti Sportnet",
-      "s": "SPORTNET",
-      "t": "Diskusia: Košice mali šance, ale sklamali. Dunajská Streda dala gól z najväčšej hlúposti",
-      "ts": 1793613339.2013175,
-      "u": "225d51d90619211c1bdf"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/z-nominacie-sr-na-nemecky-pohar-vypad/1004485-clanok.html",
-      "p": "Z nominácie trénera Vladimíra Országha vypadli tesne po oznámení súpisky brankár Roman Rychlík a dvojica hráčov z Liberca Michal Ivan a Martin Faško-Rudáš.",
-      "s": "TERAZ.SK",
-      "t": "Z nominácie SR na Nemecký pohár vypadlo pre zdravotné dôvody 7 hráčov",
-      "ts": 1793613339.20132,
-      "u": "804cb55c26bdebc38001"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/spaletti-po-vyhre-nad-neapolom-volal-po/1004476-clanok.html",
-      "p": "Oba tímy v prvom polčase spálili v pokutovom území dobré šance a skóre zápasu otvoril po zmene strán z ničoho nič v 70. minúte Alajbegovič.",
-      "s": "TERAZ.SK",
-      "t": "Spaletti po výhre nad Neapolom volal po jednote v Juventuse",
-      "ts": 1793613339.201321,
-      "u": "4185e76ef1b794008c6b"
-    },
     {
       "l": "https://sport.aktuality.sk/motosport/clanok/kimi-antonelli-plat-bonusy-titul-f1-2026110209525528633",
       "p": "Vo veku 20 rokov a 68 dní získal Kimi Antonelli svoj prvý titul majstra sveta, a to len vo svojej druhej sezóne v Formule 1. Keďže má s tímom Mercedes stále platnú svoju prvú zmluvu, jeho príjmy v tejto majstrovskej sezóne budú relatívne nízke, aspoň v porovnaní so zárobkami najväčších hviezd padoku",
@@ -17360,6 +17234,38 @@
       "t": "Szabová po debute v UFC: Nikdy nie som spokojná s víťazstvom na body. Chcem súperky ukončovať",
       "ts": 1793698538.9923987,
       "u": "f53ed7182480a69d86b5"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/pavol-regenda-prehovoril-o-odchode-z-nhl-trochu-ma-to-trapi-2026110309310465288",
+      "p": "Po piatich rokoch v zámorí sa Pavol Regenda vrátil do Európy a zahrá si tak v národnom drese aj počas prípravy. Hlavný tréner Vladimír Országh ho nominoval na Nemecký pohár a Regenda na pondelňajšom zraze predstúpil pred novinárov.",
+      "s": "Šport.sk",
+      "t": "VIDEO Pavol Regenda prehovoril o odchode z NHL: Trochu ma to trápi, ale dvere nie sú zatvorené",
+      "ts": 1793699739.9238782,
+      "u": "06e310857dd0226dffae"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/west-ham-vyhodil-trenera-nuno-espirito-santo-2026110309453196094",
+      "p": "Anglický futbalový klub West Ham United v utorok prepustil zo svojich služieb hlavného trénera Nuna Esprita Santa.",
+      "s": "Šport.sk",
+      "t": "Návrat medzi elitu sa komplikuje. West Ham stratil trpezlivosť a vyhodil trénera",
+      "ts": 1793699739.92388,
+      "u": "54fa06bd091381423189"
+    },
+    {
+      "l": "https://sport.aktuality.sk/hokej/clanok/skandal-v-slovenskom-hokeji-hrac-obvineny-z-korupcie-2026110309363780621",
+      "p": "Vyšetrovateľ protikorupčnej jednotky Úradu boja proti organizovanej kriminalite (ÚBOK) Prezídia Policajného zboru (PPZ) obvinil profesionálneho hokejistu z pokračovacieho prečinu športovej korupcie.",
+      "s": "Šport.sk",
+      "t": "Obrovský škandál v slovenskom hokeji. Hráča obvinili z korupcie, súperom sľuboval tisíce eur",
+      "ts": 1793699739.9238818,
+      "u": "852e923a97eebad2d041"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/west-ham-prepustil-trenera-nuna-esprita/1004767-clanok.html",
+      "p": "Päťdesiatdvaročný Portugalčan prišiel do tímu vlani koncom septembra s cieľom udržať ho v najvyššej súťaži.",
+      "s": "TERAZ.SK",
+      "t": "West Ham prepustil trénera Nuna Esprita Santa",
+      "ts": 1793699739.923883,
+      "u": "aa9c08bec79128db92c6"
     }
   ],
   "sport_source_status": {
@@ -17367,25 +17273,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1793698538.9921424
+      "ts": 1793699739.9238362
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1793698538.9921453
+      "ts": 1793699739.9238396
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1793698538.992148
+      "ts": 1793699739.9238422
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1793698538.9921467
+      "ts": 1793699739.923841
     }
   }
 }
