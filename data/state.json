@@ -1,26 +1,6 @@
 {
   "digest_topic_history": [
     {
-      "headline": "Koalícia stráca väčšinu v parlamente, Malatinec sa pridal k Tarabovi",
-      "ts": 1793700719.181893
-    },
-    {
-      "headline": "Najvyšší súd definitívne oslobodil premiérovho poradcu Davida Lindtnera",
-      "ts": 1793700719.181893
-    },
-    {
-      "headline": "Polícia obvinila hokejistu zo športovej korupcie, ponúkať mal úplatky",
-      "ts": 1793700719.181893
-    },
-    {
-      "headline": "Koncern Schaeffler ruší tisíce miest v Európe, zasiahne to aj Slovensko",
-      "ts": 1793700719.181893
-    },
-    {
-      "headline": "Očakávajú sa ďalšie trojstranné rokovania o ukončení vojny na Ukrajine",
-      "ts": 1793700719.181893
-    },
-    {
       "headline": "Najvyšší súd odmietol žiadosť Trumpovej vlády týkajúcu sa hlasov v Kalifornii",
       "ts": 1793702218.804467
     },
@@ -151,226 +131,100 @@
     {
       "headline": "Sociálna poisťovňa varuje pred podvodnými SMS správami",
       "ts": 1793712966.4243968
+    },
+    {
+      "headline": "Útoky na Irán a napätie na Blízkom východe",
+      "ts": 1793715140.8692827
+    },
+    {
+      "headline": "Zomrela mladá speváčka SĽUK-u Kristína Mikitová Malinová",
+      "ts": 1793715140.8692827
+    },
+    {
+      "headline": "Vražda podnikateľa Suržina: Súd odročil pojednávanie s Černákom",
+      "ts": 1793715140.8692827
+    },
+    {
+      "headline": "Sociálna poisťovňa varuje pred masívnym podvodom cez SMS",
+      "ts": 1793715140.8692827
+    },
+    {
+      "headline": "Zvyšovanie poplatkov za odpad a kritika nového systému",
+      "ts": 1793715140.8692827
     }
   ],
   "last_digest": {
-    "model": "gemini/gemini-3.1-flash-lite",
+    "model": "gemini/gemini-3.5-flash-lite",
     "topics": [
       {
-        "headline": "Poľsko mobilizovalo sily pri ruskej hranici",
+        "headline": "Útoky na Irán a napätie na Blízkom východe",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/2bwIpPI/spojene-staty-opat-udreli-na-iran-tentokrat-ostrov-kesm/"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/pyUnikz/iran-po-americkom-utoku-varuje-pred-odvetou-vyhradzuje-si-pravo-na-sebaobranu/"
+          ]
+        ],
+        "perex": "Spojené štáty zaútočile na pozíciu Revolučných gárd na ostrove Kešm. Irán po americkom útoku varuje pred odvetou a vyhradzuje si právo na sebaobranu."
+      },
+      {
+        "headline": "Zomrela mladá speváčka SĽUK-u Kristína Mikitová Malinová",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2071647-polsko-v-noci-mobilizovalo-sily-pri-rusku-tusk-hovori-o-zmarenej-provokacii?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "https://www.pravda.sk/spravy/domace/clanok/2071359-zomrela-spevacka-sluk-u-kristina-mikitova-malinova?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ]
         ],
-        "perex": "Poľské bezpečnostné zložky zvýšili pohotovosť v blízkosti ruskej Kaliningradskej oblasti po nočnom hlásení pohraničnej stráže. Premiér Donald Tusk uviedol, že sa podarilo zabrániť pokusu o provokáciu."
+        "perex": "Slovenská folklórna scéna smúti za Kristínou Mikitovou Malinovou. Speváčka SĽUK-u a mama troch detí zomrela po chorobe vo veku 40 rokov."
       },
       {
-        "headline": "Tusk ustúpil v spore o vedenie poľskej centrálnej banky",
+        "headline": "Vražda podnikateľa Suržina: Súd odročil pojednávanie s Černákom",
         "links": [
           [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/QFdjKLm/tusk-ustupil-v-spore-s-prezidentom-schvalil-jeho-kandidatov-do-vedenia-polskej-centralnej-banky/"
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/pripad-vrazdy-podnikatela-surzina-p/1004846-clanok.html"
           ]
         ],
-        "perex": "Poľský premiér Donald Tusk podpísal nominácie na členov vedenia centrálnej banky, ktoré predtým mesiace odmietal. Krok prichádza v čase, keď predstavenstvu hrozilo, že klesne pod zákonom stanovený počet členov."
+        "perex": "Súd v prípade vraždy podnikateľa Suržina odročil pojednávanie s M. Černákom. Doposiaľ boli vypočutí svedkovia a prečítané znalecké posudky."
       },
       {
-        "headline": "Irán vykonal ďalšie popravy v súvislosti s protestmi",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/HLDgw5O/iran-pokracuje-v-popravach-spojenych-s-protestmi-ludskopravne-skupiny-hovoria-o-nespravodlivych-procesoch/"
-          ]
-        ],
-        "perex": "Iránska justícia obesila dvoch mužov, ktorých odsúdila v súvislosti s januárovými protivládnymi demonštráciami. Ľudskoprávne organizácie upozorňujú, že od začiatku protestov bolo popravených už 36 ľudí."
-      },
-      {
-        "headline": "Maďarsko má nového generálneho prokurátora",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/uXogw69/madarsko-ma-noveho-generalneho-prokuratora-slubuje-zmeny-aj-navrat-k-starsim-kauzam/"
-          ]
-        ],
-        "perex": "Maďarskí poslanci v tajnom hlasovaní zvolili za generálneho prokurátora Pétera Fejesa. Nový šéf prokuratúry deklaroval zámer obnoviť dôveru verejnosti v inštitúciu a preveriť staršie kontroverzné rozhodnutia."
-      },
-      {
-        "headline": "Talianske supermarkety čelili kybernetickému útoku",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/b6aRcgb/kyberutoky-zasiahli-chladiace-systemy-supermarketov-v-taliansku-vlada-upokojuje-verejnost/"
-          ]
-        ],
-        "perex": "Útočníci napadli chladiace systémy v talianskych supermarketoch, pričom zasiahli najmä prevádzky so starším zabezpečením. Talianska vláda upokojuje verejnosť s tým, že väčšina distribučného reťazca útokom odolala."
-      },
-      {
-        "headline": "Sociálna poisťovňa varuje pred podvodnými SMS správami",
+        "headline": "Sociálna poisťovňa varuje pred masívnym podvodom cez SMS",
         "links": [
           [
             "Aktuality",
             "https://www.aktuality.sk/clanok/J2zrZva/socialna-poistovna-varuje-pred-masivnym-podvodom-cez-sms-utocnici-ziadaju-platobne-udaje/"
           ]
         ],
-        "perex": "Útočníci rozposielajú podvodné správy, ktoré lákajú ľudí na falošnú webovú stránku imitujúcu Sociálnu poisťovňu. Cieľom kampane je získať citlivé údaje z platobných kariet obetí."
+        "perex": "Podvodníci lákajú ľudí cez SMS na falošnú stránku napodobňujúcu web Sociálnej poisťovne. Útočníci v správe žiadajú údaje z platobnej karty."
+      },
+      {
+        "headline": "Zvyšovanie poplatkov za odpad a kritika nového systému",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/od-januara-sa-samospravy-nevyhnu-zvysovaniu-poplatkov-za-odpad?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Teraz.sk",
+            "https://www.teraz.sk/slovensko/system-upravy-zmesoveho-odpadu-nie-je/1004864-clanok.html"
+          ]
+        ],
+        "perex": "Od januára sa slovenské samosprávy nevyhnú zvyšovaniu poplatkov za odpad. Odborníci upozorňujú, že systém úpravy zmesového odpadu nie je pripravený."
       }
     ],
-    "ts": 1793712966.4243882
+    "ts": 1793715140.869272
   },
   "meta": {
-    "last_collection_ts": 1793714149.1819112,
+    "last_collection_ts": 1793715055.077621,
     "last_feed_error_ts": 1793601389.6508327,
     "last_llm_error_ts": 1793714325.3647828,
-    "last_run_ts": 1793714149.6849048,
-    "last_synthesis_ts": 1793712966.4243834
+    "last_run_ts": 1793715057.1340623,
+    "last_synthesis_ts": 1793715140.8692648
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/svet/c/cina-sa-postavila-za-iran-po-trumpovych-hrozbach-dalsimi-utokmi-vyzyva-na-politicke-riesenie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Šéf čínskej diplomacie Wang I podporil ochranu iránskej suverenity a bezpečnosti.",
-      "pub": 1793628538,
-      "s": "SME",
-      "t": "Čína sa postavila za Irán po Trumpových hrozbách ďalšími útokmi. Vyzýva na politické riešenie",
-      "ts": 1793628648.1860132,
-      "u": "17379c739a9ccb0933b4"
-    },
-    {
-      "l": "https://www.sme.sk/closer/c/psychologicke-pasce-cestovanie-ryanair-booking-marketing?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Zákazníci čelia marketingovým \"temným praktikám\" na každom kroku.",
-      "pub": 1793628437,
-      "s": "SME",
-      "t": "Zostáva posledná izba! Triky, ako z nás Booking či Ryanair ťahajú peniaze cez psychologické pasce",
-      "ts": 1793628648.186016,
-      "u": "f2abeff8b60c831590df"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/gripen-sprevadzal-lietadlo-wizz-air-do-budapesti-let-z-londyna-prerusila-bombova-hrozba?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Maďarská stíhačka sprevádzala ho až na letisko Ferenca Liszta, kde bezpečne pristál.",
-      "pub": 1793628251,
-      "s": "SME",
-      "t": "Gripen sprevádzal lietadlo Wizz Air do Budapešti. Let z Londýna prerušila bombová hrozba",
-      "ts": 1793628648.1860178,
-      "u": "b1818f2d195992c24c6e"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/aFV2qK3/bombova-hrozba-na-palube-wizz-air-lietadlo-pri-nudzovom-pristati-v-budapesti-sprevadzal-gripen/",
-      "p": "Do vzduchu sa stíhačka dostala v priebehu niekoľkých minút po vyhlásení ostrého poplachu NATO. Gripen následne odletel späť na základňu v Kecskeméte.",
-      "pub": 1793628345,
-      "s": "Aktuality",
-      "t": "Bombová hrozba na palube Wizz Air. Lietadlo pri núdzovom pristátí v Budapešti sprevádzal Gripen",
-      "ts": 1793628648.1860185,
-      "u": "85e46738c27eb72ea349"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/R2Me7pd/muz-sa-vlamal-do-restauracie-v-bratislave-prezradil-ho-ukradnuty-mobil-na-ktory-neustale-volal-majitel-podniku/",
-      "p": "Bratislavskí policajti zadržali a obvinili 55-ročného muža, ktorý sa v piatok (30. 10.) v skorých ranných hodinách vlámal do reštaurácie na Ružinovskej ulici a odcudzil mobilný telefón. Páchateľa vypátrala hliadka krátko po čine na Záhradníckej ulici.",
-      "pub": 1793628065,
-      "s": "Aktuality",
-      "t": "Muž sa vlámal do reštaurácie v Bratislave: Prezradil ho ukradnutý mobil, na ktorý neustále volal majiteľ podniku",
-      "ts": 1793628648.1860194,
-      "u": "a486637d9dd0212e4e97"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/nfLsUVa/peter-magyar-zamieri-do-berlina-za-merzom-do-nemecka-berie-aj-styroch-ministrov/",
-      "p": "Magyar chce podľa vlastných slov ukončiť obdobie medzinárodnej izolácie Maďarska. Tvrdí, že krajina má opäť spoľahlivých spojencov v Európe aj za Atlantikom.",
-      "pub": 1793627925,
-      "s": "Aktuality",
-      "t": "Péter Magyar zamieri do Berlína za Merzom. Do Nemecka berie aj štyroch ministrov",
-      "ts": 1793628648.1860204,
-      "u": "52b06edf061471565ef5"
-    },
-    {
-      "l": "https://dennikn.sk/5664511/videl-norov-vitazit-tak-ozivil-stagnujucu-karieru-ako-datovy-analytik-almgren-vyhral-maraton-v-new-yorku/",
-      "p": "Švéd Andreas Almgren bežal v New Yorku svoj prvý maratón, na výhru Európana tu čakali tridsať rokov.",
-      "pub": 1793628008,
-      "s": "Denník N",
-      "t": "Videl Nórov víťaziť, tak oživil stagnujúcu kariéru. Ako dátový analytik Almgren vyhral maratón v New Yorku",
-      "ts": 1793628648.1860218,
-      "u": "2cbb0226b756c0b5440b"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2070981-marta-shahbazi-tamara-gonzalez-costa-spanielsko-zrazka-vlak-nehoda-vedkyna-umrtie-cambridge?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Dosiahla veľké vedecké uznanie a čakala ju slávnostná chvíľa. Štyridsaťjedenročná španielska vedkyňa Marta Shahbaziová, ktorá pôsobila na prestížnej univerzite v britskom Cambridge, cestovala na juh Španielska prevziať ocenenie za výskum najskorších štádií ľudského života. Jej život však vyhasol pri",
-      "pub": 1793627768,
-      "s": "Pravda",
-      "t": "V Cambridge skúmala úplné začiatky ľudského života. Cesta za vedeckým ocenením sa jej stala osudnou",
-      "ts": 1793628648.1860235,
-      "u": "67630d90da94f535d469"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/danovi-poradcovia-vyhlasili-vitazov/1004608-clanok.html",
-      "p": "Do súťaže sa zapojili vysoké školy z celého Slovenska.",
-      "pub": 1793627640,
-      "s": "Teraz.sk",
-      "t": "Daňoví poradcovia vyhlásili víťazov 9. ročníka Tax Advisors Award",
-      "ts": 1793628648.1860247,
-      "u": "a36d1b8660536434fb73"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/ceev-zivica-prepaja-zazitkove-vzdel/1004606-clanok.html",
-      "p": "Nový kurz Hodnoty v outdoore zatiaľ absolvovalo 70 učiteľov zo 17 škôl po celom Slovensku.",
-      "pub": 1793627460,
-      "s": "Teraz.sk",
-      "t": "CEEV Živica prepája zážitkové vzdelávanie s odolnosťou v prírode",
-      "ts": 1793628648.1860256,
-      "u": "a60d88a973cfb70fe839"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/alkohol-za-volantom-policia-pristihla/1004603-clanok.html",
-      "p": "Najviac mladých pod vplyvom alkoholu bolo v Prešovskom kraji, a to 43 prípadov.",
-      "pub": 1793627340,
-      "s": "Teraz.sk",
-      "t": "ALKOHOL ZA VOLANTOM: Polícia pristihla 184 mladých vodičov",
-      "ts": 1793628648.1860268,
-      "u": "78cae87b1b18e357cbe9"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUW5wUDk0bHYtSzRreF82Z2FiNHBiekkyTV95YkE0UWEtbnFsaUg5bEdjMGFIaXVlN2kteGZaZWtzemlMLWxDYTA2bGFJNUVVR0JhMFp6RHNqU0dTNEJINzNhb1BQQ3FVdk1hYnlHYnNqRGRuMjNmbU52T3pkTEp0bDlwVnVfY0VDLVBoUHp4bmNvMGhsekRPTzNVUUtXNWlEUGIzX2lXYmhfUGFhVTJqOW9DNkU?oc=5",
-      "p": "Muž si chcel skrášliť záhradu, nevedomky spôsobil ekologickú katastrofu tnlive.sk",
-      "pub": 1793625060,
-      "s": "TN Live",
-      "t": "Muž si chcel skrášliť záhradu, nevedomky spôsobil ekologickú katastrofu",
-      "ts": 1793628648.186028,
-      "u": "24a643f55a6796f3bb3d"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUmlVOTlPeE9qb1U1VVdRR0EtcFBEdE01RW1QT3BVQzZFdzBSbHRndmc0cnNIMW1rc1FHZ1hUS0ZHS2lRZDBsRU45eDVTeGdlWXVIdlo1VjQtendqSy1RdHFpXzh0S1I3VGJ3dTNkODBZQ1J2SGJKSTFfdDlveUZwTXdfSXlKNktGc2hLZ3licS1zbTdQTVl5NUwtVzdZbnJrdjVKTDZqcFgzUENfVkV3eFRaWjRQSHd5N2tnU3lFRHA5clhHSk9ibA?oc=5",
-      "p": "FOTO: Ihneď ho zabaľte a čo najskôr vráťte. Výrobok určený do domácnosti môže spôsobiť smrť tnlive.sk",
-      "pub": 1793625900,
-      "s": "TN Live",
-      "t": "FOTO: Ihneď ho zabaľte a čo najskôr vráťte. Výrobok určený do domácnosti môže spôsobiť smrť",
-      "ts": 1793628648.186029,
-      "u": "a5fb8902f57cdd2f66e6"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVkc1Rzlsb2R3Qm85MzQ1eWFZYkhha3Q5X3pCVFpEWGNaQy15N2NwakttS0w4SjRELWQ5RmR6dE5MN3FDaFJ1VmVkR0puc20yU010c2pKRk11UG9VeGlHUDI4a1ZUdTU1MzJpdzBJNVRrOXo0VE1tT2lPR3RiWWVjOGFsWXc1OVlsTXVrZTdleUNkVWlrWmFzaVlvUjg1Nm92eHU1NjdhV2cxbGZTVE5IOGhVNlMzaDBYS0FOUS1SdDA4WE9yVXp3?oc=5",
-      "p": "Ryanair pridáva novú linku z Bratislavy. Cestujúcich zavezie do obľúbeného regiónu Európy tnlive.sk",
-      "pub": 1793619780,
-      "s": "TN Live",
-      "t": "Ryanair pridáva novú linku z Bratislavy. Cestujúcich zavezie do obľúbeného regiónu Európy",
-      "ts": 1793628648.1860306,
-      "u": "7f57afaf30fd5aa033d9"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1281280-bombova-hrozba-prerusila-let-wizz-air-k-lietadlu-vyslali-madarsku-stihacku-gripen",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Bombová hrozba prerušila let Wizz Air. K lietadlu vyslali maďarskú stíhačku Gripen",
-      "ts": 1793628648.1860318,
-      "u": "bb2e3f0dc5e9545b1d50"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1281079-vodicka-18-skoncila-po-zrazke-s-losom-na-jis-ke-matka-bola-z-fotografii-nehody-zdesena",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Vodička (18) skončila po zrážke s losom na JIS-ke. Matka bola z fotografií nehody zdesená",
-      "ts": 1793628648.186033,
-      "u": "eb72692f3ef30746f4db"
-    },
     {
       "l": "https://www.sme.sk/komentare/c/cynicka-obluda-ked-sa-s-moskvou-zacne-rokovat-o-cestovnom-ruchu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Tento cestovný ruch je taký špecifický, že ho musí dohadovať minister zahraničných vecí.",
@@ -4825,6 +4679,96 @@
       "t": "Budú Tarabovci požadovať ministerské kreslo? Malatinec prehovoril o podmienkach podpory koalície",
       "ts": 1793714149.684204,
       "u": "688a66dc31c9c12fa77f"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/hekerske-utoky-zasiahli-mraznicky-v-talianskych-supermarketoch-so-zastaranymi-bezpecnostnymi-systemami?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Neobjavili sa žiadne hrozby pre verejné zdravie.",
+      "pub": 1793714920,
+      "s": "SME",
+      "t": "Hekerské útoky zasiahli mrazničky v talianskych supermarketoch so zastaranými bezpečnostnými systémami",
+      "ts": 1793715057.1336043,
+      "u": "ac90dd13db5f287ad97c"
+    },
+    {
+      "l": "https://www.sme.sk/index/c/miliardovy-gymbeam-na-slovensku-nie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Príbeh zakladateľa GymBeamu aj mýty o drahých elektroautách nájdete v novembrovom INDEXE.",
+      "pub": 1793714661,
+      "s": "SME",
+      "t": "Miliardový GymBeam? Na Slovensku nie",
+      "ts": 1793715057.1336079,
+      "u": "8b4459997478d5e66fe8"
+    },
+    {
+      "l": "https://e.dennikn.sk/5667282/graf-dna-rast-cien-bytov-sa-opat-zrychlil-najviac-zdrazeli-v-banskobystrickom-kraji/",
+      "p": "Úrokové sadzby úverov na bývanie od začiatku vojny v Iráne rastú a postupne sa vracajú na úroveň zo začiatku minulého roka. Keďže je pravdepodobné, že pôjdu ďalej nahor, ľudia sa s vybavením hypoték ponáhľajú a ich dopyt ťahá ceny nehnuteľností vyššie. Priemerné ceny bývania na Slovensku stúpli od j",
+      "pub": 1793714245,
+      "s": "Denník N",
+      "t": "Graf dňa: Rast cien bytov sa opäť zrýchlil. Najviac zdraželi v Banskobystrickom kraji",
+      "ts": 1793715057.1336105,
+      "u": "d88bc27491f637ccff86"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2071677-zelenskyj-tvrdi-ze-ukrajinci-odstranili-v-oktobri-rekordny-pocet-ruskych-vojakov-kolkych-vyradili-z-boja?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Mesiac najťažších strát ruskej armády od spustenia Putinovej invázie na Ukrajinu. V tomto zmysle sa v Kyjeve pochválili o najnovšej bilancii agresora. O počte Rusov, ktorých sa podarilo eliminovať, sa zmienil ukrajinský prezident Volodymyr Zelenskyj.",
+      "pub": 1793714438,
+      "s": "Pravda",
+      "t": "Zelenskyj tvrdí, že Ukrajinci odstránili v októbri rekordný počet ruských vojakov. Koľkých vyradili z boja?",
+      "ts": 1793715057.1336124,
+      "u": "65ac5ea16dc196d7de31"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/mzvez-varuje-pred-ohlasenymi-protestmi/1004887-clanok.html",
+      "p": "MZVEZ odporúča občanom SR vo Francúzsku vyhýbať sa protestom, väčším zhromaždeniam, miestam nepokojov a zásahov bezpečnostných zložiek.",
+      "pub": 1793713920,
+      "s": "Teraz.sk",
+      "t": "Rezort diplomacie varuje pred ohlásenými protestmi vo Francúzsku",
+      "ts": 1793715057.1336136,
+      "u": "3baba118723161515359"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRW1aMHhVcDJYbkdxQldWRmJ5NEozMlc3OEEtbW9INU8yOHJtWmxtYThjakZUdWdSbTlDSTJ3LXVzYkszRXJ3N3FIWmZ0VDQ5Q2NVUWhrTDlUMU96eTlDTFVBSG9FOTJvTERXSXVDQU9OejhUbXJGdUp4WFdTUWFMYVVOVEtYd1p2aEVPTHluMWRMME9rN2ZTcHlqZmNWQ2xRSVdmRVhPOXgxZVBReElESHVMR3VHbDlPZHdaNDk5VGUtQVc0WlBvSGlicEs1QQ?oc=5",
+      "p": "VIDEO: Chcel ukradnúť auto priamo z dvora majiteľa. Nečakal, že ho z neho vytiahne holými rukami tnlive.sk",
+      "pub": 1793711220,
+      "s": "TN Live",
+      "t": "VIDEO: Chcel ukradnúť auto priamo z dvora majiteľa. Nečakal, že ho z neho vytiahne holými rukami",
+      "ts": 1793715057.1336148,
+      "u": "6e21b1208145c6f1a865"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1281759-pri-tragickej-zrazke-vlakov-zachranoval-zivoty-lekarnik-78-rozdal-vsetky-zasoby-zo-svojej-lekarne",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Pri tragickej zrážke vlakov zachraňoval životy. Lekárnik (78) rozdal všetky zásoby zo svojej lekárne",
+      "ts": 1793715057.1336172,
+      "u": "536fe296d83ab3977968"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1281583-vedci-objavili-nezvycajne-mohutneho-pribuzneho-kalamarov-zil-pred-160-milionmi-rokov",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Vedci objavili nezvyčajne mohutného príbuzného kalamárov. Žil pred 160 miliónmi rokov",
+      "ts": 1793715057.1336184,
+      "u": "3cd4733dce42a3e6c0fc"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1281712-tri-mesiace-ich-unasal-ocean-paet-ludi-nasli-viac-ako-paettisic-kilometrov-od-domova",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Tri mesiace ich unášal oceán. Päť ľudí našli viac ako päťtisíc kilometrov od domova",
+      "ts": 1793715057.13362,
+      "u": "3581c5db20896cbeedbe"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1281774-usa-ukoncia-kazdorocnu-podporu-pre-izrael-vo-vyske-3-8-miliardy-dolarov",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "USA ukončia každoročnú podporu pre Izrael vo výške 3,8 miliardy dolárov",
+      "ts": 1793715057.1336212,
+      "u": "a960ccbd7f27c91f6fa2"
     }
   ],
   "recent_alerts": [
@@ -5720,6 +5664,15 @@
       "reason": "Pri hromadnej tragickej nehode súkromného lietadla v USA zahynulo deväť ľudí vrátane rodiny podnikateľa.",
       "title": "Pri páde lietadla na Floride zahynul technologický podnikateľ aj s rodinou. Rozpadal sa stroj už vo vzduchu?",
       "ts": 1793714153.3077962
+    },
+    {
+      "links": [
+        "https://www.teraz.sk/slovensko/mzvez-varuje-pred-ohlasenymi-protestmi/1004887-clanok.html"
+      ],
+      "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "reason": "Ministerstvo zahraničných vecí vydalo oficiálne varovanie pre Slovákov vo Francúzsku s odporúčaním vyhýbať sa protestom a miestam nepokojov, čo predstavuje priamu konzulárnu ochranu občanov v zóne nebezpečenstva.",
+      "title": "MZVEZ varuje občanov SR vo Francúzsku pred protestmi a násilím",
+      "ts": 1793715118.4546888
     }
   ],
   "seen": {
@@ -7744,6 +7697,7 @@
     "35778e2dade82fc61ba6": 1792589736.0815609,
     "3578bd215b80f3ea9e0f": 1792645845.5427823,
     "35792da33f4d49382fd1": 1793272248.5475838,
+    "3581c5db20896cbeedbe": 1793715057.1336193,
     "35857c96f9b8bcc550f1": 1792570117.8892028,
     "35a41e7ce8c12aee2861": 1793162139.615684,
     "35a579d2cb5f19752d78": 1793018143.1999547,
@@ -7970,6 +7924,7 @@
     "3b8a12d99d42868fca40": 1792663847.837269,
     "3b8f19f362adce4686b7": 1792838136.1052706,
     "3b9f408692f3cdc4c3d9": 1793181345.0330665,
+    "3baba118723161515359": 1793715057.133613,
     "3bad07eff1d38b5ff6ab": 1792524190.621408,
     "3bb3aee690d57514b205": 1792825836.1050873,
     "3bbbee948b934e76432f": 1793624138.414571,
@@ -8009,6 +7964,7 @@
     "3ccdc19c069f746e873d": 1792509276.9903097,
     "3ccdf24da8298871ee9d": 1793254249.4792986,
     "3ccf6922fc8ded67f731": 1793079347.820233,
+    "3cd4733dce42a3e6c0fc": 1793715057.1336176,
     "3ce08cf093615f25e43e": 1792677344.2544732,
     "3ce17c94932f035e17c6": 1793357741.8635113,
     "3cebf3461f7773fef165": 1792509276.9904244,
@@ -8878,6 +8834,7 @@
     "5363f578384a0f6111b5": 1793658057.0149887,
     "536584970ed4e274e8a7": 1792679737.2796667,
     "536fcd63b20804461eea": 1793109345.1644225,
+    "536fe296d83ab3977968": 1793715057.133616,
     "5379ac4f87968f690ce3": 1792580147.9693549,
     "538a87639190a42f21e9": 1793002247.7979171,
     "53953736f098a5a7b30a": 1792928142.9739702,
@@ -9603,6 +9560,7 @@
     "65923396ed88be142071": 1792917339.3606436,
     "659cb88b0f60709d9b99": 1792845343.7316837,
     "65abd7e1a14bbe0c45c0": 1793102142.5735514,
+    "65ac5ea16dc196d7de31": 1793715057.1336114,
     "65ae8b3bab1da4d40ae0": 1793110251.6129727,
     "65b952a67522cb818b3a": 1793558144.377965,
     "65bb7b5c3168e97f5b34": 1793172947.722299,
@@ -9902,6 +9860,7 @@
     "6dff33d6f30e1a031e13": 1793270137.895584,
     "6e0fc8253f585f59f40c": 1793527851.9464965,
     "6e15692d623e878e962b": 1793449246.6062093,
+    "6e21b1208145c6f1a865": 1793715057.1336143,
     "6e26e372908d765f4801": 1792910144.4474711,
     "6e2a8b5019772e3a27c4": 1793702143.4618275,
     "6e2c97887a0ab57be720": 1792578938.7179496,
@@ -10935,6 +10894,7 @@
     "8b31d7ff9a784a71d140": 1793540144.8283617,
     "8b3248b3726f25aefd3e": 1793550945.0124085,
     "8b3a979fea0700b83cf6": 1792683342.6681354,
+    "8b4459997478d5e66fe8": 1793715057.1336062,
     "8b4f469674693685323b": 1793560248.3704243,
     "8b57069ceb48fa3c3704": 1793712943.221388,
     "8b5ce2760945ab4fcb2d": 1792763742.9963446,
@@ -11551,6 +11511,7 @@
     "9b2f1957e2cd56b65017": 1793379348.707535,
     "9b30b92ace169891ab1d": 1792902945.3486118,
     "9b3c458505e743744480": 1793693446.37074,
+    "9b3fb8178399861e9455": 1793715057.1336381,
     "9b40ecc3ffc44b07840c": 1793525739.1461973,
     "9b54138427719e755447": 1793594140.785487,
     "9b5c652ae5ef0b15d25b": 1793522137.6681275,
@@ -12082,6 +12043,7 @@
     "a93bd790af3eab80869e": 1793658057.0149658,
     "a947d9c4a7df2289161c": 1793694055.3742895,
     "a94d73703c4a7984c8b5": 1793015980.0480509,
+    "a960ccbd7f27c91f6fa2": 1793715057.1336205,
     "a960d395c0c2b0027ac3": 1793373056.713889,
     "a96a46450a655bb4c3fe": 1793354157.1412396,
     "a96e91ee3ad41b714c70": 1792691743.5277545,
@@ -12149,6 +12111,7 @@
     "ab0a867578e427a82d73": 1793390141.1613717,
     "ab1e404351f08d570ac4": 1792524190.6213446,
     "ab2fab8faada20b255bb": 1793421344.0313756,
+    "ab3187bdfe92c1f4a356": 1793715057.1336358,
     "ab3491113825b18b8dd5": 1793093743.9525306,
     "ab36c7329cdbb31e2c47": 1793463642.525897,
     "ab40d6882a5ed7023a34": 1792869045.675134,
@@ -12195,6 +12158,7 @@
     "ac7debb9c0a3c1334b6b": 1793535049.8722773,
     "ac810dfd29f2d24bc317": 1792649453.0299468,
     "ac8cab2677d7b9b807dd": 1793202632.8116102,
+    "ac90dd13db5f287ad97c": 1793715057.1336002,
     "ac9a4231fcabe03e0a31": 1793606159.98145,
     "ac9ba4f3506f30f63946": 1793098539.5122232,
     "ac9dfc31a8eaf3b7b777": 1792677344.2544634,
@@ -13855,6 +13819,7 @@
     "d87891f63bb5281cb047": 1792769745.6514568,
     "d881857613025cb22058": 1792763742.9963486,
     "d88883d7c56b33ce6d75": 1792562010.3319025,
+    "d88bc27491f637ccff86": 1793715057.133609,
     "d88c27420c25a2240248": 1792589736.081581,
     "d88e42115e4a98da0153": 1793128857.6765552,
     "d89617c5d65bf6956f35": 1793224544.5136535,
@@ -14656,6 +14621,7 @@
     "ed27bd3a8de80e930acd": 1793303737.458418,
     "ed29462857de28590a4d": 1792509276.9904885,
     "ed39cf4bfec64b786285": 1793046052.3210304,
+    "ed3df62e9e83ad662fbf": 1793715057.1336324,
     "ed53d3b697e4031d5258": 1793218845.5828345,
     "ed54293d330d68f30054": 1793391650.851836,
     "ed578e2e69e1f0316457": 1793340647.8182395,
@@ -15379,114 +15345,58 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1793714149.6839254
+      "ts": 1793715057.1335707
     }
   },
   "sport_recent": [
-    {
-      "l": "https://sport.aktuality.sk/ostatne-sporty/clanok/superku-petry-vlhovej-caka-verdikt-vrati-sa-michelle-gisinova-po-zraneni-2026110211442391310",
-      "p": "Švajčiarska lyžiarka Michelle Gisinová v utorok 3. novembra predstúpi pred médiá, aby oznámila zásadné rozhodnutie o svojej budúcnosti.",
-      "s": "Šport.sk",
-      "t": "Súperka Petry Vlhovej sa spamätala z hororového pádu. O jej osude sa rozhodne zajtra",
-      "ts": 1793628648.1860352,
-      "u": "2f3354aca9c6ca6c1089"
-    },
-    {
-      "l": "https://sport.aktuality.sk/mma/clanok/jake-paul-konecne-spoznal-supera-na-stedry-den-ho-caka-nebezpecny-sampion-ktory-mu-poslal-tvrdy-odkaz-2026110213155505566",
-      "p": "Americký influencer a boxer Jake Paul sa pripravuje na ďalší veľký návrat do ringu. Po nepríjemnej porážke od bývalého svetového šampióna Anthonyho Joshuu, pri ktorej utrpel zlomeninu čeľuste, sa chce opäť dostať na víťaznú vlnu. Už dávnejšie oznámil, že ďalší zápas absolvuje 24. decembra 2026 v Dub",
-      "s": "Šport.sk",
-      "t": "Jake Paul konečne spoznal súpera! Na Štedrý deň ho čaká nebezpečný šampión, ktorý mu poslal tvrdý odkaz",
-      "ts": 1793628648.1860366,
-      "u": "b774cee39375a20cb977"
-    },
-    {
-      "l": "https://sport.aktuality.sk/futbal/clanok/anthony-gordon-barcelona-pariz-real-madrid-2026110213554439208",
-      "p": "Futbalista Barcelony Anthony Gordon zdôraznil, že katalánsky klub nie je o nič slabší od tímov ako Paríž Saint-Germain či Real Madrid, napriek nedávnym prehrám s oboma súpermi.",
-      "s": "Šport.sk",
-      "t": "Odvážne slová z kabíny Barcelony. Anthony Gordon odkázal: Paríž ani Real nie sú lepší ako my",
-      "ts": 1793628648.1860373,
-      "u": "aaec537bba0e5817628f"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcFFuZmZja2lpempOTzVhQldQZlRhVFFDTnVFVTZDSXlXaGx4SXBrSzh6c2VIdnRFbDRROGpMX1Y3OUtoSWRWbTZyNkg4RjJ0U1pDTTFBQzBMRkQzM29IeXlOeTJMaktZWEdSOGhtX1k1Z2dYZmtzbm43VkhKd1dhMW9fWjB1NC03UTVxM3FxOUIwczdrbFFHemR6R1k?oc=5",
-      "p": "Futbalisti Troyes sa dočkali druhej výhry v sezóne, doma zdolali Le Mans Sportnet",
-      "s": "SPORTNET",
-      "t": "Futbalisti Troyes sa dočkali druhej výhry v sezóne, doma zdolali Le Mans",
-      "ts": 1793628648.1860385,
-      "u": "da50f9900fb22cb91da6"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSVpGbXROUVlnN3dzc25zdG9nMlVRWkpZQW1Wb1dJR29xTERwMmp2MS00N1Y2dGhSZWJjNFNkTUZ2SlE4cmg2Ym9vam1xOHlGdXlkME94VzdEZ2FnbDhfdFNMNXpHTUY4YzA1ZDk3NjhGZU5TQTVYR1JvVmFnNWluWmRHZGp2US1ZS09QX0lGR0w0Tk10LWc?oc=5",
-      "p": "Bojnice si doma poradili so Záhorákmi, Hlohovec zvíťazil nad ŠKP Bratislava Sportnet",
-      "s": "SPORTNET",
-      "t": "Bojnice si doma poradili so Záhorákmi, Hlohovec zvíťazil nad ŠKP Bratislava",
-      "ts": 1793628648.1860394,
-      "u": "6411647a08a502d48d09"
-    },
-    {
-      "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZW5WMUVpb0JjeE8wbVhQQzduemMzQmNwN1BWTElyeVpHMm5aN3I5ZFZGLTZNOE41cEk2ZS1tYWs0OUtrMmlhZ0R1UWNWM3NlVWt4MHhxSGlkU1hvZWROa0hwUVlwOGctUXF1ZFA5X1VNem1qMFFsY3JLSV9TZ1d5aWVJZlhEcjctSTFPaTdIQ0N5amZYdjUwbTZ3?oc=5",
-      "p": "Čavrič prišiel z lavičky a skóroval. Slovenský futbalista v Japonsku nepoľavuje Sportnet",
-      "s": "SPORTNET",
-      "t": "Čavrič prišiel z lavičky a skóroval. Slovenský futbalista v Japonsku nepoľavuje",
-      "ts": 1793628648.1860409,
-      "u": "4e90bb1c830591093adb"
-    },
-    {
-      "l": "https://www.teraz.sk/sport/gordon-barcelona-nie-je-o-nic-slabsia/1004605-clanok.html",
-      "p": "Tím Hansiho Flicka bol nezdolaný až do stretnutia s európskymi šampiónmi z 20. októbra, v Paríži však prehral 2:4 a o päť dní neskôr utrpel doma prehru 1:2 s Realom v El Clasicu.",
-      "s": "TERAZ.SK",
-      "t": "Gordon: Barcelona nie je o nič slabšia ako PSG či Real",
-      "ts": 1793628648.1860416,
-      "u": "6fffcc80447895cae124"
-    },
     {
       "l": "https://sport.aktuality.sk/sport-extra/clanok/mourinho-novinarka-sandra-diaz-viralne-video-2026103106561669687",
       "p": "Tréner Realu Madrid José Mourinho sa ocitol v centre pozornosti po záberoch mimo ihriska pri nedávnom víťazstve 2:1 v El Clásicu proti rivalovi z Barcelony.",
@@ -17326,6 +17236,30 @@
       "t": "Košice predĺžili kontrakt s Cemanom do konca sezóny 2029/2030",
       "ts": 1793714149.6842208,
       "u": "4e316ab818839ee27e64"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSzhOblFfVDlfUkN1dm16RExOakt2WTBzZXBwR1RqVkYzMUVLbVh1Nl9mbWRmY2xtOE5XZmxtR1N4UjlSQ09KM2RYX0o2UC14UlBlNUdTNi05Sm53c3gzVy1zWXhteWlJRVRlcU1EMVNubGhJU3h6RzltLV8tcGpjeE5yOHkwaGxBLTBTS3JMR2JoMGd2cUZfV3d1akpoR0x6aG5kZTZreWZmMVp3Y25yOE9BMHhzSXF0NU5ySTdfa3VqNUZfMmVmUUVwSWpmX0t4UGVxRmhsVXdXVXM5Z2RJ?oc=5",
+      "p": "Boleráz sa favoritov nebojí. Najväčšia zbraň? Viera vo vlastné schopnosti a súdržnosť, hlási Martinka Sportnet",
+      "s": "SPORTNET",
+      "t": "Boleráz sa favoritov nebojí. Najväčšia zbraň? Viera vo vlastné schopnosti a súdržnosť, hlási Martinka",
+      "ts": 1793715057.1336348,
+      "u": "ed3df62e9e83ad662fbf"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeWJLaEhXeGpKU3hMNkdzVm5uMEZtbGJscFhnMGM2cDJqdVlDb0pvX25SUUlLa0FGaDJ5azdtal80bThGV20wb0ZkR195WUhyOXRsT2JGb2pKbTRnTElNc2hpTF9zbzN1MEFGQ1paUXJ3MWNsUW1ZTzZSeU5SaEtGeVlOcERWUUFudTB5V29QRks5MHZKejEwb2hYaGJSdWN2MTRQc1R0V2ZVY0s0alZHZXRkZGRFV00?oc=5",
+      "p": "Úspešná spolupráca pokračuje. Košice predĺžili zmluvu s trénerom Cemanom tnlive.sk",
+      "s": "TVNOVINY.sk",
+      "t": "Úspešná spolupráca pokračuje. Košice predĺžili zmluvu s trénerom Cemanom",
+      "ts": 1793715057.1336374,
+      "u": "ab3187bdfe92c1f4a356"
+    },
+    {
+      "l": "https://www.teraz.sk/sport/slovenky-v-lige-narodov-proti-chorvats/1004886-clanok.html",
+      "p": "Rozhodol o tom utorkový žreb v sídle Európskej futbalovej únie (UEFA) vo švajčiarskom Nyone.",
+      "s": "TERAZ.SK",
+      "t": "Slovenky v Lige národov proti Chorvátsku, Bulharsku a Gibraltáru",
+      "ts": 1793715057.1336389,
+      "u": "9b3fb8178399861e9455"
     }
   ],
   "sport_source_status": {
@@ -17333,25 +17267,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1793714149.6839445
+      "ts": 1793715057.1335914
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1793714149.6839476
+      "ts": 1793715057.1335945
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1793714149.6839504
+      "ts": 1793715057.1335971
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1793714149.683949
+      "ts": 1793715057.133596
     }
   }
 }
