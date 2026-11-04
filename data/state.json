@@ -111,13 +111,43 @@
     {
       "headline": "Lietadlo zo Srbska do Moskvy sa muselo vrátiť do Belehradu",
       "ts": 1793783459.7470329
+    },
+    {
+      "headline": "Robert Fico reaguje na stratu väčšiny a viní Hlas a SNS",
+      "ts": 1793784964.975191
+    },
+    {
+      "headline": "Demokrati ovládli americký Kongres a Senát",
+      "ts": 1793784964.975191
+    },
+    {
+      "headline": "Izraelská volebná komisia odmietla tvrdenia o podvodoch",
+      "ts": 1793784964.975191
+    },
+    {
+      "headline": "V okrese Rimavska Sobota pribudli desiatky prípadov žltačky",
+      "ts": 1793784964.975191
     }
   ],
   "last_digest": {
-    "model": "gemini/gemini-3.5-flash",
+    "model": "gemini/gemini-3.5-flash-lite",
     "topics": [
       {
-        "headline": "Demokrati ovládli Kongres v USA, Trump po porážke odmieta útok na Irán",
+        "headline": "Robert Fico reaguje na stratu väčšiny a viní Hlas a SNS",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/robert-fico-vini-hlas-a-sns-chce-dovladnut-do-riadneho-terminu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2072133-fico-vyhlasenie-smer-vacsina-v-nr-sr?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Premiér Robert Fico vyhlásil, že vládna koalícia stratila väčšinu v parlamente, pričom z toho viní strany Hlas a SNS. Smer chce napriek tomu dovládnuť do riadneho termínu volieb."
+      },
+      {
+        "headline": "Demokrati ovládli americký Kongres a Senát",
         "links": [
           [
             "Denník N",
@@ -125,174 +155,46 @@
           ],
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2072021-spojene-staty-teraz-neplanuju-utok-na-iran-povedal-trump-a-vztahy-s-teheranom-oznacil-za-skvele?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "https://www.pravda.sk/spravy/svet/clanok/2072013-republikani-stratili-podla-prognoz-vacsinu-v-snemovni-reprezentantov-o-senat-sa-zapoli?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ]
         ],
-        "perex": "Voľby do amerického Kongresu priniesli výrazné víťazstvo demokratov, ktorí získali kontrolu nad Snemovňou reprezentantov aj Senátom. Prezident Donald Trump vyhlásil, že Spojené štáty neplánujú útok na Irán a výsledky volieb príjme."
+        "perex": "Výsledky kongresových volieb v USA priniesli víťazstvo demokratov, ktorí získali kontrolu nad obomi komorami parlamentu. Republikáni tak stratili väčšinu v Snemovni reprezentantov aj v Senáte."
       },
       {
-        "headline": "Čína potvrdila rokovania o summite prezidentov Si Ťin-pchinga, Trumpa a Putina",
+        "headline": "Izraelská volebná komisia odmietla tvrdenia o podvodoch",
         "links": [
           [
             "Aktuality",
-            "https://www.aktuality.sk/clanok/SSihArq/summit-velmoci-na-obzore-cina-usa-a-rusko-rokuju-o-stretnuti-troch-prezidentov-v-cinskom-meste-sen-cen/"
+            "https://www.aktuality.sk/clanok/wDS0DPC/volebna-komisia-v-izraeli-odmietla-tvrdenia-benjamina-netanjahua-ziadne-podvody-pri-volbach-sa-nestali-vysledky-platia/"
           ],
           [
-            "Noviny.sk",
-            "https://www.noviny.sk/zahranicie/1282091-trump-putin-a-si-tin-pching-za-jednym-stolom-cina-potvrdila-rokovania-o-historickom-summite"
-          ]
-        ],
-        "perex": "Čína vedie rozhovory so Spojenými štátmi a Ruskom o možnosti usporiadania trojstranného summitu lídrov. Stretnutie prezidentov by sa mohlo uskutočniť v čínskom meste Sen-čen."
-      },
-      {
-        "headline": "Slovenským pekárom stúpli náklady na energie, varujú pred zdražovaním pečiva",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2072163-stane-sa-z-chleba-a-rozkov-luxus-pekari-varuju-plyn-nam-zdrazel-o-polovicu-nafta-o-tretinu-a-stat-mlci?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Slovenským pekárňam vzrástli ceny plynu a elektriny až o polovicu a pohonné hmoty zdraželi o tretinu. Pekári varujú, že chlieb a rožky môžu pre nedostatočnú reakciu štátu výrazne zdražieť."
-      },
-      {
-        "headline": "Európska únia sťahuje z trhu milióny vadných kondómov",
-        "links": [
-          [
-            "Noviny.sk",
-            "https://www.noviny.sk/krimi/1282088-pozor-na-vadne-kondomy-europska-unia-stahuje-z-trhu-7-milionov-kusov"
-          ]
-        ],
-        "perex": "Európska únia nariadila stiahnutie siedmich miliónov kusov kondómov z trhu. Dôvodom je riziko ich pretrhnutia."
-      },
-      {
-        "headline": "Lietadlo zo Srbska do Moskvy sa muselo vrátiť do Belehradu",
-        "links": [
-          [
             "SME",
-            "https://www.sme.sk/svet/c/lietadlo-smerujuce-do-moskvy-vratili-do-belehradu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+            "https://www.sme.sk/svet/c/izraelska-volebna-komisia-nezistila-podvody-v-hlasovani-v-parlamentnych-volbach?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
           ]
         ],
-        "perex": "Lietadlo smerujúce do hlavného mesta Ruska bolo vrátané späť na letisko v Belehrade. Na jeho palube sa podľa srbských nezávislých médií nachádzali trija vysokopostavení srbskí politici."
+        "perex": "Izraelská ústredná volebná komisia oficiálne potvrdila platnosť výsledkov parlamentných volieb. Jednoznačne tak vylúčila akékoľvek systémové podvody či manipulácie, ktoré tvrdil Benjamin Netanjahu."
+      },
+      {
+        "headline": "V okrese Rimavska Sobota pribudli desiatky prípadov žltačky",
+        "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/slovensko/1282110-v-okrese-rimavska-sobota-pribudlo-viac-ako-100-pripadov-zltacky-typu-a"
+          ]
+        ],
+        "perex": "V okrese Rimavská Sobota evidujú prudký nárast ochorení. Pribudlo tu viac ako 100 prípadov žltačky typu A."
       }
     ],
-    "ts": 1793783459.747023
+    "ts": 1793784964.975182
   },
   "meta": {
-    "last_collection_ts": 1793784059.108208,
+    "last_collection_ts": 1793784940.077824,
     "last_feed_error_ts": 1793717774.5341992,
     "last_llm_error_ts": 1793776429.98329,
-    "last_run_ts": 1793784059.6764452,
-    "last_synthesis_ts": 1793783459.7470171
+    "last_run_ts": 1793784940.9373019,
+    "last_synthesis_ts": 1793784964.9751773
   },
   "recent": [
-    {
-      "l": "https://www.sme.sk/index/c/europa-vstupuje-do-zimy-s-najnizsimi-zasobami-plynu-od-roku-2013-varuje-agentura-pre-energetiku?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Za nepriaznivou situáciou stojí viacero faktorov.",
-      "pub": 1793698434,
-      "s": "SME",
-      "t": "Európa vstupuje do zimy s najnižšími zásobami plynu od roku 2013, varuje agentúra pre energetiku",
-      "ts": 1793698538.9921548,
-      "u": "afb8f00a50a29b64905b"
-    },
-    {
-      "l": "https://www.sme.sk/svet/c/spanielska-policia-vypratala-protestny-tabor-v-madride?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Polícia zadržala dve osoby.",
-      "pub": 1793698180,
-      "s": "SME",
-      "t": "Španielska polícia vypratala protestný tábor v Madride",
-      "ts": 1793698538.9921587,
-      "u": "abe7325921a047156dc4"
-    },
-    {
-      "l": "https://www.sme.sk/domov/c/premierovho-poradcu-lindtnera-definitivne-oslobodili-obzalovany-bol-v-kauze-vichrica?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-      "p": "Najvyšší súd potvrdil závery špecializovaného súdu.",
-      "pub": 1793698053,
-      "s": "SME",
-      "t": "Premiérovho poradcu Lindtnera definitívne oslobodili, obžalovaný bol v kauze Víchrica",
-      "ts": 1793698538.9921603,
-      "u": "87ad56039ffce6fe2e05"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/ZT44IhH/moze-diabetik-jest-med-nejde-len-o-druh-rozhoduje-najma-tento-klucovy-detail/",
-      "p": "Med je už dlhodobo považovaný za zdravšiu alternatívu bieleho cukru, vďaka čomu po ňom mnohí pacienti s cukrovkou siahajú bez väčších obáv.",
-      "pub": 1793698200,
-      "s": "Aktuality",
-      "t": "Môže diabetik jesť med? Nejde len o druh, rozhoduje najmä tento kľúčový detail",
-      "ts": 1793698538.9921615,
-      "u": "8ef10479045153b7e73f"
-    },
-    {
-      "l": "https://www.aktuality.sk/clanok/M29uKlY/ked-sa-ai-zahreje-co-sa-deje-v-datovom-centre-kym-cakate-na-odpoved-chatbota/",
-      "p": "Čipy, ktoré umožňujú umelej inteligencii odpovedať na naše otázky, pri práci spotrebúvajú veľa elektriny a intenzívne sa zahrievajú. Preto v dátových centrách pribúdajú potrubia, čerpadlá a výmenníky. Ako toto technické zázemie funguje a na čo musia myslieť ľudia, ktorí sa oň starajú?",
-      "pub": 1793696400,
-      "s": "Aktuality",
-      "t": "Keď sa AI zahreje: Čo sa deje v dátovom centre, kým čakáte na odpoveď chatbota",
-      "ts": 1793698538.9921632,
-      "u": "ef31276a73b38af2e351"
-    },
-    {
-      "l": "https://dennikn.sk/5665211/co-prekladas-patricia-hatiarova-o-stratach-a-narocnej-ceste-smutenim/",
-      "p": "Prekladám román o žene, ktorej zomrel manžel, práve v čase, keď sama smútim. Tak ako pri každom inom preklade, aj pri tejto knihe si uvedomujem, koľko sa toho medzi jazykmi stráca. Zároveň však teraz intenzívnejšie pociťujem, čo všetko nám literatúra dokáže dať. S hlavnou postavou Tilly sme sa stret",
-      "pub": 1793698192,
-      "s": "Denník N",
-      "t": "Čo prekladáš? Patrícia Hatiarová o stratách a náročnej ceste smútením",
-      "ts": 1793698538.9921649,
-      "u": "d68734012c7ce657aad9"
-    },
-    {
-      "l": "https://dennikn.sk/5665004/hvoreckeho-kniznica-ako-becketta-poznacila-skusenost-s-nacistickou-diktaturou/",
-      "p": "Vyšli posledné významné a doteraz nezverejnené texty írskeho dramatika.",
-      "pub": 1793697409,
-      "s": "Denník N",
-      "t": "Ako Becketta poznačila skúsenosť s nacistickou diktatúrou",
-      "ts": 1793698538.9921675,
-      "u": "9406c117b82141e5d493"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/domace/clanok/2071457-ficov-poradca-lindtner-definitivne-uspel-na-sude-najvyssi-sud-rozhodol-o-jeho-oslobodeni?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Najvyšší súd (NS) SR potvrdil oslobodenie exsudcu, poradcu predsedu vlády SR Roberta Fica (Smer-SD) a advokáta Davida Lindtnera spod obžaloby. Súd na utorkovom verejnom zasadnutí zamietol odvolanie prokurátora proti aprílovému oslobodzujúcemu rozsudku Špecializovaného trestného súdu (ŠTS).",
-      "pub": 1793698200,
-      "s": "Pravda",
-      "t": "Ficov poradca Lindtner definitívne uspel na súde. Najvyšší súd rozhodol o jeho oslobodení",
-      "ts": 1793698538.9923882,
-      "u": "6ee26b0e85904b417e63"
-    },
-    {
-      "l": "https://www.pravda.sk/spravy/svet/clanok/2071451-polsko-rusko-vojna-ukrajina-cvicenie-manevre-nato?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
-      "p": "Približne 2800 vojakov z desiatich európskych krajín sa v novembri zúčastní na prvom cvičení mnohonárodných síl určených na podporu Ukrajiny. Oznámili to v pondelok Francúzsko a Spojené kráľovstvo, ktoré tieto medzinárodné jednotky (MNF-U) vedú. Informovala o tom agentúra AFP.",
-      "pub": 1793697970,
-      "s": "Pravda",
-      "t": "Európa ukazuje, že to myslí vážne. Vojenské jednotky sa pripravujú na možný vstup na Ukrajinu",
-      "ts": 1793698538.9923897,
-      "u": "744c763d839a95021960"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/parlament-zatial-pre-technicky-proble/1004764-clanok.html",
-      "p": "Poslanci majú od utorka po prestávke pokračovať v 61. parlamentnej schôdzi.",
-      "pub": 1793697840,
-      "s": "Teraz.sk",
-      "t": "Parlament zatiaľ pre technický problém nerokuje, začať sa má o 11.00 h",
-      "ts": 1793698538.9923906,
-      "u": "377d7714f340d3433db5"
-    },
-    {
-      "l": "https://www.teraz.sk/slovensko/zacina-sa-iniciativa-pyjama-day-na-po/1004760-clanok.html",
-      "p": "Kampaň symbolizuje solidaritu s hospitalizovanými deťmi, pre ktoré je pyžamo počas dlhých týždňov nemocničnej liečby každodenným oblečením.",
-      "pub": 1793697240,
-      "s": "Teraz.sk",
-      "t": "Začína sa iniciatíva Pyjama Day na podporu hospitalizovaných detí",
-      "ts": 1793698538.9923923,
-      "u": "f94058b7aa38ecd67bbb"
-    },
-    {
-      "l": "https://www.noviny.sk/zahranicie/1281552-byvaly-tajomnik-americkej-armady-nastupuje-do-spolocnosti-openai-co-bude-jeho-napln-prace",
-      "p": "",
-      "pub": null,
-      "s": "Noviny.sk",
-      "t": "Bývalý tajomník americkej armády nastupuje do spoločnosti OpenAI. Čo bude jeho náplň práce?",
-      "ts": 1793698538.9923947,
-      "u": "b11d62ed33fa714599e8"
-    },
     {
       "l": "https://www.sme.sk/domov/c/parlament-zatial-pre-technicky-problem-nerokuje?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
       "p": "Poslanci majú od utorka po prestávke pokračovať v 61. parlamentnej schôdzi.",
@@ -5521,20 +5423,108 @@
       "t": "Rusko sa chce vrátiť na hokejové MS, odpor však rastie. Ďalšia krajina odmieta nastúpiť",
       "ts": 1793784059.67598,
       "u": "3322443e20e099236bd4"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/izraelska-volebna-komisia-nezistila-podvody-v-hlasovani-v-parlamentnych-volbach?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Netanjahu a jeho podporovatelia tvrdili, že arabské strany „ukradli“ voľby.",
+      "pub": 1793784803,
+      "s": "SME",
+      "t": "Izraelská volebná komisia nezistila podvody v hlasovaní v parlamentných voľbách",
+      "ts": 1793784940.9368582,
+      "u": "b6260813b3984892136d"
+    },
+    {
+      "l": "https://www.sme.sk/domov/c/robert-fico-vini-hlas-a-sns-chce-dovladnut-do-riadneho-terminu?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Vládna koalícia stratila väčšinu.",
+      "pub": 1793784630,
+      "s": "SME",
+      "t": "Robert Fico viní Hlas a SNS. Chce dovládnuť do riadneho termínu",
+      "ts": 1793784940.9368615,
+      "u": "a74f04d11e14e574c697"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/tryskac-na-nebi-polska-cibula-v-kufri-a-chryzantemy-zo-sanghaja?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Zapáľme sviečku aj za túto nešťastnú, absurdnú krajinu",
+      "pub": 1793784220,
+      "s": "SME",
+      "t": "Tryskáč na nebi, poľská cibuľa v kufri a chryzantémy zo Šanghaja",
+      "ts": 1793784940.9368634,
+      "u": "1965e72e6657e6d56a97"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdVRfTmRYd0xzdjhZUk5ZZGNURlIyTncxeDZnYlhQbDhHRkZkUFAyQTlnbW5sOGU2dHVBMEhUQ3ZaeUkwaElrY29UOGJEcmcwN1lyemNHNDRUT0JnNWdDTHJOWnFBNTd4QXdLblNrQUNzRExzaXQ0amx2cnhfSFRYQzlBY0E3aUxGRGoyZUJNdHhwT0VxSmFpNjlR?oc=5",
+      "p": "Tryskáč na nebi, poľská cibuľa v kufri a chryzantémy zo Šanghaja SME.sk",
+      "pub": 1793784242,
+      "s": "SME (GNews)",
+      "t": "Tryskáč na nebi, poľská cibuľa v kufri a chryzantémy zo Šanghaja",
+      "ts": 1793784940.9368646,
+      "u": "0a4cf2b19fba242519ea"
+    },
+    {
+      "l": "https://e.dennikn.sk/5664796/graf-dna-nemecky-priemysel-po-dlhom-case-opat-prispel-k-rastu-ekonomiky/",
+      "p": "Nemecký priemysel prestáva brzdiť ekonomiku. K jeho oživeniu prispieva rozmach obnoviteľných zdrojov energie aj rastúci dopyt po komponentoch, ktoré tamojšie firmy dodávajú pre odvetvie umelej inteligencie. K rastu hrubej pridanej hodnoty nemeckej ekonomiky prispel tamojší priemysel desatinou percen",
+      "pub": 1793783635,
+      "s": "Denník N",
+      "t": "Graf dňa: Nemecký priemysel po dlhom čase opäť prispel k rastu ekonomiky",
+      "ts": 1793784940.9368665,
+      "u": "9d499cd1e51a719b910b"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2072185-goliasi-dostali-facku-trumpovmu-cloveku-nezabranili-v-prehre-v-texase-ani-peniaze-od-muska?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Voliči v druhom najľudnatejšom americkom štáte sa postarali o obrovské prekvapenie. V bašte republikánov vyhral demokrat. Je to historický zvrat, pretože nič také sa predtým neudialo takmer štyri desaťročia.",
+      "pub": 1793784639,
+      "s": "Pravda",
+      "t": "Goliáši dostali facku. Trumpovmu človeku v Texase nepomohli ani peniaze od Muska",
+      "ts": 1793784940.9368672,
+      "u": "2c6108d191df0fcd5b90"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/domace/clanok/2072133-fico-vyhlasenie-smer-vacsina-v-nr-sr?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Premiér Robert Fico reagoval v stredu predpoludním vyhlásením na to, že koalícia stráca väčšinu v parlamente. Môže za to SNS a Hlas. A práve strana Smer rieši situácie \" o ktorých ani nesnívali\".",
+      "pub": 1793784611,
+      "s": "Pravda",
+      "t": "Fico: Smer je stabilný, parlamentné voľby budú v normálnom termíne. Riešime situácie, o ktorých sme ani nesnívali",
+      "ts": 1793784940.9368691,
+      "u": "651ab3641fb933c6c8ec"
+    },
+    {
+      "l": "https://www.teraz.sk/slovensko/uhrik-varuje-pred-migraciou-na-slovens/1005047-clanok.html",
+      "p": "Podotkol, že hnutie Republika nechce legálnu migráciu úplne zakazovať, ale chce, aby mala svoje hranice.",
+      "pub": 1793784060,
+      "s": "Teraz.sk",
+      "t": "Uhrík varuje pred migráciou na Slovensku",
+      "ts": 1793784940.9368703,
+      "u": "95fe39cf782c17735cb2"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM2lwUmRTeDc5VW9IUGZZTFc1NGFtLXRfcUYxZkE2UjdNQjZkdERUS0ZrU1dnVlBhWEw1bldQOG15NkVaMGN5ZDM4YlB6aEMyMzBKZ2hoZjRVQ2t6OG5FZ29MaVc3aFhJRWotdGFJdkJOdjMtc0U3MHVHaUZVdWRXbXUyZzZBaVdyWkotakNIeWtCOGtxZkhpbmN5cDN5dWMyNUVUVVNiVzhPVTFla2c?oc=5",
+      "p": "Vodičov v Bratislave čakal ráno šok. Na autách si našli falošné pokuty tnlive.sk",
+      "pub": 1793779500,
+      "s": "TN Live",
+      "t": "Vodičov v Bratislave čakal ráno šok. Na autách si našli falošné pokuty",
+      "ts": 1793784940.936872,
+      "u": "d83f6939b3e758d87039"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1282109-netanjahu-tvrdil-ze-arabske-strany-ukradli-volby-volebna-komisia-vsak-nezistila-ziadne-podvody",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Netanjahu tvrdil, že arabské strany ukradli voľby. Volebná komisia však nezistila žiadne podvody",
+      "ts": 1793784940.9368734,
+      "u": "58770c4082bb9b2c2bbb"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1282110-v-okrese-rimavska-sobota-pribudlo-viac-ako-100-pripadov-zltacky-typu-a",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "V okrese Rimavská Sobota pribudlo viac ako 100 prípadov žltačky typu A",
+      "ts": 1793784940.9368744,
+      "u": "488c8ee599aa6b28b213"
     }
   ],
   "recent_alerts": [
-    {
-      "links": [
-        "https://www.sme.sk/svet/c/v-spanielsku-sa-zrazili-dva-vysokorychlostne-vlaky-zomrelo-najmenej-desat-ludi?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
-        "https://www.aktuality.sk/clanok/b0d6m7A/vazna-zeleznicna-nehoda-v-spanielsku-zrazili-sa-dva-rychlovlaky-hlasia-mnozstvo-zranenych/",
-        "https://www.noviny.sk/krimi/1279060-tragicka-zrazka-vysokorychlostnych-vlakov-v-spanielsku-hlasia-najmenej-desat-obeti-a-mnozstvo-zranenych"
-      ],
-      "model": "gemini/gemini-3.5-flash-lite",
-      "reason": "Závažná železničná nehoda v Európe s veľkým počtom obetí a zranených.",
-      "title": "V Španielsku sa zrazili dva vysokorýchlostné vlaky, zomrelo najmenej desať ľudí",
-      "ts": 1793180146.5439174
-    },
     {
       "links": [
         "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYWtBcXVQSHpXU2V2NlU3eEZFUzBEdkI1YkVfcGFNMEdmeGZVZmtVbzNqS1RnbFVybHdraU1YMkpvSnc1OVZ1TmhkZDl0ckhaOTFCeU5rWGZDSVJKbVVuZHd4Q2RCVlNwWS1wR1gyV1gwaFRyTHNBVE9OSXpYc3NxQXc1eldYb1JrT2xORng5Z1VhSUk0VUxhNkxXNnJBS3JJQ2w3Wkx4ZVNCZGlFUDNsUGtQYjBFbXRxMzJ3QS1NRmxyTnBoZ0F6TVI0d0ptaXNJeS1OUGt2eHhQRXJwc19HSi1wRURfVHdP?oc=5",
@@ -6435,6 +6425,15 @@
       "reason": "Nehoda autobusu a osobného auta si vyžiadala už tretiu obeť vrátane dieťaťa.",
       "title": "Tragická nehoda pri Svidníku má už tretiu obeť. Po starých rodičoch podľahol zraneniam aj 9-ročný Adamko",
       "ts": 1793777748.2339084
+    },
+    {
+      "links": [
+        "https://www.noviny.sk/slovensko/1282110-v-okrese-rimavska-sobota-pribudlo-viac-ako-100-pripadov-zltacky-typu-a"
+      ],
+      "model": "gemini/gemini-3.5-flash-lite",
+      "reason": "Výrazný nárast prípadov infekčného ochorenia v regióne predstavuje akútne zdravotné riziko pre verejnosť.",
+      "title": "V okrese Rimavská Sobota pribudlo viac ako 100 prípadov žltačky typu A",
+      "ts": 1793784943.6079776
     }
   ],
   "seen": {
@@ -6851,6 +6850,7 @@
     "0a44f0c17d81f2152b77": 1792666539.9400213,
     "0a47faee56a27609808f": 1793742948.7038066,
     "0a48364e216e0f47b3b6": 1793682664.1423326,
+    "0a4cf2b19fba242519ea": 1793784940.936864,
     "0a533376b6ba7321b7ca": 1792761046.5710971,
     "0a56b843aab58026bb8d": 1793277340.785071,
     "0a5cbb28c9bf58fdf1a7": 1793601389.6508536,
@@ -6871,7 +6871,6 @@
     "0abfd91354976d69088e": 1793594140.7854831,
     "0ac1359eb69e0250cfc8": 1793023853.7789557,
     "0ac158809ce0d0f3d810": 1793021741.6957545,
-    "0ac73855783613618e4b": 1792575340.6964633,
     "0ac8605a374241cd21f8": 1793278545.1914284,
     "0aee616fc8333479cb16": 1792834538.6674576,
     "0af17ba1f5ccef176942": 1792948848.0473974,
@@ -6950,6 +6949,7 @@
     "0d17dbcd224bffac48c9": 1793774144.9827785,
     "0d23beb0a42543416733": 1793097343.0302804,
     "0d275d4136b3ff3f9a05": 1793766940.0517583,
+    "0d2b8f73463a650e8f33": 1793784940.9368775,
     "0d39bbb0d8467c0c6c52": 1792935340.6213484,
     "0d3fc576435448ba837e": 1793258444.8606386,
     "0d40caee18481b8d45c6": 1792683342.6681862,
@@ -7353,7 +7353,6 @@
     "173bc2a247e0c0e37da5": 1793250649.1198897,
     "1741af96d48a2b15b17d": 1793338540.9452395,
     "17450edfa366f1ee9806": 1793686251.1250212,
-    "176939ec1f6eb450e6e7": 1792575340.6964738,
     "1771ebfd02ffed981b8a": 1793737258.63067,
     "1778a532dfec8c3f7b38": 1793113852.0901086,
     "1787a11e3dd6b376eda4": 1792640143.4730947,
@@ -7435,6 +7434,7 @@
     "195411b0eafdbe90e694": 1793394654.3241525,
     "19586f755ea722378ba3": 1792783246.2574034,
     "195f441c9c0427e02518": 1793696145.9020278,
+    "1965e72e6657e6d56a97": 1793784940.9368622,
     "196c696c47985aaad4ca": 1792617647.7561386,
     "1973879244f3359190f6": 1793075744.3296723,
     "1976a58cc0e7a35a330d": 1793682664.1423469,
@@ -7742,7 +7742,6 @@
     "21b43c5cf843280b0bf7": 1793213747.2899108,
     "21b6775a5830d3bcb572": 1792582271.0908206,
     "21b790a6fd31a75df32d": 1793199339.7144845,
-    "21be94f5f5a003552ed7": 1792575340.696438,
     "21c0f0730abc60635901": 1792580147.969356,
     "21ce6a4ee6a4b1e02921": 1793460056.421522,
     "21d64ac9d8b543abe031": 1792861850.846061,
@@ -7808,7 +7807,6 @@
     "236eead61f09e05bcb7a": 1793354157.1412077,
     "2385eb95228e4c0b8228": 1792662938.4947395,
     "238e37642866e10a6d90": 1792823736.447905,
-    "239c5f01852050ff4055": 1792575340.6964264,
     "239db42ffea210f8638d": 1792696843.1306388,
     "23a4e2499862eb6eadc5": 1792781744.6788802,
     "23b38800d7408fd84a5f": 1793766940.051716,
@@ -8122,6 +8120,7 @@
     "2c475abbb8c9f27d2726": 1793001339.33744,
     "2c4f4422d03b0014a87d": 1792823736.447906,
     "2c5180742cba79b88f9a": 1792577442.7000334,
+    "2c6108d191df0fcd5b90": 1793784940.936867,
     "2c7840ee5951f965aaad": 1793458542.7724378,
     "2c8d3cf7b8637570c48d": 1792769745.6514585,
     "2c8ff2ac44513fdc7221": 1793434853.9082997,
@@ -8329,7 +8328,6 @@
     "3202dee80c609e962f23": 1793707853.0543988,
     "32055f323167be92807c": 1793097343.0302632,
     "320567abaaddf4f9f034": 1792732247.5921726,
-    "3207203ddc006042027b": 1792575340.696464,
     "320b9df517c59accedee": 1792902945.3486092,
     "320c8a5cfbfa84947428": 1793594140.7854562,
     "320e31ceac7b984de86b": 1793680545.9043984,
@@ -8530,7 +8528,6 @@
     "3762e5f3a808f71debec": 1793254249.4792624,
     "376338f94b79589d3ae2": 1793707853.0543885,
     "376518c88d6f21aa4e69": 1793357741.863514,
-    "3767af7bb35da4182a71": 1792575340.6964455,
     "376ca8a13f220f644041": 1793429738.2199335,
     "37762fd10949ed9173c7": 1793536539.3630877,
     "377d7714f340d3433db5": 1793698538.9923902,
@@ -9057,7 +9054,6 @@
     "452891786482809107b0": 1793195739.5495553,
     "4530d83823c14fc69c65": 1793025352.5816116,
     "4534339046dd8485b9a5": 1792614075.170273,
-    "453a9da934d77c1776e1": 1792575340.6964293,
     "453e5a970d031ffbba1a": 1792923044.0755763,
     "4540e1dae76070db6615": 1792931738.2647846,
     "4545e2e1a2b021d076e3": 1792812941.9079177,
@@ -9179,6 +9175,7 @@
     "487ddb7fa46b1a2d8784": 1793048138.7313066,
     "488acfb567e1cc46c7ff": 1792726549.497629,
     "488b8cd67e1a0f8924b2": 1793444143.440869,
+    "488c8ee599aa6b28b213": 1793784940.936874,
     "488dd028030d4d035a99": 1793162139.6156344,
     "4890212b2316a771baa0": 1793277340.7850783,
     "48941c5a36b081a6f021": 1792666539.9400413,
@@ -9280,7 +9277,6 @@
     "4b0370d2848fc5e1f164": 1793594140.785516,
     "4b088174f842e437b095": 1793360147.4128273,
     "4b0c73668b3a279fe900": 1792931738.2647905,
-    "4b0e1770a9d54d32f627": 1792575340.696431,
     "4b0f2449d69e13335a07": 1793604939.3921623,
     "4b1a6a781a6ad091ba36": 1793460056.4215047,
     "4b1ba5b7c75622e9e417": 1793198142.1751552,
@@ -9435,7 +9431,6 @@
     "4f1ff844005626c49df4": 1793656545.254471,
     "4f241801a90336167eb6": 1793714149.684212,
     "4f28a2116c461733ee36": 1793781350.332173,
-    "4f3b42331db06b5e4bd7": 1792575340.6964326,
     "4f3d92f400a25d9f5a99": 1792910144.4474685,
     "4f5087ee8cee60072fb0": 1792590943.230503,
     "4f5ea8ab89f5aa7703d4": 1793091343.1211593,
@@ -9765,12 +9760,12 @@
     "584092cda977a366b3ba": 1793104540.9514663,
     "5847aba18258a8b7d2c7": 1793098539.5122135,
     "584c6d37fc077093c31f": 1792582271.090815,
-    "585092f045da52d88d62": 1792575340.6964724,
     "5850b95e71d8a2fd1329": 1793028942.5214224,
     "5852dc050a1f273d6322": 1793774144.982774,
     "5856553aae1a4c081688": 1793199339.7144887,
     "5859a8516bc14d03be53": 1793594140.7854943,
     "58668865a3716fe8e56b": 1792645845.542783,
+    "58770c4082bb9b2c2bbb": 1793784940.9368725,
     "587b817dfeb97d653d8e": 1793770546.2001338,
     "587c9db51997292f7b73": 1793728547.3691554,
     "588263ddf00a9adbb9a5": 1792688140.5041552,
@@ -9796,7 +9791,6 @@
     "590df5f382d3f441743c": 1793361344.693385,
     "5914a7fc6ef8031d0907": 1792670142.0285513,
     "5916010d426c6e071ae6": 1793187342.3460853,
-    "5916c6effb1ad5fd4de8": 1792575340.6964424,
     "592485109f384a3cd430": 1792946138.8678815,
     "592944258053ffccfab0": 1793224544.5136414,
     "592b037ce91ae95a5e0f": 1793637345.18818,
@@ -9819,7 +9813,6 @@
     "59a5e92eb69f1a79f601": 1793421344.0313063,
     "59abacd1b0888c78fa76": 1792595442.7616026,
     "59bcc2d3e19db0ec7b35": 1793185851.8686604,
-    "59be9b622876312184e7": 1792575340.6964464,
     "59c4a82f5aa5e171e9af": 1793438446.4443715,
     "59dbcb3064af6b3a2e26": 1793527851.9464934,
     "59de9f853d76745af84e": 1792658137.5558846,
@@ -9903,7 +9896,6 @@
     "5bac4cafdd382ce64a1b": 1793188545.8501863,
     "5bd079064418ff0b73d4": 1793613339.2012944,
     "5bd648c3a3ed3cbf3e47": 1792758944.9551356,
-    "5bd7393c55eb165809ae": 1792575340.6964657,
     "5be4e3c7cfe15a9e10e0": 1793647251.4721267,
     "5bf322f225be66467106": 1793626542.5527196,
     "5bf9b2d556355da684a0": 1793037347.3813822,
@@ -10124,7 +10116,6 @@
     "60fa3ae2d2a6fff24bc7": 1793275862.9136968,
     "6107f8034eac089b43b5": 1792593343.2741575,
     "6117948263f7a128b003": 1792825836.1051533,
-    "61208303ef9a7aff7422": 1792575340.69644,
     "613432af768b58735723": 1792902945.3486702,
     "6139499eed5716575113": 1792596936.590203,
     "613abd7f581fd9610e20": 1793345738.0367231,
@@ -10284,6 +10275,7 @@
     "650eb9bd275588a637a8": 1793447738.7467837,
     "650fe5c7c1016e5468a7": 1793460056.421515,
     "6511acd7c9cffd6579e9": 1792944643.9018009,
+    "651ab3641fb933c6c8ec": 1793784940.936868,
     "651b7c85822b84adb537": 1793524248.1560216,
     "6521254844558221d991": 1792677344.2544715,
     "6523a9b4794367adb26a": 1792851043.8158033,
@@ -10388,7 +10380,6 @@
     "67a2ce030849e04809dd": 1792902945.348618,
     "67ba2cece24438f5eae9": 1793451339.9051406,
     "67bce783a0c1796dac29": 1793189453.650079,
-    "67c02658557f466e4196": 1792575340.6964495,
     "67cdcc76c0b4727dbafb": 1792944643.901594,
     "67d2fde6048ab1a111f3": 1793632255.670968,
     "67d9908b1e441a58adae": 1792952446.253927,
@@ -11205,7 +11196,6 @@
     "7ed43ad0ea82d8d152e2": 1793691352.937584,
     "7ef01e47625fec4e96a4": 1793162139.6156573,
     "7ef5e9794c07fa8b1df3": 1792902945.3487067,
-    "7ef981981170dcb1db31": 1792575340.696424,
     "7f01bb1d45fa9dabc83d": 1793180143.999338,
     "7f14f16a30726624816f": 1793200248.742783,
     "7f1b7808eab09d2adb3f": 1792761046.5710754,
@@ -11686,7 +11676,6 @@
     "8c42cd82430504bf3dce": 1793705741.3296323,
     "8c44e559a7a68caaefa0": 1792761046.5710833,
     "8c6a3f961d0303c08d5f": 1793522137.6681416,
-    "8c6cc5cb3ce07243aa7f": 1792575340.6964622,
     "8c75baa7c78d630c82d2": 1793338540.9452443,
     "8c79bed7393533817ccd": 1793162139.6156723,
     "8c7c99d9ca54465393d1": 1793452853.029798,
@@ -12054,6 +12043,7 @@
     "95e8a34e89ab1d18769c": 1792589736.0815873,
     "95ed5e0d8ffac0df9c26": 1793001339.3374436,
     "95fb33d9673cc3c554c0": 1793638541.1294768,
+    "95fe39cf782c17735cb2": 1793784940.9368694,
     "960612d44f17d468c738": 1793370943.3488984,
     "9606f87fa8d950ffedce": 1793680545.9042692,
     "960c6357499bb0201ccf": 1792577442.70001,
@@ -12303,7 +12293,6 @@
     "9c24fe13d611f2dd59ff": 1793115342.1667252,
     "9c294cecadb77e66e74d": 1793211684.7427084,
     "9c353d0372729a58221c": 1792812941.907915,
-    "9c37f913d36a6eb084cb": 1792575340.696434,
     "9c568986241c2685aec3": 1793536539.3632467,
     "9c576aa58f2d1c842513": 1793633744.7891893,
     "9c5a1c29d971f0fa4360": 1792616142.7577395,
@@ -12338,6 +12327,7 @@
     "9d465f15d992db550e32": 1793472936.784727,
     "9d46b1020a456233a19e": 1792668941.4188309,
     "9d4780986f876c67fa00": 1793284544.8767211,
+    "9d499cd1e51a719b910b": 1793784940.936865,
     "9d4ed66231417130530e": 1792905051.8247056,
     "9d50dd943af310145f7e": 1792767337.7960243,
     "9d5914ec4d2ab2417507": 1793694055.3742802,
@@ -12649,7 +12639,6 @@
     "a4fa599f85204b9a5689": 1793531448.3742812,
     "a506ebde81cfa3c508b2": 1792818645.5270545,
     "a50bbfc10b963377062d": 1792859776.2094204,
-    "a50cd7b79e41121381c5": 1792575340.6964552,
     "a511b56ce7e8d09840bd": 1793368537.6338882,
     "a512205b25db0158634f": 1792851043.8157902,
     "a518d23b323ec7c994b4": 1793447738.7467873,
@@ -12731,6 +12720,7 @@
     "a724f5228c1617a78257": 1793770546.2001355,
     "a736529fc7154b4f66d5": 1793625051.442682,
     "a7494f366e8e31edaa63": 1793182254.6547663,
+    "a74f04d11e14e574c697": 1793784940.9368596,
     "a74f7ba2ad0c909a37ea": 1792866935.8172338,
     "a7539b07ba4d284c03a0": 1793766940.0517275,
     "a7586a662d126d1d775b": 1793272248.547566,
@@ -13277,7 +13267,6 @@
     "b59fbe4ab4181f5f9a1e": 1792998309.3484006,
     "b5a3c37d7d2762d8fd8c": 1793714149.6842132,
     "b5ac94ce2c33754862c6": 1792758944.955144,
-    "b5af573446e239ecc99c": 1792575340.6964598,
     "b5b35b08bf4826a0cd55": 1792933844.3296926,
     "b5b7140d189b3c2cf14a": 1792861850.8460789,
     "b5b9a47b72ab81e3fa6d": 1792931738.2647524,
@@ -13297,6 +13286,7 @@
     "b6198fdf870a802e88d8": 1792836641.804148,
     "b61a88e0f5754e29e657": 1793106648.5203872,
     "b6237c98e2acbed79bd8": 1793188545.8502047,
+    "b6260813b3984892136d": 1793784940.936855,
     "b6276520404917746dbb": 1793766940.0517557,
     "b63bd831ce656e56d361": 1793183741.6277182,
     "b647003aa817d14a57ff": 1792843459.712505,
@@ -13361,7 +13351,6 @@
     "b81c8a41bbb12ba5f366": 1793633744.7892003,
     "b82515a62cd23451b70f": 1793354157.141243,
     "b82f6cdbf779fd2102c2": 1793035252.18693,
-    "b8373d699bbb52252376": 1792575340.6964607,
     "b83f138040471355c2cc": 1793616951.9022498,
     "b841392a0f3f90b7d79f": 1793010945.3995404,
     "b844cfc53886a1996ef4": 1793643648.2177856,
@@ -13433,7 +13422,6 @@
     "ba426508e51f4a98ae9c": 1793165744.3262334,
     "ba426d600944fb622ce1": 1792767337.7960024,
     "ba44f9aea73e2001f307": 1793258444.8606298,
-    "ba4cedbed2550cf1a7ca": 1792575340.696467,
     "ba62440b69f343fbacec": 1793268648.2213032,
     "ba6a2682dd1889d242cd": 1793440538.4688504,
     "ba6e961a108f710db3d4": 1793444143.4408493,
@@ -13960,7 +13948,6 @@
     "c8dce250fee0a397dc9f": 1793081447.136705,
     "c8de3476a820a3205a62": 1792744541.7762108,
     "c8e33f85615d165d00cc": 1792748140.9735663,
-    "c8eeead18d883af74a9b": 1792575340.6964693,
     "c8ff47f1fd4879c3f954": 1793349340.1956487,
     "c916cb9fd2b415bc079a": 1793706950.6338463,
     "c926c533f572b7b808ed": 1793436938.2136824,
@@ -14458,9 +14445,7 @@
     "d55c615b7b77f501120e": 1792696843.1308367,
     "d55d5d03f5a9b42af161": 1792937449.8905518,
     "d56d6c12ca93510da61f": 1792917339.3606336,
-    "d57ffa34f3308b112b6d": 1792575340.6964352,
     "d580573d554531dce97a": 1793619340.2950351,
-    "d5846d989b964d20d575": 1792575340.6964748,
     "d596c124754634cc3245": 1793375738.9928737,
     "d59a5f45b4f10e1dfc71": 1793018143.1999328,
     "d59b53f82b1907c2614f": 1793739354.946399,
@@ -14574,6 +14559,7 @@
     "d8166665ec5c16f2d98a": 1793426206.1012895,
     "d81ab838c3992996d942": 1793427651.4708602,
     "d83518596f292af2f0bb": 1793531448.3742936,
+    "d83f6939b3e758d87039": 1793784940.936871,
     "d8466abbc97111bcda52": 1793042444.9260912,
     "d846e259b17accb1d238": 1793565343.4622536,
     "d8485cfec23357f54222": 1792919439.8209167,
@@ -14714,7 +14700,6 @@
     "db4f805c5b1576ee0318": 1792665342.7835407,
     "db53ed2a24081c57fe82": 1792762537.441182,
     "db54deb1b2b2b6623149": 1793694055.374282,
-    "db583229f4fee66e7c48": 1792575340.6964366,
     "db5b90c3005ce18d459d": 1792612569.4436607,
     "db63d910652aff03e27f": 1792998309.3483953,
     "db64d459eba3f1e75f26": 1793632255.6709752,
@@ -14787,13 +14772,11 @@
     "dd5fdd01a3aaf2d7bc98": 1793347853.4882796,
     "dd639dd4dad943653ea5": 1793113852.0901117,
     "dd66ad59118364590976": 1792902945.3486645,
-    "dd6b3c5c60b9c59e3ae1": 1792575340.6964707,
     "dd6b3fda433026078455": 1793079347.8202305,
     "dd761f16e11d329e9872": 1792660242.5224526,
     "dd839e3b906f2cbb516f": 1793283077.7884867,
     "dd94ee635e45451f1ac0": 1793733666.2241042,
     "dd9660291bf14842b7d3": 1793784059.6759887,
-    "dd993cb090566c3b0b08": 1792575340.696468,
     "ddab4a042c71770d8d64": 1793081447.1367095,
     "ddabe9648a8478b86d33": 1793031048.320104,
     "ddb20f2956e2f4322fef": 1792785346.0451064,
@@ -14993,6 +14976,7 @@
     "e28c3fd288a3cbccd227": 1792748140.9735603,
     "e29be1e7ba8aef03acef": 1793256937.7383845,
     "e2a0de22a6f85677c37d": 1793689848.10246,
+    "e2a9ac606d26d699dfe3": 1793784940.9368753,
     "e2acaa367c9978b45300": 1793426206.1012957,
     "e2b10803cc5af0c031de": 1793615742.450402,
     "e2b24c4fe6c847ac5fba": 1793368537.6338837,
@@ -15040,7 +15024,6 @@
     "e3d83fb3984f09b0eb5b": 1792870537.4796493,
     "e3da49d5ac495a624efb": 1793536539.3632536,
     "e3e463a58b4f270f02cc": 1793345738.036905,
-    "e3e9d3db7a51440d9938": 1792575340.6964183,
     "e3ed6092a0ffa29aa7cc": 1792924540.3113446,
     "e3f1626a3872d195602d": 1793456445.7431326,
     "e401d7c689f497a61440": 1792933844.32965,
@@ -15298,7 +15281,6 @@
     "ea8307d410326e049aa8": 1792686054.1537075,
     "ea86c4ab287ba58d08d9": 1792924540.3113537,
     "ea9c07a168a51ae28901": 1792902945.3486133,
-    "ea9fc642dddd25cebd6c": 1792575340.6964414,
     "eaaa933fdd3f0c795472": 1793456445.7429488,
     "eab1b0784bec704796f5": 1793770546.2001503,
     "ead78e55676f20cf2893": 1793520650.7024539,
@@ -15329,7 +15311,6 @@
     "eb82fde4b7410f819c28": 1793774144.9827693,
     "eb8944212e992c056bac": 1793696145.9020293,
     "eb8c19a20525ccec1cf1": 1793079347.8202274,
-    "eb9017ff53b4796be0b7": 1792575340.6964436,
     "eb904a10d1bfbd6266d2": 1793614247.7147772,
     "eb93af065ea805d61022": 1793608566.9684477,
     "eba02faa8ed3369c96bb": 1793189453.6500657,
@@ -15453,9 +15434,7 @@
     "eeb3ecc470ec42445068": 1793630155.4643228,
     "eeb90abd08e59a46c07c": 1793113852.0901058,
     "eec3cc7fc9ce6f21ba92": 1793379348.7075365,
-    "eec842e078abeeb52ec2": 1792575340.6964478,
     "eed2b4fc2da34710c7d6": 1793248547.100197,
-    "eed93b31f10cc5248215": 1792575340.696428,
     "eedc75b0c3bf2754cedb": 1793255550.6618388,
     "eedd31f70e18b69950c0": 1793680545.9042652,
     "eededb1a9acafec34f18": 1793184939.4166117,
@@ -15492,7 +15471,6 @@
     "efb9bf2c6c3699155fdc": 1793342141.7054257,
     "efcc6a2cbbb7be0c6944": 1793626542.552733,
     "efdaad2f4a4b2acdd624": 1793376647.2548387,
-    "efdfd1c04ca713fe18db": 1792575340.696458,
     "efe07755798844dd3655": 1793021741.6957397,
     "efeacfd6f7dcf63a4213": 1792785346.0451012,
     "efef04ecea209627f77e": 1792920942.5134482,
@@ -15566,7 +15544,6 @@
     "f208fb41a00e0feb52b3": 1793368537.6338859,
     "f21daeb687759d00c343": 1793513450.760532,
     "f2217e5dac2d8b0dcf53": 1792902945.3486311,
-    "f236bd4502f5b4007dcf": 1792575340.696452,
     "f242c75130c5e9017dc6": 1792910144.4474556,
     "f264a66e691c06bc3f17": 1793597741.199383,
     "f267c43d555ad69bdead": 1793545846.3218796,
@@ -16112,66 +16089,58 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1793784059.6758182
+      "ts": 1793784940.9368312
     }
   },
   "sport_recent": [
-    {
-      "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNGpDWnkxMU1BS1NyUzJZMVJvRmZGN3NRVEJZZGc3VWZTVmJaMy1lMFlnVzhpazRQQi0tRTVNdC1CME4zV19jUXBaMVBqekJVSXd4X2V2dFI2RzVtZGJnajBTYW85QmloWFdBYVA0YlZ4cklwUzluVlk4Um1Vc3ppWkowRFhOQQ?oc=5",
-      "p": "Szabová po debute v UFC: Nikdy nie som spokojná s víťazstvom na body. Chcem súperky ukončovať Sportnet",
-      "s": "SPORTNET",
-      "t": "Szabová po debute v UFC: Nikdy nie som spokojná s víťazstvom na body. Chcem súperky ukončovať",
-      "ts": 1793698538.9923987,
-      "u": "f53ed7182480a69d86b5"
-    },
     {
       "l": "https://sport.aktuality.sk/hokej/clanok/pavol-regenda-prehovoril-o-odchode-z-nhl-trochu-ma-to-trapi-2026110309310465288",
       "p": "Po piatich rokoch v zámorí sa Pavol Regenda vrátil do Európy a zahrá si tak v národnom drese aj počas prípravy. Hlavný tréner Vladimír Országh ho nominoval na Nemecký pohár a Regenda na pondelňajšom zraze predstúpil pred novinárov.",
@@ -17979,6 +17948,22 @@
       "t": "Štartuje 37. ročník Nemeckého pohára, obhajujú domáci",
       "ts": 1793784059.6759913,
       "u": "43a2337a8d5149721ef6"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/zomrel-viliam-racek-hovorca-sfz-novinar-2026110409342712899",
+      "p": "Vo veku 71 rokov zomrel v pondelok 2. novembra bývalý hovorca Slovenského futbalového zväzu (SFZ) Viliam Raček. Informáciu o jeho úmrtí potvrdila SFZ jeho rodina.",
+      "s": "Šport.sk",
+      "t": "Slovenský futbal v hlbokom smútku. Zomrel rešpektovaný novinár a bývalý hovorca SFZ",
+      "ts": 1793784940.9368768,
+      "u": "e2a9ac606d26d699dfe3"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/bayern-prisiel-do-madridu-bez-trenera-aj-marodov-slovenska-opora-musela-stravit-trpku-prehru-2026110409214260741",
+      "p": "V utorkovom súboji dvoch semifinalistov uplynulej sezóny Ligy majstrov medzi Bayernom Mníchov a Atleticom Madrid mal pomerne jednoznačne navrch bavorský klub.",
+      "s": "Šport.sk",
+      "t": "Bayern prišiel do Madridu bez trénera aj maródov. Slovenská opora musela stráviť trpkú prehru",
+      "ts": 1793784940.9368792,
+      "u": "0d2b8f73463a650e8f33"
     }
   ],
   "sport_source_status": {
@@ -17986,25 +17971,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1793784059.6758373
+      "ts": 1793784940.936848
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1793784059.67584
+      "ts": 1793784940.93685
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1793784059.6758428
+      "ts": 1793784940.9368525
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1793784059.6758416
+      "ts": 1793784940.9368515
     }
   }
 }
