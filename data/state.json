@@ -99,100 +99,128 @@
     {
       "headline": "Vražda Japonky na Okinave vyvolala odpor voči americkej armáde",
       "ts": 1794239837.959264
+    },
+    {
+      "headline": "Žilinka aj Taraba kritizujú novelu o kajúcnikoch, koalícia čelí pochybnostiam",
+      "ts": 1794243421.9366114
+    },
+    {
+      "headline": "Bratislava zavedie mimoriadne obmedzenia, Trenčín vyhlásil mimoriadnu situáciu",
+      "ts": 1794243421.9366114
+    },
+    {
+      "headline": "Brat maďarského expremiéra Viktora Orbána bol zadržaný pre obchodovanie s ľuďmi",
+      "ts": 1794243421.9366114
+    },
+    {
+      "headline": "Šéf Nvidie čelí škandálu pre vzťah so ženou podozrivou z čínskej špionáže",
+      "ts": 1794243421.9366114
+    },
+    {
+      "headline": "Svetové meteorologické organizácie varujú pred extrémnym teplom vplyvom El Niño",
+      "ts": 1794243421.9366114
+    },
+    {
+      "headline": "Pri požiari v košickej výrobnej hale museli evakuovať desiatky zamestnancov",
+      "ts": 1794243421.9366114
     }
   ],
   "last_digest": {
-    "model": "gemini/gemini-3.1-flash-lite",
+    "model": "gemini/gemini-3.5-flash",
     "topics": [
       {
-        "headline": "Česko posilňuje obranu kritickej infraštruktúry pred dronmi",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/5QVSzHx/cesko-schvalilo-navrh-na-obranu-proti-dronom-krajina-zavedie-ochranne-zony-nad-elektrarnami-a-dopravnymi-uzlami/"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/ceska-vlada-schvalila-navrh-na-obranu-infrastruktury-proti-dronom?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "Vláda v Prahe schválila legislatívne zmeny, ktoré umožnia polícii a prevádzkovateľom elektrární účinnejšie eliminovať drony v ochranných zónach. Opatrenie reaguje na zhoršenú bezpečnostnú situáciu v Európe a potrebu chrániť kľúčové energetické uzly."
-      },
-      {
-        "headline": "Tragický koniec policajnej naháňačky na Orave",
+        "headline": "Žilinka aj Taraba kritizujú novelu o kajúcnikoch, koalícia čelí pochybnostiam",
         "links": [
           [
             "Pravda",
-            "https://www.pravda.sk/spravy/regiony/clanok/2075333-mladik-z-oravy-unikal-policajtom-cestou-vraj-zjedol-vsetky-drogy-co-mal-pri-sebe-a-na-druhy-den-zomrel?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+            "https://www.pravda.sk/spravy/domace/clanok/2075119-maros-zilinka-prokuratura-kajucnici-vysetrovanie-ustava-novela-trestny-zakon?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/taraba-ak-koalicia-hlasovanie-o-kajucnikoch-neodlozi-zahlasujeme-proti?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Generálny prokurátor Maroš Žilinka vyjadril vážne pochybnosti o ústavnosti pripravovanej novely Trestného poriadku upravujúcej spolupracujúcich obvinených. Životné prostredie a poslanci okolo Tomáša Tarabu avizujú, že ak sa hlasovanie neodloží, návrh nepodporia."
+      },
+      {
+        "headline": "Bratislava zavedie mimoriadne obmedzenia, Trenčín vyhlásil mimoriadnu situáciu",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/domace/clanok/2075199-nebezpecenstvo-pod-trencianskym-hradom-z-hradneho-brala-padaju-skaly-primator-vyhlasil-mimoriadnu-situaciu?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ],
+          [
+            "SME",
+            "https://www.sme.sk/domov/c/razusovo-nabrezie-v-bratislave-v-utorok-docasne-uzavru-pre-zasadnutie-vlad?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ]
+        ],
+        "perex": "Mesto Trenčín vyhlásilo mimoriadnu situáciu z dôvodu nebezpečne padajúcich skál z hradného brala a múrov hradu. V hlavnom meste zasa v utorok dočasne uzavrú Rázusovo nábrežie kvôli zasadnutiu vlád."
+      },
+      {
+        "headline": "Brat maďarského expremiéra Viktora Orbána bol zadržaný pre obchodovanie s ľuďmi",
+        "links": [
+          [
+            "Noviny.sk",
+            "https://www.noviny.sk/zahranicie/1284329-v-madarsku-mali-zadrzat-brata-viktora-orbana-policia-vysetruje-obchodovanie-s-ludmi"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/OtR3x08/v-madarsku-mali-zadrzat-brata-viktora-orbana-expremier-reaguje-cielom-som-ja-brat-je-len-nastroj/"
+          ]
+        ],
+        "perex": "Maďarské úrady zadržali Árona Orbána v súvislosti s podozrením z vybavovania víz a prevádzačstva. Bývalý premiér považuje kroky polície za spolitizovaný útok smerovaný priamo na jeho osobu."
+      },
+      {
+        "headline": "Šéf Nvidie čelí škandálu pre vzťah so ženou podozrivou z čínskej špionáže",
+        "links": [
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/thfO334/cina-poprela-ze-zena-spajana-so-sefom-nvidie-bola-jej-spionkou/"
+          ],
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/ekonomika/clanok/2075241-nevera-ho-vysla-na-200-miliard-dolarov-podviedol-sef-nvidie-manzelku-s-cinskou-spionkou?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
+          ]
+        ],
+        "perex": "Výrobca čipov Nvidia čelí prepadu akcií a preveruje intímny vzťah svojho šéfa Jensena Huanga s čínskou podnikateľkou. Peking akékoľvek obvinenia zo spravodajskej operácie rázne odmíeta."
+      },
+      {
+        "headline": "Svetové meteorologické organizácie varujú pred extrémnym teplom vplyvom El Niño",
+        "links": [
+          [
+            "SME",
+            "https://www.sme.sk/svet/c/el-nino-prinesie-este-vacsie-teplo-a-extremne-prejavy-pocasia?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
+          ],
+          [
+            "Aktuality",
+            "https://www.aktuality.sk/clanok/7ayCGDz/wmo-varuje-pred-dalsim-rekordnym-rokom-silny-el-nino-prinesie-extremne-pocasie-aj-v-roku-2027/"
+          ]
+        ],
+        "perex": "Prírodný jev El Niño opäť prinesie celosvetový nárast teplôt a extrémne výkyvy počasia. Rozsah morského ľadu v tohto roku dosiahol najnižšie ročné maximum v histórii sledovaní."
+      },
+      {
+        "headline": "Pri požiari v košickej výrobnej hale museli evakuovať desiatky zamestnancov",
+        "links": [
+          [
+            "Pravda",
+            "https://www.pravda.sk/spravy/regiony/clanok/2075151-dramaticky-zasah-v-kosiciach-vo-vyrobnej-hale-vypukol-poziar-hasici-su-na-mieste?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
           ],
           [
             "Noviny.sk",
-            "https://www.noviny.sk/krimi/1284510-policajna-nahanacka-na-orave-sa-skoncila-tragicky-vodic-30-po-zasahu-zomrel-v-nemocnici"
+            "https://www.noviny.sk/krimi/1284373-poziar-vo-vyrobnej-hale-v-kosiciach-evakuovali-60-zamestnancov"
           ]
         ],
-        "perex": "Vodič osobného auta, ktorého prenasledovala policajná hliadka v obci Zákamenné, po zásahu zomrel v nemocnici. Podľa medializovaných informácií mal muž počas úteku užiť väčšie množstvo drog."
-      },
-      {
-        "headline": "Slovensko v rebríčku daňovej konkurencieschopnosti predbehlo USA aj Nemecko",
-        "links": [
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/ekonomika/clanok/2075183-slovensko-predbehlo-v-danovej-konkurencieschopnosti-usa-aj-nemecko-v-rebricku-skoncilo-na-12-mieste?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/index/c/slovensko-je-v-hornej-tretine-rebricka-danovej-konkurencieschopnosti-oecd?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "V medzinárodnom hodnotení International Tax Competitiveness Index 2026 obsadilo Slovensko 12. miesto z 38 krajín OECD. Krajina sa tak zaradila do hornej tretiny rebríčka, čím prekonala viaceré vyspelé ekonomiky."
-      },
-      {
-        "headline": "Britský komik Russell Brand bol odsúdený za znásilnenie",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/wR8TOrZ/komik-russell-brand-ide-za-mreze-na-desat-a-pol-roka-britsky-sud-ho-odsudil-za-znasilnenie-a-sexualne-napadnutia/"
-          ],
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/britskeho-komika-branda-odsudili-na-10-a-pol-roka-za-znasilnenie-a-sexualne-napadnutie?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ]
-        ],
-        "perex": "Súd v Británii vymeral známemu moderátorovi a komikovi trest odňatia slobody na desať a pol roka. Brand bol uznaný vinným zo spáchania znásilnenia a ďalších sexuálnych napadnutí."
-      },
-      {
-        "headline": "Kanada zavádza nové sankcie voči ruskému obrannému priemyslu",
-        "links": [
-          [
-            "Aktuality",
-            "https://www.aktuality.sk/clanok/5JMg31c/kanada-uvalila-nove-sankcie-na-rusko-na-zoznam-pribudlo-62-subjektov-a-osob-z-obranneho-priemyslu-a-raketoveho-vyvoja/"
-          ]
-        ],
-        "perex": "Ottawa rozšírila svoje sankčné zoznamy o 62 ruských subjektov a osôb napojených na vývoj balistických technológií. Krok prichádza v rámci stupňujúceho sa tlaku západných krajín na Kremeľ."
-      },
-      {
-        "headline": "Vražda Japonky na Okinave vyvolala odpor voči americkej armáde",
-        "links": [
-          [
-            "SME",
-            "https://www.sme.sk/svet/c/vrazda-japonky-vyvolala-tlak-na-zmenu-dohody-o-americkych-vojakoch-na-okinave?utm_source=rss&utm_medium=feed&utm_campaign=www-rss"
-          ],
-          [
-            "Pravda",
-            "https://www.pravda.sk/spravy/svet/clanok/2075243-vrazda-japonky-vyvolala-poburenie-okinava-ziada-zasadnu-zmenu-pravidiel-pre-americkych-vojakov?utm_source=pravda&utm_medium=rss&utm_campaign=rss"
-          ]
-        ],
-        "perex": "Z vraždy mladej ženy v hoteli je podozrivý vojak americkej námornej pechoty, čo viedlo k masovým protestom. Guvernér Okinavy žiada zásadnú revíziu dohody, ktorá podľa kritikov neprimerane zvýhodňuje amerických vojakov."
+        "perex": "V priemyselnom objekte na ulici Pri Krásnej v Košiciach vypukol požiar technologického zariadenia. Hasiči na mieste zasahovali a z priestorov haly bezpečene evakuovali 60 pracovníkov."
       }
     ],
-    "ts": 1794239837.9592512
+    "ts": 1794243421.9366012
   },
   "meta": {
-    "last_collection_ts": 1794242146.8195705,
+    "last_collection_ts": 1794243342.386974,
     "last_feed_error_ts": 1794226256.9929543,
     "last_llm_error_ts": 1794225535.3849995,
-    "last_run_ts": 1794242147.44256,
-    "last_synthesis_ts": 1794239837.9592464
+    "last_run_ts": 1794243343.0040932,
+    "last_synthesis_ts": 1794243421.9365966
   },
   "recent": [
     {
@@ -4469,6 +4497,87 @@
       "t": "Policajt z Krakova sa prebral z umelého spánku. Jeho prvé slová po náročnej operácii dojali Poľsko",
       "ts": 1794242147.441881,
       "u": "c49cbc462fdcbf5c4f74"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/pokrok-krajiny-sa-meria-aj-tym-ako-sa-vie-postarat-o-najslabsich-obcanov-uviedol-papez?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Pápež vyzdvihol aj hodnoty dôstojnosti, inklúzie a bratského priateľstva.",
+      "pub": 1794242650,
+      "s": "SME",
+      "t": "Pokrok krajiny sa meria aj tým, ako sa vie postarať o najslabších občanov, uviedol v Argentíne pápež",
+      "ts": 1794243343.0037022,
+      "u": "3f5cfb2c737393ffd146"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/pomahal-brat-velkeho-migrantobijca-orbana-importovat-migrantov?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Deviaty november bol zlý deň pre Orbána",
+      "pub": 1794242623,
+      "s": "SME",
+      "t": "Pomáhal brat veľkého migrantobijca Orbána importovať migrantov?",
+      "ts": 1794243343.003705,
+      "u": "afe44177effca18ac076"
+    },
+    {
+      "l": "https://www.sme.sk/komentare/c/fico-si-potrebuje-utriet-topanky?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "V takej situácii aj ústave vyzerá ako rohožka.",
+      "pub": 1794242203,
+      "s": "SME",
+      "t": "Fico si potrebuje utrieť topánky",
+      "ts": 1794243343.0037067,
+      "u": "d4c2ce6e9926daf29808"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2075433-putinova-armada-utrpela-najkrvavejsi-den-vojny-tvrdi-kyjev-ruske-straty-prekonali-vsetky-rekordy?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Ruské vojská bojujúce proti Ukrajine utrpeli v nedeľu rekordné straty za celé obdobie vojny, ktorú Moskva rozpútala pred takmer piatimi rokmi. Počas jediného dňa prišla ruská armáda o 2980 vojakov, uviedol v pondelok ukrajinský generálny štáb, ktorý do tohto počtu zahrnul zabitých a ťažko zranených.",
+      "pub": 1794242758,
+      "s": "Pravda",
+      "t": "Putinova armáda utrpela najkrvavejší deň vojny, tvrdí Kyjev. Ruské straty prekonali všetky rekordy",
+      "ts": 1794243343.0037086,
+      "u": "8f457337dcc241b0c04e"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/svet/clanok/2075425-francuzsko-obvinilo-iran-z-kybernetickych-utokov-pariz-hrozi-tvrdou-odvetou-terc-hackerov-je-poriadne-necakany?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Francúzska prokuratúra začala vyšetrovanie iránskej kybernetickej jednotky, ktorú Paríž viní z októbrových útokov na chladiace zariadenie v supermarketoch. Francúzsky minister zahraničia Jean-Noël Barrot dnes vyhlásil, že za útokmi stoja iránske revolučné gardy a že Irán za ne ponesie následky. Fran",
+      "pub": 1794242700,
+      "s": "Pravda",
+      "t": "Francúzsko obvinilo Irán z kybernetických útokov. Paríž hrozí tvrdou odvetou, terč hackerov je poriadne nečakaný",
+      "ts": 1794243343.0037103,
+      "u": "a6c2c28d2df712ff6694"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQblp5OXFhQmtKWkdBV0ZyZFJ1U0pwWTJTUTh6UzZ3aFF4NHlxbnMycWVfZnJVUmV2UktfSXlVWFhlc1NsUVFocHdLMFY2SEVjQ2g3bW9iWG52U2V4UlIyR0UzbXBPdzZsRGEtUFhqVThSdUtYTjF1dHprS2hVNUdkQlQwNVpCTlphcGhMMFhncnc3RklIRnlMWThJSkhfVUlmS2J6V1M1Zjgyc1dIU3djc0JtTnJ4M2tOb1FjWWhmbkJ5c2IzUFR2TXlfTk9lWUk?oc=5",
+      "p": "Bezplatné cesty vlakom aj kratšia čakacia doba v nemocniciach. Vojaci a ich rodiny dostanú nové benefity tnlive.sk",
+      "pub": 1794230984,
+      "s": "TN Live",
+      "t": "Bezplatné cesty vlakom aj kratšia čakacia doba v nemocniciach. Vojaci a ich rodiny dostanú nové benefity",
+      "ts": 1794243343.0037117,
+      "u": "1f4f0e63bf5e130238ba"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01RlQ3TDg0Nk1vbV8xWk1kMlBvZnhCQmNLRTJROW1jX3hGbkxpMEM0TGpWSTBtRV9XRS1YLXVLbVRSQ2xHQkZ4ZlplN1Q?oc=5",
+      "p": "tnlive.sk tnlive.sk",
+      "pub": 1782385774,
+      "s": "TN Live",
+      "t": "tnlive.sk",
+      "ts": 1794243343.0037131,
+      "u": "e76fb94de56f6d98bdb0"
+    },
+    {
+      "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSjhvMGdVRlBLanNZZkg5X1Q3OHJxdGxqMml1cUEwNkJnZVZhR3V5U2VsQnBTeThqZW9FbFphNEQtMlZ2RlpWZXVPVkFnQU01TndIRzE2TDBFYVdlcnIzeHRpRGFGS3EyWWMyd0xkaGV3MmFaZ0NsckVSaTBzZzJWd3FEZ3ZvRFpBY285eUFqVG9PM2VncnhRT0xBMEJ0RmdCa3h3?oc=5",
+      "p": "Prešov posilňuje bezpečnosť škôl. Učitelia sa naučia zvládať konflikty tnlive.sk",
+      "pub": 1794236261,
+      "s": "TN Live",
+      "t": "Prešov posilňuje bezpečnosť škôl. Učitelia sa naučia zvládať konflikty",
+      "ts": 1794243343.0037143,
+      "u": "d535e98a8515382c8c6c"
+    },
+    {
+      "l": "https://www.noviny.sk/zahranicie/1284593-znamy-mobilny-operator-zrusi-v-europe-priblizne-2300-pracovnych-miest",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Známy mobilný operátor zruší v Európe približne 2300 pracovných miest",
+      "ts": 1794243343.0037153,
+      "u": "8f2c28ec1297ad93a20f"
     }
   ],
   "recent_alerts": [
@@ -6246,7 +6355,6 @@
     "1724478b925950638e71": 1793705741.3296292,
     "1726aca306cd12c4bd08": 1793902855.155206,
     "1728fde86bea8260d41b": 1793721344.7678769,
-    "172e0c4a02bc117d1515": 1793033748.3483098,
     "17379c739a9ccb0933b4": 1793628648.1860094,
     "173bc2a247e0c0e37da5": 1793250649.1198897,
     "173c116ecbfa75bbd28b": 1793831741.7907376,
@@ -6557,7 +6665,7 @@
     "1f2d81beaaf6b271fc25": 1793303737.4584122,
     "1f310192917747c9451b": 1793810145.1009777,
     "1f415637d8801198f48c": 1793189453.650075,
-    "1f51875428d987273ada": 1793033748.3481417,
+    "1f4f0e63bf5e130238ba": 1794243343.0037105,
     "1f5441a06a39093792d7": 1793951739.1364162,
     "1f54783089acbb38f2f2": 1793693446.3707197,
     "1f64a0cebf96d9bb5ba3": 1793109345.1644127,
@@ -6936,6 +7044,7 @@
     "298e20340cee83ccf7cc": 1793291741.5115278,
     "299390a504fee40ccbc7": 1793201740.5008934,
     "29a15bdc62b9bbd62f28": 1793902855.1550264,
+    "29b63b18b22d675a61f7": 1794243343.0037167,
     "29b8b379e93c1454800b": 1793162139.6156735,
     "29bd2e052f75c622ccd1": 1794198945.3946977,
     "29c6efb44eec6b90a17e": 1793963457.0719922,
@@ -7746,6 +7855,7 @@
     "3f439fac83e427a48a1d": 1793434853.9082985,
     "3f4c4365e3bf64182eb4": 1793649342.4352336,
     "3f5a3298e20a114cd9b1": 1793697046.6554215,
+    "3f5cfb2c737393ffd146": 1794243343.0036976,
     "3f68ec6d60943f4311b1": 1793728547.3691816,
     "3f6bfb7decc21717fe1c": 1793895656.6932049,
     "3f8e12da50f5bc0cda9c": 1793201740.5009081,
@@ -9628,7 +9738,6 @@
     "71e459b770dc026b4d45": 1793883344.665174,
     "71eaa08749574a87ba57": 1793723746.319092,
     "71eb7e0551bfde1e0a3a": 1793733666.224103,
-    "71f0c7800713ce5eb790": 1793033748.348136,
     "71f504c60a98644b2a14": 1793876141.6779513,
     "71f5b821acb16511d147": 1793524248.156005,
     "71fed9463a302f5df9d1": 1793819452.9675279,
@@ -9981,7 +10090,6 @@
     "7c31edb4482f9031bcc8": 1793810145.101003,
     "7c37a3df5b639cd18a75": 1793774144.9827988,
     "7c5df8995411cc8bd926": 1794053454.7630587,
-    "7c5e4e6d63f051ed2172": 1793033748.3483055,
     "7c63cfc0b7b287274bc7": 1793787053.9075015,
     "7c69ec62fbf3ab77cd28": 1793949050.6711352,
     "7c6b7a6e04f4c9ac54c0": 1793962542.833677,
@@ -10639,7 +10747,6 @@
     "8e7347650deccc286e3b": 1794157847.2569377,
     "8e7787cc12a8150d5b07": 1793979346.7636802,
     "8e78a44707d1888b2d83": 1794047744.0752013,
-    "8e7d0538a1023164142a": 1793033748.3483138,
     "8e82cbd277d4fff56f2f": 1793120143.897681,
     "8e882bef01b984c09626": 1793626542.5527344,
     "8e8ea756fabb5899cb49": 1793633744.789186,
@@ -10661,11 +10768,13 @@
     "8f207134db0bcb9c7e7a": 1793177646.3840125,
     "8f22fdbb935b79ddaab1": 1793894145.0596442,
     "8f28b8bf70d4f4dee905": 1793709341.9520667,
+    "8f2c28ec1297ad93a20f": 1794243343.0037148,
     "8f323e54db322a86046d": 1793288142.9090219,
     "8f338688f1e409d06049": 1793388047.782378,
     "8f37456d4b162e94df90": 1793563848.2395723,
     "8f38f1eb20d149f37c64": 1793804139.6547823,
     "8f41fcf2221990b184b2": 1793517045.07866,
+    "8f457337dcc241b0c04e": 1794243343.0037074,
     "8f46882b27414a950b3f": 1793342141.7054198,
     "8f49f68dc68212c4b25c": 1793248547.1001859,
     "8f5744489c5d17a65d74": 1793647251.4721417,
@@ -11566,6 +11675,7 @@
     "a6ab12db165a7bd48105": 1793740862.518736,
     "a6ad5fffe899fe3f728f": 1793099450.7591004,
     "a6c000c5874ab59fde09": 1793198142.1751578,
+    "a6c2c28d2df712ff6694": 1794243343.003709,
     "a6d354931a3079c1b4a2": 1794076546.517314,
     "a6d6c59e6c9ec224ba4c": 1793507740.4638233,
     "a6f286301fcdfc4109ae": 1793906453.2256863,
@@ -11918,6 +12028,7 @@
     "afc523e61c232b7ba83b": 1793480145.0636163,
     "afc938087914b213ca94": 1793820943.6611667,
     "afccb1aaaab6e9fcc0ae": 1793949050.6711116,
+    "afe44177effca18ac076": 1794243343.0037038,
     "afe6e7a8560ca914a62e": 1793334945.7070484,
     "afe849156cdd5af17252": 1793136942.305398,
     "afefd10b593a8fd45b6d": 1793781350.3321865,
@@ -13227,6 +13338,7 @@
     "d4af36815d6c949b3b62": 1793964944.5245183,
     "d4b212e2575276a726d9": 1793696145.902021,
     "d4b420c7c2f6eed7ff69": 1793627744.440824,
+    "d4c2ce6e9926daf29808": 1794243343.0037057,
     "d4c3c7cb39e2689aff72": 1793184939.4166129,
     "d4c80b558b7cec490077": 1794026146.6055472,
     "d4cc5b632a92486f85f1": 1793799346.3692114,
@@ -13246,6 +13358,7 @@
     "d5287edaf7e30a1751a2": 1793543738.6968648,
     "d52912af57d62c84d3a8": 1793167845.8583527,
     "d52bea4d80d0801fbff0": 1793782544.8689718,
+    "d535e98a8515382c8c6c": 1794243343.0037134,
     "d535ed088079c5de97ce": 1793707853.0544002,
     "d53a2aaca47dc68bfec7": 1793117446.8889177,
     "d53a81154e42020fd3c4": 1793777746.241039,
@@ -13899,7 +14012,6 @@
     "e5c628e8cdafd9568da8": 1793524248.156017,
     "e5d3e796581b938765d0": 1794119747.0010793,
     "e5d6adb08794e9bdff47": 1793992852.6861377,
-    "e5d8dfa4d076f1f789c4": 1793033748.348148,
     "e5dc9377350e90249e05": 1794064247.3830268,
     "e5ea143296f8308db220": 1793104540.9514642,
     "e5f19630433cdfd74866": 1793199339.7144854,
@@ -13963,6 +14075,7 @@
     "e75aba9e0a8e34d6465a": 1794121850.0916677,
     "e75be2ff903bdeb64d7a": 1794147056.8727155,
     "e769c861e621e9f2d3b2": 1794125450.4145868,
+    "e76fb94de56f6d98bdb0": 1794243343.0037124,
     "e779201f0bdd10093ae4": 1793799346.3691888,
     "e77c78b84cf3422479e7": 1793959851.1034217,
     "e7838212959459329be6": 1793620541.529028,
@@ -13993,7 +14106,6 @@
     "e8327989cd2cb6de35f2": 1793334945.7070827,
     "e8382397763cbc1b2c52": 1793388047.7823694,
     "e83868d01cff96381950": 1793344251.7060254,
-    "e8442b1d005626343677": 1793033748.3481438,
     "e85624519d02b3dc78bb": 1793215249.2618282,
     "e858efe5b7165b5e45cb": 1793864147.4389644,
     "e85a581b99d9c6105424": 1793258444.8606246,
@@ -14636,6 +14748,7 @@
     "fa95dfa8f6b53a6822fb": 1793205341.578133,
     "fa9711874b8398a6f614": 1793456445.7429385,
     "faa6ba62da811d582973": 1793525739.1461813,
+    "faaa36a16ad54e1f6bdf": 1794243343.003719,
     "fac058ae755a4e9d5618": 1794150651.9772701,
     "fac359016f3a0fab09af": 1793208053.0974402,
     "facb9f1186d827f1e08f": 1793102142.5735767,
@@ -14692,7 +14805,6 @@
     "fbd0bbc22870845476f1": 1793164244.2320871,
     "fbd3331db234a1d062ba": 1793622938.7657611,
     "fbde832ba39cd317dde1": 1794130537.13104,
-    "fbe7dde763a062398e5d": 1793033748.348146,
     "fbfba0423e2fc77475c9": 1793652950.4210522,
     "fbfc6b52ffd7abb7131b": 1793037347.3813772,
     "fbff0f66cbe5cc1e880a": 1793735753.2814252,
@@ -14718,7 +14830,6 @@
     "fc7af803a8be83d056f5": 1793262944.283851,
     "fc8e59c24ab7f8eec6fc": 1793779846.7982492,
     "fc9b6bb4f1f49d7b4f54": 1793782544.8689597,
-    "fc9e3848fed32b36c54b": 1793033748.3483124,
     "fca0ae4371d5847ce430": 1794040543.5448785,
     "fcac0c08b0d27a7b3234": 1793264139.4307227,
     "fcb0ea734c7d4fb68a46": 1793710542.7236946,
@@ -14845,55 +14956,55 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1794242147.4418368
+      "ts": 1794243343.0036724
     }
   },
   "sport_recent": [
@@ -16592,6 +16703,22 @@
       "t": "Slovinská skokanka na lyžiach Ema Klinecová oznámila ukončenie kariéry",
       "ts": 1794242147.441893,
       "u": "5ee5f2bd12b30ae2114b"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/bude-mat-lobotka-noveho-trenera-nazor-de-laurentisa-je-znamy-2026110916333184582",
+      "p": "Prezident Neapola Aurelio De Laurentiis, v ktorom pôsobí slovenský záložník Stanislav Lobotka, naďalej dôveruje trénerovi Massimilianovi Allegrimu a neplánuje ho odvolať z funkcie, uvádza novinár Nicolo Schira.",
+      "s": "Šport.sk",
+      "t": "Bude mať Lobotka nového trénera? Názor De Laurentisa je známy",
+      "ts": 1794243343.0037184,
+      "u": "29b63b18b22d675a61f7"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/kam-si-to-kopol-s-michalom-pancikom-109-epizoda-2026110916384363460",
+      "p": "Fantastický zápas na Žitnom ostrove, predĺženie výsledkového i výkonnostného marazmu úradujúceho majstra Slovenska, ale aj historicky prvé víťazstvo v novom a modernom domove. Aj to prinieslo víkendové dianie v rámci 14. kola Niké ligy, o ktorom sme sa rozprávali v 109. epizóde relácie Kam si to kop",
+      "s": "Šport.sk",
+      "t": "KAM SI TO KOPOL? Čo zvládal Weiss, to nezvláda Touré. Má tréner DAC tabuľku naozaj v...?",
+      "ts": 1794243343.0037208,
+      "u": "faaa36a16ad54e1f6bdf"
     }
   ],
   "sport_source_status": {
@@ -16599,25 +16726,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1794242147.4418542
+      "ts": 1794243343.0036905
     },
     "sportnet_gnews": {
       "error": null,
       "name": "SPORTNET",
       "ok": true,
-      "ts": 1794242147.4418569
+      "ts": 1794243343.003693
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1794242147.4418592
+      "ts": 1794243343.0036957
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1794242147.441858
+      "ts": 1794243343.0036943
     }
   }
 }
