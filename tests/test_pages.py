@@ -14,6 +14,18 @@ from src.pages import (
 
 
 class AlertFlashTests(unittest.TestCase):
+    def test_limits_alerts_and_prioritizes_impact(self):
+        alerts = [
+            {"title": f"Správa {i}", "ts": i, "signals": {}}
+            for i in range(6)
+        ]
+        alerts[0]["signals"] = {"mass_casualty": True}
+        html = _render_alert_flash(alerts)
+        self.assertEqual(html.count('class="flash-item"'), 4)
+        self.assertIn("Správa 0", html)
+        self.assertNotIn("Správa 1", html)
+        self.assertNotIn("Správa 2", html)
+
     def test_alert_is_clickable_with_first_safe_source_link(self):
         html = _render_alert_flash(
             [

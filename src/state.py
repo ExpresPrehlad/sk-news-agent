@@ -178,7 +178,7 @@ class State:
         for a in alerts:
             self.recent_alerts.append(
                 {"title": a.title, "reason": a.reason, "links": a.links,
-                 "model": model, "ts": now}
+                 "model": model, "ts": now, "signals": a.signals}
             )
 
     def recent_alerts_window(self, hours: float) -> list[dict]:

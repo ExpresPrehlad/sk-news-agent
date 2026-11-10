@@ -75,9 +75,18 @@ def _render_alert_item(alert: dict) -> str:
 def _render_alert_flash(alerts: list[dict]) -> str:
     if not alerts:
         return ""
+    def priority(alert):
+        signals = alert.get("signals") or {}
+        weights = {"mass_casualty": 5, "terrorism": 5, "ongoing_danger": 4,
+                   "direct_slovak_relevance": 3, "public_impact": 2,
+                   "strategic_infrastructure": 2, "hazardous_materials": 1,
+                   "public_transport": 1}
+        return (sum(weight for key, weight in weights.items() if signals.get(key) is True),
+                float(alert.get("ts", 0)))
+
     items = "".join(
         _render_alert_item(alert)
-        for alert in alerts
+        for alert in sorted(alerts, key=priority, reverse=True)[:4]
     )
     return (
         f'<section class="wire-flash" aria-labelledby="flash-heading">'

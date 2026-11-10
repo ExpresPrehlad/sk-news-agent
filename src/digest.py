@@ -205,6 +205,8 @@ Pracuj VÝHRADNE s dodanými titulkami a perexmi. Nič si nedomýšľaj. Ak vstu
 nepotvrdzuje širší dosah alebo riziko, nepredpokladaj ho. Ak si nie si istý, tému \
 NEZARAĎ — môže zostať medzi TOP témami.
 
+Vyber najviac 4 najdôležitejšie správy a zoraď ich zostupne podľa významu.
+
 Odpovedz IBA validným JSON bez akéhokoľvek ďalšieho textu, v tvare:
 {"alerts": [{"title": "...", "reason": "jedna veta uvádzajúca konkrétny dosah", \
 "links": ["..."], "signals": {"geography": "slovakia|europe|world|unknown", \
@@ -290,7 +292,7 @@ def triage(
     except (ValueError, json.JSONDecodeError, AttributeError, TypeError) as exc:
         log.warning("Triáž: neparsovateľná odpoveď z %s: %s", model, exc)
         return [], model, False  # surový feed kryje nefunkčný výstup
-    return alerts[:5], model, True
+    return alerts[:4], model, True
 
 
 # ---------------------------------------------------------------------------
