@@ -188,10 +188,10 @@
     "ts": 1794903067.3470168
   },
   "meta": {
-    "last_collection_ts": 1794903048.0345318,
+    "last_collection_ts": 1794903673.581352,
     "last_feed_error_ts": 1794840992.685071,
     "last_llm_error_ts": 1794901112.4122145,
-    "last_run_ts": 1794903048.674067,
+    "last_run_ts": 1794903674.8096738,
     "last_synthesis_ts": 1794903067.347011
   },
   "recent": [
@@ -5351,6 +5351,60 @@
       "t": "JÁGR prehovoril o konci kariéry: Prezradil, kedy sa chce rozlúčiť s fanúšikmi",
       "ts": 1794903048.6735997,
       "u": "e78139d7c7e0a4715097"
+    },
+    {
+      "l": "https://www.sme.sk/svet/c/z-krymskeho-mosta-je-polovica-cestna-cast-sa-po-ukrajinskom-utoku-zrutila?utm_source=rss&utm_medium=feed&utm_campaign=www-rss",
+      "p": "Most je symbolom ruskej okupácie.",
+      "pub": 1794903377,
+      "s": "SME",
+      "t": "Z Krymského mosta je polovica. Cestná časť sa po ukrajinskom útoku zrútila",
+      "ts": 1794903674.8093333,
+      "u": "b5048e6469c116cee62c"
+    },
+    {
+      "l": "https://www.aktuality.sk/clanok/xHerZFJ/slovenski-ubytovatelia-dosiahli-v-tretom-stvrtroku-rekordne-trzby/",
+      "p": "Ubytovacie zariadenia na Slovensku utŕžili v treťom štvrťroku 2026 takmer 256 miliónov eur bez DPH, čo je o 14,5 percenta viac než vlani. Podľa Štatistického úradu SR ide o najvyššiu nominálnu hodnotu od zavedenia súčasnej metodiky v roku 2021.",
+      "pub": 1794903513,
+      "s": "Aktuality",
+      "t": "Slovenskí ubytovatelia dosiahli v treťom štvrťroku rekordné tržby",
+      "ts": 1794903674.8093364,
+      "u": "c819c1fffb51aaf7b2a2"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/inzercia/clanok/2079967-ako-spravne-pouzivat-sneznice-objavujte-krasy-prirody-aj-v-zime?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Snežnice sú praktickým nástrojom pre milovníkov zimnej turistiky a pripínajú sa priamo na turistické topánky. Ich úlohou je rozložiť celkovú hmotnosť na väčšiu plochu, vďaka čomu sa do snehu nepreboríte tak hlboko. Čím je snežnica dlhšia a širšia, tým vyššiu nosnosť má a lepšie vás udrží na povrchu,",
+      "pub": 1794903505,
+      "s": "Pravda",
+      "t": "Ako správne používať snežnice: Objavujte krásy prírody aj v zime",
+      "ts": 1794903674.8093393,
+      "u": "7125d91ff2147b8a63bc"
+    },
+    {
+      "l": "https://www.pravda.sk/spravy/ekonomika/clanok/2079959-slovenske-hotely-a-penziony-hlasia-rekord-turisti-im-nechali-stvrt-miliardy-eur-jeden-region-prevalcoval-ostatne?utm_source=pravda&utm_medium=rss&utm_campaign=rss",
+      "p": "Ubytovatelia na Slovensku zaznamenali v treťom štvrťroku 2026 tržby takmer 256 miliónov eur bez dane z pridanej hodnoty (DPH). Objem tržieb medziročne vzrástol o 14,5 %, čo je viac ako 32 miliónov eur.",
+      "pub": 1794903300,
+      "s": "Pravda",
+      "t": "Slovenské hotely a penzióny hlásia rekord. Turisti im nechali štvrť miliardy eur, jeden región prevalcoval ostatné",
+      "ts": 1794903674.8093407,
+      "u": "f1292d3d5eec427c5b56"
+    },
+    {
+      "l": "https://www.noviny.sk/slovensko/1287938-mimoriadne-na-trati-medzi-zilinou-a-cadcou-je-nahlaseny-vybusny-system",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "MIMORIADNE: Na trati medzi Žilinou a Čadcou je nahlásený výbušný systém",
+      "ts": 1794903674.8093433,
+      "u": "2476a231d641157cbdcb"
+    },
+    {
+      "l": "https://www.noviny.sk/ekonomika/1281499-velke-prepustanie-v-schaeffleri-o-pracu-pridu-aj-stovky-slovakov",
+      "p": "",
+      "pub": null,
+      "s": "Noviny.sk",
+      "t": "Veľké prepúšťanie v Schaeffleri. O prácu prídu aj stovky Slovákov",
+      "ts": 1794903674.809345,
+      "u": "7e60b648ceed084409e4"
     }
   ],
   "recent_alerts": [
@@ -7754,6 +7808,27 @@
       },
       "title": "V Prahe sa zrazili dva vlaky, hlásia desiatky zranených",
       "ts": 1794900951.7725575
+    },
+    {
+      "links": [
+        "https://www.noviny.sk/slovensko/1287938-mimoriadne-na-trati-medzi-zilinou-a-cadcou-je-nahlaseny-vybusny-system"
+      ],
+      "model": "gemini/gemini-3.5-flash-lite",
+      "reason": "Hrozba výbušného systému na významnej železničnej trati priamo ohrozuje verejnú bezpečnosť a dopravu na Slovensku.",
+      "signals": {
+        "direct_slovak_relevance": true,
+        "event_type": "security",
+        "geography": "slovakia",
+        "hazardous_materials": false,
+        "mass_casualty": false,
+        "ongoing_danger": true,
+        "public_impact": true,
+        "public_transport": true,
+        "strategic_infrastructure": true,
+        "terrorism": true
+      },
+      "title": "MIMORIADNE: Na trati medzi Žilinou a Čadcou je nahlásený výbušný systém",
+      "ts": 1794903676.8458297
     }
   ],
   "seen": {
@@ -8716,7 +8791,6 @@
     "1a3258cbcf0cfa30749f": 1794497741.1207502,
     "1a359a72ac282f6c4d69": 1793878543.8095005,
     "1a35ac6b4939c6151376": 1794814546.1174557,
-    "1a365b66ed58badd7b30": 1793694055.3742723,
     "1a3abfc56dc2537aa2e8": 1793804139.6547866,
     "1a3cff616306db05a8a7": 1794408941.2249455,
     "1a3e42aa5b40c4bd3857": 1794477339.2372618,
@@ -8755,7 +8829,6 @@
     "1b09d0bcccf5f48dddb5": 1793895656.6932034,
     "1b0d260a36a5a8107ac8": 1793959851.103418,
     "1b1716390b272f326c55": 1793799346.3691967,
-    "1b18e0a04ccc67393169": 1793694055.3742778,
     "1b1e2608d5b04b538106": 1794234946.7320058,
     "1b30d052fc1be14389fd": 1794228947.2828648,
     "1b32d00c2e5e7cc63b62": 1793808652.8262503,
@@ -9112,6 +9185,7 @@
     "244a24e2488964fe2f5f": 1794831053.573667,
     "244b9672079cc075b8be": 1794821740.319718,
     "246021264f2f28f467d3": 1794550253.046887,
+    "2476a231d641157cbdcb": 1794903674.8093414,
     "247e2ce1677d94cce52f": 1794171346.4783359,
     "24801ee221dca30dbf61": 1794548145.2254105,
     "2483ae76fc3a6cb57e6d": 1794501345.376133,
@@ -10684,6 +10758,7 @@
     "4dac86dec4160ac85419": 1794434147.610766,
     "4db9ae81dcc20ce73af7": 1794890148.0189536,
     "4dc1b8373c262c52d3f7": 1793810145.1009884,
+    "4dc8a6bcd23c985ee936": 1794903674.809346,
     "4de6cf97ff4d51642e1d": 1794242147.4418743,
     "4dec5c673e8efe507312": 1794675343.52852,
     "4df3774bbb81471cf6ea": 1794112542.2702522,
@@ -11145,7 +11220,6 @@
     "5af93e03d67e1447e131": 1793958940.7357004,
     "5b00a40c497b2ecbfa69": 1793696145.902026,
     "5b014132f28969e4de89": 1794299748.3210464,
-    "5b16caeb9b91a555e4bb": 1793694055.3742874,
     "5b193cf0249ac4656eac": 1794225346.726705,
     "5b1b368bb3be4d0745c0": 1794458160.5365164,
     "5b1c2168f7343ecd37a2": 1794903048.673593,
@@ -12009,6 +12083,7 @@
     "711b8e7257f2ce68b5e6": 1794580551.622088,
     "71210ecb299702f2f6d6": 1794071447.4422836,
     "712596a1511e96f97511": 1794676850.0120063,
+    "7125d91ff2147b8a63bc": 1794903674.8093374,
     "7129a5154049496f62dc": 1793711451.942479,
     "713191d52b328b21bad2": 1793705097.5193377,
     "713af10ebaebf06ab7ad": 1794042646.183027,
@@ -12477,6 +12552,7 @@
     "7e4cb8e708466a1a58e5": 1794733851.5623648,
     "7e509d732330b78132f7": 1794378944.918384,
     "7e5a9d50ce7fc47251f7": 1794471055.185715,
+    "7e60b648ceed084409e4": 1794903674.8093443,
     "7e6404dc06a583353ea9": 1794214542.0836773,
     "7e65e2f41f7737728bd1": 1794467448.958662,
     "7e6b4e513d6552ed2076": 1794347745.136493,
@@ -13642,7 +13718,6 @@
     "9d3826b6a3af54fc63ab": 1794499848.3341832,
     "9d3bcc5056cc0c601393": 1794373858.4423814,
     "9d499cd1e51a719b910b": 1793784940.936865,
-    "9d5914ec4d2ab2417507": 1793694055.3742802,
     "9d5b998d67d40efe6d2d": 1794305452.8260577,
     "9d60090e7b324a625d47": 1794165051.6907005,
     "9d60eb22e3424009d4ec": 1794639398.4975216,
@@ -14096,7 +14171,6 @@
     "a9304f77ae229c65eef1": 1794222651.969657,
     "a936cb360c6ceeefb972": 1794900939.0732536,
     "a9440e9dce6338f23d08": 1794856856.0254395,
-    "a947d9c4a7df2289161c": 1793694055.3742895,
     "a960ccbd7f27c91f6fa2": 1793715057.1336205,
     "a96d43be7214a6c7b0a4": 1794479746.317445,
     "a974f3b37baf17af2949": 1794590451.6381822,
@@ -14566,6 +14640,7 @@
     "b4f81c41164aef051bf0": 1793969741.417935,
     "b500fd5ca58d9c7a1d8b": 1794895850.624183,
     "b50390cc927864960859": 1793974259.4868567,
+    "b5048e6469c116cee62c": 1794903674.8093274,
     "b5072f20f27d26825d93": 1794238545.800193,
     "b50d679f358bebccdc91": 1793800543.9701061,
     "b519390e7d543b350c0d": 1794817741.1590784,
@@ -15266,6 +15341,7 @@
     "c801574b81d93ad0725c": 1793889353.1311972,
     "c80ae63b8d46e5d13e1b": 1793721344.7678819,
     "c80ec7b035ff521f2e91": 1794208853.079865,
+    "c819c1fffb51aaf7b2a2": 1794903674.809335,
     "c822b972cd9c972cdc1a": 1794686153.2363045,
     "c82e2fbe60ca2423e125": 1794893756.6914973,
     "c82f4f9097896dd71c8b": 1794496248.4428496,
@@ -15989,7 +16065,6 @@
     "db37640361bd1aed6091": 1794338454.1232953,
     "db406b97228e84db551e": 1793712943.2213895,
     "db4a710b7541cc6f966a": 1793786155.4157708,
-    "db54deb1b2b2b6623149": 1793694055.374282,
     "db55ca163d39e8155c9a": 1793878543.809508,
     "db61370bd876f633f285": 1793877046.982762,
     "db621a03a3d9ea923e03": 1794039050.7362356,
@@ -16813,6 +16888,7 @@
     "f11d93059bdcf1cafce3": 1794404152.000834,
     "f1252c7dcec62e3449a9": 1794860471.5204155,
     "f1292c71a0497674b34e": 1794642941.2342281,
+    "f1292d3d5eec427c5b56": 1794903674.80934,
     "f1314bc737a5967f80c1": 1794838253.387472,
     "f1376433ebf2203da49e": 1793704252.0347896,
     "f1411a01fed4dd4e2cda": 1793705097.519329,
@@ -17348,55 +17424,55 @@
       "error": null,
       "name": "Aktuality",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     },
     "dennikn": {
       "error": null,
       "name": "Denník N",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     },
     "noviny": {
       "error": null,
       "name": "Noviny.sk",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     },
     "pravda": {
       "error": null,
       "name": "Pravda",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     },
     "sme": {
       "error": null,
       "name": "SME",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     },
     "sme_gnews": {
       "error": null,
       "name": "SME (GNews)",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     },
     "ta3": {
       "error": null,
       "name": "TA3",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     },
     "teraz": {
       "error": null,
       "name": "Teraz.sk",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     },
     "tnlive": {
       "error": null,
       "name": "TN Live",
       "ok": true,
-      "ts": 1794903048.6735423
+      "ts": 1794903674.809293
     }
   },
   "sport_recent": [
@@ -18935,6 +19011,14 @@
       "t": "VIDEO: Skvelý 40-bodový finiš. Orlando prekvapilo Boston a zosadilo ho z tróna",
       "ts": 1794903048.6736083,
       "u": "e4b7a0de2e94c95c9daa"
+    },
+    {
+      "l": "https://sport.aktuality.sk/futbal/clanok/kauza-negreira-barcelona-rozhodcovia-korupcia-2026111620081093903",
+      "p": "Vyšetrovanie medializovanej kauzy „Negreira“ sa blíži ku koncu po tom, čo minulý piatok na Prvom vyšetrovacom súde v Barcelone vypovedali bývalý tréner rezervného tímu Barcelony Gerard López a niekdajší delegát tímu Toni Alonso.",
+      "s": "Šport.sk",
+      "t": "Kauza Negreira ide do finále. Prokurátor je presvedčený, že Barcelona podplácala rozhodcov",
+      "ts": 1794903674.809348,
+      "u": "4dc8a6bcd23c985ee936"
     }
   ],
   "sport_source_status": {
@@ -18942,25 +19026,25 @@
       "error": null,
       "name": "Šport.sk",
       "ok": true,
-      "ts": 1794903048.6735604
+      "ts": 1794903674.8093174
     },
     "sportnet_gnews": {
-      "error": null,
+      "error": "HTTP: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Asportnet.sme.sk&hl=sk&gl=SK&ceid=SK%3Ask",
       "name": "SPORTNET",
-      "ok": true,
-      "ts": 1794903048.6735625
+      "ok": false,
+      "ts": 1794903674.8093212
     },
     "teraz_sport": {
       "error": null,
       "name": "TERAZ.SK",
       "ok": true,
-      "ts": 1794903048.6735654
+      "ts": 1794903674.8093245
     },
     "tvnoviny_sport_gnews": {
       "error": null,
       "name": "TVNOVINY.sk",
       "ok": true,
-      "ts": 1794903048.6735642
+      "ts": 1794903674.809323
     }
   }
 }
